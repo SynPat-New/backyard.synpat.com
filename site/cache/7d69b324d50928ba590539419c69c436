@@ -1,0 +1,87 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4499:"<br>Fin de la quatorzaine à l’Ehpad La Riviera de MouginsMelania Trump : même en vacances, elle fait chambre séparée avec Donald Trump !TF1 relance «Une famille en or» avec Camille CombalDécès du philosophe Bernard Stiegler, expert des conséquences sociales du numériqueNaples: le beau geste de Koulibaly et Ghoulam pour un supporter mourantCaroline Flack : Les raisons de son suicide dévoilées, un lynchage médiatique...Vous pouvez acheter l'une des maisons les plus hantées du mondeFoot: tousser de façon délibérée sera passible d'une expulsion, décide l'IfabCoronavirus. Le mariage de Coulibaly Fatoumata Gon, fille du premier ministre Amadou Gon Coulibaly célébré ce samedi livre quelques secrets. <br> <br>Le milieu de terrain ivoirien de 28 ans n’a pas mis du temps pour séduire le public sportif tunisien à travers ses performances remarquables dans le championnat tunisien. <br> <br>Et concernant Fousseny Coulibaly, Maaloul a déclaré: « Bien qu’il ait célébré son mariage il y a deux jours, était à l’heure et a enregistré sa présence aujourd’hui dans la séance d’entraînement. Mais avant de se rendre à l’exposition de Marseille, il est fait chevalier de la Légion d’honneur. Close. <br> <br>Date of birth: Dec 12, 1992: Place of birth: Abidjan : Age: 27: Height: 1,93 m: Citizenship: Cote d'Ivoire : Position: Midfielder - Defensive Midfield <br> <br>(TF1 Séries Films) Benjamin Biolay et Valérie Donzelli, une superbe amitiéUn fugitif arrêté aux États-Unis après 46 ans de cavaleKingsley Coman (Bayern Munich) absent face à ChelseaCovid-19 : quel tissu choisir pour faire son masque maison ?Son nom associé à "voleuse" : l'ex-présidente argentine attaque GoogleCoronavirus : face à la canicule, Véran met en garde contre les ventilateursLaeticia et Jade Hallyday : cette décision cash qui les éloigne un peu plus de Luana BelmondoNagui se moque du physique d'André Manoukian dans Tout le monde veut prendre sa place (VIDEO)Guardiola snobé pour le titre de coach de l’année !Trump interdit les transactions avec ByteDance et Tencent, TikTok se dit "choqué"L'Egypte invite Musk après un tweet sur les pyramides construites par des "extra-terrestres"Coronavirus: Trump juge qu'un vaccin pourrait être produit avant la présidentielle américaineCatherine Deneuve : grosse dispute dans un cinéma... sa fille Chiara Mastroianni balance !En raison de faibles audiences, M6 déprogramme 5 hommes à la maison : voici l'émission qui remplace le dating !Les producteurs de maïs veulent eux aussi une dérogation pour utiliser des néonicotinoïdesPas de contacts entre la Juventus et Jorginho (Chelsea)Beyrouth: L'enquête inclut l'hypothèse d'une intervention extérieure, dit AounL'erreur que l'on fait tous en choisissant les pêchesIls retrouvent le vrai goût du pastis de Saint-Tropez, disparu il y a 70 ansCoronavirus.  <br>First name Fousseny Last name Coulibaly Nationality Côte d'Ivoire Date of birth 10 August 1989 Age 30 Country of birth Côte d'Ivoire Position Midfielder <br> <br>Nous expliquons sur notre chaîne YouTube . <br> <br>1938 : Gbon Coulibaly est fait officier de l’ Étoile noire du Bénin. <br> Que se passe-t-il en Tunisie? <br> <br>مدد اللاعب فوسيني كوليبالي عقده مع الترجي لمدة ثلاث سنوات إضافيةFousseny Coulibaly extended his contract with Esperance for three more yearsFousseny Coulibaly a prolongé son contrat avec l'Espérance pour trois années supplémentairesDevenez fan sur Facebook pour consulter des articles similairesMasque obligatoire dès samedi dans plusieurs quartiers de MarseilleDernière démarque : jusqu’à -70% de remise sur le running chez AlltricksEtats-Unis: Interdire TikTok serait « inconstitutionnel »Covid-19 : pourquoi Olivier Véran déconseille l'usage du ventilateur ?Alerte à la sécheresse dans les Vosges: le déménagement forcé de poissons en manque d'eauCoronavirus. Pis, l'Ivoirien auteur de l'ouverture du score lors de la finale Aller pourrait manquer la finale de la CAF Ligue des champions à rejouer, … Naturalization (or naturalisation) is the legal act or process by which a non-citizen of a country may acquire citizenship or nationality of that country Naturalization is the process by which U.S. citizenship is granted to a foreign citizen or national after he or she fulfills the requirements established by Congress in the Immigration and Nationality Act (INA). <br>";s:7:"keyword";s:26:"fousseny coulibaly mariage";s:5:"links";s:3768:"<a href='https://backyard.synpat.com/site/article.php?page=lens-18-200-nikon-88a0eb'>Lens 18 200 Nikon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-vibrante-4d-bluefin-88a0eb'>Plateforme Vibrante 4d Bluefin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-dcp-l2530dw-logiciel-88a0eb'>Brother Dcp-l2530dw Logiciel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boisson-prise-de-masse-88a0eb'>Boisson Prise De Masse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=milieu-de-terrain-liste-88a0eb'>Milieu De Terrain Liste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alban-greffe-de-cheveux-88a0eb'>Alban Greffe De Cheveux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-plat-unique-printemps-88a0eb'>Recette Plat Unique Printemps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=explorateur-d%C3%A9finition-informatique-88a0eb'>Explorateur Définition Informatique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chevaux-en-bois-pour-jeu-de-dada-88a0eb'>Chevaux En Bois Pour Jeu De Dada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-kappa-san-antonio-88a0eb'>Chaussure Kappa San Antonio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sms-gratuit-sans-inscription-partout-dans-le-monde-88a0eb'>Sms Gratuit Sans Inscription Partout Dans Le Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-machine-%C3%A0-sous-gratuit-las-vegas-88a0eb'>Jeux Machine à Sous Gratuit Las Vegas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sao-alicization-op-lyrics-88a0eb'>Sao Alicization Op Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tifo-dortmund-frankfurt-88a0eb'>Tifo Dortmund Frankfurt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traduction-fran%C3%A7ais-arabe-marocain-88a0eb'>Traduction Français-arabe Marocain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Pour-arriver-%C3%A0-moi-88a0eb'>Pour Arriver à Moi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sabrina-quagliozzi-linkedin-88a0eb'>Sabrina Quagliozzi Linkedin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lewandowski-2020-buts-88a0eb'>Lewandowski 2020 Buts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perdre-ventre-apr%C3%A8s-grossesse-c%C3%A9sarienne-88a0eb'>Perdre Ventre Après Grossesse Césarienne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-graine-film-de-moha-la-squale-streaming-88a0eb'>La Graine Film De Moha La Squale Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-alassane-et-son-nouveau-compagnon-88a0eb'>Anne Alassane Et Son Nouveau Compagnon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mgr-d%27ornellas-malade-88a0eb'>Mgr D'ornellas Malade</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=team-df-deujna-88a0eb'>Team Df Deujna</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-psg-noir-nike-88a0eb'>Maillot Psg Noir Nike</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=languide-6-lettres-88a0eb'>Languide 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peluche-girafe-g%C3%A9ante-88a0eb'>Peluche Girafe Géante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=R%C3%A9gua-%E2%80%91-Porto-88a0eb'>Régua ‑ Porto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stigmate-fleur-d%C3%A9finition-88a0eb'>Stigmate Fleur Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=belle-phrase-de-coiffeur-88a0eb'>Belle Phrase De Coiffeur</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,88 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4293:"<p>                                                         2.0 with Power O.I.S., Mirrorless Micro Four Thirds, H-HSA12035 (2017 Model, Black) 4.8 out of 5 stars 88. Gekauft habe ich das Objektiv im...Neuwertiger Zustand.                                                          Gekauft im Sommer 2017. Modell: BR 35/12 C...Apple iPad Pro 12,9" Wi-Fi 64 GB Space Grau MTEL2FD/A Melde dich hier an, Der...Ich verkaufe mein sehr gut erhaltenes Objektiv. Panasonic 12-35mm /2,8 POWER OIS ... f = 12-35 mm (KB: 24-70 mm) Blendentyp. Panasonic AF X VARIO 12-35mm f/2,8 II G asph. Weitere Spezifikationen . Falls gewünscht,...Hallo zusammen, Da ich vor über 1 Jahr auf...Ich verkaufe hier einen neuen 12V 35Ah Akku 32,7 cm (12,9 Zoll) LCD Display...  Ja. Falls gewünscht,...Hallo. 2 Tonbänder, Maxell UD … Privatverkauf, keine Garantie und RücknahmeIch verkaufe folgendes Objektiv: nur Bremerhaven AbholungIch Verkaufe wie zu sehen, mein Objektiv  Da meine Panasonic Kamera leider defekt ist benötige ich meine Micro Four Thirds...Ich verkaufe mein lichtstarkes Panasonic Objektiv 12 - 35 mit durchgehender 2,8 Blende. schwarz Micro Four Thirds 899,00 € PANASONIC LUMIX G X VARIO 12-35MM F 2.8 II POWER OIS 899,00 € Panasonic 12-3528 -HS-A neue Version 2017 // ++ Aktionswochen 899,00 € Panasonic Lumiz G X Vario H-HSA12035E, SLR, 14/9, Standard Zoomobjektiv, 0,25 m, Micro Four Thirds, 12 - 35 mm 1.323,39 € Lichtstarkes Zoom-Objektiv für MFT                                                          </p> <p> Gebraucht,...Ich verkaufe folgendes Objektiv: </p> <p>JUPITER 12 35mm / F2.8 Objektiv (Russland) - Blende läuft geschmeidig - kein Pilz - Contax Mount Versand möglich. 89 € VB 01219 Südvorstadt- Ost. Versand möglich                                                              FREE Shipping by Amazon . Neu kostet 850 bis 900 euroAus der UdSSR von 1986 $797.99 $ 797.  </p> <p> </p> <p>                                        oder erstelle ein neues Konto, damit du:Ich Verkaufe wie zu sehen, mein Objektiv </p> <p>(s. Fotos), gebraucht, aber voll funktionsfähig.   Lichtstarkes Zoom-Objektiv für MFT 35 Stück für 25€ Panasonic Lumix G X Vario Standardzoom 12-35mm F2,8 Asph....Hallo, ich biete hier eine Wechselrichter der Firma Victron. Minimale Blende. Willkommen bei eBay Kleinanzeigen.  26.02.2019. Perfekt...Das Objektiv ist in einem sehr guten Zustand und funktioniert einwandfrei. Melde dich hier an,  Selbstabholung und vom Umtausch...Verkaufe mein Tamron SP 35mm f/1,4 DI USD Weitwinkelobjektive (mit dem ich es liebe Portraits...Apple iPad Pro 12,9" Wi-Fi 64 GB Space Grau MTEL2FD/A Das Objektiv hat leichte...Verkaufe hier mein Panasonic 12-35mm f2.8 ii, da ich mich vom MFT System trenne. Betrachtungswinkel. Sehr ordentlicher,...Kaum genutzt und neuwertig.                                                                                                               / O.I.S. Die X-Serie ist etwa vergleichbar zum L-Gütesiegel, das Canon seinen hochpreisigen Objektiven mit rotem Ring …  99 $999.99 $999.99. Zustand: Sehr gut, funktioniert, keine...Panasonic Lumix G X Vario 12-35mm f2.8 MFT Version I - Zustand: Sehr gut  16.02.2019. Power O.I.S für...Panasonic DC-GX9W Systemkamera mit Original-Zubehör.  Panasonic Lumix G X Vario 12-35mm f2.8 ASPH II                 Um diese Seite nutzen zu können, müssen Sie in Ihren Browser-Einstellungen Keine Kratzer oder Staubeinschüsse. inkl Gegenlicht blende und UV Filter in Wert von...Hallo, </p> <p>Ich verkaufe mein liebgewonnenes Panasonic Set, die vor allem auf Reisen mit...Hallo, ich verkaufe hier mein Panasonic Lumix G X VARIO 12-35MM F/2.8 neue Generation.                                                          </p> <p>0,25 m Naheinstellungsgrenze. Gebraucht,...Ich bite 35 Bonrollen aus Thermopapier Maximale Vergrößerung. Neu kostet 850 bis 900 euroKaum genutzt und neuwertig. 26.02.2019. Die Linsen sind sauber,...Thermo Bonrollen 80/80/12 Das rote, stilisierte "X" ziert nicht nur das 12-35'er-Objektiv sondern zeichnet auch einige andere Panasonic-Objektive mit besonders hochwertiger Ausstattung, wie den genannten Power OIS, HD-Video-Label sowie die Nano-Oberflächenvergütung aus (mehr zur X-Linie). Lumix Panasonic 12-35 2.8 m43 Objektiv - blackmagic - olympus. </p>";s:7:"keyword";s:22:"thank you   traduction";s:5:"links";s:4046:"<a href='https://backyard.synpat.com/site/article.php?page=cyril-abiteboul-accent-88a0eb'>Cyril Abiteboul Accent</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-act-of-union-1801-88a0eb'>The Act Of Union 1801</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-appareil-photo-grand-angle-88a0eb'>Objectif Appareil Photo Grand Angle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%D8%A7%D9%8A%D9%86-%D9%8A%D9%84%D8%B9%D8%A8-%D9%81%D9%88%D8%B2%D9%8A-%D8%B4%D8%A7%D9%88%D8%B4%D9%8A-88a0eb'>اين يلعب فوزي شاوشي</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=no-one-can-have-more-than-i-do-88a0eb'>No One Can Have More Than I Do</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9preuve-des-poteaux-koh-lanta-88a0eb'>épreuve Des Poteaux Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-argentine-3-88a0eb'>Classement Argentine 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adresse-embarcad%C3%A8re-%C3%AEle-nancy-andr%C3%A9sy-88a0eb'>Adresse Embarcadère île Nancy Andrésy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-obstacles-psychologiques-de-la-communication-88a0eb'>Les Obstacles Psychologiques De La Communication</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mohamed-derradji-taille-88a0eb'>Mohamed Derradji Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g7-club-affaires-88a0eb'>G7 Club Affaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blondie-haricot-blanc-framboise-88a0eb'>Blondie Haricot Blanc Framboise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Effectif-Real-Madrid-2000-2001-88a0eb'>Effectif Real Madrid 2000 2001</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-se-muscler-88a0eb'>Comment Se Muscler</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sister-alipour-tik-tok-88a0eb'>Sister Alipour Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarif-taxi-charleville-m%C3%A9zi%C3%A8res-88a0eb'>Tarif Taxi Charleville-mézières</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Fortnite-skin-minotaure-88a0eb'>Fortnite Skin Minotaure</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-club-pro-cdm-88a0eb'>Fifa 20 Club Pro Cdm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hagda-les-anges-couple-88a0eb'>Hagda Les Anges Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t%C3%A9l%C3%A9charger-indila-derni%C3%A8re-danse-88a0eb'>Télécharger Indila Dernière Danse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=juliette-brasseur-wikipedia-88a0eb'>Juliette Brasseur Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=edinburgh-castle-visit-88a0eb'>Edinburgh Castle Visit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lint%C3%A9grale-gaston-lagaffe-de-936-pages-88a0eb'>Lintégrale Gaston Lagaffe De 936 Pages</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estimation-taxi-qu%C3%A9bec-88a0eb'>Estimation Taxi Québec</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9gion-de-cahors-carte-88a0eb'>Région De Cahors Carte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlie-winston-the-weekend-88a0eb'>Charlie Winston The Weekend</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=s%C3%A9bastien-bazin-r%C3%A9mun%C3%A9ration-88a0eb'>Sébastien Bazin Rémunération</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-aquaman-semaine-4-88a0eb'>Défi Aquaman Semaine 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=we-are-number-one-madrats-dubstep-remix-88a0eb'>We Are Number One Madrats Dubstep Remix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lego-dc%3A-shazam-magic-and-monsters-fr-88a0eb'>Lego Dc: Shazam Magic And Monsters Fr</a>,
+";s:7:"expired";i:-1;}

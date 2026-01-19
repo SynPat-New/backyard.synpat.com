@@ -1,0 +1,106 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4665:"<br>Petits textes de départ en messages de félicitations Bonne continuation et toutes mes félicitations A un fidèle collègue, un grand champion! Mais elle droit perdre du poids pour une bonne carrière musicale en EUROPE Bravo et bonne continuation.Vous êtes de Petite-Terre et vous venez d’être reçu au baccalauréat ou de valider un diplôme supérieur ? Félicitations : Messages pour Félicitations, modèles de lettres et textes pour Félicitations ainsi que des exemples de textes, lettres, cartes ou SMS. Vous n'avez rien à envier aux autres. <br> <br>Carte Félicitations retraite originale. 2020 - Découvrez le tableau "- Bonne continuation -" de Sylvie Pire sur Pinterest. <br> <br>Cette année encore, plus que jamais, vous avez été nombreux, très nombreux à vous inscrire et à participer à votre cérémonie de récompenses.  <br>Voir plus d'idées sur le thème Bonne continuation, Album photo scrapbooking, Proverbes et citations. ^^ Par birouk salima (CS) le 2010-09-30 00:14:15 . Dire adieu à un collègue de travail avec message.. Envoyer un message de félicitation pour un nouveau travail . Félicitations M. El Omari. Je souhaite à toutes les mamans mes felicitation et bonne continuation avec vos bébés[...] A offrir des exemples de messages de félicitations orignaux. Félicitation à toi mon ami pour ce temps de repos plus que mérité!  Vous avez bcp de talents et vous venez de le confirmer.j'ai l'honneur d'etre parmi les personnes qui vous félicitent <br> <br>© 2013 - 2020 Baraza Guéréza | Tous droits réservés Alors inscrivez-vous vite à la 7e édition de la Cérémonie de Récompenses des néo-diplômés de l’Association Baraza Guéréza.Baraza Guéréza tient à vous féliciter, vous néo-diplômés, vous souhaite bon vent pour la suite dans vos entreprises et vos études.Comme chaque année depuis six ans maintenant, Baraza Guéréza organisera sa fameuse « Cérémonie de récompenses », le samedi 21 juillet 2018 prochain dans les jardins de l’Hôtel de ville de Dzaoudzi, à 16h00 selon le programmeCréée en mai 2012, l’association BARAZA GUÉRÉZA a pour but l’insertion sociale et professionnelle de ses membres et autres personnes manifestant un intérêt réel en conformité aux valeurs de l’association. Une tendance qui se confirme et s’installe au fil du temps. Toutes nos félicitations et bonne continuation Publié par Baraza Guéréza le 28 juillet 2019. je tiens à féliciter  Mr ELOMARI et à remercier Mr IDOUBIYA.Mes félicitations les plus sincères, grand poète.C'est un prix bien mérité.Oui cher collègue! Bravo Solène, toutes mes félicitations et je vous souhaite beaucoup de plaisir derrière votre volant Bonne continuation Comme tout le monde , bravo et bon courage , à vous lire ... et à d'autres prix pour notre poèteFélicitations Mr Elomari notre grand poéte, bon courage et continez Mes félicitations M.Mustapha pour le prix que vous venez de remporter et bonne continuation. 8 juil. Cette année encore, plus que jamais, vous avez été nombreux, très nombreux à vous inscrire et à participer à votre cérémonie de récompenses. c'est une reconnaissance étrangère de votre talent.Salut tout le monde , je tiens à féliciter Mr.Elomari , j'ai toujours admiré ces nouvelles , et surtout ses poésies , style formidable , langage exceptionnel ,vous méritez plus de succès , mes souhaits les plus virtuels ^.^       Franchement, je suis contente qu'un tel talent soit récompensé. <br> Réponse N°5 6557. félicitations !! Félicitations et continuez à nous donner du plaisir à lire vos écrits! J'espère comme je vous l'ai déjà dit voir prochainement votre nom dans les librairies et les bibliothèques. Mes félicitations et BONNE continuation tu fait la fierté du 237. Partir à la retraite avec autant de jeunesse C’est s’avancer vers une nouvelle vie pleine de promesses! Bonne continuation et toutes mes félicitations A un fidèle collègue, un grand champion! <br> <br>Une tendance qui se confirme et s’installe au fil du temps.Baraza Guéréza tient à vous féliciter, vous néo-diplômés,  et à vous souhaiter bon vent pour la suite dans vos entreprises et vos études.Rendez-vous est d’ores et déjà donné aux futurs bacheliers et diplômés de l’Enseignement supérieur, au mois de Juillet prochain après la proclamation des résultats ! Félicitations et bonne continuation. Le travail fourni et ton réel investissement justifient pleinement ta réussite! Quelques mots d’amitié pour te faire part de ma joie pour toi. Messages sms félicitations réussite pour toutes occasions. <br>";s:7:"keyword";s:47:"toutes mes félicitations et bonne continuation";s:5:"links";s:6268:"<a href='https://backyard.synpat.com/site/article.php?page=amazon-business-retour-88a0eb'>Amazon Business Retour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=my-sunrise-facture-88a0eb'>My Sunrise Facture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roland-magdane-wikip%C3%A9dia-88a0eb'>Roland Magdane Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=polnareff-age-jojo-88a0eb'>Polnareff Age Jojo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=La-terreur-du-Loch-Ness-88a0eb'>La Terreur Du Loch Ness</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=espadrille-chanel-femme-noir-88a0eb'>Espadrille Chanel Femme Noir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=homemade-nutella-3-ingredients-88a0eb'>Homemade Nutella 3 Ingredients</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-en-filon-expression-88a0eb'>être En Filon Expression</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gamer-fran%C3%A7ais-call-of-duty-88a0eb'>Gamer Français Call Of Duty</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-500-mots-de-la-psychologie-pdf-88a0eb'>Les 500 Mots De La Psychologie Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=andr%C3%A9a-les-princes-et-les-princesses-de-lamour-7-88a0eb'>Andréa Les Princes Et Les Princesses De Lamour 7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zoe-c%27est-la-vie-88a0eb'>Zoe C'est La Vie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Commerce-ext%C3%A9rieur-Br%C3%A9sil-88a0eb'>Commerce Extérieur Brésil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-me-souviens-m%C3%A9n%C3%A9lik-instrumental-88a0eb'>Je Me Souviens Ménélik Instrumental</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-islande-euro-2020-88a0eb'>France Islande Euro 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romain-palazzetti-mathilde-88a0eb'>Romain Palazzetti Mathilde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le%C3%A7on-division-d%27un-nombre-d%C3%A9cimal-par-un-nombre-entier-cm2-88a0eb'>Leçon Division D'un Nombre Décimal Par Un Nombre Entier Cm2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=service-%C3%A0-l%27assiette-88a0eb'>Service à L'assiette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniela-prepeliuc-rtbf-88a0eb'>Daniela Prepeliuc Rtbf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valouzz-deathrun-toboggan-88a0eb'>Valouzz Deathrun Toboggan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-postal-new-york-5th-avenue-88a0eb'>Code Postal New York 5th Avenue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tes-etats-d%27ame-eric-clip-88a0eb'>Tes Etats D'ame Eric Clip</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f%C3%A9lix-lefebvre-date-de-naissance-88a0eb'>Félix Lefebvre Date De Naissance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-marques-des-influenceurs-88a0eb'>Les Marques Des Influenceurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prism-srambad-instagram-88a0eb'>Prism Srambad Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=date-cr%C3%A9ation-parc-puy-du-fou-88a0eb'>Date Création Parc Puy Du Fou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=box-de-bienvenue-psg-88a0eb'>Box De Bienvenue Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=smash-tennis-game-88a0eb'>Smash Tennis Game</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-piano-a-star-is-born-shallow-88a0eb'>Partition Piano A Star Is Born Shallow</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-sims-1-date-de-sortie-88a0eb'>Les Sims 1 Date De Sortie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creatine-kinase-mitochondriale-88a0eb'>Creatine Kinase Mitochondriale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=post-apr%C3%A8s-synonyme-88a0eb'>Post Après Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nuno-lopes-films-et-programmes-tv-88a0eb'>Nuno Lopes Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-photographe-immobilier-88a0eb'>Plateforme Photographe Immobilier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-ensemble-citation-88a0eb'>être Ensemble Citation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ruined-king-a-league-of-legends-story-release-date-88a0eb'>Ruined King A League Of Legends Story Release Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=phrase-the-weeknd-88a0eb'>Phrase The Weeknd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ecolo-province-luxembourg-88a0eb'>Ecolo Province Luxembourg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drap-de-plage-88a0eb'>Drap De Plage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=naoil-enceinte-koh-lanta-88a0eb'>Naoil Enceinte Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%C3%A9a-castel-derni%C3%A8re-chance-88a0eb'>Léa Castel Dernière Chance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bonne-f%C3%AAte-de-l%27aid-fitr-88a0eb'>Bonne Fête De L'aid Fitr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-google-home-88a0eb'>Amazon Google Home</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=1-kill-%3D-1-v%C3%AAtement-non-flout%C3%A9-francais-88a0eb'>1 Kill = 1 Vêtement Non Flouté Francais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=accompagnement-pancake-patate-douce-88a0eb'>Accompagnement Pancake Patate Douce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coupe-des-coupes-psg-88a0eb'>Coupe Des Coupes Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Chanson-tablature-guitare-88a0eb'>Chanson Tablature Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mar-adentro-fran%C3%A7ais-88a0eb'>Mar Adentro Français</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,135 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3155:"<br>Earn champions and loot through victory on the battlefield. <br> <br>En continuant à utiliser ce site, vous acceptez l'utilisation des cookies. Le meilleur générateur de nom d'invocateur de League of Legends. For a better experience, please enable JavaScript in your browser before proceeding. <br> <br>Si un caractère spécial n'est pas supporté dans la langue sélectionnée, il ne pourra pas être utilisé, même s'il apparaît dans une région qui le permet. En League of Legends se aceptan unos cuántos símbolos y caracteres especiales como parte de tu nombre de jugador.  Induste est une plateforme regroupant plusieurs thématiques sur les nouvelles technologies, jeux-vidéos et les nouveaux objets du quotidien. Salut , je recherche la liste des caractère spéciaux autorisé sur un pseudo LoLSalut, avec un peu de recherche on trouve facilement ..  Le générateur ajoute automatiquement des caractères spéciaux aux noms de League of Legends et vérifie s'il est disponible. 	Ce site utilise des cookies. Cela ajoutera des caractères spéciaux aux noms et vérifiera si ils sont disponibles. Salut , je recherche la liste des caractère spéciaux autorisé sur un pseudo LoL Merci . <br> <br>Les caractères spéciaux sont autorisés dans certains noms d'invocateur, selon la langue sélectionnée. Resilient bruisers, Tanks excel at shrugging off blows that would obliterate lesser allies.A balance of power and defense, Fighters are born to brawl, preferring their bouts up close and personal.Aggressive casters, Mages seek to destroy opponents through a range of mystical attacks, spells and abilities.Masters of precision, Assassins are agile hunters on the lookout for the perfect kill.Ranged fighters, Marksmen are powerful but fragile. Lamentablemente, hay muchos que no son compatibles, por lo que es útil conocer cuáles son los que sí funcionan. Ancien staff RG. Cliquez ici pour la voir. While they rely on their team to soak up damage, teams rely on them to deal it.Stalwart defenders, Supports control the battlefield by augmenting allies and locking down enemies.Test your skills against players from all over North America by battling your way up the competitive ranked ladder.This is free to play, not pay to win. <br> <br> Inscription 12 Août 2012 Messages 2 232 Réactions 1 308 Caracteres especiales para nicks de LoL. Vous devez vous inscrire ou vous connecter pour répondre ici. L'auteur de la discussion a jugé qu'une réponse pertinente à repondu à l'intérrogation de son topic. JavaScript is disabled. Whether you're playing Solo or Co-op with friends, League of Legends is a highly competitive, fast paced action-strategy game designed for those who crave a hard fought victory. Une liste de tous les caractères spéciaux majuscules et minuscules autorisés dans les noms des invocateurs League of Legends et ressemblant à des lettres anglaises. Caractères spéciaux Voici quelques caractères spéciaux pour la décoration de votre pseudo ۩ ๑ ۞ ♥ ஐ • @ ღ ₪ √ ™ № ╬ ~ ξ € ﺕ ≈ ॐ ♪ ® ♂ ♀ û â î ♣ ♠ εїз ^ + * & % # ¨ o 0 »-> ø ¤ ? P. Posi. <br>";s:7:"keyword";s:39:"caractères spéciaux league of legends";s:5:"links";s:9878:"<a href='https://backyard.synpat.com/site/article.php?page=cantine-printemps-haussmann-88a0eb'>Cantine Printemps Haussmann</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quelle-vitamine-b12-choisir-88a0eb'>Quelle Vitamine B12 Choisir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandre-barbier-fils-de-christophe-barbier-88a0eb'>Alexandre Barbier Fils De Christophe Barbier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-premier-league-2018-2019-88a0eb'>Maillot Premier League 2018 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pepe-animated-gifmeilleur-buteur-s%C3%A9lection-pays-bas-88a0eb'>Pepe Animated Gifmeilleur Buteur Sélection Pays-bas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stade-du-lou-88a0eb'>Stade Du Lou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sapeur-pompier-de-paris-88a0eb'>Sapeur-pompier De Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trending-topic---traduction-88a0eb'>Trending Topic - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=run-chanson-prank-88a0eb'>Run Chanson Prank</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=unique-casino-bonus-88a0eb'>Unique Casino Bonus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quel-%C3%A2ge-a-deujna-le-youtubeur-88a0eb'>Quel âge A Deujna Le Youtubeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masque-drapeau-basque-88a0eb'>Masque Drapeau Basque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A9n%C3%A9rique-fort-boyard-1990-88a0eb'>Générique Fort Boyard 1990</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Orgueil-et-Pr%C3%A9jug%C3%A9s-et-Zombies-88a0eb'>Orgueil Et Préjugés Et Zombies</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inshape-nutrition-bruleur-de-graisse-88a0eb'>Inshape Nutrition Bruleur De Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yamina-niya-florian-88a0eb'>Yamina Niya Florian</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vote-ballon-d%27or-2018-88a0eb'>Vote Ballon D'or 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boxe-tha%C3%AF-m%C3%A9rignac-88a0eb'>Boxe Thaï Mérignac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=max-gradel-salaire-2019-88a0eb'>Max Gradel Salaire 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perles-miyuki-amazon-88a0eb'>Perles Miyuki Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laziz-traduction-fran%C3%A7ais-88a0eb'>Laziz Traduction Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thiron-gardais-st%C3%A9phane-bern-88a0eb'>Thiron-gardais Stéphane Bern</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marina-kaye-origine-88a0eb'>Marina Kaye Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sporting-charleroi-2010-2011-88a0eb'>Sporting Charleroi 2010 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t%C3%A9l%C3%A9vision-sur-ordinateur-88a0eb'>Télévision Sur Ordinateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-michel-tout-le-monde-veut-prendre-sa-place-88a0eb'>Jean-michel Tout Le Monde Veut Prendre Sa Place</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-c-liposomale-cancer-t%C3%A9moignage-88a0eb'>Vitamine C Liposomale Cancer Témoignage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxidermie-papillon-comment-faire-88a0eb'>Taxidermie Papillon Comment Faire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-carmet-mort-88a0eb'>Jean Carmet Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coco-jumbo-jojo-88a0eb'>Coco Jumbo Jojo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rentabilit%C3%A9-d%27une-application-mobile-88a0eb'>Rentabilité D'une Application Mobile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vodafone-top-up-88a0eb'>Vodafone Top Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coluche-balavoine-berger-88a0eb'>Coluche Balavoine Berger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=set-%C3%A9lastique-musculation-88a0eb'>Set élastique Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-qui-nous-lie-analyse-88a0eb'>Ce Qui Nous Lie Analyse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lac-saint-sernin-toulouse-88a0eb'>Lac Saint-sernin Toulouse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ingrid-pekin-express-facebook-88a0eb'>Ingrid Pekin Express Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-que-du-sport-88a0eb'>Code Promo Que Du Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=world-after-war-game-88a0eb'>World After War Game</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-l-image-de-mon-lien-ne-s%27-affiche-pas-88a0eb'>Twitter L Image De Mon Lien Ne S' Affiche Pas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=installer-imprimante-brother-wifi-88a0eb'>Installer Imprimante Brother Wifi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=argent-d%C3%A9pens%C3%A9-lol-88a0eb'>Argent Dépensé Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-cr%C3%A8me-visage-2018-88a0eb'>Meilleur Crème Visage 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kery-james---lettre-%C3%A0-la-r%C3%A9publique-88a0eb'>Kery James - Lettre à La République</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quiz-diva-fortnite-answers-2020-88a0eb'>Quiz Diva Fortnite Answers 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=apple-store-lisbonne-88a0eb'>Apple Store Lisbonne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podcast-after-foot-%2F2010-88a0eb'>Podcast After Foot /2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=u-gg-senaa-88a0eb'>U Gg Senaa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thierry-henry---return-of-the-king-88a0eb'>Thierry Henry - Return Of The King</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paris-saint-germain-1982-83-88a0eb'>Paris Saint Germain 1982 83</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anxi%C3%A9t%C3%A9-sociale-traitement-88a0eb'>Anxiété Sociale Traitement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-19-carri%C3%A8re-meilleur-joueur-88a0eb'>Fifa 19 Carrière Meilleur Joueur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=david-mcneil-chansons-88a0eb'>David Mcneil Chansons</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=main-de-fatma-catholique-88a0eb'>Main De Fatma Catholique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=julien-bellver-vie-priv%C3%A9e-88a0eb'>Julien Bellver Vie Privée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-2020-wikip%C3%A9dia-88a0eb'>Pékin Express 2020 Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-super-film-88a0eb'>Un Super Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michael-manousakis-famille-88a0eb'>Michael Manousakis Famille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-abdos-domyos-88a0eb'>Decathlon Abdos Domyos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lean-diet-protein-bodymass-avis-88a0eb'>Lean Diet Protein Bodymass Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-topographique-italie-88a0eb'>Carte Topographique Italie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=algorithme-de-karatsuba-polyn%C3%B4mes-88a0eb'>Algorithme De Karatsuba Polynômes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-de-zidane-origine-88a0eb'>Femme De Zidane Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=match-dortmund-cha%C3%AEne-88a0eb'>Match Dortmund Chaîne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=delpech-quand-j%27%C3%A9tais-chanteur-youtube-88a0eb'>Delpech Quand J'étais Chanteur Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicolas-beytout-europe-1-13-mai-88a0eb'>Nicolas Beytout Europe 1 13 Mai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-la-manic-88a0eb'>Youtube La Manic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canadian-vitamin-shop-88a0eb'>Canadian Vitamin Shop</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fiston-origine-du-mot-88a0eb'>Fiston Origine Du Mot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=captain-eudora-hearthstone-88a0eb'>Captain Eudora Hearthstone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vald-nqnt-3-88a0eb'>Vald Nqnt 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-de-ville-style-88a0eb'>Nom De Ville Style</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=devenir-animateur-radio-sans-dipl%C3%B4me-88a0eb'>Devenir Animateur Radio Sans Diplôme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thierry-tr%C3%A9sor-fils-88a0eb'>Thierry Trésor Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=touche-tabulation-excel-88a0eb'>Touche Tabulation Excel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vaisselle-bambou-b%C3%A9b%C3%A9-toxique-88a0eb'>Vaisselle Bambou Bébé Toxique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raoult-vaccin-coronavirus-88a0eb'>Raoult Vaccin Coronavirus</a>,
+";s:7:"expired";i:-1;}

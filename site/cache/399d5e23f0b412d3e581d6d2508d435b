@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4923:"<p>Après sa remarquable prestation durant la Coupe du monde, le site Observ Algérie a rapporté, dans son édition du 17 juillet, que le jeune prodige de 19 ans pourrait se rendre prochainement en Algérie, à l’invitation de la Fédération algérienne de football (FAF). </p> <p>Preuve que Fayza est définitivement la bonne étoile de l'un des joueurs les plus talentueux de sa génération. </p> <p>La « oumma » pour ce qu’il en reste est tombée bien bas.Que dire de la militante du FLN Djamila BOUHIRED qui a épousé Maitre VERGES , ses enfants ne doivent pas être algériensPour reprendre vos arguments, un algérien n’est pas forcément musulman donc pas nécessairement concerné par le hadith cité…Que dire de la militante du FLN Djamila BOUHIRED qui a épousé Maitre VERGES , ses enfants ne doivent pas être algériens« il faudrait m’éclairer sur qui a droit d’être algérien ou pas sur la base de quoi »Définition de la Fierté : « Appartenant au même champ lexical que l’orgueil, la fierté a comme lui plusieurs définitions qui se recoupent d’ailleurs (les deux mots étant pratiquement interchangeables), et qui s’entendent selon le contexte »Mais on s’en fout! He joined PSG with a record transfer fee of €135 million. Né d’un père camerounais et d’une mère algérienne, le footballeur se dit fier de ses origines africaines.A en croire ces sources citées par Observ Algérie, les responsables de la FAF souhaiteraient recevoir le jeune footballeur français comme cela avait été le cas avec Zinedine Zidane, lui aussi d'origine algérienne, en mars 2010 à Alger. Son père est d’origine camerounaise, sa mère a des origines algériennes certes, mais lui se sent surtout français et ça s’arrête là.                                 WhatsApp </p> <p>Ou alors une simple ignorance de votre part. Oui, vous avez raison il y a de drôles de chose dont ne parle pas le figaro le journal du sioniste bien connu du nom de Dassault. Le processus de traitement des données personnelles est décrit en détail dans la En cliquant sur "Accepter et fermer", vous acceptez que vos données personnelles soient utilisées dans les buts décrits ci-dessus.Vous pourrez revenir sur votre choix et retirer votre consentement en utilisant n’importe quel autre moyen indiqué dans la Le jeune prodige du football français, Kylian Mbappé, pourrait visiter dans les jours qui viennent l’Algérie, à l’invitation de la Fédération algérienne de football, selon une source bien informée citée par Observ Algérie. La « oumma » pour ce qu’il en reste est tombée bien bas.Que dire de la militante du FLN Djamila BOUHIRED qui a épousé Maitre VERGES , ses enfants ne doivent pas être algériensPour reprendre vos arguments, un algérien n’est pas forcément musulman donc pas nécessairement concerné par le hadith cité…Que dire de la militante du FLN Djamila BOUHIRED qui a épousé Maitre VERGES , ses enfants ne doivent pas être algériens« il faudrait m’éclairer sur qui a droit d’être algérien ou pas sur la base de quoi »Définition de la Fierté : « Appartenant au même champ lexical que l’orgueil, la fierté a comme lui plusieurs définitions qui se recoupent d’ailleurs (les deux mots étant pratiquement interchangeables), et qui s’entendent selon le contexte »Mais on s’en fout! </p> <p>Maîtrisez donc vos émotions et cessez de mélanger tout dans vos propos, surtout sur des sujets qui semblent bien être « le combat d’une vie » vous concernant… Merci.Il est camerounais,contrairement au judaïsme qui a une transmission maternelle,chez nous les musulmans la filiation est paternel.quel honte a nous les arabes a se chercher une fierté chez des jeunes afros-maghrebins nous sommes descendu bien bas,ou est le nif algériens ou ce n’est qu’une légende???? Vous avez 30 jours pour le rétablir en cliquant sur le lien dans l'email qui a été envoyé à l'adresse indiquée à l'inscription. </p> <p>Les enfants sont ciblés , les jeunes hommes sont visés aux jambes pour en faire des handicapés, les femmes comme Rachel Corrie sont broyée par des bulldozers, les hôpitaux , les églises, les mosquées pour certaines millénaires sont bombardés, les établissements de l’ONU pourtant visibles des airs sont écrasées par les bombes au phosphore, les eaux territoriales de Gaza sont limitées au minimum pour que les population ne puissent pas se nourrir avec les produits de la mer. MOSCOU, RUSSIE (SIWEL) — Le jeune attaquant de l’équipe de France de football, Kylian Mbappé, 19 ans, qui officie au PSG, a été nommé ce dimanche 15 juillet meilleur jeune joueur du Mondial de la FIFA 2018 organisé en Russie et dont la Coupe a été remportée ce jour pour la 2ème fois par la France.. </p> <p>Une origine ça veux dire quoi ? %privacy_policy%  </p> <p>             </p>";s:7:"keyword";s:20:"fayza lamari origine";s:5:"links";s:6022:"<a href='https://backyard.synpat.com/site/article.php?page=papeterie-en-ligne-88a0eb'>Papeterie En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-paroles-traduction-88a0eb'>Brother Paroles Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-int%C3%A9rieur-88a0eb'>Appareil Photo Intérieur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Nouveau-maillot-Mauritanie-88a0eb'>Nouveau Maillot Mauritanie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-chlo%C3%A9-bottet-date-de-naissance-88a0eb'>Anne-chloé Bottet Date De Naissance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minecraft-dans-la-vraie-vie-adam-88a0eb'>Minecraft Dans La Vraie Vie Adam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-api-get-comments-88a0eb'>Twitter Api Get Comments</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=farewell-angelina-sens-88a0eb'>Farewell Angelina Sens</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pocahontas-film-stream-88a0eb'>Pocahontas Film Stream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zemmour---babelio-88a0eb'>Zemmour - Babelio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f%C3%AAte-nationale-qu%C3%A9bec-2020-88a0eb'>Fête Nationale Québec 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dimanche-soir-humour-88a0eb'>Dimanche Soir Humour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philosophe-6-lettres-88a0eb'>Philosophe 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-chat-geluck-citations-retraite-88a0eb'>Le Chat Geluck Citations Retraite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Moon-and-ocean-88a0eb'>Moon And Ocean</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=queen-film%2C-2018-88a0eb'>Queen Film, 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanteur-pianiste-aveugle-88a0eb'>Chanteur Pianiste Aveugle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniela-prepeliuc-rtbf-88a0eb'>Daniela Prepeliuc Rtbf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=si-on-s%27aimait-candidat-fanny-88a0eb'>Si On S'aimait Candidat Fanny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=popstar-saison-3-88a0eb'>Popstar Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cc-running-day-88a0eb'>Cc Running Day</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blockbuster-elizabeth-arden-2019-88a0eb'>Blockbuster Elizabeth Arden 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-fran%C3%A7ois-et-sa-femme-88a0eb'>Jean-pierre François Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ils-s%27aiment-%283%29-88a0eb'>Ils S'aiment (3)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-dalton-film-complet-88a0eb'>Les Dalton Film Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ancien-directeur-renault-88a0eb'>Ancien Directeur Renault</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Zineb-El-Rhazoui-dessin-88a0eb'>Zineb El Rhazoui Dessin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=annie-lemoine-mari-88a0eb'>Annie Lemoine Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-entrepreneur-instagram-88a0eb'>Femme Entrepreneur Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vodafone-top-up-88a0eb'>Vodafone Top Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-ajax-2020-20-21-88a0eb'>Maillot Ajax 2020 20-21</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=verbe-prendre-contact-88a0eb'>Verbe Prendre Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9atine-fitness-boutique-avis-88a0eb'>Créatine Fitness Boutique Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofitel-casablanca-booking-88a0eb'>Sofitel Casablanca Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f%C3%A9minin-de-b%C3%A9nin-88a0eb'>Féminin De Bénin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=association-le-lion-d%27angers-88a0eb'>Association Le Lion D'angers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-italien-l%C3%A9gende-88a0eb'>Joueur Italien Légende</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofitel-dubai-palm-jumeirah-88a0eb'>Sofitel Dubai Palm Jumeirah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=real-madrid-vs-valence-cha%C3%AEne-88a0eb'>Real Madrid Vs Valence Chaîne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-mort-s%27invite-%C3%A0-pemberley-88a0eb'>La Mort S'invite à Pemberley</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yamina-niya-florian-88a0eb'>Yamina Niya Florian</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jojo-bruno-bucciarati-death-88a0eb'>Jojo Bruno Bucciarati Death</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moussa-sylla-auteur-88a0eb'>Moussa Sylla Auteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=interview-avec-mahrez-can-2019-88a0eb'>Interview Avec Mahrez Can 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classic-flap-chanel-88a0eb'>Classic Flap Chanel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=olympus-14-42-ez-88a0eb'>Olympus 14-42 Ez</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=instagram-pour-les-artistes-88a0eb'>Instagram Pour Les Artistes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stop-fuite-joint-de-culasse-wynn%27s-88a0eb'>Stop Fuite Joint De Culasse Wynn's</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=suspendre-compte-twitter-88a0eb'>Suspendre Compte Twitter</a>,
+";s:7:"expired";i:-1;}

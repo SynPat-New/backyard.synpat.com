@@ -1,0 +1,85 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5361:"<p>Laura Greenwood, Stephen Tompkinson, Gary Lewis, Katy Murphy.                     Please enter your email address and we will email you a new password. This is the much-anticipated prequel to award-winning global hit Prime Suspect. Air date: Nov 12, 2006                                     Apr 12, 2019                                     Apr 12, 2019 Cette fonctionnalité vous permet de visionner votre contenu hors connexion, et d'assurer une bonne qualité de visionnage pour les faibles débits. </p> <p>A Londres, une femme est retrouvée assassinée dans la chambre d'une prostituée.                                 Robert Pugh </p> <p>                                                                                                                                                                                            Air date: Nov 19, 2006 Retrouvez tous les détails des 6 saisons et des 11 épisodes de la série Suspect numéro 1, ainsi que toutes les news et les vidéos. TVGuide has every full episode so you can stay-up-to-date and watch your favorite show Prime Suspect anytime, anywhere. </p> <p>                                                                                 |                                  this entire series is truly a masterful character study starring the unflinching helen mirren.                                 Ronnie Fox </p> <p>                                 With Damien Molony, Clare-Hope Ashitey, Fay Ripley, Christian Brassington. </p> <p>                                Air date: Nov 12, 2006                                                                                                                    Approaching retirement, Jane Tennison investigates the murder of a missing girl.                              Directed by Philip Martin.                              </p> <p>                                Maxine Barton                                      </p> <p>                                    Apr 12, 2019                                 Ricky Nixon All rights reserved.                                      </p> <p>                                                                                             Apr 12, 2019 Helen Mirren is at the peak of her towering powers in the concluding season of Prime Suspect, wherein Jane Tennison delivers her final bow in …                                                                                                     By opting to have your ticket verified for this movie, you are allowing us to check the email address associated with your Rotten Tomatoes account against an email address associated with a Fandango ticket purchase for the same movie.By opting to have your ticket verified for this movie, you are allowing us to check the email address associated with your Rotten Tomatoes account against an email address associated with a Fandango ticket purchase for the same movie.Verified reviews are considered more trustworthy by fellow moviegoers.They won't be able to see your review if you only submit your rating.They won't be able to see your review if you only submit your rating.                             Apr 12, 2019 Helen Mirren's latest scintillating performance elevates this otherwise conventional potboiler into a fitting sendoff.                                                 |                                                  |                               Energique et consciencieuse, Jane doit s'imposer dans un monde d'hommes...Le site de streaming le plus complet et le seul qui réunit vos films, vos séries (en HD, VF et VOST) toute la TNT et les plus belles compétitions sportives en direct ou en replay.                                                                                         Frank Finlay                                                                                            Season 7 Prime Suspect Critics Consensus. Le programme TV de ce soir, de la TNT et de toutes les chaines est gratuitSérie Policière, Saison en 1 épisode, Royaume-Uni, Etats-Unis, 1992Après achat ou location de ce contenu, vous pourrez profiter du téléchargement.                                                                                       We want to hear what you have to say but need to verify your email. </p> <p>                                Russell Mabey                                                                                          |  Rating: 5/5 |                                               Energique et consciencieuse, Jane doit …                                 Helen Griffin                                 Ellie Kendrick Jane Tennison (Helen Mirren) investigates a girl's disappearance, her last case prior to retirement, while battling the bottle and coping with her father's illness. Avec plus de 11 votes et la note de 8.10/10, la saison 1 de la série Suspect n°1 : Tennison, sortie en 2017 dans la catégorie Crime, n’est autre qu’un épique groupement d’épisodes très bien produites et écrites dans les moindre détails.                                                                                           Jane Tennison (Helen Mirren) investigates a girl's disappearance, her last case prior to retirement, while battling the bottle and coping with her father's illness.                                                          </p>";s:7:"keyword";s:21:"suspect n°1 saison 7";s:5:"links";s:3368:"<a href='https://backyard.synpat.com/site/article.php?page=margau-la-voix-canada-88a0eb'>Margau La Voix Canada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comp%C3%A9tition-crossfit-lyon-88a0eb'>Compétition Crossfit Lyon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-banane-ricardo-88a0eb'>Pancake Banane Ricardo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=claude-koh-lanta-biographie-88a0eb'>Claude Koh-lanta Biographie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a-qui-s%27abonner-sur-twitter-88a0eb'>A Qui S'abonner Sur Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paderborn-hoffenheim-pronostic-88a0eb'>Paderborn Hoffenheim Pronostic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-12-24-dg-hsm-ii-88a0eb'>Sigma 12-24 Dg Hsm Ii</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-milan-ac-2003-88a0eb'>Effectif Milan Ac 2003</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lady-gaga-a-yo-video-88a0eb'>Lady Gaga A-yo Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boxing-day-londres-88a0eb'>Boxing Day Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-une-l%C3%A9gende-canal-plus-88a0eb'>Je Suis Une Légende Canal Plus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruno-cerella-instagram-88a0eb'>Bruno Cerella Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-de-ville-style-88a0eb'>Nom De Ville Style</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amour-d%27%C3%A9t%C3%A9-pierre-kwenders-88a0eb'>Amour D'été Pierre Kwenders</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-d%27amour-2012-88a0eb'>Film D'amour 2012</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=replay-gerra-depardieu-88a0eb'>Replay Gerra Depardieu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-800d-promo-88a0eb'>Canon 800d Promo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jordan-veretout-sabrina-veretout-88a0eb'>Jordan Veretout Sabrina Veretout</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=big-will-%26-the-bluesmen-88a0eb'>Big Will & The Bluesmen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-eat-bordeaux-num%C3%A9ro-88a0eb'>Uber Eat Bordeaux Numéro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=larry-gaz-mp3-88a0eb'>Larry Gaz Mp3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diet-s%C3%A8che-homme-70kg-88a0eb'>Diet Sèche Homme 70kg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raccourci-clavier-retour-en-arri%C3%A8re-word-88a0eb'>Raccourci Clavier Retour En Arrière Word</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-maison-de-neymar-au-br%C3%A9sil-88a0eb'>La Maison De Neymar Au Brésil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plan%C3%A8te-ga%C3%AFa-tv-88a0eb'>Planète Gaïa Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27homme-le-plus-puissant-du-monde-2020-88a0eb'>L'homme Le Plus Puissant Du Monde 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=catalogue-intersport-mai-2020-88a0eb'>Catalogue Intersport Mai 2020</a>,
+";s:7:"expired";i:-1;}

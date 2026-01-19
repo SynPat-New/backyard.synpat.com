@@ -1,0 +1,106 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4769:"<br>In case of those you don’t agree with, you need to offer a logical point-by-point rebuttal. 1  It should be no longer than 200 words. They may specify how long the covering letter should be or what you should include.We use cookies to improve your experience of this website by remembering your usage preferences, collecting statistics, and targeting relevant content. <br> <br>Your opening paragraph should contain a bridge to the middle paragraphs of your cover letter, the expansions to your cover letter's lede.The middle paragraphs of your newspaper cover letter should expand on the information in your resume. ‘List any significant reasons why the publisher’s risk will be small in taking on your book,’ says Stewart. If the Guide for Authors does not specify what to include in your cover letter, you may wish to include some of the following items: Specify special considerations that should be given …                                                              If you have any questions about your cover letter, We invite you to share your research with the community by posting it online as a preprint. The last … <br> <br>The reality is that people will think much less of us if we continue to stand by an idea that is wrong even in the face of overwhelming evidence for what is right.A private safe space for researchers around the world to be themselves, learn from and motivate each other, and have some fun!A private safe space for researchers around the world to be themselves, learn from and motivate each other, and have some fun! Sometimes great science will be reviewed regardless of the cover letter, but a well written cover letter … We’re often afraid to admit we’re wrong because we fear people will think less of us. <br> <br>Take classes in related fields, such as freelance writing, digital journalism, website development, social media, advertising, marketing and computer science, so you will have additional career options. The letter will argue that your manuscript is a good … A well-drafted impressive cover letter may be a key factor in your manuscript being given serious consideration.You can download the attached template to write a cover letter for your submission. Confirm that you would also like to sign up for free personalized email coaching for this stage.Editage Insights offers a wealth of free academic research and publishing resources and is a one-stop guide for authors and others involved in scholarly publishing. <br> <br>Here are some tips on how to make your cover letter stand out from the competition. Here’s an example of the appropriate format for a cover letter and guidelines for formatting your letters . <br> <br>Unfortunately, few authors are aware of the actual impact that a cover letter can have: it provides an excellent opportunity to communicate with the journal editor and draw his or her interest to the submitted manuscript.As is common knowledge, journal editors are swamped with hundreds of submissions, and it’s important to make a good first impression. This comprehensive directory lists the market needs, submission requirements and contact information for … Be sure to mention the job you are applying for, how you learned about it, and the name and title of any person who may have referred you to the newspaper. <br> <br>Here are some tips for getting it right, plus a free journal cover letter template.The cover letter accompanying your journal submission is your chance to lobby on behalf of your manuscript. If you’re making an online submission, link to your published work if the submission form allows it. A manuscript should be accompanied by a good cover letter for journal submission, as it can increase a researcher’s chances of getting published. Write in a normal, conversational style, presenting your points crisply and concisely. <br>                                                                                 The letter to the editor of your target journal, also known as the cover (or covering) letter, is something that is all too often overlooked by authors. Writing a good cover letter is one more step in the right direction to achieving your ambition, which is to see your paper published, hopefully in your target journal. <br> <br>Explain who you are, where you are, what you're currently doing and why you might be a good fit for the job. <br> <br>The letter will argue that your manuscript is a good fit for the journal you are submitting it to and highlight your most important findings. Mention whether you agree with all the reviewer’s comments/suggestions. As the volume of research output and the number of journals expand, identifying relevant studies in the literature is becoming increasingly challenging. ";s:7:"keyword";s:26:"cover letter publish paper";s:5:"links";s:6256:"<a href='https://backyard.synpat.com/site/article.php?page=carte-custom-escape-from-tarkov-88a0eb'>Carte Custom Escape From Tarkov</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-regis-en-arabe-88a0eb'>Prénom Regis En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fiche-atelier-musculation-eps-88a0eb'>Fiche Atelier Musculation Eps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oxymore-de-punition-88a0eb'>Oxymore De Punition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=s%C3%A9rie-canal-plus-femmes-bureau-88a0eb'>Série Canal Plus Femmes Bureau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thank-you-traduction-88a0eb'>Thank You Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=s%27attribuer-illegalement-synonyme-88a0eb'>S'attribuer Illegalement Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-nuit-tous-les-chats-sont-gris-88a0eb'>La Nuit Tous Les Chats Sont Gris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-ramadan-mauritanie-2020-88a0eb'>Fin Ramadan Mauritanie 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-d%27-h%C3%B4te-montcuq-88a0eb'>Maison D' Hôte Montcuq</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estelle-cars_-instagram-88a0eb'>Estelle Cars_ Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=et-si-on-parlait-d%27amour-88a0eb'>Et Si On Parlait D'amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salle-de-sport-martinique-lamentin-88a0eb'>Salle De Sport Martinique Lamentin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appartement-%C3%A0-louer-st-denis-de-la-bouteillerie-88a0eb'>Appartement à Louer St-denis-de La Bouteillerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dymatize-iso-100-prix-88a0eb'>Dymatize Iso 100 Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-aps-c-sur-plein-format-sony-88a0eb'>Objectif Aps-c Sur Plein Format Sony</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexis-eddy-morte-de-quoi-88a0eb'>Alexis Eddy Morte De Quoi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-270-femme-multicolor-88a0eb'>Nike 270 Femme Multicolor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stevie-wonder-fortune-88a0eb'>Stevie Wonder Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Mbappe-du-bled-88a0eb'>Mbappe Du Bled</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cnews-zemmour-horaires-88a0eb'>Cnews Zemmour Horaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=distingu%C3%A9e-7-lettres-88a0eb'>Distinguée 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=example-of-cover-letter-for-journal-article-submission-pdf-88a0eb'>Example Of Cover Letter For Journal Article Submission Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=implique-7-lettres-88a0eb'>Implique 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=past-tense-sing-88a0eb'>Past Tense Sing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-changer-joint-de-culasse-kangoo-88a0eb'>Comment Changer Joint De Culasse Kangoo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27avis-juridique-88a0eb'>Demande D'avis Juridique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-sylvestre-partition-pdf-88a0eb'>Anne Sylvestre Partition Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=example-of-cover-letter-for-journal-article-submission-pdf-88a0eb'>Example Of Cover Letter For Journal Article Submission Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-prot%C3%A9ines-cours-88a0eb'>Les Protéines Cours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sao-shirushi-lyrics-88a0eb'>Sao Shirushi Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gil-vicente-benfica-stream-88a0eb'>Gil Vicente Benfica Stream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=volcan-eyjafjallaj%C3%B6kull-2010-88a0eb'>Volcan Eyjafjallajökull 2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-holifit-gainage-88a0eb'>Défi Holifit Gainage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-sur-l%27environnement-en-anglais-88a0eb'>Exposé Sur L'environnement En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musculation-sant%C3%A9-mentale-88a0eb'>Musculation Santé Mentale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=employ%C3%A9-de-maison-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Employé De Maison Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perfect-fit-chien-88a0eb'>Perfect Fit Chien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=instagram-vs-reality-reddit-88a0eb'>Instagram Vs Reality Reddit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cookies-banane-healthy-88a0eb'>Cookies Banane Healthy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-avoir-un-ventre-plat-en-1-mois-88a0eb'>Comment Avoir Un Ventre Plat En 1 Mois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cstar-ce-soir-88a0eb'>Cstar Ce Soir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perte-de-poids-cancer-88a0eb'>Perte De Poids Cancer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-pri%C3%A8re-mosqu%C3%A9e-al-amal-88a0eb'>Horaire Prière Mosquée Al-amal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trouble-en-4-lettres-88a0eb'>Trouble En 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-d3-d%27-plantes-posologie-88a0eb'>Vitamine D3 D' Plantes Posologie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=graine-de-moutarde-valeur-nutritionnelle-88a0eb'>Graine De Moutarde Valeur Nutritionnelle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=La-Part-du-soup%C3%A7on-88a0eb'>La Part Du Soupçon</a>,
+";s:7:"expired";i:-1;}

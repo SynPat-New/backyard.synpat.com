@@ -1,0 +1,84 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5034:"<br>?Il devance maintenant Robert Lewandowski dans la course au Soulier d’Or. <br> <br>Soulier d'or 2014. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. <br> <br>L'Argentin a été le meilleur buteur des plus grands championnats en 2010, 2012,2013, 2017,2018 et 2019. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. Dennis Praet a reçu le 61e Soulier d'Or, ce mercredi à Lint. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. <br> <br>Le joueur d'Anderlecht succède à Thorgan Hazard, lauréat il y a douze mois. Un titre pour le Néerlandais lors de la saison 2002-2003 alors qu'il évoluait pour le Deportivo la Corogne. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. Le SPF Chancellerie du Premier Ministre fait usage de cookies pour le bon fonctionnement de ce site. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. <br> À cette période, Henrik Larsson évoluait sous les couleurs du Celtic Glasgow. <br> <br>Avec 31 buts au compteur lors de cette saison, il rejoint le cercle fermé des joueurs ayant remporté le Soulier d'Or. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. <br> <br>Soulier d'or C'est justement dans un match à Naples qu'Immobile a égalé ce record. Son total de but s'élevait à 29. Ciro Immobile vient d’inscrire son 35e but de la saison en Serie A. Le joueur d'Anderlecht succède à Thorgan Hazard, lauréat il y a douze mois. Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. Ce lien d'activation est expiré. Et il vient tout droit du JaponSon nom associé à "voleuse" : l'ex-présidente argentine attaque GoogleLe coronavirus et les enfants : ce que l’on sait et ce l’on ignoreLaura Smet, Lily Allen, Nelly Auteuil,... comme Line Papin, elles se sont mariées en robe Delphine Manivet !Le Pire Stagiaire : le rappeur JNR piégé par Greg Guillotin devient un meme mondial !Coronavirus: un cas positif à Saint-Etienne, match contre le Hertha annuléCoronavirus: Londres retire la Belgique de ses pays sûrsL’astuce pour avoir moins chaud et mieux respirer sous un masque de protection contre le coronavirus malgré la caniculeL'Egypte invite Musk après un tweet sur les pyramides construites par des "extra-terrestres""C'était un menteur"... un ami proche de Johnny Hallyday fait des confidences surprenantes deux ans après sa mort !Le tournage du Meilleur pâtissier interrompu : un membre de l'équipe testé positif au Covid-19Selon un nouveau rapport, l’éolien en mer est en plein essorLigue Europa: le récital d'Ocampos contre la Roma, Séville qualifié pour les quartsLes enfants et le Covid-19: ce que l'on sait -- et ce que l'on ignoreDémaquillant : ce baume solide au thé vert ôte le maquillage, même waterproof, en quelques secondesIls retrouvent le vrai goût du pastis de Saint-Tropez, disparu il y a 70 ansCoronavirus.  <br>Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. <br> <br>     Microsoft peut percevoir une commission si vous effectuez un achat via des liens recommandés dans cet article. Voir la vidéo  le classement du soulier d'or européen depuis 1980. <br> <br>(VIDEO)Géolocalisation et cinéma : les règles de la pub à la télé assoupliesBayer Leverkusen-Rangers: le joli premier but européen de DiabyUn fugitif arrêté aux Etats-Unis après 46 ans de cavale10 recettes simples et fruitées pour des sorbets à tomber !Pacifique: trois naufragés sauvés par leur "SOS" écrit sur la plageCoronavirus: aux États-Unis, le dr Fauci sous protection rapprochée après des menaces de mortHailey et Justin Bieber se sont fait baptiser ensembleLes chaînes de télévision pourront diffuser des films les samedis soirsCovid : Querdenken 711, mouvement organisateur de la manifestation du 1er août à Berlin, est-il d'extrême droite ?Manchester City-Real: Zidane donne la vraie raison de l'absence de BaleBeyrouth : les appels aux dons se multiplient en FrancePourquoi le riz doit-il impérativement être consommé avec modérationCoronavirus : premiers cas dans le camp de déplacés d’Al-Hol en SyrieKoh-Lanta 2020 : voici les comptes Instagram des candidats de la nouvelle saison Les 4 TerresExplosions à Beyrouth : les appels aux dons se multiplient en FranceMacron au côté des Libanais mais pas de leurs dirigeantsOL : Pape Cheikh Diop prêté au DFCO avec option d’achat Meneur de jeu de formation, l'Italien a souvent évolué proche du but voire même comme un numéro 9 à la fin de sa carrière. <br>";s:7:"keyword";s:17:"soulier d'or 2014";s:5:"links";s:3190:"<a href='https://backyard.synpat.com/site/article.php?page=vvv-venlo---feyenoord-88a0eb'>Vvv-venlo - Feyenoord</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bugha-world-cup-88a0eb'>Bugha World Cup</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Citation-Alain-Delon-88a0eb'>Citation Alain Delon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-son-%28g-et-j-ce1%29-88a0eb'>Le Son (g Et J Ce1)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=16-ans-et-enceinte-mtv-en-francais-88a0eb'>16 Ans Et Enceinte Mtv En Francais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zodio-massy-recrutement-88a0eb'>Zodio Massy Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=weight-loss-weight-training-88a0eb'>Weight Loss Weight Training</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-koh-lanta-2020-episode-9-88a0eb'>Youtube Koh Lanta 2020 Episode 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-10-24-mm-88a0eb'>Nikon 10-24 Mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-crois-en-toi-mon-amour-88a0eb'>Je Crois En Toi Mon Amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comparaison-pib-france-royaume-uni-88a0eb'>Comparaison Pib France Royaume-uni</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masque-ma%C3%AFzena-et-yaourt-88a0eb'>Masque Maïzena Et Yaourt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Drapeau-Jacques-Cartier-88a0eb'>Drapeau Jacques Cartier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=c%C3%A9line-la-villa-des-coeurs-bris%C3%A9s-age-88a0eb'>Céline La Villa Des Coeurs Brisés Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Faire-chou-blanc-88a0eb'>Faire Chou Blanc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-music-player-android-2020-88a0eb'>Best Music Player Android 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pompe-submersible-canac-88a0eb'>Pompe Submersible Canac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philips-hd8827%2F01-prix-88a0eb'>Philips Hd8827/01 Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portrait-beno%C3%AEt-koh-lanta-2016-88a0eb'>Portrait Benoît Koh-lanta 2016</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tik-tok-love-movie-88a0eb'>Tik Tok Love Movie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lor%C3%A0nt-deutsch-paris-88a0eb'>Lorànt Deutsch Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=poil-menton-femme-solution-naturelle-88a0eb'>Poil Menton Femme Solution Naturelle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=umbro-sneakers-bumpy-88a0eb'>Umbro Sneakers Bumpy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alterner-cardio-et-muscu-88a0eb'>Alterner Cardio Et Muscu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=smule-sur-mac-88a0eb'>Smule Sur Mac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-closet-tarif-88a0eb'>Le Closet Tarif</a>,
+";s:7:"expired";i:-1;}

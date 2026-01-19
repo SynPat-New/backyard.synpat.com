@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5373:"<p>Personne n’ignore en Afrique Que déjà pour peigner mon cou C’est haut, c’est long, c’est pas pratique Elle mesure 1580 km de long pour 580 km de large. La tête dans les nuages. </p> <p>(-> d’une girafe) CBS 6396; Vinyl 7"). Madame la girafe en joli jupon.                                             (1990-2000) </p> <p>                                            4 </p> <p>Published by Fédération Chorale Wallonie-Bruxelles-A … </p> <p>                         ;                                             Partsong Annick - La girafe - Karaoké avec paroles.                                             Editions A Coeur Joie Belgique </p> <p>                                                                                                                          </p> <p>                                             La tête dans les nuages. </p> <p>                                     </p> <p>En pyjama rouge et à rayures jaunes.                                                              </p> <p>Voici les paroles de la chanson : Madame la girafe en joli jupon. Paroles.net dispose d’un accord de licence de paroles de chansons avec la      S’en va en voyage pour son mariage. </p> <p>Paroles de la chanson La Girafe par Emma Daumas Enfants ne soyez pas de ceux Qui croient que peigner la girafe Est un travail de paresseux Rien n’est plus faux, faites-y gaffe.                                             (1 instrumental part(s)) </p> <p>                                            D major                                                                          Elle rejoint Justin le judoka japonais. </p> <p>Personne n’ignore en Afrique Que déjà pour peigner mon cou C’est haut, c’est long, c’est pas pratique                                                              </p> <p>                                                                                                        20th century                                                                                                         Elle rejoint Justin le judoka japonais. </p> <p>S’en va au Japon. </p> <p>De quel animal parle-t-on dans cette chanson ? Posiłek w Paryż: Zobacz recenzje podróżników Tripadvisor (32) 17 687 restauracji w Paryż i wyszukuj wg kuchni, ceny, lokalizacji i innych. Enregistré en septembre 1974 au studio I.P. De quel animal parle-t-on dans cette chanson ? S’en va au Japon. </p> <p>                                                             </p> <p>                                                         </p> <p>Paroles.net dispose d’un accord de licence de paroles de chansons avec la Paroles de la chanson La Girafe par Emma Daumas Enfants ne soyez pas de ceux Qui croient que peigner la girafe Est un travail de paresseux Rien n’est plus faux, faites-y gaffe.                                                                                                      Guitar (ad lib)                                     </p> <p>Découvrez le clip et les paroles de la chanson La Girafe de Annick, tiré de l’album disponible gratuitement sur Jukebox.fr !                                             Instruments (ad lib)                    					                                             unisson                                                                (1                                                                                     unison voices) La girafe traduction des paroles. Le plus haut sommet de Madagascar est un pic volcanique de 2876 m, le Maromokotro. Voici les paroles de la chanson : Madame la girafe en joli jupon. Les cookies assurent le bon fonctionnement de nos services. ... C'est la 5e plus grande ile de l'océan indien. Giraffe und Wetter, Süd-und Ostwind, Streckt Ihren Hals auf lalouette, Deutsche Übersetzung der Text. Madame Jeanne, la girafe (Elle avait deux longues jambes), by Paul Moors. English translation of La girafe by Gregoire.                                                                                                      </p> <p>En utilisant ces derniers, vous acceptez l'utilisation des cookies. Deutsch translation of La girafe by Gregoire.                                             Children </p> <p>Vérifiez les traductions 'girafe' en Tamoul. Text by Paul Moors, in French. </p> <p>                                                     Released in 1978 on CBS (catalog no. Madame la girafe en joli jupon. </p> <p>                     Also known as Vent du nord et vent de louest lyrics. Les hauts plateaux couvrent près de 60 % de la surface de l'ile.          </p> <p>La girafe avait une angine / Madame, je vous vois..., a Single by Pierre Louki. (-> d’une girafe) </p> <p>Madame la girafe On voudrait savoir si on est heureux là-haut Pour vous je voudrais être un oiseau Pour vous je voudrais être un oiseau Pour vous je voudrais être un oiseau un oiseau Mon petit enfant Mon petit enfant On est bien partout Là-haut aussi bien qu'en as Tu le verras quand tu seras grand </p> <p>En utilisant ces derniers, vous acceptez l'utilisation des cookies. - Paris En pyjama rouge et à rayures jaunes. </p> <p>View credits, reviews, tracks and shop for the 1974 Vinyl release of Chansons Pour De Vrai on Discogs. </p> <p> Cherchez des exemples de traductions girafe dans des phrases, écoutez à la prononciation et apprenez la grammaire. </p>";s:7:"keyword";s:24:"madame la girafe paroles";s:5:"links";s:7054:"<a href='https://backyard.synpat.com/site/article.php?page=chanson-refrain-oh-oh-oh-2017-88a0eb'>Chanson Refrain Oh Oh Oh 2017</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Zidane-drapeau-algerie-88a0eb'>Zidane Drapeau Algerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=halo-beyonc%C3%A9-signification-88a0eb'>Halo Beyoncé Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=track-milford-sound-88a0eb'>Track Milford Sound</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=animation-f%C3%AAte-foraine-88a0eb'>Animation Fête Foraine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-korean-fashion-avis-88a0eb'>The Korean Fashion Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-bio-saint-denis-974-88a0eb'>Magasin Bio Saint-denis 974</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-pour-un-contrat-pec-88a0eb'>Lettre De Motivation Pour Un Contrat Pec</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-premier-league-2018-2019-88a0eb'>Maillot Premier League 2018 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livre-50-nuances-de-patates-douces-88a0eb'>Livre 50 Nuances De Patates Douces</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ap%C3%A9ritif-koh-lanta-88a0eb'>Apéritif Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soka-france-buros-88a0eb'>Soka France Buros</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soprano-duo-2020-88a0eb'>Soprano Duo 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cbet-autoris%C3%A9-en-france-88a0eb'>Cbet Autorisé En France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laurent-delahousse-couple-88a0eb'>Laurent Delahousse Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traitement-m%C3%A9diatique-covid-88a0eb'>Traitement Médiatique Covid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=produit-musculation-prise-de-masse-88a0eb'>Produit Musculation Prise De Masse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Claire-Chazal-2012-88a0eb'>Claire Chazal 2012</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=4-mois-sans-musculation-88a0eb'>4 Mois Sans Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mot-inverse-miroir-88a0eb'>Mot Inverse Miroir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-fenerbah%C3%A7e-2005-88a0eb'>Effectif Fenerbahçe 2005</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bon-anniversaire-christelle-humour-88a0eb'>Bon Anniversaire Christelle Humour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-de-musique-2018-88a0eb'>Film De Musique 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9sentatrice-m%C3%A9t%C3%A9o-cnews-hinatea-chatal-88a0eb'>Présentatrice Météo Cnews Hinatea Chatal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-dcp-9020cdw-catalina-88a0eb'>Brother Dcp 9020cdw Catalina</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-2020-episode-6-replay-88a0eb'>Koh-lanta 2020 Episode 6 Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-salon-codycross-88a0eb'>Synonyme De Salon Codycross</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elle-est-d%27ailleurs-the-voice-88a0eb'>Elle Est D'ailleurs The Voice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tapis-synonyme-7-lettres-88a0eb'>Tapis Synonyme 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acdc-if-you-want-blood-full-album-88a0eb'>Acdc If You Want Blood Full Album</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=haaland-my-city%2C-not-yours-88a0eb'>Haaland My City, Not Yours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=map-toboggan-fortnite-michou-88a0eb'>Map Toboggan Fortnite Michou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=darcheville-fc-nantes-88a0eb'>Darcheville Fc Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boutique-souvenir-bidart-88a0eb'>Boutique Souvenir Bidart</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-micro-4%2F3-leica-88a0eb'>Objectif Micro 4/3 Leica</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9rone---rom%C3%A9o-et-juliette-paroles-88a0eb'>Vérone - Roméo Et Juliette Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gros-tubercule-farineux-en-4-lettres-88a0eb'>Gros Tubercule Farineux En 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=atl%C3%A9tico-madrid-vs-liverpool-sofascore-88a0eb'>Atlético Madrid Vs Liverpool Sofascore</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-minimum-pays-bas-par-heure-88a0eb'>Salaire Minimum Pays-bas Par Heure</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=universit%C3%A9-synonyme-3-lettres-88a0eb'>Université Synonyme 3 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pascal-le-boulanger-stoneham-88a0eb'>Pascal Le Boulanger Stoneham</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-mention-synonyme-88a0eb'>Faire Mention Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=machine-pectoraux-butterfly-88a0eb'>Machine Pectoraux Butterfly</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9v%C3%A8nement-historique-new-york-88a0eb'>évènement Historique New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-tam-tam-africain-88a0eb'>Musique Tam Tam Africain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-programme-a-recours-au-placement-de-produit-netflix-88a0eb'>Ce Programme A Recours Au Placement De Produit Netflix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compo-rebelle-tft-88a0eb'>Compo Rebelle Tft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=imprimante-brother-dcp-195c-probl%C3%A8me-88a0eb'>Imprimante Brother Dcp-195c Problème</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-prend-ursula-la-sorci%C3%A8re-de-la-mer-%C3%A0-ariel%2C-la-petite-sir%C3%A8ne-88a0eb'>Que Prend Ursula La Sorcière De La Mer à Ariel, La Petite Sirène</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dessin-undertale-chara-88a0eb'>Dessin Undertale Chara</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-korean-fashion-avis-88a0eb'>The Korean Fashion Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandra-occupation-double-bali-88a0eb'>Alexandra Occupation Double Bali</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9sidence-de-la-r%C3%A9publique-du-s%C3%A9n%C3%A9gal-88a0eb'>Présidence De La République Du Sénégal</a>,
+";s:7:"expired";i:-1;}

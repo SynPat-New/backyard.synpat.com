@@ -1,0 +1,87 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4810:"<p>Profil sociodémographique 2016 - Montréal-Nord[2,4 Mo - 42 pages] 2. Montréal en statistiques; Par sujet; Par territoire; Par carte; Suivez-nous sur : Twitter; Publications; Infolettre - Archives; Liens utiles; Équipe; Nouveautés; Plan du site; Communiquez avec nous. Annuaire statistique de l’agglomération de Montréal – 2016Fichier Excel [260 ko] Profil sociodémographique de l’agglomération de Montréal - 2016 [2,4 Mo - 40 pages] Bilan économique 2018 de l’agglomération de Montréal [1,5 Mo - 29 pages] Région métropolitaine de </p> <p>Tous les détails Femmes selon la connaissance des langues officielles - Agglomération, ville de Montréal et ses arrondissements, villes liées, 2011 (2 tableaux)[96 ko – 2 pages] Hommes selon la connaissance des langues officielles - Agglomération, ville de Montréal et ses arrondissements, villes liées, 2011 (2 tableaux) [96 ko – 2 pages]  Ville de Montréal Montréal en statistiques Par territoire. S'informer Avec un report des décisions d'affaires en contexte de pandémie, le marché des bureaux locatifs montréalais a connu une activité modérée au 2e trimestre 2020. Tous les détails dans le Pouls de l'économie sur l'immobilierSelon le Baromètre des affaires de la Fédération canadienne de l'entreprise indépendante (FCEI), l'indice de confiance des PME du Québec s'est établi à 39,6 en juillet, en hausse de 1,5 point par rapport à celui de 38,1 enregistré en juin. Montréal en statistiques; Par sujet; Par territoire; Par carte; Suivez-nous sur : Twitter; Publications; Infolettre - Archives; Liens utiles; Équipe; Nouveautés; Plan du site; Communiquez avec nous. 1. </p> <p>Les profils sociodémographiques présentent les données du recensement de la population de Statistique Canada, soit le nombre d’habitants, l’âge, le sexe, l’état matrimonial, les familles et les ménages, le logement et les coûts d’habitation, la langue, la mobilité et la migration, l’immigration, les minorités visibles, le travail, la scolarité et les revenus. Découvrez les services en ligne offerts par la Ville de Montréal.Règlements municipaux, permis, constats d’infraction, réclamations à la Ville, cour municipale.Répertoire communautaire, accessibilité universelle, étudier à Montréal.Eau, air, sol, matières résiduelles, milieux naturels, changements climatiques, pesticides.Informations pratiques sur votre compte de taxes, les lois et règlements ainsi que les programmes d’aide en habitation.Déchets domestiques, recyclage, propreté, remorquage, déneigement.Services d’urgence, police de quartier, pompiers, inspection des aliments, gestion animalière.Plan de transport, grands chantiers, transport en commun et informations pour les conducteurs de voitures.Grands dossiers, organigramme de la Ville, arrondissements.Expositions virtuelles, archives et musées d’histoireFestivals, spectacles, expositions et grands événements sportifsActivités saisonnières, installations sportives, parcs et jardins.Démarrer une entreprise, financement, nouvelles économiquesPlan d'urbanisme, projets urbains, schéma d’aménagement.Comité exécutif, conseil municipal, conseils d’arrondissement, conseil d’agglomérationConsultations publiques, charte montréalaise des droits et responsabilités, conseils consultatifs, démocratie participative.Visites du hall d'honneur, expositions et informations sur les armoiries et le drapeau de la Ville.Les citoyens qui ont des questions peuvent les soumettre par courriel à Toutes les publications produites par Montréal en statistiques sont disponibles gratuitement dans le site Internet. Par territoire. Montréal en statistiques est une équipe dédiée à la recherche, la collecte, l'analyse et la diffusion de statistiques reliées à la dimension socio-économique de l'agglomération de Montréal et de ses composantes territoriales (villes et arrondissements). </p> <p>Par carte. Banque d'information 311                        (pour voir la répartition géographique de la population et de l’emploi.) </p> <p>Ville de Montréal Montréal en statistiques Par carte. Tous les détails dans le Pouls de l'économie Immobilier - bureaux.Le marché montréalais de l'immobilier industriel a traversé la tempête provoquée par la pandémie de la COVID-19 avec résilience au 2e trimestre 2020, selon ce que rapportent les analystes de la firme CBRE. En tant qu’expert de la destination touristique de Montréal et des grands enjeux du développement économique montréalais, Tourisme Montréal produit de nombreux rapports de recherche et documents d'information visant à outiller ses partenaires et autres acteurs de l'industrie sur l'évolution du tourisme dans la métropole et à en comprendre les enjeux. </p>";s:7:"keyword";s:25:"montréal en statistiques";s:5:"links";s:3666:"<a href='https://backyard.synpat.com/site/article.php?page=avicii-hey-brother-clip-officiel-88a0eb'>Avicii Hey Brother Clip Officiel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=farewell-angelina-sens-88a0eb'>Farewell Angelina Sens</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Clube-Desportivo-de-Tondela-88a0eb'>Clube Desportivo De Tondela</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=smartphone-meilleur-autonomie-2018-88a0eb'>Smartphone Meilleur Autonomie 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creatine-toute-l%27ann%C3%A9e-88a0eb'>Creatine Toute L'année</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dioc%C3%A8se-de-rennes-nominations-2020-88a0eb'>Diocèse De Rennes Nominations 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=foals-neptune-lyrics-88a0eb'>Foals Neptune Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-est-le-compagnon-de-michel-fau%3F-88a0eb'>Qui Est Le Compagnon De Michel Fau?</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beurre-d%27amande-ricardo-88a0eb'>Beurre D'amande Ricardo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brentford-vs-barnsley-chaine-astra-88a0eb'>Brentford Vs Barnsley Chaine Astra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=love-o2o-film-vostfr-88a0eb'>Love O2o Film Vostfr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Chaussure-Benjamin-Mendy-88a0eb'>Chaussure Benjamin Mendy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-sanchez-wikip%C3%A9dia-88a0eb'>Guillaume Sanchez Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=smule-sur-mac-88a0eb'>Smule Sur Mac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=groupement-pharmacie-univers-88a0eb'>Groupement Pharmacie Univers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=donner-du-temps-au-temps-en-anglais-88a0eb'>Donner Du Temps Au Temps En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A0-cause-traduction-espagnol-88a0eb'>à Cause Traduction Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mercurial-vapor-orange-88a0eb'>Mercurial Vapor Orange</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=distingu%C3%A9e-7-lettres-88a0eb'>Distinguée 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trouble-en-4-lettres-88a0eb'>Trouble En 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nutri-and-co-spiruline-88a0eb'>Nutri And Co Spiruline</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=commune-mixte-des-braz-88a0eb'>Commune Mixte Des Braz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-l%27ile-au-tresor-episode-13-88a0eb'>Koh Lanta L'ile Au Tresor Episode 13</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=au-bouchon-gourmand-tremblay-en-france-88a0eb'>Au Bouchon Gourmand Tremblay-en-france</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mais-en-vain-larousse-88a0eb'>Mais En Vain Larousse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-consultant-ind%C3%A9pendant-88a0eb'>Salaire Consultant Indépendant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inter-milan-direct-88a0eb'>Inter Milan Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podium-olivier-mag-88a0eb'>Podium Olivier Mag</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fulham-out-mma-88a0eb'>Fulham Out Mma</a>,
+";s:7:"expired";i:-1;}

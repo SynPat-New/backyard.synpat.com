@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4086:"<br> But(s) Club Depuis; 1 G: Gianluca Pagliuca: …                                  Il évoluait au poste de gardien de but .  But after Cynthia quits the police force and becomes a bodyguard, the film becomes repetitive and starts to drag. Her lover gets killed by a woman named Nina, who is later caught. Christian Moro is an actor, known for La Haine (1995), Sandra et les siens (2000) and La cité de la peur (1994). Dette var … <br> <br>                3 of 3 people found this review helpful.                        The absolutely gorgeous Lydie Denier (who really caught my eye in a couple of "Acapulco H.E.A.T" episodes I happened to watch) playing a truly evil bi*ch is a definite plus, but the lack of a proper showdown between her and Rothrock is a disappointment. Teaming up with her is her sister Joyce, a news reporter; Dragon, Tracy's ...                 When she goes to see him, he tells her he wants to hire her to protect him. Because of his death McKay leaves the force. Gardiens de but 01 Francesco Toldo ... finaliste en 1970 et 1994, et troisième en 1990). Because of his death McKay leaves the force. FBI agent Tracy Pride is on a mission to capture businessman Jason Slade, who is involved in extortion and murder. Effectif. Numéro / Nom Équipe actuelle Date de naissance et âge* J. Buts; Gardiens de but 01 Francesco Toldo: Fiorentina: 2 …     An undercover cop teams up with a martial-arts expert to stop a gang of drug smugglers and car thieves.          With Cynthia Rothrock, Daniel McVicar, Lydie Denier, Marshall R. Teague. So McKay stays to protect Hobbs and to get Nina. You must be a registered user to use the IMDb rating plugin. A security specialist (Nancy Bolan) is hired to deliver a valuable computer. They convince her to help them bring down the dangerous group in this violent actioner. An artist with a rather unusual art-style literally uses all the men she likes for her artworks. She then goes back to Hobbs and finds Nina there but she doesn't do anything, instead she's looking for something but Hobbs claims not to know what she's talking about. Christine McKay is a cop.  Along the way, she meets a young boy and his grandfather, who teach her in the ways of the Lady Dragon. Watch Free on IMDb TV File:Finale de Coupe du Monde de football 1934, le gardien italien Combi à terre, son arrière Allemandi dégage.jpg. From Wikimedia Commons, the free media repository.     Sean and Billie are undercover cops and martial arts masters. After attackers kill her sister and nephew, a female psychologist becomes a defense witness by day and avenger by night. Investigating the death of a cop, they uncover a deadly ring of murder and corruption at a glitzy nightclub where the rich are ...                 Bodies begin to pile up in abandoned alleyways and the case is handed out to a homicide detective to bring in the artistic serial killer. <br> <br>                     Équipe d'Italie de football à la Coupe du monde 1994; Joueurs Encadrement technique; N° P. Nom Date de naissance Sél. <br> <br>agents. (**1/2)Looking for some great streaming picks? <br> <br>         Her lover gets killed by a woman named Nina, who is later caught.      The circuit is named after Ferrari's late founder, Enzo Ferrari, and his son, Alfredo Ferrari, who died in 1956 at age 24.The circuit has a FIA Grade One license.. It was the venue for the … Looking to cash in on the popularity of Steven Spielberg's mega-hits E.T. She and some other cops which includes her lover are pursuing some criminals. File; File history; File usage on Commons; File usage on other wikis; Size of this preview: 800 × 237 pixels. Andrea Pazzagli (né le 18 janvier 1960 à Florence et mort le 31 juillet 2011 à Punta Ala, une frazione de la commune de Castiglione della Pescaia, est un footballeur italien. Looking for some great streaming picks?      <br> <br>À noter toutefois que la dernière rencontre des deux formations lors d'un tournoi majeur s'était soldée par la victoire de la France en huitième de finale de la Coupe du monde 1986. <br>";s:7:"keyword";s:20:"gardien italien 1994";s:5:"links";s:6328:"<a href='https://backyard.synpat.com/site/article.php?page=thug-life-%28fortnite%29-88a0eb'>Thug Life (fortnite)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-souffl%C3%A9-japonais-paris-88a0eb'>Pancake Soufflé Japonais Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=si-on-s%27aimait-candidat-fanny-88a0eb'>Si On S'aimait Candidat Fanny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aston-villa---tottenham-pronostic-88a0eb'>Aston Villa - Tottenham Pronostic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-123-sebastopol-astotel-88a0eb'>Le 123 Sebastopol Astotel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-maker-go-apk-88a0eb'>Beat Maker Go Apk</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caps-lol-g2-88a0eb'>Caps Lol G2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miss-qu%C3%A9bec-2021-88a0eb'>Miss Québec 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexis-eddy-morte-de-quoi-88a0eb'>Alexis Eddy Morte De Quoi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dance-monkey-neymar-88a0eb'>Dance Monkey Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-iphone-11-pro-max-mode-d%27emploi-88a0eb'>Appareil Photo Iphone 11 Pro Max Mode D'emploi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portail-expo-2020-dubai-88a0eb'>Portail Expo 2020 Dubai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=suspendre-compte-twitter-88a0eb'>Suspendre Compte Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=electrode-slendertone-pas-cher-88a0eb'>Electrode Slendertone Pas Cher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chiffre-d%27affaire-d%27une-epicerie-88a0eb'>Chiffre D'affaire D'une Epicerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fromage-blanc-muesli-calories-88a0eb'>Fromage Blanc Muesli Calories</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=grossiste-short-femme-88a0eb'>Grossiste Short Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agence-st-immobilier-78-orgeval-88a0eb'>Agence St Immobilier 78 Orgeval</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moundir-femme-fille-88a0eb'>Moundir Femme Fille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=margau-%7C-the-voice-youtube-88a0eb'>Margau | The Voice Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-ne-fonctionne-plus-sur-safari-88a0eb'>Twitter Ne Fonctionne Plus Sur Safari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hippotel-le-touquet-t%C3%A9l%C3%A9phone-88a0eb'>Hippotel Le Touquet Téléphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=missing-2019-prime-video-88a0eb'>Missing 2019 Prime Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanel-gabrielle-parfum-prix-88a0eb'>Chanel Gabrielle Parfum Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zara-home-italie-88a0eb'>Zara Home Italie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=legging-sport-action-88a0eb'>Legging Sport Action</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neca-back-to-the-future-88a0eb'>Neca Back To The Future</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-malin-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Petit Malin Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-ne-vit-qu%27une-fois-snoopy-88a0eb'>On Ne Vit Qu'une Fois Snoopy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dylan-thiry-adoption-88a0eb'>Dylan Thiry Adoption</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-5-%C3%A9toiles-new-york-manhattan-88a0eb'>Hotel 5 étoiles New York Manhattan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avant%2Fapr%C3%A8s-koh-lanta-2020-88a0eb'>Avant/après Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-air-france-maroc-88a0eb'>Twitter Air France Maroc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pompe-%C3%A0-pied-voiture-88a0eb'>Pompe à Pied Voiture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pseudo-twitch-id%C3%A9e-88a0eb'>Pseudo Twitch Idée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comparateur-de-prix-t%C3%A9l%C3%A9phone-portable-sans-abonnement-88a0eb'>Comparateur De Prix Téléphone Portable Sans Abonnement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-pr%C3%A9nom-th%C3%A9%C3%A2tre-extrait-88a0eb'>Le Prénom Théâtre Extrait</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jet-6-lettres-88a0eb'>Jet 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%C3%A9on-de-bruxelles-bordeaux-88a0eb'>Léon De Bruxelles Bordeaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-un-petit-go%C3%BBter-rapide-88a0eb'>Faire Un Petit Goûter Rapide</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-protein-360-extreme-88a0eb'>Whey Protein 360 Extreme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-style-chopper-88a0eb'>Vélo Style Chopper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ronde-synonyme-en-10-lettres-88a0eb'>Ronde Synonyme En 10 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-d%C3%A9jeuner-m%C3%A9nopause-88a0eb'>Petit Déjeuner Ménopause</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Taille-Patrick-S%C3%A9bastien-88a0eb'>Taille Patrick Sébastien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=orange-essence-lol-88a0eb'>Orange Essence Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Bank-Of-Algeria-88a0eb'>Bank Of Algeria</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prendre-effet-d%C3%A9finition-88a0eb'>Prendre Effet Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-nessay-telephone-88a0eb'>Le Nessay Telephone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livre-musculation-2019-88a0eb'>Livre Musculation 2019</a>,
+";s:7:"expired";i:-1;}

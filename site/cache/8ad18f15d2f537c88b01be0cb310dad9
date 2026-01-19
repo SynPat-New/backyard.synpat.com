@@ -1,0 +1,136 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6170:"<p>Dans le monde des influenceurs par secteur, celui de la culture n’a rien à envier aux autres mode ou beauté : de larges communautés, un engagement conséquent et un intérêt toujours plus vif de la part de leur audience, comme des marques. We created real connections, it is one of the most powerful tools that I have ever worked with!.Groover facilitates the communication between media and artists, tremendously. 				and This is what a typical single release day looks like for David Abakan! 				Record your next album, order some merch, distribute your project, analyze your radio airplay.. 				other partners The most integrity bloggers ranking by the number of quality and engaged followers. 					Tremplin Jazz District Festival Édition #2 </p> <p>Rouge Gorge Recommended for you.  This article was translated from an article in French by David Abakan, whose blog Spread The Word is highly recommended. …  Indeed, whether or not you use the Groover platform to send your tracks, it is essential to work on recontacting medias and monitoring the internet in order to maximize your feedback and above all, not to miss the potential coverage. </p> <p>Tout de même, on peut parvenir à en distinguer quelques catégories récurrentes sur les médias sociaux.Les réseaux sociaux sont également parfois des supports artistiques.Une preuve de plus que les médias sociaux jouent un rôle dans le monde de Enfin, on peut relever l’émergence de ce que l’on qualifierait d’Des férus d’art, professionnels ou non, qui vont partager leurs trouvailles et leurs visites.Musiciens, chanteurs et groupes, ils profitent d’internet, et surtout de Twitter et Facebook, pour promouvoir leur travail et développer leur notoriété.Un phénomène se distingue tout particulièrement : les Autre chaînes musicales Youtube, les critiques, souvent humoristique, comme Hors Youtube, on retrouve bon nombre de journalistes musicaux comme Il n’y a pas que les purs scientifiques qui ont valeur d’Découvrez Kolsquare, la solution qui crée le match parfait entre les marques et +1.5M influenceurs sur 5 réseaux.Que ce soit des artistes, des critiques ou de simples vulgarisateurs, les influenceurs culture sont nombreux. 					And browse our 				and 				 This is a crucial and decisive moment that should not be missed. But before that, why is getting feedback so important?.A guide to internet monitoring and media relations follow-up for your musicThe day has come- your track or album is out, and you’re mobilizing to make it known to as many people as possible. We had no professional partners when we released our first tracks and 0 budget. I noticed a rise in the audience of the artists et more festivals want to book them. </p> <p>					influencers 				They received many tracks and made feedbacks to artists!Finalized projects, ready to be presented to brandsMedia outlets, record labels, mentors: explanations Either they take the “we’ll see” approach, hoping that if they play their music in enough places, someone will give feedback (preferably positive feedback). 				other partners </p> <p>In short, we can do better! Find Top 1000 Instagram influencers, on HypeAuditor. They use Groover and their carreer took off! In this very intense period, it’s important to understand that the work of promoting a track or a project in its entirety doesn’t stop at sending it to journalists or the media. Marketing Musical Que ce soit des artistes, des critiques ou de simples vulgarisateurs, les influenceurs du monde de la culture pullulent sur la toile. </p> <p>Ascendant Vierge - Topic 30,361 views. Thanks, David, for your insights!.We’re not going to lie to ourselves- most artists misunderstand how to get musical feedback for their careers. Or they spam their tracks to music influencers, media and labels, and then wonder why they don’t get any response. Groover saved our EP release. France Apply now Groover Success Stories. 				 				Spinnup France To keep on top of things, there are some good practices to adopt.. 3:32. Rouge Gorge — Les Primevères des Fossés - Duration: 5:20. Faites appel à leur communauté !L’Influence Marketing dans le secteur de la santé en 2020L’Influence Marketing dans le secteur de la food en 2020L’Influence Marketing dans le secteur du lifestyle/voyage en 2020L’Influence Marketing dans le secteur de l’innovation et de la technologieL’Influence Marketing dans le secteur du gaming en 2020L’Influence Marketing dans le secteur du Sport/Fitness en 2020Trouvez les meilleurs influenceurs B2B pour vos campagnes (2020)Campagne d’Influence Marketing : un must-have du Marketing !Trouver des influenceurs français et internationaux, par secteur3 types d’influenceurs culture pour vos campagnes (2020) We were able to build a strong press file and even watch one of our tracks rise on TikTok!.Single release day: a step-by-step guide by David AbakanOnce you have completed your first promotion phase and the teasing period, the big day arrives. </p> <p>					Groover x MaMA Festival 2020 - October 15th You may have noticed this recently, but sometimes a journalist or media outlet will offer to share your track, whether it’s in an article, a Spotify playlist or on their social networks. 					614 The days and weeks go by and you don’t hear from them and their promise… So you start to think that it’s never going to happen. Influenceur (Original Mix) - Duration: 3:32. </p> <p>I noticed a rise in the audience of the artists et more festivals want to book them. </p> <p>				Thanks to Groover, I was able to define my PR campaign strategy very efficiently at a low price. 				3 That’s why in this article, I’m going to give you 5 practical tips to get more or less constructive feedback about your music. The platform helps us find cool fresh tunes more rapidly than when we dig by ourselves on streaming platforms..Groover is an amazing tool. To promote your track the best way possible, use all the help you can thanks to curated experts. Hugo Ferreira Thanks to Groover, I was able to define my PR campaign strategy very efficiently at a low price. 				13 </p>";s:7:"keyword";s:26:"influenceur musique france";s:5:"links";s:9772:"<a href='https://backyard.synpat.com/site/article.php?page=safran-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Safran Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=statistique-ethnique-france-88a0eb'>Statistique Ethnique France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A8glement-de-compte-paris-15-88a0eb'>Règlement De Compte Paris 15</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=interchange-map-2020-88a0eb'>Interchange Map 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abdos-et-p%C3%A9rin%C3%A9e-88a0eb'>Abdos Et Périnée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=natural-mojo-en-pharmacie-88a0eb'>Natural Mojo En Pharmacie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-mercurial-superfly-7-88a0eb'>Nike Mercurial Superfly 7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=listen-before-i-go-karaoke-88a0eb'>Listen Before I Go Karaoke</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carrefour-gaine-amincissante-88a0eb'>Carrefour Gaine Amincissante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-d%C3%AEner-presque-parfait---youtube-88a0eb'>Un Dîner Presque Parfait - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rose-backroad-2020-test-88a0eb'>Rose Backroad 2020 Test</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-famille-suisse-88a0eb'>Blog Famille Suisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-cereal-healthy-88a0eb'>Pancake Cereal Healthy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancakes-sans-levure-et-sans-sucre-88a0eb'>Pancakes Sans Levure Et Sans Sucre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ateliers-picot-cycle-3-88a0eb'>Ateliers Picot Cycle 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chantal-h%C3%A9bert-conjoint-88a0eb'>Chantal Hébert Conjoint</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fibre-de-bambou-sant%C3%A9-88a0eb'>Fibre De Bambou Santé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-guerre-des-tomates-88a0eb'>La Guerre Des Tomates</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tony-danza-s%C3%A9rie-88a0eb'>Tony Danza Série</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zazie-speed-karaok%C3%A9-88a0eb'>Zazie Speed Karaoké</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avena-sativa-bienfaits-88a0eb'>Avena Sativa Bienfaits</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-didier-roustan-88a0eb'>Blog Didier Roustan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=corneille-chanson-g%C3%A9nocide-88a0eb'>Corneille Chanson Génocide</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shannen-doherty-et-sa-fille-88a0eb'>Shannen Doherty Et Sa Fille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-lettre-soprano-replay-88a0eb'>La Lettre Soprano Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emmanuel-todd---youtube-88a0eb'>Emmanuel Todd - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=seul-au-monde-corneille-88a0eb'>Seul Au Monde Corneille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=groupe-briand-chiffre-d%27affaires-88a0eb'>Groupe Briand Chiffre D'affaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-g%C3%A2teau-au-cacahu%C3%A8te-facile-88a0eb'>Recette Gâteau Au Cacahuète Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laurent-gerra-le-pen-88a0eb'>Laurent Gerra Le Pen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=water-world-espagne-88a0eb'>Water World Espagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Flow-t%27as-valid%C3%A9-88a0eb'>Flow T'as Validé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eaa-bcaa-diff%C3%A9rence-88a0eb'>Eaa Bcaa Différence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=white-fire-vivre-pour-survivre-streaming-88a0eb'>White Fire Vivre Pour Survivre Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t-shirt-chelsea-2020-88a0eb'>T Shirt Chelsea 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gym-senior-%C3%A9chauffement-88a0eb'>Gym Senior échauffement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=biscuit-sissy-mua-88a0eb'>Biscuit Sissy Mua</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr7-chaussure-de-ville-88a0eb'>Cr7 Chaussure De Ville</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-etait-le-plus-vieux-buteur-de-la-premier-league-88a0eb'>Qui Etait Le Plus Vieux Buteur De La Premier League</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=resto-la-mamounia-lille-88a0eb'>Resto La Mamounia Lille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tik-tok-inoxtagleshinobi-88a0eb'>Tik Tok Inoxtagleshinobi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a%C3%A9roport-londres-gatwick-d%C3%A9parts-88a0eb'>Aéroport Londres Gatwick Départs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cons%C3%A9quent-en-anglais-88a0eb'>Conséquent En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=verbe-se-sauver-88a0eb'>Verbe Se Sauver</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mass-gainer-eric-favre-88a0eb'>Mass Gainer Eric Favre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raymond-aron-les-%C3%A9tapes-de-la-pens%C3%A9e-sociologique-r%C3%A9sum%C3%A9-pdf-88a0eb'>Raymond Aron Les étapes De La Pensée Sociologique Résumé Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-paul-le-fur-medialist-88a0eb'>Jean-paul Le Fur Medialist</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=suspendre-compte-twitter-88a0eb'>Suspendre Compte Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtubeur-gaming-am%C3%A9ricain-88a0eb'>Youtubeur Gaming Américain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=j%C3%A9r%C3%A9my-nadeau-copine-88a0eb'>Jérémy Nadeau Copine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Speaker-Corner-Londres-88a0eb'>Speaker Corner Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mortelle-ad%C3%A8le-tome-4-88a0eb'>Mortelle Adèle Tome 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=universit%C3%A9-synonyme-3-lettres-88a0eb'>Université Synonyme 3 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=in%C3%A8s-loucif-origine-wikipedia-88a0eb'>Inès Loucif Origine Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-complex-fiche-technique-88a0eb'>Whey Complex Fiche Technique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ferry-ath%C3%A8nes-turquie-88a0eb'>Ferry Athènes Turquie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rider-id-deliveroo-88a0eb'>Rider Id Deliveroo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steve-reeves-superman-88a0eb'>Steve Reeves Superman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daisi-et-natascha-88a0eb'>Daisi Et Natascha</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-owe-you-nothing-88a0eb'>I Owe You Nothing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Bernard-Casoni-OM-88a0eb'>Bernard Casoni OM</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-rok-h%C3%B4tel-88a0eb'>Koh Rok Hôtel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minnie-petite-souris-ann%C3%A9e-88a0eb'>Minnie Petite Souris Année</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alex-rodriguez-sa-fortune-88a0eb'>Alex Rodriguez Sa Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-que-moi-tu-meurs-expression-88a0eb'>Plus Que Moi Tu Meurs Expression</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fond-d%27%C3%A9cran-red-dead-redemption-2-iphone-88a0eb'>Fond D'écran Red Dead Redemption 2 Iphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=to-listen-traduction-88a0eb'>To Listen Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ethan-ampadu-cheveux-88a0eb'>Ethan Ampadu Cheveux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elder-joueur-portugais-88a0eb'>Elder Joueur Portugais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-sigma-10-20-pour-canon-88a0eb'>Objectif Sigma 10-20 Pour Canon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cookie-healthy-avoine-banane-88a0eb'>Cookie Healthy Avoine Banane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=glute-challenge-day-1-88a0eb'>Glute Challenge Day 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ton-absence-po%C3%A8me-88a0eb'>Ton Absence Poème</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jax-korean-build-88a0eb'>Jax Korean Build</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nina-goern-et-son-mari-88a0eb'>Nina Goern Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-g7-88a0eb'>Code Promo G7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-d%27anniversaire-pour-ma-soeur-88a0eb'>Lettre D'anniversaire Pour Ma Soeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=C%27est-d%27ici-que-je-vous-%C3%A9cris-88a0eb'>C'est D'ici Que Je Vous écris</a>,
+";s:7:"expired";i:-1;}

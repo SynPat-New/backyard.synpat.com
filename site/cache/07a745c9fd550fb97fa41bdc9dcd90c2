@@ -1,0 +1,83 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4547:"<p></p> <p>Découvrez notre sélection d'albums gratuits et payants. Disponible en e-book ou en librairie, l'offre en bande dessinée reste foisonnante.                     d'assurer le bon fonctionnement de nos services et de recueillir des statistiques de visites.#Restezchezvous, protégez-vous, protégez les autres, Dos rouge bien complet ne présentant pratiquement aucune usure aux … Free shipping for many products! Lectures gratuites, des previews, interviews aux éditions rue de Sèvres Dargaud propose plusieurs titres de son impressionnant catalogue en libre accès. Au programme: un des meilleurs Après plusieurs histoires situées dans des mondes clos ou imaginaires, Bastien Vivès évoque dans © Copyright 2006-2020 BFMTV.com. Nous apportons tout le soin nécessaire au choix de nos occasions et BD soldées. </p> <p>Sur Rakuten, la catégorie Affiches vous permet de faire des bonnes affaires sur une large sélection de produits.      Site édité avec le concours du Centre National du Livre © Casterman 2020 Find many great new & used options and get the best deals for 904204 ) tintin au Tibet 1966 /1960 casterman Hergé at the best online prices at eBay! Magnifique édition B10 parue normalement en 1954 mais composée avec l’intérieur de l’édition originale de 1953. Etat: Occas . À cette occasion, les auteurs de BD rendent hommage à l'inclassable écrivain et chanteur. BD OCCASION / SOLDE : ce qui veut dire pas nécessairement à l’état neuf, mais loin d’être une épave. Découvrez notre sélection d'albums gratuits et payants pour rire, pleurer et s'instruire.Détail de la couverture d'Asadora de Naoki Urasawa © KanaJujutsu Kaisen © Jujutsu Kaisen © 2018 by Gege Akutami - Shueisha Inc.Quatorze Juillet, la nouvelle BD de Bastien Vivès. Impression : couleurs. combined shipping for All book.Combines shipping offer with otter item. La BD reste ouverte pendant le confinement.  Reliure : broché. Le scénariste Stéphane Melchior et le dessinateur Vincent Sorel se sont emparés de ce facétieux personnage pour raconter sa quête du secret de l'immortalité, détenu par les dieux... Une lecture parfaite pour les enfants.Au Japon, c’est l’un des plus grands succès actuels de la bande dessinée. Les librairies CANAL BD sont fermées, les libraires sont confinés, les livraisons sont arrêtées, mais délectez-vous : pour adoucir le confinement, des autrices, des auteurs et leurs éditeurs, merci à eux tous, nous offrent des bandes dessinées en ligne, que nous vous relayons ! 9-jun-2019 - Bekijk het bord "Casterman" van Gerco van Beek op Pinterest. Disponible en e-book ou en librairie, l'offre en bande dessinée reste foisonnante. Tintin Objectif Lune, édition Casterman B10 de 1954 avec intérieur de l’EO de 1953. Cahier de Vacances pour Adultes Geeks et Déviants Bekijk meer ideeën over Stripboeken, Kuifje, Grafische romans. Editeur : Casterman. En poursuivant votre navigation, vous acceptez l'utilisation de cookies Canal BD & tiers permettant  Découvrez tous les livres de Casterman. Sorti en France en février, 2020 marque le centenaire de la naissance de Boris Vian. Les librairies CANAL BD sont fermées, les libraires sont confinés, les livraisons sont arrêtées, mais délectez-vous : pour adoucir le confinement, des autrices, des auteurs et leurs éditeurs, merci à eux tous, nous offrent des bandes dessinées en ligne, que nous vous relayons ! Site édité par NextInteractiveConte, mythologie, confessions intimes, humour, aventure... La BD reste ouverte pendant le confinement. Dupuis réédite Profitez du confinement pour réviser ou découvrir les classiques. Tous droits réservés. Conte, mythologie, confession intime, humour, aventure... Demandez le programme.Jeune auteur de 42 ans passé par le cinéma et la télévision, le belge Joris Mertens a fait l'unanimité avec Célèbre personage de la littérature chinoise qui a notamment servi de modèle à Son Goku, le Roi Singe est le héros d'une nouvelle série d'albums pour la jeunesse des éditions Gallimard. Comme, en l'occurrence, la référence Affiche Bd Habibi - Craig Thompson - Casterman … CANAL-BD, le groupement des librairies spécialisées en bandes dessinées. Livres, papeterie et produits culturels sur decitre.fr, 3ème libraire sur Internet avec un million de livres disponibles Découvrez notre sélection d'albums gratuits et payants. La BD reste ouverte pendant le confinement. Achat Affiche Bd Habibi - Craig Thompson - Casterman pas cher. </p>";s:7:"keyword";s:20:"casterman bd gratuit";s:5:"links";s:3096:"<a href='https://backyard.synpat.com/site/article.php?page=valise-rtl-replay-88a0eb'>Valise Rtl Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=farine-de-lupin-danger-88a0eb'>Farine De Lupin Danger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=louane-le-chasseur-88a0eb'>Louane Le Chasseur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-taratata-%282019%29-88a0eb'>Youtube Taratata (2019)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Water-Park-Minecraft-88a0eb'>Water Park Minecraft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nerf-fortnite-sniper-prix-88a0eb'>Nerf Fortnite Sniper Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=navette-orly-roissy-prix-88a0eb'>Navette Orly Roissy Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=V-for-Vitality-88a0eb'>V For Vitality</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-marseillais-kim-et-giulia-88a0eb'>Les Marseillais Kim Et Giulia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Cardio-workout-program-88a0eb'>Cardio Workout Program</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prism-srambad-instagram-88a0eb'>Prism Srambad Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lynda-lemay-au-bout-du-chemin-88a0eb'>Lynda Lemay Au Bout Du Chemin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bourdieu-le-capital-social-pdf-88a0eb'>Bourdieu Le Capital Social Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lebouseuh-rocket-league-deathrun-88a0eb'>Lebouseuh Rocket League Deathrun</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hot-diggity-dog-88a0eb'>Hot Diggity Dog</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t%C3%A9l%C3%A9chargement-instrumental-afrobeat-88a0eb'>Téléchargement Instrumental Afrobeat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toute-la-musique-que-j%27aime-tab-basse-88a0eb'>Toute La Musique Que J'aime Tab Basse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parapluie-roi-de-la-temp%C3%AAte-88a0eb'>Parapluie Roi De La Tempête</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frites-de-patates-douces-friteuse-88a0eb'>Frites De Patates Douces Friteuse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=time-zone-canada-88a0eb'>Time Zone Canada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=belle-silva-%C3%A2g%C3%A9-88a0eb'>Belle Silva âgé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Miss-piggy-gif-88a0eb'>Miss Piggy Gif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A8me-recommand%C3%A9e-par-les-dermatologues-88a0eb'>Crème Recommandée Par Les Dermatologues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Rap-Contenders-13-88a0eb'>Rap Contenders 13</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bernard-ch%C3%A9ron-rrrr-88a0eb'>Bernard Chéron Rrrr</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,85 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4031:"<p>Découvrez des coussins de qualité sur le thème Fortnite, personnalisés par des artistes indépendants du monde entier. Users can choose from the six (6) emotes available and equip themselves with the ones that will be more useful to them on the battlefield. Yuriel Aelier 5,190,206 … Old Fortnite Sound Effects - Season 1 (HD) Leaks, Shop and Wallpaper tool! Unofficial App for Emotes, Dances, Skins, Daily Shop and other Cosmetics from the game! </p> <p>Les champs obligatoires sont indiqués avec * Commentaire * * . Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies. Fortnite: ALL 58 emotes and dances + Their real life original references [No bonuses] - Duration: 14:33. </p> <p>Enter "DEATHMULE" for support a creator in the Fornite shop. Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Fortnite: ALL 58 emotes and dances + Their real life original references [No bonuses] - Duration: 14:33. Watch Queue Queue Jeu Vidéo Et Technologie Avec Toutes Les News, Previews, Astuces, Soluces, Tests, Guides Et Tout Ce Qui Concerne Ps4, Xbox One, Ps3, Xbox 360, Nintendo Switch, Wii, Ps Vita...Consultez ici la liste de tous les Emotes disponibles dans Fortnite; y compris chaque pas de danse et leurs prix! Your browser does not support the audio element. </p> <p>Le cosmétique Grand Amour appartient au Chapitre 1 Saison 2. Découvrez les nouveautés de Fortnite Chapitre 2 - Saison 3 ! FORTNITE DANCES IN REAL LIFE THAT ARE 100% IN SYNC! THANKS!! </p> <p>All new emotes included! 9:34. Ant. Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Liste de toutes les Danses et Emotes de Fortnite en Anglais & Français, avec leur vidéo aperçu. L'ensemble Cœur royal se compose de 25 objets cosmétiques. Discover the new Fortnite Chapter 2 Season 3 twists and Dive In today! LFP Gaming 29,919,879 views. Enter "DEATHMULE" for support a creator in the Fornite shop. Votre adresse de messagerie ne sera pas publiée. Source. LFP Gaming 29,871,648 views This video is unavailable. THANKS!! Uncommon </p> <p>Grand Amour est un Danse de Fortnite type Atypique et appartient au groupe des Cœur royal.Ce emote a été diffusé lors en Fortnite Battle Royale le 11 février 2018 (Chapitre 1 Saison 2) et la dernière fois qu'il a été disponible, c'était il y a 171 jours. Laisser un commentaire Annuler la réponse. </p> <p>Fortnite dance coeur origine. 14:33 . Liste mise à jour régulièrement. Fortnite comes with different emotes (dances) that will allow users to express themselves uniquely on the battlefield. (Original Fortnite Dances in Real Life) - Duration: 9:34. </p> <p>Get all the Fortnite Battle Royale emotes and cosmetics on your phone right now! </p> <p></p> <p> La fresh dance n’est autre que la danse qu’exécute Carlton dans une des séries phares des années 90 : Le Prince de Bel Air.Pour les plus jeunes, c’est cette série, dans laquelle un jeune métis fan de rap débarque dans une banlieue chic de Philadelphie, qui a lancé la carrière de Will Smith !. Cliquez sur l'icône pour prévisualiser leur animation et leur musique!Cliquez sur les icônes Emote pour les voir en action!Cliquez sur les icônes Emote pour les voir en action!Cliquez sur les icônes Emote pour les voir en action!Cliquez sur les icônes Emote pour les voir en action! The cosmetics are from the real game. CLEAN PERFECTLY CUT SCREAMS THAT MAKE ME E part 3 - Duration: 15:19. Cette cosmétique Grand Amour peut être acheté au magasin Fortnite au prix de 200 V-Bucks lorsqu'il réapparaît dans boutique d'objets. Updated for Chapter 2. Fortnite | All Dance & Emotes (Tout le Guide Dance & Emotes) novembre 2, 2019 By Chris Watson Consultez ici la liste de tous les Emotes disponibles dans Fortnite; y … Toutes les commandes sont préparées à la demande et généralement expédiées sous 24 heures dans le monde entier. Watch Queue Queue. Cinema Of Gaming Recommended for you. </p>";s:7:"keyword";s:20:"fortnite dance coeur";s:5:"links";s:3508:"<a href='https://backyard.synpat.com/site/article.php?page=on-ne-vit-qu%27une-fois-snoopy-88a0eb'>On Ne Vit Qu'une Fois Snoopy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coumba-mohamed-koh-lanta-88a0eb'>Coumba Mohamed Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A9rard-loussine-doublage-88a0eb'>Gérard Loussine Doublage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aliments-riches-en-om%C3%A9ga-6-88a0eb'>Aliments Riches En Oméga-6</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roue-%C3%A0-baton-triathlon-88a0eb'>Roue à Baton Triathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-bourgoin-jallieu-15-jours-88a0eb'>Météo Bourgoin-jallieu 15 Jours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marc-menant-coronavirus-88a0eb'>Marc Menant Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2019---youtube-88a0eb'>Fort Boyard 2019 - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=martika-caringella-entrepreneur-88a0eb'>Martika Caringella Entrepreneur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dont-worry-be-happy-mp3-88a0eb'>Dont Worry Be Happy Mp3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diff%C3%A9rence-entre-g%C3%A9rondif-et-participe-pr%C3%A9sent-en-anglais-88a0eb'>Différence Entre Gérondif Et Participe Présent En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drap-de-plage-88a0eb'>Drap De Plage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coloriage-vaiana-maui-88a0eb'>Coloriage Vaiana Maui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lara-fabian-jeune-88a0eb'>Lara Fabian Jeune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dan-axel-zagadou-psg-88a0eb'>Dan-axel Zagadou Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=itin%C3%A9raire-canal-du-midi-en-bateau-88a0eb'>Itinéraire Canal Du Midi En Bateau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agatha-christie-oeuvres-compl%C3%A8tes-le-masque-88a0eb'>Agatha Christie Oeuvres Complètes Le Masque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-derni%C3%A8re-le%C3%A7on---film-complet-88a0eb'>La Dernière Leçon - Film Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-refrain-oh-oh-oh-2017-88a0eb'>Chanson Refrain Oh Oh Oh 2017</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clo-instagram-koh-lanta-88a0eb'>Clo Instagram Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9quence-osn-nilesat-2020-88a0eb'>Fréquence Osn Nilesat 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mahmoud-darwich-rita-88a0eb'>Mahmoud Darwich Rita</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valouzz-minecraft-mcdo-88a0eb'>Valouzz Minecraft Mcdo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gestion-epi-excel-gratuit-88a0eb'>Gestion Epi Excel Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gerra-rtl-youtube-aujourd%27hui-88a0eb'>Gerra Rtl Youtube Aujourd'hui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=robe-d%27%C3%A9t%C3%A9-longue-88a0eb'>Robe D'été Longue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boulangerie-ange-avis-88a0eb'>Boulangerie Ange Avis</a>,
+";s:7:"expired";i:-1;}

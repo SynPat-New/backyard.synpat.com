@@ -1,0 +1,471 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+		<style>
+			.banner-panel{
+				height: 45px;
+				overflow:hidden;
+				width:100%;
+			}
+			.banner-panel-box-shadow{
+				box-shadow: 0 3px 4px 0 rgba(0,0,0,.15)
+			}
+			.banner-title{
+				float:left;
+				font-size:14px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				cursor: default;
+				font-weight: 500;
+			}
+			.banner-title p{
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: pre;
+				margin: 12px 0;
+			}
+			.bg-color{
+				background-color:rgb(249, 249, 249);
+			}
+			.height-small{
+				height:145px;
+			}
+			.height-medium{
+				height:300px;
+			}
+			.height-large{
+				height:453px;
+			}
+			.dbrd-control-container{
+				background-color:#fff;
+				box-shadow:0 2px 6px 0 rgba(0,0,0,.07);
+			}
+			.color-blue{color:#39669a;}
+			.color-red{color:#ff5151;}
+			.color-dark-blue{color:#214666;}
+			.google-visualization-controls-rangefilter .google-visualization-controls-label{margin-0;padding:0;display:inline;}
+		</style>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		
+		<script type="text/javascript">
+			google.charts.load('current', {'packages':['corechart', 'bar', 'controls']});
+			google.charts.setOnLoadCallback(drawVisualization);
+			
+			function drawVisualization() {
+				control1 = createDashboard1();
+				control2 = createDashboard2();
+				control3 = createDashboard3();
+				control4 = createDashboard4();
+				
+				google.visualization.events.addListener(control1, 'ready', function() {
+					/*control2.setState(control1.getState());*/
+					control2.draw();
+					control3.draw();
+					control4.draw();
+					setTimeout(() => {
+						cleanAllCircles();
+					}, 1500);
+				});
+			}
+			
+			
+			
+			function cleanAllCircles(){
+				let containers = ['current_ratio_chart', 'dsi_chart', 'dso_chart', 'dpo_chart'];
+				containers.forEach( container => {
+					let element = document.getElementById(container);
+					let allCircles = element.querySelectorAll("circle");
+					console.log(allCircles);
+					Array.prototype.forEach.call(allCircles, function(circle, i) {
+						if(i == allCircles.length -1){
+							circle.remove();
+						} else {
+							circle.setAttribute('fill', '#fff');
+							circle.setAttribute('stroke', '#fff');
+						}
+					});
+					let findPath = element.querySelector("path[stroke='#c63310']");
+					if(findPath != null){
+						findPath.setAttribute('fill', '#5B6472');
+						findPath.setAttribute('stroke', '#5B6472');
+					}
+					let findTickPath = element.querySelector("path[stroke='#333333']");
+					if(findTickPath != null){
+						findTickPath.remove();
+					}
+					let text = element.querySelector("text[text-anchor='middle']");
+					if(text != null){
+						text.remove();
+					}
+				});				
+			}
+			
+			function createDashboard1() {
+				var data = google.visualization.arrayToDataTable([
+					['Label', 'Value','Current Ratio','DSI','DSO','DPO'],
+					['Memory', 80, 1.86, 10, 7, 28]
+				]);
+				
+				var programmaticSlider = new google.visualization.ControlWrapper({
+				  'controlType': 'NumberRangeFilter',
+				  'containerId': 'programmatic_control_div',
+				  'options': {
+					'filterColumnLabel': 'Current Ratio',
+					'ui': {'labelStacking': 'vertical'}
+				  }
+				});
+				
+				var currentRatioChart  = new google.visualization.ChartWrapper({
+				  'chartType': 'Gauge',
+				  'containerId': 'current_ratio_chart',
+				  'options': {
+					width: '100%',
+					'height': 300,
+					min:0,
+					max:3,
+					'redColor':'#39669A','redFrom': 1.75, 'redTo': 1.90,'yellowColor':'#39669A','yellowFrom':0, 'yellowTo': 1.75,'greenColor':'#E0E0E0','greenFrom':1.90,'greenTo':3,'minorTicks': 0,
+					'legend': 'none',showTickValues: 0,
+					'chartArea': {'left': 15, 'top': 15, 'right': 0, 'bottom': 0},
+				  },
+				  view:{
+					columns:[0,2]
+				  }
+				});		
+				var dsiChart  = new google.visualization.ChartWrapper({
+				  'chartType': 'Gauge',
+				  'containerId': 'dsi_chart',
+				  'options': {
+					width: '100%',
+					'height': 300,
+					min:0,
+					max:15,
+					'redColor':'#FFB027','yellowColor':'#FFB027','greenColor':'#E0E0E0',
+					'redFrom': 8, 'redTo': 12,'yellowFrom':0, 'yellowTo': 8,'greenFrom':12,'greenTo':15,'minorTicks': 0,showTickValues: 0,
+					'legend': 'none',
+					'chartArea': {'left': 15, 'top': 15, 'right': 0, 'bottom': 0},
+				  },
+				  view:{
+					columns:[0,3]
+				  }
+				});	
+				var dsoChart  = new google.visualization.ChartWrapper({
+				  'chartType': 'Gauge',
+				  'containerId': 'dso_chart',
+				  'options': {
+					width: '100%',
+					'height': 300,
+					min:0,
+					max:15,
+					'redColor':'#FF5151','yellowColor':'#FF5151','greenColor':'#E0E0E0',
+					'redFrom': 5, 'redTo': 10,'yellowFrom':0, 'yellowTo': 5,'greenFrom':10,'greenTo':15,'minorTicks': 0,showTickValues: 0,
+					'legend': 'none',
+					'chartArea': {'left': 15, 'top': 15, 'right': 0, 'bottom': 0},
+				  },
+				  view:{
+					columns:[0,4]
+				  }
+				});	
+				var dpoChart  = new google.visualization.ChartWrapper({
+				  'chartType': 'Gauge',
+				  'containerId': 'dpo_chart',
+				  'options': {
+					width: '100%',
+					'height': 300,
+					min:0,
+					max:100,
+					'redColor':'#00A362','yellowColor':'#00A362','greenColor':'#E0E0E0',
+					redFrom: 50, redTo: 85,yellowFrom:0, yellowTo: 50,'greenFrom':85,'greenTo':100,minorTicks: 0,showTickValues: 0,
+					'legend': 'none',
+					'chartArea': {'left': 15, 'top': 15, 'right': 0, 'bottom': 0},
+					'pieSliceText': 'value'
+				  },
+				  view:{
+					columns:[0,5]
+				  }
+				});
+				
+				var dashboard = new google.visualization.Dashboard(document.getElementById('programmatic_dashboard_div'));
+				
+				dashboard.bind(programmaticSlider, [currentRatioChart, dsiChart, dsoChart, dpoChart]);
+				dashboard.draw(data);
+				
+				return programmaticSlider;
+			}
+			
+			function createDashboard2() {
+				var dataColumn = new google.visualization.DataTable();
+					dataColumn.addColumn('timeofday', 'Time of Day');
+					dataColumn.addColumn('number', 'Motivation Level');
+					dataColumn.addColumn('number', 'Energy Level');
+
+					dataColumn.addRows([
+						[{v: [8, 0, 0], f: '8 am'}, 1, .25],
+						[{v: [9, 0, 0], f: '9 am'}, 2, .5],
+						[{v: [10, 0, 0], f:'10 am'}, 3, 1],
+						[{v: [11, 0, 0], f: '11 am'}, 4, 2.25],
+						[{v: [12, 0, 0], f: '12 pm'}, 5, 2.25],
+						[{v: [13, 0, 0], f: '1 pm'}, 6, 3],
+						[{v: [14, 0, 0], f: '2 pm'}, 7, 4],
+						[{v: [15, 0, 0], f: '3 pm'}, 8, 5.25],
+						[{v: [16, 0, 0], f: '4 pm'}, 9, 7.5],
+						[{v: [17, 0, 0], f: '5 pm'}, 10, 10],
+					]);
+				var columnSlider = new google.visualization.ControlWrapper({
+				  'controlType': 'NumberRangeFilter',
+				  'containerId': 'column_control_div',
+				  'options': {
+					'filterColumnLabel': 'Motivation Level',
+					'ui': {'labelStacking': 'vertical'}
+				  }
+				});
+				
+				var columnChart  = new google.visualization.ChartWrapper({
+				  'chartType': 'ColumnChart',
+				  'containerId': 'column_chart',
+				  'options': {
+					'width': '100%',
+					'height': 453,
+					colors: ['#39669A', '#FF5151'],
+					hAxis: {
+					  title: 'Time of Day',
+					  format: 'h:mm a',
+					  viewWindow: {
+						min: [7, 30, 0],
+						max: [17, 30, 0]
+					  }
+					},
+					vAxis: {
+					  title: 'Rating (scale of 1-10)'
+					}
+				  }
+				});
+				
+				var dashboard = new google.visualization.Dashboard(document.getElementById('programmatic_dashboard_div'));
+				
+				dashboard.bind(columnSlider, [columnChart]);
+				dashboard.draw(dataColumn);
+				
+				return columnSlider;
+			}
+
+			function createDashboard3(){
+				var data = new google.visualization.DataTable();
+					data.addColumn('number', 'X');
+					data.addColumn('number', 'Dogs');
+					data.addColumn('number', 'Cats');
+
+					data.addRows([
+						[0, 0, 0],    [1, 10, 5],   [2, 23, 15],  [3, 17, 9],   [4, 18, 10],  [5, 9, 5],
+						[6, 11, 3],   [7, 27, 19],  [8, 33, 25],  [9, 40, 32],  [10, 32, 24], [11, 35, 27],
+						[12, 30, 22], [13, 40, 32], [14, 42, 34], [15, 47, 39], [16, 44, 36], [17, 48, 40],
+						[18, 52, 44], [19, 54, 46], [20, 42, 34], [21, 55, 47], [22, 56, 48], [23, 57, 49],
+						[24, 60, 52], [25, 50, 42], [26, 52, 44], [27, 51, 43], [28, 49, 41], [29, 53, 45],
+						[30, 55, 47], [31, 60, 52], [32, 61, 53], [33, 59, 51], [34, 62, 54], [35, 65, 57],
+						[36, 62, 54], [37, 58, 50], [38, 55, 47], [39, 61, 53], [40, 64, 56], [41, 65, 57],
+						[42, 63, 55], [43, 66, 58], [44, 67, 59], [45, 69, 61], [46, 69, 61], [47, 70, 62],
+						[48, 72, 64], [49, 68, 60], [50, 66, 58], [51, 65, 57], [52, 67, 59], [53, 70, 62],
+						[54, 71, 63], [55, 72, 64], [56, 73, 65], [57, 75, 67], [58, 70, 62], [59, 68, 60],
+						[60, 64, 56], [61, 60, 52], [62, 65, 57], [63, 67, 59], [64, 68, 60], [65, 69, 61],
+						[66, 70, 62], [67, 72, 64], [68, 75, 67], [69, 80, 72]
+					]);
+					
+				var lineSlider = new google.visualization.ControlWrapper({
+				  'controlType': 'NumberRangeFilter',
+				  'containerId': 'line_control_div',
+				  'options': {
+					'filterColumnLabel': 'Dogs',
+					'ui': {'labelStacking': 'vertical'}
+				  }
+				});
+				
+				var columnChart  = new google.visualization.ChartWrapper({
+				  'chartType': 'LineChart',
+				  'containerId': 'line_chart',
+				  'options': {
+					'width': '100%',
+					'height': 453,
+					colors: ['#39669A', '#FFB027'],
+					hAxis: {
+					  title: 'Time'
+					},
+					vAxis: {
+					  title: 'Popularity'
+					},
+					pointsVisible: true	
+				  }
+				});
+				
+				var dashboard = new google.visualization.Dashboard(document.getElementById('programmatic_dashboard_div'));
+				
+				dashboard.bind(lineSlider, [columnChart]);
+				dashboard.draw(data);
+				
+				return lineSlider;
+			}
+			
+			function createDashboard4(){
+				var data = new google.visualization.DataTable();
+					data.addColumn('string', 'Topping');
+					data.addColumn('number', 'Nescafe Instant');
+					data.addColumn('number', 'Folgers Instant');
+					data.addColumn('number', 'Nescafe Beans');
+					data.addColumn('number', 'Folgers Beans');
+					data.addRows([
+						['2001', 321, 621, 816, 319],
+						['2002', 163, 231, 539, 594],
+						['2003', 125, 819, 123, 578],
+						['2004', 197, 536, 613, 298]
+					]);
+					
+				var lineSlider = new google.visualization.ControlWrapper({
+				  'controlType': 'NumberRangeFilter',
+				  'containerId': 'stack_control_div',
+				  'options': {
+					'filterColumnLabel': 'Nescafe Instant',
+					'ui': {'labelStacking': 'vertical'}
+				  }
+				});
+				
+				var columnChart  = new google.visualization.ChartWrapper({
+					'chartType': 'ColumnChart',
+					'containerId': 'stack_chart',
+					options: {
+						isStacked: true,
+						colors: ['#39669A', '#FFB027', '#00A362', '#FF5151'],
+						width: '100%',
+						height: 453,
+						chart: {
+							title: 'Year-by-year coffee consumption',
+							subtitle: 'This data is not real'
+						},
+						vAxis: {
+							viewWindow: {
+								min: 0,
+								max: 1000
+							}
+						}
+					}
+				});
+				
+				var dashboard = new google.visualization.Dashboard(document.getElementById('programmatic_dashboard_div'));
+				
+				dashboard.bind(lineSlider, [columnChart]);
+				dashboard.draw(data);
+				
+				return lineSlider;
+			}
+			window.addEventListener("resize", drawVisualization);
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid" id="programmatic_dashboard_div">
+			<div class="row">				
+				<div class="banner-panel banner-panel-box-shadow">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="banner-title">
+							<p>Financial Management</p>
+						</div>
+						<div class="row">
+							<div id="programmatic_control_div" class="col-lg-3"></div>
+							<div id="column_control_div" class="col-lg-3"></div>
+							<div id="line_control_div" class="col-lg-3"></div>
+							<div id="stack_control_div" class="col-lg-3"></div>
+						</div>						
+					</div>
+				</div>
+			</div>
+			<div class="row bg-color">
+				<div class="col-lg-6 col-md-6 col-sm-6">	
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4 p-0 pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row h-100">
+									<div class="col-sm-12 my-auto">
+										<div class="text-center">
+											Total Accounts Payable
+										</div>
+										<div class="text-center color-blue">
+											<h3>$1,630,270</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 p-0 pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row h-100">
+									<div class="col-sm-12 my-auto">
+										<div class="text-center">
+											Total Accounts Payable
+										</div>
+										<div class="text-center color-red">
+											<h3>$1,630,270</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 p-0 pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row">
+									<div class="col-sm-12 text-center pt-2"><h3><small class="text-muted">Equity Ratio</small></h3></div>
+									<div class="col-sm-12 text-center pt-2"><h1 class="color-dark-blue">75.38 %</h1></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 p-0 pt-2">
+							<div class="dbrd-control-container height-medium mx-1"  id="current_ratio_chart">
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 p-0 pt-2">
+							<div class="dbrd-control-container height-medium mx-1"  id="dsi_chart">
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 p-0 pt-2">
+							<div class="dbrd-control-container height-medium mx-1"  id="dso_chart">
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4 p-0 pt-1">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<div class="dbrd-control-container height-small mx-1">
+										<div class="row">
+											<div class="col-sm-12 text-center pt-2"><h3><small class="text-muted">Debt Equity</small></h3></div>
+											<div class="col-sm-12 text-center"><h1 class="color-dark-blue">1.10 %</h1></div>
+										</div>
+									</div>
+								</div>							
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<div class="dbrd-control-container m-1 mt-2 height-medium mx-1" id="dpo_chart">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8 p-0 pt-1">							
+							<div class="col-lg-12 col-md-12 col-sm-12 p-0">
+								<div class="dbrd-control-container height-large mx-1"  id="column_chart">
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>			
+				<div class="col-lg-6 col-md-6 col-sm-6 p-0">
+					<div class="mt-1 dbrd-control-container height-large mx-1"  id="line_chart">
+					
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 p-0">
+					<div class="mt-1 dbrd-control-container height-large mx-1"  id="stack_chart">
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

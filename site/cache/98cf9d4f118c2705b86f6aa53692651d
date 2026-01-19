@@ -1,0 +1,89 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5040:"<br>                                                                                                                                                                  <br> <br>             <br> <br>                                                 Découvrez ce diaporama et partagez-le à vos amis.                                                                                                                                                                                                                                       Les Anges                                                                     NRJ Music Awards                                                                                                                                                                                                                                                                    Alban (Koh-Lanta) : furieux, il interpelle le nouveau maire de Lyon sur TwitterAlban (Koh-Lanta) : furieux, il interpelle le nouveau maire de Lyon sur Twitter <br> <br>                                                                                                                                                                                                                                                                                                Les Marseillais <br>                                                                                                                                                                                               Divorce                                                                     Grammy Awards                                 à 10h30                                                                     Interviews                                                                     Pékin Express                                                                     Enfants de stars                                                                      Sur Twitter, un ancien candidat de Alban est très actif sur les réseaux sociaux.                                                 le 10 juin 2015                                                                     Livenews                                                              Partager sur Twitter; Koh-Lanta : Nessim, Jeff, Alban et les autres s'éclatent sur Twitter× Un ancien candidat de Koh-Lanta a partagé son acte héroïque sur Twitter.                                                     The Voice                  C'est le cas à Lyon, où le nouveau maire Grégory Doucet représente Europe Écologie Les Verts. <br> <br>                                                             <br> <br>                                                                                                              62                                                                                                                                                                  Oscars fr.news.yahoo.com/alban-koh-lanta-furieux-interpelle-121253081.html                                                                                                                                                      Mode                                                                                                              <br> <br>                    Un site du groupe Prisma Média (G+J Network) - CPPAP : 0215 W 90269 Aventurier sympathique et emblématique de Koh-Lanta Johor et de l'édition All-Stars de 2018, Alban est juste méconnaissable sur la photo qu'il a partagée ce samedi 16 mai sur Instagram.                                                                                                                                                             MTV Music Awards                                                                     Justin Bieber                                                                     Britney Spears  <br>                                                             Et lorsqu'il ne raconte pas avoir joué les héros pour sauver de jeunes Lyonnais, Téléchargez l'application et recevez les alertes de la rédaction en temps réel                                                                     People US <br> <br>le 16 août 2011                                                                     Lady Gaga Alban Pellegrin, ancien candidat de Koh-Lanta, est le héros de notre série AMATEUR.Son défi fou : affronter après 7 jours d'entraînement un boxeur thaï professionel.                                                                                                   Alban Pellegrin, ancien candidat de Koh-Lanta Johor et le Combat des héros, a posté un cliché choc sur Instagram.                                                                                                                                                      Musique                                                                                                                     Miss France <br>";s:7:"keyword";s:23:"alban koh lanta twitter";s:5:"links";s:4026:"<a href='https://backyard.synpat.com/site/article.php?page=film-sur-la-fin-du-monde-88a0eb'>Film Sur La Fin Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=absolue-n%C3%A9cessit%C3%A9-d%C3%A9finition-88a0eb'>Absolue Nécessité Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-simple-et-courte-gratuite-88a0eb'>Lettre De Motivation Simple Et Courte Gratuite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-ville-animal-crossing-new-horizon-88a0eb'>Nom Ville Animal Crossing New Horizon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=c%C3%A9l%C3%A9bration-haaland-psg-88a0eb'>Célébration Haaland Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shirley-medicated-cream-88a0eb'>Shirley Medicated Cream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sephora-latelier-des-subtils-88a0eb'>Sephora Latelier Des Subtils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-santiano-gratuit-88a0eb'>Partition Santiano Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=csod-maisons-du-monde-88a0eb'>Csod Maisons Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jouer-%C3%A0-motus-sur-ordinateur-88a0eb'>Jouer à Motus Sur Ordinateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arsenal-newcastle-billet-88a0eb'>Arsenal Newcastle Billet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=queen%27s-university-of-belfast-88a0eb'>Queen's University Of Belfast</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-plombier-sanitaire-d%C3%A9butant-88a0eb'>Lettre De Motivation Plombier Sanitaire Débutant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fitness-boutique-cergy-88a0eb'>Fitness Boutique Cergy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=flageolet-et-goutte-88a0eb'>Flageolet Et Goutte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarif-influenceur-linkedin-88a0eb'>Tarif Influenceur Linkedin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=extrait-de-p%C3%A9pin-de-pamplemousse-mycose-88a0eb'>Extrait De Pépin De Pamplemousse Mycose</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perte-de-poids-cancer-88a0eb'>Perte De Poids Cancer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wodapalooza-day-2-88a0eb'>Wodapalooza Day 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avoir-un-avis-88a0eb'>Avoir Un Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=besoin-vital-en-arabe-88a0eb'>Besoin Vital En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peaky-blinders-irlandais-88a0eb'>Peaky Blinders Irlandais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Kenza-Farah-Lucky-88a0eb'>Kenza Farah Lucky</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitesse-croissance-bambou-fargesia-88a0eb'>Vitesse Croissance Bambou Fargesia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eddy-guyot-candide-renard-88a0eb'>Eddy Guyot Candide Renard</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9rone---rom%C3%A9o-et-juliette-paroles-88a0eb'>Vérone - Roméo Et Juliette Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lettre-de-motivation-CFC-88a0eb'>Lettre De Motivation CFC</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calories-des-aliments-calcul-88a0eb'>Calories Des Aliments Calcul</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=placement-de-produit-comment-%C3%A7a-marche-88a0eb'>Placement De Produit Comment ça Marche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liste-chapitre-one-piece-88a0eb'>Liste Chapitre One Piece</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=saint-agn%C3%A8s-france-88a0eb'>Saint Agnès France</a>,
+";s:7:"expired";i:-1;}

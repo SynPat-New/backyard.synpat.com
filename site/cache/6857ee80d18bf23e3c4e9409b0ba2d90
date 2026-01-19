@@ -1,0 +1,133 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4928:"<br>Summoners War content covering every aspects of the game: Guild War, Real Time Arena RTA, Beginner Guide, Dungeon Speed Team Guide, Units Highlight, Max Damage Test, and many more random stuff! e.g.                      [...]    <br> <br>This is a fan site, we are not affiliated with Com2Us.Please enter your username or email address to reset your password.We use cookies to ensure that we give you the best experience on our website.         TOU LINK SRLS Capitale 2000 euro, CF 02484300997, P.IVA 02484300997, REA GE - 489695, PEC:  If you continue to use this site we will assume that you are happy with it. Fire Bearman Kungenis a Summoners War Sky Arena Monster.                                                                                                               If you want to learn more, see the © 2016 Summoners War Monsters is a fan site not affiliated with Com2Us View guides, stats and rune recommendations for Light Bearman Ahman. "Archangel" View guides, stats and rune recommendations for Fire Bearman Kungen. Bearman (x3) - Gruda (x4) Navigator: Type: HP Obtainable from: Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Water Scroll, Secret Dungeon: Awakened bonus: New Skill [Willpower (Passive)] 15. You can easily find him in his Secret Dungeon, when Hall of Water is onpened, on Wednesdays. View guides, stats and rune recommendations for Water Bearman Gruda. <br> <br>[...]   HP: 12345 Attack: 384 Defense: 604 Speed: 101 Stats reflect 6-star max, with each bar reflecting how that particular stat compares to the minimum and maximum that can be found among all monsters. Stats Grade ★★★ ★★★★ ★★★★★ ★★★★★★ Level Min Lv. Light Bearman Ahmanis a Summoners War Sky Arena Monster.                                                              <br> <br> <br>Copyright © 2017 - 2020 Com2Us. F2P Gaming 58,567 views. Haken (Dark Bearman) is a food monster in Summoners War. Water Bearman Grudais a Summoners War Sky Arena Monster.                                Dagorr (Wind Bearman) is a food monster in Summoners War.  In later game can become foor for his Light Bearman-Ahman. <br> <br>Monsters: Fire Bearman Kungen, Water Bearman Gruda, Wind Bearman Dagorr, Light Bearman Ahman, Dark Bearman Haken His passive (third skill) is really good especially in pvp defense. A monster with 15,000 HP will have its bar reach the end since that's the maximum among all monsters. <br> <br>40 Normal HP 2115 3795 3045 5175 4140 7020 5625 9555 ATK 114 205 164 279 223 379 304 516 DEF 109 196 157 267 214 363 291 494 Awakened HP 2175 3930 3135 5340 4275 […] View Mobile Site Bearman ( x3) - Haken ( x4) Navigator: Type: HP Obtainable from: Scroll of Light& Darkness, Secret Dungeon Awakened bonus: New skill: [Up-down Attack] 15 Mid 10 Low 10 Mid 5 Low.                                                          Suggested runes <br> We use cookies to personalize content and ads, to provide social media features and to analize our traffic, those informations are also shared with our advertising partners who may combine them with other information you've provided them or they've collected from your use of their services. 10:12. Bearman in Summoners War is a family of monsters composed by Kungen (Fire), Gruda (Water), Dagorr (Wind), Ahman (Light) and Haken (Dark) here we are going to review all of them from runes to strategies in PvP and PvE <br> <br>                               Ahman (Light Bearman) is one of the best healers in Summoners War, expecially in Early and Mid game. Mid game: Energy x3 or Violent/Energy - %HP / %HP / %HP or SPD / %HP / %HP Early game: Energy x3 - %HP / %HP / %HP For late game content can be used as HP-tank attacker builded with lots of HP and Crit damage.  He is good in dungeons and Toa since his first skill taunts the enemy: use that against bosses in Toa. Mide/Late game: Violent/Blade or Violent/Nemesis - SPD / %Crit rate / %HP [...]                                 Gruda (Water Bearman) is a useful HP-tank monster to begin with in Summoners War. 25 Min Lv. HP-tank attacker: Rage/Blade - %HP / %Crit dmg / %HP with Speed substat [...]  ... Summoners War Sky Arena Wiki is a FANDOM Games Community. <br> <br>35 Min Lv. Copyright © 2017 - 2020 Com2Us. Early game: Energyx2/Blade - SPD / %Crit rate / %HP                                                                   27:17. He is based on his passive (third skill) that provides heals on all allies if he crit: the heal is 12% of Ahman's max HP, so it's good to have him with really high HP                                     E.g.                                Haken (Dark Bearman) is a food monster in Summoners War.                                                                                                                                                                                                                                    <br>";s:7:"keyword";s:21:"bearman summoners war";s:5:"links";s:9858:"<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-de-ville-de-saint-augustin-de-desmaures-88a0eb'>Hôtel De Ville De Saint-augustin-de-desmaures</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mere-de-pers%C3%A9e-en-5-lettres-88a0eb'>Mere De Persée En 5 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-adeline-fran%C3%A7ois-88a0eb'>Photo Adeline François</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-pour-int%C3%A9grer-un-club-de-basket-88a0eb'>Lettre De Motivation Pour Intégrer Un Club De Basket</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2020-nouveaut%C3%A9-88a0eb'>Fort Boyard 2020 Nouveauté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Miss-piggy-gif-88a0eb'>Miss Piggy Gif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sung-kang-et-sa-femme-88a0eb'>Sung Kang Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A7a-balance-pas-mal-%C3%A0-paris-les-goguettes-88a0eb'>ça Balance Pas Mal à Paris Les Goguettes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-envoyer-un-message-sur-tik-tok-88a0eb'>Comment Envoyer Un Message Sur Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=convertisseur-hexa-texte-88a0eb'>Convertisseur Hexa Texte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=directeur-institut-nicolas-barr%C3%A9-88a0eb'>Directeur Institut Nicolas Barré</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ruby-faker-city-88a0eb'>Ruby Faker City</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=namadia-koh-lanta-saison-88a0eb'>Namadia Koh-lanta Saison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=william-lebghil-origine-arabe-88a0eb'>William Lebghil Origine Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pity-en-arabe-88a0eb'>Pity En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ga%C3%ABtan-deodato-condamnation-88a0eb'>Gaëtan Deodato Condamnation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=healthy-vegan-dessert-88a0eb'>Healthy Vegan Dessert</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hell%27s-bells-tablature-88a0eb'>Hell's Bells Tablature</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-force-femme-88a0eb'>Citation Force Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=skin-bracer-fortnite-88a0eb'>Skin Bracer Fortnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-dubai-palm-atlantis-88a0eb'>Hotel Dubai Palm Atlantis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-isolate-protein-88a0eb'>Whey Isolate Protein</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=norbert-meilleur-boulangerie-de-france-88a0eb'>Norbert Meilleur Boulangerie De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charbon-binchotan-danger-88a0eb'>Charbon Binchotan Danger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-avoir-un-ventre-plat-rapidement-88a0eb'>Comment Avoir Un Ventre Plat Rapidement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fresh-roses-paroles-traduction-88a0eb'>Fresh Roses Paroles Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=legging-sport-action-88a0eb'>Legging Sport Action</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=circonstances-synonyme-crisco-88a0eb'>Circonstances Synonyme Crisco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tablature-guitare-pdf-gratuit-88a0eb'>Tablature Guitare Pdf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=100-recettes-pour-toi-mon-coeur-88a0eb'>100 Recettes Pour Toi Mon Coeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=europe-1-wendy-bouchard-88a0eb'>Europe 1 Wendy Bouchard</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tancer-en-arabe-88a0eb'>Tancer En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prochain-koh-lanta-2020-88a0eb'>Prochain Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-r%C3%A9duc-fitness-boutique-88a0eb'>Code Réduc Fitness Boutique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-marionnettes-reprise-88a0eb'>Les Marionnettes Reprise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ast%C3%A9rix-aux-jeux-olympiques-1080p-uptobox-88a0eb'>Astérix Aux Jeux Olympiques 1080p Uptobox</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=megane-rs-occasion-allemagne-88a0eb'>Megane Rs Occasion Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roland-magdane-la-guerre-88a0eb'>Roland Magdane La Guerre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romain-goisbeau-adresse-88a0eb'>Romain Goisbeau Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agent-de-bruno-pelletier-88a0eb'>Agent De Bruno Pelletier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=single-lady-lyrics-88a0eb'>Single Lady Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-d%C3%A9fi-sportif-altergo-88a0eb'>Youtube Défi Sportif Altergo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9coniser-une-personne-88a0eb'>Préconiser Une Personne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-dernier-cri-88a0eb'>Le Dernier Cri</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=biscuits-sant%C3%A9-fondation-des-maladies-du-c%C5%93ur-88a0eb'>Biscuits Santé Fondation Des Maladies Du Cœur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=association-le-lion-d%27angers-88a0eb'>Association Le Lion D'angers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-alimentaire-t12s-88a0eb'>Programme Alimentaire T12s</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-regret-amour-88a0eb'>Chanson Regret Amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27amour-de-ma-vie-en-allemand-88a0eb'>L'amour De Ma Vie En Allemand</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capitaine-marleau-casting-2019-88a0eb'>Capitaine Marleau Casting 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Hotel-Xanadu4%2C2%28217%29%C3%80-1%2C4%C2%A0mi100%C2%A0%24US-88a0eb'>Hotel Xanadu4,2(217)À 1,4 mi100 $US</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=unchained-tik-tok-88a0eb'>Unchained Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Parodie-expert-Miami-88a0eb'>Parodie Expert Miami</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=casterman-bd-gratuit-88a0eb'>Casterman Bd Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-motivation-koh-lanta-88a0eb'>Lettre Motivation Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9velopp%C3%A9-couch%C3%A9-halt%C3%A8re-poids-88a0eb'>Développé Couché Haltère Poids</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-piano-le-temps-des-cath%C3%A9drales-pdf-88a0eb'>Partition Piano Le Temps Des Cathédrales Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivre-%C3%A0-sharjah-88a0eb'>Vivre à Sharjah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=annie-cordy-frapp%C3%A9e-88a0eb'>Annie Cordy Frappée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sister-alipour-tik-tok-88a0eb'>Sister Alipour Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gateau-aid-2019-88a0eb'>Gateau Aid 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-ballade-nord-irlandaise-a-capella-88a0eb'>La Ballade Nord Irlandaise A Capella</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adresse-amazon-france-88a0eb'>Adresse Amazon France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charli-d%27amelio-heidi-d%27amelio-88a0eb'>Charli D'amelio Heidi D'amelio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruce-lee-mort-film-88a0eb'>Bruce Lee Mort Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-championnat-italien-2019-88a0eb'>Calendrier Championnat Italien 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=combien-de-temps-peut-on-garder-un-corps-%C3%A0-la-morgue-88a0eb'>Combien De Temps Peut-on Garder Un Corps à La Morgue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=haricot-noir-wikip%C3%A9dia-88a0eb'>Haricot Noir Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=safari-ne-peut-pas-ouvrir-la-page-car-une-connexion-securisee-au-serveur-n%27a-pu-etre-etablie-iphone-88a0eb'>Safari Ne Peut Pas Ouvrir La Page Car Une Connexion Securisee Au Serveur N'a Pu Etre Etablie Iphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeanne-mas-et-son-mari-88a0eb'>Jeanne Mas Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tik-tok-de-ilyana-88a0eb'>Tik Tok De Ilyana</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avoir-du-cran-en-anglais-88a0eb'>Avoir Du Cran En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-se-muscler-rapidement-sans-effort-88a0eb'>Comment Se Muscler Rapidement Sans Effort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=circadin-belgique-prix-88a0eb'>Circadin Belgique Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jolly-jumper-b%C3%A9b%C3%A9-avis-88a0eb'>Jolly Jumper Bébé Avis</a>,
+";s:7:"expired";i:-1;}

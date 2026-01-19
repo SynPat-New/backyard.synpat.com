@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3710:"<p>2018 - Un gâteau miel-vanille dans lequel, sous une enveloppe croustillante, se cache un cœur dense, moelleux et divinement parfumé. </p> <p>Sauvegarder à Mes Recettes. Recette très difficile. </p> <p>Dessert; Végétarien; Ajouter ma photo. Pour le biscuit : – 3 oeufs – 3 cuillères à soupe de miel – 100 g de beurre – 2 cuillères à soupe de vinaigre – 1 verre d’une hauteur de 10-15 cm de sucre – 350 g farine. 4.2 / 5. sur 6 avis. Voici un gâteau super facile à réaliser, idéal quand on est un peu pressé . *Les quantités sont toujours données à titre approximatif et pour un nombre précis, elles dépendent du nombre de personnes en plus ou en moins, de la grandeur des plats utilisés et du goût de chacun.En laissant un commentaire vous acceptez notre politique de confidentialité des données personnelles, à lire Ce site utilise Akismet pour réduire les indésirables. Retrouvez notre sélection de produits des terroirs sur Zechef.comPour le biscuit : Mettre tous les ingrédients, sauf la farine, dans une casserole et chauffer à feu doux jusqu’à ce que ça bouille. Sortir du feux et rajouter la farine et mélanger jusqu’à obtenir une pâte épaisse, molle, collante et difficile à mélanger.                         Selon nos informations, cette recette est compatible avec le régime suivant : végétarien                    C'est la meilleure manière de ne rater aucun numéro, de faire des économies et de se régaler tous les deux mois :) En plus vous aurez accès à la version numérique pour lire vraiment partout.Soyez le premier à ajouter une photo à cette recette ! Un vrai régal! Ingrédients de la recette Gâteau au miel arménien. Essayer! Etaler de la farine sur la table et pétrir la pâte. La cuisine de Amal, est surtout une cuisine Libanaise traditionnelle et ordinaire, facile et faite avec des ingrédients de saison du marché. GÂTEAU 10 MINUTES AU MIEL : la recette facile 20 septembre 2019 Culture Crunch GÂTEAUX A THÈMES , Gâteaux à thèmes , Gâteaux minute Laisser un commentaire Le gâteau 10 minutes au miel est un gâteau composé de miel, farine, sucre, lait, oeufs, beurre et levure.  Ma cuisine vous aidera à découvrir une série de recettes provenant des 4 coins du monde principalement libanaise. </p> <p>60. *Les quantités sont toujours données à titre approximatif et pour un nombre précis, elles dépendent du nombre de personnes en plus ou en moins, de la grandeur des plats utilisés et du goût de chacun.En laissant un commentaire vous acceptez notre politique de confidentialité des données personnelles, à lire Ce site utilise Akismet pour réduire les indésirables. Voir plus d'idées sur le thème Gateau au miel, Gateau, Miel. bon marché. Votre navigateur ne peut pas afficher ce tag vidéo. Nous utilisons la plateforme Mailchimp pour notre marketing. 11 oct. 2011 - Explorez le tableau « gateau miel » de galangal, auquel 140 utilisateurs de Pinterest sont abonnés. Il est parsemé de graines de sésame (djeldjelene) qui apporte un goût supplémentaire. Gâteau au miel Arménien. 0. temps 6 h. personnes 4. difficile. Ingrédients: pomme de tailles moyenne ou 2 grosses pommes type pink lady ou légèrement acidulées,lait,miel liquide,eau de fleur d'oranger,extrait de vanille liquide (ou de la poudre de vanille ),beurre... 1h30. bligha ou babouche, une pâtisserie marocaine spéciale pour les fêtes Préparation de la recette Gâteau au miel arménien. Join Facebook to connect with Gâteau Au Miel and others you may know. Pour le biscuit : Mettre tous les ingrédients, sauf la farine, dans une casserole et chauffer à feu doux jusqu’à ce que ça bouille. </p>";s:7:"keyword";s:25:"gâteau au miel arménien";s:5:"links";s:6370:"<a href='https://backyard.synpat.com/site/article.php?page=programme-pour-maigrir-rapidement-88a0eb'>Programme Pour Maigrir Rapidement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traction-supination-biceps-88a0eb'>Traction Supination Biceps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=civil-war-victory-88a0eb'>Civil War Victory</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=entra%C3%AEneur-rc-lens-2020-88a0eb'>Entraîneur Rc Lens 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlie-puth---marvin-gaye-88a0eb'>Charlie Puth - Marvin Gaye</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appr%C3%A9hender-en-arabe-88a0eb'>Appréhender En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trending-topic---traduction-88a0eb'>Trending Topic - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-g%C3%A2teau-caf%C3%A9-88a0eb'>Petit Gâteau Café</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=belle-lettre-10-lettres-88a0eb'>Belle Lettre 10 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patrick-pelloux-vie-familiale-88a0eb'>Patrick Pelloux Vie Familiale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=studio-visual-2-rue-des-c%C3%A9vennes-75015-paris-88a0eb'>Studio Visual 2 Rue Des Cévennes 75015 Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stade-de-foot-allemagne-88a0eb'>Stade De Foot Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-kalulu-aldo-88a0eb'>Pierre Kalulu Aldo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-danemark-coca-cola-88a0eb'>Drapeau Danemark Coca-cola</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-tottenham-2012-88a0eb'>Effectif Tottenham 2012</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-12-24-test-88a0eb'>Nikon 12-24 Test</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=medical-device-r%C3%A9glementation-88a0eb'>Medical Device Réglementation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-soci%C3%A9t%C3%A9-taille-humaine-88a0eb'>Jeux De Société Taille Humaine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=application-tour-de-magie-gratuit-88a0eb'>Application Tour De Magie Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-soci%C3%A9t%C3%A9-taille-humaine-88a0eb'>Jeux De Société Taille Humaine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sport-2000-recrutement-marseille-88a0eb'>Sport 2000 Recrutement Marseille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sb-signification-sms-88a0eb'>Sb Signification Sms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perfect-%28karaoke-female%29-88a0eb'>Perfect (karaoke Female)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lady-gaga-a-yo-video-88a0eb'>Lady Gaga A-yo Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=music-tik-tok-2020-88a0eb'>Music Tik Tok 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eugene-allen-charles-allen-88a0eb'>Eugene Allen Charles Allen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lord-of-warzone-tournoi-27-juin-88a0eb'>Lord Of Warzone Tournoi 27 Juin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=table-de-multiplication-vierge-%C3%A0-imprimer-pdf-88a0eb'>Table De Multiplication Vierge à Imprimer Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anthony-amar-2020-88a0eb'>Anthony Amar 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=matthieu-p%C3%A9kin-express-instagram-88a0eb'>Matthieu Pékin Express Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heriot-watt-university-classement-88a0eb'>Heriot-watt University Classement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-vrai-famille-carrington-88a0eb'>La Vrai Famille Carrington</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traduction-only-one-88a0eb'>Traduction Only One</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=facult%C3%A9-d%C3%A9finition-philosophique-88a0eb'>Faculté Définition Philosophique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-accords-musique-88a0eb'>Les Accords Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=substitut-de-repas-carrefour-88a0eb'>Substitut De Repas Carrefour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wuxia-novel-fr-88a0eb'>Wuxia Novel Fr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-joyeuse-qui-bouge-88a0eb'>Musique Joyeuse Qui Bouge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-sur-l%27ennui-88a0eb'>Chanson Sur L'ennui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-custom-escape-from-tarkov-88a0eb'>Carte Custom Escape From Tarkov</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=got7-instagram-youngjae-88a0eb'>Got7 Instagram Youngjae</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-accords-musique-88a0eb'>Les Accords Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9cossais-en-4-lettres-88a0eb'>écossais En 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chevaux-en-bois-pour-jeu-de-dada-88a0eb'>Chevaux En Bois Pour Jeu De Dada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-musique-titres-diffus%C3%A9s-88a0eb'>France Musique Titres Diffusés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ancien-joueur-de-valenciennes-88a0eb'>Ancien Joueur De Valenciennes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=challenge-maquillage-pinceau-88a0eb'>Challenge Maquillage Pinceau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gueuse-synonyme-12-lettres-88a0eb'>Gueuse Synonyme 12 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-plateforme-vibrante-88a0eb'>Exercices Plateforme Vibrante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portail-famille-riorges-88a0eb'>Portail Famille Riorges</a>,
+";s:7:"expired";i:-1;}

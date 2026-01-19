@@ -1,0 +1,84 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5205:"<p>                                                                                                                                                             </p> <p>                                Publiée le 19 février 2007                        Marion Cotillard s'est échappée de peu, et Sami Naceri ... ma foi, la prison l'a sauvé en lui garantissant un très petit nombre d'apparitions.                      2/5 et encore je suis gentil.. </p> <p>           </p> <p>                                                                                                                                                                                                        Il faudrait qu'ils fassent un 5e opus plus sérieux et plus sombre avec des courses poursuites bien filmées comme dans le 1 et le 2... Un peu comme ils ont fait avec la saga Fast &amp; Furious...Mais bon j'imagine que ça ne se fera jamais vu la situation de Samy Naceri en ce moment !                                                                          Le taxi de trop, et je pèse mes mots... Lourdeur dans l'humour touchant souvent au farcesque pas drôle, scénario mal ficelé et parcouru d'incohérences, taxi qu'on voit à peine et n'ayant donc à son compteur aucune scène marquante (à la limite celle du stade, mais ça aurait pu justement finir le film cette image, avec les supporters courant vers la voiture pour lever le chauffeur en l'air et l'applaudir pour la mission par exemple), il n'y a que quelques secondes que j'aurais à sauver, deux minis passages qui m'ont fait rire, mais ce n'est pas assez pour que j'ai envie de payer ma course....0,5/5 </p> <p>                                                                                                                               Dans Taxi 3, un certain Sylvester Stallone effectuait une apparition surprise au détour d'un virage. 12 avr.                         4 553 198 entrées                                                                                           Publiée le 1 septembre 2018                                                                                                                                                                    Tout comme Taxi 3 décevant. pire encore. Question de point de vue, mais ne dite pas qu'il dit n'importe quoi, on est 9/10 à préférer le second ou le premier. Dans Taxi 4, c'est le footballeur français Djibril Cissé qui fait bénéficier le long métrage de son imposante carrure.                                                   Franchement c'était une super saga !                                                                                      </p> <p>Ce 4ème volet est tristement vide, il ne tient que par le génie comique de Bernard Farcy; tout le reste n'étant que du remplissage. Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube. </p> <p>                                              John David Washington,                             Robert Pattinson                                                                   Pour "Taxi" cest simple : cest certainement pour voir si on est capable de faire pire que la dernière fois !                                      Situation comique / Gag                                                                                                                  Des films en exclusivite en qualite HD DVD a regarder ou telecharger.                         Je réagis deux ans plus tard mais ça va aller les amalgames et les comparaisons plus que douteuses ?T'en es encore à mélanger origine ethnique et terrorisme voire religion avec pour seul prétexte l'état pas très stable de Naceri ?Sors de tes bois, visiblement, t'as quelques métros de retard ma poule                                     Ex. </p> <p>                                                                                   (2,99 €)                                                                                                         </p> <p>                 Taxi / Chauffeur de taxi                                                                                     Location à partir de                                                     Dsl mais mais le 4 est 2 fois mieux que le 2 dites pas n importe quoi svp merci....   </p> <p>         </p> <p>         En plus ce 4e film part vraiment dans le n'importe quoi avec un commissaire Gibert complètement taré qui pète un cable vers la fin du film !                                                   </p> <p>                                                                              Peut être qu'en prenant de l'age j'accroche moins mais ils en faut pour toutes les générations et touts les ages ne l’oublions pas.                 Film drôle et répliques cultes à voir entre potes                                           Christopher Nolan                    avec          Egalement de retour, Emma Wyklund (devenue entre-temps Emma Wyklund) et Edouard Montoute, ainsi que le réalisateur Gérard Krawczyk, déjà à l'oeuvre sur Taxi 2...                     Suivre son activité          </p>";s:7:"keyword";s:44:"taxi 4 le film en entier en francais complet";s:5:"links";s:3138:"<a href='https://backyard.synpat.com/site/article.php?page=three-seconds-aka-the-informer-88a0eb'>Three Seconds Aka The Informer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=porto-visite-insolite-88a0eb'>Porto Visite Insolite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beaut%C3%A9-hera-shipping-88a0eb'>Beauté Hera Shipping</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steven-gerrard-poste-88a0eb'>Steven Gerrard Poste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-passenger-paroles-88a0eb'>The Passenger Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-on-dit-gris-en-anglais-88a0eb'>Comment On Dit Gris En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=navette-orly-roissy-prix-88a0eb'>Navette Orly Roissy Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boutique-cr7-portugal-88a0eb'>Boutique Cr7 Portugal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gustine-the-voice-martigues-88a0eb'>Gustine The Voice Martigues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-nike-nantes-88a0eb'>Magasin Nike Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alan-walker-chanteuse-88a0eb'>Alan Walker Chanteuse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lord-of-warzone-tournoi-27-juin-88a0eb'>Lord Of Warzone Tournoi 27 Juin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creation-totem-koh-lanta-88a0eb'>Creation Totem Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9mi-gaillard-twitter-88a0eb'>Rémi Gaillard Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=map-arabe-fortnite-code-88a0eb'>Map Arabe Fortnite Code</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ron-ely-valerie-lundeen-88a0eb'>Ron Ely Valerie Lundeen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anthony-ange-4-88a0eb'>Anthony Ange 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toll%C3%A9-synonyme-3-lettres-88a0eb'>Tollé Synonyme 3 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9quipe-120k-fut-20-88a0eb'>équipe 120k Fut 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=full-sit-up-88a0eb'>Full Sit Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diarrh%C3%A9e-et-gaz-malodorants-88a0eb'>Diarrhée Et Gaz Malodorants</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inox-tech-ste-catherine-88a0eb'>Inox-tech Ste Catherine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-naples-2019-88a0eb'>Maillot Naples 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=samir-a%C3%AFt-sa%C3%AFd-copine-88a0eb'>Samir Aït Saïd Copine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appeler-un-taxi-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Appeler Un Taxi Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=julien-cazarre-j%2B1-88a0eb'>Julien Cazarre J+1</a>,
+";s:7:"expired";i:-1;}

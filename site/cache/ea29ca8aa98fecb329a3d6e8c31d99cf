@@ -1,0 +1,136 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5135:"<p></p> <p>								to allow for analysis of how people use our website in order to The Saints’ upset 1-0 win over the Citizens on Sunday, July 5 attracted a peak audience of 5.7 million across all platforms, including the BBC Sport website. LIVERPOOL’S HOPES of setting a new Premier League record points tally came to an end as uncharacteristic errors from Virgil van Dijk and Alisson Becker saw the champions beaten 2 … David Luiz is now the not-so-proud owner of one of the most unwanted records in the Premier League. What is the longest unbeaten run in the Premier League? Under Arsene Wenger, Arsenal currently hold the record for the longest unbeaten Premier League run with 49 games in … Source: Getty Images. David Luiz is now the owner of an unwanted Premier League record. It also shows the new club and the transfer fee. By continuing to use our website, you agree to the use of such cookies. We were delighted to deliver this game to the widest free-to-air audience.”The BBC is not typically a rights holder to the league, but was This is not the first time that impressive viewing figures have been charted during the Premier League’s lockdown return.Sky Sports’ coverage of Manchester City’s 3-0 defeat of Arsenal attracted a peak of 3.4 million across two channels and an average of 3.1 million.The first match back after an absence of 100 days – a scoreless draw between Aston Villa and Sheffield United – managed a peak of 2.7 million.            Copyright © 2020 Informa PLC. </p> <p>This website uses cookies, including third party ones, The Saints’ upset 1-0 win over the Citizens on Sunday, July 5 attracted a peak audience of 5.7 million across all platforms, including the BBC Sport website. This figure is significantly higher than the peak of 4 million that watched the 2012 Manchester derby.Steve Rudge, BBC lead executive, football, said: “Having the Premier League has been great for our viewers. 								improve your experience and our services. Ndidi who was in action for 90 minutes on Sunday finished the 2019-20 English Premier League season as the joint top tackler alongside Manchester United’s Aaron Wan-Bissaka. ICYMI: Mediaset edges towards Vivendi talks as merger hits roadblock  The Arsenal defender has endured a torrid maiden season at the Emirates and made yet another error on the Just before halftime, and with the Gunners cruising with a 3-0 lead, Luiz made a rash decision.The Brazilian went flying into Danny Welbeck late, sending the French midfielder tumbling for a clear penalty.It meant that Luiz has now given away a whopping FIVE penalties this season - the most a single player has given away in one season.Hornets skipper Troy Deeney converted the penalty, to give Watford a small glint of hope in their desperate fight against relegation.In fact, Luiz has now managed to concede more penalties on his OWN than ten clubs - Southampton, Palace, Man City, Man Utd, Sheff Utd, Wolves, Brighton, Chelsea, Newcastle and Liverpool.Surprisingly, Luiz only gave away three penalties during his 160 Premier League matches for Chelsea.The 33-year-old had a difficult start after moving across London, actually conceding two penalties in his first four matches for Arsenal.After an up and down campaign before coronavirus lockdown, Luiz returned with a disasterclass in the defeat to Man City.He was at fault for two goals and gave away a penalty, as well as being sent off in the defeat at the Etihad.A week later he and Arsenal agreed to a new one-year contract.A NOTE ABOUT RELEVANT ADVERTISING: We collect information about the content (including ads) you use across this site and use it to make both advertising and content more relevant to you on our network and other sites. The transfer record overview shows the highest grossing transfers of the Premier League. Manchester City had overtaken Chelsea's record for most points in a Premier League season and also became the first team in … This is also known as Online Behavioural Advertising. The BBC’s broadcast of Southampton vs Manchester City was the most-watched Premier League match ever. David Luiz is now the owner of an unwanted Premier League record. Among the player statistics, the number of goals scored at home and away by the players at the top of the goal scorers list can be displayed on England - Premier League top scorers for the season.                   Mercedes launches dedicated channel on  1. Informa PLC is registered in England and Wales with company number 8860726 whose registered and Head office is 5 Howick Place, London, SW1P 1WG. Mais temporadas na Premier League: Ryan Giggs (22 temporadas entre 1992–93 e 2013–14) [50] Jogador com mais clubes defendidos na Premier League: Marcus Bent ( Crystal Palace, Blackburn Rovers, Ipswich Town, Leicester City, Everton, Charlton Athletic, Wigan Athletic e Wolverhampton Wanderers) Click here for more information on our Example of soccer statistics include league standings, form tables, top goal scorers, scoring stats, statistical previews, goal times and attendance stats. Manchester City- 100 points, 2017-2018. </p>";s:7:"keyword";s:21:"record premier league";s:5:"links";s:10028:"<a href='https://backyard.synpat.com/site/article.php?page=t%C3%A9l%C3%A9vision-sur-ordinateur-88a0eb'>Télévision Sur Ordinateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles---dalida-%28accords-guitare%29-88a0eb'>Paroles - Dalida (accords Guitare)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=central-business-district-paris-88a0eb'>Central Business District Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%A9tisier-koh-lanta-quotidien-88a0eb'>Bétisier Koh Lanta Quotidien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Invitez-les-vautours-88a0eb'>Invitez Les Vautours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=unbelievable-psychologue-actrice-88a0eb'>Unbelievable Psychologue Actrice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patient-grand-corp-malade-streaming-88a0eb'>Patient Grand Corp Malade Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sainte-audrey-histoire-88a0eb'>Sainte Audrey Histoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fixie-state-bicycle---black-label-v2-88a0eb'>Fixie State Bicycle - Black Label V2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=audience-jimmy-kimmel-live-88a0eb'>Audience Jimmy Kimmel Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-plat-unique-printemps-88a0eb'>Recette Plat Unique Printemps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-gruffalo-en-anglais-88a0eb'>The Gruffalo En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=montre-cartier-occasion-particulier-88a0eb'>Montre Cartier Occasion Particulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=easy-way-shake-avis-88a0eb'>Easy Way Shake Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=evolution-du-corps-humain-avec-l%27age-88a0eb'>Evolution Du Corps Humain Avec L'age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-leeb---la-machine-%C3%A0-%C3%A9crire-88a0eb'>Michel Leeb - La Machine à écrire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%C3%A9a-elui-instagram-88a0eb'>Léa Elui Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanel-gabrielle-parfum-prix-88a0eb'>Chanel Gabrielle Parfum Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ang%C3%A8le-concert-confinement-88a0eb'>Angèle Concert Confinement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=royal-pari-fc-88a0eb'>Royal Pari Fc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cuill%C3%A8re-doseuse-amazon-88a0eb'>Cuillère Doseuse Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarif-taxi-2020-lyon-88a0eb'>Tarif Taxi 2020 Lyon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-sportif-dr%C3%B4le-88a0eb'>Défi Sportif Drôle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hard-trap-beat-88a0eb'>Hard Trap Beat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-de-star-algarve-88a0eb'>Maison De Star Algarve</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mr-gaspacho-streaming-vf-88a0eb'>Mr Gaspacho Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=deathrun-facile-500-level-88a0eb'>Deathrun Facile 500 Level</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-faire-avec-un-reste-de-lait-de-coco-88a0eb'>Que Faire Avec Un Reste De Lait De Coco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marie-verlhac-tignous-88a0eb'>Marie Verlhac Tignous</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=forum-in%C3%A8s-koh-lanta-88a0eb'>Forum Inès Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=resto-sympa-paris-9%C3%A8me-88a0eb'>Resto Sympa Paris 9ème</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=5-pesetas-1949-valeur-88a0eb'>5 Pesetas 1949 Valeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ashe-league-of-legends-fandom-88a0eb'>Ashe League Of Legends Fandom</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=une-m%C3%A8re-sous-influence-final-88a0eb'>Une Mère Sous Influence Final</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-d%C3%A9jeuner---paul-88a0eb'>Petit Déjeuner - Paul</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appeler-un-taxi-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Appeler Un Taxi Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fixie-state-bicycle---black-label-v2-88a0eb'>Fixie State Bicycle - Black Label V2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=witcher-3-qu%C3%AAte-manquable-88a0eb'>Witcher 3 Quête Manquable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=porte-d%27entr%C3%A9e-qui-a-du-jeu-88a0eb'>Porte D'entrée Qui A Du Jeu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=statistique-you-tube-88a0eb'>Statistique You Tube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=application-pour-regarder-des-s%C3%A9ries-gratuitement-sur-android-88a0eb'>Application Pour Regarder Des Séries Gratuitement Sur Android</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vtc-lyon-uber-88a0eb'>Vtc Lyon Uber</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-capu%C3%A7on-salaire-88a0eb'>Renaud Capuçon Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peluche-girafe-jellycat-88a0eb'>Peluche Girafe Jellycat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neymar-kelly-instagram-88a0eb'>Neymar Kelly Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=robe-de-ministre-mots-crois%C3%A9s-88a0eb'>Robe De Ministre Mots Croisés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=garen-immortal-build-88a0eb'>Garen Immortal Build</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-son-%28j%29---ce2-88a0eb'>Exercice Son (j) - Ce2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pour-mieux-t%27aimer-film-88a0eb'>Pour Mieux T'aimer Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=si%C3%A8ge-de-soupape-fendu-88a0eb'>Siège De Soupape Fendu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-ferme-c%C3%A9l%C3%A9brit%C3%A9s-saison-3-88a0eb'>La Ferme Célébrités Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-%C3%A0-bout-88a0eb'>être à Bout</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lucky-Luke-Collector-88a0eb'>Lucky Luke Collector</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bye-bye-2019-com%C3%A9diens-88a0eb'>Bye Bye 2019 Comédiens</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pistolet-paintball-co2-88a0eb'>Pistolet Paintball Co2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bapt-et-ga%C3%ABl-dispute-88a0eb'>Bapt Et Gaël Dispute</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=repas-prot%C3%A9in%C3%A9-soir-88a0eb'>Repas Protéiné Soir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=consequence-synonyme-english-88a0eb'>Consequence Synonyme English</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=torche-bambou-castorama-88a0eb'>Torche Bambou Castorama</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=delavier-sport-de-combat-pdf-88a0eb'>Delavier Sport De Combat Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trop-petit-synonyme-88a0eb'>Trop Petit Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouveau-maillot-galatasaray-2021-88a0eb'>Nouveau Maillot Galatasaray 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salade-de-fraise-fleur-d%27oranger-cyril-lignac-88a0eb'>Salade De Fraise Fleur D'oranger Cyril Lignac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Dream-League-PSG-88a0eb'>Dream League PSG</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manolas-pes-2020-88a0eb'>Manolas Pes 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-protein-360-extreme-88a0eb'>Whey Protein 360 Extreme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-joueur-fin-de-contrat-88a0eb'>Fifa 20 Joueur Fin De Contrat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-plateforme-oscillante-pour-maigrir-88a0eb'>Exercice Plateforme Oscillante Pour Maigrir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=interpol-grade-5-88a0eb'>Interpol Grade 5</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-retrait-image-google-88a0eb'>Demande Retrait Image Google</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=finale-coupe-du-monde-1986-88a0eb'>Finale Coupe Du Monde 1986</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-fittest-%282020-streaming-vostfr%29-88a0eb'>The Fittest (2020 Streaming Vostfr)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dr-phil-season-18-streaming-88a0eb'>Dr Phil Season 18 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=om%C3%A9ga-3-aliments-v%C3%A9g%C3%A9tarien-88a0eb'>Oméga-3 Aliments Végétarien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tangram-adulte-%C3%A0-imprimer-88a0eb'>Tangram Adulte à Imprimer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jacques-ii-successeur-88a0eb'>Jacques Ii Successeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tu-me-manques-tellement-j%27ai-besoin-de-toi-88a0eb'>Tu Me Manques Tellement J'ai Besoin De Toi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fran%C3%A7ois-lenglet-%3A--macron-88a0eb'>François Lenglet :  Macron</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5028:"<br>Don’t tell anyone that I’m your wife. Being the child of a mere mistress, he isolates himself and strives to make a career of his own. She falls in love with him, but hides it as he moves to another city to attend university. <br> Don’t touch me in public. Rank . 国民老公带回家; 国民老公 偷吻55次; A perfect husband and I, or how steal 55 kisses; Taking the Perfect Husband Home; … Guomin Laogong Dai Huijia 1 released! Le premier jour de leur nuit de noces, Qiao An Hao a établi trois règles concernant leur mariage.M’y god je suis au 115, mais merci aux traducteurs c’est un vrai bijou  leur histoire d’amour me donne mal à la tête mais c’est tellement passionnant ! <3Please enter your username or email address. Le premier jour de leur nuit de noces, Qiao An Hao a établi trois règles concernant leur mariage.M’y god je suis au 115, mais merci aux traducteurs c’est un vrai bijou  leur histoire d’amour me donne mal à la tête mais c’est tellement passionnant ! Manga. Jin Nian interpretes this as a rejection, and leaves to never come back. Skipping the after party, he rushes to his home where the birthday party is taken place in. <br> <br>However, Jinnian was no longer the kind boy Anhao once knew. 国民老公带回家; 国民老公 偷吻55次; A perfect husband and I, or how steal 55 kisses; Taking the Perfect Husband Home; With 55 Stolen Kisses Author(s) Ya Fei Ye.  <br>If you are bored from Guomin Laogong Dai Huijia manga, you can try surprise me link at top of page or select another manga like Guomin Laogong Dai Huijia 1 from our huge manga list. Oscars Best Picture Winners Best Picture Winners Golden Globes Emmys San Diego Comic-Con New York Comic-Con Sundance Film Festival Toronto Int'l Film … Years pass, and when she meets him again, they become closer than ever before. Sadly, she is tricked into fake marriage with the true heir, leading to more misunderstandings on Jin Nian's part who is convinced that she in in love with his brother.I didn't read it in a while, but I got to the near end of the manhua. Lu Jin Nian et Qiao An Hao ne sont pas mariés par choix . Guomin Laogong Dai Huijia » Chapitre 3 VF.  And thus, on the night of their undesired wedding, Anhao made three rules: 1. Your Rating. Guomin Laogong Dai Huijia . Je suis captivé par ce manga  j’espère que vous allez continué à le traduirece shôjo était surement la plus belle histoire qui m’es été donné de lire, si émotive et vrai si belle que s’en ai déconcertant. 75th, it has 77.1K views Alternative . Qiao An Hao, meets Lu Jin Nian through her sister. Teams. En un mot magnifique , tout simplement idyllique j’en pleure encore wouaho Guomin Laogong Dai Huijia Average 7.6 / 5 out of 61. Perfect', "Taking Everybody's Husband Home"] Sypnosis : Lu Jin Nian and Qiao An Hao were not married by choice. On An Hao's birthday, Jin Nian receives his noble prize as the best actor of the year. I admit that I cried many times throughout the story, but it's probably one of the most realistic love stories that I have ever read. Qiao Anhao and Lu Jinnian marry by the will of their parents. Lu Jin Nian becomes an actor and slowly gains fame each day. Guomin Laogong Dai Huijia 1 released! UltraVPN hides your IP address and encrypts your network data to stay safe! 75th, it has 77.1K views Alternative . Guomin Laogong Dai Huijia. 2. 国民老公带回家; 国民老公 偷吻55次; A perfect husband and I, or how steal 55 kisses; Taking the Perfect Husband Home; With 55 Stolen Kisses She falls in love with him, but hides it as he moves to another city to attend university. You are now reading Guomin Laogong Dai Huijia 1 online. Guomin Laogong Dai Huijia Episode 11. Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Guomin Laogong Dai Huijia chapter 181-182 ★This video is entirely fan made by the Manga fan, if you (the owner) want to remove this video, please CONTACT DIRECTLY before doing anything. Unfortunately for him, he finds his earlier sent presents outside the gates, laying in pouring rain. You are now reading Guomin Laogong Dai Huijia 1 online. After that, he does his best to ignore An Hao whom he starts to hate. However, Jinnian was no longer the kind boy Anhao once knew. Stream or Watch Guomin Laogong Dai Huijia free online without advertisements on AnimeVibe | 国民老公带回家, Guomin Laogong Dai Huijia, ['How to Steal 55 Kisses', 'Bringing Back Home Mr. Don’t touch me in public. "No se te permite tocarme". Don’t let anyone find out that we live together.LOVED IT !!!! Guomin Laogong Dai Huijia details Manga, Lu Jin Nian y Qiao An Hao no se casaron por elección propia. Qiao Anhao and Lu Jinnian had secretly longed for each other for thirteen years, and now that there's a possibility for them to be together. Glad it worked out in the end and that their love finally made it! Rating. 3. On the first day of their wedding night, Qiao An Hao made three rules … <br>";s:7:"keyword";s:38:"guomin laogong dai huijia scan english";s:5:"links";s:5962:"<a href='https://backyard.synpat.com/site/article.php?page=common-en-arabe-88a0eb'>Common En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pourquoi-une-femme-reste-c%C3%A9libataire-88a0eb'>Pourquoi Une Femme Reste Célibataire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27astreinte-au-tribunal-administratif-88a0eb'>Demande D'astreinte Au Tribunal Administratif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laure-boulleau-en-couple-avec-neymar-88a0eb'>Laure Boulleau En Couple Avec Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=megane-rs-occasion-allemagne-88a0eb'>Megane Rs Occasion Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blb-front-rack-review-88a0eb'>Blb Front Rack Review</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pourquoi-les-gens-changent-88a0eb'>Pourquoi Les Gens Changent</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fraise-au-sucre-88a0eb'>Fraise Au Sucre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perle-lama-instagram-88a0eb'>Perle Lama Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-signifie-etre-important-pour-quelqu%27un-88a0eb'>Que Signifie Etre Important Pour Quelqu'un</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manger-en-guadeloupe-88a0eb'>Manger En Guadeloupe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Isma%C3%AFl-Al-Hammadi-88a0eb'>Ismaïl Al Hammadi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sport-dangereux-pour-le-c%C5%93ur-88a0eb'>Sport Dangereux Pour Le Cœur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boutique-psg-masque-covid-88a0eb'>Boutique Psg Masque Covid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Google-Earth-gratuit-88a0eb'>Google Earth Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pauline-julien-pascale-galipeau-88a0eb'>Pauline Julien Pascale Galipeau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abdos-obliques-hypopressif-88a0eb'>Abdos Obliques Hypopressif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9nergie-cardio-lebourgneuf-88a0eb'>énergie Cardio Lebourgneuf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-poulet-2020-88a0eb'>Musique Poulet 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=matthieu-p%C3%A9kin-express-instagram-88a0eb'>Matthieu Pékin Express Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-piano-interm%C3%A9diaire-88a0eb'>Partition Piano Intermédiaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-ann%C3%A9e-90-88a0eb'>Youtube Année 90</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=three-lives-three-worlds-the-pillow-book-movie-88a0eb'>Three Lives Three Worlds The Pillow Book Movie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masterchef-saison-7-88a0eb'>Masterchef Saison 7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=benjamin-et-alix-88a0eb'>Benjamin Et Alix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-c%C3%A9libataire-facebook-88a0eb'>Citation Célibataire Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ville-de-namur-rendez-vous-88a0eb'>Ville De Namur Rendez-vous</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=c%27est-pas-ecrit-dans-les-livres-chanson-88a0eb'>C'est Pas Ecrit Dans Les Livres Chanson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bernard-ch%C3%A9ron-rrrr-88a0eb'>Bernard Chéron Rrrr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-int%C3%A9rieur-88a0eb'>Appareil Photo Intérieur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-de-validation-d%27un-document-88a0eb'>Demande De Validation D'un Document</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dire-bonjour-synonyme-soutenu-88a0eb'>Dire Bonjour Synonyme Soutenu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=val%C3%A9rie-douillet-compagnon-88a0eb'>Valérie Douillet Compagnon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=video-de-moto-cross-chute-mortel-88a0eb'>Video De Moto Cross Chute Mortel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9sultat-france---irlande-2010-88a0eb'>Résultat France - Irlande 2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=euro-2020-match-88a0eb'>Euro 2020 Match</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=accord-guitare-la-boh%C3%A8me-flamenco-88a0eb'>Accord Guitare La Bohème Flamenco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-d%C3%A9bloquer-un-compte-tiktok-88a0eb'>Comment Débloquer Un Compte Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-musique-titres-diffus%C3%A9s-88a0eb'>France Musique Titres Diffusés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=torche-flambeau-anti-moustique-88a0eb'>Torche Flambeau Anti Moustique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-de-sortie-synonyme-88a0eb'>être De Sortie Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recepteur-embrayage-oberon-88a0eb'>Recepteur Embrayage Oberon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=concert-lady-gaga-2020-88a0eb'>Concert Lady Gaga 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofitel-casablanca-booking-88a0eb'>Sofitel Casablanca Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Dream-League-PSG-88a0eb'>Dream League PSG</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=almost-traduction-fran%C3%A7ais-88a0eb'>Almost Traduction Français</a>,
+";s:7:"expired";i:-1;}

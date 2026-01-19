@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3535:"<br>Il suffit ensuite d'une baguette ou des Ce tambour africain inspiré d'un tam tam traditionnel est réalisé avec une bouteille en plastique découpée et peinte. D'une ethnie à l'autre ils sont ornés des représentations mystiques du peuple qui les utilise.                            1 Ex collection privée belge d’art africain A. Colmant. Art africain - Instruments de musique, harpes, djembe Tam Tam: Les Djembe, tam-tam, pour instruments de musique qu'ils sont sont aussi des outils de communication dans la brousse et la forêt. Derniers objets que vous avez consultés : <br> <br>Écouter et télécharger des chansons mp3 gratuitement 64/128/192/256/320 kbps.TamTam d' Afrique - West African Drumming & Dancing mp3MUSIQUE RELAXANTE - TAMBOURS AFRICAINS - DJEMBÉ ET DUNAMBA mp3Comptines Africaines de maternelles - 40min de Chansons d'Afrique pour les petits (avec paroles) mp3FOLI (there is no movement without rhythm) original version by Thomas Roebers and Floris Leeuwenberg mp3African Drums Remix 2018 (Os Máquinas Vol 2 )Dj Gelson Gelson Producer mp3Amina - Comptine à geste d'Afrique pour les petits (avec paroles) mp3Olélé Moliba Makasi - Berceuse Africaine avec paroles mp3Cours Djembé débutant Initiation rythme afrique Moribayassa accompagnement 1 mp3Very Shorts #2: Tamakat Yi (Les Joueurs de Tam-Tam) / senegal traditional percussion drums mp3Maimouna Diarrassouba La Diva Souhaite Joyeux Anniversaire A Lova KanteAnderson Paak The Season Instrumental Prod Kvng Zuzi Art tribal - Instruments de musique, harpes, djembe Tam Tam: Décoré de représentations de l’ethnie qui l’utilise, l’objet est tantôt instrument de musique tantôt de communication. ..  Télécharger Tamtam Africain chanson mp3 maintenant!★ 2019 - 2020 - Profitez du téléchargement mp3 gratuit du site de téléchargement telechargermp3x.com.                             La Porte Dogon, galerie d'art africain, le site de vente en ligne d'Essentiel Galerie: Art premier, art tribal, art primitifLes Djembe, tam-tam, pour instruments de musique qu'ils sont sont aussi des outils de communication dans la brousse et la forêt. <br> <br>TamTam d' Afrique - West African Drumming & Dancing - YouTube ★ Mp3 Monde Sur Mp3 Monde, nous ne conservons pas tous les fichiers MP3, car ils figurent sur des sites Web différents, sur lesquels nous recueillons des liens au format MP3, de sorte que nous ne violions aucun droit d'auteur.  <br>27 avr. <br> Tam-tam, Djembe et autres sont, en effet, utilisés en forêt ou en brousse. <br> <br>                         <br> <br>Ex collection privée d'art africain Emile Robyn (Bruxelles, Belgique). Si vous avez un lien vers votre propriété intellectuelle, indiquez-le nous par envoyer un email avec le lien vers ma … D'une ethnie à l'autre ils sont ornés des représentations mystiques du peuple qui les utilise. Tamtam Africain gratuit mp3 musique!                                 Vous pouvez télécharger gratuitement des mp3 en tant que chanson séparée et télécharger une collection de musique de n'importe quel artiste, ce qui vous évitera bien sûr beaucoup de temps.                         Art africain    -         Paris - Bruxelles - Londres <br> <br>                            Par téléphone, au +32 65.529.100 <br> <br>★ Cela rend le processus de téléchargement de musique aussi confortable que possible.  2015 - Idée d'activité pour fabriquer un tam-tam africain avec une simple bouteille en plastique.                                 <br>";s:7:"keyword";s:24:"musique tam tam africain";s:5:"links";s:5930:"<a href='https://backyard.synpat.com/site/article.php?page=vitamine-c-liposomale-cancer-t%C3%A9moignage-88a0eb'>Vitamine C Liposomale Cancer Témoignage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avicii-at-night-88a0eb'>Avicii At Night</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-motivante-connue-88a0eb'>Musique Motivante Connue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=noam-smadja-instagram-88a0eb'>Noam Smadja Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=st%C3%A9phanie-nicolini-wikipedia-88a0eb'>Stéphanie Nicolini Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-generation-musique-88a0eb'>Beat Generation Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ensemble-atletico-madrid-rose-88a0eb'>Ensemble Atletico Madrid Rose</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arme-roi-de-la-temp%C3%AAte-88a0eb'>Arme Roi De La Tempête</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=latcho-drom-signification-88a0eb'>Latcho Drom Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-m%C3%A9thodes-%C3%A9conom%C3%A9triques-d%27%C3%A9valuation-88a0eb'>Les Méthodes économétriques D'évaluation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gardien-de-propri%C3%A9t%C3%A9-priv%C3%A9e-yvelines-88a0eb'>Gardien De Propriété Privée Yvelines</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9sentation-d%27une-entreprise-88a0eb'>Présentation D'une Entreprise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-tenu-que-88a0eb'>Compte Tenu Que</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rapidite---8-lettres-88a0eb'>Rapidite - 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ch%C3%A2teau-de-montmelas-propri%C3%A9taire-88a0eb'>Château De Montmelas Propriétaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=signification-du-drapeau-d%27ouessant-88a0eb'>Signification Du Drapeau D'ouessant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perle-rose-du-lambi-88a0eb'>Perle Rose Du Lambi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=apr%C3%A8s-que-tu-aies-88a0eb'>Après Que Tu Aies</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=banana-bread-healthy-chocolat-88a0eb'>Banana Bread Healthy Chocolat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-herblay-livraison-88a0eb'>Decathlon Herblay Livraison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-gruffalo-en-anglais-88a0eb'>The Gruffalo En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lemon-tree-wikip%C3%A9dia-88a0eb'>Lemon Tree Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quel-%C3%A2ge-%C3%A0-la-femme-de-michel-leeb-88a0eb'>Quel âge à La Femme De Michel Leeb</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cursed-d%C3%A9finition-fran%C3%A7ais-88a0eb'>Cursed Définition Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlotte-d%27ornellas-mari%C3%A9e-88a0eb'>Charlotte D'ornellas Mariée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%A9tisier-koh-lanta-quotidien-88a0eb'>Bétisier Koh Lanta Quotidien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9passer-une-voiture-en-anglais-88a0eb'>Dépasser Une Voiture En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-aquaman-semaine-4-88a0eb'>Défi Aquaman Semaine 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miss-rh%C3%B4ne-alpes-2008-88a0eb'>Miss Rhône-alpes 2008</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bring-me-a-higher-love-88a0eb'>Bring Me A Higher Love</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gr%C3%A9gory-lemarchal-titres-88a0eb'>Grégory Lemarchal Titres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sporting-life-boutique-88a0eb'>Sporting Life Boutique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amir-au-coeur-de-moi-88a0eb'>Amir Au Coeur De Moi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=julia-paredes-%28les-anges-7%29-88a0eb'>Julia Paredes (les Anges 7)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=impact-native-whey-isolate-myprotein-88a0eb'>Impact Native Whey Isolate Myprotein</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beloved-toni-morrison-traduction-88a0eb'>Beloved Toni Morrison Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Vinicius-Junior-Skills-88a0eb'>Vinicius Junior Skills</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivre-%C3%A0-sharjah-88a0eb'>Vivre à Sharjah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nombre-d%27employ%C3%A9s-amazon-2020-88a0eb'>Nombre D'employés Amazon 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prime-%C3%A0-la-signature-mbapp%C3%A9-monaco-88a0eb'>Prime à La Signature Mbappé Monaco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-mia-islam-88a0eb'>Prénom Mia Islam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9volte-des-canuts-88a0eb'>Révolte Des Canuts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oceans-hillsong-notes-88a0eb'>Oceans Hillsong Notes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=5th-avenue-parfum-night-88a0eb'>5th Avenue Parfum Night</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thierry-henry---return-of-the-king-88a0eb'>Thierry Henry - Return Of The King</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roi-et-tri-88a0eb'>Roi Et Tri</a>,
+";s:7:"expired";i:-1;}

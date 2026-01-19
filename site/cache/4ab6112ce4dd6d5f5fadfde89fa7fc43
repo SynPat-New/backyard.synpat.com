@@ -1,0 +1,105 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4984:"<br>                                                                              <br> <br>Après l e fabuleux carrot cake de Julie Andrieu (qui reste l'une des recettes les plus sollicitées sur Le Miam Miam Blog), après le meilleur …               <br> <br>                                                                             <br> <br>                           https://www.metro.ca/userfiles/image/recipes/blondie-aux-haricots-blancs-et-chocolat-noir-10489.jpgDans un robot culinaire, réduire en purée le sirop d’érable, les dattes, l’huile, la cannelle, la vanille et le sel.Ajouter les haricots blancs et mélanger jusqu’à homogénéité.Ajouter la patate douce râpée, les graines de lin, les graines de citrouille, le bicarbonate de soude et la poudre à pâte et mélanger quelques secondes.500 ml (2 tasses) haricots blancs, rincés et égouttés  <br>                 Brownie au chocolat et aux haricots blancs. Oui oui, avec des haricots blancs.            Une recette sans sucre ajouté, sans gluten, sans lait.                                    <br> <br>             <br> <br>https://www.metro.ca/.../recettes/blondie-aux-haricots-blancs-et-chocolat-noir              Vous pouvez modifier ces options en tout temps dans la section « Commande rapide » de votre compte.Vous pouvez modifier ces options en tout temps dans la section Dans un robot culinaire, réduire en purée le sirop d’érable, les dattes, l’huile, la cannelle, la vanille et le sel.Ajouter les haricots blancs et mélanger jusqu’à homogénéité.Ajouter la patate douce râpée, les graines de lin, les graines de citrouille, le bicarbonate de soude et la poudre à pâte et mélanger quelques secondes.Inscrivez-vous sur metro.ca pour recevoir des offres spéciales et bien plus encore!                                    To see this page as it is meant to appear, please enable your Javascript!                                                             Elles seront utilisées pour accélérer vos prochaines commandes!          <br> <br>                       , ses compagnies affiliées et ses filiales n'engagent pas leur responsabilité pour toutes circonstances découlant de l'utilisation des recettes suggérées.              Sorry, you have Javascript Disabled! Pour en faire un dessert plus santé, j’utilise des haricots blancs qui, soit dit en passant, sont impossible à détecter.                     <br> <br>             Pour l'avoine, prenez du certifié sans gluten pour les intolérants.  Vous serez impressionné par le résultat.  Mon adaptation de cette recette de blondies aux framboises et aux haricots blancs : remplacer le sucre par de la Sukrin gold, le chocolat blanc (trop sucré) par du beurre de cacao, la farine par de la fécule d’arrow root. <br> <br>                                                   Linda Montpetit <br> <br>              <br> <br>                           Faites comme moi, dévoilez le secret seulement après la dégustation.                <br> <br>                          <br> Ingrédients.                       <br> <br>                         Blondie super fondant aux haricots blancs.                           Et c'est délicieux ! <br> <br>Vous pouvez les modifier en tout temps.               Une recette saine de blondie vegan aux haricots blancs. Dites-le nous en répondant au  <br> <br>  Le blondie est la version blanche du traditionnel brownie au chocolat.          Vous pouvez la modifier en tout temps.Vos préférences d’achats ont été sauvegardées! <br> <br>                                       Vous pouvez utiliser des haricots que vous avez préalablement cuits, ou en bocal (déjà cuits).              See instructions Cliquez pour partager sur Facebook(ouvre dans une nouvelle fenêtre)Cliquez pour partager sur Pinterest(ouvre dans une nouvelle fenêtre)Cliquez pour partager sur Twitter(ouvre dans une nouvelle fenêtre)Blondie aux haricots blancs, aux amandes et au chocolat blanc              Ceci vous permettra de consulter la circulaire, les offres et les coupons en vigueur près de chez vous.Pour une expérience optimale, veuillez utiliser le navigateur Chrome de votre appareil.Elle sera utilisée pour accélérer vos prochaines commandes!                           Que pensez-vous de nous?                          – 250g de haricots blancs cuits et égouttés (si possible avec leur jus)) – 150g de fruits rouges – 2 œufs – 120g de sucre de canne blond – 60g de farine – 70g de beurre – 70g de chocolat blanc [/ingredients] [recette] 1- Je préchauffe mon four à 170°C (th 5-6).              Il appartient à la personne utilisant ce site de s'assurer que chacun des ingrédients est conforme à son régime de vie et/ou à ses restrictions alimentaires.En cliquant sur ajouter, votre coupon sera associé à votre carte Thunder Bucks automatiquement. <br>";s:7:"keyword";s:30:"la protéine fait elle grossir";s:5:"links";s:5944:"<a href='https://backyard.synpat.com/site/article.php?page=id%C3%A9e-jeux-kermesse-maternelle-88a0eb'>Idée Jeux Kermesse Maternelle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patients-%28film%29-distribution-88a0eb'>Patients (film) Distribution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=saison-3-attaque-des-titans-netflix-88a0eb'>Saison 3 Attaque Des Titans Netflix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofiane-star-academy-4-88a0eb'>Sofiane Star Academy 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jingle-radio-web-radio-88a0eb'>Jingle Radio Web Radio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=deepl-extension-chrome-88a0eb'>Deepl Extension Chrome</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-londres-88a0eb'>Photo De Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eau-trouble-en-anglais-88a0eb'>Eau Trouble En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=particularit%C3%A9-de-new-york-88a0eb'>Particularité De New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-arsenal-2018-88a0eb'>Maillot Arsenal 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tacos-world-ahmad-88a0eb'>Tacos World Ahmad</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pourquoi-linox-s%27appelle-linox-88a0eb'>Pourquoi Linox S'appelle Linox</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f%C3%AAte-de-la-musique-albufeira-88a0eb'>Fête De La Musique Albufeira</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-witcher-3-retrouver-la-femme-du-baron-88a0eb'>The Witcher 3 Retrouver La Femme Du Baron</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=imper-9-lettres-88a0eb'>Imper 9 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mairie-de-bonneville-passeport-88a0eb'>Mairie De Bonneville Passeport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mia-%3A-signification-88a0eb'>Mia : Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=armande-altai-aujourd%27hui-88a0eb'>Armande Altai Aujourd'hui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-est-pandore-88a0eb'>Qui Est Pandore</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=all-musculation-%C3%A9paule-88a0eb'>All Musculation épaule</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=groupe-aline-tahiti-88a0eb'>Groupe Aline Tahiti</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-jump-bruxelles-88a0eb'>Uber Jump Bruxelles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cahiers-de-nutrition-et-de-di%C3%A9t%C3%A9tique-impact-factor-88a0eb'>Cahiers De Nutrition Et De Diététique Impact Factor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fais-pas-ci%2C-fais-pas-%C3%A7a-streaming-voirfilm-88a0eb'>Fais Pas Ci, Fais Pas ça Streaming Voirfilm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kenza-farah-taille-88a0eb'>Kenza Farah Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma-m%C3%A9thode-de-combat-entra%C3%AEnement-approfondi-bruce-lee-pdf-88a0eb'>Ma Méthode De Combat Entraînement Approfondi Bruce Lee Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=incognito-mode-google-88a0eb'>Incognito Mode Google</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-boh%C3%A8me-partition-guitare-pdf-88a0eb'>La Bohème Partition Guitare Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=common-en-arabe-88a0eb'>Common En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=concurrent-occupation-double-2018-88a0eb'>Concurrent Occupation Double 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dans-le-ton-7-lettres-88a0eb'>Dans Le Ton 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lily-once-upon-a-time-88a0eb'>Lily Once Upon A Time</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ensemble-atletico-madrid-rose-88a0eb'>Ensemble Atletico Madrid Rose</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ast%C3%A9rix-et-ob%C3%A9lix-film-complet-streaming-vf-88a0eb'>Astérix Et Obélix Film Complet Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=harold-et-la-l%C3%A9gende-du-pikpoketos-uptobox-88a0eb'>Harold Et La Légende Du Pikpoketos Uptobox</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-om-3-1-88a0eb'>Psg Om 3-1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Toi%2C-le-venin-88a0eb'>Toi, Le Venin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=panasonic-lumix-tz95-88a0eb'>Panasonic Lumix Tz95</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chasse-%C3%A0-l%27ours-livre-88a0eb'>Chasse à L'ours Livre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=impact-synonyme-english-88a0eb'>Impact Synonyme English</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=slogan-sur-le-sport-sant%C3%A9-88a0eb'>Slogan Sur Le Sport Santé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=viande-pour-musculation-88a0eb'>Viande Pour Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minion-xp-lol-88a0eb'>Minion Xp Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=formation-webmaster-sans-bac-88a0eb'>Formation Webmaster Sans Bac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mbaye-niang-om-88a0eb'>Mbaye Niang Om</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steven-gerrard-palmar%C3%A8s-88a0eb'>Steven Gerrard Palmarès</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-m%C3%A9cano-film-88a0eb'>Le Mécano Film</a>,
+";s:7:"expired";i:-1;}

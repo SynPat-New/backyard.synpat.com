@@ -1,0 +1,135 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6907:"<p>La chanson de l’être ... Quand une personne se trouve allongée sur son lit de mort, tous les villageois connaissent sa chanson et la lui chantent une dernière fois.  Malgré l’image répandue dans les médias d’une Afrique comme un haut-lieu atemporel de la victimisation des femmes, les femmes de ce continent ont par le passé souvent usé de stratégies pour combattre les violences conjugales. L'exploitation des documents qui parlent de la mort et l'analyse pertinent des réalités déposées en eux proposent ainsi un précieux outil de lecture des préoccupations existentielles. Rent and save from the world's largest eBookstore. 40 mn de comptines africaines pour la maternelle; Artist Emile Biayenda; Licensed to YouTube by PEDL, UMPG Publishing, UMPI, IMPEL, and 5 Music Rights Societies ; … </p> <p>Sandro CAPO CHICHI - 06 juillet 2017 . Get Textbooks on Google Play. Read, highlight, and take notes, across web, tablet, and phone. Böngésszen a világ legnagyobb e-könyvesboltjában, és még ma kezdjen neki az olvasásnak az interneten, táblagépén, telefonján vagy e-olvasóján. Piero Battery - Loin devant (Clip Officiel) Ft. Jahaziel by Piero Battery. 10 oct. 2015 - Le lion est mort de soir Voici le lien pour écouter cette chanson Et qu’en mémoire de leur sang qui a coulé lors de ces violences,  ce même sang qui continue à couler dans nos veines, nous nous devons, hommes et femmes, de combattre sans relâche les violences conjugales. 18 mai 2018 - Je vous fais ici une présentation des différentes ressources que j'ai trouvées pour un travail sur la musique en Afrique pour des enfants handicapés. Henri Salvador interprète l'adaptation française de "The lion sleeps tonight", repris de la chanson sud-africaine "Mbube", dans l'émission Bonsoir qu'il anima en 1961 et 1962. Sign in to YouTube. En République de Guinée, une étude récente a conclu que 80% des femmes guinéennes avaient déjà été victimes de violences domestiques. 4:36. Loading... Save. La chanson suivante, élaborée durant cette période, cible Barry Diawadou et son père, tous deux accusés de collaboration avec le régime  colonial français et de corruption:Toujours en Guinée, dans la région forestière cette fois, lorsqu’une femme était victime d’abus de la part de son mari, d’autres femmes de la communauté se rassemblaient, habillées en guerriers et armées de couteaux qu’elles appelaient ‘des coupeurs de pénis’ elles se rassemblaient devant la maison du coupable et la défonçaient à coup de bâtons.C’est à peu près le même type de pratique que l’on retrouvait traditionnellement chez les femmes igbo du Nigéria. </p> <p>Mort SHUMAN chante "Un été de porcelaine" Émissions TV, Archive tv, Archive television, tv replay live, live music, french tv Images d'archive INA Institut National de l'Audiovisuel 20150, 13631 Arles Cedex, France - 31 Rue Vandrezanne 75013 Paris, France Information tel : 04 90 49 90 49 fax : 04 90 49 58 33 Administration tel : 04 90 49 90 49 Presse tel : 01 53 80 37 98 Email Contact Information: contact-lcdm@lechantdumonde.com Presse: cbreugnon@lechantdumonde.com </p> <p>C’est dans ces pratiques qu’étaient enracinées Jeune fille pokot enlevée pour être mariée de force Photographe : Siegfried Modola / ReutersDans un photo-reportage particulièrement émouvant, le journaliste allemand Siegfried Modola documente comment des jeunes filles du groupe ethnique pokot (Kenya) sont enlevées contre leur gré de leur maison familiale pour être excisées et mariées de force.Dans ce groupe même ethnique pokot, les femmes avaient aussi mis en place des stratégies pour répondre fermement aux violences conjugales. Par Sandro CAPO CHICHI / nofi.fr. (C) 1990 Mercury (France) ... Ina Chansons 249,538 views. --Page 4 of cover.Le thème de la mort dans la littérature seereer: essaiLes villes et les livres: l'image de la ville dans la littérature africaine ...Le thème de la mort dans la littérature seereer: essai Elles l’enlevaient, l’attachaient à un arbre couvert d’épines, le frappaient avec des bâtons, allant parfois jusqu’à uriner ou à déféquer sur lui, voire le menacer de mort jusqu’à ce que sa femme vienne implorer leur pardon.Et si ces stratégies sont extrêmes, elles montrent la violence que nos mères, nos grand-mères et nos arrière grand-mères ont du endurer pour y répondre de cette manière. TOUS DROITS Réservés © 2014-2020 NOFI GROUP                 La matière conceptuelle qui émane de toutes les catégories génériques du système littéraire seereer et de ses frontières discursives constitue un cadastrage d'un monde et un éclairage d'une rare précision sur la psyché de ce peuple attachant.                                     Si vous appréciez notre contenu et voulez nous permettre de continuer à en créer, nous vous encourageons à désactiver Adblock. musique chrétienne africaine heaven0000000; 10 videos; 332,967 views; Last updated on Jun 24, 2014; c'est la musique que j'aime Play all Share. 40:20. "Cet ouvrage fascinant à plus d'un titre scrute toutes les facettes de la mort et ses impacts sur la société seereer : la philosophie, la psychologie, la religion, l'occultisme, le symbolisme, la politique et l'économie. La résistance traditionnelle des femmes africaines aux violences conjugales . Ce genre de statistiques inquiétantes, qui sont loin d’être uniques à la Guinée en Afrique , peuvent laisser penser que les femmes africaines sont toujours restées passives face à ce genre d’agressions et l’ont toujours accepté. musique africaine : soukous / highlife / mbalax / makossa / bikutsi / coupe decale /                                 Catégories                              15 mai 2015 - Le légendaire guitariste BB King est mort | Midiazot Le Rituel des damnés (1988, als Terence Corman) als Félix Chapel: Les Ailes tranchées (1990) Les Éphémères des sables (1990) Le Sang de Fulgavy (1990) Le Temple de la mort turquoise (1990) Les Fêtes de Hrampa (1991) als Pierre-Alexis Orloff: L'Effroyable vengeance de Panthéra (2008) Panthera contre Faustus (2011) La Mère de Panthera (2014) Music video by Mort Shuman performing Le Lac Majeur. Sign in . Traditionnellement, dans le groupe ethnique soussou par exemple, lorsqu’une femme était maltraitée par son conjoint,  d’autres femmes se réunissaient et attaquaient publiquement et verbalement le coupable avec des chansons à paroles explicites remettant en question sa virilité.Lors de la révolution guinéenne, c’est dans ces traditions que puisèrent les femmes du Rassemblement Démocratique Africain de Sékou Touré pour provoquer leurs rivaux, accusés de collaboration avec le régime colonial.                                  LE CHANT DU MONDE adresses - Mas de Vert, B.P. S'inscrire à la newsletter </p>";s:7:"keyword";s:28:"chanson de la mort africaine";s:5:"links";s:9692:"<a href='https://backyard.synpat.com/site/article.php?page=abdos-hypopressifs-lucile-woodward-88a0eb'>Abdos Hypopressifs Lucile Woodward</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=slogan-sur-le-sport-sant%C3%A9-88a0eb'>Slogan Sur Le Sport Santé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=surnom-d%27amour-en-anglais-88a0eb'>Surnom D'amour En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Des-mots-%C3%A0-offrir-88a0eb'>Des Mots à Offrir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salle-de-cours-88a0eb'>Salle De Cours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ronnie-Coleman-1991-88a0eb'>Ronnie Coleman 1991</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hugo-lloris-transfermarkt-88a0eb'>Hugo Lloris Transfermarkt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chouf-tv-asmaa-amrani-2020-88a0eb'>Chouf Tv Asmaa Amrani 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jet-6-lettres-88a0eb'>Jet 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-johor-episode-1-streaming-88a0eb'>Koh-lanta Johor Episode 1 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femmes-d%27influence-facebook-88a0eb'>Femmes D'influence Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-et-vacances-le-crotoy-booking-88a0eb'>Pierre Et Vacances Le Crotoy Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-fnac-tahiti-88a0eb'>Magasin Fnac Tahiti</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-chanteur-ukulele-88a0eb'>Le Chanteur Ukulele</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inter-2004-05-88a0eb'>Inter 2004 05</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estimation-compte-lol-88a0eb'>Estimation Compte Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=conditions-de-brewster-88a0eb'>Conditions De Brewster</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=justine-l%C3%A9vy-livres-88a0eb'>Justine Lévy Livres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=will-%26-grace-season-11-88a0eb'>Will & Grace Season 11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plan-bus-86-hanoi-88a0eb'>Plan Bus 86 Hanoi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-public-de-france-foot-2020-88a0eb'>Meilleur Public De France Foot 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-compl%C3%A9ment-alimentaire-articulation-88a0eb'>Meilleur Complément Alimentaire Articulation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kayak-belgique-vols-88a0eb'>Kayak Belgique Vols</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Taxi-Uber-Casablanca-88a0eb'>Taxi Uber Casablanca</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=votes-koh-lanta-2020-88a0eb'>Votes Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bricklin-sv-1-fiche-technique-88a0eb'>Bricklin Sv-1 Fiche Technique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-acteur-telefilm-fran%C3%A7ais-88a0eb'>Salaire Acteur Telefilm Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=othon-1er-de-germanie-88a0eb'>Othon 1er De Germanie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=challenge-2020-tiktok-88a0eb'>Challenge 2020 Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=claude-koh-lanta-biographie-88a0eb'>Claude Koh-lanta Biographie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-hardelot-booking-88a0eb'>Location Hardelot Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gravier-d%C3%A9coratif-en-vrac-castorama-88a0eb'>Gravier Décoratif En Vrac Castorama</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-retrait-image-google-88a0eb'>Demande Retrait Image Google</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tik-tok-love-movie-88a0eb'>Tik Tok Love Movie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-club-pro-cdm-88a0eb'>Fifa 20 Club Pro Cdm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baby-foot-stella-88a0eb'>Baby Foot Stella</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ireland-nationality-name-88a0eb'>Ireland Nationality Name</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%89mission-Loft-Story-88a0eb'>Émission Loft Story</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=my-muscle-nutrition-whey-88a0eb'>My Muscle Nutrition Whey</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-france-adresse-88a0eb'>Twitter France Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philippe-od-bali-instagram-88a0eb'>Philippe Od Bali Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyntoia-brown-wikipedia-fran%C3%A7ais-88a0eb'>Cyntoia Brown Wikipedia Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=highlander-3-film-streaming-vf-gratuit-88a0eb'>Highlander 3 Film Streaming Vf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=norman-le-talisman-88a0eb'>Norman Le Talisman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Drapeau-Maroc-Alg%C3%A9rie-88a0eb'>Drapeau Maroc Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prendre-contact-avec-88a0eb'>Prendre Contact Avec</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-api-get-comments-88a0eb'>Twitter Api Get Comments</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cookies-ig-bas-avoine-88a0eb'>Cookies Ig Bas Avoine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=H%C3%B4tel-France-Eiffel3%2C2%28483%29%C3%80-0%2C4%C2%A0km126%E2%80%AF742%C2%A0%E2%82%A9-88a0eb'>Hôtel France Eiffel3,2(483)À 0,4 km126 742 ₩</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlotte-d%27ornellas-mari%C3%A9e-88a0eb'>Charlotte D'ornellas Mariée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lo%C3%AFs-et-clark%2C-les-nouvelles-aventures-de-superman-saison-1-streaming-88a0eb'>Loïs Et Clark, Les Nouvelles Aventures De Superman Saison 1 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=customs-map-tarkov-2020-88a0eb'>Customs Map Tarkov 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=assommer-en-arabe-88a0eb'>Assommer En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-perpignan-horaires-88a0eb'>Decathlon Perpignan Horaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chamboule-tout-auchan-88a0eb'>Chamboule Tout Auchan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lady-gaga-a-yo-video-88a0eb'>Lady Gaga A-yo Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Mes-petites-mains-font-tap%2C-tap-88a0eb'>Mes Petites Mains Font Tap, Tap</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=airbnb-amsterdam-fumeur-88a0eb'>Airbnb Amsterdam Fumeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-aide-soignante-ehpad-88a0eb'>Lettre De Motivation Aide Soignante Ehpad</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perles-rocailles-miyuki-11%2F0-88a0eb'>Perles Rocailles Miyuki 11/0</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-boh%C3%A8me-partition-guitare-pdf-88a0eb'>La Bohème Partition Guitare Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bts-design-de-mode-alternance-88a0eb'>Bts Design De Mode Alternance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=el-drag%C3%B3n-serie-88a0eb'>El Dragón Serie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-ab%C3%AEme-88a0eb'>Synonyme De Abîme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=umtiti-fifa-20-avis-88a0eb'>Umtiti Fifa 20 Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=madame-la-girafe-paroles-88a0eb'>Madame La Girafe Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=restaurant-guise-paris-8-88a0eb'>Restaurant Guise Paris 8</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Caroline-Receveur-Twitter-88a0eb'>Caroline Receveur Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-vibrante-4d-bluefin-88a0eb'>Plateforme Vibrante 4d Bluefin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=banana-bread-healthy-chocolat-88a0eb'>Banana Bread Healthy Chocolat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=se-loger-bourg-en-bresse-88a0eb'>Se Loger Bourg-en-bresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-le-roi-88a0eb'>Faire Le Roi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-rita-mitsouko---marcia-baila-88a0eb'>Les Rita Mitsouko - Marcia Baila</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-victorienne-france-88a0eb'>Maison Victorienne France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dimash-the-singer-88a0eb'>Dimash The Singer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rocket-league-couleur-club-88a0eb'>Rocket League Couleur Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fred-les-anges-instagram-88a0eb'>Fred Les Anges Instagram</a>,
+";s:7:"expired";i:-1;}

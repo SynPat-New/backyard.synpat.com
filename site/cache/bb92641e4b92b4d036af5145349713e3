@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6071:"<br>Esai Morales acting as Hugo Vega was also excellent. It's from the album  You can help by converting this section to prose. <br> <br>Check out some of the IMDb editors' favorites movies and shows to round out your Watchlist.Keep track of everything you watch; tell your friends. This film also has an excellent cast, Michael Jai White as Case Walker, Josh Barnett as Brody James, Gillian White as Myca Cruz, Esai Morales as Hugo Vega, Stephen Quadros as Matty Ramos and Nathan Jones as Caesar Braga. <br> <br>His character was a very tough, non nonsense fighter who was also very caring and friendly. The movie was released on March 14, 2008. <br> <br> <br>Picking up after the events of Never Back Down 2, former MMA champion Case Walker is on the comeback trail to become champion once again. Use the HTML below. With Michael Jai White, Gillian White, Esai Morales, Stephen Quadros. Was this review helpful to you? The trance track played, when Ryan and his dad argue, is called "Estuera – Tales From The South (Jonas Steur's Flow Revision)", it did not feature on the soundtrack. In the fourth installment of the fighting franchise, Boyka is shooting for the big leagues when an accidental death in the ring makes him question everything he stands for. Chapman is an ex-marine in Brazil's slums, battling the yakuza outfit who attacked his sister and left her for dead. Never Back Down is a 2008 American martial arts film directed by Jeff Wadlow and starring Sean Faris, Amber Heard, Cam Gigandet, and Djimon Hounsou. When heavyweight champion George "Iceman" Chambers lands in prison, the resident gangster arranges a boxing match with the reigning prison champ. “2048: Nowhere to Run” takes place one year before the events of Blade Runner 2049. Check out our breakdown of the movies and shows we're excited about this month, including "Want to share IMDb's rating on your own site? <br> <br>His character was also a trainer, who had his misunderstandings of Case Walker but eventually got rid of those misunderstandings and was friendly with Case Walker. 2 of 3 people found this review helpful. Oscars Best Picture Winners Best Picture Winners Golden Globes Emmys San Diego Comic-Con New York Comic-Con Sundance Film Festival Toronto Int'l Film Festival Awards Central Festival Central All Events <br> <br>Jake discovers that Roqua is from Upon hearing that Jake has decided not to compete in the Beatdown, Ryan invites Max to hang out at his house; there he feigns interest in The next day, a visibly injured Max has been released from the hospital. He agrees to allow Jake to train at his gym again, but does not take it easy on him anymore, making Jake prepare to compete in the Beatdown. <br> <br>This time, Heavyweight Champ George "Iceman" Chambers is sent to a Russian Jail on trumped-up drug charges. The film is about a frustrated and conflicted and arrogant teenager who arrives at a new high school to discover an underground fight club. This time he is fighting in the first ever inter-prison tournament with one knee. A frustrated and conflicted teenager arrives at a new high school to discover an underground fight club and meet a classmate who begins to coerce him into fighting. When heavyweight champion George "Iceman" Chambers lands in prison, the resident gangster arranges a boxing match with the reigning prison champ. When a billionaire's daughter intent on bringing down a major crime syndicate is targeted by a group of professional assassins, a team of mercenaries must stop them before they kill her. Was this review helpful to you? Making an attempt to fit in, at the invitation of a flirtatious classmate Baja Miller, Jake goes to a party where he is unwillingly pulled into a fight with the After he and Max leave the gym, Jake gets into a road rage brawl with a group of men whom Jake easily disposes of while Max films. The film closed on June 5, 2008, after 84 days at the North American box office with $41,627,431 worldwide against a budget of $20 million. Other than that, this film is awesome and should not be missed.Keep track of everything you watch; tell your friends. The short film focuses on Sapper, a man who is trying to make it through life day-by-day without turning back to his old ways. <br> <br>Ryan then proceeds to challenge Jake to compete in the Beatdown, an underground fighting tournament of which Ryan is the reigning champion. <br> <br>After having been banished from the gym by Roqua after his fight is discovered, Jake begs for forgiveness saying his anger is quelled when he is training with Roqua. In Los Angeles, an ex-con takes the underground fighting world by storm in his quest to fulfill a promise to a dead friend. Boyka is back. <br> <br>In Los Angeles, an ex-con takes the underground fighting world by storm in his quest to fulfill a promise to a dead friend. This video again circulates around the school, raising Jake's social status but agitating Ryan in the process. <br> This time he is fighting in the first ever inter-prison tournament with one knee. <br> <br>Spider-Man : New Generation Streaming vf francais 2018. We’re introduced to both the gentle nature of Sapper and the violence he’s capable of when set off. Jake discovers that Roqua is from Upon hearing that Jake has decided not to compete in the Beatdown, Ryan invites Max to hang out at his house; there he feigns interest in The next day, a visibly injured Max has been released from the hospital. 7.8 / 10 by 284 users . <br> <br>Her character was a very kindhearted, caring, loving and empathetic woman. While training with Roqua, Jake inquires why he lives in the gym. Inception. 6.4. <br> <br>This film also has a small appearance by Tony Jaa. Picking up after the events of Never Back Down 2, former MMA champion Case Walker is on the comeback trail to become champion once again. Her character was a very kindhearted, caring, loving and empathetic woman. The film is about a frustrated and conflicted and arrogant teenager who arrives at a new high school to discover an underground fight club. <br>";s:7:"keyword";s:48:"never back down 3 film complet en français 2016";s:5:"links";s:5792:"<a href='https://backyard.synpat.com/site/article.php?page=la-personnalit%C3%A9-est-elle-inn%C3%A9e-ou-acquise-88a0eb'>La Personnalité Est-elle Innée Ou Acquise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-stoke-city-fifa-20-88a0eb'>Effectif Stoke City Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=customs-map-tarkov-2020-88a0eb'>Customs Map Tarkov 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-esport-fifa-88a0eb'>Salaire Esport Fifa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psaume-8-lettres-88a0eb'>Psaume 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=real-madrid-2001-2002-88a0eb'>Real Madrid 2001-2002</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=against-the-clock---traduction-88a0eb'>Against The Clock - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-sportif-pour-perdre-40-kilos-88a0eb'>Programme Sportif Pour Perdre 40 Kilos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-des-pr%C3%A9noms-88a0eb'>Chanson Des Prénoms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=note-fifa-19-88a0eb'>Note Fifa 19</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=greystoke%2C-la-l%C3%A9gende-de-tarzan-88a0eb'>Greystoke, La Légende De Tarzan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chute-de-la-maison-usher-epstein-analyse-88a0eb'>La Chute De La Maison Usher Epstein Analyse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heures-de-pri%C3%A8re-montbazon-2020-88a0eb'>Heures De Prière Montbazon 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=big-will-instagram-88a0eb'>Big Will Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mother-d%C3%A9finition-en-fran%C3%A7ais-88a0eb'>Mother Définition En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shirley-medicated-cream-88a0eb'>Shirley Medicated Cream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gotaga-apex-saison-3-88a0eb'>Gotaga Apex Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=favori-koh-lanta-2020-88a0eb'>Favori Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aquarela-do-brasil-brazil-88a0eb'>Aquarela Do Brasil Brazil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portrait-beno%C3%AEt-koh-lanta-2016-88a0eb'>Portrait Benoît Koh-lanta 2016</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=melon-trop-m%C3%BBr-diarrh%C3%A9e-88a0eb'>Melon Trop Mûr Diarrhée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicole-croisille-i%27ll-never-leave-you-88a0eb'>Nicole Croisille I'll Never Leave You</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-avoir-des-abdos-en-1-jour-88a0eb'>Comment Avoir Des Abdos En 1 Jour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Claudio-Cap%C3%A9o-2020-88a0eb'>Claudio Capéo 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Les-Huit-Montagnes-88a0eb'>Les Huit Montagnes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wodapalooza-leaderboard-2018-88a0eb'>Wodapalooza Leaderboard 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lola-miami-mym-fans-88a0eb'>Lola Miami Mym Fans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tunique-m%C3%A9dicale-homme-88a0eb'>Tunique Médicale Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-malheurs-de-sophie---film-88a0eb'>Les Malheurs De Sophie - Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-faire-un-shaker-sans-shaker-88a0eb'>Comment Faire Un Shaker Sans Shaker</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-sportif-altergo-2020-horaire-88a0eb'>Défi Sportif Altergo 2020 Horaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=benji-samat-age-88a0eb'>Benji Samat Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9marche-synonyme-fran%C3%A7ais-88a0eb'>Démarche Synonyme Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=glute-challenge-day-1-88a0eb'>Glute Challenge Day 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lexique-des-termes-juridiques-dalloz-pdf-88a0eb'>Lexique Des Termes Juridiques Dalloz Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=firefox-focus-android-88a0eb'>Firefox Focus Android</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shoah-film-complet-en-fran%C3%A7ais-88a0eb'>Shoah Film Complet En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=give-a-hint-meaning-88a0eb'>Give A Hint Meaning</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=argent-d%C3%A9pens%C3%A9-lol-88a0eb'>Argent Dépensé Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hackney-london-dangerous-88a0eb'>Hackney London Dangerous</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=genevi%C3%A8ve-brouillette-%C3%A2ge-88a0eb'>Geneviève Brouillette âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=real-match-day-88a0eb'>Real Match Day</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=build-garen-tank-88a0eb'>Build Garen Tank</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=three-seconds-aka-the-informer-88a0eb'>Three Seconds Aka The Informer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-%C3%A9ducateur-jeune-enfance-parcoursup-88a0eb'>Lettre De Motivation éducateur Jeune Enfance Parcoursup</a>,
+";s:7:"expired";i:-1;}

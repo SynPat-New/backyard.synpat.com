@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5029:"<p>Chaque dimanche, «Le grand slam» accueille les champions qui ont marqué l'histoire de «Slam» par leur palmarès et leur personnalité.Avec sa mécanique imparable basée sur la culture générale et les mots croisés, «Le Grand Slam» permet, chaque semaine, à quatre candidats de revenir dans la compétition pour tenter de se qualifier et d'affronter, toujours dans la bonne humeur, le champion en lice afin de remporter les 10 000 euros en jeu. Suivez en direct sur le site et la chaîne L'Équipe, la première journée du Grand Slam de Paris, samedi à partir de 17h00. Le Paris Grand Slam Judo, l’historique tournoi parisien se dispute ce week-end à AccorHotels Arena et sera à vivre en direct sur la chaîne l'Equipe avec les commentaires de Frédéric Lecanu, Gévrise Emane et Automne Pavia !Grand pourvoyeur de médailles olympiques pour la délégation tricolore, le judo est de retour, dans le cadre du plus grand tournoi international de la discipline : le Paris Grand Slam à suivre en direct et en clair sur la chaine L’Équipe. Regarder Le grand slam en direct sur internet . </p> <p>Slam est un JEU GRATUIT qui fonctionne sur le principe de l'émission TV sur France 3. Des candidats qui ont marqué l'histoire de Slam par leur performance, leur personnalité et leur bonne humeur.Avec sa mécanique imparable qui mêle quiz et mots croisés, « Le Grand Slam » permet chaque semaine à 3 candidats emblématiques de la quotidienne de revenir dans la compétition pour tenter de se qualifier et affronter, toujours dans la bonne humeur, le champion en lice. Slam, jeu online flash gratuit - Jouez des grilles en ligne dans les décors de votre jeu préféré: des milliers de grilles et de définitions de mots fléchés vous attendent ! </p> <p> Suivez les combats en direct et en intégralité à partir de 15 heures sur le site de L'Équipe. Suivez en direct sur le site L'Équipe les combats de cette troisième journée du Grand Slam de Bakou, en Azerbaïdjan. </p> <p>Choisissez votre replay parmi les émissions disponibles de Le Grand Slam. Ce week-end, le World Judo Tour fait étape en Azerbaïdjan pour le Grand Slam de Bakou. [Rugby] France / Italie (Tournoi des 6 nations) ce dimanche sur France 2 ! [Infos TV] "Mourinho, le Film" le documentaire exceptionnel de Transversale ce jeudi sur RMC Sport ! saisons, 5 épisodes Attirant des judokas de toute la planète, l’épreuve se place au plus haut niveau mondial et oppose les meilleurs combattants du monde. Une première manche avec une grille de 10 mots, une deuxième avec une grille de 12 mots... La mécanique du jeu est la même que lors des émissions quotidiennes. </p> <p>Le Grand Slam en replay. Judo - Le Grand Slam de Brasilia en direct vidéo Pour ce deuxième rendez-vous international depuis les Championnats du monde de Tokyo en août dernier, près de 350 judokas sont attendus au Brésil pour le Grand Slam de Brasilia, du 6 au 8 octobre. [Judo] Le Paris Grand Slam Judo, l’historique tournoi parisien se dispute ce week-end à AccorHotels Arena et sera à vivre en direct sur la chaîne l'Equipe avec les commentaires de Frédéric Lecanu, Gévrise Emane et Automne Pavia ! Chaque dimanche, "Le Grand Slam" accueille les champions qui ont marqué l'histoire de "Slam" par leur palmarès et leur personnalité. Suivez dès 9h30 ce dimanche en direct sur notre site et notre chaîne la troisième journée du Grand Slam d'Osaka. Avec sa mécanique imparable qui mêle quiz et mots croisés, « Le Grand Slam » permet chaque semaine à 3 candidats emblématiques de la quotidienne de revenir dans ... la compétition pour tenter de se qualifier et affronter, toujours dans la bonne humeur, le champion en lice. </p> <p>Chaque dimanche, «Le grand slam» accueille les champions qui ont marqué l'histoire de «Slam» par leur palmarès et leur personnalité. Tweetez et suivez les tweets de l'emission 'Le grand Slam' sur France 3 du 2020-08-02 à 16:55 en temps réel. Inscrivez-vous en ligne pour participer aux sélections et venir sur France 3 jouer à SLAM ou Grand SLAM. Chaque dimanche, «Le grand slam» accueille les champions qui ont marqué l'histoire de «Slam» par leur palmarès et leur personnalité.Avec sa mécanique imparable basée sur la culture générale et les mots croisés, «Le Grand Slam» permet, chaque semaine, à quatre candidats de revenir dans la compétition pour tenter de se qualifier et d'affronter, toujours dans la bonne humeur, le champion en lice afin de remporter les 10 000 euros en jeu. </p> <p>Avec sa mécanique imparable qui mêle quiz et mots croisés, « Le Grand Slam » permet chaque semaine à 3 candidats emblématiques de la quotidienne de revenir dans la compétition pour  tenter de se qualifier et affronter, toujours dans la bonne humeur, le champion en lice.               Retrouvez les prochains rendez-vous FOOT à la TV ! Répondez correctement à des questions astucieuses et amusantes, dont chacune des réponses tient en une seule lettre ! </p>";s:7:"keyword";s:23:"le grand slam en direct";s:5:"links";s:6156:"<a href='https://backyard.synpat.com/site/article.php?page=objectif-photo-marque-chinoise-88a0eb'>Objectif Photo Marque Chinoise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=walt-disney-film-88a0eb'>Walt Disney Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nassim-lghoul-%C3%A9quipe-de-france-88a0eb'>Nassim Lghoul équipe De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chauffeur-livreur-permis-b-longue-distance-88a0eb'>Chauffeur Livreur Permis B Longue Distance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kayak-belgique-vols-88a0eb'>Kayak Belgique Vols</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quest-ce-qu%27une-personne-ressource-88a0eb'>Quest Ce Qu'une Personne Ressource</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-sigma-compatible-canon-88a0eb'>Objectif Sigma Compatible Canon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nana-lorenzo-feat-88a0eb'>Nana Lorenzo Feat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-100-personnes-les-plus-influentes-du-monde-2018-88a0eb'>Les 100 Personnes Les Plus Influentes Du Monde 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cookies-ig-bas-avoine-88a0eb'>Cookies Ig Bas Avoine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-du-ramadan-2018-88a0eb'>Fin Du Ramadan 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=martin-weill-enseignement-88a0eb'>Martin Weill Enseignement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-minecraft-twinner-88a0eb'>Koh-lanta Minecraft Twinner</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=syst%C3%A8me-cardiovasculaire-exercice-88a0eb'>Système Cardiovasculaire Exercice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=biopic-film-2020-88a0eb'>Biopic Film 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gibert-joseph-saint-%C3%A9tienne-88a0eb'>Gibert Joseph Saint étienne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fairfield-inn-montreal-88a0eb'>Fairfield Inn Montreal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivre-%C3%A0-sharjah-88a0eb'>Vivre à Sharjah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fortnite-chest-map-tracker-88a0eb'>Fortnite Chest Map Tracker</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nina-goern-et-son-mari-88a0eb'>Nina Goern Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-picarde-aux-pruneaux-88a0eb'>Tarte Picarde Aux Pruneaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=seloger-pro-num%C3%A9ro-88a0eb'>Seloger Pro Numéro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f%C3%A9lix-moati-copine-88a0eb'>Félix Moati Copine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nombre-de-voiture-de-neymar-88a0eb'>Nombre De Voiture De Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-savoir-sur-la-s%C3%A8che-88a0eb'>Tout Savoir Sur La Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=polnareff-olympia-1970-88a0eb'>Polnareff Olympia 1970</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nathalie-echinard-aulas-%C3%A2ge-88a0eb'>Nathalie Echinard Aulas âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manger-manger-moi-j%27aime-%C3%A7a-manger-88a0eb'>Manger Manger Moi J'aime ça Manger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dossier-ramadan-pdf-88a0eb'>Dossier Ramadan Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-isolate-prix-88a0eb'>Whey Isolate Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-dior-converse-88a0eb'>Chaussure Dior Converse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fitadium-s%C3%A8che-extr%C3%AAme-88a0eb'>Fitadium Sèche Extrême</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compo-probable-liverpool-atl%C3%A9tico-madrid-88a0eb'>Compo Probable Liverpool-atlético Madrid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-paroles-traduction-88a0eb'>Brother Paroles Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-lumix-gx80-12-32-88a0eb'>Objectif Lumix Gx80 12-32</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-%C3%A9quipe-national-fifa-20-88a0eb'>Meilleur équipe National Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-rita-mitsouko---marcia-baila-88a0eb'>Les Rita Mitsouko - Marcia Baila</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-est-julia-vignali-88a0eb'>Qui Est Julia Vignali</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruce-lee-fils-88a0eb'>Bruce Lee Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pub-manomano-perceuse-88a0eb'>Pub Manomano Perceuse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9sentateur-en-anglais-88a0eb'>Présentateur En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=full-sit-up-88a0eb'>Full Sit Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toutes-les-recettes-de-choumicha-88a0eb'>Toutes Les Recettes De Choumicha</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philippe-landru-cimeti%C3%A8res-88a0eb'>Philippe Landru Cimetières</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patate-douce-cuisson-88a0eb'>Patate Douce Cuisson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quizz-biz-naruto-88a0eb'>Quizz Biz Naruto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-lacs-du-connemara-partition-fl%C3%BBte-88a0eb'>Les Lacs Du Connemara Partition Flûte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Cherchez-le-gar%C3%A7on-88a0eb'>Cherchez Le Garçon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=open-data-football-88a0eb'>Open Data Football</a>,
+";s:7:"expired";i:-1;}

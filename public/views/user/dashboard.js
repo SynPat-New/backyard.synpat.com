@@ -1,0 +1,13362 @@
+/* Responsive tabs */
+_mainData = "";
+_allMainPatents = [];
+mainAllPatentData = [];     
+__IMAGEURL = __baseUrl;
+__awsUrl='https://storage.googleapis.com/static.synpat.com/backyard/';
+_relaseSplit = false;
+if(typeof __awsUrl!="undefined"){
+	__IMAGEURL = __awsUrl;
+}	
+function push_chart_price(data,textStatus,xhr){
+	console.log(data);
+}
+_scrapPatentList=[];
+_currentElement = 0;
+function scrapFamilyEPO(){
+	_scrapPatentList=[];
+	_currentElement = 0;
+	if(jQuery("#scrap_patent_data").find("tbody").find("tr").length>0){
+		jQuery("#scrap_patent_data").find("tbody").find("tr").each(function(){
+			if(jQuery(this).find('td').length>0){
+				_patentNumber = jQuery(this).find('td').eq(0).find("a").text();
+				switch(_patentNumber.length){
+					case 7:
+						_scrapPatentList.push(_patentNumber);
+					break;
+					case 9:
+						/*_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_scrapPatentList.push(_patentNumber);
+						}*/
+						_scrapPatentList.push(_patentNumber);
+					break;
+					case 11:
+						_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_lastDigit = _patentNumber.substr(_patentNumber.length-1);
+							if(!isNaN(_lastDigit)){
+								_lastDigit = _patentNumber.substr(_patentNumber.length-2,1);
+								if(_lastDigit=="E"){
+									_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-1));
+								} else {
+									_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+								}
+							} else {
+								_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-1));
+							}
+						} else {
+							_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+						}						
+					break;
+					case 13:
+						/*_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+						}*/
+						
+						_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+					break;
+					default:
+						_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_scrapPatentList.push(_patentNumber.substr(0,10));
+						} else {
+							_lastDigit = _patentNumber.substr(_patentNumber.length-1);
+							if(!isNaN(_lastDigit)){
+								_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+							} else {
+								_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-1));
+							}
+						}												
+					break;
+				}
+			}
+		});
+	}
+	if(_scrapPatentList.length>0){
+		console.log(_scrapPatentList);
+		_currentElement = 0;
+		jQuery("#loadingLabel").html('<i style="color: rgb(34, 34, 34); position: static;" class="glyph-icon remove-border demo-icon tooltip-button icon-spin-1 icon-spin float-left mrg0A"></i>');
+		initScrappingForEPO(_currentElement);
+	}
+}
+function uploadDocketFileFolder(){
+	call(__baseUrl+'opportunity/getStoreDIRList/','POST',{},resultAfterUpdateFilesFolder,'text');
+}
+function resultAfterUpdateFilesFolder(data,textStatus,xhr){
+	console.log(data);
+	call(__baseUrl+'opportunity/store_folder_updated/','POST',{},resultAfterStoreFolderUpdated,'text');
+}
+function resultAfterStoreFolderUpdated(data,textStatus,xhr){
+	console.log(data);
+}
+var _epoFamilyScrape = "";
+function initScrappingForEPO(i){
+	if(typeof _scrapPatentList[i]!="undefined"){
+		_epoFamilyScrape = call(__baseUrl+'leads/family_data/'+_scrapPatentList[i],'GET',{},resultAfterScrap,'json');
+	} else {
+		jQuery("#loadingLabel").empty();
+		console.log("All patents scrapped from EPO");
+		jQuery("#loadingLink").attr("onclick","findPatentFromSheetForm('undefined')").html('<i class="glyph-icon icon-recycle" style="font-size:16px;"></i> Import / Update Data');
+		call(__baseUrl+'leads/update_left_chart_juridiction/','POST',{l:leadGlobal},resultAfterUpdatedLeftChart,'json');
+		call(__baseUrl+'leads/dueDilligenceLeftRightChart/'+leadGlobal,'GET',{},resultAfterUpdatedLeftChart,'json');
+	}
+}
+function resultAfterUpdatedLeftChart(data,textStatus,xhr){
+	console.log('LeftChart',data);
+}
+function resultAfterScrap(data,textStatus,xhr){
+	if(data.id>0){
+		console.log("Successfully run patent.");		
+	} else if(data.status){
+		alert(data.status);
+	}
+	_currentElement = _currentElement + 1;
+	initScrappingForEPO(_currentElement);
+}
+function emptyDisplayEmail(){
+	jQuery("#displayEmail").data('cr-account','').data('cr-lead','').data('file','').data('cr-id','').data('cr-type',"").data("cr-pid","").data('cr-ch',"").data('cr-email','').data('cr-r','').data('cr-source','');	
+}
+function findEmailCustomerRequest(email,r,a){
+	if(jQuery('#open_contact_add').hasClass("is-open")){
+		closeSlideBarContact();
+	}
+	jQuery.ajax({
+		type:'post',
+		data:{email:email},
+		url:__baseUrl+'dashboard/find_activites_leads_from_email',
+		success:function(d){
+			if(d!=""){
+				_d = jQuery.parseJSON(d);
+				jQuery("#displayEmail").data('cr-email',email).data('cr-account',a).data('cr-source',0);
+				if(_d.person_id == 0 && _d.list.length == 0){
+					openAddCustomerRequestForm(email);
+				} else {
+					autoCustomerActivate();
+				}
+			}
+		}
+	});
+}
+function findActivitesLeadsFromEmailCustomerRequest(email,r,a){
+	if(jQuery('#open_contact_add').hasClass("is-open")){
+		closeSlideBarContact();
+	}
+	if(typeof r=="undefined"){
+		r = 0;
+	}
+	if(typeof a=="undefined"){
+		a = 1;
+	}
+	jQuery("#displayEmail").data('cr-account',a);
+	leadID = 0;
+	if(typeof jQuery("#displayEmail").data('cr-lead')!="undefined"){
+		leadID =  jQuery("#displayEmail").data('cr-lead');
+	}
+	console.log('TTT:'+leadID);
+	_MessageID = new Date().getTime();
+	jQuery.ajax({
+		type:'post',
+		data:{email:email},
+		url:__baseUrl+'dashboard/find_activites_leads_from_email',
+		success:function(d){
+			if(d!=""){
+				_d = jQuery.parseJSON(d);				
+				if(_d.person_id>0 && _d.list.length>0){
+					_table = '<div style="overflow-x:hidden;overflow-y:scroll;height:300px;"> <table id="lb'+_MessageID+'" class="table table-striped table-hover" data-order="[]"><thead><tr><th>Lead</th><th>Activity</th></tr></thead><tbody>';
+					for(l=0;l<_d.list.length;l++){						
+						_row = _d.list[l];
+						__leadName = _d.list[l].lead_name;
+						__leadName = __leadName.replace(/'/g, "\\'");
+						if(leadID>0 && _row.id==leadID){
+							console.log('tick');
+							associateEmailWithLeadCustomerRequest(a,_d.company_id,_d.person_id,_row.id,__leadName,r);
+							return;
+						}
+						_activityName="";
+						if(_d.list[l].activity==1){
+							_activityName = "Sales";
+						} else if(_d.list[l].activity==2){
+							_activityName = "Acquisition";
+						} else if(_d.list[l].activity==3){
+							_activityName = "Pre Sale";
+						}
+						_leadName = _d.list[l].lead_name;
+						/*Check Lead in activelist*/
+						if(_d.active_list.length>0){
+							for(j=0;j<_d.active_list.length;j++){
+								if(_d.active_list[j].id==_row.id && _d.active_list[j].activity==_d.list[l].activity){
+									_leadName = "<b>"+_leadName+"</b>";
+								}   
+							}
+						}
+						
+						_table +='<tr onclick="associateEmailWithLeadCustomerRequest('+_d.list[l].activity+','+_d.company_id+','+_d.person_id+','+_d.list[l].id+',\''+__leadName+'\','+r+');" style="cursor:pointer;"><td>'+_leadName+'</td><td>'+_activityName+'</td></tr>';
+					}
+					_table +='</tbody></table>';
+					_objPopup = "";
+					if(jQuery("#sortingPopup").length>0){
+						_objPopup = jQuery("#sortingPopup");
+					}else if(jQuery("#sortingPopup").length>0){
+						_objPopup = jQuery("#sortingPopup");
+					}
+					_objPopup.find(".modal-body").html(_table);
+					_objPopup.find("#lb"+_MessageID).DataTable().destroy();
+					_objPopup.find('.modal-content').css({width:'600px'});
+					_objPopup.css({width:'600px'}).modal("show");
+					_objPopup.find("#lb"+_MessageID).DataTable({destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"},"aaSorting": [],"order": []});
+				} else {
+					console.log('EMAILID: '+email);
+					jQuery("#displayEmail").data('file',addCustomerToAcquisition).data('cr-email',email).data('cr-account',a);
+					openAddCustomerRequestForm(email);
+				}
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+function associateEmailWithLeadCustomerRequest(activity,companyID,personID,listID,leadName,r){
+	console.log("ACTIVITY:"+activity+", COMPANYID:"+companyID+", PERSONID:"+personID+", LISTID:"+listID+", leadNAME:"+leadName);
+	_checkRequestType = jQuery("#displayEmail").data('cr-type');
+	if(_checkRequestType != 'undefined' &&  _checkRequestType == 'Customer') {
+		call(__baseUrl+'dashboard/customer_request_activate','POST',{a:activity,c:companyID,p:personID,l:listID,ln:leadName,r:r},checkCustomerPostRequest,'json');
+	}  else if(_checkRequestType != 'undefined' &&  _checkRequestType == 'Membership') { 
+		customerMembershipPostRequest(activity,companyID,personID,listID,leadName,r);
+	}
+}
+
+function customerMembershipPostRequest(activity,companyID,personID,listID,leadName,r) {
+	__row = jQuery("#displayEmail").data('cr-id');
+	jQuery("#displayEmail").data('file','').data('cr-email','').data('cr-id','').data('cr-account','');
+	jQuery("#displayEmail").data('file',updateCustomerMembership);
+	jQuery("#displayEmail").data("cr-pid",__row+'^'+listID+'^'+activity+'^'+companyID+'^'+personID);
+	customerRequestActivateLead(listID,activity,companyID,personID);
+	setTimeout(() => {checkTableAfterInterval(companyID,personID,activity);},200);
+}
+function findDataForLitigationScraping(leadID){
+	console.log("LED:"+leadID);
+	if(jQuery("#open_litigation_scrape_list").length > 0 && jQuery("#open_litigation_scrape_list").hasClass('is-open')){
+		jQuery("#open_litigation_scrape_list").find("iframe").get(0).contentWindow.location.reload(true);
+	}
+}
+function deleteCustomerRequest(){
+	let p = jQuery("#displayEmail").data('cr-pid');
+	if(p > 0){
+		call(__baseUrl+'dashboard/delete_request_activate','POST',{p:p},deleteCustomerPostRequest,'json');
+	} else {
+		alert("Invalid contactID");
+	}	
+}
+function deleteCustomerPostRequest(data,textStatus,xhr){
+	console.log("DELETE Customer REQUEST",data);
+	if(data.send>0){
+		var _iframe = jQuery("#open_contact_gd").find("#allcustomerframe").get(0);
+		if(typeof _iframe.contentWindow !="undefined" && _iframe.contentWindow.location.pathname=="/customers/companies_list"){
+			_iframe.contentWindow.location.reload();
+		}
+	}
+}
+function checkCustomerPostRequest(data,textStatus,xhr){
+	if(data.send>0){
+			console.log("Active");
+		jQuery("#sortingPopup").modal("hide");
+		/*Remove row from handsontable*/
+		__row = jQuery("#displayEmail").data('cr-id');
+		__a = jQuery("#displayEmail").data('cr-account');
+		jQuery("#displayEmail").data('file','').data('cr-email','').data('cr-id','').data('cr-account','');
+		leadGlobal = data.l;
+		leadNameGlobal = data.ln;		
+		if(jQuery("#open_contact_gd").hasClass("is-open")){
+			if(typeof data.customer_new=="undefined"){
+				console.log("Attach Customer Insert Now for delete.");
+				jQuery("#displayEmail").data('file',deleteCustomerRequest);
+				jQuery("#displayEmail").data("cr-pid",data.p);
+			}			
+		}
+		_openEmailBox = true;
+		if(typeof data.customer_new!="undefined" && data.customer_new!=""){
+			_checkRequestType = jQuery("#displayEmail").data('cr-type');
+			if(_checkRequestType!='undefined' && _checkRequestType=='Customer'){
+				console.log("Attach Customer Insert Now.");
+				jQuery("#displayEmail").data('file',activateCustomerRequestToCustomerAfterEmailSend);
+				jQuery("#displayEmail").data("cr-pid",data.customer_new);
+			} else {
+				_openEmailBox = false;
+			}		
+		}
+		if(_openEmailBox===true){
+			customerRequestActivateLead(data.l,data.a,data.c,data.p);
+			if(typeof data.r!="undefined"){
+				/**/
+				__getConfirmation = jQuery("#displayEmail").data('cr-r');
+				console.log("CR_PID",jQuery("#displayEmail").data("cr-pid"))				;
+				if(__getConfirmation=="1" || __getConfirmation=="2"){
+					jQuery("#displayEmail").data("cr-pid",__row+'^'+data.l+'^'+data.a+'^'+data.c+'^'+data.p);
+					if(__getConfirmation=="1"){
+						
+						jQuery("#displayEmail").data('file',updateSendCAfterEmailSend);
+					} else if(__getConfirmation=="2"){
+						console.log("Attached");
+						jQuery("#displayEmail").data('file',updateSendRevisedAfterEmailSend);
+					}
+				}
+				if(__getConfirmation=="5"){
+					/*Activate Availability After Email Send*/
+					jQuery("#displayEmail").data('file',insertCheckAvailabilityRequestInDealFlow);
+					jQuery("#displayEmail").data("cr-pid",__row+'^'+data.l+'^'+data.a+'^'+data.c+'^'+data.p);
+				}
+				/*
+				if(__getConfirmation=="1" || __getConfirmation=="2"){
+					call(__baseUrl+'dashboard/send_c','POST',{i:__row,l:data.l,a:data.a,c:data.c,p:data.p},updateRequestToParticipant,'json');
+				} else if(__getConfirmation=="2"){
+					call(__baseUrl+'dashboard/send_revised','POST',{i:__row,l:data.l,a:data.a,c:data.c,p:data.p},updateRequestToParticipant,'json');
+				}*/
+			}
+			checkTableAfterInterval(data.c,data.p,data.a);
+			/*call(__baseUrl+'dashboard/search_contact','POST',{},getContactsTagsList,'json');
+			jQuery("#eventCid").val(data.c);
+			jQuery("#eventPid").val(data.p);
+			jQuery("#activityMainType").val(data.a);
+			jQuery("#eventT").val(data.a);
+			jQuery("#emailSubject,#emailThreadId,#emailMessageId,#emailCC,#emailReference").val('');
+			jQuery("#emailCC").css("width", "725px");
+			jQuery("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');
+			openSlidebar(jQuery("#gmail_message_modal"));
+			jQuery("#gmail_message").css("display", "block");
+			if(__a=='2'){
+				jQuery("#emailAccountType").val(2);
+			}
+			jQuery(".gmail-modal").css("display", "block");
+			jQuery("body").removeAttr("onselectstart");
+			document.oncontextmenu = new Function("return true");
+			jQuery(".dropdown-toggle").dropdown();
+			jQuery("#emailName").val(data.n);
+			jQuery("#emailTo").val(data.e + ", ");
+			findDataRemove.push(data.e);
+			jQuery("#attach_droppable").empty();
+			jQuery("#gmail_message_modal").find("h4").html("Compose Message: " + leadNameGlobal);
+			jQuery("#messageLeadId").val(leadGlobal);
+			jQuery("#emailMessage").focus();*/
+			console.log('CONFIRMATION'+__getConfirmation);
+			if(__getConfirmation=="3"){
+				jQuery("#displayEmail").data('cr-id',__row);
+			}
+			if(__getConfirmation=="4"){
+				jQuery("#displayEmail").data('file','Confirm Payment');
+				jQuery("#displayEmail").data('cr-id',__row);			
+			}
+			if(typeof data.r=="undefined"){
+				jQuery("#customerRequestFormIframe")[0].contentWindow.removeCustomerRequest(__row);
+			}
+		} else {
+			jQuery("#displayEmail").data('file','');
+			jQuery("#displayEmail").data('cr-pid','');
+			alert("Please activate customer first.");
+		}
+	} else {
+		alert("Please try after sometime.");
+	}
+}
+function checkTableAfterInterval(c,p,a){
+	_openContainer = "";
+	if(a==1){
+		_openContainer = "activityTable";
+	} else if(a==2){
+		_openContainer = "aquisitionTable";
+	}
+	if(_openContainer!=""){
+		if(jQuery("#"+_openContainer).find('tr.salesFDroppable[data-c="'+c+'"]').length>0 && jQuery("#"+_openContainer).find('tr.salesFDroppable[data-p="'+p+'"]').length>0){
+			$trRow = jQuery("#"+_openContainer).find('tr.salesFDroppable[data-p="'+p+'"]');
+			$trRow.find('input[name="sales_person[]"]').prop('checked',true).attr('checked','checked');
+			if($trRow.find('a>i.icon-envelope').length>0){
+				$trRow.find('a>i.icon-envelope').parent().trigger('click');
+			}
+		} else {
+			setTimeout(function(){checkTableAfterInterval(c,p,a)},500);
+		}				
+	}
+}
+
+function updateCustomerMembership() {
+	if(_importEmailID>0){ 
+		console.log("ENTER INSIDE AFTER SEND Membership");
+		if(typeof jQuery('#displayEmail').data("cr-pid")!="undefined"){
+			let _pid = jQuery('#displayEmail').data("cr-pid").toString();
+			_allVariables = _pid.split('^');
+			if(_allVariables.length>0 && _allVariables.length==5){
+				i = _allVariables[0];
+				l = _allVariables[1];
+				a = _allVariables[2];
+				c = _allVariables[3];
+				p = _allVariables[4];
+				call(__baseUrl+'customers/update_customer_membership','POST',{i:i,l:l,a:a,c:c,p:p},membershipUpdated,'json');
+			} else {
+				console.log("Problem in customer membership update");
+			}
+		} else {
+			console.log("Problem in customer membership email callback");
+		}
+	} else {
+		console.log("Problem in customer membership");
+	}
+}
+
+function membershipUpdated(data,textStatus,xhr) {
+	if(data.id > 0) {
+		jQuery("#displayEmail").data('cr-r','');
+		jQuery("#displayEmail").data('cr-id','');
+		jQuery("#displayEmail").data('cr-file','');
+		if(jQuery("#open_contact_gd").hasClass("is-open")){
+			var _iframe = jQuery("#open_contact_gd").find("#familyCaptchaForm").get(0);
+			if(typeof _iframe.contentWindow !="undefined" && _iframe.contentWindow.location.pathname=="/customers/companies_list"){
+				_iframe.contentWindow.location.reload();
+			}			
+		} else {
+			console.log("Error reloading customer request page");
+		}
+	} else {
+		console.log("Error updating customer membership");
+	}
+}
+
+function updateSendCAfterEmailSend(){
+	if(_importEmailID>0){
+		console.log("ENTER INSIDE AFTER SEND");
+		if(typeof jQuery('#displayEmail').data("cr-pid")!="undefined"){
+			_pid = jQuery('#displayEmail').data("cr-pid").toString();
+			jQuery('#displayEmail').data("cr-pid","");
+			jQuery('#displayEmail').data("file","");
+			jQuery('#displayEmail').data("cr-id","");
+			_allVariables = _pid.split('^');
+			if(_allVariables.length>0 && _allVariables.length==5){
+				i = _allVariables[0];
+				l = _allVariables[1];
+				a = _allVariables[2];
+				c = _allVariables[3];
+				p = _allVariables[4];
+				call(__baseUrl+'dashboard/send_c','POST',{i:i,l:l,a:a,c:c,p:p,e:_importEmailID},updateRequestToParticipant,'json');
+			} else {
+				console.log("Problem in participant request for updation");
+			}
+		} else {
+			console.log("Problem in participant request for updation");
+		}
+	} else {
+		console.log("Problem in participant request for updation");
+	}
+}
+function activateCustomerRequestToCustomerAfterEmailSend(){
+	
+	if(_importEmailID>0){
+		console.log("ENTER INSIDE CUSTOMER REQUEST AFTER SEND");
+		if(typeof jQuery('#displayEmail').data("cr-pid")!="undefined"){
+			_pid = jQuery('#displayEmail').data("cr-pid").toString();
+			console.log(_pid);
+			jQuery('#displayEmail').data("cr-pid","");
+			jQuery('#displayEmail').data("file","");
+			jQuery("#displayEmail").data('cr-type',"");
+			_allVariables = _pid.split('^');
+			if(_allVariables.length>0 && _allVariables.length==2){
+				call(__baseUrl+'dashboard/activateCustomerRequest','POST',{p:_allVariables[0],c:_allVariables[1]},customerRequestAfterActivate,'json');
+			}
+		}
+	}
+	emptyDisplayEmail();
+}
+window.customerRequestAfterActivate = function(data){
+	console.log(data);
+	var _iframe = jQuery("#allcustomerframe").get(0);
+	if(_iframe!=null && _iframe!="undefined" && typeof _iframe.contentWindow !="undefined" && _iframe.contentWindow.location.pathname=="/customers/companies_list"){
+		_iframe.contentWindow.location.reload();
+	}
+	var _iframe = jQuery("#open_licensees").find("#manageLicenseIframe").get(0);
+	if(_iframe!=null && _iframe!="undefined" && typeof _iframe.contentWindow !="undefined"){
+		_iframe.contentWindow.location.reload();
+	}
+	getCountOnRTP();
+}
+function updateSendRevisedAfterEmailSend(){
+	console.log("under revised");
+	if(_importEmailID>0){
+		console.log("ENTER REVISED INSIDE AFTER SEND");
+		if(typeof jQuery('#displayEmail').data("cr-pid")!="undefined"){
+			_pid = jQuery('#displayEmail').data("cr-pid").toString();
+			console.log(_pid);
+			jQuery('#displayEmail').data("cr-pid","");
+			jQuery('#displayEmail').data("file","");
+			jQuery('#displayEmail').data("cr-id","");
+			_allVariables = _pid.split('^');
+			if(_allVariables.length>0 && _allVariables.length==5){
+				i = _allVariables[0];
+				l = _allVariables[1];
+				a = _allVariables[2];
+				c = _allVariables[3];
+				p = _allVariables[4];
+				f = _emailAttachFiles;
+				console.log("Sending revised");
+				call(__baseUrl+'dashboard/send_revised','POST',{i:i,l:l,a:a,c:c,p:p,e:_importEmailID,f:f},updateRequestToParticipant,'json');
+			} else {
+				console.log("Problem in revised request for updation");
+			}
+		} else {
+			console.log("Problem in revised request for updation");
+		}
+	} else {
+		console.log("Problem in revised request for updation");
+	}
+}
+function insertCheckAvailabilityRequestInDealFlow(){
+	if(_importEmailID>0){
+		console.log("ENTER INSIDE INSERTCHECKAVAILABILITYREQUESTINDEALFLOW AFTER SEND");
+		if(typeof jQuery('#displayEmail').data("cr-pid")!="undefined"){
+			_pid = jQuery('#displayEmail').data("cr-pid").toString();
+			_available = jQuery("#displayEmail").data('cr-ch');
+			console.log(_pid);
+			jQuery('#displayEmail').data("cr-pid","");
+			jQuery('#displayEmail').data("file","");
+			jQuery('#displayEmail').data("cr-id","");
+			jQuery("#displayEmail").data('cr-ch',"");
+			_allVariables = _pid.split('^');
+			if(_allVariables.length>0 && _allVariables.length==5){
+				i = _allVariables[0];
+				l = _allVariables[1];
+				a = _allVariables[2];
+				c = _allVariables[3];
+				p = _allVariables[4];
+				call(__baseUrl+'dashboard/insert_check_availability_request_deal_flow','POST',{i:i,l:l,a:a,c:c,p:p,e:_importEmailID,available:_available},requestAfterInsertCheckAvailability,'json');
+			} else {
+				console.log("Problem in revised request for updation");
+			}
+		} else {
+			console.log("Problem in revised request for updation");
+		}
+	} else {
+		console.log("Problem in revised request for updation");
+	}
+}
+
+window.requestAfterInsertCheckAvailability = function(data){
+	_importEmailID = 0;
+	var _iframe = jQuery("#open_licensees").find("#manageLicenseIframe").get(0);
+	if(typeof _iframe.contentWindow !="undefined"){
+		_iframe.contentWindow.location.reload();
+	}
+	getCountOnRTP();
+}
+
+function fileAfterEmailSentWithLead(){
+	if(_importEmailID>0){
+		console.log("ENTER INSIDE AFTER SEND");
+		if(typeof jQuery('#displayEmail').data("cr-pid")!="undefined"){
+			_pid = jQuery('#displayEmail').data("cr-pid").toString();
+			_allVariables = _pid.split('^');
+			if(_allVariables.length>0 && _allVariables.length==6){
+				console.log("I am in file after email sent with lead");
+				_MessageID = _allVariables[0].toString();
+				__leadID = _allVariables[1];
+				_company_id = _allVariables[2];
+				_person_id = _allVariables[3];
+				__activity = _allVariables[4];
+				_date = _allVariables[5].toString();
+				jQuery.ajax({
+					type:'POST',
+					url:__baseUrl+'dashboard/linkWithMessage',
+					data:{thread:_MessageID,old_thread:__leadID,c_id:_company_id,p:_person_id,t:__activity,date:_date},
+					success:function(d){_d = jQuery.parseJSON(d); if(_d.send>0){
+					jQuery("#messages-list").find('div[data-id='+_MessageID+']').remove();
+					/*activateLead(leadID,activity);*/
+						if(typeof jQuery("#displayEmail").find('iframe')[0].contentWindow!="undefined"){
+							jQuery("#displayEmail").find('iframe')[0].contentWindow.activateLead(__leadID,__activity,_company_id);
+						}				
+					}}
+				}).fail(function(jqXHR, textStatus){
+					if(textStatus !='parseerror'){alert(textStatus);}
+				});
+			}
+		}
+	}	
+}
+
+_importEmailID = 0
+function updatePaymentNofication(__row,files){
+	
+	if(_importEmailID>0){
+		__check = call(__baseUrl+'dashboard/update_payment_notification','POST',{i:__row,e:_importEmailID,files:files},updateRequestToParticipant,'json');
+		__check.done(function(){
+			_importEmailID = 0;
+			jQuery("#displayEmail").data('cr-r','');
+			jQuery("#displayEmail").data('cr-id','');
+		});
+	} 
+	emptyDisplayEmail();	
+}
+
+function confirmRequestPayment(__row){
+	
+	if(_importEmailID>0){
+		__check = call(__baseUrl+'dashboard/confirm_request_payment','POST',{i:__row,e:_importEmailID},updateRequestToParticipant,'json');
+		__check.done(function(){
+			_importEmailID = 0;
+			jQuery("#displayEmail").data('cr-r','');
+			jQuery("#displayEmail").data('cr-id','');
+			jQuery("#displayEmail").data('cr-file','');
+		});
+	} 
+	emptyDisplayEmail();
+}
+
+function updateRequestToParticipant(data,textStatus,xhr){
+	getCountOnRTP();
+	/*jQuery("#manageLicenseIframe")[0].contentWindow.removeCustomerRequest(__row);*/
+	if(data.id>0){
+		if(typeof data.potential!="undefined" && data.potential>0){
+			/*run algo to check syndication*/
+			console.log("%c I am in algo",'background: #222; color: #bada55');
+			call(__baseUrl+'opportunity/runAlgoCheckSyndication','POST',{p:data.potential},updateAlgoCheckSyndication,'json');
+			
+		} else {
+			
+			console.log("Refresh screen");
+			sp = jQuery("#manageLicenseIframe")[0];
+			sp.contentWindow.location = sp.contentWindow.location.href;
+		}
+		jQuery("#displayEmail").data('cr-r','');
+	} else {
+		console.log("Error in partcipant");
+	}
+	emptyDisplayEmail();
+}
+function updateAlgoCheckSyndication(data,textStatus,xhr){
+	if(data.length>0){
+		getCountOnRTP();
+	}
+	console.log("Refresh screen");
+	sp = jQuery("#manageLicenseIframe")[0];
+	sp.contentWindow.location = sp.contentWindow.location.href;
+}
+
+function customerRequestActivateLead(leadID,activity,companyID,contactID){
+	jQuery("#all_type_list").find("tbody").find("tr").removeClass("active");
+	_index=jQuery("#all_type_list").find("tbody").find('tr[data-id="'+leadID+'"]').index();
+	console.log(_index);
+	if(parseInt(activity)==1){
+		console.log("ENTER1");
+		jQuery('#sales_acititity').removeClass('hide').addClass('show');
+		jQuery('#activityTable').removeClass('hide').addClass('show');
+		jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+		jQuery('#aquisitionTable').removeClass('show').addClass('hide');
+		jQuery('#salesActivityButton').addClass('menu-active');
+		jQuery('#acquisitionActivityButton').removeClass('menu-active');
+	} else if(parseInt(activity)==2){
+		console.log("ENTER2");
+		jQuery('#sales_acititity').removeClass('hide').addClass('show');
+		jQuery('#aquisitionTable').removeClass('hide').addClass('show');
+		jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+		jQuery('#activityTable').removeClass('show').addClass('hide');
+		jQuery('#salesActivityButton').removeClass('menu-active');		
+		jQuery('#acquisitionActivityButton').addClass('menu-active');
+	} else if(parseInt(activity)==3){
+		jQuery('#sales_acititity').removeClass('hide').addClass('show');
+		jQuery('#aquisitionTable').removeClass('hide').addClass('show');
+		jQuery('#activityTable').removeClass('hide').addClass('show');
+		jQuery("#preSaleActivityTable").removeClass("hide").addClass("show");
+		jQuery('#acquisitionActivityButton').removeClass('menu-active');
+		jQuery('#salesActivityButton').addClass('menu-active');
+	}
+	/*window.parent.leadNameGlobal = window.parent.jQuery("#all_type_list").find("tbody").find("tr").eq(_index).find('td').eq(0).find('label>a').text();*/
+	jQuery("#all_type_list").find("tbody").find("tr").eq(_index).addClass("active");
+	jQuery(".DTFC_Cloned").find("tbody").find("tr").eq(_index).addClass("active");
+	threadDetail(jQuery("#all_type_list").find("tbody").find("tr.active"),'undefined',1);
+	_scrollTop=jQuery("#all_type_list").find("tbody").find("tr.active").offset();
+	if(jQuery("#dashboard_charts").is(":visible")){
+		jQuery("#all_type_list").parent().scrollTop(_scrollTop.top-263.5);
+		console.log('KS');
+	} else {
+		jQuery("#all_type_list").parent().scrollTop(_scrollTop.top-106);
+		console.log('BKS');
+	}
+	console.log("S:"+activity+"C:"+companyID);
+	if(parseInt(activity)==1){		
+		if(typeof companyID!='undefined'){
+			setTimeout(function(){
+				jQuery('#activityTable').find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().toggle();
+			},3000);
+			
+		}
+		countActiveMenus();
+	} else if(parseInt(activity)==2){		
+		if(typeof companyID!='undefined'){
+			setTimeout(function(){
+				jQuery('#aquisitionTable').find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().toggle();
+			},3000);			
+		}
+		countActiveMenus();
+	}
+}
+
+function getContactsTagsList(data,textStatus,xhr){
+	availableTags = data;
+}
+
+function autoCustomerActivate(){
+	_email = jQuery("#displayEmail").data('cr-email');
+	r = jQuery("#displayEmail").data('cr-r');
+	a = jQuery("#displayEmail").data('cr-account');
+	p = jQuery("#displayEmail").data('cr-id');
+	emptyDisplayEmail();
+	call(__baseUrl+'dashboard/activateCustomerRequest','POST',{a:a,p:p,e:_email},customerRequestAfterActivate,'json');
+}
+	
+function addCustomerToAcquisition(){
+	if(jQuery("#displayEmail").data('cr-source') != "undefined" && jQuery("#displayEmail").data('cr-source') == "1"){
+		autoCustomerActivate();
+	} else {
+		_email = jQuery("#displayEmail").data('cr-email');
+		r = jQuery("#displayEmail").data('cr-r');
+		a = jQuery("#displayEmail").data('cr-account');
+		findActivitesLeadsFromEmailCustomerRequest(_email,r,a);
+	}	
+}	
+
+function openAddCustomerRequestForm(email){	
+	openContactEditForm(0);
+	console.log("EMail::"+email);
+	jQuery("#displayEmail").data('cr-email',email);
+	setTimeout(function(){
+		console.log("InSet time out...");
+		embedEmailInContactRequest();
+	},1500);	
+}
+
+function embedEmailInContactRequest(){
+	console.log("EMBEDDING EMAIL...");
+	_topUpEmail = jQuery("#displayEmail").data('cr-email');
+	console.log("EMBEDDING EMAILID:"+_topUpEmail);
+	_iframe = jQuery('#open_contact_add').find('iframe').get(0);
+	_htmlContent = _iframe.contentDocument;
+	console.log(_htmlContent);
+	if(jQuery(_htmlContent).find('#inviteeEmail').length>0){
+		jQuery(_htmlContent).find('#inviteeEmail').val(_topUpEmail);
+	} else {
+		setTimeout(function(){
+			console.log("InSet time out2...");
+			embedEmailInContactRequest();
+		},1000);
+	}	
+}
+
+function getCountOnRTP(){
+	call(__baseUrl+'dashboard/get_count_on_rtp','POST',{},showResultRTP,'json');
+}
+
+function showResultRTP(data,textStatus,xhr){
+	$total = 0;
+	$rtp = 0;
+	$rd = 0;
+	$ca = 0;
+	$cr = 0;
+	if(typeof data.rtp!='undefined'){
+		$rtp = data.rtp;
+	}
+	if(typeof data.rd!='undefined'){
+		$rd = data.rd;
+	}
+	if(typeof data.ca!='undefined'){
+		$ca = data.ca;
+	}
+	if(typeof data.cr!='undefined'){
+		$cr = data.cr;
+	}
+	$total = parseInt($rtp) + parseInt($rd) + parseInt($ca) + parseInt($cr);
+	jQuery("#openLicenseesModalB").find('span').html($total);
+	_LI = jQuery("#openLicenseesModalB").parent().find('ul>li');
+	_LI.find('span').eq(0).html($cr);
+	_LI.find('span').eq(1).html($ca);
+	_LI.find('span').eq(2).html($rd);
+	_LI.find('span').eq(3).html($rtp);
+}
+setInterval(function(){getCountOnRTP()},6e5);
+function getCountOnImap(){
+	call(__baseUrl+'users/count_imap_emails','POST',{},showImapCount,'json');
+	callLinkedinCounter();
+}
+
+function callLinkedinCounter(){
+	call(__baseUrl+'leads/count_linkedin_messages','GET',{},showLinkedInMessageCount,'json');
+}
+
+function showLinkedInMessageCount(data,textStatus,xhr){
+	let counter = '';
+	if(data.counter > 0){
+		counter = data.counter;
+	}
+	jQuery("#linkedin_counter").html(counter);
+}
+
+function showImapCount(data,textStatus,xhr){
+	if(data.license>0){
+		jQuery("#license_counter").html('<span class="counter_message">'+data.license+'</span>');
+	} else {
+		if(jQuery("#license_counter").length>0){
+			jQuery("#license_counter").html('');
+		}
+	}
+	if(data.operation>0){
+		jQuery("#operation_counter").html('<span class="counter_message">'+data.operation+'</span>');
+	} else {
+		if(jQuery("#operation_counter").length>0){
+			jQuery("#operation_counter").html('');
+		}
+	}
+	if(data.expert>0){
+		jQuery("#expert_counter").html('<span class="counter_message">'+data.expert+'</span>');
+	} else {
+		if(jQuery("#expert_counter").length>0){
+			jQuery("#expert_counter").html('');
+		}
+	}
+}
+
+setInterval(function(){getCountOnImap()},600000);
+
+function getCustomerRequest(){
+	/*call(__baseUrl+'dashboard/get_count_on_customer_request','POST',{},showResultCR,'text');*/getCountOnRTP();
+}
+
+function showResultCR(data,textStatus,xhr){
+	if(data>0){
+		jQuery("#customer_request").find('span').html(data);
+	} else {
+		jQuery("#customer_request").find('span').html(0);
+	}	
+}
+setInterval(function(){getCustomerRequest()},600000);
+function checkWindow(){
+	obj = jQuery('#split_window_screen');
+	objEmailList = jQuery("#btnEmail");
+	objEmailRetrive = jQuery("#myEmailsRetrieve");	
+	if(obj.hasClass('menu-active1')){
+		obj.removeClass('menu-active1');
+		if(objEmailList.hasClass('menu-active')){
+			splitWindow(1);
+		} else {
+			if(!objEmailRetrive.is(":visible")){
+				/*jQuery('#btnEmail').addClass('menu-active');*/
+				objEmailRetrive.slideDown(function(){
+					jQuery.cookie("show_default_email",true);
+					windowResize();
+					jQuery("#all_type_list_wrapper .sorting:first").trigger("click");
+
+					setTimeout(function(){
+						jQuery("#all_type_list_wrapper .sorting:first").trigger("click")
+					},300);
+
+					checkBodyScrollable()
+				});
+			}
+			else{
+				/*jQuery('#btnEmail').removeClass('menu-active');*/
+				objEmailRetrive.slideUp(function(){
+					jQuery.cookie("show_default_email","");
+					windowResize()
+				})
+			}
+		}
+	} else {
+		obj.addClass('menu-active1');
+		if(objEmailList.hasClass('menu-active')){
+			/*tableDT.order( [ 0, 'asc' ] ).draw();
+			setTimeout(function(){
+				tableDT.order( [ 0, 'asc' ] ).draw();
+			},300);*/
+			splitWindow(3);
+		} else {			
+			if(!objEmailRetrive.is(":visible")){
+				/*jQuery('#btnEmail').addClass('menu-active');*/
+				objEmailRetrive.slideDown(function(){
+					jQuery.cookie("show_default_email",true);
+					windowResize();
+					/*jQuery("#all_type_list_wrapper .sorting:first").trigger("click");*/
+					/*tableDT.order( [ 0, 'asc' ] ).draw();
+					setTimeout(function(){
+						tableDT.order( [ 0, 'asc' ] ).draw();
+					},300);*/
+					
+					checkBodyScrollable()
+				});
+			}
+			/*jQuery("#all_type_list_wrapper .sorting:first").trigger("click");		*/	
+			/*tableDT.order( [ 0, 'asc' ] ).draw();*/
+			splitWindow(2);
+		}
+	}
+}
+function splitWindow(d){
+	_wWidth = jQuery(window).width();
+	switch(d){
+		case 1:
+			/*Disable Lead*/	
+			_relaseSplit = true;
+			listBoxWidth = 73;
+			_rWidth = _wWidth - listBoxWidth-10;
+			_emailLists = (_rWidth*35)/100;
+			_lWidth = _rWidth - _emailLists;
+			jQuery("#listLabels").css('display','');
+			jQuery("#listMainContainerModif").css({display:'',width:_emailLists+'px'});
+			_cWidth = listBoxWidth + _emailLists;
+			jQuery("#listLabels").parent().parent().css('width',_cWidth+'px');
+			jQuery("#displayEmail").css({display:'',width:_lWidth+'px',marginLeft:'0px'});
+			jQuery("#old_lead").parent().css('display','none');
+		break;
+		case 2:
+			/*Disable Emails*/
+			_relaseSplit = true;
+			gWidth = _wWidth-10;
+			jQuery("#old_lead").parent().css({display:'',width:gWidth+'px'});
+			jQuery("#listMainContainerModif").css('display','none');
+			jQuery("#displayEmail").css('display','none');
+			jQuery("#listLabels").css('display','none');
+		break;
+		default:
+			/*Enable All and default width to every box*/
+			_relaseSplit = false;
+			divideScreen();
+		break;
+	}
+	_con = 83;
+	switch(_wWidth){
+		case 1024:
+			_con = 25;		
+		break;
+	}
+	_mWidth  = ((_wWidth - _con))*25/100;
+	_calW = _con + _mWidth;
+	/*if(jQuery("#header-main-ct").length>0){
+		jQuery("#header-main-ct").css({width:_calW+"px",height:'78px'});
+	}*/
+}
+function divideScreen(){
+	_dWidth = jQuery(window).width();
+	_cWidth = _dWidth - 73;
+	_mWidth  = (_cWidth*25)/100;
+	_lWidth = (_cWidth*40)/100;
+	_sWidth = (_cWidth*35)/100;
+	calWidth = _dWidth - _sWidth;
+	ua = window.navigator.userAgent;
+	if(ua.indexOf('Window')>=0){
+		_sWidth = _sWidth -15;
+	}	else {
+		_sWidth = _sWidth-5;
+	}
+	jQuery("#old_lead").parent().css({width:_lWidth+'px',display:''});
+	_lWidth = _lWidth-1;
+	jQuery("#old_lead").find('#headFixedPos').css({width:_lWidth+'px',display:''});
+	jQuery("#old_lead").parent().parent().parent().css({width:calWidth+'px'})
+	jQuery("#listMainContainerModif").css({width:_mWidth+'px',display:''});
+	jQuery("#displayEmail").css({width:_sWidth+'px',display:'',marginLeft:'0px'});
+	jQuery("#listLabels").css('display','');
+}
+
+function resetMenus(){
+	jQuery("#header-nav-right").find('li a.menu-active').each(function(){
+		if(jQuery.trim(jQuery(this).text())!="Emails"){
+			jQuery(this).removeClass('menu-active');
+		}
+	});
+	countActiveMenus();
+}
+window.voiceMailList= function(data,textStatus,xhr){
+	openVoiceMail();
+	if(data!=""){
+		_rows = data;
+		if(_rows.length>0){
+			_list='';
+			for(i=0;i<_rows.length;i++){
+				_callFrom='';
+				_callDate='';
+				_messageID = _rows[i].id;
+				_callAttachments= _rows[i].attachments;
+				_attachments = '';
+				_from = ' Number: '+_rows[i].from.phoneNumber;
+				_name = (typeof _rows[i].from.name!='undefined')?'Name:'+_rows[i].from.name:'';
+				_to = _rows[i].from.phoneNumber;				
+				if(_callAttachments.length>0){					
+					for(a=0;a<_callAttachments.length;a++){
+						fileAttach = '';
+						file='';
+						if(typeof _callAttachments[a].filename!="undefined" && _callAttachments[a].filename!=""){
+							file = _callAttachments[a].filename;
+							file = file.replace('/var/www/html/backyard/',__baseUrl);
+							fileAttach = '<span><audio controls style="margin-top:7px;float: left;"><source src="'+file+'" type="audio/mpeg">Your browser does not support the audio element.</audio></span>';
+						}
+						_attachments += '<div class="comment">'+
+								'<div class="comment_content">'+
+									'<div class="meta">'+
+										'<ul class="userinfo" style="width: 60%;float: left;">'+
+											'<li class="pull-left" style="border:0px;width: auto !important;"><input type="radio" id="voicemail_list" value="'+_messageID+'" data-phone-number="'+encodeURIComponent(_rows[i].from.phoneNumber)+'" data-file-name="'+file+'" onclick="findAndOpenList(jQuery(this));"/><h6 style="width: auto !important;float: left;">'+_name+_from+'</h6></li>' +
+											'<li class="fright" style="border:0px;">Created on '+moment(new Date(_rows[i].creationTime)).format('MMM D, YY h:mm')+'</li>'+
+										'</ul>'+fileAttach+
+									'</div>'+
+								'</div>'+
+							'</div>';
+					}
+				}
+				_list +='<li style="border:0px;" class="ms-hover"><div class="viewticket"><div class="databox blue"><div class="comments" id="message-inbox-task-list" style="max-height:260px;overflow:hidden;overflow-y:scroll;overflow-x:none">'+_attachments+'</div></div></div></li>';
+			}
+			jQuery('.embedVoiceMail').html(_list);
+		} else {
+			jQuery('.embedVoiceMail').html('<li><p class="alert alert-info">You don\'t have any voicemail.</p></li>');
+		}
+	} else {
+		jQuery('.embedVoiceMail').html('<li><p class="alert alert-info">You don\'t have any voicemail.</p></li>');
+	}
+	/*jQuery('#task-btn').addClass('menu-active');*/
+	
+	/*a.preventDefault();					
+	rowWidth();					
+	inputStringFieldsWidth();*/
+	checkMyEmailsHeight();
+}
+function findAndOpenList(o){
+	if(typeof o=="object"){
+		
+	}
+}
+
+function findEvents(ele){
+	_p = jQuery("#prev-event").parent().data('p');
+	if(!isNaN(_p)){
+		_p = parseInt(_p);
+	} else {
+		_p = 0;
+	}
+	if(ele=='prev'){
+		_p = _p-1;
+	} else{
+		_p = _p+1;
+	}
+	jQuery("#prev-event").parent().data('p',_p);
+	if(_p>0){
+		_p = '+'+_p;
+	}
+	call(__baseUrl+'users/getEventForUser','POST',{p:_p},getUserEventList,'json');	
+}
+
+function getUserTodayCalendarEvents(){
+	call(__baseUrl+'users/getEventForUser','GET',{},getUserEventList,'json');	
+}
+function eventWidth(){
+	/*_w = jQuery(window).width();
+	_hnr = jQuery("#header-nav-right").width();
+	_hnc = jQuery("#header-main-ct").width();
+	_hnl = jQuery("#header-nav-left").width();
+	calW = _w - _hnr - _hnc - _hnl;	
+	jQuery('ul.today_user_event').css({width:calW+'px',maxWidth:calW+'px'});*/
+}
+window.getUserEventList = function(data,textStatus,xhr){
+	eventWidth();jQuery('ul.today_user_event').html('');
+	jQuery("#event-date").html(data.date);
+	if(data.list.length>0){
+		/*for(i=data.length;i>0;i--){
+			event = data[i-1];
+			if(event.htmlLink!="" && event.htmlLink!=null){
+				_li+='<li style="color:#fff;"><a style="color:#fff;" href="'+event.htmlLink+'" target="_blank">'+moment(new Date(event.start)).format('h:mm')+' '+event.title+'  </a>&nbsp;<a style="color:#fff;" href="'+event.hangoutLink+'" target="_blank"><i class="glyph-icon icon-video-camera"></i></a></li>';
+			}
+		}*/
+		jQuery.each(data.list,function(i,event){
+			_li="";
+			if(event.htmlLink!="" && event.htmlLink!=null){
+				_li='<li style="color:#fff;"><a style="color:#fff;" href="'+event.htmlLink+'" target="_blank">'+moment(new Date(event.start)).format('h:mm')+' '+event.title+'  </a>&nbsp;';
+				if(event.hangoutLink!=null){
+					_li +='<a style="color:#fff;" href="'+event.hangoutLink+'" target="_blank"><i class="glyph-icon icon-video-camera"></i></a>';
+				}
+				_li +='</li>';
+				jQuery('ul.today_user_event').append(_li);
+			}			
+		});
+		/*jQuery("#event-date").parent().css('left','-60px');*/
+	} else {
+		/*jQuery("#event-date").parent().css('left','-3px');*/
+	}
+
+}
+function voiceMailCalls(){
+	_myExt = jQuery("#user_ext").val();
+	if(_myExt=="" || _myExt==undefined || _myExt=='undefined'){
+		_myExt = '101';
+	}
+	/*_myExt = '101';*/
+	data = {e:_myExt,'case':'voicemail'};
+	call(__baseUrl+'vendor/ringcentral/ringcentral-php/demo/ringout.php','GET',data,voiceMailList,'json');	
+}
+function getLinkedinMessages(){
+	jQuery("#messages-list .messages_container").empty();
+	call(__baseUrl+'leads/get_linkedin_messages','GET',{},getLinkedinMessageList,'json');	
+}
+function getLinkedinMessageList(data, textStatus, xhr){
+	if(data!=""){
+		_rows = data;
+		jQuery("#linkedin_counter").html(_rows.length);
+		if(_rows.length>0){			
+			_list='';
+			for(i=0;i<_rows.length;i++){
+				let _name = _rows[i].first_name +' ' +_rows[i].last_name;
+				let date = _rows[i].created_at;				
+				let conversationID = _rows[i].thread_id;				
+				let message = _rows[i].message;			
+				_list +='<div class="message-item" data-id="'+_rows[i].id+'" data-conversation-id="'+conversationID+'"><div class="message-item-right"><div class="media"><div class="media-body" onclick="openLinkedinThread(jQuery(this))"><h5 class="c-dark"><a class="c-dark" href="javascript://"><strong><span class="pull-left">'+_name+'</span></strong></a></h5><h4 class="c-dark">'+message.substring(0,30)+'</h4><div><span class="message-item-date">'+moment(new Date(parseInt(date))).format("YYYY-MM-DD")+'</span>&nbsp;<a href="javascript://" onclick="deleteLinkedinMessage(jQuery(this))" style="float:right;width:15px;"><i class="glyph-icon"><img src="https://storage.googleapis.com/static.synpat.com/backyard/images/discard.png" style="opacity:0.55;width:10px"></i></a></div></div></div></div></div>';
+			}
+			jQuery("#messages-list .messages_container").html(_list);
+		} else {
+			jQuery("#messages-list .messages_container").html('<p class="alert alert-info">You don\'t have any messages.</p>');
+		}
+	} else {
+		jQuery("#messages-list .messages_container").html('<p class="alert alert-info">You don\'t have any messages.</p>');
+	}
+	/*jQuery('#task-btn').addClass('menu-active');*/
+	
+	/*a.preventDefault();					
+	rowWidth();					
+	inputStringFieldsWidth();*/
+	checkMyEmailsHeight();
+}
+function openLinkedinThread(o){
+	jQuery("#messages-list .message-item").removeClass('message-active');
+	let parentElement = o.parents('.message-item');
+	parentElement.addClass('message-active');
+	jQuery("#displayEmail").html("<iframe src='"+__baseUrl+"/leads/show_linkedin_message/"+parentElement.attr('data-id')+"' scrolling='no' width='100%' height='296'></iframe>");
+	jQuery("#displayEmail iframe").off('load').on('load', function() {
+		checkMyEmailsHeight();
+	});
+}
+function removeLinkedinThreadMessage(threadID){
+	try{
+		jQuery("#mCSB_116").find("div[data-id='"+threadID+"']").remove();
+	}catch(e){}
+}
+function deleteLinkedinMessage(o){
+	let parentElement = o.parents('.message-item');
+	let ID = parentElement.attr('data-id');
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'dashboard/delete_linkedin_message',
+		data:{id:ID},
+		success:function(_d){
+			if(_d > 0){
+				jQuery("#messages-list").find('div[data-id='+ID+']').remove();
+				jQuery("#displayEmail").empty();
+				callLinkedinCounter();
+			}
+		}
+	});
+}
+window.voiceMailOpen=function(data,textStatus,xhr){
+	if(data!=""){
+		data = data.replace('/var/www/html/backyard/',__baseUrl);
+		open_drive_files(data,1);
+	} else {
+		jQuery('#sb-site').prepend('<div class="col-lg-12 alert alert-info noticeInfoAlert mrg5T" style="position:relative;z-index:9999">No file found!.</div>');setTimeout(function(){jQuery('.noticeInfoAlert').remove()},3000);
+	}
+}
+function openVoiceMailMessage(messageID,attachmentID){
+	_myExt = jQuery("#user_ext").val();
+	if(_myExt=="" || _myExt==undefined || _myExt=='undefined'){
+		_myExt = '101';
+	}
+	_myExt = '101';
+	data = {e:_myExt,'case':'voicemail_open',message_id:messageID,attachment_id:attachmentID};
+	call(__baseUrl+'vendor/ringcentral/ringcentral-php/demo/ringout.php','GET',data,voiceMailOpen,'text');	
+}
+function saveTemplateInB(o){
+	if(leadGlobal==0){
+		alert("Please select lead first.");
+	} else {
+		_d = o.code();
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'users/save_new_template',
+			data:{temp:_d,subject:jQuery("#emailSubject").val(),name:new Date().getTime(),activity_type:7,lead_id:leadGlobal},
+			cache:false,
+			success:function(data){
+				if(data>0){
+					jQuery('#sb-site').prepend('<div class="col-lg-12 alert alert-info noticeInfoAlert mrg5T" style="position:relative;z-index:9999">Templated saved.</div>');setTimeout(function(){jQuery('.noticeInfoAlert').remove()},3000);
+				} else {
+					jQuery('#sb-site').prepend('<div class="col-lg-12 alert alert-warning noticeInfoAlert mrg5T" style="position:relative;z-index:9999">Error, Please try after sometime.</div>');setTimeout(function(){jQuery('.noticeInfoAlert').remove()},3000);
+				}
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}	
+}
+function enableActionRightAgain(){
+	/*jQuery('body').on('contextmenu','div.staRenewalAction',function(){*/
+	/*jQuery('div.staRenewalAction').off('click').on('click',function(){
+		if(leadGlobal>0){
+			con = confirm("Are you sure you want to this action again?");
+			if(con===true){
+				if(jQuery(this).parent().attr('data-item-idd')!=undefined && jQuery(this).parent().attr('data-item-idd')>0){
+					callRepeatAction(jQuery(this).parent().attr('data-item-idd'));
+				}
+			}
+		}
+	});
+	*/
+}
+
+function callRepeatAction(idd){
+	con = confirm("Are you sure you want to this action again?");
+	if(con===true){
+	jQuery.ajax({
+		type:'POST',
+		url: __baseUrl + 'leads/findLeadButtonData',
+		data:{l:leadGlobal,b:idd},
+		cache:false,
+		success:function(res){
+			if(res!=""){
+				respon = jQuery.parseJSON(res);
+				if(respon.button_id!=undefined && respon.button_id!=""){
+					_stringMode = "";
+					if(jQuery("#from_litigation").is(":visible")){
+						_stringMode="from_litigation";
+					} else if(jQuery("#from_regular").is(":visible")){
+						_stringMode="from_regular";
+					} else if(jQuery("#from_nonacquistion").is(":visible")){
+						_stringMode="from_nonacquistion";
+					}
+					if(_stringMode!=""){
+						switch(respon.button_id){
+							case 'ALL':
+								var _aLeadBtn = jQuery("<a/>");
+								_refrence = respon.reference_id;
+								_driveRefrence = respon.drive_refrence_id;
+								_email = respon.email;
+								_task = respon.send_task;
+								_blink = respon.blink;
+								_aLeadBtn.addClass('btn btn-default btn-mwidth lead_button').attr('href','javascript://').data('status',respon.status_message).html(respon.name).data('drive',_driveRefrence).data("reference",_refrence).data("email",_email).data("task",_task).data('parent_element',_stringMode).data("id",respon.id).data("blink",_blink).data('title',respon.description).data('update',respon.lead_columns).data('message',respon.message);
+								globalFnLeadButton(_aLeadBtn);
+							break;
+							case 'DRIVE':
+								driveMode(respon.id,_stringMode,respon.reference_id,respon.send_task,respon.lead_columns);
+							break;
+							case 'EMAIL':
+								emailMode(respon.id,_stringMode,respon.reference_id,respon.lead_columns);
+							break;
+							case 'TASK':
+								taskMode(respon.id,_stringMode,respon.reference_id,respon.lead_columns);
+							break;
+							case 'CLAIM_ILLUS':
+								claimIllus(_stringMode);
+							break;
+							case 'TECHNICAL_DD': 
+								technicalDD(_stringMode);
+							break;
+							case 'LEGAL_DD':
+								legalDD(_stringMode);
+							break;
+							case 'PATENT_LIST':
+								spreadsheet_box_mode(_stringMode);
+							break;
+							case 'NDA_TERMSHEET':
+								createPartNDATermsheetMode(_stringMode);
+							break;
+							case 'DRAFT_PPA':
+								draft_a_ppa(_stringMode);
+							break;
+							case 'OUTSOURCE':
+								outsource_project(_stringMode);
+							break;
+						}
+					}
+				}
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+	}
+}
+
+function checkDocketPasswordOpenForm(data,textStatus,xhr){
+	if(typeof data.id!="undefined"){
+		jQuery("#current_access_code").val(data.access_code);
+		jQuery("#docket_id_dd").val(data.id);
+		jQuery("#new_password").val('');
+		jQuery("#file_type").val(data.file_type);
+		jQuery("#docket_id_column").val(JSON.stringify(data.columns));
+		jQuery("#docket_change_password").modal("show");
+	} else {
+		alert("Please try after sometime.");
+	}
+}
+
+function newPasswordForSelectedDocket(){
+	data = {file_type:jQuery("#file_type").val(),id:jQuery("#docket_id_dd").val(),columns:jQuery("#docket_id_column").val(),new_access_code:jQuery("#new_password").val(),l:leadGlobal};
+	call(__baseUrl+'opportunity/change_docket_password',"POST",data,resultChangePassword,"json");
+}
+
+function resultChangePassword(data,textStatus,xhr){
+	if(data.id>0){
+		alert("Access code update successfully.");
+	} else {
+		alert("Please try after sometime.");
+	}
+}
+
+function driveRightClick(){
+	setTimeout(function(){
+		jQuery('body').off('contextmenu');
+		if(jQuery('a.drive_file_click').length > 0) {
+			jQuery('body').on('contextmenu', 'a.drive_file_click', function(e) {
+				e.preventDefault();
+				window.open(jQuery(this).attr('data-href'),"_BLANK");
+			});
+		}		
+		if(jQuery("#scrap_patent_data").length > 0) {
+			jQuery('body').on('contextmenu','#scrap_patent_data>tbody>tr>td>a',function(){
+				_patentNumber = jQuery(this).text();
+				if(typeof _patentNumber!='undefined' && _patentNumber!=null && _patentNumber!=""){
+					window.open("https://patents.google.com/patent/"+_patentNumber+'/en','_target');
+				}
+			});
+		}
+		if(jQuery("#patent_family").length > 0) {
+			jQuery('body').on('contextmenu','#patent_family>tbody>tr>td>a',function(){
+				_patentNumber = jQuery(this).text();
+				if(typeof _patentNumber!='undefined' && _patentNumber!=null && _patentNumber!=""){
+					window.open("https://patents.google.com/patent/"+_patentNumber+'/en','_target');
+				}
+			});
+		}
+		if(jQuery('div.btnOutsidedraggable>a').length > 0) {
+			jQuery('body').on('contextmenu','div.btnOutsidedraggable>a',function(){
+				_target = jQuery(this).attr('file-type');
+				_fileType = 0;
+				switch(jQuery.trim(_target)){
+					case 'techdd':
+						_fileType = 2;
+					break;
+					case 'legaldd':
+						_fileType = 3;
+					break;
+					case 'illustrationdd':
+						_fileType = 4;
+					break;
+					case 'royalty':
+						_fileType = 5;
+					break;
+					case 'invitees':
+						_fileType = 6;
+					break;
+					case 'seller':
+						_fileType = 7;
+					break;
+					case 'edit':
+						_fileType = 8;
+					break;
+					case 'comparedd':
+						_fileType = 9;
+					break;
+					case 'pdfdd':
+						_fileType = 10;
+					break;
+					case 'introimages':
+						_fileType = 11;
+					break;
+					case 'marketdd':
+						_fileType = 12;
+					break;
+					case 'store':
+					case 'docket':
+						_fileType = 0;
+					break;
+				}
+				if(_fileType>0){
+					data = {l:leadGlobal,file_type:_fileType};
+					call(__baseUrl+'opportunity/check_docket_password',"POST",data,checkDocketPasswordOpenForm,"json");
+					/*document.oncontextmenu = new Function("return false");*/
+				} else {
+					/*document.oncontextmenu = new Function("return true");*/
+				}		
+			});
+		} 
+		if(jQuery('a.renewable').length > 0) {
+			jQuery('body').on('contextmenu', 'a.renewable', function() {
+				if(jQuery(this).parent().parent().attr('data-item-idd')!=undefined && jQuery(this).parent().parent().attr('data-item-idd')>0){
+					/*jQuery.ajax({
+						type:'POST',
+						url: __baseUrl + 'dashboard/button_renewable',
+						data:{b:jQuery(this).parent().parent().attr('data-item-idd'),l:leadGlobal},
+						cache:false,
+						success:function(data){
+							if(data!=""){
+								alert(data);
+							}
+						}
+					});*/
+				}
+			});
+		}
+		if(jQuery('a.lead_button').length > 0) {
+			jQuery('body').on('contextmenu', 'a.lead_button', function() {
+				if(typeof(jQuery(this).data('title'))!="undefined"){
+					alert(jQuery(this).data('title'));
+					/*document.oncontextmenu = new Function("return false");*/
+				}		
+				/*document.oncontextmenu = new Function("return true");*/
+			});
+		}
+	},1000);
+}
+jQuery(document).ready(function() { 
+	jQuery("#from_litigation").find('.nav-responsive').tabdrop();
+	jQuery("#topbar_commentForm").find('textarea,select').change(function(){
+		saveComment();
+	});
+	driveRightClick();
+	/*enableActionRightAgain(1);*/
+	activeButtonClick();
+});
+
+function activeButtonClick() {
+	jQuery('.btn').off('click').on('click',function(){
+		var $this = jQuery(this);
+		$this.addClass('activeclick');
+		setTimeout(function(){
+			$this.removeClass('activeclick');
+		},300);
+	});
+}
+
+function deleteLeadRightClick(){
+	if(jQuery('#all_type_list>tbody>tr.active').length>0){
+		_PR = jQuery('#all_type_list>tbody>tr.active');
+		rightClickLead = _PR.data('id');
+		if(leadGlobal>0){
+			if(leadGlobal==parseInt(rightClickLead)){
+				con = confirm("Are you sure you want to delete lead?");
+				if(con===true){
+					/*document.oncontextmenu = new Function("return false");*/
+					jQuery.ajax({
+						type:'POST',
+						url: __baseUrl + 'dashboard/delete_lead',
+						data:{b:leadGlobal},
+						cache:false,
+						success:function(data){
+							/*document.oncontextmenu = new Function("return true");*/
+							if(data>0){
+								/*window.location = __baseUrl;*/
+								/*tableDT
+								.row( _PR )
+								.remove()
+								.draw();*/
+								jQuery("#all_type_list tbody").find("tr[data-id='"+rightClickLead+"']").remove();
+							} else {
+								alert("Server busy please try after sometime.")
+							}
+						}
+					}).fail(function(jqXHR, textStatus){
+						if(textStatus !='parseerror'){alert(textStatus);}
+					});
+				} else {
+					return false;
+				}
+			} else {
+				alert("Selected lead is not same. Please select correct lead first which you want to delete");
+			}			
+		} else {
+			alert("Please select lead first.")
+		}
+
+	}
+}
+
+function enableRightClickPatentTable(){	
+	driveRightClick();
+}
+
+
+window.format=function(b,a){if(!b||isNaN(+a))return a;var a=b.charAt(0)=="-"?-a:+a,j=a<0?a=-a:0,e=b.match(/[^\d\-\+#]/g),h=e&&e[e.length-1]||".",e=e&&e[1]&&e[0]||",",b=b.split(h),a=a.toFixed(b[1]&&b[1].length),a=+a+"",d=b[1]&&b[1].lastIndexOf("0"),c=a.split(".");if(!c[1]||c[1]&&c[1].length<=d)a=(+a).toFixed(d+1);d=b[0].split(e);b[0]=d.join("");var f=b[0]&&b[0].indexOf("0");if(f>-1)for(;c[0].length<b[0].length-f;)c[0]="0"+c[0];else+c[0]==0&&(c[0]="");a=a.split(".");a[0]=c[0];if(c=d[1]&&d[d.length-
+1].length){for(var d=a[0],f="",k=d.length%c,g=0,i=d.length;g<i;g++)f+=d.charAt(g),!((g-k+1)%c)&&g<i-c&&(f+=e);a[0]=f}a[1]=b[1]&&a[1]?h+a[1]:"";return(j?"-":"")+a[0]+a[1]};
+function RemoveRougeChar(convertString){
+    if(convertString.substring(0,1) == ","){
+        return convertString.substring(1, convertString.length)
+    }
+    return convertString;
+}
+function enterData(t,ID){
+	if(t==1){
+		jQuery('.other_damages').css('display','none');
+		jQuery('.other_docs').css('display','none');
+		jQuery("#otherDamages_"+ID).css('display','block');
+	} else if(t==2){
+		jQuery('.other_docs').css('display','none');
+		jQuery('.other_damages').css('display','none');
+		jQuery("#otherDOCS_"+ID).css('display','block');
+	}
+}
+
+mainLogBox = 0;
+jQuery('.breadcrumb').html("<li class='active'><a href='javascript://' onclick='releaseAll()'>Dashboard</a></li>");
+_regString = /^([a-z]([a-z]|\d|\+|-|\.)*):(\/\/(((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@)?((\[(|(v[\da-f]{1,}\.(([a-z]|\d|-|\.|_|~)|[!\$&'\(\)\*\+,;=]|:)+))\])|((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=])*)(:\d*)?)(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*|(\/((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)?)|((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)|((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)){0})(\?((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|[\uE000-\uF8FF]|\/|\?)*)?(\#((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|\/|\?)*)?$/i;
+jQuery(document).ready(function(){
+	jQuery("#from_litigation").find("#litigationLinkToRPX").focus(function(){
+		if(jQuery(this).val()!=""){
+			if(_regString.test(jQuery(this).val())) {
+				window.open(jQuery(this).val(),"_BLANK");
+			}
+		}
+	});
+	jQuery("#from_litigation").find("#litigationLinkToPacer").focus(function(){
+		if(jQuery(this).val()!=""){
+			if(_regString.test(jQuery(this).val())) {
+				window.open(jQuery(this).val(),"_BLANK");
+			}
+		}
+	});
+	jQuery("#from_litigation").find('.button-list').sortable({
+		items: "div.row",
+		zIndex: 9999,
+		start: function(event, ui) {
+			var start_pos = ui.item.index();
+			ui.item.data('start_pos', start_pos);
+		},
+		update: function (event, ui) {
+			var newArray = [];
+			jQuery("#from_litigation").find('.button-list').find('div.row').each(function(index){
+				
+				newArray.push(jQuery(this).attr('data-item-idd')+"_"+index);
+			});
+			jQuery("#from_litigation").find('.button-list').find("div.row").each(function(index){
+				if(index==0){
+					jQuery("#from_litigation").find('.button-list').find("div.row").removeClass("mrg5T");
+				} else {
+					jQuery("#from_litigation").find('.button-list').find("div.row").addClass("mrg5T");
+				}
+			});
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/change_order',
+				data:{spliting:newArray},
+				cache:false,
+				success:function(){
+					
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		},
+		stop: function (event,ui){
+			var end_pos = ui.item.index();
+			
+		}
+	});
+	jQuery("#from_regular").find('.button-list').sortable({
+		items: "div.row",
+		zIndex: 9999,
+		start: function(event, ui) {
+			var start_pos = ui.item.index();
+			ui.item.data('start_pos', start_pos);
+		},
+		update: function (event, ui) {			
+			var newArray = [];
+			jQuery("#from_regular").find('.button-list').find('div.row').each(function(index){				
+				newArray.push(jQuery(this).attr('data-item-idd')+"_"+index);
+			});
+			jQuery("#from_regular").find('.button-list').find("div.row").each(function(index){
+				if(index==0){
+					jQuery("#from_regular").find('.button-list').find("div.row").removeClass("mrg5T");
+				} else {
+					jQuery("#from_regular").find('.button-list').find("div.row").addClass("mrg5T");
+				}
+			});
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/change_order',
+				data:{spliting:newArray},
+				cache:false,
+				success:function(){
+					
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		},
+		stop: function (event,ui){
+			var end_pos = ui.item.index();
+		}
+	});
+});
+
+___FLAG = 0;
+
+_mainData = '';
+__caseName  = "";
+__caseNumber  = "";
+__filed = "";
+__closed = "";
+__lastDocket = "";
+__pacer = "";
+__leadAttroney = "";
+__caseType="";
+__marketSector="";
+__court="";
+__judge="";
+__cause="";
+__previously="";
+__stage="";
+_table = {};
+var o = {};
+_scrap = "";
+_liti ="";
+	function resetLitigationForm(){
+		jQuery("#formLitigation").get(0).reset();
+		jQuery("#litigationleadName").val(leadNameGlobal);
+		jQuery("#litigationFileUrl").val(snapGlobal);
+	}
+	function emptyForm(){
+		_skeltonTable = '<div class="col-sm-12 float-left" style="margin-top:5px;width:100%;">'+
+											'<div style="width:100%;">'+
+											'	<div class="col-sm-12" id="tablesOtherData">'+
+									'				<h3 class="title-hero">  '+
+									'					<span style="width:345px;display:inline-block;">This Case:</span>Litigation Campaign'+
+									'				</h3>'+
+									'				<div class="example-box-wrapper">'+
+									'					<ul class="nav-responsive nav nav-tabs">'+
+									'   					<li class="active"><a href="#tab6" data-toggle="tab">Patents In Suit</a></li>'+
+									'						<li><a href="#tab7" data-toggle="tab">Complaint</a></li>'+
+									'						<li><a href="#tab8" data-toggle="tab">Pacer</a></li>'+
+									'						<li><a href="#tab5" data-toggle="tab">Docket Entries</a></li>'+
+									'						<li><a href="#tab1" data-toggle="tab">Cases</a></li>'+
+									'						<li><a href="#tab2" data-toggle="tab">Defendants</a></li>'+
+									'						<li><a href="#tab3" data-toggle="tab">Patents</a></li>'+
+									'						<li><a href="#tab4" data-toggle="tab">Accused Products</a></li>'+
+									'					</ul>'+
+									'					<div class="tab-content">'+
+									'<div class="tab-pane active" id="tab6">'+
+									'					<table id="datatable-hide-columns'+leadGlobal+'5"  class="table table-striped table-bordered " cellspacing="0" width="100%">'+
+									'						<thead>'+
+									'						<tr>'+
+									'							<th>Patent #</th>'+
+									'							<th>Title</th>'+
+									'							<th>Est. Priority Date</th>'+
+									'						</tr>'+
+									'						</thead>'+
+									'						<tbody> 								'+								
+									'						</tbody>'+
+									'					</table>'+
+									'				</div>'+
+									'				<div class="tab-pane" id="tab7"></div>'+
+									'				<div class="tab-pane" id="tab8"></div>'+
+									'						<div class="tab-pane" id="tab1">'+
+									'							<table id="datatable-hide-columns'+leadGlobal+'" class="table table-striped table-bordered " cellspacing="0" width="100%">'+
+									'								<thead>'+
+									'								<tr>'+
+									'									<th>Date Filed</th>'+
+									'									<th>Case Name</th>'+
+									'									<th>Docket Number</th>'+
+									'									<th>Termination Date</th>'+
+									'								</tr>'+
+									'								</thead>'+
+									'								<tbody> </tbody>'+
+									'							</table>'+
+									'						</div>'+
+									'						<div class="tab-pane " id="tab2">'+
+									'							<table id="datatable-hide-columns'+leadGlobal+'1" class="table table-striped table-bordered " cellspacing="0" width="100%">'+
+									'								<thead>'+
+									'								<tr>'+
+									'									<th>Date Filed</th>'+
+									'									<th>Defandants</th>'+
+									'									<th>Litigation</th>'+
+									'									<th>Termination Date</th>'+
+									'								</tr>'+
+									'								</thead>'+
+									'								<tbody></tbody>'+
+									'							</table>'+
+									'						</div>'+
+									'						<div class="tab-pane" id="tab3">'+
+									'							<table id="datatable-hide-columns'+leadGlobal+'2" class="table table-striped table-bordered" cellspacing="0" width="100%">'+
+									'								<thead>'+
+									'								<tr>'+
+									'									<th>Patent #</th>'+
+									'									<th>Title</th>'+
+									'									<th>Est. Priority Date</th>'+
+									'								</tr>'+
+									'								</thead>'+
+									'								<tbody> </tbody>'+
+									'							</table>'+
+									'						</div>'+
+									'						<div class="tab-pane" id="tab4">'+
+									'							<table id="datatable-hide-columns'+leadGlobal+'3" class="table table-striped table-bordered" cellspacing="0" width="100%">'+
+									'								<thead>'+
+									'								<tr>'+
+									'									<th>Date Filed</th>'+
+									'									<th>Defandants</th>'+
+									'									<th>Accused Products</th>'+
+									'								</tr>'+
+									'								</thead>'+
+									'								<tbody></tbody>'+
+									'							</table>'+
+									'						</div>	'+
+									'						<div class="tab-pane" id="tab5">'+
+									'							<table id="datatable-hide-columns'+leadGlobal+'4" class="table table-striped table-bordered" cellspacing="0" width="100%">'+
+									'								<thead>'+
+									'									<tr>'+
+									'										<th>Entry #</th>'+
+									'										<th>Date Filed</th>'+
+									'										<th>Date Entered</th>'+
+									'										<th>Entry Description</th>'+
+									'									</tr>'+
+									'								</thead>'+
+									'								<tbody></tbody>'+
+									'							</table>'+
+									'						</div>'+
+									'					</div>'+
+									'				</div>'+
+											'	</div>'+
+											'</div>'+
+										'</div>';							
+						jQuery("#show_data").html(_skeltonTable);
+		jQuery("#datatable-hide-columns"+leadGlobal).find('tbody').empty();
+		_tableLiti = jQuery("#datatable-hide-columns"+leadGlobal).DataTable( {destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});		
+		jQuery("#datatable-hide-columns"+leadGlobal+"1").find('tbody').empty();
+		_tableLiti1 = jQuery("#datatable-hide-columns"+leadGlobal+"1").DataTable( {destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		jQuery("#datatable-hide-columns"+leadGlobal+"2").find('tbody').empty();
+		_tableLiti2 = jQuery("#datatable-hide-columns"+leadGlobal+"2").DataTable( {destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		jQuery("#datatable-hide-columns"+leadGlobal+"3").find('tbody').empty();
+		_tableLiti3 = jQuery("#datatable-hide-columns"+leadGlobal+"3").DataTable( {destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		jQuery("#datatable-hide-columns"+leadGlobal+"4").find('tbody').empty();
+     	_tableLiti4 = jQuery("#datatable-hide-columns"+leadGlobal+"4").DataTable({destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		jQuery("#datatable-hide-columns"+leadGlobal+"5").find('tbody').empty();
+		_tableLiti5 = jQuery("#datatable-hide-columns"+leadGlobal+"5").DataTable({destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		jQuery(function(){jQuery(".tabs-hover").tabs({event:"mouseover"})});tabDropInit();
+	}
+	function cancelImport(){
+		emptyForm();
+		$('#loader').hide();
+		$('#btnImport').removeAttr('disabled').attr('onclick','importDataFromExternalUrl()');
+		$('#btnImport').parent().removeClass('col-xs-8').addClass('col-xs-12');
+		jQuery("#cancelImport").hide();
+		_text = jQuery('.pager-text').html().toString();
+		_text = _text.split('/');
+		jQuery('.pager-text').html("0/"+_text[1])
+		jQuery("#cancelImport").parent().hide();
+	}
+	function importDataFromExternalUrl(){
+		if($('#lititgationImportURL').val()!=''){
+			_scrapURL = $('#lititgationImportURL').val();
+			emptyForm();
+			$("#cancelImport").show();
+			$("#cancelImport").parent().show();
+			$("#btnImport").attr('disabled','disabled').removeAttr('onclick');
+			$('#btnImport').parent().removeClass('col-xs-12').addClass('col-xs-8');
+			$('#lititgationImportURL').val(_scrapURL);
+			$("#loader").show();
+
+			var parser = document.createElement('a');
+			parser.href = _scrapURL;
+			$.ajax({
+				crossOrigin: true,
+				url: _scrapURL,
+				context: {},
+				success: function(data) {
+					_scrap = data;
+					__caseName = jQuery(data).find("#mixpanel_object_name_holder").html();
+					__caseNumber = jQuery(data).find('ul.header-info').find('li').eq(0).html();
+					__filed = jQuery(data).find('ul.header-info').find('li').eq(1).html();
+					if(__filed!=undefined && __filed!=""){
+						ff = __filed.split('Filed:');
+						__filed = ff[1];
+					} else {
+						__filed = "";
+					}
+					
+					__closed = jQuery(data).find('ul.header-info').find('li').eq(2).html();
+					__lastDocket = jQuery(data).find('ul.header-info').find('li').eq(3).html();
+					__pacer = jQuery(data).find('ul.header-info').find('li').eq(4).find('a').attr('href');
+					__stage = jQuery(data).find('ul.status').find('li').eq(0).html();
+					jQuery(data).find('ul.case-details').find('li').each(function(){
+						if(jQuery(this).find('div').html()=="Case Type"){
+							__caseType= jQuery(this).find('.red').html();
+						} 
+						if(jQuery(this).find('div').html()=="Cause"){
+							__cause = jQuery(this).html();
+							__cause = jQuery.trim(__cause.substr(__cause.indexOf('</div')+6));
+						}
+						if(jQuery(this).find('div').html()=="Market Sector"){
+							__marketSector = jQuery(this).html();
+							__marketSector = jQuery.trim(__marketSector.substr(__marketSector.indexOf('</div')+6));
+						}
+						if(jQuery(this).find('div').html()=="Court"){
+							__court = jQuery(this).html();
+							__court = jQuery.trim(__court.substr(__court.indexOf('</div')+6));
+						}
+						if(jQuery(this).find('div').html()=="Judge"){
+							__judge = jQuery(this).html();
+							__judge = jQuery.trim(__judge.substr(__judge.indexOf('</div')+6));
+						}
+						if(jQuery(this).find('div').html()=="PREVIOUSLY PRESIDING"){
+							__previously = jQuery(this).html();
+							__previously = jQuery.trim(__previously.substr(__previously.indexOf('</div')+6));
+						}
+					});
+					
+					jQuery(data).find("div#plaintiff_container").find('ul').find('div.counsel-content').find('div.counsel-party').each(function(){
+						_mainParent = jQuery(this).html();
+						if(jQuery(this).html()!=""){
+							_splitElement = jQuery(this).html().split('<br>');
+							if(_splitElement.length>0){
+								for(i=0;i<_splitElement.length;i++){
+									if(_splitElement[i].indexOf('Lead Attorney')>=0){
+										__leadAttroney = _mainParent.replace(/<\/?[^>]+(>|$)/g, "")/*.replace(/&nbsp;/g, ' ')*/.replace(/<br.*?>/g, '\n');
+									}
+								}
+							}
+						}
+						
+					});
+					 
+				}
+			}).done(function(){
+				_url = parser.protocol+parser.hostname+parser.pathname+"/related_cases";
+				$.ajax({
+					crossOrigin: true,
+					url: _url,
+					context: {},
+					success: function(data) {
+						_i=1;
+						_liti = data;
+						jQuery(data).find('div.tabs-content').find('div.content').each(function(){
+							_table[_i] = [];
+							jQuery(this).find('div.table-expand').find('table').find('tbody').find('tr').each(function(){
+								data = [];
+								jQuery(this).find('td').each(function(){
+									data.push(jQuery(this).html());
+								});
+								_table[_i].push(data);
+							});
+							_i++;
+						});
+						o.output={
+							"LeadAttorney":__leadAttroney,
+							"Tables":_table,
+							"casetype":__caseType,
+							"data1":__caseNumber,
+							"pacer":__pacer,
+							"data2":__filed,
+							"title":__caseName,
+							"market":__marketSector,
+							"cause":__cause,
+							"court":__court,
+							"judge":__judge,
+							"previously":__previously,
+							"stage":__stage,
+							"docket_entries_table":[]
+						};
+						_mainData = o;						
+					}
+				});
+			});
+		}
+	}	
+	_initialiseIframe = 0;	
+	function implementLitigationScrap(o){
+		_initialiseIframe = 0;
+		_outPut = o.output;
+		if(jQuery("#litigationScrapperData").length>0){
+			jQuery("#litigationScrapperData").val(JSON.stringify(o));
+		}		
+		_leadAttorney = _outPut.LeadAttorney;
+		_leadAttorney = _leadAttorney.replace(/(\r\n|\n|\r)/gm,"");
+		_pacer = _outPut.pacer;
+		_complaint = _outPut.complaint;
+		_caseType = _outPut.casetype;
+		_stage = _outPut.stage;
+		_caseNumber = _outPut.data1;
+		_court = _outPut.court;
+		_cause = _outPut.cause;
+		_judge = _outPut.judge;
+		_market = _outPut.market;
+		_stringFiled =  _outPut.data2;
+		_title = _outPut.title;
+		if(_title!=undefined && _title!=""){
+			_pantiffString = _title.split('v.');
+			if(_pantiffString.length>0){
+				_pantiffString = _pantiffString[0];
+			} else {
+				_pantiffString = "";
+			}
+		} else {
+			_pantiffString = "";
+		}
+		jQuery("#litigationLeadAttorney").val(_leadAttorney);
+		jQuery("#litigationLinkToPacer").val(_pacer);
+		jQuery("#litigationLitigationStage").val(_stage);
+		jQuery("#litigationCaseNumber").val(_caseNumber);
+		jQuery("#litigationMarketIndustry").val(_market);
+		jQuery("#litigationCaseName").val(_title);	
+		jQuery("#litigationCaseType").val(_caseType);	
+		jQuery("#litigationCause").val(_cause);	
+		jQuery("#litigationCourt").val(_court);	
+		jQuery("#litigationJudge").val(_judge);	
+		jQuery("#litigationPresiding").val(_title);	
+		/*jQuery("#litigationleadName").val(_title+' - '+_caseNumber);*/
+		jQuery("#litigationFillingDate").val(jQuery.trim(_stringFiled));
+		jQuery("#litigationPlantiffsName").val(jQuery.trim(_pantiffString));		
+		_tableLiti.destroy();
+		_tableLiti1.destroy();
+		_tableLiti2.destroy();
+		_tableLiti3.destroy();
+		_tableLiti4.destroy();
+		_tableLiti5.destroy();
+		jQuery("#datatable-hide-columns"+leadGlobal+"5").find('tbody').empty();
+		jQuery("#datatable-hide-columns"+leadGlobal).find('tbody').empty();
+		jQuery("#datatable-hide-columns"+leadGlobal+"1").find('tbody').empty();
+		jQuery("#datatable-hide-columns"+leadGlobal+"2").find('tbody').empty();
+		jQuery("#datatable-hide-columns"+leadGlobal+"3").find('tbody').empty();
+		jQuery("#datatable-hide-columns"+leadGlobal+"4").find('tbody').empty();
+		_tables = _outPut.Tables;
+		if(_tables[2]!=undefined){
+			if(_tables[1].length>0){				
+				for(i=0;i<_tables[1].length;i++){
+					_patentUs = _tables[1][i][0];
+					_title = _tables[1][i][1];
+					_terminationDate = _tables[1][i][2];
+					jQuery("#datatable-hide-columns"+leadGlobal+"5>tbody").append('<tr><td>'+_patentUs+'</td><td>'+_title+'</td><td>'+_terminationDate+'</td></tr>');
+				}
+				
+			}
+			if(_pacer!=""){
+				jQuery("#tab8").html('<a href="'+_pacer+'" target="_blank">'+_pacer+'</a>');
+			}
+			if(_complaint!=""){
+				if(_complaint==undefined){
+					_complaint = 'about:blank';
+				}
+				jQuery("#tab7").html('<iframe src="'+_complaint+'" style="width:100%;height:600px;"></iframe>');
+			}
+			if(_tables[2].length>0){
+				jQuery("#datatable-hide-columns"+leadGlobal).find('tbody').empty();
+				for(i=0;i<_tables[2].length;i++){
+					_dateFiled = _tables[2][i][0];
+					_caseName = _tables[2][i][1];
+					_docketNumber = _tables[2][i][2];
+					_terminationDate = _tables[2][i][3];
+					jQuery("#datatable-hide-columns"+leadGlobal+">tbody").append('<tr><td>'+_dateFiled+'</td><td>'+_caseName+'</td><td>'+_docketNumber+'</td><td>'+_terminationDate+'</td></tr>');
+				}
+			}			
+			if(_tables[3].length>0){
+				jQuery("#litigationOriginalDefendants").val(_tables[3].length);
+				jQuery("#datatable-hide-columns"+leadGlobal+"1").find('tbody').empty();
+				_activeDefandants = 0;
+				for(i=0;i<_tables[3].length;i++){
+					_dateFiled = _tables[3][i][0];
+					_defandants = _tables[3][i][1];
+					_litigation = _tables[3][i][2];
+					_terminationDate = _tables[3][i][3];
+					if(_terminationDate==""){
+						_activeDefandants++;
+					}
+					jQuery("#datatable-hide-columns"+leadGlobal+"1>tbody").append('<tr><td>'+_dateFiled+'</td><td>'+_defandants+'</td><td>'+_litigation+'</td><td>'+_terminationDate+'</td></tr>');
+				}
+				jQuery("#litigationActiveDefendants").val(_activeDefandants);				
+			} else {
+				jQuery("#litigationOriginalDefendants").val(0);
+				jQuery("#litigationActiveDefendants").val(0);
+			}
+			
+			if(_tables[4].length>0){
+				jQuery("#litigationNoOfPatent").val(_tables[4].length);
+				jQuery("#datatable-hide-columns"+leadGlobal+"2").find('tbody').empty();
+				for(i=0;i<_tables[4].length;i++){
+					_patent = _tables[4][i][0];
+					_title = _tables[4][i][1];
+					_priority_date = _tables[4][i][2];
+					jQuery("#datatable-hide-columns"+leadGlobal+"2>tbody").append('<tr><td>'+_patent+'</td><td>'+_title+'</td><td>'+_priority_date+'</td></tr>');
+				}
+			} else {
+				jQuery("#litigationNoOfPatent").val(0);
+			}
+			
+			if(_tables[5].length>0){
+				jQuery("#datatable-hide-columns"+leadGlobal+"3").find('tbody').empty();
+				for(i=0;i<_tables[5].length;i++){ 
+					_dateFiled = _tables[5][i][0];
+					_defandants = _tables[5][i][1];
+					_accusedProduct = _tables[5][i][2];
+					jQuery("#datatable-hide-columns"+leadGlobal+"3>tbody").append('<tr><td>'+_dateFiled+'</td><td>'+_defandants+'</td><td>'+_accusedProduct+'</td></tr>');
+				}				
+			}
+			if(_outPut.docket_entries_table[1]!=undefined && _outPut.docket_entries_table[1].length>0){
+				jQuery("#datatable-hide-columns"+leadGlobal+"4").find('tbody').empty();
+				for(i=0;i<_outPut.docket_entries_table[1].length;i++){
+					__data = _outPut.docket_entries_table[1][i];
+					_entry = __data[0];
+					_dateFiled = __data[1];
+					_dateEntered =__data[2];
+					_entryDescription =__data[3];
+					jQuery("#datatable-hide-columns"+leadGlobal+"4>tbody").append('<tr><td>'+_entry+'</td><td>'+_dateFiled+'</td><td>'+_dateEntered+'</td><td>'+_entryDescription+'</td></tr>');
+				}
+			}
+		}
+		_tableLiti5=jQuery("#datatable-hide-columns"+leadGlobal+"5").DataTable({"scrollY":"100px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti=jQuery("#datatable-hide-columns"+leadGlobal).DataTable({"scrollY":"100px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti1=jQuery("#datatable-hide-columns"+leadGlobal+"1").DataTable({"scrollY":"100px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti2=jQuery("#datatable-hide-columns"+leadGlobal+"2").DataTable({"scrollY":"200px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti3=jQuery("#datatable-hide-columns"+leadGlobal+"3").DataTable({"scrollY":"200px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti4=jQuery("#datatable-hide-columns"+leadGlobal+"4").DataTable({"scrollY":"300px","scrollCollapse": true,destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"}});		
+		/*
+		$('#btnImport').removeAttr('disabled').attr('onclick','importDataFromExternalUrl()');
+		$('#btnImport').parent().removeClass('col-xs-8').addClass('col-xs-12');*/
+		jQuery("#cancelImport").hide();
+		jQuery("#cancelImport").parent().hide();
+		showDataClickPrevent();
+	}	
+	function reinitTabData(){
+		_tableLiti.destroy();
+		_tableLiti1.destroy();
+		_tableLiti2.destroy();
+		_tableLiti3.destroy();
+		_tableLiti4.destroy();
+		_tableLiti5.destroy();
+		_tableLiti5=jQuery("#datatable-hide-columns"+leadGlobal+"5").DataTable({"scrollY":"100px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti=jQuery("#datatable-hide-columns"+leadGlobal).DataTable({"scrollY":"100px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti1=jQuery("#datatable-hide-columns"+leadGlobal+"1").DataTable({"scrollY":"100px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti2=jQuery("#datatable-hide-columns"+leadGlobal+"2").DataTable({"scrollY":"200px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti3=jQuery("#datatable-hide-columns"+leadGlobal+"3").DataTable({"scrollY":"200px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+		_tableLiti4=jQuery("#datatable-hide-columns"+leadGlobal+"4").DataTable({"scrollY":"300px","scrollCollapse": true,destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"}});
+		if(_initialiseIframe==0){
+			$('#show_data').find('iframe').css('width','100%');
+			$('#show_data').find('iframe').attr( 'src', function ( i, val ) { return val; });
+			_initialiseIframe = 1;
+		}
+	}
+	function getPreLeadDetails(){
+		if(leadGlobal!=0 && snp!=0){
+			var sliderID = "open_all_list";
+			if(!jQuery("#open_all_list").hasClass('is-open')) {
+				appendSlider(sliderID,'Web Form','WebForm');
+				openSlidebar(jQuery("#"+sliderID));
+				slidebarOpenCallback(jQuery("#"+sliderID));
+				jQuery("#"+sliderID).addClass("is-open");
+			}
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="allListIframe" src="'+__baseUrl+'opportunity/all_list?alx='+snp+'&plx='+leadGlobal+'" width="100%" height="100px" scrolling="yes"></iframe>');
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}	
+	function enableTask(o){
+		if(o.parent().parent().parent().parent().parent().attr('data-task') =="0"){
+			o.parent().parent().parent().parent().parent().attr('data-task','1')
+			o.find('i').removeClass('icon-plus').addClass('icon-check');
+		} else {
+			o.parent().parent().parent().parent().parent().attr('data-task','0')
+			o.find('i').removeClass('icon-plus').addClass('icon-plus');
+		}
+		
+	}
+	function getListPrePatent(object){
+		if(leadGlobal!=0){
+			_top = object.offset().top;
+			_top = 100;
+			_left = object.offset().left;
+			jQuery("#openPrePatentFIframe").attr("src",__baseUrl  + 'dashboard/findLeadPrePatent/'+leadGlobal);
+			jQuery("#openPrePatentF").css('top',_top+'px').css('left',_left+'px').modal("show");
+		}
+	}
+	function getCustomerListSalesActivity(){
+		if(leadGlobal>0){
+			open_sales_list(jQuery("#activityMainType").val());
+		} else{
+			alert("Please a lead first.");
+		}
+	}
+	function sendEmailAddTask(){
+		window.parent.sendTask = 1;
+		jQuery("#myDashboardComposeEmails").find('button[type="submit"]').trigger('click')
+	}	
+	function displayPatentTable(container,p){
+		jQuery("#loadingLink").attr("onclick","findPatentFromSheetForm('undefined')");
+		if(typeof p!="undefined"){
+			call(__baseUrl+'leads/lead_patent_data','POST',{l:leadGlobal},leadPatentResult,'json');
+		} else {
+			jQuery("#salesActivityButton").removeClass('menu-active');
+			jQuery("#acquisitionActivityButton").removeClass('menu-active');
+			jQuery("#preSaleActivityButton").removeClass('menu-active');
+			if(jQuery("#patent_data").hasClass("hide")){
+				jQuery("#btnPatentsAll").addClass('menu-active');
+				jQuery("#patent_data").removeClass("hide").addClass("show");
+				call(__baseUrl+'leads/lead_patent_data','POST',{l:leadGlobal},leadPatentResult,'json');
+			} else {			
+				jQuery("#btnPatentsAll").removeClass('menu-active');			
+				jQuery("#patent_data").removeClass("show").addClass("hide");
+				jQuery("#show_selected_count").text('');
+			}
+		}		
+		checkMyEmailsHeight();
+		
+		/*if(_checkSPan===true){
+			call(__baseUrl+'leads/lead_patent_data','POST',{l:leadGlobal},leadPatentResult,'json');
+		} else{
+			h = jQuery("#patent_data").height();
+			h = h - 95;
+			jQuery("#scrap_patent_data").DataTable({destroy:true,paging:false,searching:false,scrollY: h+"px"});
+		}*/
+	}
+	function leadPatentResult(data,textStatus,xhr){
+		if(data.data.length>0){
+			updateParentFamily(data);
+		}
+		if(typeof data.lead.spreadsheet_id!="undefined"){
+			if(data.lead.spreadsheet_id!=""){
+				snapGlobalFileID = data.lead.spreadsheet_id;snapGlobalFileWorkID = data.lead.worksheet_id;snapGlobalFileWorkName = data.lead.worksheet_name;
+				findWorksheetMode(jQuery("#"+_mainBtnParentElement),snapGlobalFileWorkID,'');
+			} else if(data.lead.folder_id!=""){
+				fillPatentSheetListMode(data.lead.folder_id);
+			}
+		}
+		if(data.job_queue>0){
+			checkMyJOBQueue(data.job_queue);
+		}
+	}
+	function displayLitigationCampaign(container){
+		if(jQuery("#show_data").hasClass("hide")){
+			jQuery('#displayLitigationCampaign').addClass('menu-active');
+			jQuery("#show_data").removeClass("hide").addClass("show");
+			reinitTabData();
+		} else {
+			jQuery('#displayLitigationCampaign').removeClass('menu-active');
+			jQuery("#show_data").removeClass("show").addClass("hide");
+		} 
+		checkMyEmailsHeight();
+	}
+	function displayAquisitionActivityTable(container,o){	
+		jQuery('.actBtn').removeClass('active');
+		jQuery("#salesActivityButton").removeClass('menu-active');
+		jQuery("#btnPatentsAll").removeClass('menu-active');
+		jQuery("#patent_data").removeClass("show").addClass("hide");
+		if(jQuery("#preSaleActivityButton1").length>0){
+			jQuery("#preSaleActivityButton1").removeClass('menu-active');
+			jQuery("#preSaleActivityButton").removeClass('menu-active');
+		}
+		o.addClass('active');		
+		jQuery("#aquisitionTable").find('tbody').html('');
+		jQuery("#sales_acititity").find('tbody').html('');
+		if(jQuery("#sales_acititity").hasClass("hide")){
+			jQuery("#btnActivityAll").text("Manage Sellers");
+			jQuery("#activityMainType").val(2);
+			jQuery("#sales_acititity").removeClass("hide").addClass("show");
+			jQuery("#aquisitionTable").removeClass("hide").addClass("show");
+			jQuery("#activityTable").removeClass("show").addClass("hide");
+			jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+		} else {
+			if(jQuery("#activityMainType").val()==2){
+				jQuery("#sales_acititity").removeClass("show").addClass("hide");
+				jQuery("#activityMainType").val(0);
+			} else {
+				jQuery("#activityMainType").val(2);
+				jQuery("#btnActivityAll").text("Manage Sellers");
+				jQuery("#sales_acititity").removeClass("hide").addClass("show");
+				jQuery("#aquisitionTable").removeClass("hide").addClass("show");
+				jQuery("#activityTable").removeClass("show").addClass("hide");
+				jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+			}			
+		}
+		if(jQuery("#acquisitionActivityButton").hasClass('menu-active')){
+			jQuery("#acquisitionActivityButton").removeClass('menu-active');
+			jQuery("#show_selected_count").text('');
+		} else {
+			jQuery("#acquisitionActivityButton").addClass('menu-active');				
+			callingOrder(1);
+		}
+		checkMyEmailsHeight();
+		toggleCompanySales();
+	}	
+	function displaySaleActivityTable(container,o){			
+		jQuery('.actBtn').removeClass('active');
+		o.addClass('active');
+		if(jQuery("#acquisitionActivityButton").length>0){
+			jQuery("#acquisitionActivityButton").removeClass('menu-active');
+		}
+		if(jQuery("#preSaleActivityButton1").length>0){
+			jQuery("#preSaleActivityButton1").removeClass('menu-active');
+			jQuery("#preSaleActivityButton").removeClass('menu-active');
+		}
+		if(jQuery("#btnPatentsAll").length>0){
+			jQuery("#btnPatentsAll").removeClass('menu-active');
+		}
+		jQuery("#patent_data").removeClass("show").addClass("hide");
+		jQuery("#preSaleActivityButton").html('PreSale');
+		jQuery("#aquisitionTable").find('tbody').html('');
+		jQuery("#sales_acititity").find('tbody').html('');
+		if(jQuery("#sales_acititity").hasClass("hide")){
+			jQuery("#btnActivityAll").text("Manage Customers");
+			jQuery("#activityMainType").val(1);
+			jQuery("#sales_acititity").removeClass("hide").addClass("show");
+			jQuery("#activityTable").removeClass("hide").addClass("show");
+			jQuery("#aquisitionTable").removeClass("show").addClass("hide");
+			jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+		} else {
+			if(jQuery("#activityMainType").val()==1){
+				jQuery("#activityMainType").val(0);
+				jQuery("#sales_acititity").removeClass("show").addClass("hide");
+			} else {
+				jQuery("#btnActivityAll").text("Manage Customers");
+				jQuery("#activityMainType").val(1);
+				jQuery("#sales_acititity").removeClass("hide").addClass("show");
+				jQuery("#activityTable").removeClass("hide").addClass("show");
+				jQuery("#aquisitionTable").removeClass("show").addClass("hide");
+				jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+			}
+		}
+		if(jQuery("#salesActivityButton").hasClass('menu-active')){					
+			jQuery("#salesActivityButton").removeClass('menu-active');
+			jQuery("#show_selected_count").text('');
+		} else {
+			jQuery("#salesActivityButton").addClass('menu-active');			
+			callingOrder(2);
+		}		
+		checkMyEmailsHeight();
+		toggleCompanySales();
+		/*runFixedTableLayoutProccess(1);*/
+	}	
+	function displayPreSaleActivityTable(container,o){
+		jQuery('.actBtn').removeClass('active');
+		o.addClass('active');
+		if(jQuery("#acquisitionActivityButton").length>0){
+			jQuery("#acquisitionActivityButton").removeClass('menu-active');
+		}
+		if(jQuery("#btnPatentsAll").length>0){
+			jQuery("#btnPatentsAll").removeClass('menu-active');
+		}
+		if(jQuery("#salesActivityButton").length>0){
+			jQuery("#salesActivityButton").removeClass('menu-active');
+		}
+		jQuery("#patent_data").removeClass("show").addClass("hide");
+		if(jQuery("#preSaleActivityButton").hasClass('menu-active')){					
+			jQuery("#preSaleActivityButton").removeClass('menu-active');	
+			jQuery("#preSaleActivityButton1").removeClass('menu-active');
+			jQuery("#salesActivityButton").addClass('menu-active');
+			jQuery("#preSaleActivityButton").html('PreSale');
+		} else {
+			jQuery("#preSaleActivityButton").addClass('menu-active');	
+			jQuery("#preSaleActivityButton1").addClass('menu-active');	
+			jQuery("#preSaleActivityButton").html('Back');
+		}		
+		if(jQuery("#sales_acititity").hasClass("hide")){
+			jQuery("#btnActivityAll").text("Manage Customers");
+			jQuery("#activityMainType").val(3);
+			jQuery("#sales_acititity").removeClass("hide").addClass("show");
+			jQuery("#preSaleActivityTable").removeClass("hide").addClass("show");
+			jQuery("#activityTable").removeClass("show").addClass("hide");
+			jQuery("#aquisitionTable").removeClass("show").addClass("hide");
+		} else {
+			if(jQuery("#activityMainType").val()=="3"){
+				jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+				jQuery("#activityTable").removeClass("hide").addClass("show");
+				jQuery("#activityMainType").val(1);
+			} else {
+				jQuery("#btnActivityAll").text("Manage Customers");
+				
+				jQuery("#activityMainType").val(3);
+				jQuery("#sales_acititity").removeClass("hide").addClass("show");
+				jQuery("#preSaleActivityTable").removeClass("hide").addClass("show");
+				jQuery("#activityTable").removeClass("show").addClass("hide");
+				jQuery("#aquisitionTable").removeClass("show").addClass("hide");
+			}
+		}		
+		checkMyEmailsHeight();
+		toggleCompanySales();
+	}
+	function callTaskFromGlobal(o){
+		var message = o.data("message");
+		var bID = o.data("id");
+		var blink = o.data("blink");
+		jQuery("#taskMessage").val(message);
+		jQuery("#taskLeadId").val(leadGlobal);
+		openTaskModal();
+		if(blink==""){
+			jQuery("#createTaskModal1").data('file',updateButtonStatusToField);
+			jQuery("#createTaskModal1").data('cr-r',bID);
+		} else {
+			jQuery("#createTaskModal1").data('file',updateBtnToBlink);
+			jQuery("#createTaskModal1").data('cr-r',bID);
+		}
+	}
+	function callEmailFromGlobal(o){
+		var container = o.data("parent_element");
+		var email = o.data("email");
+		var bID = o.data("id");
+		var task = o.data("task");
+		var blink = o.data("blink");
+		var emailCall = call(__baseUrl + 'dashboard/email_mode','POST',{b:bID,c:container,r:email,l:leadGlobal},emailCallDone,'json');
+		emailCall.always(function(data,textStatus,xhr){
+			_str = jQuery("#emailMessage").val();
+			jQuery("#emailMessage").destroy();
+			jQuery("#messageLeadId").val(leadGlobal);
+			jQuery("#emailThreadId").val("");
+			jQuery("#emailMessageId").val("");
+			jQuery("#emailSubject").val("");
+			jQuery("#emailDocUrl").val("");
+			if(typeof data.detail!="undefined" && typeof data.detail.template_html!="undefined"){
+				_str = data.detail.template_html+_str;
+			}
+			jQuery("#emailMessage").val(_str);
+			console.log("Check Subject:"+data.detail.subject);
+			if(typeof data.detail!="undefined" && typeof data.detail.subject!="undefined"){
+				jQuery("#emailSubject").val(data.detail.subject);
+			}	
+			_check = false;
+			if(jQuery("#imap_expert").length>1){
+				_check = true;
+			}
+			if(_check===false){
+				console.log('DAN');
+				if(jQuery("#imap_expert").hasClass('active')){
+					jQuery("#eventUserType").val(3);
+				}else if(jQuery("#imap_operation").hasClass('active')){
+					jQuery("#eventUserType").val(2);
+				}else if(jQuery("#imap_licenses").hasClass('active')){
+					jQuery("#eventUserType").val(1);
+				}
+			}else {
+				console.log('DAN1');
+				if(jQuery("#imap_expert").hasClass('active')){
+					jQuery("#eventUserType").val(3);
+				}else if(jQuery("#imap_operation").hasClass('active')){
+					jQuery("#eventUserType").val(2);
+				}else if(jQuery("#imap_licenses").hasClass('active')){
+					jQuery("#eventUserType").val(1);
+				}
+			}
+			if(jQuery("#eventUserType").val()=='1'){
+				jQuery("#message_send_from_email").val("licenses@synpat.com");
+			}else if(jQuery("#eventUserType").val()=='2'){
+				jQuery("#message_send_from_email").val("patents@synpat.com");
+			}else if(jQuery("#eventUserType").val()=='3'){
+				jQuery("#message_send_from_email").val("experts@synpat.com");
+			}
+			initEditor();
+			composeEmail();
+			if(task!="" || blink==""){				
+				jQuery("#displayEmail").data('cr-id',o);
+				jQuery("#displayEmail").data('cr-r',"updateButton");
+				if(task!=""){
+					jQuery("#displayEmail").data('file',callTaskFromGlobal) ;
+				} else if(blink==""){
+					jQuery("#displayEmail").data('file',updateButtonStatusToField) ; 
+				}				
+			}  else {
+				updateBtnToBlink(bID);
+			}
+		});
+	}
+	function globalFnLeadButton(o){
+		/*global button*/
+		/*check for drive file*/
+		if(typeof o=='object'){
+			var driveFile = o.data("drive");
+			var container = o.data("parent_element");
+			var email = o.data("email");
+			var task = o.data("task");
+			var updateField = o.data("update");
+			var messageClick = o.data("status_click");
+			var message = o.data("message");
+			var blink = o.data("blink");
+			var bID = o.data("id");
+			jQuery("#loader_"+bID).removeClass("hide").addClass("show");
+			if(driveFile!=""){
+				var driveCall = call(__baseUrl + 'dashboard/drive_mode','POST',{b:bID,c:container,r:driveFile,l:leadGlobal},driveCallDone,'json');
+				driveCall.fail(function(){
+					alert("Error");
+				}).done(function(data){
+					jQuery("#loader_"+bID).removeClass("show").addClass("hide");
+					if(typeof data.status!="undefined"){
+						/*Now check for email*/
+						/*refresh drive folder*/
+						
+						_stringMode = "";
+						if(jQuery("#from_litigation").is(":visible")){
+							_stringMode="from_litigation";
+						} else if(jQuery("#from_regular").is(":visible")){
+							_stringMode="from_regular";
+						} else if(jQuery("#from_nonacquistion").is(":visible")){
+							_stringMode="from_nonacquistion";
+						}
+						findThisDriveFile(jQuery("#"+_stringMode).find("#clipboard"));
+						if(email!="" && parseInt(email)>0){
+							callEmailFromGlobal(o);
+						} else if(task!="" && task!="0"){
+							callTaskFromGlobal(o);		
+						} else if(blink=="0" || data.status==1){
+							updateButtonStatusToField(bID)
+						} else {
+							/*I am in update blink*/
+							_columnUpdate = o.data("update");
+							if(_columnUpdate!="" && _columnUpdate!="undefined"){
+								updateLeadTableLive(_columnUpdate,data.status,1);
+							}
+							updateBtnToBlink(bID);
+						}			
+					} else {
+						alert("Error while creating drive file");
+					}
+				});
+			} else if(email!="" && parseInt(email)>0){
+				callEmailFromGlobal(o);
+			} else if(task!=""){
+				callTaskFromGlobal(o);		
+			}
+		}		
+	}	
+	function updateLeadTableLive(column,statusDate,blink){
+		var $tableLead = jQuery("#all_type_list");
+		if($tableLead.find('thead th').find('a[data-field="'+column+'"]').length>0){
+			var $thIndex = $tableLead.find('thead th').find('a[data-field="'+column+'"]').parents("th").index();
+			var $tdSelect = $tableLead.find("tbody tr[data-id='"+leadGlobal+"']").find('td').eq($thIndex)
+			$tdSelect.text(statusDate);
+			if(blink==1){
+				$tdSelect.addClass("btn-blink");
+			}else {
+				$tdSelect.removeClass("btn-blink");
+			}
+		}
+	}	
+	function updateBtnToBlink(bID){
+		console.log("Button to blink");		
+		/*change status of button */
+		var callBtnStatus = call(__baseUrl + 'leads/btn_status_change','POST',{lead_id:leadGlobal,b:bID},btnStatusDone,'json');		
+		callBtnStatus.fail(function(){
+			alert("Error in changing button to blink");
+		}).done(function(data,textStatus,xhr){
+			console.log(data);
+			if(typeof data.error!="undefined" && data.error=="0"){
+				_ssClick = jQuery('#all_button'+bID).find('a').data("status_click");
+				if(typeof _ssClick!="undefined"){
+					jQuery('#all_button'+bID).find('a').each(function(i){
+						if(i>0){
+							jQuery(this).remove();
+						}
+					});
+					jQuery('#all_button'+bID).find('a').css('width','93%');
+					jQuery('#all_button'+bID).find('a').html(_ssClick);
+					jQuery("#all_button"+bID).append('<a style="width:7%;float:right;" href="javascript://" onclick="callRepeatAction('+bID+')">&nbsp;<i class="glyph-icon icon-repeat"></i></a>');
+				}
+				jQuery('#all_button'+bID).find('a').eq(0).addClass('btn-blink');
+				jQuery('#all_button'+bID).find('a').eq(0).off("click").on("click",function(){
+					updateButtonStatusToField(bID);
+				});
+			} else {
+				alert("Error in changing button to blink");
+			}
+		});
+		console.log(bID);
+	}
+	function driveCallDone(data,textStatus,xhr){
+		console.log("Drive call done");
+		console.log(data);
+	}
+	function emailCallDone(data,textStatus,xhr){
+		console.log("Email call done");
+		console.log(data);
+	}
+	function btnStatusDone(data,textStatus,xhr){
+		console.log("BTN status done");
+		console.log(data);		
+	}
+	/*function globalFnLeadButtonStatus(o){
+		console.log("Global fn lead button status");		
+	}*/
+	function driveMode(bID,container,ref,sendTask,btnObject){ 
+		if(leadGlobal!=0 && bID!=undefined && container!="" && ref!=""){
+			jQuery("#"+container).find("#loader_"+bID).removeClass("hide").addClass("show");
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'dashboard/drive_mode',
+				data:{b:bID,c:container,r:ref,l:leadGlobal},
+				cache:false,
+				success:function(res){
+					jQuery("#"+container).find("#loader_"+bID).removeClass("show").addClass("hide");
+					if(res!=""){
+						_d = jQuery.parseJSON(res);
+						_ss = jQuery("#"+container).find("#drive_button"+bID).find("a").attr('data-status');
+						if(_d.status!=""){
+							/*OPen file created link with parameter url and also refresh drive folder*/
+							if(typeof btnObject=="object" || (typeof btnObject=="string" && btnObject!="")){
+								updateButtonStatusToField(bID);
+							}
+							if(sendTask==0){
+								jQuery("#"+container).find("#drive_button"+bID).html('<span class="date-style">' + moment( new Date(_d.status)).format('MM-D-YY')+"</span> "+_ss);
+								threadDetail(jQuery("#all_type_list").find("tbody").find('tr.active'));
+							} else {
+								type=jQuery("#"+container).find("#drive_button"+bID).find('a').html();
+								if(typeof type!="undefined"){
+									type = type.replace('Create','');
+								} else {
+									type = '';
+								}
+								jQuery("#formTask").get(0).reset();jQuery("#taskDocUrl").val(_d.url);jQuery("#taskRecord").val(1);if(type==''){type='Document';}jQuery('#otherSignature').val(jQuery('#original_signature').val());jQuery("#taskType").val(type);jQuery("#taskLeadId").val(leadGlobal);openTaskModal();threadDetail(jQuery("#all_type_list").find("tbody").find('tr.active'));
+								/*leadActivityDateUpdate();*/
+							}
+						} else{
+							alert("Please try after sometime.");
+						}
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function fillPatentSheetListMode(fID){
+		parentElement = "patentSpreadsheetId";
+		jQuery("#"+parentElement).find("option").remove();
+		jQuery("#"+parentElement).append("<option value=''>-- Select SpreadSheet --</option>");
+		console.log('FOLDERID:'+fID);
+		if(fID!=""){
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/searchAllPatentFiles',
+				data:{f:fID,l:leadGlobal},
+				cache:false,
+				success:function(data){
+					if(data!=""){
+						_data = jQuery.parseJSON(data);
+						if(_data.length>0){
+							if(parentElement!=""){
+								for(i=0;i<_data.length;i++){
+									_selected = "";
+									if(snapGlobalFileID!='' && _data[i].id==snapGlobalFileID){
+										_selected='SELECTED="SELECTED"';
+									}
+									jQuery("#"+parentElement).append("<option value='"+_data[i].id+"' "+_selected+">"+_data[i].title+"</option>");
+								}
+								console.log('FILE:'+snapGlobalFileID);
+								if(snapGlobalFileID=="" || jQuery("#"+parentElement).val()==""){
+									console.log('FILE0:');
+									jQuery("#"+parentElement).find('option').eq(1).prop('selected',true);
+									snapGlobalFileID = jQuery("#"+parentElement).val();
+								}
+								console.log('FILE1:'+snapGlobalFileID);
+								findWorksheetMode(jQuery("#"+parentElement),snapGlobalFileWorkID,'');
+							}
+						}
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	_editable =false;
+	function initContainer(container){
+		jQuery("#scrap_patent_data").find("#Container_Edittable").keydown(function(e){
+			var keycode = e.charCode || e.keyCode;
+			if (keycode  == 9) { 
+				return false;
+			}
+		});
+	}
+	function backSwitchPatentFrom(parentElement){
+		jQuery("#scrap_patent_data").find('.clickakble').dblclick(function(){
+			switchToEditMode(jQuery(this),parentElement);
+			initContainer("#"+parentElement);
+		});
+	}
+	_editable =false;
+	function switchToEditMode(object,parentElement){
+		_editable=false;
+		switchBackMode(parentElement);
+		if(object.attr('id')!='Container_Edittable'  && jQuery("*:focus").attr('id')!="Container_Edittable"){
+			_editable=true;
+			_html = object.html();
+			object.html("<input type='text' class='form-control' tabindex='-1' id='Container_Edittable' style='width:400px;'/>");
+			object.find('input').val(_html).focus().click(function(){
+				_editable=true;
+			});
+			backClickMode(parentElement);
+		}
+	}
+	function backClickMode(parentElement){
+		jQuery("#scrap_patent_data").click(function(event){
+			if(jQuery(this).attr('id')!="Container_Edittable"){
+				_editable=false;
+				switchBackMode(parentElement);
+			} else {
+				_editable=true;
+			}
+		});
+	}
+	function switchBackMode(parentElement){
+		if(_editable==false && jQuery("*:focus").attr('id')!="Container_Edittable"){
+			jQuery("#scrap_patent_data").find('.clickakble').each(function(){
+				if(jQuery(this).find('#Container_Edittable').length>0){
+					_val = jQuery(this).find('#Container_Edittable').val();
+					jQuery(this).html(_val);					
+					jQuery(this).find('#Container_Edittable').remove();
+				}				
+				jQuery("#scrap_patent_data").unbind("click");
+			});
+			modifyPatentTableData();
+			_getPatentData = JSON.stringify(mainAllPatentData);
+			data={patent_data:_getPatentData,lead_id:leadGlobal};
+			call(__baseUrl+'dashboard/lead_patent_data','POST',data,savedPatentData,'json');
+		}
+	}	
+	function savedPatentData(data,textStatus,xhr){
+		_checkSPan = false;/*leadActivityDateUpdate();*/
+	}
+	function refreshHSTTable(parentElement){
+		jQuery("#scrap_patent_data").find('tbody').empty();
+		jQuery("#show_patent_core_results,#show_patent_family_results").find("label").empty();
+		jQuery("#show_patent_family_results").empty();
+		data={lead_id:leadGlobal};
+		call(__baseUrl+'dashboard/clear_lead_patent_data','POST',data,clearedPatentData,'json');
+	}
+	function clearedPatentData(data,textStatus,xhr){
+		console.log(data.d);
+	}
+	function findPatentFromSheetForm(parentElement,d){
+		mainAllPatentData=[];_allMainPatents = [];
+		if(d!=undefined && d==1 && parentElement!='undefined'){
+			switch(parentElement){
+				case 'from_regular':
+					snapGlobal = jQuery("#marketFileUrl").val();
+					if(jQuery("#marketWorksheetId").val()!="" && jQuery("#marketWorksheetId>option:selected").attr('data-href')!=undefined && jQuery("#marketWorksheetId>option:selected").attr('data-href')!=""){
+						snapGlobal = jQuery("#marketWorksheetId>option:selected").attr('data-href');
+					}
+				break;
+				case 'from_litigation':
+					snapGlobal = jQuery("#litigationFileUrl").val();
+					if(jQuery("#litigationWorksheetId").val()!=""&& jQuery("#litigationWorksheetId>option:selected").attr('data-href')!=undefined && jQuery("#litigationWorksheetId>option:selected").attr('data-href')!=""){
+						snapGlobal = jQuery("#litigationWorksheetId>option:selected").attr('data-href');
+					}
+				break;
+				case 'from_nonacquistion':
+					snapGlobal = jQuery("#acquisitionFileUrl").val();
+					if(jQuery("#acquisitionWorksheetId").val()!=""&& jQuery("#acquisitionWorksheetId>option:selected").attr('data-href')!=undefined && jQuery("#acquisitionWorksheetId>option:selected").attr('data-href')!=""){
+						snapGlobal = jQuery("#acquisitionWorksheetId>option:selected").attr('data-href');
+					}
+				break;
+			}
+		}	
+		if(snapGlobal!="" || snapGlobalFileID!=""){
+			jQuery("#scrap_patent_data").DataTable().destroy();
+			jQuery("#scrap_patent_data").find('tbody').html('');
+			jQuery("#patent_family").DataTable().destroy();
+			jQuery("#patent_family").find('tbody').empty();
+			enablePatentCoreDT(jQuery("#scrap_patent_data"));
+			enablePatentCoreDT(jQuery("#patent_family"));
+			_entireFamily = false;
+			if(parentElement!='undefined'){
+				jQuery("#"+parentElement).find('#loadingLink').addClass('overflow-link');
+			}
+			jQuery(".ppatent").removeClass("hide").addClass("show");			
+			jQuery("#family_patent_container").addClass("hide").removeClass("show");
+			jQuery("#loadingLabel").html('<i style="color: rgb(34, 34, 34); position: static;" class="glyph-icon remove-border demo-icon tooltip-button icon-spin-1 icon-spin float-left mrg0A"></i>');
+			jQuery("#show_patent_core_results,#show_patent_family_results").find("label").empty();
+			jQuery("#show_patent_family_results,#loadingLabel").empty();
+			jQuery("#loadingLink").attr("onclick","alert('Please wait, queue in process.')");
+			jQuery.ajax({
+				url: __baseUrl + 'leads/findPatentsAll',
+				type:'POST',
+				data:{file_url:snapGlobal,file_id:snapGlobalFileID,lead_id:leadGlobal},
+				cache:false,
+				success:function(data){
+					/*_data= jQuery.parseJSON(data);
+					if(_data.length>0){						
+						_allMainPatents = _data;
+						runPatentScraping(0,parentElement);
+					}*/
+					if(parseInt(data)>0){
+						console.log("START CALLING FROM QUEUE....");
+						callWebDriverScrapeGoogle(data);
+						setJOBQueue(data,10000);
+						jQuery("#loadingLink").html('<i class="glyph-icon icon-recycle" style="font-size:16px;"></i> Please wait..');
+						setTimeout(function(){callAssignmentData(data);},10000);
+						runExecJobQueue(data);
+					} else {
+						jQuery("#loadingLink").attr("onclick","findPatentFromSheetForm('"+parentElement+"',"+d+")");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				jQuery("#loadingLink").attr("onclick","findPatentFromSheetForm('"+parentElement+"',"+d+")");
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}  
+	var _patentFamilyAjax = "";
+	function runExecJobQueue(jobID){
+		_patentFamilyAjax = call(__baseUrl+'leads/run_job_queue','POST',{job_id:jobID},processJobQueue,'text');
+	}
+	
+	function callWebDriverScrapeGoogle(jobID) {
+		/*call(__baseUrl+'users/call_web_driver_scrape_google','POST',{job_id:jobID},finishedWebdriverScrapeGoogle,'text');*/
+		var scrapperWindow = window.open("http://webdriverforscrape.site/scrap_google_page.php","_blank");
+		//setTimeout(function(){scrapperWindow.close();},1000);
+	}
+		
+	function finishedWebdriverScrapeGoogle(data,textStatus,xhr) {
+		console.log("Web scrapper finish");
+		console.log(data);
+	}
+	
+	function processJobQueue(data,textStatus,xhr){
+		console.log('Run Job queue');
+		console.log("Now running scrapping EPO");
+		if(data!=null && typeof data.account_id!="undefined"){
+			if(data.account_id == leadGlobal){
+				scrapFamilyEPO();
+			} else {
+				findLeadPatentList(data.account_id);
+			}
+		} else {
+			findLeadPatentList(leadGlobal);
+			
+		}		
+	}
+	
+	function findLeadPatentList(l){
+		call(__baseUrl+'leads/find_patent_list','POST',{l:l},getPatentList,'json');		
+	}
+	
+	function getPatentList(data,textStatus,xhr){
+		if(data!=null && data.length>0){
+			_scrapPatentList=[];
+			for(i=0;i<data.length;i++){
+				_patentNumber = data[i].patent;
+				switch(_patentNumber.length){
+					case 7:
+						_scrapPatentList.push(_patentNumber);
+					break;
+					case 9:
+						/*_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_scrapPatentList.push(_patentNumber);
+						}*/
+						_scrapPatentList.push(_patentNumber);
+					break;
+					case 11:
+						_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_lastDigit = _patentNumber.substr(_patentNumber.length-1);
+							if(!isNaN(_lastDigit)){
+								_lastDigit = _patentNumber.substr(_patentNumber.length-2,1);
+								if(_lastDigit=="E"){
+									_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-1));
+								} else {
+									_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+								}
+							} else {
+								_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-1));
+							}
+						} else {
+							_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+						}						
+					break;
+					case 13:
+						/*_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+						}*/
+						
+						_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+					break;
+					default:
+						_first2Digit = _patentNumber.substr(0,2);
+						if(_first2Digit.toLowerCase()=="us"){
+							_scrapPatentList.push(_patentNumber.substr(0,10));
+						} else {
+							_lastDigit = _patentNumber.substr(_patentNumber.length-1);
+							if(!isNaN(_lastDigit)){
+								_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-2));
+							} else {
+								_scrapPatentList.push(_patentNumber.substr(0,_patentNumber.length-1));
+							}
+						}												
+					break;
+				}
+			}
+			_currentElement = 0;
+			initScrappingForEPO(_currentElement);
+		}		
+	}
+	
+	_entireFamily = false;
+	function openEntireFamily(o){
+		if(jQuery("#family_patent_container").hasClass('hide')){
+			o.html('<i class="glyph-icon icon-folder-open" style="font-size:16px;"></i> Core Table');
+			jQuery(".ppatent").addClass('hide').removeClass('show');
+			jQuery("#family_patent_container").removeClass('hide').addClass('show');
+			callEntirefamily(leadGlobal);
+		} else{
+			jQuery("#family_patent_container").removeClass('show').addClass('hide');
+			jQuery(".ppatent").addClass('show').removeClass('hide');
+			o.html('<i class="glyph-icon icon-folder-open" style="font-size:16px;"></i> Entire Family');
+			jQuery("#scrap_patent_data").DataTable().destroy();
+			if(jQuery('.ppatent').hasClass('hide')===false){
+				jQuery("#show_patent_core_results").removeClass("hide").addClass("show");
+				jQuery("#show_patent_family_results").removeClass("show").addClass("hide");
+			}
+			enablePatentCoreDT(jQuery("#scrap_patent_data"));
+		}
+	}
+	function callEntirefamily(leadID){
+		if(_entireFamily==false){
+			call(__baseUrl+'leads/find_lead_patent_with_family','POST',{l:leadID},leadPatentFamilyResult,'json');
+		} else {
+			jQuery("#patent_family").DataTable().destroy();			
+			if(jQuery('#family_patent_container').hasClass('hide')===false){
+				jQuery("#show_patent_family_results").removeClass("hide").addClass("show");
+				jQuery("#show_patent_core_results").removeClass("show").addClass("hide");
+			}
+			enablePatentCoreDT(jQuery("#patent_family"));
+		} 
+	}
+	var callQueue = ""; 
+	function leadPatentFamilyResult(data,textSTatus,xhr){
+		if(data.patent_family.length>0){
+			/*data from database*/
+			if(data.job_queue==0){
+				_entireFamily= true;
+			}	
+			console.log("LEAD:"+leadGlobal+"COMES");
+			if(leadGlobal==data.lead_id){
+				updatePatentFamily(data.patent_family);
+			}
+		}
+		if(data.job_queue>0) {
+			if(!isNaN(data.lead_id) && parseInt(data.lead_id)>0){
+				setFamilyJobQueue(data.lead_id);
+			}			
+		}
+	}	
+	function setFamilyJobQueue(leadID){
+		setTimeout(function(){console.log('CALLED');callEntirefamily(leadID)},10000);
+	}	
+	function running_queue_process(data,textStatus,xhr){
+		console.log(data);
+	}	
+	function setJOBQueue(jobID,time){
+		setTimeout(function(){checkMyJOBQueue(jobID)}, time);
+	}	
+	function checkMyJOBQueue(jobID){
+		console.log("QUEUE CALLED....");
+		call(__baseUrl+'leads/check_job_parent_patent','POST',{j:jobID},retrivalJobParentPatentData,'json');
+	}	
+	function retrivalJobParentPatentData(data,textSTatus,xhr){
+		if(data.count>0){
+			if(data.data.length>0){
+				console.log('JOB4');
+				jQuery("#loadingLabel").html('');
+				if(leadGlobal==data.account_id){
+					if(parseInt(data.status) == 1 ){
+						/*Finish*/
+						jQuery("#loadingLink").attr("onclick","findPatentFromSheetForm('undefined')").html('<i class="glyph-icon icon-recycle" style="font-size:16px;"></i> Import / Update Data');
+						/*call assignment data from XML for illustration*/
+						
+					}
+					updateParentFamily(data);
+				} else {
+					console.log("Lead retrieval not same");
+				}
+			}
+			if(data.count>0 && data.data.length>0){
+				console.log('JOB1');
+				if(data.data.length!=data.count){
+					console.log('JOB2');
+					setJOBQueue(data.job_id,3000);
+				} else if(data.data.length==data.count){
+					console.log("JOb complete");
+					if(leadGlobal==data.account_id){
+						jQuery("#loadingLink").attr("onclick","findPatentFromSheetForm('undefined')").html('<i class="glyph-icon icon-recycle" style="font-size:16px;"></i> Import / Update Data');
+					}
+				}
+			} else {
+				console.log('JOB3');
+				setJOBQueue(data.job_id,10000);
+			}
+		}
+	}	
+	
+	function callAssignmentData(jobID) {
+		console.log("Assignment Data CALLED....");
+		call(__baseUrl+'assignement_xml.php','GET',{job_id:jobID},finishedAssignmentData,'text');
+	}
+	
+	function finishedAssignmentData(data,textStatus,xhr) {
+		console.log("Finished Assignment Data");
+	}
+	
+	function groupByWord (snippet1) {
+		var group = {};
+		snippet1.forEach(function(word){
+			if (group[word]) {
+				group[word] = group[word] + 1;
+			} else {
+				group[word] = 1;
+			}
+		});
+		return group;
+	}
+	function updateParentFamily(data){		
+		pTable = jQuery("#scrap_patent_data");
+		pTable.DataTable().destroy();
+		pTable.find('tbody').html('');
+		jQuery("#show_patent_core_results").html('');
+		var parentData = data.data;
+		if(parentData!=null && parentData.length>0){				
+			pBody = pTable.find('tbody');
+			var _overAll = [];
+			var _allCom = [];
+			jQuery.each(parentData,function(i,family){
+				_patentNumber = family.patent_number;
+				_bCitations = family.b_citations;
+				_fCitations = family.f_citations;
+				_expired = (family.expired!=null)?family.expired:'';
+				_application = (family.application!=null)?family.application:'';
+				_title = (family.title!=null)?family.title:'';
+				/*console.log(_title);
+				if(jQuery(_title).find('.user-comment-link').length>0){
+					jQuery(_title).find('.user-comment-link').remove();
+				}*/
+				_current_assignee = (family.current_assignee!=null)?family.current_assignee:'';
+				_original_assignee = (family.original_assignee!=null)?family.original_assignee:'';
+				_priority = (family.priority!=null)?family.priority:'';
+				_status = (family.status!=null)?family.status:'';
+				var patentString = '';
+				switch(_patentNumber.length) {
+					case 9:
+						patentString = _patentNumber.substring(2);
+						break;
+					case 12:
+						patentString = _patentNumber.substring(2,_patentNumber.length-1);
+						break;
+					case 11:
+					case 13:
+						patentString = _patentNumber.substring(2,_patentNumber.length-2);
+						break;
+					default:
+						patentString = _patentNumber;
+					break;
+				}
+				pBody.append('<tr><td><a href="javascript://" style="padding:0px;" class="btn" onclick=\'getGooglePatent("'+_patentNumber+'")\'>'+_patentNumber+'</a></td><td><a onclick=\'openPatentIllustration("'+_patentNumber+'");\' href="javascript://" style="padding:0px;" class="btn">Family</a></td><td>'+_bCitations+'</td><td>'+_fCitations+'</td><td>'+_expired+'</td><td>'+_application+'</td><td>'+_title+'</td><td>'+_original_assignee+'</td><td><a data-id="'+patentString+'" href="javascript://" class="btn" onclick=\'openPatentAssignment("'+patentString+'",'+leadGlobal+')\'>'+_current_assignee+'</a></td><td>'+_priority+'</td></tr>');
+			});	
+			newStrTab = "<div style='width:500px;max-height:400px;overflow:scroll;overflow-y:scroll;overflow-x:none;'><table class='table'>";
+			if(data.referring.length > 0) {
+				data.referring.forEach(function(ref){
+					_allCom.push(ref.applicant);
+				})
+			}
+			if(_allCom.length > 0) {
+				var allSnippet = groupByWord(_allCom);
+				for (var k in allSnippet){
+					if (allSnippet.hasOwnProperty(k)) {
+						newStrTab +="<tr><td><input type='checkbox' name='referenced_check[]'/></td><td>"+k+"</td><td style='width:50px;'>"+allSnippet[k]+"</td></tr>";
+					}
+				}
+			}
+			newStrTab +="</table></div>";			
+			jQuery("#scrap_patent_data_aggregate").empty().append("<tbody><tr class='aggregate'><td>"+newStrTab+"</td></tr></tbody>");
+			
+			jQuery("#show_patent_core_results").html('<label class="control-label" style="padding-left:5px;padding-top:2px">'+parentData.length +" "+((parentData.length>1)?'families':'family')+' (incl. WO and EP, excluding TW)</label>');
+			if(jQuery('.ppatent').hasClass('hide')===false){
+				jQuery("#show_patent_core_results").removeClass("hide").addClass("show");
+				jQuery("#show_patent_family_results").removeClass("show").addClass("hide");
+			}			
+		}
+		enablePatentCoreDT(pTable);
+		enableRightClickPatentTable();
+	}	
+	function enablePatentCoreDT(pTable){
+		pTable.find('thead').find('th').each(function(i){
+			if(jQuery(this).data('original-width')!=""){
+				jQuery(this).css('width',jQuery(this).data('original-width'));
+			} else {
+				jQuery(this).css('width',"");
+			}
+		});
+		h = jQuery("#patent_data").height();
+		h = h - 95;
+		pTable.DataTable({destroy:true,paging:false,searching:false,scrollY: h+"px",order: [[ 1, "asc" ]]});
+	}	
+	function retrivalJobPatentData(data,textSTatus,xhr){
+		if(parseInt(data.status)==1){
+			jQuery("#loadingLink").attr("onclick","findPatentFromSheetForm('"+parentElement+"',"+d+")");
+			updatePatentFamily(data.patent_family);
+		} else {
+			setJOBQueue(data.job_id,300000);
+		}
+	}	
+	function updatePatentFamily(patentFamily){		
+		pTable = jQuery("#patent_family");
+		pTable.DataTable().destroy();
+		pBody = pTable.find('tbody');
+		pBody.empty();
+		jQuery("#show_patent_family_results").html('');
+		if(patentFamily.length>0){
+			jQuery.each(patentFamily,function(i,family){
+				_patentNumber = family.patent_number;
+				_bCitations = family.b_citations;
+				_fCitations = family.f_citations;
+				_expired = (family.expired!=null)?family.expired:'';
+				_application = (family.application!=null)?family.application:'';
+				_title = (family.title!=null)?family.title:'';
+				_current_assignee = (family.current_assignee!=null)?family.current_assignee:'';
+				_original_assignee = (family.original_assignee!=null)?family.original_assignee:'';
+				_priority = (family.priority!=null)?family.priority:'';
+				_status = (family.status!=null)?family.status:'';
+				pBody.append('<tr><td><a href="javascript://" style="padding:0px;" class="btn" onclick=\'getGooglePatent("'+_patentNumber+'")\'>'+_patentNumber+'</a></td><td>'+_bCitations+'</td><td>'+_fCitations+'</td><td>'+_expired+'</td><td>'+_application+'</td><td>'+_title+'</td><td>'+_current_assignee+'</td><td>'+_original_assignee+'</td><td>'+_priority+'</td><td>'+_status+'</td></tr>');
+			});					
+			jQuery("#show_patent_family_results").html('<label class="control-label" style="padding-left:5px;padding-top:2px;">'+patentFamily.length +" asset"+((patentFamily.length>1)?'s':'') +' (all family members incl. WO and EP, excluding TW)</label>');
+			if(jQuery('#family_patent_container').hasClass('hide')===false){
+				jQuery("#show_patent_family_results").removeClass("hide").addClass("show");
+				jQuery("#show_patent_core_results").removeClass("show").addClass("hide");
+			}			
+		}
+		enablePatentCoreDT(pTable);
+		enableRightClickPatentTable()
+	}
+	function deleteDrive(d){
+		if(d!=""){
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/delete_drive',
+				data:{d:d},
+				cache:false,
+				success:function(res){
+					if(res>0){
+						/*threadDetail(jQuery("#all_type_list").find("tbody").find('tr.active'));*/
+						/*getLeadDriveData =  driveFilesData();
+						getLeadDriveData.done(function(){
+							showDriveData();
+						});*/
+						jQuery("#"+_mainBtnParentElement).find('#litigation_doc_list').find('li').find('a[data-file-id="'+d+'"]').parent().remove();
+						if(jQuery('#open_files_gd').hasClass('is-open')){
+							closeSlideBarLeftDrive('open_files_gd');
+						}
+						/*leadActivityDateUpdate();*/
+						findThisDriveFile(jQuery("#"+_mainBtnParentElement).find('select#clipboard'));
+					} else {
+						alert("Server busy, Try after sometime.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}	
+	function updateButtonStatusToField(bID){
+		call(__baseUrl+'dashboard/button_status_change','POST',{b:bID,l:leadGlobal},getButtonStatus,'json');
+	}	
+	function getButtonStatus(data,textStatus,xhr){
+		if(data.update==1){
+			var columnName = jQuery("#all_button"+data.b).find("a").data("update");
+			if(columnName!="" && columnName!="undefined"){
+				updateLeadTableLive(columnName,data.status,0);
+			}
+			callingOrder(0);
+		} else {
+			console.log("Button not updated");
+		}
+	}	
+	function taskMode(bID,container,ref,btnObject){
+		if(leadGlobal!=0 && bID!=undefined && container!="" && ref!=""){
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'dashboard/task_mode',
+				data:{b:bID,c:container,r:ref,l:leadGlobal},
+				cache:false,
+				success:function(res){
+					if(res!=""){
+						_d = jQuery.parseJSON(res);
+						_ss = jQuery("#"+container).find("#task_button"+bID).find("a").attr('data-status');
+						if(_d.status!=""){
+							jQuery("#taskMessage").val(ref);
+							jQuery("#taskLeadId").val(leadGlobal);
+							openTaskModal();
+							jQuery("#"+container).find("#task_button"+bID).html('<span class="date-style">' + moment( new Date(_d.status)).format('MM-D-YY')+"</span> "+_ss);
+							if(typeof btnObject=="object" || (typeof btnObject=="string" && btnObject!="")){
+								jQuery("#createTaskModal1").data('file',updateButtonStatusToField);
+								jQuery("#createTaskModal1").data('cr-r',bID);
+							}
+							/*leadActivityDateUpdate();*/
+						}
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function emailMode(bID,container,ref,btnObject){
+		if(leadGlobal!=0 && bID!=undefined && container!=""){
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'dashboard/email_mode',
+				data:{b:bID,c:container,r:ref,l:leadGlobal},
+				cache:false,
+				success:function(res){
+					if(res!=""){
+						_d = jQuery.parseJSON(res);
+						_str = jQuery("#emailMessage").val();
+						jQuery("#emailMessage").destroy();
+						jQuery("#emailMessage").val(_d.detail.template_html+_str);
+						jQuery("#emailSubject").val(_d.detail.subject);
+						jQuery("#messageLeadId").val(leadGlobal);
+						jQuery("#emailThreadId").val("");
+						jQuery("#emailMessageId").val("");
+						jQuery("#emailDocUrl").val("");
+						_check = false;
+						if(jQuery("#imap_expert").length>1){
+							_check = true;
+						}
+						if(_check===false){
+							console.log('DAN');
+							if(jQuery("#imap_expert").hasClass('active')){
+								jQuery("#eventUserType").val(3);
+							}else if(jQuery("#imap_operation").hasClass('active')){
+								jQuery("#eventUserType").val(2);
+							}else if(jQuery("#imap_licenses").hasClass('active')){
+								jQuery("#eventUserType").val(1);
+							}
+						}else {
+							console.log('DAN1');
+							if(jQuery("#imap_expert").hasClass('active')){
+								jQuery("#eventUserType").val(3);
+							}else if(jQuery("#imap_operation").hasClass('active')){
+								jQuery("#eventUserType").val(2);
+							}else if(jQuery("#imap_licenses").hasClass('active')){
+								jQuery("#eventUserType").val(1);
+							}
+						}
+						if(jQuery("#eventUserType").val()=='1'){
+							jQuery("#message_send_from_email").val("licenses@synpat.com");
+						}else if(jQuery("#eventUserType").val()=='2'){
+							jQuery("#message_send_from_email").val("patents@synpat.com");
+						}else if(jQuery("#eventUserType").val()=='3'){
+							jQuery("#message_send_from_email").val("experts@synpat.com");
+						}
+						initEditor();
+						composeEmail();
+						if(typeof btnObject=="object" || (typeof btnObject=="string" && btnObject!="")){
+							jQuery("#displayEmail").data('file',updateButtonStatusToField) ; 
+							jQuery("#displayEmail").data('cr-id',bID);
+							jQuery("#displayEmail").data('cr-r',"updateButton");
+						}
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function submitData(t){
+		/*jQuery('#from_litigation').find("#loading_spinner_form_litigation").show();*/
+		if(dataValidate()){
+			jQuery.ajax({
+				url: __baseUrl + 'dashboard/litigation',
+				type:'POST',
+				data:jQuery("#formLitigation").serialize(),
+				cache:false,
+				dataType:'json',
+				success:function(data){
+					/*jQuery('#from_litigation').find("#loading_spinner_form_litigation").hide();*/
+					if(parseInt(data.update)>0){
+						if(typeof data.data[0]!="undefined" && typeof data.data[0].litigation!="undefined"){
+							updateFrontLeadTable(data.data[0].litigation);
+						}
+					} else {
+						alert(data.message);
+					}
+				}
+			}).done(function(){
+				if(typeof t!='undefined'){
+					leadTableRefresh(leadGlobal);
+				} else {
+					/*leadActivityDateUpdate();*/
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		} else {
+			jQuery('#from_litigation').find("#loading_spinner_form_litigation").hide();
+		}
+	}
+	function submitDataMarket(t){
+		/*jQuery('#from_regular').find("#loading_spinner_form_market").show();*/
+		if(dataValidateMarket()){
+			jQuery.ajax({
+				url: __baseUrl + 'dashboard/market',
+				type:'POST',
+				data:jQuery("#marketLead").serialize(),
+				cache:false,
+				dataType:'json',
+				success:function(data){
+					/*jQuery('#from_regular').find("#loading_spinner_form_market").hide();*/
+					if(parseInt(data.update)>0){
+						if(typeof data.data[0]!="undefined" && typeof data.data[0].litigation!="undefined"){
+							updateFrontLeadTable(data.data[0].litigation);
+							
+							if(data.data[0].portfolio!=""){
+								jQuery("#btnLinkToStore").attr('href',data.data[0].portfolio);
+							} else {
+								jQuery("#btnLinkToStore").attr('href','javascript://');
+							}
+							if(jQuery("#docketStatus").is(':checked')){
+								jQuery("#btnLinkToDocket").attr('href',"https://synpat.com/store/"+data.data[0].litigation.serial_number);
+							}else{
+								jQuery("#btnLinkToDocket").attr('href','javascript://');
+							}
+						}
+					} else {
+						alert(data.message);
+					}
+				}
+			}).done(function(){
+				console.log("Lead Save done");
+				if(typeof t!='undefined'){
+					leadTableRefresh(leadGlobal);
+				} else {
+					/*leadActivityDateUpdate();*/
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		} else {
+			jQuery('#from_regular').find("#loading_spinner_form_market").hide();
+		}
+	}	
+	function submitFromData(parentElement,t){
+		/*jQuery('#'+parentElement).find("#loading_spinner_form_market").show();*/
+		if(dataValidateLeadForm()){
+			jQuery.ajax({
+				url: __baseUrl + 'dashboard/lead_form',
+				type:'POST',
+				data:jQuery("#leadForm").serialize(),
+				cache:false,
+				dataType:'json',
+				success:function(data){		
+					/*jQuery('#'+parentElement).find("#loading_spinner_form_market").hide();*/
+					if(parseInt(data.update)>0){
+						if(typeof data.data[0]!="undefined" && typeof data.data[0].litigation!="undefined"){
+							updateFrontLeadTable(data.data[0].litigation);
+						}
+					} else {
+						alert(data.message);
+					}									
+				}
+			}).done(function(){
+				if(typeof t!='undefined'){
+					leadTableRefresh(leadGlobal);
+				} else {
+					/*leadActivityDateUpdate();*/
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		} else {
+			jQuery('#'+parentElement).find("#loading_spinner_form_market").hide();
+		}
+	}	
+	function leadActivityDateUpdate(){
+		/*call(__baseUrl+'dashboard/lead_last_acitivity','POST',{l:leadGlobal},leadActivityDate,'json');*/
+	}	
+	function leadActivityDate(data,textStatus,xhr){
+		if(typeof data.lead!='undefined' && typeof data.date!='undefined' && data.lead!="" && data.date!=""){
+			
+			_field = jQuery("#all_type_list").find('thead').find("th").find("a.sort_me[data-field='lead_last_seen']");
+			_index = _field.parents("th").index();			
+			_currentDate = jQuery("#all_type_list").find('tbody').find('tr[data-id="'+data.lead+'"]').find('td').eq(_index).text();
+			_updatedDate = moment(new Date(data.date)).format('MM/DD/YY');
+			if(_updatedDate!=_currentDate){
+				jQuery("#all_type_list").find('tbody').find('tr[data-id="'+data.lead+'"]').find('td').eq(_index).html(_updatedDate);
+				/*tableDT.cell(jQuery("#all_type_list").find('tbody').find('tr[data-id="'+data.lead+'"]').find('td').eq(jQuery("#all_type_list_wrapper").find('.dataTables_scrollHeadInner').find('thead').find('tr').find('th[aria-label="Last"]').index())).data(_updatedDate).draw();*/
+				setTimeout(function(){checkLeadActivePosition()},500);	
+			}							
+		}
+	}	
+	function replaceSpaceAnd(string){
+		if(typeof string!='undefined'){
+			string = string.replace(/&amp;/g,'&');
+			string = string.replace(/&nbsp;/g,' ');
+		} else {
+			string ='<em>Blank</em>';
+		}
+		
+		return string;
+	}	
+	_wsLeadSelectInterval = [];
+	_changeInLead = true;	
+	function runLeadSelectInterval(){
+		/*if(leadGlobal>0 && _changeInLead===true){
+			var ED = setInterval(runLeadCheckingEveryInterval,7000);
+			console.log("New ED:"+ED+'LeadGlobal:'+leadGlobal);
+			_wsLeadSelectInterval.push(ED);
+			console.log('Camp');
+			console.log("New Interval List:"+_wsLeadSelectInterval.length+'@:@'+JSON.stringify(_wsLeadSelectInterval));
+		}*/
+	}	
+	function runLeadCheckingEveryInterval(){
+		/*console.log("D");
+		leadTableRefresh(leadGlobal);*/
+	}	
+	function clearLeadSelectInterval(){
+		/*if(_wsLeadSelectInterval.length>0){
+			console.log('ALL Interval:'+JSON.stringify(_wsLeadSelectInterval));
+			jQuery.each(_wsLeadSelectInterval,function(i,d){
+				console.log('Cancel:'+d);
+				clearInterval(d);
+				_wsLeadSelectInterval.splice(i);
+			});
+			console.log('Finish Interval:'+JSON.stringify(_wsLeadSelectInterval));
+		}*/
+	}	
+	function dieAllCalls(){
+		console.log('Enter In Abort Stage');
+		if(typeof _globalAjax=='object'){_globalAjax.abort();}if(typeof ajLeadForm=="object" && typeof ajLeadForm.abort=='function'){ajLeadForm.abort()}if(typeof ajLeadTable=="object" && typeof ajLeadTable.abort=='function'){console.log('Abort');ajLeadTable.abort();}if(typeof ajAcquisitionData=="object" && typeof ajAcquisitionData.abort=='function'){ajAcquisitionData.abort()}if(typeof ajSalesData=="object" && typeof ajSalesData.abort=='function'){ajSalesData.abort()}if(typeof ajDriveData=="object" && typeof ajDriveData.abort=='function'){ajDriveData.abort()}if(typeof driveFilesInFolder=="object" && typeof driveFilesInFolder.abort=='function'){driveFilesInFolder.abort()}if(typeof gMCall=="object" && typeof gMCall.abort=='function'){gMCall.abort()}if(typeof autoGMRetrieve=="object" && typeof autoGMRetrieve.abort=='function'){autoGMRetrieve.abort()}if(typeof googleRetrival=="object" && typeof googleRetrival.abort=='function'){googleRetrival.abort()}/*if(typeof _patentFamilyAjax=="object" && typeof _patentFamilyAjax.abort=='function'){_patentFamilyAjax.abort()}if(typeof _epoFamilyScrape=="object" && typeof _epoFamilyScrape.abort=='function'){_epoFamilyScrape.abort()}*/
+		jQuery("#loading_spinner_heading_messages").hide();
+	}
+	function leadTableRefresh(t){
+		console.log("Refresh");
+		jQuery("#newLeadFormElement").modal("hide");
+		/*window.leadGlobal = t;		*/
+		if(window.leadGlobal>0){
+			_getLeadTableDeffer = leadTableData();
+			_getLeadTableDeffer.done(function(){
+				_leadDetails = leadCache[leadGlobal]['lead_table'];
+				console.log("DONE");
+				/*_changeInLead = false;*/
+				if(typeof _leadDetails.detail!="undefined" && _leadDetails.detail.length>0){
+					_litigation = _leadDetails.detail[0].litigation;
+					console.log("LitigationID:"+_litigation.id+"WindowLead:"+window.leadGlobal);
+					if(_litigation.id == window.leadGlobal){
+						updateFrontLeadTable(_litigation);
+					}
+				}							
+			})	
+		}
+	}	
+	function getDateWithFormat(data){
+		var columnData = "";
+		if(data!=null && data!='0000-00-00 00:00:00'){
+			columnData = moment(new Date(data)).format('MM/DD/YY');
+		}
+		return columnData;
+	}
+	function getDataWithNumber(data){
+		var columnData = "0";
+		if(parseInt(data)>0){
+			columnData = parseInt(data);
+		}
+		return columnData;
+	}	
+	function updateFrontLeadTable(_litigation){
+		console.log("InFRONT");
+		if(typeof _litigation.id!="undefined"){
+			_name= _litigation.lead_name;
+			_sellerContact = _litigation.seller_contact;
+			_type = _litigation.type;
+			_sr = _litigation.serial_number;			
+			_attractive= parseInt(_litigation.attractive);
+			__type='';
+			_main = "mainLead";
+			switch(_type){
+				case 'Litigation':
+					__type ="Lit.";
+				break;
+				case 'Market':
+					__type ="Mkt.";
+				break;
+				case 'General':
+					__type ="Pro.";
+				break;
+				case 'SEP':
+					__type ="SEP";
+				break;
+				default:
+					__type = _type;
+					_main = "outterLead";
+				break;
+			}
+			_lead_last_seen = '';
+			if(_litigation.lead_last_seen!=null && _litigation.lead_last_seen!='0000-00-00'){
+				_lead_last_seen = _litigation.lead_last_seen;
+				_lead_last_seen = moment(new Date(_lead_last_seen)).format('MM/DD/YY');
+			}	
+			_eou = 0;
+			if(typeof _litigation.eou!="undefined"){
+				_eou = _litigation.eou;
+			}
+			_brokerFirm = '';
+			if(_litigation.broker_contact!=""){
+				_brokerFirm = _litigation.broker_contact;
+			}			
+			_brokerPerson = '';
+			if(_litigation.broker_person_contact!=""){
+				_brokerPerson = _litigation.broker_person_contact;
+			}
+			if(_brokerFirm!=""){
+				_brokerFirm = _brokerFirm+' / ';
+			}
+			_brokerContract = _brokerFirm+_brokerPerson;
+			_column8 = getDateWithFormat(_litigation.column8),_column9 = getDateWithFormat(_litigation.column9),_column10 = getDateWithFormat(_litigation.column10),_column11 = getDateWithFormat(_litigation.column11),_column12 = getDateWithFormat(_litigation.column12),_column13 = getDateWithFormat(_litigation.column13),_column14 = getDateWithFormat(_litigation.column14),_column15 = getDateWithFormat(_litigation.column15),_column16 = getDataWithNumber(_litigation.column16),_column17 = getDataWithNumber(_litigation.column17),_column18 = getDataWithNumber(_litigation.column18),_column19 = getDataWithNumber(_litigation.column19),_column20 = getDataWithNumber(_litigation.column20),_column21 = getDataWithNumber(_litigation.column21),_column22 = getDataWithNumber(_litigation.column22),_column23 = getDataWithNumber(_litigation.column23),_column24 = getDataWithNumber(_litigation.column24),_column25 = getDateWithFormat(_litigation.column25),_column26 = getDateWithFormat(_litigation.column26),_column27 = getDateWithFormat(_litigation.column27),_column28 = getDateWithFormat(_litigation.column28),_column29 = getDateWithFormat(_litigation.column29),_column30 = getDateWithFormat(_litigation.column30),_column31 = getDateWithFormat(_litigation.column31),_column32 = getDateWithFormat(_litigation.column32),_column33 = getDateWithFormat(_litigation.column33),_column34 = getDateWithFormat(_litigation.column34),_column35 = getDateWithFormat(_litigation.column35);
+			_column8B = _litigation.column8B;_column9B = _litigation.column9B;_column10B = _litigation.column10B;_column11B = _litigation.column11B;_column12B = _litigation.column12B;			_column13B = _litigation.column13B;	_column14B = _litigation.column14B;_column15B = _litigation.column15B;	_column25B = _litigation.column25B;	_column26B = _litigation.column26B;	_column27B = _litigation.column27B;	_column28B = _litigation.column28B;_column29B = _litigation.column29B;	_column30B = _litigation.column30B;_column31B = _litigation.column31B;	_column32B = _litigation.column32B;	_column33B = _litigation.column33B;_column34B = _litigation.column34B;	_column35B = _litigation.column35B;
+			jRow=jQuery('<tr/>').addClass('border-blue-alt droppable old_lead ui-droppable active').addClass(_main).attr('data-sr',_sr).attr('data-type',_type).attr('onclick',"threadDetail(jQuery(this))").attr('data-id',_litigation.id).append('<td style="padding:3px 2px;border-right:0;border-left:none;width:150px" data-id="'+_litigation.id+'" data-type="'+_type+'" class="sorting_1"><label><a style="text-align:left" title="'+_name+'" class="btn" href="javascript:void(0)">'+_sellerContact+'</a></label></td><td style="padding:3px 2px;border-right:0;border-left:none;/*width:210px*/" data-id="'+_litigation.id+'" data-type="'+_type+'" class="sorting_1"><label><a style="text-align:left" title="'+_name+'" class="btn" href="javascript:void(0)">'+_name.substr(0,30)+'</a></label></td><td style="padding:3px 2px;border-right:0;border-left:none;width:35px">'+_sr+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:20px" class="one-line-cell">'+_attractive+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:25px">'+__type+'</td> <td style="padding:3px 2px;border-right:0;border-left:none;width:53px" class="one-line-cell">'+_lead_last_seen+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:40px;text-align:center;" class="one-line-cell">'+_eou+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:95px" class="one-line-cell">'+_brokerContract+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px" class="one-line-cell '+_column8B+' ">'+_column8+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px" class="one-line-cell '+_column9B+'">'+_column9+'</td> <td style="padding:3px 2px;border-right:0;border-left:none;width:71px" class="one-line-cell '+_column10B+'">'+_column10+'</td> <td style="padding:3px 2px;border-right:0;border-left:none;width:71px"  class="one-line-cell '+_column11B+'">'+_column11+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px"  class="one-line-cell '+_column12B+'">'+_column12+'</td> <td style="padding:3px 2px;border-right:0;border-left:none;width:71px" class="one-line-cell '+_column13B+'">'+_column13+'</td> <td style="padding:3px 2px;border-right:0;border-left:none;width:71px" class="one-line-cell '+_column14B+'">'+_column14+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column15B+'">'+_column15+'</td> <td class="one-line-cell " style="padding:3px 2px;border-right:0;border-left:none">'+_column16+'</td> <td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column17+'</td> <td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column18+'</td> <td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column19+'</td><td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column20+'</td><td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column21+'</td><td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column22+'</td><td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column23+'</td><td class="one-line-cell" style="padding:3px 2px;border-right:0;border-left:none;width:71px;">'+_column24+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column25B+'">'+_column25+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column26B+'">'+_column26+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column27B+'">'+_column27+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column28B+'">'+_column28+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column29B+'">'+_column29+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column30B+'">'+_column30+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column31B+'">'+_column31+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column32B+'">'+_column32+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column33B+'">'+_column33+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column34B+'">'+_column34+'</td><td style="padding:3px 2px;border-right:0;border-left:none;width:71px;"class="one-line-cell '+_column35B+'">'+_column35+'</td>');			
+			_triggerClick = true;
+			_leadTapChange=false;
+			if(jQuery("#all_type_list").find('tr[data-id="'+_litigation.id+'"]').length>0){
+				if(jQuery("#all_type_list").find('tr[data-id="'+_litigation.id+'"]').hasClass('active')){
+					console.log("Pass CHeck");
+					changesOccur = false;
+					let objCRLeadR  = jQuery("#all_type_list").find('tr[data-id="'+_litigation.id+'"]');
+					let objeCRLeadRC = objCRLeadR.find('td');
+					_lName = _name.substr(0,30);
+					
+					if(replaceSpaceAnd(objCRLeadR.find('td').eq(0).text())!=_sellerContact){
+						console.log('Seller not match');
+						console.log("0:"+replaceSpaceAnd(objCRLeadR.find('td').eq(0).text())+'@@'+_sellerContact+'@');
+						changesOccur = true;
+						objeCRLeadRC.eq(0).find('a').text(_sellerContact);
+					}
+					
+					if(replaceSpaceAnd(objeCRLeadRC.eq(1).text())!=_lName){
+						console.log('Name not match');
+						console.log("0:"+replaceSpaceAnd(objCRLeadR.find('td').eq(1).text())+'@@'+_lName+'@');
+						changesOccur = true;
+						objeCRLeadRC.eq(1).find('a').text(_lName);
+					}
+					if(replaceSpaceAnd(objeCRLeadRC.eq(3).text())!=_attractive){
+						console.log('Attractive not match');
+						changesOccur = true;
+						objeCRLeadRC.eq(3).html(_attractive);
+					}
+					if(replaceSpaceAnd(objeCRLeadRC.eq(5).text())!=_lead_last_seen){
+						changesOccur = true;
+						console.log('Last Seen not match');
+						console.log("0:"+replaceSpaceAnd(objCRLeadR.find('td').eq(5).text())+'@@'+_lead_last_seen+'@');
+						objeCRLeadRC.eq(5).html(_lead_last_seen);
+					}
+					if(replaceSpaceAnd(objeCRLeadRC.eq(6).text())!=_eou){
+						changesOccur = true;
+						console.log('EOU not match');
+						objeCRLeadRC.eq(6).html(_eou);
+					}
+					_brokerFirmAndPerson = _brokerFirm+_brokerPerson;
+					if(replaceSpaceAnd(objeCRLeadRC.eq(7).html())!=_brokerFirmAndPerson &&  _brokerFirmAndPerson!='<em>Blank</em>'){
+						changesOccur = true;
+						console.log("7:"+objeCRLeadRC.eq(7).html()+'@@'+_brokerFirm+'@');
+						objeCRLeadRC.eq(7).html(_brokerFirmAndPerson);
+					}	
+				}	
+			} else {	
+				console.log('New Lead...');
+				jQuery("#all_type_list").find('tbody').prepend(jRow);
+				/*tableDT.row.add(jRow).draw();*/
+				var classAttr = jQuery("#all_type_list").find('thead th').eq(0).attr('class')
+				classAttr = classAttr.split(" ").pop();
+				var $th_to_sort = $stupdTable.find("thead th").eq(0);
+				$th_to_sort.stupidsort('asc');
+				_leadTapChange = true;
+				jQuery("#all_type_list").find('tbody').find('tr[data-id="'+_litigation.id+'"]').find('label').find('a').trigger('click');				
+			}
+			if(_leadTapChange==true){
+				tapLeadPosition(_litigation.id);	
+				setTimeout(function(){checkLeadActivePosition()},500);
+			}
+		}
+	}
+	function getNewDataFromPopup(){	
+		jQuery("#leadBtnSave").removeAttr('onclick');
+		if(jQuery("#popupLeadname").val()!="" && jQuery("#popupType").val()!=""){
+			jQuery("#loader_new_lead").removeClass("demo-icon").css('display','inline-block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'dashboard/create_lead',
+				data:{n:jQuery("#popupLeadname").val(),t:jQuery("#popupType").val()},
+				cache:false,
+				success:function(data){
+					jQuery("#loader_new_lead").css('display','none');
+					jQuery("#leadBtnSave").attr('onclick','getNewDataFromPopup()');
+					if(parseInt(data)>0){
+						/*Refresh Table of Leads and Selecting Leads*/
+						/*window.location = __baseUrl+'dashboard/index/'+data;*/
+						console.log(parseInt(data));
+						clearLeadSelectInterval();
+						leadCache = [];
+						leadObject = {lead_table:'',lead_data:'',drive_data:'',acquisition_data:'',sales_data:''};
+						leadCache[parseInt(data)] = leadObject;
+						window.leadGlobal=parseInt(data);
+						leadGlobal=parseInt(data);
+						window.leadNameGlobal = jQuery("#popupLeadname").val();
+						console.log('Run...');
+						leadTableRefresh(parseInt(data));
+						runLeadSelectInterval();
+					} else if(data=='-1'){
+						alert('Lead name already exist');
+					} else {
+						alert("Server busy, Please refresh page and try again.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		} else if(jQuery("#popupLeadname").val()==""){
+			jQuery("#popupLeadname").css('border','1px solid #ff0000');
+		}  else if(jQuery("#popupType").val()==""){
+			jQuery("#popupLeadname").css('border','0px');
+			jQuery("#popupType").css('border','1px solid #ff0000');
+		}
+	}
+	function taskMessageBox(_data){
+		var refreshParent = $("#sb-site");
+		var loaderTheme = "bg-default";
+		var loaderOpacity = "60";
+		var loaderStyle = "dark";
+		var loader = '<div id="refresh-overlay" class="ui-front loader ui-widget-overlay ' + loaderTheme + ' opacity-' + loaderOpacity + '"><img src="'+__IMAGEURL+'images/spinner/loader-' + loaderStyle + '.gif" alt="" /></div>';
+		if ( $('#refresh-overlay').length ) {
+			$('#refresh-overlay').remove();
+		}
+		__mainEntityFollow = _data.lead_id;
+		$(refreshParent).append(loader);
+		$('#refresh-overlay').fadeIn('fast');
+		jQuery("#taskUserId").val(_data.user_id);
+		jQuery("#taskSubject").val(_data.subject);
+		jQuery("#taskMessage").val(_data.message);
+		jQuery("#taskExecutionDate").val(_data.execution_date);
+		jQuery("#taskDocUrl").val(_data.doc_url);
+		jQuery("#taskParentId").val(_data.parent_id);
+		jQuery("#taskFromUserId").val(_data.from_user_id);
+		jQuery("#taskLeadId").val(_data.lead_id);
+		jQuery("#taskType").val(_data.type);
+		jQuery("#taskId").val(_data.task_id);
+		jQuery('#createTaskModal1').modal('show');
+		jQuery('#createTaskModal1').on('hidden.bs.modal',function(){
+			$("#refresh-overlay").css('display','none');
+			$('#refresh-overlay').fadeOut("fast");
+		});
+		jQuery('#createTaskModal1').on('hidden',function(){
+			$("#refresh-overlay").css('display','none');
+			$('#refresh-overlay').fadeOut("fast");
+		});
+	}
+	function executeNDA(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Refresh your page.");
+		} else {
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'opportunity/executeNDA',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(res){
+					_data = jQuery.parseJSON(res);
+					if(parseInt(_data.send)>0){
+						_statusMessage = "Waiting for Admin to execute NDA";
+						if(_data.button_data.status_message!=undefined && _data.button_data.status_message!=""){
+							_statusMessage = _data.button_data.status_message;
+						}
+						jQuery("#"+type).find("#execute_nda").html('<span class="date-style">' + moment( new Date(_data.date_update)).format('MM-D-YY')+"</span> "+_statusMessage);
+						/*leadActivityDateUpdate();*/
+					} else {
+						alert(_data.send);
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function approvedLead(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Refresh your page.");
+		} else {
+			jQuery("#loader_approved_lead").css('display','inline-block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/change_status_lead',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(response){
+					jQuery("#loader_approved_lead").css('display','none');
+					_data = jQuery.parseJSON(response);
+					if(_data.rows>0){
+						_statusMessage = "Synpat like the deal";
+						if(_data.button_data.status_message!=undefined && _data.button_data.status_message!=""){
+							_statusMessage = _data.button_data.status_message;
+						}
+						jQuery("#"+type).find('#approved_lead').html('<span class="date-style">' + moment( new Date(_data.date_update)).format('MM-D-YY')+"</span> "+_statusMessage);
+						jQuery("#all_type_list").find('tr.active').find('td').eq(5).html(_data.date_update);
+						/*leadActivityDateUpdate();*/
+					} else {
+						alert("Server busy. Refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function sellerInterested(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Refresh your page.");
+		} else {
+			jQuery("#"+type).find("#loader_seller_market").css('display','inline-block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/sellerInterested',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(response){
+					jQuery("#"+type).find("#loader_seller_market").css('display','none');
+					_data = jQuery.parseJSON(response);
+					if(_data.rows>0){
+						_statusMessage = "Seller like the deal";
+						if(_data.button_data.status_message!=undefined && _data.button_data.status_message!=""){
+							_statusMessage = _data.button_data.status_message;
+						}
+						jQuery("#"+type).find('#seller_deal_for_market').html('<span class="date-style">' + moment( new Date(_data.date_update)).format('MM-D-YY')+"</span> "+_statusMessage);
+						jQuery("#all_type_list").find('tr.active').find('td').eq(3).html(_data.date_update);
+						/*leadActivityDateUpdate();*/
+					} else {
+						alert("Server busy. Refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function fundingTransfer(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Refresh your page.");
+		} else {
+			jQuery("#"+type).find("#loader_funding_market").css('display','inline-block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/fundsTransfer',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(response){
+					jQuery("#"+type).find("#loader_funding_market").css('display','none');
+					_data = jQuery.parseJSON(response);
+					if(_data.rows>0){
+						_statusMessage = "Funds Transfer Successful";
+						if(_data.button_data.status_message!=undefined && _data.button_data.status_message!=""){
+							_statusMessage = _data.button_data.status_message;
+						}
+						jQuery("#"+type).find('#funding_successful').html('<span class="date-style">' + moment( new Date(_data.date_update)).format('MM-D-YY')+"</span> "+_statusMessage);
+						jQuery("#all_type_list").find('tr.active').find('td').eq(6).html(_data.date_update);
+						/*leadActivityDateUpdate();*/
+					} else {
+						alert("Server busy. Refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function ndaExecuted(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Refresh your page.");
+		} else {
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'opportunity/ndaExecuted',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(res){
+					_data = jQuery.parseJSON(res);
+					if(parseInt(_data.send)>0){
+						/*leadActivityDateUpdate();*/
+						taskMessageBox(_data);
+					} else {
+						alert("Server busy. Refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function eouConfirmation(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Please refresh your page.");
+		} else {
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'opportunity/eouConfirmation',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(res){
+					_data = jQuery.parseJSON(res);
+					if(parseInt(_data.send)>0){
+						/*leadActivityDateUpdate();*/
+						jQuery("#"+type).find("#seller_rou").html("<span class='date-style'>"+_data.created+"</span>Seller EOU is in the Lead folder");
+					} else {
+						alert("Server busy. Refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function draft_a_ppa(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Please refresh your page.");
+		} else {
+			jQuery("#"+type).find("#loader_ppa").css('display','inline-block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'opportunity/draft_a_ppa',
+				data:{token:leadGlobal},
+				cache:false,
+				statusCode: {
+					404: function() {
+					  threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+					},
+					504: function() {
+					  threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+					}
+				  },
+				success:function(res){
+					jQuery("#"+type).find("#loader_ppa").css('display','none');
+					jQuery("#"+type).find("#draft_a_ppa").html('<p class="label-after-btn"><i class="glyph-icon icon-caret-right"></i>PPA has been successfully drafted</p>');
+					_data  = jQuery.parseJSON(res);
+					if(_data.url!=""){
+						/*window.open(_data.url,"_BLANK");*/
+						/*leadActivityDateUpdate();*/
+						threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+						open_drive_files(_data.url);
+					} else {
+						alert("Server busy. Please refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function execute_ppa(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Please refresh your page.");
+		} else {
+			jQuery("#"+type).find('#spinner-loader-execute_ppa').css('display','inline-block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'opportunity/execute_ppa',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(res){
+					jQuery("#"+type).find('#spinner-loader-execute_ppa').css('display','none');
+					_data  = jQuery.parseJSON(res);
+					if(_data.send>0){
+						/*leadActivityDateUpdate();*/
+						threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+						/*taskMessageBox(_data);*/
+					} else {
+						alert("Server busy. Please refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function ppaExecuted(type){
+		if(leadGlobal==0 || leadGlobal==""){
+			alert("Server busy. Please refresh your page.");
+		} else {
+			jQuery("#"+type).find('#spinner-loader-ppa_executed').css('display','inline-block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'opportunity/ppaExecuted',
+				data:{token:leadGlobal},
+				cache:false,
+				success:function(res){
+					jQuery("#"+type).find('#spinner-loader-ppa_executed').css('display','none');
+					_data  = jQuery.parseJSON(res);
+					if(_data.send>0){
+						_statusMessage = "PPA has executed successfully";
+						if(_data.button_data.status_message!=undefined && _data.button_data.status_message!=""){
+							_statusMessage = _data.button_data.status_message;
+						}
+						jQuery("#"+type).find("#ppa_execute").html('<span class="date-style">' + moment(new Date(_data.date_update)).format('MM-D-YY')+"</span> "+_statusMessage);
+						jQuery("#all_type_list").find('tr.active').find('td').eq(5).html(_data.date_update);
+						/*taskMessageBox(_data);*/
+						/*leadActivityDateUpdate();*/
+					} else {
+						alert("Server busy. Please refresh your page.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function openAggregateReferencedApplicant(type){
+		if(jQuery("#scrap_patent_data_aggregate").find('tbody').find('tr.aggregate').length>0){
+			jQuery('.aggregate_data').empty();
+			jQuery('.aggregate_data').append("<thead><th>#</th><th>Name</th><th style='width:30px;'>N</th></thead>").append(jQuery("#scrap_patent_data_aggregate").find('tbody').find('tr.aggregate').find('td>div>table').html());
+			_s = new Date();
+			_time = _s.getTime();
+			jQuery('.aggregate_data').attr('id','show_company_'+_time);
+			jQuery('.aggregate_data').parent().css({height:'400px','overflow-y':'scroll'});
+			/*console.log(jQuery('.aggregate_data').parent().html());*/
+			jQuery('#show_company_'+_time).DataTable({destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"}});
+			jQuery("#newAggregateRefrencedApplicant").modal("show");
+		}
+	}
+	jQuery(document).ready(function(){
+		jQuery('#newAggregateRefrencedApplicant').on('hidden.bs.modal', function () {
+		});
+	});
+	function referencedCheckApply(){
+		jQuery(".aggregate_data").find("tr").each(function(){
+			if(jQuery(this).find('input[name="referenced_check[]"]').is(':checked')==false){
+				jQuery(this).hide();
+			}
+		});
+	}
+	function referencedCheckCancel(){
+		jQuery(".aggregate_data").find("tr").find('input[name="referenced_check[]"]').prop( "checked", false );
+		jQuery(".aggregate_data").find("tr").show();
+	}
+	function referencedSelectAll(){
+		jQuery(".aggregate_data").find("tr").show().find('input[name="referenced_check[]"]').prop( "checked", true );
+	}
+	function searchForm(){
+		var advanceSearch = jQuery("#advanced_search");
+		_form = advanceSearch.find("#search_form").serialize();	
+		advanceSearch.find("#s_result").empty('<div class="loading-spinner" id="loading_spinner_heading_drive" style="display:block;"><img src="'+__IMAGEURL+'images/ajax-loader.gif" alt=""></div>');
+		advanceSearch.find("#emailListSearch").empty();
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'dashboard/search_lead',
+			data:_form,
+			cache:false,
+			success:function(data){
+				_data = jQuery.parseJSON(data);
+				if(_data.length>0){
+					_tr="";
+					advanceSearch.find("#s_result").html("<table class='table' id='search_results'><thead><tr><th>Lead</th><th>Type</th><th>Info</th><th>Seller</th><th>Synpat</th><th>PPA</th><th>Close</th></tr></thead><tbody></tbody></table>");
+					for(i=0;i<_data.length;i++){
+						$type="";
+						$stage ="";
+						$main = "mainLead";
+						switch(_data[i].type){
+							case 'Litigation':
+								$type ="Lit.";
+							break;
+							case 'Market':
+								$type ="Mkt.";
+							break;
+							case 'General':
+								$type ="Pro.";
+							break;
+							case 'SEP':
+								$type ="SEP";
+							break;
+							default:
+								$type = _data[i].type;
+								$main = "outterLead";
+							break;
+						}
+						if(_data[i].complete<2){
+							$stage="Lead";
+						} else {
+							$stage ="Oppt.";
+						}
+						$sellerInfo = "";
+						if(_data[i].seller_info_text!="" && _data[i].seller_info_text!=null){
+							$sellerInfo = moment(new Date(_data[i].seller_info_text)).format('MM D,YY'); 
+						}
+						$sellerLike = "";
+						if(_data[i].seller_like!="" && _data[i].seller_like!=null){
+							$sellerLike = moment(new Date(_data[i].seller_like)).format('MM D,YY');
+						}
+						$synpatLike = "";
+						if(_data[i].synpat_like!="" && _data[i].synpat_like!=null){
+							$synpatLike = moment(new Date(_data[i].synpat_like)).format('MM D,YY');
+						}
+						$ppa = "";
+						if(_data[i].ppa_date!="" && _data[i].ppa_date!=null){
+							$ppa = moment(new Date(_data[i].ppa_date)).format('MM D,YY');
+						}
+						$fundingTrnsfr = "";
+						if(_data[i].funding_trnsfr!="" && _data[i].funding_trnsfr!=null){
+							$fundingTrnsfr = moment(new Date(_data[i].funding_trnsfr)).format('MM D,YY');
+						}
+						$sellerClass = "";
+						if(_data[i].seller_info==1){
+							$sellerClass = "btn-blink";
+						}
+						_tr +='<tr class="border-blue-alt droppable old_lead '+$main+' " data-id="'+_data[i].id+'" data-type="'+_data[i].type+'" onclick="threadDetail(jQuery(this));" >'+
+														'<td style="padding:3px 2px; border-right:none; border-left:none;width:200px;" data-id="'+_data[i].id+'" data-type="'+_data[i].type+'" class=""><label><a style="text-align:left;" title="'+_data[i].lead_name+'" class="btn" href="javascript:void(0);">'+_data[i].lead_name.substring(0,30)+'</a></label></td>'+
+														'<td style="padding:3px 2px; border-right:none; border-left:none;width:45px;">'+$type+'</td>'+
+														'<td style="padding:3px 2px; border-right:none; border-left:none;width:71px;" class="'+$sellerClass+'">'+$sellerInfo+'</td>'+
+														'<td style="padding:3px 2px; border-right:none; border-left:none;width:71px;">'+
+															'<div style="white-space:nowrap;">'+$sellerLike+'</div>'+
+														'</td>'+
+														'<td style="padding:3px 2px; border-right:none; border-left:none;width:71px;">'+
+															'<div style="white-space:nowrap;">'+$synpatLike+'</div>'+
+														'</td>'+
+														'<td style="padding:3px 2px; border-right:none; border-left:none;width:71px;">'+
+															'<div style="white-space:nowrap;">'+$ppa+'</div>'+
+														'</td>'+
+														'<td style="padding:3px 2px; border-right:none; border-left:none;width:71px;">'+
+															'<div style="white-space:nowrap;">'+$fundingTrnsfr+'</div>'+
+														'</td>'+
+													'</tr>';
+					}
+					advanceSearch.find("#search_results").find('tbody').append(_tr);
+				} else {
+					advanceSearch.find("#s_result").html("<p class='alert alert-warning'>No record found!</p>")
+				}
+				let h = jQuery(window).height();
+				advanceSearch.find("#s_result").css("height",(h-120)+"px");
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+	var googleRetrival = "";
+	function runPatentScraping(pos,mode){
+		pi = 0;
+		jQuery.each(_allMainPatents[pos], function(key, value) {
+			if(pi==0){
+				_patent = value;
+			}
+			pi++;
+		});
+		/*if(_patent==undefined){
+			_patent = _allMainPatents[pos].patent;
+		}*/
+		googleRetrival = jQuery.ajax({
+			url: __baseUrl + 'leads/googleSpreadSheet',
+			type:'POST',
+			data:{p:_patent,boxes:leadGlobal},
+			cache:false,
+			success:function(data){
+				if(data!=""){
+					_data = jQuery.parseJSON(data);
+					mainAllPatentData.push(_data);
+					incPos = pos + 1;
+					fillTablePatent(mode,1);
+					if(_allMainPatents[incPos]!=undefined){
+						runPatentScraping(incPos,mode);
+					} else{
+						fillTablePatent(mode);
+					}
+				}
+			}
+		}).fail(function(jqXHR, textStatus){
+			incPos = pos + 1;
+			fillTablePatent(mode);
+			if(_allMainPatents[incPos]!=undefined){
+				runPatentScraping(incPos);
+			} else{
+				fillTablePatent(mode);
+			}
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+	
+	function showPatentData(patentData){
+		if(patentData!=""){
+			try{
+				mainAllPatentData= JSON.parse(patentData);
+				fillTablePatent('undefined',0);
+			}catch(e){
+				console.log(e);
+			}
+		}
+	}
+	
+	function fillTablePatent(parentElement,p){
+		console.log("Patent...");
+		jQuery("#scrap_patent_data").DataTable().destroy();
+		jQuery("#patent_family").DataTable().destroy();
+		if(mainAllPatentData.length>0){
+			if(parentElement!='undefined'){
+				jQuery("#"+parentElement).find('#loadingLink').removeClass('overflow-link');
+			}
+			jQuery("#loadingLabel").html('');
+			mainArray = [];
+			if(jQuery("#scrap_patent_data").find("tbody").find("tr").length>0){
+				jQuery("#scrap_patent_data").find("tbody").find("tr").each(function(){
+					if(jQuery(this).find("td").length>1){
+						_innerArray = [];
+						jQuery(this).find("td").each(function(){
+							if(jQuery(this).find('a').length>0){
+								_innerArray.push(jQuery(this).find('a').html());
+							} else {
+								_innerArray.push(jQuery(this).html());
+							}
+						});
+						mainArray.push(_innerArray);
+					} else {
+						_innerArray = [];
+						jQuery("#scrap_patent_data").find("th").each(function(){
+							_innerArray.push(null);
+						});
+						mainArray.push(_innerArray);
+					}
+				});
+			} else {
+				_innerArray = [];
+				jQuery("#scrap_patent_data").find("th").each(function(){
+					_innerArray.push(null);
+				});
+				mainArray.push(_innerArray);
+			}
+			_patentDataValue = "";
+			if(parentElement!='undefined'){
+				switch(parentElement){
+					case 'from_regular':
+						_patentDataValue = "marketPatentData";
+					break;
+					case 'from_litigation':
+						_patentDataValue = "litigationPatentData";
+					break;
+					case 'from_nonacquistion':
+						_patentDataValue = "acquisitionPatentData";
+					break;
+				}
+				jQuery("#"+_patentDataValue).val(JSON.stringify(mainArray));
+			}
+			jQuery("#scrap_patent_data").find('tbody').empty();
+			_data=mainAllPatentData;
+			if(_data.length>0){
+				for(i=0;i<_data.length;i++){
+					_tr = jQuery("<tr/>").addClass('mainDataP');
+					_columns = _data[i];
+					_currentAssignee= "";
+					for(j=0;j<_columns.length;j++){						
+						_class="";
+						columData = _columns[j];						
+						if(j>=1 && j<=4){							
+							_class="clickakble";
+							try {
+								_getOldData = jQuery("#"+_patentDataValue).val();
+								if(_getOldData!=""){									
+									_getOldData = jQuery.parseJSON(_getOldData);									
+									if(_getOldData.length>0){
+										for(ol=0;ol<_getOldData.length;ol++){											
+											if(_columns[0]==_getOldData[ol][0]){
+												if(j==1){
+													if(_getOldData[ol][1]!='undefined'){
+														columData = _getOldData[ol][1];
+													}
+												} else if(j==2){
+													if(_getOldData[ol][2]!='undefined'){
+														columData = _getOldData[ol][2];
+													}
+												} else if(j==3){
+													if(_getOldData[ol][3]!='undefined'){
+														columData = _getOldData[ol][3];
+													}
+												} else if(j==4){
+													if(_getOldData[ol][4]!='undefined'){
+														_currentAssignee = _getOldData[ol][4];
+													}
+												}
+											}
+										}
+									}
+								}
+							} catch (e) {
+								
+							}
+						}
+						if(j==1 || j==4){
+							if(!isNaN(columData)){
+								columData = columData;
+							} else {
+								columData ='';
+							}
+						}
+						if(j==4){
+							_priorityDate = _columns[8];
+							_class = 'clickakble';
+							if(_priorityDate!=null && _priorityDate!=""){
+								columData = moment(new Date(_priorityDate)).add(20,'years').format('MM/DD/YYYY');
+							} else {
+								columData = '';
+							}
+						}
+						if(jQuery.trim(_currentAssignee)=="" || _currentAssignee==null){
+							_currentAssignee = _columns[4];
+						}
+						if(columData!=null && j==11 ){
+							if(typeof columData=='object'){
+								newReferenced = jQuery.map(columData, function(value, index) {
+									return [value,index];
+								});
+								columData = "<div style='width:200px;max-height:200px;overflow:scroll;overflow-y:scroll;overflow-x:none;'><ul style='list-style;padding-left:0px;'>";
+								___tt = "<table><tbody>";
+								for(r=0;r<newReferenced.length;r++){
+									columData += "<li>"+newReferenced[r+1]+": "+newReferenced[r]+"</li>"; r++;
+									___tt +="<tr><td>"+newReferenced[r+1]+"</td><td>"+newReferenced[r]+"</td></tr>";
+								}
+								___tt +="</tbody></table>";
+								
+								columData +="</ul></div>";
+							}
+							
+						}
+						if(j<12){
+							_newClass = "";
+							if(j==10 || j==3 || j==11){
+								_newClass = " hide";
+							}
+							if(j==7){
+								if(_currentAssignee!=null){																		
+									jQuery(_tr).append("<td class=''>"+_currentAssignee+"</td>");
+								} else {
+									jQuery(_tr).append("<td class=''></td>");
+								}								
+							}
+							if(columData!=null){																		
+								jQuery(_tr).append("<td class='"+_class+_newClass+"'>"+columData+"</td>");
+							} else {
+								jQuery(_tr).append("<td class='"+_class+_newClass+"'></td>");
+							}
+						}
+						if(j==0){
+							if(columData!=null && columData!=""){											
+								td = "<a href='javascript://' style='padding:0px;' class='btn' onclick='getGooglePatent(\""+jQuery.trim(columData)+"\")'>"+columData+"</a>";
+								jQuery(_tr).find('td').eq(0).html(td);
+							}	
+						}
+					}
+					jQuery("#scrap_patent_data").find('tbody').append(_tr);
+					if(i==_data.length-1 && typeof _data[i][12]!='undefined'){
+						_tr = jQuery("<tr/>").addClass('aggregate');	
+						newDataColumn = _columns = _data[i][12];
+						overAllReferenced = jQuery.map(newDataColumn, function(value, index) {
+							return [value,index];
+						});
+						newStrTab = "<div style='width:500px;max-height:400px;overflow:scroll;overflow-y:scroll;overflow-x:none;'><table class='table' ><thead><tr><th>#</th><th>Company</th><th>Count</th></tr></thead><tbody>";
+						for(r=0;r<overAllReferenced.length;r++){ newStrTab +="<tr><td><input type='checkbox' name='referenced_check[]'/></td><td>"+overAllReferenced[r+1]+"</td><td>"+overAllReferenced[r]+"</td></tr>";r++;}
+						newStrTab +="</tbody></table></div>";
+						jQuery(_tr).append("<td colspan='12'>"+newStrTab+"</td>");
+						jQuery("#scrap_patent_data_aggregate").find('tbody').html(_tr);
+					}
+				}
+				backSwitchPatentFrom(parentElement);
+				if(_checkSPan===true){
+					switchBackMode(_mainBtnParentElement);
+				}
+			} else {
+				jQuery("#scrap_patent_data").find('tbody').append("<tr><td colspan='9'>No able to import data</td></tr>");
+			}									
+		} else {
+			/*if(parentElement!='undefined'){
+				jQuery("#"+parentElement).find('#loadingLink').removeClass('overflow-link');
+			}			
+			jQuery("#loadingLabel").html('Error while importing');*/
+			/*alert('Error while importing');*/
+		}
+		changePatentHeadingWidth();
+		h = jQuery("#patent_data").height();
+		h = h - 95;
+		jQuery("#scrap_patent_data").DataTable({destroy:true,paging:false,searching:false,scrollY: h+"px"});		
+		if(typeof p=='undefined'){
+			saveLeadPatentTable();
+		}
+	}
+	
+	function changePatentHeadingWidth(){
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(0).css("width","100px");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(1).css("width","90px");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(2).css("width","90px");		
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(4).css("width","90px");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(5).css("width","110px");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(9).css("width","90px");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(3).css("width","");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(6).css("width","");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(7).css("width","");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(8).css("width","");
+		jQuery("#scrap_patent_data").find("thead").find("th").eq(10).css("width","");
+	}
+	
+	function saveLeadPatentTable(){
+		modifyPatentTableData();
+		console.log(mainAllPatentData);
+		_getPatentData = JSON.stringify(mainAllPatentData);	
+		data={patent_data:_getPatentData,lead_id:leadGlobal};
+		call(__baseUrl+'dashboard/lead_patent_data','POST',data,savedPatentData,'json');
+	}
+	function getGooglePatent(patent){
+		if(patent!=""){			
+			jQuery("#scrap_patent_data").find('tbody>tr').find('a').css('font-weight','');
+			jQuery("#scrap_patent_data").find('tbody>tr').each(function(){
+				if(jQuery(this).find('td').eq(0).find('a').text()==patent){
+					jQuery(this).find('td').eq(0).find('a').css('font-weight','bold');
+					return;
+				}
+			});
+			window.open("https://patents.google.com/patent/"+patent+"/en",'_blank');
+		}						
+	}
+
+	function dataValidate(){
+		_editable=false;
+		switchBackMode('from_litigation');
+		mainArray = [];								
+		var pattern=/^[0-9a-zA-Z]+$/;
+		if(jQuery.trim($("#litigationleadName").val())==""){
+			$("#litigationleadName").val(leadNameGlobal);
+		}
+		if(jQuery.trim($("#litigationleadName").val())=="" ){
+			alert("Please enter name of lead.");
+			return false;
+		} else {
+			modifyPatentTableData();
+			return true;
+		}									
+	}
+	
+	function modifyPatentTableData(){
+		_getPatentData = JSON.stringify(mainAllPatentData);	
+		switch(_mainBtnParentElement){
+			case 'from_regular':
+				_patentDataValue = "marketPatentData";
+			break;
+			case 'from_litigation':
+				_patentDataValue = "litigationPatentData";
+			break;
+			case 'from_nonacquistion':
+				_patentDataValue = "acquisitionPatentData";
+			break;
+		}
+		if(jQuery("#"+_patentDataValue).length>0){
+			jQuery("#"+_patentDataValue).val(_getPatentData);
+		}
+		return _getPatentData;
+	}
+
+	function scheduleCall(){
+		window.open("https://www.google.com/calendar/render?tab=mc#h","_blank");
+		jQuery('#create_scheduleCall').modal('show');
+	}
+
+	function save_embedCode(){
+		var embed_code = jQuery("#create_scheduleCall").find('#embed_code').val();
+		if(embed_code == ''){
+			jQuery("#create_scheduleCall").find('#embed_code').css('border-color','#ff0000');
+		}
+		if(jQuery('#litigationId').val()!=""){
+			jQuery("#loading_spinner_schedulecall").css('display','block');
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'index.php/leads/embedScheduleCall',
+				data:{'embed_code':embed_code,lead_id:jQuery('#litigationId').val()},
+				success:function(response){
+					jQuery("#loading_spinner_schedulecall").css('display','none');
+					if(parseInt(response)==1){    
+						jQuery("#from_litigation").find("#schedule1stCall").before(jQuery('#embed_code').val());
+						jQuery('#create_scheduleCall').modal('hide');
+					}  else {
+						alert("Server busy. Refresh your page.");   
+					}              
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		} else {
+			alert("Server busy. Refresh your page.");   
+		}
+		
+	}
+	/*function claimIllus(fromType){
+		jQuery('#'+fromType).find("#loader_claim_illus_dd_market").show();
+		jQuery('#'+fromType).find("#claim_illus").find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/createClaimillustration',
+			data:{lead_id:leadGlobal,ds:1},
+			success:function(response){
+				jQuery('#'+fromType).find("#loader_claim_illus_dd_market").hide();
+				jQuery('#'+fromType).find("#claim_illus").find('a').addClass('btn-blink');
+				obj = JSON.parse(response);
+				if(obj.url != '' && obj.error==0){
+					_html = jQuery('#'+fromType).find("#claim_illus a").html();
+					jQuery('#'+fromType).find("#claim_illus a").attr('onclick','claimIllusStatusChange('+fromType+')').html(moment(new Date(obj.date_created)).format('MM-D-YY')+' '+_html).addClass('btn-blink');
+					threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+					_fileURL = obj.url;
+					_link = "https://docs.google.com/file/d/"+obj.spread_sheet_id+"/preview";
+					_mimeType = obj.mimeType;
+					_icon = obj.iconLink;
+					_title = obj.title;
+					jQuery("#"+fromType).find("#litigation_doc_list").find('ul.todo-box-1').append('<li class="driveDragable ui-draggable ui-draggable-handle ms-hover"><img src="'+_icon+'"> <a data-href="'+_fileURL+'" target="_BLANK" href="javascript://" onclick="open_drive_files(\''+_link+'\')">'+_title+'</a></li>');				
+					docFileDraggable();
+					driveFileDraggable();							
+					_html = '<ul class="attachment-list"><li class="attachment-list-item ms-hover"><img src="'+_icon+'"> <a data-href="'+_fileURL+'" target="_BLANK" href="javascript://" onclick="open_drive_files('+_link+')">'+_title+'</a><span class="remove-attachment pull-right hide"><a class="" onclick="deleteMe(jQuery(this))"><i class="glyph-icon icon-close"></i></a></span></li></ul>';
+					jQuery("#attach_droppable:hidden").html(_html);
+					jQuery("#attach_droppable").html(_html);
+					jQuery("#emailDocUrl").val(_html);
+					$('.wysiwyg-editor').destroy();
+					initEditor('.wysiwyg-editor');					
+					mainLogBox=1;
+					jQuery("#legal_patents").val(obj.pp);
+					jQuery("#f_t").val(obj.f_t);
+					composeEmail(0);
+					jQuery("#attach_droppable").html(_html);
+					initAttachRemove();
+				}  else {
+					alert(obj.message);   
+					jQuery('#'+fromType).find("#claim_illus").find('a').attr('onclick','claimIllus('+fromType+')');
+				}              
+			}
+		});
+	}*/
+
+	function claimIllus(fromType){
+		jQuery('#'+fromType).find("#loader_claim_illus_dd_market").show();
+		jQuery('#'+fromType).find("#claim_illus").find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/createClaimillustration',
+			data:{lead_id:leadGlobal,ds:1},
+			success:function(response){
+				obj = JSON.parse(response);
+				if(obj.url != '' && obj.error==0){
+					if(obj.patent_list.length>0){
+						_columnUpdate = obj.column_update;
+						if(_columnUpdate!="" && _columnUpdate!="undefined"){
+							updateLeadTableLive(_columnUpdate,obj.date_created,1);
+						}
+						runIllustrationFileCreate(obj.patent_list,0,2,obj.ss_id,obj.lead_name,obj.spread_sheet_id,obj.folder_id);
+					} else {
+						alert('Patents not found from list');   
+						jQuery('#'+fromType).find("#loader_claim_illus_dd_market").hide();
+						jQuery('#'+fromType).find("#claim_illus").find('a').attr('onclick','claimIllus('+fromType+')');
+					}
+				}  else {
+					alert(obj.message);   
+					jQuery('#'+fromType).find("#loader_claim_illus_dd_market").hide();
+					jQuery('#'+fromType).find("#claim_illus").find('a').attr('onclick','claimIllus("'+fromType+'")');
+				}    
+			},error:function(){
+				alert("Please try after sometime.");   
+				jQuery('#'+fromType).find("#loader_claim_illus_dd_market").hide();
+				jQuery('#'+fromType).find("#claim_illus").find('a').attr('onclick','claimIllus("'+fromType+'")');
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+
+	function runIllustrationFileCreate(patentList,indexNo,a,ssID,leadName,spreadID,folderID){
+		if(typeof patentList[indexNo]!="undefined"){
+			_patent = "";
+			if(typeof patentList[indexNo].patent!="undefined"){
+				_patent = patentList[indexNo].patent;
+			} else if(typeof patentList[indexNo].patents!="undefined"){
+				_patent = patentList[indexNo].patents;
+			} else if(typeof patentList[indexNo].assets!="undefined"){
+				_patent = patentList[indexNo].assets;
+			}
+			if(_patent=="undefined"){
+				_patent = "";
+			}
+			console.log(_patent);
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'index.php/leads/createPatentIllustration',
+				data:{p:_patent,a:a,ss_id:ssID,lead_name:leadName,spread_sheet_id:spreadID,folder_id:folderID},
+				success:function(response){
+					obj = JSON.parse(response);
+					try{
+						console.log(obj.url)   	
+					}catch(e){
+						console.warn(e);
+					}
+					indexNo += 1;
+					a += 1;
+					runIllustrationFileCreate(patentList,indexNo,a,ssID,leadName,spreadID,folderID);
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		} else {
+			jQuery('#'+_mainBtnParentElement).find("#loader_claim_illus_dd_market").hide();
+			threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+		}
+	}
+
+	function claimIllusStatusChange(fromType){
+		jQuery('#'+fromType).find("#loader_claim_illus_dd_market").show();
+		jQuery('#'+fromType).find("#claim_illus").find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/claimIllusStatusChange',
+			data:{lead_id:leadGlobal,ds:1},
+			success:function(response){
+				jQuery('#'+fromType).find("#loader_claim_illus_dd_market").hide();
+				jQuery('#'+fromType).find("#claim_illus").find('a').addClass('btn-blink');
+				obj = JSON.parse(response);
+				if(obj.error==0){
+					_html = jQuery('#'+fromType).find("#claim_illus a").html();
+					jQuery('#'+fromType).find("#claim_illus").html(moment(new Date(obj.date_created)).format('MM-D-YY')+' '+_html).removeClass('btn-blink');
+					_columnUpdate = obj.column_update;
+					if(_columnUpdate!="" && _columnUpdate!="undefined"){
+						updateLeadTableLive(_columnUpdate,obj.update_date,2);
+					}
+					threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+				}  else {
+					alert(obj.message);
+					jQuery('#'+fromType).find("#claim_illus").find('a').attr('onclick','claimIllusStatusChange('+fromType+')');
+				}
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+	
+	
+	
+	function btnModeStatus(bID,container){         
+		jQuery('#loader_'+bID).removeClass('hide').addClass('show');
+		jQuery('#drive_button'+bID).find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/btn_status_change',
+			data:{lead_id:leadGlobal,b:bID},
+			success:function(response){
+				obj = JSON.parse(response);
+				if(obj.error==0){         
+					_html = jQuery('#drive_button'+bID).find('a').attr('data-status');
+					jQuery('#drive_button'+bID).html(moment(new Date(obj.date_created)).format('MM-D-YY')+' <span>'+_html+'</span>');
+				}  else {
+					console.log(obj.message);  
+					jQuery('#loader_'+bID).addClass('hide').removeClass('show');
+					jQuery('#drive_button'+bID).find('a').attr('onclick','btnModeStatus('+bID+',"'+container+'")');
+				}              
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+	
+	function technicalDD(fromType){
+		jQuery('#'+fromType).find("#loader_technical_dd_market").show();
+		jQuery('#'+fromType).find("#technical_dd").find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/createTechnicalDD',
+			data:{lead_id:leadGlobal,ds:1},
+			success:function(response){
+				jQuery('#'+fromType).find("#loader_technical_dd_market").hide();
+				jQuery('#'+fromType).find("#technical_dd").find('a').addClass('btn-blink');
+				obj = JSON.parse(response);											
+				if(obj.url != '' && obj.error==0){         
+					_html = jQuery('#'+fromType).find("#technical_dd a").html();
+					jQuery('#'+fromType).find("#technical_dd a").attr('onclick','technicalStatusChange('+fromType+')').html(moment(new Date(obj.date_created)).format('MM-D-YY')+' '+_html).addClass('btn-blink');
+					threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);					
+				}  else {
+					alert(obj.message);   
+					jQuery('#'+fromType).find("#technical_dd").find('a').attr('onclick','technicalDD('+fromType+')');
+				}              
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+
+	function technicalStatusChange(fromType){                            	    
+		jQuery('#'+fromType).find("#loader_technical_dd_market").show();
+		jQuery('#'+fromType).find("#technical_dd").find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/technicalStatusChange',
+			data:{lead_id:leadGlobal,ds:1},
+			success:function(response){
+				jQuery('#'+fromType).find("#loader_technical_dd_market").hide();
+				jQuery('#'+fromType).find("#technical_dd").find('a').addClass('btn-blink');
+				obj = JSON.parse(response);
+				if(obj.error==0){         
+					_html = jQuery('#'+fromType).find("#technical_dd a").html();
+					jQuery('#'+fromType).find("#technical_dd").html(moment(new Date(obj.date_created)).format('MM-D-YY')+' '+_html).removeClass('btn-blink');
+					threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+				}  else {
+					alert(obj.message);   
+					jQuery('#'+fromType).find("#technical_dd").find('a').attr('onclick','technicalStatusChange('+fromType+')');
+				}              
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+	function outsource_project(fromType){
+		jQuery("#f_t").val("Technical");
+		mainLogBox = 1;
+		composeEmail(0);
+		call(__baseUrl+'opportunity/check_patent_and_docket','POST',{l:leadGlobal},getStatusPatentDocketCheck,'json');
+		jQuery("#attach_droppable").html('');
+		initAttachRemove();
+		/*Add callback function*/
+		jQuery("#displayEmail").data('file',callingOrder);
+	}
+	
+	function getStatusPatentDocketCheck(data,textStatus,xhr){
+		if(data.patent==0){
+			alert("Please create patent list and update in patent table.");
+			closeSlideBarLeftMessage();
+		} else if(data.docket==0){
+			alert("Please create docket first.");
+			closeSlideBarLeftMessage();
+		}
+	}
+
+	function legalDD(fromType){
+		jQuery('#'+fromType).find("#loader_legal_dd_market").show();
+		jQuery('#'+fromType).find("#legal_dd").find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/createLegalDD',
+			data:{lead_id:leadGlobal,ds:1},
+			success:function(response){
+				jQuery('#'+fromType).find("#loader_legal_dd_market").hide();											
+				obj = JSON.parse(response);											
+				if(obj.url != '' && obj.error==0){         
+					_html = jQuery('#'+fromType).find("#legal_dd a").html();
+					jQuery('#'+fromType).find("#legal_dd a").attr('onclick','legalStatusChange('+fromType+')').html(moment(new Date(obj.date_created)).format('MM-D-YY')+' '+_html).addClass('btn-blink');
+					threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);					
+				}  else {
+					alert(obj.message);   
+					jQuery('#'+fromType).find("#legal_dd").find('a').attr('onclick','legalDD('+fromType+')');
+				}              
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+
+	function legalStatusChange(fromType){
+		jQuery('#'+fromType).find("#loader_legal_dd_market").show();
+		jQuery('#'+fromType).find("#legal_dd").find('a').removeAttr("onclick");
+		jQuery.ajax({
+			type:'POST',
+			url: __baseUrl + 'index.php/leads/legalStatusChange',
+			data:{lead_id:leadGlobal,ds:1},
+			success:function(response){
+				jQuery('#'+fromType).find("#loader_legal_dd_market").hide();											
+				obj = JSON.parse(response);											
+				if(obj.error==0){         
+					_html = jQuery('#'+fromType).find("#legal_dd a").html();
+					jQuery('#'+fromType).find("#legal_dd").html(moment(new Date(obj.date_created)).format('MM-D-YY')+' '+_html);
+					threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+				}  else {
+					alert(obj.message);   
+					jQuery('#'+fromType).find("#legal_dd").find('a').attr('onclick','legalStatusChange('+fromType+')');
+				}              
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+
+	function openPatentList(){
+		var patent_url = jQuery("#litigationFileUrl").val();
+		if(patent_url != ''){
+			open_drive_files(patent_url);		
+		}
+	}
+
+	function scheduleCallMarket(){
+		jQuery("#scheduleCallMarket").modal("show");
+		window.open("https://www.google.com/calendar/render?tab=mc&pli=1#h","_BLANK");
+	}
+	function saveScheduleCallMarket(){
+		var lead_id = jQuery('#marketLeadId').val();
+		var embedCode = jQuery('#marketEmbedCode').val();
+		if(embedCode==""){
+			jQuery('#marketEmbedCode').css('border-color','#ff0000');
+		}
+		if(embedCode!=''){
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/embedScheduleCall',
+				data:{'embed_code':embedCode,'lead_id':lead_id,ds:1},
+				success:function(response){
+					if(response=="1"){                    
+						jQuery("#schedule1stCallMarket").before(embedCode);
+						jQuery("#scheduleCallMarket").modal("hide");
+					}  else {
+						alert("Server busy. Refresh your page.");   
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	function openPatentListMarket(){
+		var patent_url = jQuery("#marketFileUrl").val();
+		if(patent_url != ''){
+			open_drive_files(patent_url);
+		}
+	}
+	_mainData = "";
+
+	function dataValidateMarket(){
+		_editable=false;
+		switchBackMode('from_regular');
+		mainArray = [];
+		var pattern=/^[0-9a-zA-Z]+$/;
+		if($.trim($("#marketlead_name").val())==""){
+			$("#marketlead_name").val(leadNameGlobal);
+		}
+		if($.trim($("#marketlead_name").val())==""){
+			alert("Please enter name of lead.");
+			return false;
+		} else {
+			modifyPatentTableData();
+			return true;
+		}
+	}
+	function dataValidateLeadForm(){
+		_editable=false;
+		switchBackMode('from_nonacquistion');
+		mainArray = [];
+		var pattern=/^[0-9a-zA-Z]+$/;
+		if($.trim($("#acquisitionlead_name").val())==""){
+			$("#acquisitionlead_name").val(leadNameGlobal);
+		}
+		if($.trim($("#acquisitionlead_name").val())==""){
+			alert("Please enter name of lead.");
+			return false;
+		} else {
+			modifyPatentTableData();			
+			return true;
+		}
+	}
+	
+	function runTableLeadBal(){
+		/*jQuery("#all_type_list>tbody>tr").each(function(index){
+			if(_title==""){
+				_title = jQuery("#all_type_list>tbody>tr").eq(index).find('td').eq(0).find('label>a').attr("title");
+			}
+			if(_title==""){
+				_title = jQuery("#all_type_list>tbody>tr").eq(index).find('td').eq(0).find('label>a').html();
+			}
+			if(_title!=''){
+				jQuery("#all_type_list>tbody>tr").eq(index).find('td').eq(0).find('label>a').html(_title);
+				jQuery("#all_type_list>tbody>tr").eq(index).find('td').eq(0).find('label>a').attr("title",_title);
+			}
+		});	*/		
+	}
+	
+	function assign_task_mode(type,parentElement){
+        if(leadGlobal>0){
+			switch(parentElement){
+				case 'from_nonacquistion':
+					jQuery('#'+parentElement).find("#acquisitionSellerInfo").val(type);
+				break;
+				case 'from_regular':
+					jQuery("#marketSellerInfo").val(type)
+				break;
+				case 'from_litigation':
+					jQuery('#'+parentElement).find("#litigationSellerInfo").val(type);
+				break;
+			}		
+			if(type== 1)
+			{
+				jQuery('#'+parentElement).find("#loader_seller_market").show();
+				jQuery.ajax({
+					type:'POST',
+					url:  __baseUrl + 'leads/post_seller_info',
+					data:{'lead_id':leadGlobal,ds:1},
+					success:function(response){
+						jQuery('#'+parentElement).find("#loader_seller_market").hide();
+						obj = jQuery.parseJSON(response);
+						if(typeof(obj.date_created)!="undefined"){
+							jQuery('#'+parentElement).find("#assign_task_market").addClass("btn-blink");
+							jQuery('#'+parentElement).find("#assign_task_market").find('a').attr('onclick','assign_task_mode(2)');
+							jQuery("#all_type_list").find('tr.active').find('td').eq(2).addClass('btn-blink').html(obj.date_created);
+						}														
+					}
+				}).fail(function(jqXHR, textStatus){
+					if(textStatus !='parseerror'){alert(textStatus);}
+				});
+			} else {
+				_validateFrom = true;
+				switch(parentElement){
+					case 'from_regular':
+						if(jQuery("#marketlead_name").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery("#marketOwner").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery("#marketPersonName1").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery("#marketPersonName2").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery("#marketBroker").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery("#marketBrokerPerson").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery("#marketNo_of_us_patents").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery("#marketAddress").val()==""){
+							_validateFrom = false;
+						}
+					break;
+					case 'from_nonacquistion':
+						if(jQuery('#'+parentElement).find("#acquisitionlead_name").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery('#'+parentElement).find("#acquisitionOwner").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery('#'+parentElement).find("#acquisitionPersonName1").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery('#'+parentElement).find("#acquisitionPersonName2").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery('#'+parentElement).find("#acquisitionBroker").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery('#'+parentElement).find("#acquisitionBrokerPerson").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery('#'+parentElement).find("#acquisitionNo_of_us_patents").val()==""){
+							_validateFrom = false;
+						}
+						if(jQuery('#'+parentElement).find("#acquisitionAddress").val()==""){
+							_validateFrom = false;
+						}
+					break;
+					case 'from_litigation':
+						_validateFrom = true;
+					break;
+				}				
+				if(_validateFrom===true){
+					jQuery('#'+parentElement).find("#loader_seller_market").show();
+					jQuery.ajax({
+						type:'POST',
+						url: __baseUrl + 'leads/assign_lead',
+						data:{'lead_id':leadGlobal,'base_url': __baseUrl + 'leads/market',ds:1},
+						success:function(response){
+							jQuery('#'+parentElement).find("#loader_seller_market").hide();
+							obj = jQuery.parseJSON(response);
+							jQuery('#'+parentElement).find("#assign_task_market a").hide();
+							_statusMessage = "Seller Info Done";
+							if(obj.button_data.status_message!=undefined && obj.button_data.status_message!=""){
+								_statusMessage = obj.button_data.status_message;
+							}
+							jQuery('#'+parentElement).find("#assign_task_market").html('<span class="date-style">' + moment(new Date(obj.date_created)).format('MM-D-YY')+"</span> "+_statusMessage);
+							jQuery("#all_type_list").find('tr.active').find('td').eq(2).removeClass("btn-blink").html(obj.date_created);
+							jQuery('#'+parentElement).find("#assign_task_market").removeClass("btn-blink");
+						}
+					}).fail(function(jqXHR, textStatus){
+						if(textStatus !='parseerror'){alert(textStatus);}
+					});
+				} else {
+					alert("Please fill-in all the fields in the form. Put N/A where not applicable.")
+				}
+			}
+		} else {
+			alert("Please select lead first");
+		}        
+    }
+	
+	function openSEPFull(){
+		 var sliderID = "open_declare_sep";
+		if(jQuery("#"+sliderID).hasClass('is-open')) {
+			jQuery("#declare_sep").removeClass("menu-active");
+			checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+				closeSlideBar(jQuery("#"+sliderID))
+			});
+		} else {
+			jQuery("#declare_sep").addClass("menu-active");
+			appendSlider(sliderID,'Declared Sep','DeclaredSep');
+			if(jQuery("#"+sliderID).length > 0) {
+				jQuery("#"+sliderID).find('.slider_container').html('<iframe id="sepIframe" src="https://docs.google.com/a/synpat.com/spreadsheets/d/1-CDJw4p65K0gnmNb3mFKOJDVUcegvLQn8iTac49EPVg/edit?usp=sharing" width="100%" height="100px" scrolling="yes"></iframe>');
+				openSlidebar(jQuery("#"+sliderID));
+				slidebarOpenCallback(jQuery("#"+sliderID));
+				jQuery("#"+sliderID).addClass("is-open");
+				changeIframeHeight(jQuery("#"+sliderID));
+				jQuery("#"+sliderID).find('.close_sidebar').removeAttr('onclick').attr('onclick','closeSlidebarRemove(jQuery(this),closeDeclareSep)');
+			}
+		}
+	}
+	
+	function closeDeclareSep() {
+		jQuery("#declare_sep").removeClass("menu-active");
+	}
+	
+	function spreadsheet_box_mode(parentElement){
+		switch(parentElement){
+			case 'from_regular':
+				jQuery("#create_spreadsheet_market").find('#spreadsheet').val(jQuery('#'+parentElement).find('#marketlead_name').val());
+			break;
+			case 'from_litigation':
+				jQuery("#create_spreadsheet_market").find('#spreadsheet').val(jQuery('#'+parentElement).find('#litigationlead_name').val());
+			break;
+			case 'from_nonacquistion':
+				jQuery("#create_spreadsheet_market").find('#spreadsheet').val(jQuery('#'+parentElement).find('#acquisitionlead_name').val());
+			break;
+		}
+		create_spreadsheet_mode(parentElement);
+	}
+	
+	function create_spreadsheet_mode(parentElement){      
+       if(leadNameGlobal != ''){
+		   jQuery('#'+parentElement).find("#create_patent_list_market").find('a').removeAttr('onclick');
+			jQuery('#'+parentElement).find("#loader_patent_market").show();
+            jQuery.ajax({
+                type:'POST',
+                url: __baseUrl + 'leads/createLeadPatentSpreadSheet',
+                data:{'n':leadNameGlobal,'lead_id':leadGlobal,ds:1},
+                success:function(response){
+                   jQuery('#'+parentElement).find("#loader_patent_market").hide();
+                    jQuery('#'+parentElement).find("#create_patent_list_market").find('a').addClass('btn-blink');
+                    obj = JSON.parse(response);
+                    if(obj.url != '' && obj.error==0){ 
+						threadDetail(jQuery("#all_type_list").find('tr.active'),"",1);
+						open_drive_files(obj.url);
+                    } else {
+						jQuery('#'+parentElement).find("#create_patent_list_market").find('a').attr('onclick','spreadsheet_box_mode()');
+                    }
+                }
+            }).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+         } else {
+			 alert("Please enter lead name before creating patent sheet");
+		 }
+     }
+	 
+	 function scheduleCallMode(parentElement){
+		jQuery("#scheduleCallAcquisition").modal("show");
+		window.open("https://www.google.com/calendar/render?tab=mc&pli=1#h","_BLANK");
+	 }
+	 
+	 function saveScheduleCallMode(parentElement){
+		var lead_id = jQuery('#'+parentElement).find('#acquisitionLeadId').val();
+		var embedCode = jQuery('#'+parentElement).find('#acquisitionEmbedCode').val();
+		if(embedCode==""){
+			jQuery('#'+parentElement).find('#acquisitionEmbedCode').css('border-color','#ff0000');
+		}
+		if(embedCode!=''){
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/embedScheduleCall',
+				data:{'embed_code':embedCode,'lead_id':lead_id,ds:1},
+				success:function(response){
+					if(response=="1"){                    
+						jQuery('#'+parentElement).find("#schedule1stCallMarket").before(embedCode);
+						jQuery("#scheduleCallAcquisition").modal("hide");
+					}  else {
+						alert("Server busy. Refresh your page.");   
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	 }
+
+	function forward_to_review_mode(parentElement){
+		if(leadGlobal > 0){
+			$("#loader_review_market").show();
+			jQuery.ajax({
+				type:'POST',
+				url: __baseUrl + 'leads/forward_to_review',
+				data:{'lead_id':leadGlobal},
+				success:function(response){
+					jQuery("#"+parentElement).find("#loader_review_market").hide();
+					threadDetail(jQuery("#all_type_list").find('tr.active'),"",1); 
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	
+	function createPartNDATermsheetMode(parentElement){
+		var lead_id = leadGlobal;
+		if(lead_id!=0 && lead_id!=""){
+		   jQuery("#"+parentElement).find("#spinner-loader-nda-timesheet").css('display','block');  
+		   jQuery("#"+parentElement).find("#loader_NDA_market").show();     
+			jQuery.ajax({
+				url: __baseUrl + 'leads/createNDATermsheet',
+				type:'POST',
+				data:{v:lead_id},
+				cache:false,
+				statusCode: {
+					404: function() {
+					  threadDetail(jQuery("#all_type_list").find('tr.active'));
+					},
+					504: function() {
+					  threadDetail(jQuery("#all_type_list").find('tr.active'));
+					}
+				  },
+				success:function(response){
+					jQuery("#"+parentElement).find("#spinner-loader-nda-timesheet").css('display','none');     
+					_response = jQuery.parseJSON(response);
+					jQuery("#"+parentElement).find("#loader_NDA_market").hide();
+					if(_response.error=="0"){
+						threadDetail(jQuery("#all_type_list").find("tbody").find('tr.active'));
+					} else {
+						alert("Got error from Google Drive, Please try again.");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	
+	function findWorksheetMode(o,p,parentElement){
+		v = jQuery.trim(o.val());	
+		jQuery("#patentWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>");
+		if(v!=""){
+			jQuery.ajax({
+				url: __baseUrl + 'leads/findWorksheetList',
+				type:'POST',
+				async:true,
+				data:{v:v},
+				cache:false,
+				success:function(data){
+					_d = jQuery.parseJSON(data);
+					if(_d!=undefined  && _d.length>0){
+						_option = "";
+						for(i=0;i<_d.length;i++){
+							_selected="";
+							if(typeof p == 'string' || typeof p =='number'){
+								if(p==_d[i].id){
+									_selected = "SELECTED='SELECTED'";
+								}
+							}							
+							if(i==0 && ( typeof p!='string' && typeof p!='number') ){
+								_selected = "SELECTED='SELECTED'";								
+							}
+							_option +="<option  "+_selected+" value='"+_d[i].id+"' data-href='"+_d[i].full+"'>"+_d[i].text+"</option>";
+						}
+						jQuery("#patentWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>"+_option);
+						if(jQuery("#patentWorksheetId").val()==""){
+							jQuery("#patentWorksheetId>option").eq(1).attr("SELECTED","SELECTED");
+							snapGlobal = jQuery("#patentWorksheetId>option").eq(1).attr("data-href");
+							jQuery("#patentFileUrl").val(snapGlobal);
+						} else {
+							snapGlobal = jQuery("#patentWorksheetId>option:selected").eq(1).attr("data-href");
+							if(snapGlobal==undefined){
+								snapGlobal = jQuery("#patentWorksheetId>option:SELECTED").eq(1).attr("data-href");
+							}
+						}
+							/*
+						switch(parentElement){
+							case 'from_regular':
+							jQuery("#marketWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>"+_option);
+							if(jQuery("#marketWorksheetId").val()==""){
+								jQuery("#"+parentElement).find("#marketWorksheetId>option").eq(1).attr("SELECTED","SELECTED");
+								snapGlobal = jQuery("#"+parentElement).find("#marketWorksheetId>option").eq(1).attr("data-href");
+								jQuery("#"+parentElement).find("#marketFileUrl").val(snapGlobal);
+							} else {
+								snapGlobal = jQuery("#"+parentElement).find("#marketWorksheetId>option:selected").eq(1).attr("data-href");
+								if(snapGlobal==undefined){
+									snapGlobal = jQuery("#"+parentElement).find("#marketWorksheetId>option:SELECTED").eq(1).attr("data-href");
+								}
+							}
+							break;
+							case 'from_nonacquistion':
+								jQuery("#"+parentElement).find("#acquisitionWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>"+_option);
+								if(jQuery("#"+parentElement).find("#acquisitionWorksheetId").val()==""){
+									jQuery("#"+parentElement).find("#acquisitionWorksheetId>option").eq(1).attr("SELECTED","SELECTED");
+									snapGlobal = jQuery("#"+parentElement).find("#acquisitionWorksheetId>option").eq(1).attr("data-href");
+									jQuery("#"+parentElement).find("#acquisitionFileUrl").val(snapGlobal);
+								} else {
+									snapGlobal = jQuery("#"+parentElement).find("#acquisitionWorksheetId>option:selected").attr("data-href");
+									if(snapGlobal==undefined){
+										snapGlobal = jQuery("#"+parentElement).find("#acquisitionWorksheetId>option:SELECTED").attr("data-href");
+									}
+								}
+							break;
+							case 'from_litigation':
+								jQuery("#litigationWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>");
+								if(jQuery("#litigationWorksheetId").val()==""){
+									jQuery("#"+parentElement).find("#litigationWorksheetId>option").eq(1).attr("SELECTED","SELECTED");
+									snapGlobal = jQuery("#"+parentElement).find("#litigationWorksheetId>option").eq(1).attr("data-href");
+									jQuery("#"+parentElement).find("#marketFileUrl").val(snapGlobal);
+								} else {
+									snapGlobal = jQuery("#"+parentElement).find("#litigationWorksheetId>option:selected").eq(1).attr("data-href");
+									if(snapGlobal==undefined){
+										snapGlobal = jQuery("#"+parentElement).find("#litigationWorksheetId>option:SELECTED").eq(1).attr("data-href");
+									}
+								}
+							break;
+						}*/						
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	/*
+	function findWorksheetListFromUrl(o,p,parentElement){
+		v = o;	
+		if(v!=""){
+			jQuery.ajax({
+				url: __baseUrl + 'leads/findWorksheetListFromUrl',
+				type:'POST',
+				data:{v:v},
+				cache:false,
+				success:function(data){
+					_d = jQuery.parseJSON(data);
+					if(_d!=undefined  && _d.length>0){
+						_option = "";
+						for(i=0;i<_d.length;i++){
+							_selected="";
+							if(typeof p == 'string' || typeof p =='number'){
+								if(p==_d[i].id){
+									_selected = "SELECTED='SELECTED'";
+								}
+							}							
+							if(i==0 && ( typeof p!='string' && typeof p!='number') ){
+								_selected = "SELECTED='SELECTED'";								
+							}
+							_option +="<option  "+_selected+" value='"+_d[i].id+"' data-href='"+_d[i].full+"'>"+_d[i].text+"</option>";
+						}
+						switch(parentElement){
+							case 'from_regular':
+							jQuery("#marketWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>"+_option);
+							if(jQuery("#marketWorksheetId").val()==""){
+								jQuery("#"+parentElement).find("#marketWorksheetId>option").eq(1).attr("SELECTED","SELECTED");
+								snapGlobal = jQuery("#"+parentElement).find("#marketWorksheetId>option").eq(1).attr("data-href");
+								jQuery("#"+parentElement).find("#marketFileUrl").val(snapGlobal);
+							} else {
+								snapGlobal = jQuery("#"+parentElement).find("#marketWorksheetId>option:selected").eq(1).attr("data-href");
+								if(snapGlobal==undefined){
+									snapGlobal = jQuery("#"+parentElement).find("#marketWorksheetId>option:SELECTED").eq(1).attr("data-href");
+								}
+							}
+							break;
+							case 'from_nonacquistion':
+								jQuery("#"+parentElement).find("#acquisitionWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>"+_option);
+								if(jQuery("#"+parentElement).find("#acquisitionWorksheetId").val()==""){
+									jQuery("#"+parentElement).find("#acquisitionWorksheetId>option").eq(1).attr("SELECTED","SELECTED");
+									snapGlobal = jQuery("#"+parentElement).find("#acquisitionWorksheetId>option").eq(1).attr("data-href");
+									jQuery("#"+parentElement).find("#acquisitionFileUrl").val(snapGlobal);
+								} else {
+									snapGlobal = jQuery("#"+parentElement).find("#acquisitionWorksheetId>option:selected").attr("data-href");
+									if(snapGlobal==undefined){
+										snapGlobal = jQuery("#"+parentElement).find("#acquisitionWorksheetId>option:SELECTED").attr("data-href");
+									}
+								}
+							break;
+							case 'from_litigation':
+								jQuery("#litigationWorksheetId").empty().append("<option value=''>-- Select Worksheet --</option>");
+								if(jQuery("#litigationWorksheetId").val()==""){
+									jQuery("#"+parentElement).find("#litigationWorksheetId>option").eq(1).attr("SELECTED","SELECTED");
+									snapGlobal = jQuery("#"+parentElement).find("#litigationWorksheetId>option").eq(1).attr("data-href");
+									jQuery("#"+parentElement).find("#marketFileUrl").val(snapGlobal);
+								} else {
+									snapGlobal = jQuery("#"+parentElement).find("#litigationWorksheetId>option:selected").eq(1).attr("data-href");
+									if(snapGlobal==undefined){
+										snapGlobal = jQuery("#"+parentElement).find("#litigationWorksheetId>option:SELECTED").eq(1).attr("data-href");
+									}
+								}
+							break;
+						}						
+					}
+				}
+			});
+		}
+	}
+	*/
+	
+	function findWorksheetUrlMarket(o,p){
+		u = o.find('option:selected').attr('data-href');
+		if(u!=""){
+			jQuery('#patentFileUrl').val(u);
+			snapGlobal = u;
+		}
+    }
+
+	function toggleThis(o){
+		if(!o.find('i').hasClass("icon-chevron-right")){
+			o.find('i').addClass("icon-chevron-right").removeClass("icon-chevron-down");
+		} else {
+			o.find('i').removeClass("icon-chevron-right").addClass("icon-chevron-down");
+		}
+		o.parent().parent().next("tr").toggle();
+	}
+	
+	function toggleCompanySales(){
+		if($("#activityTable:visible tr.master a.showActivity").length>0){
+			$("#activityTable:visible tr.master a.showActivity").unbind("click");
+			$("#activityTable:visible tr.master a.showActivity").click(function(){
+				let $this = $(this);
+				toggleThis($this);
+				findOtherSalesActivity($this);
+			});
+		}
+		if($("#aquisitionTable:visible tr.master a.showActivity").length>0){
+			$("#aquisitionTable:visible tr.master a.showActivity").unbind("click");
+			$("#aquisitionTable:visible tr.master a.showActivity").click(function(){
+				toggleThis($(this));				
+			});
+		}
+		if($("#preSaleActivityTable:visible tr.master a.showActivity").length>0){
+			$("#preSaleActivityTable:visible tr.master a.showActivity").unbind("click");
+			$("#preSaleActivityTable:visible tr.master a.showActivity").click(function(){
+				toggleThis($(this));
+			});
+		}		
+	}
+	
+	function findOtherSalesActivity(o){
+		let companyID = o.parents('.master').attr('data-c');
+		if(!o.find('i').hasClass("icon-chevron-right")){
+			call(__baseUrl+'leads/findOtherSalesBoxes','POST',{lead:leadGlobal,c:companyID,t:1},bindNewActivities,'json');
+		} else {
+			$("#activityTable tr[data-c='child_"+companyID+"']").find('td.sales_activities').find('tbody').empty();
+		}
+	}
+	
+	function findAllCompaniesSalesActivity(){
+		if(leadGlobal > 0 && jQuery("#activityTable").hasClass("show")){
+			call(__baseUrl+'leads/findAllCompanyActivities','POST',{lead:leadGlobal,t:1},bindAllActivities,'json');
+		}
+	}
+	
+	function bindAllActivities(data,textStatus,xhr){
+		if(data.length > 0){
+			data.map((l)=>{
+				bindNewActivities(l);
+			}); 
+		}
+	}
+	
+	function removeAllCompaniesActivities(){
+		if(leadGlobal > 0 && jQuery("#activityTable").hasClass("show")){
+			$("#activityTable tr[data-c*='child_']").find('td.sales_activities').find('tbody').empty();
+		}
+	}
+	
+	function bindNewActivities(l){
+		let _tr = "";
+		if(l.lead == leadGlobal){
+			if(l.list.length>1){
+				const type = l.t;
+				let _csWidth = getWidthForColumns();
+				let activityD = "",_person = "",_activity = "",_note = "",_date = "",mainNote = "",_innerTR = "";
+				for(al=1;al<l.list.length;al++){
+					_innerTR = "";
+					activityD = l.list[al];
+					_person= activityD.firstName+" "+activityD.lastName,	_activity = salesActivities[activityD.type],_note=activityD.note,_date=activityD.activity_date;_date = moment(new Date(_date)).format("HH:mm MMM DD, YY");
+					if(!isHTML(_note)){_note = _note.nl2br();}
+					mainNote =_note;
+					if(activityD.type==11){_note = _note.nl2br();}
+					switch(parseInt(activityD.type)){
+						case  206:
+							_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+activityD.company_id+","+activityD.contact_id+","+activityD.type+")'><img src='"+__IMAGEURL+"images/small-vm-calldrip.png' style='width:16px;'/> "+_note+'</a>';
+						break;
+						case 37:
+							_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+activityD.company_id+","+activityD.contact_id+","+activityD.type+")'><img src='"+__IMAGEURL+"images/Conference_Call-512.png' style='width:16px;'/> "+_note+'</a>';
+						break;
+						case 21:
+						case 22:
+						case 23:
+							let _color = '#2196f3';
+							if(parseInt(activityD.type) == 23){
+								_color = '#2d2d2d';
+							} else if(parseInt(activityD.type) == 22){
+								_color = '#d1c8c8';
+							}
+							_note = "<a href='javascript://' data-linkedin-message-id='"+activityD.id+"' onclick='showLinkedMessageOnFly(jQuery(this))'><i class='glyph-icon icon-linkedin' title='Linkedin' style='color:"+_color+"' ></i> "+_note+'</a>';
+						break;
+						case 1:
+							_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+activityD.company_id+","+activityD.contact_id+","+activityD.type+")'><i class='glyph-icon icon-phone' title='Contacts' style='color:#2196f3' ></i> "+_note+'</a>';
+						break;
+						case 2:
+							_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+activityD.company_id+","+activityD.contact_id+","+activityD.type+")'><i class='glyph-icon icon-phone' title='Contacts' style='color:#d1c8c8' ></i> "+_note+'</a>';
+						break;
+						case 5:
+							_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+activityD.company_id+","+activityD.contact_id+","+activityD.type+")'><i class='glyph-icon icon-linkedin' title='Contacts' style='color:#d1c8c8' ></i> "+_note+'</a>';
+						break;
+						case 10:
+							_note = "<a href='javascript://' onclick='approvedFile("+activityD.task_id+")'><i class='glyph-icon icon-tasks' title='Contacts' style='color:#2196f3' ></i> &nbsp;"+_note+'</a>';
+						break;
+					}
+					if(activityD.next_call_date!='0000-00-00 00:00:00'){
+						_da = moment(new Date()).tz('America/Los_Angeles').format('YYYY-MM-DD');
+						nextDate = moment(new Date(activityD.next_call_date)).tz('America/Los_Angeles').format('YYYY-MM-DD');
+						if(nextDate==_da){							
+							switch(parseInt(activityD.type)){
+								case 1:
+								case 2:
+								case 207:
+								case 37:
+									_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+activityD.company_id+","+activityD.contact_id+","+activityD.type+")'><i class='glyph-icon icon-exclamation' title='Contacts' style='color:green' ></i> "+mainNote+'</a>';
+								break;						
+							}
+						}
+					}_innerTR='';
+					if(_activity != ""&& (activityD.type=="6" || activityD.type=="3") && activityD.email_id!=0){
+						if(typeof activityD.email!="undefined" && activityD.email.length>0){
+							if(parseInt(type)==1){
+								window.SalesUser[activityD.email[0].id] = activityD.email[0];
+							} else if(parseInt(type)==2){
+								window.AcquisitionUser[activityD.email[0].id] = activityD.email[0];
+							}
+							_d = activityD.email[0];
+							if(_d.file_attach!=""&&_d.file_attach!="0"){attachedFiles =jQuery.trim(_d.file_attach); _files=attachedFiles.split(",");if(_files.length>0){for(f=0;f<_files.length;f++){if(_files[f]!=""){filename=_files[f].indexOf("upload");if(filename>0){filename=_files[f].substr(filename+7);translated=escapedString(_files[f]);if(translated.indexOf('https')<0){translated = translated.replace('http','https');} _innerShowData="<a data-href='"+translated+"' data-mime='' onclick='open_drive_files(\""+translated+"\");' href='javascript://'  style='width:93%'><i class='glyph-icon icon-file-o' style='color:#2196f3'></i> "+decodeURIComponent(filename)+"</a>";_innerTR+="<li class='"+activityD.email[0].id+" attach docDragable' style='padding:5px 8px;'>"+_innerShowData+"</li>";} else if(_files[f].indexOf("synpat.com")>0){filename = _files[f].split('/').pop();if(filename=='?edit'){filename='Intro DD';}translated=escapedString(_files[f]);if(translated.indexOf('https')<0){translated = translated.replace('http','https');}_innerTR+="<li class='"+activityD.email[0].id+"'><a onclick='open_drive_files(\""+translated+"\");' href='javascript://'><i class='glyph-icon icon-file-o' style='color:#2196f3'></i> "+decodeURIComponent(filename)+"</a></li>";}}}}}
+							subject = "",_receivedDate = '';
+							if(typeof _d.content!="undefined" &&_d.content!=""){
+							try{
+								_contents=jQuery.parseJSON(_d.content);
+								if(typeof _contents.to!='undefined'){
+									_receivedDate = _contents.date;subject = _contents.subject;
+								} else {
+									if(_contents.length>0){
+										for(c=0;c<_contents.length;c++){
+											_content=_contents[c];header=_content.header;
+											if(header.length>0){
+												for(h=0;h<header.length;h++){
+													if(header[h].name=="Subject"){
+														subject = header[h].value
+													}
+													if(header[h].name=="Date"){
+														_receivedDate=header[h].value
+													}
+												}
+											}
+										}
+									}
+								}
+							} catch(e){
+								
+							}}
+							_color='#2196f3';if(activityD.email[0].sent_from==1){_color='#d1c8c8';}
+							if(activityD.error==1){_color="#cc0000";}
+							if(activityD.email[0].account_type==2){
+								var ___messageID = activityD.email[0].message_id;
+								if(typeof ___messageID=="undefined"){
+									___messageID = "";
+								}
+								if(parseInt(type)==1){
+									if(subject==""){
+										_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://' onclick='imapShowDataSales("+activityD.email[0].id+",jQuery(this));'>View Email</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://'>View Email</a>";}
+										_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+									}else{
+										_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://' onclick='imapShowDataSales("+activityD.email[0].id+",jQuery(this));'>"+subject+"</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://'>"+subject+"</a>";}
+									_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+									}
+								} else if(parseInt(type)==2){
+									if(subject==""){
+										_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://' onclick='imapShowDataAcc("+activityD.email[0].id+",jQuery(this));'>View Email</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://'>View Email</a>";}
+										_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+									}else{
+										_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://' onclick='imapShowDataAcc("+activityD.email[0].id+",jQuery(this));'>"+subject+"</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://'>"+subject+"</a>";}
+									_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+									}
+								}
+							} else {
+								
+								var ___messageID = activityD.email[0].message_id;
+								if(typeof ___messageID=="undefined"){
+									___messageID = "";
+								}
+								if(subject==""){
+									_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://' onclick='findOwnThread(\""+activityD.email_id+"\",jQuery(this),2);'>View Email</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://'>View Email</a>";}
+									_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+								}else{
+									_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://' onclick='findOwnThread(\""+activityD.email_id+"\",jQuery(this),2);'>"+subject+"</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+activityD.email[0].id+"' href='javascript://'>"+subject+"</a>";}
+									_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+								}
+							}
+						}
+					}
+					if(_innerTR!=""){
+						_innerTR="<ul style='margin:0;padding:0;list-style:none;'>"+_innerTR+"</ul>";
+					}
+					/*console.log("ATTACH1",_innerTR);*/
+					_tr+="<tr><td style='width:"+_csWidth.__wL1+"px;'>"+_date+"</td><td style='width: "+_csWidth.__wL2+"px;'>"+_person+"</td><td style='border-right:0px;width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'>"+_note+_innerTR+"</div></div>";
+					_tr+="</td></tr>";
+				}
+			}
+		}
+		let tableActivity ;
+		if(l.t == 1){
+			tableActivity = $("#activityTable");
+		} else {
+			tableActivity = $("#aquisitionTable");
+		}
+		let tableBody = tableActivity.find("tr[data-c='child_"+l.company_id+"']");
+		if(tableBody.length > 0){
+			tableBody.find('td.sales_activities').find('tbody').html(_tr);
+		}
+	}
+
+function findMyContactList(cID){
+	jQuery("#activityPerson").find("option").remove();
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+"dashboard/c_my_contact_list",
+		data:{c:cID},
+		cache:false,
+		success:function(res){
+			if(res!=""){
+				_cList = jQuery.parseJSON(res);
+				jQuery("#activityPerson").append("<option value=''>-- Select Person --</option>")
+				if(_cList.length>0){
+					for(c=0;c<_cList.length;c++){
+						jQuery("#activityPerson").append("<option value='"+_cList[c].contactID+"'>"+_cList[c].firstName+" "+_cList[c].lastName+"</option>");
+					}
+				}
+			} else{
+				jQuery("#activityPerson").append("<option value=''>-- Select Person --</option>")
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+function getCalendarColors(){
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'users/getCalendarColors',
+		cache:false,
+		success:function(d){
+			if(d!=""){
+				_d = jQuery.parseJSON(d);
+				if(_d.length>0){
+					_stringColors = '';
+					for(i=0;i<_d.length;i++){
+						_stringColors +='<a href="javascript://" onclick="eventColorActivate('+(i+1)+');"><span style="width:15px;height:15px;background:'+_d[i]+';float:left;margin-right:3px;"></span></a>';
+					}
+					jQuery('#eventColorImplement').css({paddingTop:'10px;',marginLeft:'5px;'}).html(_stringColors);
+				}
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function eventColorActivate(id){
+	jQuery("#eventColor").val(id);
+}
+function getCompaniesListSalesBroker() {
+	var sliderID = "open_sales_gd";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Companies','Companies');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="salesFormIframe" src="'+__baseUrl+'opportunity/sales_contact/'+leadGlobal+'/5" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+function getCompaniesListPreSalesBroker(){
+	var sliderID = "open_sales_gd";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Companies','Companies');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="salesFormIframe" src="'+__baseUrl+'opportunity/sales_pre_contact/'+leadGlobal+'/3" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}	
+}
+
+function openComposeEmail(o){
+	o.parent().find('input[name="sales_person[]"]').prop("checked",true);
+	_containerSelect = findContainer();
+	_sales_emails = "";
+	jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").each(function(){
+		_sales_emails +=jQuery(this).attr('data-attr-em')+", ";
+	});
+	if(_emailActivate>0){
+		composeEmail();
+		jQuery("#eventT").val(jQuery("#activityMainType").val());			
+		jQuery("#emailAccountType").val(_emailActivate);
+		if(_sales_emails!=""){
+			jQuery("#emailTo").val(_sales_emails);
+			findDataRemove.push(_sales_emails);
+			jQuery("#emailAccountType").val(2);
+		}
+	}
+	
+}
+
+function openEvenDialog(o,c,p,t){
+	_activityP = jQuery("#activityMainType").val();
+	if(parseInt(_activityP)==2){
+		_tableSelect = jQuery("#aquisitionTable");
+	} else {
+		_tableSelect = jQuery("#activityTable");
+	}
+	if(_tableSelect.length>0){
+		_tableSelect.find('tbody.main_active').find('input[type="checkbox"]').prop("checked",false);
+	}
+	_p = o.parent().parent().parent().parent();
+	if(_p.hasClass('master')==false){
+		_p = o.parent().parent().parent().parent().parent().parent().parent().parent().prev();
+	}
+	let proximity = false;
+	_pNext = _p.next();
+	_modifyNaeAndC = "";
+	_pNext.find('tbody>tr.salesFDroppable').each(function(){
+		let $pThis = jQuery(this);
+		if($pThis.attr('data-p')==p){
+			$pThis.find('td').find('input[name="sales_person[]"]').prop('checked',true);
+			let $pInput = $pThis.find('td').find('input[name="sales_person[]"]:checked');
+			_modifyNaeAndC += $pInput.attr('data-attr-name')+' - '+$pInput.attr('data-attr-c-name')+", ";
+			if($pInput.attr('data-proximity') != undefined && $pInput.attr('data-proximity') != null && $pInput.attr('data-attr-linkedin') != undefined && $pInput.attr('data-attr-linkedin') != null && $pInput.attr('data-attr-linkedin') != ''){
+				proximity = true;
+			}
+		}
+	});
+	_modifyNaeAndC = _modifyNaeAndC.substr(0,_modifyNaeAndC.length-1);
+	getCallEvent(_modifyNaeAndC, p+',', c+',', proximity);
+	setCallTypePerson(t,p);
+}
+function setCallTypePerson(t,p){
+	setTimeout(()=>{
+		var $slider = jQuery("#callInOutModal");	
+		if($slider.length > 0){
+			$slider.find("#callType").val(t);
+			$slider.find("#callPerson").val(p);
+		} else {
+			setCallTypePerson(t,p);
+		}
+	},20);
+}
+
+function checkActivityOpenEvenDialogFront(leadID,companyID,personID,activityType){
+	let checkLeadFirst = false;
+	if(leadGlobal == parseInt(leadID)){
+		checkLeadFirst = true;
+	}
+	if(checkLeadFirst === false){
+		/*Select leadFirst*/
+		jQuery("#all_type_list").find("tr[data-id='"+leadID+"']").trigger("click");
+	}
+	let checkActivity = false;
+	if(parseInt(activityType) == 1){
+		/*Select acquisition*/
+		checkActivity = true;
+		if(!jQuery("#activityTable").hasClass('show')){
+			jQuery("#salesActivityButton").trigger("click");
+		}
+	}else if(parseInt(activityType) == 2){
+		/*Select sales*/
+		checkActivity = true;
+		if(!jQuery("#aquisitionTable").hasClass('show')){
+			jQuery("#acquisitionActivityButton").trigger("click");
+		}
+	}
+	if(checkActivity === true){
+		waitCheckPersonActivity(companyID,personID,activityType);
+	}
+}
+
+function waitCheckPersonActivity(c,p,a){
+	let container;
+	if(a == 1){
+		container = jQuery("#activityTable").find('tbody.main_active');
+	} else if(a == 2){
+		container = jQuery("#aquisitionTable").find('tbody.main_active');
+	}
+	if(container.length > 0){
+		let parentC = container.find('tr.master[data-c="'+c+'"]');
+		if(parentC.length > 0){
+			let childC = container.find('tr[data-c="child_'+c+'"]');
+			if(childC.length == 0){
+				childC = parentC.next();
+			}
+			if(childC.length > 0){
+				let findPerson = childC.find('tr.salesFDroppable[data-p="'+p+'"]');
+				if(findPerson.length > 0){
+					findPerson.find('td').eq(0).find('a').eq(0).trigger('click');
+				}
+			}
+		} else {
+			setTimeout(() => {waitCheckPersonActivity(c,p,a);},1000);
+		}
+	}
+}
+
+function openEvenDialogFront(o,c,p,t){
+	if(jQuery("#callInOutModal").hasClass('is-open')){
+		jQuery("#callInOutModal").find('a.close_sidebar').trigger('click');
+	}
+	_activityP = jQuery("#activityMainType").val();
+	if(parseInt(_activityP)==2){
+		_tableSelect = jQuery("#aquisitionTable");
+	} else {
+		_tableSelect = jQuery("#activityTable");
+	}
+	if(_tableSelect.length>0){
+		_tableSelect.find('tbody.main_active').find('input[type="checkbox"]').prop("checked",false);
+	}
+	let proximity = false;
+	_p = o.parent().parent().parent().parent().parent().parent();
+	_pNext = _p;
+	_modifyNaeAndC = "";
+	_pNext.find('tbody>tr.salesFDroppable').each(function(){
+		let $pThis = jQuery(this);
+		if($pThis.attr('data-p')==p){
+			$pThis.find('td').find('input[name="sales_person[]"]').prop('checked',true);
+			let $pInput = $pThis.find('td').find('input[name="sales_person[]"]:checked');
+			_modifyNaeAndC += $pInput.attr('data-attr-name')+' - '+$pInput.attr('data-attr-c-name')+",  ";
+			if($pInput.attr('data-proximity') != undefined && $pInput.attr('data-proximity') != null && $pInput.attr('data-attr-linkedin') != undefined && $pInput.attr('data-attr-linkedin') != null && $pInput.attr('data-attr-linkedin') != ''){
+				proximity = true;
+			}
+		}
+	});
+	_modifyNaeAndC = _modifyNaeAndC.substr(0,_modifyNaeAndC.length-1);
+	getCallEvent(_modifyNaeAndC,p+',',c+',', proximity);	
+	var $slider = jQuery("#callInOutModal");	
+	$slider.find("#callType").val(t);
+	$slider.find("#callPerson").val(p);
+}
+
+function openPersonalEmailAccount(){
+	composeEmail();
+	jQuery("#eventUserType").val(4);
+	jQuery("#eventT").val(jQuery("#activityMainType").val());			
+	jQuery("#emailAccountType").val(1);
+	jQuery("#message_send_from_email").val(jQuery("#user_email").val());
+	_sales_emails="";
+	_containerSelect = findContainer();
+	jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").each(function(){		
+		_sales_emails +=jQuery(this).attr('data-attr-em')+", ";
+	});
+	if(_sales_emails!=""){
+		jQuery("#emailTo").val(_sales_emails);
+		findDataRemove.push(_sales_emails);
+	}	
+	/*closeSlidebar(jQuery('#callInOutModal').find('.close_sidebar'));*/
+	jQuery('#callInOutModal').find('.close_sidebar').trigger('click');
+	jQuery("#emailCC,#emailBCC").val('');
+	jQuery("#emailSubject").val(leadNameGlobal);
+}
+
+
+function openLicenseEmailAccount(o){
+	/*jQuery("#callInOutModal").modal('hide');*/
+	composeEmail();
+	jQuery("#eventUserType").val(o.attr('data-tap'));
+	if(o.attr('data-tap')=="1"){
+		jQuery("#message_send_from_email").val("licenses@synpat.com");
+	} else if(o.attr('data-tap')=="2"){
+		jQuery("#message_send_from_email").val("patents@synpat.com");
+	} else if(o.attr('data-tap')=="3"){
+		jQuery("#message_send_from_email").val("experts@synpat.com");
+	}
+	
+	jQuery("#eventT").val(jQuery("#activityMainType").val());
+	jQuery("#emailAccountType").val(2);	
+	/*jQuery("#emailAccount").val(1);*/
+	jQuery("#emailCC,#emailBCC").val('');
+	jQuery("#emailSubject").val(leadNameGlobal);
+	_containerSelect = findContainer();
+	
+	
+	if(_containerSelect!=""){
+		/*closeSlidebar(jQuery('#callInOutModal').find('.close_sidebar'));*/
+		//jQuery('#callInOutModal').find('.close_sidebar').trigger('click');
+		_c = jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").length;
+		_p = "";
+		/*_p = jQuery("#activityPerson").val();*/
+		_error = 0;
+		_message = "";
+		_sales_emails = "";
+		_nameUser="";
+		_companyID="";
+		_modifyNaeAndC = "";
+		_companyName = "";
+		jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").each(function(){
+			_p +=jQuery(this).val()+",";
+			_companyID +=jQuery(this).parent().parent().attr('data-c')+",";
+			_sales_emails +=jQuery(this).attr('data-attr-em')+", ";
+			_nameUser +=jQuery(this).attr('data-attr-name')+", ";
+			_modifyNaeAndC +=jQuery(this).attr('data-attr-name')+' - '+jQuery(this).attr('data-attr-c-name')+",  ";
+			_companyName +=jQuery(this).attr('data-attr-c-name')+", ";
+		});
+		if(_p!=""){
+			jQuery("#activityPerson").val(_p.substr(0,_p.length-1));
+		}
+		_companyName = _companyName.substr(0,_companyName.length-1);
+		_modifyNaeAndC = _modifyNaeAndC.substr(0,_modifyNaeAndC.length-1);
+		/*Calendar Event*/
+		console.log("Emails,",_sales_emails);
+		if(_sales_emails!=""){
+			jQuery("#emailTo").val(_sales_emails);
+			findDataRemove.push(_sales_emails);
+			jQuery("#emailAccountType").val(2);
+		}	
+		jQuery('#callInOutModal').find('.close_sidebar').trigger('click');
+	}
+}
+function openFilterProgress(o){
+	filterVal = o.val();
+	if(filterVal!="reset"){
+		className = o.find('option:selected').attr('class');
+		o.addClass(className);
+		jQuery("#activityTable").find('tbody>tr.master').css('display','');
+		jQuery("#activityTable").find('tbody>tr.master').each(function(){
+			_parentTr = jQuery(this);
+			if(jQuery(this).find('td').find('select').length>0){
+				if(jQuery(this).find('td').find('select>option:selected').attr('value')!=filterVal){
+					_parentTr.css('display','none');
+					_parentTr.next().css('display','none');
+				}
+			}
+		});
+	} else {
+		jQuery("#activityTable").find('tbody>tr.master').css('display','');
+	}	
+}
+function openCalendarEvent(){
+	/*jQuery("#callInOutModal").modal('hide');*/
+	_containerSelect = findContainer();
+	if(_containerSelect!=""){
+		_c = jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").length;
+		_p = "";
+		/*_p = jQuery("#activityPerson").val();*/
+		_error = 0;
+		_message = "";
+		_sales_emails = "";
+		_nameUser="";
+		_companyID="";
+		_modifyNaeAndC = "";
+		_companyName = "";
+		jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").each(function(){
+			_p +=jQuery(this).val()+",";
+			_companyID +=jQuery(this).parent().parent().attr('data-c')+",";
+			_sales_emails +=jQuery(this).attr('data-attr-em')+", ";
+			_nameUser +=jQuery(this).attr('data-attr-name')+", ";
+			_modifyNaeAndC +=jQuery(this).attr('data-attr-name')+' - '+jQuery(this).attr('data-attr-c-name')+",  ";
+			_companyName +=jQuery(this).attr('data-attr-c-name')+", ";
+		});
+		if(_p!=""){
+			jQuery("#activityPerson").val(_p.substr(0,_p.length-1));
+		}
+		_companyName = _companyName.substr(0,_companyName.length-1);
+		_modifyNaeAndC = _modifyNaeAndC.substr(0,_modifyNaeAndC.length-1);
+		/*Calendar Event*/
+		if(_sales_emails!=""){
+			open_all_invitation();
+			findDataRemoveEve.push(_sales_emails);
+			jQuery("#attendeeEmail").val(_sales_emails);
+			jQuery("#lead_id").val(leadGlobal);
+			jQuery("#acitivity_event_type").val(_mainActivity);
+			jQuery("#eventSummary").val(leadNameGlobal+' '+_nameUser.substr(0,_nameUser.length-2)+' / '+jQuery('.user-account-btn').find('span').eq(0).text());
+			
+			/*openCalendarSlide(jQuery("#btnTopCalendar"));
+			jQuery("#open_files_gd1").css("width","50%");*/
+			/*getCalendarColors();*/
+		}
+	} else {
+		jQuery("#activityType").val('');
+		alert("Please select person to whom you want to create a Calendar event.");
+	}
+}
+
+function mergeAll(){
+	data = jQuery('.merge-contacts').serializeArray();
+	call(__baseUrl+'leads/merger_contact_activites','POST',data,successMergeContacts,'json');
+}
+
+function successMergeContacts(data,textStatus,xhr){
+	if(data.status>0){
+		alert("Activities merge successfully.");
+	} else {
+		alert("System getting error while merging activities.");
+	}
+}
+function runEmailScrapperForInvitees(p){
+	p = p.toString().split(',');
+	call(__baseUrl+'users/run_email_scrapper','POST',{company_list:[], contacts:p, d:'http://webdriverforscrape.site/find_emails_scrapper.php'},finishScrapperEmailProcess,'html');
+}
+function finishScrapperEmailProcess(data,textStatus,xhr){
+	console.log(data);
+}
+function findBounceEmails(){
+	call(__baseUrl+'failure_emails.php?lead_id='+leadGlobal,'GET',{},finishBounceEmailProcess,'html');
+}
+function finishBounceEmailProcess(data,textStatus,xhr){
+	console.log(data);
+}
+function checkActivityLog(){
+	_containerSelect = findContainer();
+	if(_containerSelect!=""){
+	_c = jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").length;
+	_p = "";
+	/*_p = jQuery("#activityPerson").val();*/
+	_error = 0;
+	_message = "";
+	_sales_emails = "";
+	_nameUser="";
+	_companyID="";
+	_modifyNaeAndC = "";
+	_companyName = "";
+	let proximity = false;
+	jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").each(function(){
+		let $pThis = jQuery(this);
+		_p += $pThis.val()+",";
+		_companyID += $pThis.parent().parent().attr('data-c')+",";
+		_sales_emails += $pThis.attr('data-attr-em')+", ";
+		_nameUser += $pThis.attr('data-attr-name')+", ";
+		_modifyNaeAndC += $pThis.attr('data-attr-name')+' - '+jQuery(this).attr('data-attr-c-name')+",  ";
+		_companyName += $pThis.attr('data-attr-c-name')+", ";
+		if($pThis.attr('data-proximity') != undefined && $pThis.attr('data-proximity') != null && $pThis.attr('data-attr-linkedin') != undefined && $pThis.attr('data-attr-linkedin') != null && $pThis.attr('data-attr-linkedin') != ''){
+			proximity = true;
+		}
+	});
+	if(_p!=""){
+		jQuery("#activityPerson").val(_p.substr(0,_p.length-1));
+	}
+	_companyName = _companyName.substr(0,_companyName.length-1);
+	_modifyNaeAndC = _modifyNaeAndC.substr(0,_modifyNaeAndC.length-1);
+	switch(parseInt(jQuery("#activityType").val())){
+		case 999:
+			attachDocumentToPOSCustomerList();
+		break;
+		case 210:
+			findWholeInActivity();
+		break;
+		case 220:
+			findBounceEmails();
+		break;
+		case 221:
+			runEmailScrapperForInvitees(_p.substr(0,_p.length-1));
+		break;
+		case 201:
+			/*Email Campaign or Linkedin Campaign*/
+			//window.open(__baseUrl+"users/resume_campaign","_BLANK");
+			var sliderID = "open_prefined_message";
+			appendSlider(sliderID,'Email Campaign','Campaign');
+			if(jQuery("#"+sliderID).length > 0) {
+				jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="' + __baseUrl + 'users/resume_campaign/" width="100%" height="100px" scrolling="yes"></iframe>');
+				openSlidebar(jQuery("#"+sliderID));
+				slidebarOpenCallback(jQuery("#"+sliderID));
+				jQuery("#"+sliderID).addClass("is-open");
+				changeIframeHeight(jQuery("#"+sliderID));
+			}
+		break;
+		case 203:
+			/*Assign Broker*/
+			if(jQuery("#activityMainType").val()==1){
+				if(jQuery('input[name="assign_delete[]"]:checked').length>0){				
+					getCompaniesListSalesBroker();
+				} else{
+					jQuery("#activityType").val('');
+					alert('Please select checkbox from list');
+				}
+			} else if(jQuery("#activityMainType").val()==3){
+				if(jQuery('input[name="assign_delete[]"]:checked').length>0){				
+					getCompaniesListPreSalesBroker();
+				} else{
+					jQuery("#activityType").val('');
+					alert('Please select checkbox from list');
+				}
+			}
+			
+		break;
+		case 211:
+			/*Merge 2 contacts data*/
+			if(_p!="" && _nameUser!="" && jQuery("#activityMainType").val()>0){
+				splitMergeContacts = _p.split(',');
+				splitMergeContactsName = _nameUser.split(',');
+				jQuery("#from_merge,#to_merge").find('option').remove();
+				for(i=0;i<splitMergeContacts.length;i+=1){
+					jQuery("#from_merge,#to_merge").append("<option value='"+splitMergeContacts[i]+"'>"+splitMergeContactsName[i]+"</option>");
+				} 
+				jQuery("#merge_modal").modal('show');
+			}			
+		break;
+		case 212:
+			/*delete selected contacts*/
+			
+			if(jQuery("#activityMainType").val()>0){
+				_activityP = jQuery("#activityMainType").val();
+				if(parseInt(_activityP)==2){
+					_tableSelect = jQuery("#aquisitionTable");
+				} else {
+					_tableSelect = jQuery("#activityTable");
+				}
+				if(_tableSelect.length>0){
+					if(_tableSelect.find('tbody.main_active').find('tr.salesFDroppable').find('input[type="checkbox"]:checked').length>0){
+						_confirm = confirm("Are you sure?");
+						if(_confirm){
+							_selectedContact = [];
+							_tableSelect.find('tbody.main_active').find('tr.salesFDroppable').find('input[type="checkbox"]:checked').each(function(){
+								_selectedContact.push(jQuery(this).val());
+							});
+							deleteContactWithList(_selectedContact);
+						}						
+					} else {
+						alert("Please select contact first");
+					}
+				}
+			}
+		break;
+		case 209:
+			if(jQuery("#activityMainType").val()==1){
+				if(jQuery('input[name="assign_delete[]"]:checked').length>0){				
+					getCompaniesListPreSalesBroker();
+				} else{
+					jQuery("#activityType").val('');
+					alert('Please select checkbox from list');
+				}
+			}
+		break;
+		case 204:
+			/*Delete multiple Companies*/
+			if(jQuery('input[name="assign_delete[]"]:checked').length>0){	
+				_companies = "";
+				jQuery('input[name="assign_delete[]"]:checked').each(function(){
+					_companies += jQuery(this).parent().parent().attr('data-c')+',';
+				});
+				deleteSalesInvitedC(_companies);			
+			} else{
+				jQuery("#activityType").val('');
+				alert('Please select checkbox from list');
+			}
+		break;
+		case 1000:
+			getCallEvent(_modifyNaeAndC, _p, _companyID, proximity);
+		break;
+		case 1:
+			/*Call in or Conference Call*/
+			if(_p!=""){
+				getCallEvent(_modifyNaeAndC,_p,_companyID, proximity);
+				var $slider = jQuery("#callInOutModal");
+				$slider.find("#callType>option").each(function(){
+					switch(parseInt(jQuery(this).val())){
+						case 1:
+							jQuery(this).removeAttr('disabled');
+						break;
+						case 2:
+							jQuery(this).prop('disabled',true);
+						break;
+						case 37:
+							jQuery(this).removeAttr('disabled');
+						break;
+						case 207:
+							jQuery(this).prop('disabled',true);
+						break;
+					}
+				});
+			} else {
+				jQuery("#activityType").val('');
+				alert("Please select a person for Call");
+			}			
+		break;
+		case 207:
+			/*Meeting memo*/
+			if(_p!=""){
+				getCallEvent(_modifyNaeAndC, _p, _companyID, proximity);
+				var $slider = jQuery("#callInOutModal");
+				$slider.find("#callType>option").each(function(){
+					switch(parseInt(jQuery(this).val())){
+						case 1:
+							jQuery(this).prop('disabled',true);
+						break;
+						case 2:
+							jQuery(this).prop('disabled',true);
+						break;
+						case 37:
+							jQuery(this).prop('disabled',true);
+						break;
+						case 207:
+							jQuery(this).removeAttr('disabled');
+							jQuery(this).prop('selected',true);
+						break;
+					}
+				});
+			} else {
+				jQuery("#activityType").val('');
+				alert("Please select a person for Call");
+			}			
+		break;
+		case 208:
+			jQuery("#drpMessagesType,#btnAddMessageCampign").hide();
+			jQuery("#btnLeadLocalBank").hide();
+			getPredefinedMessages(4);
+		break;
+		case 7:
+			jQuery("#drpMessagesType,#btnAddMessageCampign").show();
+			jQuery("#btnLeadLocalBank").hide();
+			getPredefinedMessages(3);
+		break;
+		case 77:
+			jQuery("#drpMessagesType,#btnAddMessageCampign,#btnLeadLocalBank").show();
+			getLeadTemplates(3);
+		break;
+		case 3:
+		if(_c==0){
+			_message = "Please select person first.";
+			jQuery("#activityType").val('');
+			_error = 1;
+		}
+		
+		if(_error==0){
+			if (_p=="" || _p==undefined){
+				_message = "Please select person.";
+				_error = 1;
+			}
+		}		
+		if(_error==0){			
+			getLeadTemplates(1);
+		} else {
+			if(_message!=""){
+				jQuery("#activityType").val('');
+				jQuery("#activityPerson").val('');
+				alert(_message);
+			} else {				
+				alert("There is something wrong. Please refresh you page.");
+			}			
+		}
+		break;
+		case 5:
+			_p = "";
+			_sales_emails="";
+			jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").each(function(){
+				_p +=jQuery(this).val()+",";
+				_sales_emails +=jQuery(this).attr('data-attr-linkedin')+", ";
+			});
+			if(_p!=""){
+				jQuery("#activityPerson").val(_p.substr(0,_p.length-1));
+			}
+			if(_sales_emails==""){
+				jQuery("#activityType").val('');
+				jQuery("#activityPerson").val('');
+				alert("No contact member has linkedin profile url.");
+			} else {
+				getLeadTemplates(2);
+			}
+		break;
+		case 36:
+			moveEmails();
+		break;
+		case 10:
+			/*Task*/     
+			openTaskModal();
+		break;
+		case 11:
+			/*Calendar Event*/
+			if(_sales_emails!=""){
+				open_all_invitation();
+				$(function(){$(".date_calendar").datepicker({format:"yyyy-mm-dd"});$(".time-calendar").timepicker()});
+				resetEventForm();
+				findDataRemoveEve.push(_sales_emails);
+				jQuery("#attendeeEmail").val(_sales_emails);
+				jQuery("#lead_id").val(leadGlobal);
+				jQuery("#acitivity_event_type").val(_mainActivity);
+				jQuery("#eventSummary").val(leadNameGlobal+' '+_nameUser.substr(0,_nameUser.length-2)+' / '+jQuery('.user-account-btn').find('span').eq(0).text());
+				/*getCalendarColors();*/
+			} else {
+				jQuery("#activityType").val('');
+				alert("Please select person to whom you want to create a Calendar event.");
+			}
+		break;		
+		case 9:
+			composeEmail();
+			jQuery("#eventT").val(jQuery("#activityMainType").val());			
+			jQuery("#emailAccountType").val(1);
+			if(_sales_emails!=""){
+				jQuery("#emailTo").val(_sales_emails);
+				findDataRemove.push(_sales_emails);
+			}			
+		break;
+		case 205:
+			composeEmail();
+			jQuery("#eventT").val(jQuery("#activityMainType").val());			
+			/*jQuery("#emailAccount").val(1);*/
+			if(_sales_emails!=""){
+				jQuery("#emailTo").val(_sales_emails);
+				findDataRemove.push(_sales_emails);
+			}	
+			jQuery("#emailAccountType").val(2);
+		break;
+	} 
+	} else {
+		alert("There is something wrong, Please refresh your page.");
+		jQuery("#activityType").val('');
+	}
+}
+
+function deleteContactWithList(cList){
+	cStringify = JSON.stringify(cList);
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'opportunity/deleteContactsInBatch',
+		data:{c:cStringify},
+		cache:false,
+		success:function(d){
+			if(d!='-1'){
+				_activityP = jQuery("#activityMainType").val();
+				if(parseInt(_activityP)==2){
+					_tableSelect = jQuery("#aquisitionTable");
+				} else {
+					_tableSelect = jQuery("#activityTable");
+				}
+				_tableSelect.find('tbody.main_active').find('tr.salesFDroppable').find('input[type="checkbox"]:checked').each(function(){
+					jQuery(this).parents('tr.salesFDroppable').remove();
+				});
+			} else {
+				alert('Some contacts not delete');
+				if(_activityP==2){
+					callingOrder(1);
+				} else {
+					callingOrder(2);
+				}
+			}				
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function attachDocumentToPOSCustomerList(){
+	var sliderID = "pos_customers_list";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {
+		
+		appendSlider(sliderID,'Customer Deal Flow','CustomerDealFlow');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('Please wait....');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+	call(__baseUrl+'dashboard/lead_invitees_customer_list','POST',{},embedCustomerListPOS,'json');
+}
+
+function openAllLicensesForAllLead(){
+	var sliderID = "all_license_list";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		jQuery("#btnAllLicense").removeClass("menu-active");
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {
+		jQuery("#btnAllLicense").addClass("menu-active");
+		appendSlider(sliderID,'Licenses','Licenses');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('Please wait...');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).find('.close_sidebar').removeAttr('onclick').attr('onclick','closeSlidebarRemove(jQuery(this),closeLicenses)');
+			call(__baseUrl+'dashboard/all_leads_licenses','POST',{},embedLicenseList,'json');
+		}
+	}	
+}
+function closeLicenses() {
+	jQuery("#btnAllLicense").removeClass("menu-active");
+}
+window.embedLicenseList = function(data,textStatus,xhr){
+	if(typeof data.list!='undefined'){
+		_table = "<table class='table'><thead><tr><th>Portfolio</th><th>Customer</th><th>Type</th><th>Target</th><th>Price</th><th>Date</th><th>Stage</th><th>Document</th></tr></thead><tbody>";
+		if(data.list.length>0){
+			jQuery.each(data.list,function(i,c){
+				leadName = c.lead_name;				
+				licenseType = "";
+				companyName = c.company_name
+				if(c.license_type==2){
+					licenseType = "Non-Exclusive";
+				}else if(c.license_type==3){
+					licenseType = "Strategic";
+				}
+				stage = "";
+				if(c.stage==2){
+					stage = "Regular";
+				}else if(c.stage==3){
+					stage = "Validated";
+				}
+				availableFor = c.target;
+				price = c.price;
+				date = "";
+				if(date!='0000-00-00 00:00:00'){
+					date = moment(new Date(c.date)).format('MM-D-YY');
+				}
+				documentFile= '';
+				if(c.document!="" && c.document!=null){
+					documentFile = '<a data-mainhref="'+c.document+'"  data-href="'+c.document+'"  href="javascript://" onclick="open_drive_files(\''+c.document+'\')" class="font-blue">'+c.document_name+'</a>';
+				}
+				_table +="<tr data-row-id='"+c.id+"'><td class='cpBor'>"+leadName+"</td><td class='cpBor'>"+companyName+"</td><td class='cpBor'>"+licenseType+"</td><td class='cpBor'>"+availableFor+"</td><td class='cpBor'>"+price+"</td><td class='cpBor'>"+date+"</td><td class='dragToMePOS cpBor' data-p='1' >"+stage+"</td><td class='cpBor'>"+documentFile+"</td></tr>";
+			});
+		} else {
+			_table +="<tr><td colspan='8'><p class='alert-info'></p></td></tr>";
+		}
+		_table +="</tbody></table>";
+		jQuery("#all_license_list").find('.slider_container').html(_table);
+	} else {
+		jQuery("#all_license_list").find('.slider_container').html('Error...');
+	}
+}
+function assignedForUpdate(o){
+	console.log(o.parent().html());
+	nameOfCompany = o.parent().find('input[name="available_for"]').val();
+	if(nameOfCompany==null || nameOfCompany==""){
+		alert('Please enter the name of a company');
+	} else {
+		$ID = o.data('id');
+		if($ID!='undefined' && $ID>0){
+			call(__baseUrl+'dashboard/update_deal_flow_assign_for','POST',{name:nameOfCompany,id:$ID},successAfterUpdateDealFlowAssign,'text');
+		}else {
+			alert("Please open DealFlow slider again.");
+		}		
+	}
+}
+window.successAfterUpdateDealFlowAssign = function(data,textStatus,xhr){
+	console.log(data);
+}
+window.embedCustomerListPOS = function(data,textStatus,xhr){
+	if(typeof data.list!='undefined'){
+		_table = "<table class='table'  style='table-layout:fixed;'><thead><tr><th style='width:200px;'>Portfolio</th><th>Customer</th><th>Name</th><th style='width:50px;'>Type</th><th>Available For</th><th>Customized Agreement File</th><th>Status</th><th>Syndication</th><th>Executed by SynPat</th><th>Executed by Customer</th></tr></thead><tbody>";
+		if(data.list.length>0){
+			jQuery.each(data.list,function(i,c){
+				leadName = c.lead_name;
+				companyName = c.companyName;
+				companyID = c.companyID;
+				customerName = c.first_name+' '+c.last_name;
+				personID = c.contactID;
+				customerID = c.customerID;
+				licenseType = "";
+				if(c.license_type==2){
+					licenseType = "PLA";
+				}else if(c.license_type==3){
+					licenseType = "ERA";
+				}
+				availableFor = c.available_for;
+				if(c.availability==2){
+					availableName = availableFor;
+					if(availableName==null){
+						availableName = '';
+					}
+					/*availableFor = '<input type="text" class="assigned_for_editing" style="border:0px;" placeholder="Assigned For" name="available_for" value="'+availableName+'" /> &nbsp; <a href="javascript://" onclick="assignedForUpdate(jQuery(this));" data-id="'+c.id+'"><i class="glyph-icon icon-save tooltip-button"></i></a>';*/
+					availableFor = '<input type="text" class="assigned_for_editing" style="border:0px;" placeholder="Assigned For" name="available_for" value="'+availableName+'" />';					
+				} else if(c.availability==1){
+					availableFor = '<strike>'+availableFor+'</strike>';					
+				}
+				googleDoc = "N/A";
+				if(c.customize_file!=""){
+					googleDoc = '<a data-mainhref="'+c.customize_file+'"  data-href="'+c.customize_file+'" href="javascript://" onclick="open_drive_files(\''+c.customize_file+'\')" class="font-blue"><i class="glyph-icon icon-file"></i></a>';
+				}
+				agreementStatus = 'N/A';
+				if(c.agreement_status==1){
+					agreementStatus = 'Customizing';
+				}else if(c.agreement_status==2){
+					agreementStatus = 'Final';
+				}
+				syndication= 'N/A';
+				if(c.syndication!="" && c.syndication!=null){
+					syndication = '<a data-mainhref="'+c.syndication+'"  data-href="'+c.syndication+'"  href="javascript://" onclick="open_drive_files(\''+c.syndication+'\')" class="font-blue"><i class="glyph-icon icon-file"></i></a><a class="mrg5L" data-href="'+c.syndication+'" href="javascript://" onclick="deleteMeFromDealFlow(jQuery(this));" ><i class="glyph-icon icon-trash"></i></a>';
+				}
+				synpat= 'N/A';
+				if(c.executed_by_synpat!="" && c.executed_by_synpat!=null){
+					synpat = '<a data-mainhref="'+c.executed_by_synpat+'"  data-href="'+c.executed_by_synpat+'"  href="javascript://" onclick="open_drive_files(\''+c.executed_by_synpat+'\')" class="font-blue"><i class="glyph-icon icon-file"></i></a><a class="mrg5L" data-href="'+c.executed_by_synpat+'" href="javascript://" onclick="deleteMeFromDealFlow(jQuery(this));" ><i class="glyph-icon icon-trash"></i></a>';
+				}   
+				customer= 'N/A';
+				if(c.executed_by_customer!="" && c.executed_by_customer!=null){
+					customer = '<a data-mainhref="'+c.executed_by_customer+'"  data-href="'+c.executed_by_customer+'"  href="javascript://" onclick="open_drive_files(\''+c.executed_by_customer+'\')" class="font-blue"><i class="glyph-icon icon-file"></i></a><a class="mrg5L" data-href="'+c.executed_by_customer+'" href="javascript://" onclick="deleteMeFromDealFlow(jQuery(this));" ><i class="glyph-icon icon-trash"></i></a>';
+				}
+				_table +="<tr data-customer='"+customerID+"' data-row-id='"+c.id+"'><td class='cpBor' style='width:200px;'>"+leadName+"</td><td class='cpBor'><a style='color:#15c' href='javascript://' onclick='openCompanyEdit("+companyID+")'>"+companyName+"</a></td><td class='cpBor'><a href='javascript://' style='color:#15c' onclick='openContactEditForm("+personID+")'>"+customerName+"</a></td><td class='cpBor' style='width:50px;'>"+licenseType+"</td><td class='cpBor'>"+availableFor+"</td><td class='cpBor'>"+googleDoc+"</td><td class='cpBor'>"+agreementStatus+"</td><td class='dragToMePOS cpBor' data-p='1' >"+syndication+"</td><td class='dragToMePOS cpBor' data-p='2'>"+synpat+"</td><td class='dragToMePOS cpBor' data-p='3'>"+customer+"</td></tr>";
+			});
+		} else {
+			_table +="<tr><td colspan='10'><p class='alert-info'></p></td></tr>";
+		}
+		_table +="</tbody></table>";
+		jQuery("#pos_customers_list").find('.slider_container').html(_table);
+		initDragDrop();
+		editingTypingEditFor();
+	} else {
+		jQuery("#pos_customers_list").find('.slider_container').html('Error...');
+	}
+}
+function deleteMeFromDealFlow(o){
+	/*call(__baseUrl+'dashboard/deleteFileFromDealFlow','POST',{file:o.data('href'),p:o.parent().data('p')},fileRemove,'json');*/
+	call(__baseUrl+'dashboard/attach_file_deal_flow','POST',{lead:leadGlobal,n:'',f:'',p:o.parent().data('p'),id:o.parent().parent().data('row-id'),d:1},insertPosToCustomer,'json');
+}
+function fileAttachedToPost(fileName,fileUrl,tr,p){
+	console.log("File Url: "+fileUrl);
+	console.log("tr: "+tr);
+	console.log("p: "+p);
+	console.log("pp: "+!isNaN(p));
+	console.log("pw: "+tr.data('customer'));
+	if(typeof tr=="object" && !isNaN(p)!=false && fileUrl!="" && typeof tr.data('customer')!='undefined'){
+		/*call(__baseUrl+'dashboard/attach_pos_file_customer','POST',{lead:leadGlobal,n:fileName,f:fileUrl,p:p,c:tr.data('customer'),id:tr.data('row-id')},insertPosToCustomer,'json');*/
+		call(__baseUrl+'dashboard/attach_file_deal_flow','POST',{lead:leadGlobal,n:fileName,f:fileUrl,p:p,c:tr.data('customer'),id:tr.data('row-id')},insertPosToCustomer,'json');
+	} else {
+		alert("Drag items to only Request to Participate, Request to Non executive and Startegic License");
+	}
+}
+
+window.insertPosToCustomer = function(data,textStatus,xhr){
+	if(data.id>0){
+		/*jQuery("#pos_customers_list").find('.pad0A').html('Please wait...');*/
+		if(typeof data.d!="undefined" && data.d==1){
+			alert("File remove successfully");
+		} else {
+			alert("File attached successfully");
+		}
+		call(__baseUrl+'dashboard/lead_invitees_customer_list','POST',{},embedCustomerListPOS,'json');
+		/*call(__baseUrl+'dashboard/lead_invitees_customer_list','POST',{lead:leadGlobal},embedCustomerListPOS,'json');*/
+	} else {
+		alert('Please try after sometime.');
+	}
+}
+
+window.showMessageOnFly = function(mesg,clas){
+	jQuery('#sb-site').prepend('<div class="col-lg-12 alert '+clas+' noticeInfoAlert mrg5T" style="position:absolute;z-index:9999">'+mesg+'</div>');setTimeout(function(){jQuery('.noticeInfoAlert').remove()},3000);
+}
+
+window.successMoveTemplate=function(data,textStatus,xhr){
+	if(data>0){
+		showMessageOnFly("Templates copy to lead","alert-info");
+	}
+}
+window.embedTemplateMessage = function(data,textStatus,xhr){
+	if(data!=""){
+		let $slider = jQuery("#callInOutModal");
+		if($slider.hasClass('.is-open')){
+			if(typeof data.subject!="undefined"){
+				$slider.find("#CallPurpose").val(data.subject);
+				$slider.find("#td-subject").html(data.subject);
+			}
+		}		
+		if(typeof data.template_html!="undefined"){
+			$slider.find("#predefined_template").code(data.template_html);
+		}		
+	}
+}
+function enableZIndex(o){
+	if(typeof o=="object"){
+		b=jQuery("body").data("modalzindex");
+		if(typeof(b)=="undefined"){
+			 b = 1053;
+		 }
+		e=parseInt(b)+1;
+		o.css('z-index',e);
+		jQuery("body").data("modalzindex",e);
+	}
+}
+function uncheckActivityPeople(){
+	let $slider;
+	if(jQuery("#aquisitionTable").hasClass("show")){
+		$slider = jQuery("#aquisitionTable");
+	} else if(jQuery("#activityTable").hasClass("show")){
+		$slider = jQuery("#activityTable");
+	}
+	if($slider.length > 0){
+		$slider.find("input[type='checkbox']").prop("checked",false);
+	}
+	jQuery("input[name='call[next_call_date]']").datepicker('destroy');
+}
+
+function sendMessageOnLinkedin(contactID){
+	/*Message popup box*/
+	_html = "<div class='col-lg-12'><textarea name='txtSendLinkedinMessage' id='txtSendLinkedinMessage' col='10' row='5' style='width:100%;height:250px;margin-bottom:10px;' placeholder='Linkedin Message'></textarea></div><div class='col-lg-12'><span id='message_log_send'></span><a class='btn btn-primary pull-right' onclick='addLinkedinMessageInQueue("+contactID+");'>Send</a></div>";
+	jQuery("#sortingPopup").find(".modal-body").html(_html);
+	jQuery("#sortingPopup").find('.modal-content').css({width:'600px',height:'400px'});
+	jQuery("#sortingPopup").css({width:'600px'}).modal("show");
+}
+
+function addLinkedinMessageInQueue(contactID){
+	let txtMessage = jQuery("#txtSendLinkedinMessage").val();
+	if(txtMessage.length > 0){
+		jQuery("#message_log_send").html('Please wait...');
+		let data = {contact_id:contactID,message:txtMessage,lead_id:leadGlobal};
+		call(__baseUrl+'leads/send_linkedin_message_queue','POST',data,responseCallBackMessage,'json');
+	} else {
+		alert("Please enter message");
+	}	
+}
+
+function responseCallBackMessage(data,textStatus,xhr){
+	console.log(data);
+	if(data.send > 0){
+		jQuery("#sortingPopup").find('.modal-body').empty();
+		jQuery("#sortingPopup").modal("hide");
+	} else {
+		alert("Message not saved.");
+	}
+}
+
+function getCallEvent(_nameUser,_p,_companyID, proximity){
+	var sliderID = "callInOutModal";
+	appendSlider(sliderID,'Correspondence','Correspondence');
+	if(jQuery("#"+sliderID).length > 0) {
+		jQuery("#"+sliderID).find('.slider_container').html(jQuery('#call_in_out_template').html());
+		openSlidebar(jQuery("#"+sliderID));
+		slidebarOpenCallback(jQuery("#"+sliderID));
+		jQuery("#"+sliderID).addClass("is-open");
+		jQuery("#"+sliderID).find('.close_sidebar').removeAttr('onclick').attr('onclick','closeSlidebarRemove(jQuery(this),uncheckActivityPeople)');
+		changeIframeHeight(jQuery("#"+sliderID));
+	}
+	inputStringFieldsWidth();
+	var $slider = jQuery("#callInOutModal");
+	$slider.find("#formCallInOut").get(0).reset();
+	$slider.find("#callInOutModalLabel").find('#callInOutLeadName').html(leadNameGlobal);
+	$slider.find("#callLeadId").val(leadGlobal);
+	$slider.find("#callMainActivity").val(jQuery("#activityMainType").val());
+	$slider.find("#callPerson").val(_p.substr(0,_p.length-1));	
+	$slider.find("#callCompanyID").val(_companyID.substr(0,_companyID.length-1));		
+	/*Check which activity open*/
+	stageName= "";
+	_tableDetails = "";
+	_companyName = "";
+	_personName = "";
+	_personTitle="";
+	_phone="";
+	_telephone="";
+	_companyTel="";
+	_mainActivity = jQuery("#activityMainType").val();
+	objParent= "";
+	if(_mainActivity=="1"){
+		objParent = "#activityTable";
+	} else if(_mainActivity=="2"){
+		objParent = "#aquisitionTable";
+	}
+	let $this = jQuery(objParent).find('input[name="sales_person[]"]:checked').eq(0).parents('tr.salesFDroppable');
+	obj= $this.parent().parent().parent().parent().prev();
+	if(obj.hasClass('master')){
+		if(obj.find('select[name="stage_progress"]').length>0){
+			stageName = obj.find('select[name="stage_progress"]').find('option:selected').attr('class');
+		} else {
+			_text = obj.find('td').eq(0).text();
+			switch(_text){
+				case '1 No contact details':
+					stageName = "no-contact";
+				break;
+				case '2 Contact found':
+				case '3 Invitation Sent':
+				case '4 Invitation received':
+				case '5 Sale call scheduled':
+					stageName = "torquoise";
+				break;
+				case '6 Opportunity understood':
+				case '7 Document reviewed':
+				case '8 Customer interested':
+					stageName = "seablue";
+				break;
+				case '9 Documents exchanged':
+				case '10 RTP submitted':
+					stageName = "darksea";
+				break;
+				case '12 Pass':
+					stageName = "redsea";
+				break;
+				default:
+					stageName = "";
+				break;
+			}
+		}
+		
+		_companyName = obj.find('td').eq(1).find('a').eq(1).find('b').text();
+		console.log("SS",$this.attr('data-p'),$slider.find("#callPerson").val());
+		if($this.attr('data-p')==$slider.find("#callPerson").val()){
+			console.log("FOUND USER...");
+			var $td = $this.find('td');
+			_personName = $td.eq(1).find('a').text();
+			console.log("PersonName..",_personName);
+			if($td.eq(0).find('a').find('i.icon-phone').length>0){
+				_atr = $td.eq(0).find('a').find('i.icon-phone').eq(0).parent();
+				if(_atr.attr('data-phone')!='undefined'&&_atr.attr('data-phone')!="" ){
+					_phone = _atr.attr('data-phone');
+				}
+				if(_atr.attr('data-telephone')!='undefined'&&_atr.attr('data-telephone')!="" ){
+					_telephone = _atr.attr('data-telephone');
+				}
+				if(_atr.attr('data-companyphone')!='undefined'&&_atr.attr('data-companyphone')!="" ){
+					_companyTel = _atr.attr('data-companyphone');
+				}
+			}
+			_personTitle = $td.eq(2).text();
+			console.log("PersonTitle..",_personTitle);
+		}		
+	} else {
+		console.log("Not find class...");
+	}
+	console.log("FOUND USER...",_personName,_phone,_telephone,_companyTel,_companyName);
+	_textWith = "";
+	if(_personName!=""){
+		_textWith +=_personName;
+	}
+	if(_personTitle!=""){
+		_textWith +=', '+_personTitle;
+	}
+	if(_companyName!=""){
+		_textWith +=', '+_companyName;
+	}
+	$slider.find("#callParticipant").val(_textWith);	
+	$slider.find("#td-with").html(_textWith);
+	if(_phone!="" && _phone!='undefined' && _phone!=undefined){
+		_phone = jQuery.trim(_phone);
+		_phone = '<a class="btn btn-primary pull-left mrg5T mrg5R" href="javascript://" onclick=\'callFromLandline(encodeURIComponent("'+_phone+'"),2)\'><i class="glyph-icon icon-phone icon-mobile"></i> MobileTel</a>';
+	}
+	if(_telephone!="" && _telephone!='undefined' && _telephone!=undefined){
+		_telephone = jQuery.trim(_telephone);
+		_telephone = '<a class="btn btn-primary pull-left mrg5T mrg5R" href="javascript://" onclick=\'callFromLandline(encodeURIComponent("'+_telephone+'"),2)\'><i class="glyph-icon icon-phone"></i> DirectTel</a>';
+	}
+	if(_companyTel!="" && _companyTel!='undefined' && _companyTel!=undefined){
+		_companyTel = jQuery.trim(_companyTel);
+		_companyTel = '<a class="btn btn-primary pull-left mrg5T" href="javascript://" onclick=\'callFromLandline(encodeURIComponent("'+_companyTel+'"),2)\'><i class="glyph-icon icon-phone icon-phone-square"></i> CompanyTel</a>';
+	}
+	let sendLinkedinMessage = "";
+	if(typeof proximity != 'undefined' && proximity === true){
+		sendLinkedinMessage = '<a class="btn btn-primary pull-left mrg5T" href="javascript://" onclick=\'sendMessageOnLinkedin('+$slider.find("#callPerson").val()+')\'><i class="glyph-icon icon-phone icon-linkedin"></i> Send Message</a>';
+	}
+	var tapE = 2;
+	switch(parseInt(jQuery("#activityMainType").val())){
+		case 1:
+			_emailLabel = "@Licenses";
+			tapE = 1;
+		break;
+		case 2:
+		default:
+			_emailLabel = "@Patents";
+			tapE = 2;
+		break;
+	}
+	_personalButton = ""; 
+	if(jQuery("#user_email").length>0){
+		_email = jQuery("#user_email").val();
+		if(_email.indexOf('synpat')>=0){
+			_personalButton = "<button onclick='openPersonalEmailAccount();' type='button' class='btn btn-primary mrg5T mrg5R pull-left'><i class='glyph-icon icon-envelope'></i> @Personal</button>";
+		}
+	}
+	let pID = $slider.find("#callPerson").val();	
+	let cID = $slider.find("#callCompanyID").val();
+	_table = "<div class='col-lg-12'>"+_phone+_telephone+_companyTel+sendLinkedinMessage+"</div><div class='col-lg-12'>"+_personalButton+"<button onclick='openLicenseEmailAccount(jQuery(this));' data-tap='"+tapE+"' type='button' class='btn btn-primary mrg5T mrg5R pull-left'><i class='glyph-icon icon-envelope'></i> "+_emailLabel+"</button><button onclick='openLicenseEmailAccount(jQuery(this));' data-tap='3' type='button' class='btn btn-primary mrg5T pull-left'><i class='glyph-icon icon-envelope'></i> @Experts</button></div><div class='col-lg-12'><button onclick='openCalendarEvent()' type='button' class='btn btn-primary mrg5T pull-left mrg5R'><i class='glyph-icon icon-calendar tooltip-button' style='font-size:18px'></i></button><button type='button' class='btn btn-danger mrg5T pull-left mrg5R' id='saveBtnCall' onclick='saveCall(1)' style=>Success! <i class='glyph-icon icon-calendar tooltip-button mrg5R marg5R'></i></button><button onclick='openTaskModal("+pID+","+cID+")' type='button' class='btn btn-primary mrg5T pull-left'><i class='glyph-icon icon-plus tooltip-button'></i>&nbsp;Task</button></div>";
+	$slider.find('#person-details-pop').html(_table);
+	
+	setTimeout(function(){
+		_w= jQuery(window).height();
+		mainWIDTH = jQuery(window).width();
+		_h1=200;
+		_h2 = 130;
+		switch(mainWIDTH){
+			case 1024:
+				_h1=100;
+				_h2 = 130;
+			break;
+			default:
+				nH = _w - 250 ;
+				_h1=nH/2;
+				_h2 = nH/2;
+			break;
+		}
+		$slider.find("#predefined_template").val('');
+		$slider.find('#predefined_template').summernote({
+			height: _h1,
+			disableDragAndDrop: true,
+			toolbar: [
+				['style', ['bold', 'italic', 'underline', 'clear']],
+				['fontsize', ['fontsize']],
+				['color', ['color']]
+			],
+			onChange: function() {saveAsInLeadScript(_mainActivity); } 
+		});
+		$slider.find("#callNote").val('');
+		$slider.find('#callNote').summernote({
+			height: _h2,
+			disableDragAndDrop: true,
+			toolbar: [] 
+		});
+		jQuery('.dropdown-toggle').dropdown()
+	},100);
+	console.log("STAGE:",stageName);
+	if(stageName!=""){
+		data = {st:stageName,lead:leadGlobal};
+		call(__baseUrl+'users/find_message_template_stage','POST',data,embedTemplateMessage,'json');
+	}
+	//openSlidebar(jQuery('#callInOutModal'),'','100','%');
+	//enableZIndex(jQuery('#callInOutModal'));
+	/*jQuery('#callInOutModal').modal('show');
+	jQuery('#callInOutModal').off('hidden.bs.modal').on('hidden.bs.modal',function(){
+		jQuery('body').find('input[type="checkbox"]').prop('checked',false);
+		jQuery('#activityType').val();
+	});*/
+	
+	/*jQuery('#CallExecutionDate').datepicker("destroy");*/
+	_da = moment(new Date()).tz('America/Los_Angeles').format('YYYY-MM-D h:mm:ss a');
+	_date = new Date(_da);
+	$slider.find('#CallExecutionDate').datepicker({format:"yyyy-mm-dd"}).datepicker('setDate', _date);
+	try{
+		jQuery("input[name='call[next_call_date]']").datepicker('destroy');
+		jQuery.datepicker.setDefaults({
+			 dateFormat: 'yy-mm-dd'
+		});	
+		jQuery("input[name='call[next_call_date]']").datepicker({
+			onSelect: function (dateText, inst) {
+				console.log("onSelect",dateText);
+				$slider.find("#nextCallDate").val(dateText);
+			}
+		});
+	}catch(e){}
+	
+	_hr = _date.getHours();
+	_mn = _date.getMinutes();
+	$slider.find("#callTimeStart").val(_hr);
+	$slider.find("#callTimeEnd").val(_hr);
+	getLogDetails(leadGlobal,_p.substr(0,_p.length-1),_companyID.substr(0,_companyID.length-1));
+}
+
+function getLogDetails(leadID,personID,companyID){	
+	jQuery('#callInOutModal').find('#show_log_list').find('div').html('');
+	data={lead_id:leadID,person_id:personID,company_id:companyID};
+	/*call(__baseUrl+'leads/callActivityLog','POST',data,embedLogList,'json');
+	call(__baseUrl+'leads/callActivityLog','POST',data,embedLogList,'html');*/
+	_h = jQuery(window).height() - 150;
+	jQuery('#callInOutModal').find('#show_log_list').find('.pad15B').html("<iframe src='"+__baseUrl+"leads/callActivityLog/"+leadID+"/"+personID+"/"+companyID+"' id='frameCorrespondenceLog' style='width:100%;height:"+_h+"px;'></iframe>");
+}
+
+function getAllActivites(leadID,personID,companyID){
+	var sliderID = "open_all_activites";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Lead Activities','LeadActivities');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="leadActivitesIframe" src="' + __baseUrl + 'leads/callActivityLog/'+leadID+'/'+personID+'/'+companyID+'" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+
+window.embedLogList = function (data,textStatus,xhr){	
+	/*if(data.length>0){
+		_ul = "<ul class='todo-box'>";
+		$.each(data,function(index,element){
+			_icon = "";
+			switch(parseInt(element.type)){
+				case 1:
+				_icon = "<i class='glyph-icon icon-phone' title='Contacts' style='color:#2196f3' ></i>";
+				break;
+				case 2:
+				_icon = "<i class='glyph-icon icon-phone' title='Contacts' style='color:#d1c8c8' ></i> ";
+				break;
+				case 37:
+				case 207:
+					_icon="<img src='"+__IMAGEURL+"images/Conference_Call-512.png' style='width:16px;height:auto !important; float:none;display:inline-block;margin:0'/>";
+				break;
+				case 6:					
+					_icon = "<i class='glyph-icon icon-envelope' title='Contacts' style='color:#2196f3' ></i> ";
+				break;
+				case 3:
+					_icon = "<i class='glyph-icon icon-envelope' title='Contacts' style='color:#d1c8c8' ></i> ";
+				break;
+			}
+			if(parseInt(element.type)==3 || parseInt(element.type)==6){
+				if(element.email_id>0){
+					_ul +='<li class="pad10L"><iframe style="width:100%;height:250px;" scrolling="yes" src="'+__baseUrl+'users/own_server_show_small/'+element.email_id+'"></iframe></li>';
+				} else {
+					_ul +='<li><div class="comment_content"><span>'+_icon+' '+moment(new Date(element.activity_date)).format("MMM DD, YYYY")+'</span><p>'+element.note+'</p></div></li>';
+				}				
+			} else {
+				_ul +='<li><div class="comment_content"><span>'+_icon+' '+moment(new Date(element.activity_date)).format("MMM DD, YYYY")+'</span><p>'+element.note+'</p></div></li>';
+			}			
+		});
+		_ul +="</ul>";
+		jQuery('#show_log_list').find('div').html(_ul);
+		
+		$(function() {
+			$(".scrollable-slim-sidebar").slimScroll({
+				color: "#8da0aa",
+				size: "10px",
+				height: "100%",
+				alwaysVisible: !0
+			})
+		});
+		$(function() {
+			$(".scrollable-slim-box").slimScroll({
+				color: "#8da0aa",
+				size: "6px",
+				alwaysVisible: !1
+			})
+		});		
+	} else {
+		jQuery('#show_log_list').find('.pad15A').html('');
+	}*/
+	if(data!=''){
+		_ul = "<ul class='todo-box'>"+data+"</ul>";
+		jQuery('#show_log_list').find('div').html(_ul);		
+		$(function() {
+			$(".scrollable-slim-sidebar").slimScroll({
+				color: "#8da0aa",
+				size: "10px",
+				height: "100%",
+				alwaysVisible: !0
+			})
+		});
+		$(function() {
+			$(".scrollable-slim-box").slimScroll({
+				color: "#8da0aa",
+				size: "6px",
+				alwaysVisible: !1
+			})
+		});		
+	} else {
+		jQuery('#show_log_list').find('.pad15A').html('');
+	}
+}
+
+window.successMessageAfterTemplateSave = function(data,textStatus,xhr){
+	_processInsert = false;
+	if(data>0){
+		console.log("successMessageAfterTemplateSave","saved");
+		var $slider = jQuery("#callInOutModal");
+		let templateContent = $slider.find("#predefined_template").code();
+		let campaignSlider = jQuery("#open_prefined_message");
+		if(campaignSlider.length > 0 && campaignSlider.hasClass('is-open')){
+			let frameE = campaignSlider.find("#predefineFormIframe");
+			console.log("successMessageAfterTemplateSave","telephone_auto_campaign");
+			let frameESrc = frameE.attr("src");
+			if(frameESrc.indexOf('telephone_auto_campaign') >= 0){
+				console.log("successMessageAfterTemplateSave","telephone_auto_campaign1");
+				frameE.get(0).contentWindow.updateTemplateMessageOnFly(templateContent);
+			}
+		}
+		showMessageOnFly("Template saved.","alert-info");
+	}
+}
+_processInsert = false;
+function saveAsInLeadScript(t){
+	/*Save in lead bank*/
+	_mainActivity = jQuery("#activityMainType").val();
+	stageName= "";
+	objParent= "";
+	if(_mainActivity=="1"){
+		objParent = "#activityTable";
+	} else if(_mainActivity=="2"){
+		objParent = "#aquisitionTable";
+	}
+	
+	if(objParent!=""){
+		obj= jQuery(objParent).find('input[name="sales_person[]"]:checked').eq(0).parent().parent().parent().parent().parent().parent().prev();
+		if(obj.hasClass('master')){
+			stageName = obj.find('select[name="stage_progress"]').find('option:selected').attr('class');
+		}
+	}
+	if(stageName!=""){
+		if(_processInsert===false){
+			_processInsert = true;
+			var $slider = jQuery("#callInOutModal");
+			data={subject:$slider.find("#CallPurpose").val(),template:$slider.find("#predefined_template").code(),lead:leadGlobal,type:t,stage:stageName};
+			call(__baseUrl+'users/saveTemplateScript','POST',data,successMessageAfterTemplateSave,'text');
+		}
+		
+	} else {
+		showMessageOnFly("Error.","alert-warning");
+	}	
+}
+function editActivitiesData(lead,activityID){	
+	if(lead!=0 && activityID>0){
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'leads/getCallData',
+			data:{activity:activityID,lead:lead,t:jQuery("#activityMainType").val()},
+			cache:false,
+			success:function(d){
+				if(d!=''){
+					_activity= jQuery.parseJSON(d);
+					if(typeof _activity.id!='undefined'){
+						var sliderID = "callInOutModal";
+						appendSlider(sliderID,'Correspondence','Correspondence');
+						if(jQuery("#"+sliderID).length > 0) {
+							jQuery("#"+sliderID).find('.slider_container').html(jQuery('#call_in_out_template').html());
+							openSlidebar(jQuery("#"+sliderID));
+							slidebarOpenCallback(jQuery("#"+sliderID));
+							jQuery("#"+sliderID).addClass("is-open");
+							changeIframeHeight(jQuery("#"+sliderID));
+						}
+						var $slider = jQuery("#callInOutModal");
+						$slider.find("#formCallInOut").get(0).reset();
+						$slider.find("#callInOutModalLabel").html(leadNameGlobal);
+						$slider.find("#callLeadId").val(lead);
+						$slider.find("#callMainActivity").val(jQuery("#activityMainType").val());
+						$slider.find("#callPerson").val(_activity.contact_id);	
+						$slider.find("#callCompanyID").val(_activity.company_id);	
+						$slider.find("#callParticipant").val(_activity.personName);
+						_date = _activity.activity_date;
+						date = _date.split(' ');
+						jQuery("#").val(date[0]);
+						_time = date[1].split(':');
+						$slider.find("#CallExecutionDate").val(date[0]);
+						$slider.find("#callTimeStart").val(_time[0]);
+						$slider.find("#callId").val(_activity.id);
+						note = _activity.note;
+						message = note.split('<br/>');
+						$slider.find("#callTimeEnd").val(_time[1]);						
+						$slider.find("#CallPurpose").val(message[0]);
+						$slider.find("#callNote").val(message[1]);
+						$slider.find("#callType").val(_activity.type);
+						$slider.find("#callFromUserId").val(_activity.type);
+						
+					}
+				}
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		})
+	}
+}
+function findContainer(){
+	_mainActivity = jQuery("#activityMainType").val();
+	_containerSelect = "";
+	if(_mainActivity==1){
+		_containerSelect = "activityTable";
+	} else if(_mainActivity==2){
+		_containerSelect = "aquisitionTable";
+	} else if(_mainActivity==3){
+		_containerSelect = "preSaleActivityTable";
+	}
+	if(_containerSelect==""){
+		if(jQuery("#activityTable").is(":visible")){
+			_containerSelect = "activityTable";
+			_mainActivity=1;
+			jQuery("#activityMainType").val(_mainActivity);
+		} else if(jQuery("#aquisitionTable").is(":visible")){
+			_containerSelect = "aquisitionTable";
+			_mainActivity=2;
+			jQuery("#activityMainType").val(_mainActivity);
+		}  else if(jQuery("#preSaleActivityTable").is(":visible")){
+			_containerSelect = "preSaleActivityTable";
+			_mainActivity=3;
+			jQuery("#activityMainType").val(_mainActivity);
+		}		
+	}
+	return _containerSelect;
+}
+
+function saveCall(s){
+	var $slider = jQuery("#callInOutModal");
+	if($slider.find("#callMainActivity").val()!="" && $slider.find("#callPerson").val()!=""){
+		$slider.find("#saveBtnCall").addClass("hide");
+		_enter = true;
+		if(parseInt(s)==3){
+			if($slider.find("#nextCallDate").val()==""){
+				alert("Please select date for next schedule call");
+				_enter = false;
+				$slider.find("#nextCallDate").focus();
+			}
+		}		
+		/*if(jQuery('#CallPurpose').val()==""){
+			alert("Please enter goal of call.");
+			jQuery('#CallPurpose').focus();
+			_enter = false;
+		}*/
+		if($slider.find('#callNote').code()==""){
+			alert("Please enter note.");
+			$slider.find('#callNote').focus();
+			_enter = false;
+		}
+		if(_enter===true){
+			let openCampaign = 0;
+			let campaignSlider = jQuery("#open_prefined_message");
+			if(campaignSlider.length > 0 && campaignSlider.hasClass('is-open')){
+				let frameE = campaignSlider.find("#predefineFormIframe");
+				let frameESrc = frameE.attr("src");
+				if(frameESrc.indexOf('telephone_auto_campaign') >= 0){
+					openCampaign = 1;
+				}
+			}
+			$slider.find('#callNote').val($slider.find('#callNote').code());
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'leads/callinout/'+openCampaign,
+			data:$slider.find("#formCallInOut").serializeArray(),
+			cache:false,
+			success:function(res){
+				/*$slider.find("#saveBtnCall").removeClass("hide");*/
+				if(res>0){
+					var $slider = jQuery("#callInOutModal");
+					let contactID = $slider.find("#callPerson").val();	
+					let companyID = $slider.find("#callCompanyID").val();
+					let campaignSlider = jQuery("#open_prefined_message");
+					if(campaignSlider.length > 0 && campaignSlider.hasClass('is-open')){
+						console.log("CALLINOUT",contactID,companyID);
+						let frameE = campaignSlider.find("#predefineFormIframe");
+						let frameESrc = frameE.attr("src");
+						if(frameESrc.indexOf('telephone_auto_campaign') >= 0){
+							console.log("CALLINOUT","telephone_auto_campaign");
+							frameE.get(0).contentWindow.callDone(contactID,companyID);
+						}
+					}
+					
+					/*jQuery('#callInOutModal').modal('hide');*/
+					closeSlidebar($slider.find('.close_sidebar'));
+					/*Open Calendar event popup*/
+					_containerSelect = findContainer();
+					_findActivity = jQuery("#activityMainType").val();
+					_p = '';
+					_sales_emails ='';
+					_nameUser = '';
+					_companyID = '';
+					jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").each(function(){
+						_p +=jQuery(this).val()+",";
+						_sales_emails +=jQuery(this).attr('data-attr-em')+", ";
+						_nameUser +=jQuery(this).attr('data-attr-name')+", ";
+						_o = jQuery('#'+_containerSelect).find("input[name='sales_person[]']:checked").parent().parent().parent().parent().parent().parent().prev();
+						_companyID +=_o.attr('data-c')+",";
+					});
+					if(_p!=""){
+						jQuery("#activityPerson").val(_p.substr(0,_p.length-1));
+					}
+					if(typeof s!="undefined"){
+						if(s==1){
+							open_all_invitation();
+							$(function(){$(".date_calendar").datepicker({format:"yyyy-mm-dd"});$(".time-calendar").timepicker()});
+							resetEventForm();
+							findDataRemoveEve.push(_sales_emails);
+							jQuery("#attendeeEmail").val(_sales_emails);
+							jQuery("#lead_id").val(leadGlobal);
+							jQuery("#acitivity_event_type").val(_mainActivity);
+							jQuery("#eventSummary").val(leadNameGlobal+' '+_nameUser.substr(0,_nameUser.length-2)+' / '+jQuery('.user-account-btn').find('span').eq(0).text());
+						} else if(s==2){
+							/*openTaskModal();*/
+							/*Follow up email*/
+							findDataRemove.push(_sales_emails);
+							$("#myDashboardComposeEmails").find('#emailTo').val(_sales_emails);
+							$("#myDashboardComposeEmails").find('#emailCC').val('');
+							$("#myDashboardComposeEmails").find('#emailBCC').val('');
+							$("#myDashboardComposeEmails").find('#emailThreadId').val('');
+							$("#myDashboardComposeEmails").find('#emailMessageId').val('');
+							$("#myDashboardComposeEmails").find('#emailReference').val('');
+							$("#myDashboardComposeEmails").find('#emailDocUrl').val('');
+							$("#myDashboardComposeEmails").find('#messageLeadId').val(leadGlobal);
+							$("#myDashboardComposeEmails").find('#eventCid').val(_companyID.substr(0,_companyID.length-1));
+							$("#myDashboardComposeEmails").find('#eventPid').val(_p.substr(0,_p.length-1));
+							$("#myDashboardComposeEmails").find('#eventT').val(_findActivity);
+							$("#myDashboardComposeEmails").find('#emailAccountType').val(2);
+							$("#myDashboardComposeEmails").find('#emailSubject').val($slider.find('#CallPurpose').val());
+							_message = $slider.find('#callNote').val() + $("#myDashboardComposeEmails").find('#original_signature').val();
+							$("#myDashboardComposeEmails").find('#emailMessage').val(_message);
+							frmEmail =$("#myDashboardComposeEmails");
+							dataSend = frmEmail.serialize();
+							call(frmEmail.attr('action'),'POST',dataSend,sendEmailSendMessage,'text');
+							/*jQuery("#activityPersonID").val(_p.substr(0,_p.length-1));
+							jQuery("#activityCompanyID").val(_companyID.substr(0,_companyID.length-1));
+							jQuery("#activityActivityType").val(_findActivity);*/
+						}
+					}					
+					/*End*/
+					//jQuery("#activityType").val('');
+					$slider.find("#formCallInOut").get(0).reset();
+					$slider.find('#callNote').code("");
+					$slider.find("#nextCallDate").val("");
+					$slider.find("#callType").val(1);
+					$slider.find('.close_sidebar').trigger('click');
+					refreshAcquisitionAndSalesActivity();
+				} else {
+					showMessageOnFly("There is some problem in this page. Please refresh.","alert-warning");
+				}
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+		}
+	} else {
+		showMessageOnFly("There is some problem in this page. Please refresh.","alert-warning");
+	}
+}
+window.sendEmailSendMessage = function(data,textStatus,xhr){
+	if(parseInt(data)>0){
+		showMessageOnFly("Follow up email sent.","alert-info");
+	}
+}
+_spreadsheet=[];
+function findWholeInActivity(){
+	_activityP = jQuery("#activityMainType").val();
+	if(parseInt(_activityP)==2){
+		_tableSelect = jQuery("#aquisitionTable");
+	} else {
+		_tableSelect = jQuery("#activityTable");
+	}
+	if(_tableSelect.length>0){
+		if(_tableSelect.find('tbody.main_active').find('tr.salesFDroppable').find('input[type="checkbox"]').length>0){	
+			_spreadsheet=[];
+			_tableSelect.find('tbody.main_active').find('tr.salesFDroppable').find('input[type="checkbox"]:checked').each(function(){
+				var $this = jQuery(this).parent().parent();
+				var $parentsTable = $this.parent().parent();
+				var $mainTrparentsTable = $parentsTable.parent().parent();
+				var $trCompany = $mainTrparentsTable.prev();
+				if($trCompany.hasClass('master')){
+					_trCo = $trCompany.find('a.showActivity').parent();
+					_companyName = _trCo.find('a').eq(1).find('b').text();
+				}
+				_spreadRows={};
+				_checkObject = $this.find('td>input[type="checkbox"]');
+				_name= _checkObject.attr('data-attr-name');
+				_first_name= _checkObject.attr('data-attr-first');
+				_last_name= _checkObject.attr('data-attr-last');
+				_title= $this.find('td').eq(2).text();
+				_telephone="";
+				_phone = "";
+				_companyphone = "";
+				_id= _checkObject.attr('value');
+				if($this.find('td').eq(0).find('a>i.icon-phone').length>0){
+					_phone = $this.find('td').eq(0).find('a>i.icon-phone').eq(0).parent().attr('data-phone');
+					_telephone = $this.find('td').eq(0).find('a>i.icon-phone').eq(0).parent().attr('data-telephone');
+					_companyphone = $this.find('td').eq(0).find('a>i.icon-phone').eq(0).parent().attr('data-companyphone');
+				}				
+				_email= _checkObject.attr('data-attr-em');
+				_linkedin= _checkObject.attr('data-attr-linkedin');
+				if(_email=="undefined" || _email==undefined){
+					_email='';
+				} else if(_email!=""){
+					_email = "Client Property";
+				}
+				if(_linkedin=="undefined" || _linkedin==undefined){
+					_linkedin='';
+				} else if(_linkedin!=""){
+					_linkedin = "Client Property";
+				}
+				if(_name=="undefined" || _name==undefined){
+					_name='';
+				}
+				if(_first_name=="undefined" || _first_name==undefined){
+					_first_name='';
+				}
+				if(_last_name=="undefined" || _last_name==undefined){
+					_last_name='';
+				}
+				if(_title=="undefined" || _title==undefined){
+					_title='';
+				}
+				if(_telephone=="undefined" || _telephone==undefined){
+					_telephone='';
+				} else if(_telephone!=""){
+					_telephone = "Client Property";
+				}
+				if(_companyphone=="undefined" || _companyphone==undefined){
+					_companyphone='';
+				} else if(_companyphone!=""){
+					_companyphone = "Client Property";
+				}
+				if(_phone=="undefined" || _phone==undefined){
+					_phone='';
+				} else if(_phone!=""){
+					_phone = "Client Property";
+				}
+				if(_id>0 && _name!="" && _name!="undefined" && _name!=undefined){
+					_spreadRows.first_name = _first_name;
+					_spreadRows.last_name = _last_name;
+					_spreadRows.job_title = _title;
+					_spreadRows.company_name = _companyName;
+					_spreadRows.phone = _phone;
+					_spreadRows.telephone = _telephone;
+					_spreadRows.companyphone = _companyphone;
+					_spreadRows.email = _email;
+					_spreadRows.linkedin_url = _linkedin;
+					_spreadRows.id = _id;					
+					_spreadsheet.push(_spreadRows);
+				}
+			});
+			if(_spreadsheet.length>0){	
+				var sliderID = "datafills_slider";
+				appendSlider(sliderID,'Datafills Contact','DatafillsContact');
+				if(jQuery("#"+sliderID).length > 0) {
+					jQuery("#"+sliderID).find('.slider_container').addClass('df_fill_holes').html('<iframe id="datafillsIframe" src="' + __baseUrl + 'opportunity/create_df_hole" width="100%" height="100px" scrolling="yes"></iframe>');
+					openSlidebar(jQuery("#"+sliderID));
+					slidebarOpenCallback(jQuery("#"+sliderID));
+					changeIframeHeight(jQuery("#"+sliderID));
+				}				
+			} else {
+				alert("Please select contacts first.");
+			}
+		}
+	}
+}
+
+function createSpreadSheetForWhole(){
+	if(_spreadsheet.length>0){
+		data = {project_name:jQuery("#project_name").val(),rec:JSON.stringify(_spreadsheet)};
+		call(__baseUrl+'leads/create_spreadsheet_for_hole','POST',data,openSpreadSheetAfterCreate,'json');
+	}
+}
+window.openSpreadSheetAfterCreate = function(data,textStatus,xhr){
+	jQuery("#activityType").val('');
+	if(typeof data.url!="undefined" && data.url!=""){
+		jQuery("#sortingPopup").find('.modal-body').html('');
+		jQuery("#sortingPopup").modal('hide');
+		/*open_drive_files(data.url);*/
+		/*showMessageOnFly("Project created.","alert-info");*/
+	} else {
+		alert("System not able to create holes project in datafills");
+		/*showMessageOnFly("Error! while creating google spreadsheet.","alert-warning");*/
+	}
+}
+
+function showMessageFromWholeContacts(data,textStatus,xhr){
+	if(typeof data.url!="undefined" && parseInt(data.url)>0){
+		alert("Project Created");
+		window.location("https://backyard.synpat.com/manager","_blank");
+	} else {
+		alert("System not able to create holes project in datafills");
+	}
+}
+
+function findW5Width(container){
+	widthI = 0;
+	openAllCompanies();
+	jQuery(container).find('tr.master').each(function(){
+		jQuery(this).find('td').each(function(){
+			jQuery(this).css({border:'0px solid #d1c8c8',borderTop:'1px solid #67B7F5',borderRight:'1px solid #d1c8c8',borderLeft:'1px solid #d1c8c8'});
+		})
+		_nextHidden = jQuery(this).next();
+		_nextHidden.find('table').eq(1).find('tr').each(function(index){
+			if(widthI<_nextHidden.find('table').eq(1).find('tr').eq(index).find('td').eq(2).outerWidth()){				
+				widthI = _nextHidden.find('table').eq(1).find('tr').eq(index).find('td').eq(2).outerWidth();
+			}
+		});
+		_height = _nextHidden.children('td').eq(0).find('table').find('tbody>tr').length;
+		_height1 = _nextHidden.children('td').eq(1).find('table').find('tr').length;
+		if(_height1>_height){
+			_nextHidden.children('td').eq(0).find('table').find('tr:last').find('td').each(function(){
+				jQuery(this).attr('style','border-bottom-width:1px;border-left-width:0px');
+			});
+		}
+		if(_height1>0){
+			_nextHidden.children('td').eq(1).find('table').find('tr').eq(0).find('td').each(function(){
+				_style=jQuery(this).attr('style');
+				_style +=';border-top-width:0px;';
+				jQuery(this).attr('style',_style);
+			});
+		}
+		/*_nextHidden.children('td').eq(0).attr('style','border-top-width:1px;');
+		_nextHidden.children('td').eq(1).attr('style','border-top-width:1px;');*/
+	});
+	openAllCompanies();
+	return widthI;
+}
+
+function runFixedTableLayoutProccess(cl){	
+	parentElement = "";
+	if(cl==1){
+		parentElement = "activityTable";
+	} else if(cl==2){
+		parentElement = "aquisitionTable";
+	}
+	_mainWidth = jQuery(window).width() - 20;
+	jQuery('#sales_acititity').css('width',_mainWidth+'px');
+	parentObj = jQuery("#"+parentElement);
+	_w5 = findW5Width("#"+parentElement);
+	if(_w5>0){			
+		_main = parentObj.parent().width();		
+		parentObj.find('tr.master').each(function(){
+			_w = parentObj.find('tr.master').find('td').eq(0).outerWidth();
+			_w2 = parentObj.find('tr.master').find('td').eq(1).outerWidth();
+			_firstTdWidth = _w + _w2;
+			_w3 = parentObj.find('tr.master').find('td').eq(2).outerWidth();
+			_w4 = parentObj.find('tr.master').find('td').eq(3).outerWidth();
+			parentObj.find('tr.master').find('td').eq(4).css({width:_w5+'px'});
+			parentObj.find('thead').find('th').eq(4).css({width:_w5+'px'});
+			_secondTdWidth = _w3 + _w4 + _w5;
+			_nextHidden = jQuery(this).next();
+			_child1 = _nextHidden.children('td').eq(0).css({width:_firstTdWidth+'px'});
+			_child2 = _nextHidden.children('td').eq(1).css({width:_secondTdWidth+'px'});
+			_nextHidden.find('table').eq(0).css({width:_firstTdWidth+'px'});
+			_tdW1 = 65;
+			_tdW1 = 120;
+			_tdW2 = _w - _tdW1-1;
+			_tdW4 = 110;
+			_tdW4 = 0;
+			_tdW3 = _w2 - _tdW4;
+			_nextHidden.find('table').eq(0).find('tr').find('th').eq(0).css({width:_tdW1+'px',borderTopWidth:'0px',minWidth:_tdW1+'px',maxWidth:_tdW1+'px'});
+			_nextHidden.find('table').eq(0).find('tr').find('th').eq(1).css({width:_tdW2+'px',borderTopWidth:'0px'});
+			_nextHidden.find('table').eq(0).find('tr').find('th').eq(2).css({width:_tdW3+'px',borderTopWidth:'0px'});
+			/*_nextHidden.find('table').eq(0).find('tr').find('th').eq(3).css({width:_tdW4+'px',borderTopWidth:'0px'});*/
+			_nextHidden.find('table').eq(0).find('tr').each(function(){
+				jQuery(this).find('td').eq(0).css({width:_tdW1+'px',minWidth:_tdW1+'px',maxWidth:_tdW1+'px'});
+				jQuery(this).find('td').eq(1).css({width:_tdW2+'px',minWidth:_tdW2+'px',maxWidth:_tdW2+'px'});
+				jQuery(this).find('td').eq(2).css({width:_tdW3+'px',minWidth:_tdW3+'px',maxWidth:_tdW3+'px'});
+				/*jQuery(this).find('td').eq(3).css({width:_tdW4+'px'});*/
+			});
+			_nextHidden.find('table').eq(1).css({width:_secondTdWidth+'px'});
+			_nextHidden.find('table').eq(1).find('td').eq(0).css({width:_w3+'px'});
+			_nextHidden.find('table').eq(1).find('td').eq(1).css({width:_w4+'px'});
+			_nextHidden.find('table').eq(1).find('td').eq(2).css({width:_w5+'px'});
+		});
+	}		
+	
+}
+function openTemplateEditor(){
+	var sliderID = "open_template_editor";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {
+		appendSlider(sliderID,'Template Editor','TemplateEditor');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html(jQuery('#open_template_editor_template').html());
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+			initEditor(jQuery("#open_template_editor").find('#templateEditor'));
+			jQuery(".dropdown-toggle").dropdown();
+			inputStringFieldsWidth();
+		}
+	}
+}
+function closeTemplateEditor(){}
+function saveActivity(){
+	if(leadGlobal>0){
+		
+		if(jQuery("input[name='sales_person[]']").is(':checked')){
+			jQuery("input[name='sales_person[]']:checked").parent().parent().parent().parent().parent().parent()
+			jQuery("#activityCid").val(jQuery("input[name='sales_person[]']:checked").parent().parent().parent().parent().parent().parent().prev().attr('data-c'));
+			jQuery("#activityPerson").val(jQuery("input[name='sales_person[]']:checked").val());
+			jQuery("#activityLeadId").val(leadGlobal);
+			if(jQuery("#activityType").val()!=""){
+				if(jQuery("#activityPerson").val()!=""){
+					if(jQuery("#activityNote").val()!=""){						
+						jQuery("#btnSaveActivity").addClass("hide");
+						jQuery.ajax({
+							type:'POST',
+							url:__baseUrl+'leads/sales_acititity_data',
+							data:jQuery("#frm_sales_activity").serializeArray(),
+							cache:false,
+							success:function(res){
+								jQuery("#btnSaveActivity").removeClass("hide");
+								if(res>0){
+									jQuery("#frm_sales_activity").get(0).reset();
+									refreshAcquisitionAndSalesActivity();
+								} else {
+									alert("Server busy, try after sometime.");
+								}
+							}
+						}).fail(function(jqXHR, textStatus){
+							if(textStatus !='parseerror'){alert(textStatus);}
+						});
+					} else {
+						alert("Please enter note for the activity.");
+					}					
+				} else {
+					alert("Please select person.");
+				}				
+			} else {
+				alert("Please select person.");
+			}
+		} else{
+			alert("Please select company first.");
+		}
+	}
+}
+
+function saveTemplateToLeadBank(){
+	if(window.leadGlobal>0){
+		let templateEditor = jQuery("#open_template_editor");
+		if(templateEditor.find("#template_file_name").val()==""){
+			alert("Please enter template name");
+		} else {
+			_code = templateEditor.find("#templateEditor").code();
+			console.log("Code",_code);
+			/*if(jQuery("#open_template_editor").find("#original_template_type").val()=="2"){*/
+			if(parseInt(templateEditor.find("#original_main_type").val())==2){
+				_html = templateEditor.find("#original_data").val();
+				var $html = $('<div />',{html:_html});
+				$html.find('.touch').html(_code);
+				_code = $html.html();
+			}
+			console.log("Code",_code);
+			jQuery.ajax({
+				type:'POST',
+				url:__baseUrl+'users/save_new_template',
+				data:{temp:_code,subject:templateEditor.find("#template_subject").val(),name:templateEditor.find("#template_file_name").val(),activity_type:7,lead_id:window.leadGlobal,template_type:templateEditor.find("#template_type").val(),template_stage:templateEditor.find("#template_stage").val()},
+				cache:false,
+				success:function(data){
+					//jQuery("#open_template_editor").find("#original_template_type").val('');
+					if(data>0){
+						alert("Template Saved");
+						/*let templateStage = templateEditor.find("#template_stage").val();
+						if(templateStage != "" && parseInt(templateStage) >= 0){
+							saveToFileFolder(0);
+						}*/
+						if(jQuery("#predefineFormIframe").length>0){
+							jQuery("#predefineFormIframe").get(0).contentWindow.location.reload();
+						}
+					} else {
+						alert("Please try after sometime");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	} else {
+		alert("Please select the lead.");
+	}	
+}
+
+function saveTemplate(){
+	let templateEditor = jQuery("#open_template_editor");
+	if(templateEditor.find("#template_file_name").val()==""){
+		alert("Please enter template name");
+	} else {
+		_code = templateEditor.find("#templateEditor").code();
+		console.log("Code",_code);
+		/*if(jQuery("#open_template_editor").find("#original_template_type").val()=="2"){*/
+		if(parseInt(templateEditor.find("#original_main_type").val())==2){
+			_html = templateEditor.find("#original_data").val();
+			var $html = $('<div />',{html:_html});
+			$html.find('.touch').html(_code);
+			_code = $html.html();
+		}
+		console.log("Code",_code);
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'users/save_new_template',
+			data:{temp:_code,subject:templateEditor.find("#template_subject").val(),name:templateEditor.find("#template_file_name").val(),template_type:templateEditor.find("#template_type").val(),template_stage:templateEditor.find("#template_stage").val(),activity_type:208,lead_id:window.leadGlobal},
+			cache:false,
+			success:function(data){
+				//jQuery("#open_template_editor").find("#original_template_type").val('');
+				if(data>0){
+					alert("Template Saved");
+				} else {
+					alert("Please try after sometime");
+				}
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+}
+function updateTemplate(){
+	let templateEditor = jQuery("#open_template_editor");
+	if(templateEditor.find("#template_file_name").val()==""){
+		alert("Please enter template name");
+	} else {
+		_code = templateEditor.find("#templateEditor").code();
+		if(parseInt(templateEditor.find("#original_main_type").val())==2){
+			_html = templateEditor.find("#original_data").val();
+			var $html = $('<div />',{html:_html});
+			$html.find('.touch').html(_code);
+			_code = $html.html();
+		}
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'users/update_template',
+			data:{temp:_code,id:templateEditor.find('#template_id').val(),subject:templateEditor.find("#template_subject").val(),name:templateEditor.find("#template_file_name").val(),activity_type:jQuery("#activityType").val(),lead_id:window.leadGlobal,template_type:templateEditor.find("#template_type").val(),template_stage:templateEditor.find("#template_stage").val()},
+			cache:false,
+			success:function(data){
+				//templateEditor.find("#original_template_type").val('');
+				//templateEditor.find("#original_main_type").val('0');
+				if(data>0){
+					alert("Template updated");
+					/*let templateStage = templateEditor.find("#template_stage").val();
+					if(templateStage != "" && parseInt(templateStage) >= 0){
+						saveToFileFolder(templateEditor.find('#template_id').val());
+					}*/
+					if(templateEditor.find("#open_prefined_message").hasClass("is-open")){
+						if(jQuery("#predefineFormIframe").length>0){
+							jQuery("#predefineFormIframe").get(0).contentWindow.location.reload();
+						}
+					}
+				} else if(data<0){
+					alert("Please try after sometime");
+				}
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}	
+}
+function createElementOnFly(name,t){
+	const createD = document.createElement('div');
+	createD.style = "float:left;position:relative;left:-99999px;padding:0;margin:0px;font:400 18px/1.6em Roboto,sans-serif;";
+	createD.innerHTML = name;
+	createD.setAttribute('id','stton');
+	const bTag = document.getElementsByTagName('body')[0];
+	bTag.appendChild(createD);
+	const tagD = document.getElementById('stton');
+	let text =  t==1?tagD:tagD.innerText;
+	if(t != 1){tagD.remove();}
+	return text;
+}
+function saveToInvitation(){
+	let templateEditor = jQuery("#open_template_editor");
+	let _code = templateEditor.find("#templateEditor").code();		
+	if(_code == "") {
+		setTimeout(()=>function(){
+			saveToFileFolder();
+		},200);
+	}
+	if(templateEditor.find("#original_main_type").val()=="2"){
+		_html = templateEditor.find("#original_data").val();
+		var $html = createElementOnFly(_html,1);
+		$html.querySelector('.touch').innerHTML = _code;
+		_code = $html.innerHTML;
+		$html.remove();
+	}
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'users/save_template_file',
+		data:{temp:_code,lead_id:leadGlobal,name:templateEditor.find("#template_file_name").val(),subject:templateEditor.find("#template_subject").val(),type:templateEditor.find("#template_type").val(),t:0,template_type:templateEditor.find("#template_type").val(),template_stage:templateEditor.find("#template_stage").val(),template_id:templateEditor.find('#template_id').val()},
+		cache:false,
+		success:function(data){
+			if(data>0){
+				goToCampaign();
+			} else {
+				alert("Please try after sometime");
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function goToCampaign(){
+	let templateEditor = jQuery("#open_template_editor");
+	templateEditor.find('a.close_sidebar').trigger('click');
+	jQuery("#open_prefined_message").find('a.close_sidebar').trigger('click');
+	jQuery("#open_lead_message").find('a.close_sidebar').trigger('click');
+	jQuery("#activityType").val("77");
+	checkActivityLog();
+}
+
+function saveToFileFolder(t){
+	let templateEditor = jQuery("#open_template_editor");
+	let templateStage = templateEditor.find("#template_stage").val();					
+	if(templateEditor.find("#template_file_name").val()==""){
+		alert("Please enter template file name");
+	} else if(templateStage != "" && parseInt(templateStage) >= 0){
+		let _code = templateEditor.find("#templateEditor").code();
+		console.log("@@"+_code+"@@");
+		console.log("@@"+templateEditor.length+"@@");
+		console.log("@@"+templateEditor.find("#templateEditor").length+"@@");
+		if(_code == "") {
+			setTimeout(()=>function(){
+				saveToFileFolder(t);
+			},200);
+		} else {
+			if(templateEditor.find("#original_main_type").val()=="2"){
+				_html = templateEditor.find("#original_data").val();
+				var $html = createElementOnFly(_html,1);
+				$html.querySelector('.touch').innerHTML = _code;
+				_code = $html.innerHTML;
+				$html.remove();
+			}
+			if(templateEditor.find("#template_type").val() == "3"){
+				_code = createElementOnFly(_code,0);
+				_code = "<pre>"+_code+"</pre>";
+			}
+			console.log("@@"+_code+"@@");
+			let leadTemplate = -1;
+			if(typeof t != "undefined" && parseInt(t) >= 0){
+				leadTemplate  = t;
+			}
+			jQuery.ajax({
+				type:'POST',
+				url:__baseUrl+'users/save_template_file',
+				data:{temp:_code,lead_id:leadGlobal,name:templateEditor.find("#template_file_name").val(),subject:templateEditor.find("#template_subject").val(),type:templateEditor.find("#template_type").val(),template_type:templateEditor.find("#template_type").val(),template_stage:templateEditor.find("#template_stage").val(),template_id:templateEditor.find('#template_id').val(),leadTemplate:t},
+				cache:false,
+				success:function(data){
+					//templateEditor.find("#original_template_type").val('');
+					if(data>0){
+						//alert("File created successfully.");
+						if(jQuery("#open_lead_message").hasClass('is-open')){
+							var iframe= jQuery("#open_lead_message").find("#leadFormIframe").get(0);
+							var iframewindow= iframe.contentWindow? iframe.contentWindow : iframe.contentDocument.defaultView;
+							iframewindow.document.location.reload();
+						}
+						//templateEditor.find('a.close_sidebar').trigger('click');
+						/*jQuery("#open_prefined_message").find('a.close_sidebar').trigger('click');*/
+					} else {
+						alert("Please try after sometime");
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+}
+
+function sendTelephoneMessage(templateID,campaignStage,message,name,subject){
+	console.log("@@"+message+"@@"+templateID);
+	console.log("@@"+name+"@@");
+	if(jQuery("#telephone_frm").length>0){
+		jQuery("#telephone_frm").remove();
+	}
+	_c = 0;
+	if(jQuery("#aquisitionTable").is(":visible")){
+		_c = jQuery('#aquisitionTable').find("input[name='sales_person[]']:checked").length;
+	} else if(jQuery("#activityTable").is(":visible")){
+		_c = jQuery('#activityTable').find("input[name='sales_person[]']:checked").length;
+	}
+	if(_c>0){
+		let _sales_emails=[],_personNames=[],_companyNames=[],ids = [];	
+		_mainActivity = jQuery("#activityMainType").val();
+		let _container = "";
+		if(_mainActivity==1){
+			_container = "activityTable";
+		} else if(_mainActivity==2){
+			_container = "aquisitionTable";
+		}
+		let containeElement = jQuery('#'+_container);
+		let trStageCompanies = containeElement.find('select#stage_progress > option[value="'+campaignStage+'"]:selected');
+		console.log("SElectedStage:",campaignStage);
+		if(trStageCompanies.length > 0){
+			console.log("trStageCompanies:",trStageCompanies);
+			trStageCompanies.each((j,c) => {
+				console.log("trStageCompanies:",j,c);
+				let $this = trStageCompanies.eq(j).parents('tr.master');
+				let selectedPeople = $this.next().find("input[name='sales_person[]']:checked");
+				if(selectedPeople.length > 0){
+					selectedPeople.each((i,e) => {
+						let $contactThis = selectedPeople.eq(i);
+						let $contactThisP = $contactThis.parent();
+						let telephoneNumber = "";
+						if($contactThisP.find('i.icon-mobile').length > 0){
+							telephoneNumber = $contactThisP.find('i.icon-mobile').parent().attr('data-phone');
+						} else if($contactThisP.find('i.icon-phone').length > 0){
+							telephoneNumber = $contactThisP.find('i.icon-phone').parent().attr('data-telephone');
+						} else if($contactThisP.find('i.icon-phone-square').length > 0){
+							telephoneNumber = $contactThisP.find('i.icon-phone').parent().attr('data-companyphone');
+						}
+						if(telephoneNumber!=undefined && telephoneNumber != null){
+							telephoneNumber = telephoneNumber.trim();
+						}						
+						if(telephoneNumber!="" && telephoneNumber!=undefined && telephoneNumber != null){
+							_sales_emails.push(telephoneNumber);
+							ids.push($contactThis.val());
+							_personNames.push($contactThis.attr('data-attr-name'));
+							_companyNames.push($contactThis.attr('data-attr-c-name'));
+						}
+					})
+				}
+			});
+		}
+		if(_sales_emails.length > 0){
+			h = jQuery(window).height() - 120;
+			w = jQuery(window).width()/2;
+			var sliderID = "open_prefined_message";
+			appendSlider(sliderID,'Telephone Campaign','Campaign');
+			if(jQuery("#"+sliderID).length > 0) {
+				jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="' + __baseUrl + 'users/telephone_auto_campaign/" width="100%" height="100px" scrolling="yes"></iframe>');
+				openSlidebar(jQuery("#"+sliderID));
+				slidebarOpenCallback(jQuery("#"+sliderID));
+				jQuery("#"+sliderID).addClass("is-open");
+				changeIframeHeight(jQuery("#"+sliderID));
+			}
+			
+			var form = document.createElement("form");
+			form.setAttribute("method", "POST");
+			form.setAttribute("action", __baseUrl+"users/telephone_auto_campaign/");
+			form.setAttribute("id", "telephone_frm");
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "template_id");
+			hiddenField.setAttribute("id", "template_id");
+			hiddenField.setAttribute("value", templateID);
+			form.appendChild(hiddenField);			
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "lead_id");
+			hiddenField.setAttribute("id", "lead_id");
+			hiddenField.setAttribute("value", leadGlobal);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "lead_name");
+			hiddenField.setAttribute("id", "lead_name");
+			hiddenField.setAttribute("value", leadNameGlobal);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "setup");
+			hiddenField.setAttribute("id", "setup");
+			hiddenField.setAttribute("value", 'implementation');
+			form.appendChild(hiddenField);		
+			var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "activity_type");
+				hiddenField.setAttribute("id", "activity_type");
+				hiddenField.setAttribute("value", _mainActivity);
+				form.appendChild(hiddenField);
+			if(_sales_emails.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "email_list");
+				hiddenField.setAttribute("id", "email_list");
+				hiddenField.setAttribute("value", JSON.stringify(_sales_emails));
+				form.appendChild(hiddenField);
+			}
+			if(_personNames.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "person_list");
+				hiddenField.setAttribute("id", "person_list");
+				hiddenField.setAttribute("value", JSON.stringify(_personNames));
+				form.appendChild(hiddenField);
+			}
+			if(ids.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "ids_list");
+				hiddenField.setAttribute("id", "ids_list");
+				hiddenField.setAttribute("value", JSON.stringify(ids));
+				form.appendChild(hiddenField);
+			}
+			if(_companyNames.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "company_list");
+				hiddenField.setAttribute("id", "company_list");
+				hiddenField.setAttribute("value", JSON.stringify(_companyNames));
+				form.appendChild(hiddenField);
+			}
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "user_id");
+			hiddenField.setAttribute("id", "user_id");
+			hiddenField.setAttribute("value", _CS);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "email_message");
+			hiddenField.setAttribute("id", "email_message");
+			hiddenField.setAttribute("value", message);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "template_file");
+			hiddenField.setAttribute("id", "template_file");
+			hiddenField.setAttribute("value", name);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "subject");
+			hiddenField.setAttribute("id", "subject");
+			hiddenField.setAttribute("value", subject);
+			form.appendChild(hiddenField);
+			var iframe= jQuery("#open_prefined_message").find('#predefineFormIframe').get(0);
+			var iframewindow= iframe.contentWindow? iframe.contentWindow : iframe.contentDocument.defaultView;
+			iframewindow.document.body.appendChild(form);
+			iframewindow.document.forms['telephone_frm'].submit();
+		} else {
+			alert("Please select persons from same stage.");
+		}
+	} else {
+		alert("Please select persons first.");
+	}
+}
+
+function sendLinkedMessage(campaignStage,message,name,subject){
+	console.log("@@"+message+"@@");
+	console.log("@@"+name+"@@");
+	if(jQuery("#linked_frm").length>0){
+		jQuery("#linked_frm").remove();
+	}
+	_c = 0;
+	if(jQuery("#aquisitionTable").is(":visible")){
+		_c = jQuery('#aquisitionTable').find("input[name='sales_person[]']:checked").length;
+	} else if(jQuery("#activityTable").is(":visible")){
+		_c = jQuery('#activityTable').find("input[name='sales_person[]']:checked").length;
+	}
+	if(_c>0){
+		let _sales_emails=[],_personNames=[],_companyNames=[],ids = [];	
+		_mainActivity = jQuery("#activityMainType").val();
+		let _container = "";
+		if(_mainActivity==1){
+			_container = "activityTable";
+		} else if(_mainActivity==2){
+			_container = "aquisitionTable";
+		}
+		let containeElement = jQuery('#'+_container);
+		let trStageCompanies = containeElement.find('select#stage_progress > option[value="'+campaignStage+'"]:selected');
+		console.log("SElectedStage:",campaignStage);
+		if(trStageCompanies.length > 0){
+			console.log("trStageCompanies:",trStageCompanies);
+			trStageCompanies.each((j,c) => {
+				console.log("trStageCompanies:",j,c);
+				let $this = trStageCompanies.eq(j).parents('tr.master');
+				let selectedPeople = $this.next().find("input[name='sales_person[]']:checked");
+				if(selectedPeople.length > 0){
+					selectedPeople.each((i,e) => {
+						let $contactThis = selectedPeople.eq(i);
+						if($contactThis.attr('data-attr-linkedin')!="" && $contactThis.attr('data-attr-linkedin')!=undefined){
+							_sales_emails.push($contactThis.attr('data-attr-linkedin'));
+							ids.push($contactThis.val());
+							_personNames.push($contactThis.attr('data-attr-name'));
+							_companyNames.push($contactThis.attr('data-attr-c-name'));
+						}
+					})
+				}
+			});
+		}
+		if(_sales_emails.length > 0){
+			h = jQuery(window).height() - 120;
+			w = jQuery(window).width()/2;
+			var sliderID = "open_prefined_message";
+			appendSlider(sliderID,'Linkedin Campaign','Campaign');
+			if(jQuery("#"+sliderID).length > 0) {
+				jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="' + __baseUrl + 'users/linkedin_auto_campaign/" width="100%" height="100px" scrolling="yes"></iframe>');
+				openSlidebar(jQuery("#"+sliderID));
+				slidebarOpenCallback(jQuery("#"+sliderID));
+				jQuery("#"+sliderID).addClass("is-open");
+				changeIframeHeight(jQuery("#"+sliderID));
+			}
+			
+			var form = document.createElement("form");
+			form.setAttribute("method", "POST");
+			/*form.setAttribute("action", __baseUrl+"base/linkedin/index.php");*/
+			form.setAttribute("action", __baseUrl+"users/linkedin_auto_campaign/");
+			/*form.setAttribute("target", "_blank");*/
+			form.setAttribute("id", "linked_frm");	
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "lead_id");
+			hiddenField.setAttribute("id", "lead_id");
+			hiddenField.setAttribute("value", leadGlobal);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "lead_name");
+			hiddenField.setAttribute("id", "lead_name");
+			hiddenField.setAttribute("value", leadNameGlobal);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "setup");
+			hiddenField.setAttribute("id", "setup");
+			hiddenField.setAttribute("value", 'implementation');
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "activity_type");
+				hiddenField.setAttribute("id", "activity_type");
+				hiddenField.setAttribute("value", _mainActivity);
+				form.appendChild(hiddenField);
+			if(_sales_emails.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "email_list");
+				hiddenField.setAttribute("id", "email_list");
+				hiddenField.setAttribute("value", JSON.stringify(_sales_emails));
+				form.appendChild(hiddenField);
+			}
+			if(_personNames.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "person_list");
+				hiddenField.setAttribute("id", "person_list");
+				hiddenField.setAttribute("value", JSON.stringify(_personNames));
+				form.appendChild(hiddenField);
+			}
+			if(ids.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "ids_list");
+				hiddenField.setAttribute("id", "ids_list");
+				hiddenField.setAttribute("value", JSON.stringify(ids));
+				form.appendChild(hiddenField);
+			}
+			if(_companyNames.length > 0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "company_list");
+				hiddenField.setAttribute("id", "company_list");
+				hiddenField.setAttribute("value", JSON.stringify(_companyNames));
+				form.appendChild(hiddenField);
+			}
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "user_id");
+			hiddenField.setAttribute("id", "user_id");
+			hiddenField.setAttribute("value", _CS);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "email_message");
+			hiddenField.setAttribute("id", "email_message");
+			hiddenField.setAttribute("value", message);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "template_file");
+			hiddenField.setAttribute("id", "template_file");
+			hiddenField.setAttribute("value", name);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "subject");
+			hiddenField.setAttribute("id", "subject");
+			hiddenField.setAttribute("value", subject);
+			form.appendChild(hiddenField);
+			/*document.body.appendChild(form);	
+			document.forms['linked_frm'].submit();	*/
+			/*Append Form in iFrame*/
+			var iframe= jQuery("#open_prefined_message").find('#predefineFormIframe').get(0);
+			var iframewindow= iframe.contentWindow? iframe.contentWindow : iframe.contentDocument.defaultView;
+			iframewindow.document.body.appendChild(form);
+			iframewindow.document.forms['linked_frm'].submit();
+		} else {
+			alert("Please select persons from same stage.");
+		}
+	} else {
+		alert("Please select persons first.");
+	}
+}
+
+function sendEmailImap(campaignStage,html,name,subject,s,contactForm){	
+	console.log("Name:"+name);
+	if(jQuery("#imap_frm").length>0){
+		jQuery("#imap_frm").remove();
+	}
+	_c = 0;
+	if(jQuery("#aquisitionTable").is(":visible")){
+		_c = jQuery('#aquisitionTable').find("input[name='sales_person[]']:checked").length;
+	} else if(jQuery("#activityTable").is(":visible")){
+		_c = jQuery('#activityTable').find("input[name='sales_person[]']:checked").length;
+	}		
+	if(_c>0){
+		let _sales_emails=[],_personNames=[],_companyNames=[],ids = [];	
+		_mainActivity = jQuery("#activityMainType").val();
+		let _container = "";
+		if(_mainActivity==1){
+			_container = "activityTable";
+		} else if(_mainActivity==2){
+			_container = "aquisitionTable";
+		}
+		let containeElement = jQuery('#'+_container);
+		let trStageCompanies = containeElement.find('select#stage_progress > option[value="'+campaignStage+'"]:selected');
+		console.log("SElectedStage:",campaignStage);
+		if(trStageCompanies.length > 0){
+			console.log("trStageCompanies:",trStageCompanies);
+			trStageCompanies.each((j,c) => {
+				console.log("trStageCompanies:",j,c);
+				let $this = trStageCompanies.eq(j).parents('tr.master');
+				let selectedPeople = $this.next().find("input[name='sales_person[]']:checked");
+				if(selectedPeople.length > 0){
+					selectedPeople.each((i,e) => {
+						let $contactThis = selectedPeople.eq(i);
+						if($contactThis.attr('data-attr-em')!="" && $contactThis.attr('data-attr-em')!=undefined){
+							_sales_emails.push($contactThis.attr('data-attr-em'));
+							ids.push($contactThis.val());
+							_personNames.push($contactThis.attr('data-attr-name'));
+							_companyNames.push($contactThis.attr('data-attr-c-name'));
+						}
+					})
+				}
+			});
+		}
+		if(_sales_emails.length > 0){
+			h = jQuery(window).height() - 120;
+			w = jQuery(window).width()/2;
+			var sliderID = "open_prefined_message";
+			appendSlider(sliderID,'Email Campaign','Campaign');
+			if(jQuery("#"+sliderID).length > 0) {
+				jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="' + __baseUrl + 'users/email_campaign/" width="100%" height="100px" scrolling="yes"></iframe>');
+				openSlidebar(jQuery("#"+sliderID));
+				slidebarOpenCallback(jQuery("#"+sliderID));
+				jQuery("#"+sliderID).addClass("is-open");
+				changeIframeHeight(jQuery("#"+sliderID));
+			}
+			var form = document.createElement("form");
+			form.setAttribute("method", "POST");
+			/*form.setAttribute("action", __baseUrl+"base/email_campaign/index.php");*/
+			form.setAttribute("action", __baseUrl+"users/email_campaign/");
+			/*form.setAttribute("target", "_blank");*/
+			form.setAttribute("id", "imap_frm");	
+			if(typeof contactForm!="undefined" && contactForm>0){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "contact_from");
+				hiddenField.setAttribute("id", "contact_from");
+				hiddenField.setAttribute("value", contactForm);
+				form.appendChild(hiddenField);
+			}
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "send_account_type");
+			hiddenField.setAttribute("id", "send_account_type");
+			hiddenField.setAttribute("value", s);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "lead_id");
+			hiddenField.setAttribute("id", "lead_id");
+			hiddenField.setAttribute("value", leadGlobal);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "lead_name");
+			hiddenField.setAttribute("id", "lead_name");
+			hiddenField.setAttribute("value", leadNameGlobal);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "setup");
+			hiddenField.setAttribute("id", "setup");
+			hiddenField.setAttribute("value", 'implementation');
+			form.appendChild(hiddenField);
+		
+			var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "activity_type");
+				hiddenField.setAttribute("id", "activity_type");
+				hiddenField.setAttribute("value", _mainActivity);
+				form.appendChild(hiddenField);
+			if(_sales_emails!=""){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "email_list");
+				hiddenField.setAttribute("id", "email_list");
+				hiddenField.setAttribute("value", JSON.stringify(_sales_emails));
+				form.appendChild(hiddenField);
+			}
+			if(_personNames!=""){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "person_list");
+				hiddenField.setAttribute("id", "person_list");
+				hiddenField.setAttribute("value", JSON.stringify(_personNames));
+				form.appendChild(hiddenField);
+			}
+			if(ids!=""){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "ids_list");
+				hiddenField.setAttribute("id", "ids_list");
+				hiddenField.setAttribute("value", ids);
+				form.appendChild(hiddenField);
+			}
+			if(_companyNames!=""){
+				var hiddenField = document.createElement("input"); 
+				hiddenField.setAttribute("type", "hidden");
+				hiddenField.setAttribute("name", "company_list");
+				hiddenField.setAttribute("id", "company_list");
+				hiddenField.setAttribute("value", JSON.stringify(_companyNames));
+				form.appendChild(hiddenField);
+			}
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "user_id");
+			hiddenField.setAttribute("id", "user_id");
+			hiddenField.setAttribute("value", _CS);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "email_message");
+			hiddenField.setAttribute("id", "email_message");
+			hiddenField.setAttribute("value", html);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "template_file");
+			hiddenField.setAttribute("id", "template_file");
+			hiddenField.setAttribute("value", name);
+			form.appendChild(hiddenField);
+			var hiddenField = document.createElement("input"); 
+			hiddenField.setAttribute("type", "hidden");
+			hiddenField.setAttribute("name", "subject");
+			hiddenField.setAttribute("id", "subject");
+			hiddenField.setAttribute("value", subject);
+			form.appendChild(hiddenField);
+			/*Append Form in iFrame*/
+			var iframe= jQuery("#open_prefined_message").find('#predefineFormIframe').get(0);
+			var iframewindow= iframe.contentWindow? iframe.contentWindow : iframe.contentDocument.defaultView;
+			iframewindow.document.body.appendChild(form);
+			iframewindow.document.forms['imap_frm'].submit();		
+			/*document.getElementById('predefineFormIframe').contentWindow*/
+			/*End appending*/
+			/*document.body.appendChild(form);	
+			document.forms['imap_frm'].submit();*/
+		} else {
+			alert("Please select persons from same stage.");
+		}
+	} else {
+		alert("Please select persons first.");
+	}			
+}
+
+function flagSaleActivity(t,o){
+	o.parent().find("input[name='sales_person[]']").prop('checked',true);
+	if(t==1){
+		jQuery("#eventCid").val(o.parent().parent().attr('data-c'));
+		jQuery("#eventPid").val(o.parent().parent().attr('data-p'));
+		jQuery("#eventT").val(jQuery("#activityMainType").val());
+		jQuery("#emailDocUrl").val("");jQuery("#attach_droppable").empty();
+		jQuery("#anotherSys").val(0);
+		jQuery("#emailCC").css("width","725px");
+		$("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');
+		jQuery("#gmail_message_modal").css("display","block").addClass("sb-active").animate({textIndent:0},{step:function(e,j){$(this).css("transform","translate(350px)")},duration:"slow"},"linear");
+		if(jQuery("#imap_expert").length>1){
+			_check = true;
+		}
+		if(_check===false){
+			console.log('DAN');
+			if(jQuery("#imap_expert").hasClass('active')){
+				jQuery("#eventUserType").val(3);
+			}else if(jQuery("#imap_operation").hasClass('active')){
+				jQuery("#eventUserType").val(2);
+			}else if(jQuery("#imap_licenses").hasClass('active')){
+				jQuery("#eventUserType").val(1);
+			}
+		}else {
+			console.log('DAN1');
+			if(jQuery("#imap_expert").hasClass('active')){
+				jQuery("#eventUserType").val(3);
+			}else if(jQuery("#imap_operation").hasClass('active')){
+				jQuery("#eventUserType").val(2);
+			}else if(jQuery("#imap_licenses").hasClass('active')){
+				jQuery("#eventUserType").val(1);
+			}
+		}
+		if(jQuery("#eventUserType").val()=='1'){
+			jQuery("#message_send_from_email").val("licenses@synpat.com");
+		}else if(jQuery("#eventUserType").val()=='2'){
+			jQuery("#message_send_from_email").val("patents@synpat.com");
+		}else if(jQuery("#eventUserType").val()=='3'){
+			jQuery("#message_send_from_email").val("experts@synpat.com");
+		}
+		/*jQuery("body").removeAttr("onselectstart");document.oncontextmenu=new Function("return true");*/
+		$(".dropdown-toggle").dropdown();
+		jQuery("#emailThreadId").val("");
+		jQuery("#emailMessageId").val("");
+		jQuery("#attach_droppable").empty();
+		jQuery("#emailSubject").val('').removeAttr("readonly");
+		jQuery("#gmail_message").css("display","block");
+		jQuery(".gmail-modal").css("display","block");
+		if(mainLogBox==1){jQuery("#legal_log").val(1)}else{jQuery("#legal_log").val(0)}
+		jQuery("#gmail_message_modal").find("h4").html("Compose Message: "+leadNameGlobal);jQuery("#messageLeadId").val(leadGlobal);
+		jQuery("body").data("modalzindex",jQuery("#gmail_message_modal").css("z-index"));
+		if(o.attr('data-attr-em')!=undefined){
+			findDataRemove.push(o.attr('data-attr-em'));
+		jQuery("#emailTo").val(o.attr('data-attr-em')+', ');
+		}
+		
+	} else if(t==2){
+		sendLinkedMessage('');
+	}
+}
+
+function openProjectContactList(type,panel){
+	if(leadGlobal>0){jQuery("#contactSellerFormIframe").attr("src",__baseUrl+"opportunity/open_project_contact_form/"+leadGlobal+"/"+type+"/"+panel).css("display","block");jQuery("#sellerContactForm").modal("show")}else{alert("Please select lead first.")}
+}
+
+function saveUpdateOpenProjectLead(type,contactID){
+	data = {type:type,contact_id:contactID,lead_id:leadGlobal,status:0};
+	call(__baseUrl+'leads/open_project_contact_data_update','POST',data,showUpdateOpenProject,'json');
+}
+
+window.showUpdateOpenProject = function(data,textStatus,xhr){
+}
+
+function refreshAcquisitionAndSalesActivity(){
+	/*jQuery("#activityType").val('');*/
+	
+	if(leadGlobal>0){
+		if(jQuery("#activityMainType").val()==1){
+			/*refresh Sales*/
+			getLeadSalesData = salesData();
+			getLeadSalesData.done(function(){
+				showSalesData();
+			});
+		} else if(jQuery("#activityMainType").val()==2){
+			/*refresh acquisition*/
+			getLeadAcquisitionData =  acquisitionData();
+			getLeadAcquisitionData.done(function(){
+				showAcqusitionData();
+			});
+		}
+	}
+}
+function processContact(b){
+	_activity = jQuery("#activityMainType").val();
+	_container = "";
+	switch(parseInt(_activity)){
+		case 1:
+			_container = "#activityTable";
+		break;
+		case 2:
+			_container = "#aquisitionTable";
+		break;
+		case 3:
+			_container = "#preSaleActivityTable";
+		break;
+	}
+	if(_container!=""){
+		if(jQuery(_container).find('input[name="sales_person[]"]:checked').length>0){
+			/*Append new Contact or update contact data*/
+			data={edit_link:b};
+			call(__baseUrl+'opportunity/findContact','POST',data,embedRecord,'json');
+		} else {
+			refreshAcquisitionAndSalesActivity();
+		}
+	}
+}
+window.embedRecord = function(data,textStatus,xhr){
+	if(typeof data.id!="undefined"){
+		_activity = jQuery("#activityMainType").val();
+		_container = "";
+		switch(parseInt(_activity)){
+			case 1:
+				_container = "#activityTable";
+			break;
+			case 2:
+				_container = "#aquisitionTable";
+			break;
+			case 3:
+				_container = "#preSaleActivityTable";
+			break;
+		}
+		if(_container!=""){
+			jQuery(_container).find('tbody>tr.master').each(function(){
+				_companyName = jQuery(this).find('a').eq(1).find('b').text();
+				if(jQuery(this).attr('data-c')==data.company_id){
+					_personTables = jQuery(this).next();
+					social_links = '';
+					if(data.email!=''){
+						social_links += '<a onclick="openComposeEmail(jQuery(this));" href="javascript://"><i class="glyph-icon icon-envelope-square"></i></a>';
+					}
+					if(data.linkedin_url!=''){
+						social_links += '<a href="'+data.linkedin_url+'" target="_blank"><i class="glyph-icon icon-linkedin"></i></a>';
+					}
+					gateway='';
+					no_contact='';
+					if(data.gateway=='1'){
+						gateway = '&nbsp;&nbsp;<img src="'+__IMAGEURL+'images/gateway.png" style="width:16px;"/>';
+					}
+					if(data.no_contact=='1'){
+						no_contact = '&nbsp;&nbsp;<img src="'+__IMAGEURL+'images/no_contact.jpg"/>';
+					}
+					
+					if(_personTables.find('tr.salesFDroppable').length>0){
+						/*Update*/
+						append = false;
+						_personTables.find('tr.salesFDroppable').each(function(){
+							if(jQuery(this).attr('data-p')==data.id){
+								append = true;
+								jQuery(this).html('<td style="border-left:0px; width:65px;"><input name="sales_person[]" onclick="checkMeC(jQuery(this))" class="sales-activity-checkbox" data-attr-em="'+data.email+'" data-attr-linkedin="'+data.linkedin_url+'" data-attr-name="'+data.name+'" data-attr-c-name="'+_companyName+'" type="checkbox" value="'+data.id+'">'+social_links+'</td><td><a href="javascript://" onclick="editContact('+data.id+')">'+data.name+gateway+no_contact+'</a></td><td>'+data.job_title+'</td><td style=""><a href="javascript://" onclick="callFromLandline('+encodeURIComponent(data.phone)+',jQuery(this))">'+data.phone+'</a></td>');
+							}
+						});
+						if(append===false){
+							_personTables.find('tbody').html('<tr class="salesFDroppable" data-c="'+data.company_id+'" data-p="'+data.id+'"><td style="border-left:0px; width:65px;"><input name="sales_person[]" onclick="checkMeC(jQuery(this))" class="sales-activity-checkbox" data-attr-em="'+data.email+'" data-attr-linkedin="'+data.linkedin_url+'" data-attr-name="'+data.name+'" data-attr-c-name="'+_companyName+'" type="checkbox" value="'+data.id+'">'+social_links+'</td><td><a href="javascript://" onclick="editContact('+data.id+')">'+data.name+gateway+no_contact+'</a></td><td>'+data.job_title+'</td><td style=""><a href="javascript://" onclick="callFromLandline('+encodeURIComponent(data.phone)+',jQuery(this))">'+data.phone+'</a></td></tr>');
+						}
+					} else {
+						/*Insert*/						
+						_personTables.find('tbody').html('<tr class="salesFDroppable" data-c="'+data.company_id+'" data-p="'+data.id+'"><td style="border-left:0px; width:65px;"><input name="sales_person[]" onclick="checkMeC(jQuery(this))" class="sales-activity-checkbox" data-attr-em="'+data.email+'" data-attr-linkedin="'+data.linkedin_url+'" data-attr-name="'+data.name+'" data-attr-c-name="'+_companyName+'" type="checkbox" value="'+data.id+'">'+social_links+'</td><td><a href="javascript://" onclick="editContact('+data.id+')">'+data.name+gateway+no_contact+'</a></td><td>'+data.job_title+'</td><td style=""><a href="javascript://" onclick="callFromLandline('+encodeURIComponent(data.phone)+',jQuery(this))">'+data.phone+'</a></td></tr>');
+					}
+				}
+			});
+		}
+	}
+}
+function editContact(contactID){
+	openContactEditForm(contactID);
+}
+/*
+function openAddCustomerRequestForm(email){	
+	openContactEditForm(0);
+		
+}*/
+function checkMeC(o){
+	_mainActivity = jQuery("#activityMainType").val();
+	objParent= "";
+	if(_mainActivity=="1"){
+		objParent = "#activityTable";
+	} else if(_mainActivity=="2"){
+		objParent = "#aquisitionTable";
+	}
+	objList= jQuery(objParent).find('input[name="sales_person[]"]:checked');
+	if(objList.length>0){
+		jQuery("#show_selected_count").text(objList.length);
+	} else {
+		jQuery("#show_selected_count").text('');
+	}
+}
+function addCompanyIDToOpenContactPopup(companyID,companyName){
+	_iframe = jQuery('#open_contact_add').find('iframe').get(0);
+	_htmlContent = _iframe.contentDocument;
+	console.log(_htmlContent);
+	if(jQuery(_htmlContent).find('#inviteeCompanyId').length>0){
+		jQuery(_htmlContent).find('#inviteeCompanyId').val(companyID);
+		jQuery(_htmlContent).find('.show_name').find('strong').html('<a href="javascript://" class="pull-left mrg5L mrg5T" style="text-decoration:none;" onclick="window.parent.openCompanyEdit('+companyID+')">'+companyName+'</a>');
+	} else {
+		setTimeout(function(){
+			addCompanyIDToOpenContactPopup(companyID,companyName);
+		},1000);
+	}	
+}
+
+function openContactBoxForSelectedCompany(companyID,companyName){
+	openContactEditForm(0);
+	setTimeout(function(){
+		addCompanyIDToOpenContactPopup(companyID,companyName);
+	},1500);
+}
+
+function openPreContacts(){
+	var sliderID = "open_prefined_message";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Pre Contacts','PreContacts');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="precontactsFormIframe" src="'+__baseUrl+'leads/pre_contacts/" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+
+function scannedBusinessCard(){
+	var sliderID = "open_prefined_message";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Business Card','BusinessCard');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="'+__baseUrl+'leads/business_cards_list/" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+
+function openPreContactsWithRetrieve(){
+	var sliderID = "open_prefined_message";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Pre Contacts','PreContacts');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="'+__baseUrl+'leads/pre_contacts/9" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+
+function openPreCompanies(){
+	var sliderID = "open_prefined_message";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Pre Companies','PreCompanies');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="'+__baseUrl+'leads/pre_companies/'+leadGlobal+'" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+function openLeadAssign(){
+	var sliderID = "open_prefined_message";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {		
+		appendSlider(sliderID,'Assign Lead','LeadAssign');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="'+__baseUrl+'leads/companies_assign_lead/" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			jQuery("#"+sliderID).addClass("is-open");
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+function retrieveFullContacts(){
+	jQuery("#predefineFormIframe").contents().find('#btnFullContact').css('display','none');
+	jQuery.ajax({
+		url:__baseUrl+'leads/fetch_list_full_contacts',
+		success:function(d){
+			jQuery("#predefineFormIframe").contents().find("#btnFullContact").css('display','inline-display');
+			document.getElementById('predefineFormIframe').contentWindow.location.reload();
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function open_scanned_documents(obj){
+	var sliderID = "scanner_document";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {
+		appendSlider(sliderID,'Scanner','Scanner');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="profileFormIframe" src="' + __baseUrl + 'leads/scanning_document_files/" width="100%" height="100px" scrolling="yes"></iframe>');
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+function formatDateFromTimeStamp(timestamp){
+	return moment(new Date(parseInt(timestamp))).tz('America/Los_Angeles').format('YYYY-MM-DD hh:mm:ss');
+}
+function openGoogleContacts(){
+	var sliderID = "open_prefined_message_google";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {
+		appendSlider(sliderID,'Google Contacts','GoogleContacts');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="googleFormIframe" src="'+__baseUrl+'opportunity/google_contact/" width="100%" height="100px" scrolling="yes"></iframe>');
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+function openLitigationScrap(){
+	var sliderID = "open_prefined_message";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID))
+		});
+	} else {
+		appendSlider(sliderID,'Litigation Scrap','LitigationScrap');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="'+__baseUrl+'leads/litigation_scrap/" width="100%" height="100px" scrolling="yes"></iframe>');
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+
+function open_drive_folder(ID){
+	_container= '#'+_mainBtnParentElement;
+	console.log("ID:"+ID);
+	jQuery(_container).find('select#clipboard').val(ID);
+	console.log(jQuery(_container).find('select#clipboard').val());
+	findThisDriveFile(jQuery(_container).find('select#clipboard'),ID);
+}
+
+function moveEmailToLabel(o){
+	_label = o.val();
+	if(_label!=""){
+		__Parent = o.parent().parent().parent().parent().parent();
+		_thread=__Parent.data("id");
+		_active=jQuery.trim(jQuery(".emails-group-container").find("a.active").html());
+		if(_thread!=undefined&&_thread!=""&&_label!=undefined&&_label!=""&&_active!=undefined&&_active!=""){jQuery.ajax({type:"POST",url:__baseUrl+"dashboard/moveThreadDiff",data:{thread:_thread,label:_label,active:_active},cache:false,success:function(e){if(e>0){__Parent.remove();jQuery("#displayEmail").html('')}}}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});}
+	}
+}
+var driveFilesInFolder = "";
+var folderCount=[];
+function runFilesInFolder(i){
+	if(folderCount.length>0 && typeof folderCount[i]!="undefined"){
+		_folderID = folderCount[i]
+		driveFilesInFolder = jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'dashboard/countFilesInFolder',
+			data:{f:_folderID},
+			dataType:'json',
+			success:function(d){
+				if(typeof d.count!='undefined'){
+					if(jQuery('#'+_mainBtnParentElement).find("#litigation_doc_list>ul").find('a[data-file-id="'+_folderID+'"]').length>0){
+						if(jQuery('#'+_mainBtnParentElement).find("#litigation_doc_list>ul").find('a[data-file-id="'+_folderID+'"]').find('span').length==0){
+							jQuery('#'+_mainBtnParentElement).find("#litigation_doc_list>ul").find('a[data-file-id="'+_folderID+'"]').append("<span class='mrg5L'>("+d.count+")</span>");
+						} else {
+							jQuery('#'+_mainBtnParentElement).find("#litigation_doc_list>ul").find('a[data-file-id="'+_folderID+'"]').find('span').html(d.count);
+						}						
+					}
+				}
+				i = i+1;
+				runFilesInFolder(i);
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	} else {
+		folderCount=[];
+	}	
+}
+
+function loadDriveFiles(_data){
+	folderCount=[];
+	_drive='';
+	_container='';
+	_container= '#'+_mainBtnParentElement;
+	if(jQuery(_container).find("#litigation_doc_list>ul").length>0){
+		if(typeof _data.drive!="undefined"){
+			_drive=_data.drive;
+		}		
+		if(_drive!="" &&_drive.length>0){			
+			try{
+				jQuery(_container).find("#litigation_doc_list>ul").empty();
+				jQuery(_container).find('#clipboard').html('<option value="">Go to main</option>');
+				for(d=0;d<_drive.length;d++){
+					if(_drive[d].mimeType=="application/vnd.google-apps.folder"){
+						folderCount.push(_drive[d].id);
+						jQuery(_container).find('#clipboard').append('<option value="'+_drive[d].id+'">'+_drive[d].title+'</option>');
+						jQuery(_container).find("#litigation_doc_list>ul").append('<li class="driveDragable"><img src="'+_drive[d].iconLink+'"/> <a data-file-id="'+_drive[d].id+'" data-href="'+_drive[d].alternateLink+'" data-mime="'+_drive[d].mimeType+'"  href="javascript:void(0);" class="drive_file_click"   onclick="open_drive_folder(\''+_drive[d].id+"')\">"+_drive[d].title+'</a><span class="pull-right drive-close hide"><a href="javascript:void(0);" class="" onclick="deleteDrive(\''+_drive[d].id+'\')"><i class="glyph-icon icon-close"></i></a></span><span class="mrg5L" style="font-size:11px;display:inline-block;"><i>'+moment(new Date(_drive[d].createdDate)).format("MM-DD-YY")+'</i><i class="mrg10L">'+moment(new Date(_drive[d].modifiedDate)).format("MM-DD-YY")+'</i></span></li>');
+					} else {
+							if(_drive[d].mimeType=="application/pdf"||_drive[d].mimeType=="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"||_drive[d].mimeType=="application/msword"||_drive[d].mimeType=="image/jpeg"||_drive[d].mimeType=="image/png"){
+							url="https://docs.google.com/file/d/"+_drive[d].id+"/preview";jQuery(_container).find("#litigation_doc_list>ul").append('<li class="driveDragable "><img src="'+_drive[d].iconLink+'"/> <a data-file-id="'+_drive[d].id+'" data-href="'+_drive[d].alternateLink+'"  href="javascript:void(0);" class="drive_file_click" data-mime="'+_drive[d].mimeType+'" onclick="open_drive_files(\''+url+"')\">"+_drive[d].title+'</a><span class="pull-right drive-close hide"><a href="javascript:void(0);" class="" onclick="deleteDrive(\''+_drive[d].id+'\')"><i class="glyph-icon icon-close"></i></a></span><span class="mrg5L" style="font-size:11px;display:inline-block;"><i>'+moment(new Date(_drive[d].createdDate)).format("MM-DD-YY")+'</i><i class="mrg10L">'+moment(new Date(_drive[d].modifiedDate)).format("MM-DD-YY")+'</i></span></li>');
+						}else{
+							jQuery(_container).find("#litigation_doc_list>ul").append('<li class="driveDragable"><img src="'+_drive[d].iconLink+'"/> <a data-file-id="'+_drive[d].id+'" data-href="'+_drive[d].alternateLink+'" data-mime="'+_drive[d].mimeType+'" href="javascript:void(0);" class="drive_file_click"   onclick="open_drive_files(\''+_drive[d].alternateLink+"')\">"+_drive[d].title+'</a><span class="pull-right drive-close hide"><a href="javascript:void(0);" class="" onclick="deleteDrive(\''+_drive[d].id+'\')"><i class="glyph-icon icon-close"></i></a></span><span class="mrg5L" style="font-size:11px;display:inline-block;"><i>'+moment(new Date(_drive[d].createdDate)).format("MM-DD-YY")+'</i><i class="mrg10L">'+moment(new Date(_drive[d].modifiedDate)).format("MM-DD-YY")+'</i></span></li>');
+						}
+					}					
+			   }
+			   jQuery(_container).find("#litigation_doc_list>ul").find("li.driveDragable").find("a").click(function(){_message='Open '+jQuery(this).text()+' file.'; runHistoryUserLog(_message);jQuery(this).parent().parent().find('li').removeClass('active');jQuery(this).parent().addClass('active')});
+				docFileDraggable();driveFileDraggable();initHoverEmailClose();
+				driveRightClick();
+				if(folderCount.length>0){runFilesInFolder(0);}
+			} catch(e){
+				console.warn(e);
+			}
+		}
+	} else {
+		setTimeout(function(){			
+			loadDriveFiles(leadCache[leadGlobal]['drive_data']);
+		},400);
+	}	
+}
+
+function runHistoryUserLog(_message){
+	jQuery.ajax({
+		url:__baseUrl+'dashboard/log_user_history',
+		type:'POST',
+		data:{lead_id:leadGlobal,message:_message},
+		cache:false,
+		success:function(data){
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+ window.AcquisitionUser=[];
+ window.SalesUser=[];
+ function isHTML(str){
+	 return /<(basefont|hr|input|source|frame|param|area|meta|!--|col|link|option|base|img|wbr|!DOCTYPE).*?>|<(a|abbr|acronym|address|applet|article|aside|audio|b|bdi|bdo|big|blockquote|body|button|canvas|caption|center|cite|code|colgroup|command|datalist|dd|del|details|dfn|dialog|dir|div|dl|dt|em|embed|fieldset|figcaption|figure|font|footer|form|frameset|head|header|hgroup|h1|h2|h3|h4|h5|h6|html|i|iframe|ins|kbd|keygen|label|legend|li|map|mark|menu|meter|nav|noframes|noscript|object|ol|optgroup|output|p|pre|progress|q|rp|rt|ruby|s|samp|script|section|select|small|span|strike|strong|style|sub|summary|sup|table|tbody|td|textarea|tfoot|th|thead|time|title|tr|track|tt|u|ul|var|video).*?<\/\2>/i.test(str);
+ }
+ String.prototype.nl2br = function()
+{
+    return this.replace(/\n/g, "<br />");
+}
+
+function tapLeadPosition(g){
+	_scrollTop=jQuery("#all_type_list").find("tbody").find('tr[data-id="'+g+'"]').offset();
+	if(jQuery("#dashboard_charts").is(":visible")){
+		jQuery("#all_type_list").parent().scrollTop(_scrollTop.top-263.5)
+	} else {
+		jQuery("#all_type_list").parent().scrollTop(_scrollTop.top-106)
+	}
+}
+
+function getLeadList(o){
+	_ID = 0;
+	if(typeof o.val()!="undefined" && o.val()>0){
+		_ID = o.val();
+	} else if(typeof o.data('id')!='undefined' && o.data('id')>0){
+		_ID = o.data('id');
+	}
+	jQuery.ajax({
+		type:'post',
+		data:{contact_id:_ID},
+		url:__baseUrl+'dashboard/find_lead_by_contact_id',
+		success:function(d){
+			if(d!=""){
+				_d = jQuery.parseJSON(d);				
+				if(_d.list.length>0){
+					_table = '<div style="overflow-x:none;overflow-y:scroll;height:300px;"> <table id="lb'+o.val()+'" class="table table-striped table-hover"><thead><tr><th>Lead</th><th>Activity</th></tr></thead><tbody>';
+					for(l=0;l<_d.list.length;l++){
+						_row = _d.list[l];
+						_activityName="";
+						if(_d.list[l].activity==1){
+							_activityName = "Sales";
+						} else if(_d.list[l].activity==2){
+							_activityName = "Acquisition";
+						}
+						_table +='<tr onclick="threadDetail(jQuery(\'#all_type_list\').find(\'tr[data-id='+_d.list[l].id+']\'));tapLeadPosition('+_d.list[l].id+');" style="cursor:pointer;"><td>'+_d.list[l].lead_name+'</td><td>'+_activityName+'</td></tr>';
+					}
+					_table +='</tbody></table>';
+					jQuery("#sortingPopup").find(".modal-body").html(_table);
+					jQuery("#sortingPopup").find("#lb"+o.val()).DataTable().destroy();
+					jQuery("#sortingPopup").modal("show");
+					jQuery("#sortingPopup").find("#lb"+o.val()).DataTable({destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"}});
+				} else {
+					alert("No Lead associate with this contact.");
+				}				
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function changeExpandSide(o){
+	_parent = o.parents('div.sb-slidebar');
+	if(_parent.attr('id')!='undefined' && _parent.attr('id')=="open_eou_folder"){
+		_cssWidth = _parent.css('width');
+		_cssWidth = parseInt(_cssWidth);
+		_windowWidth = jQuery(window).width();
+		if(_windowWidth==_cssWidth){
+			leftWidth = jQuery("#"+_mainBtnParentElement).find('.formWithCheckBox').width();
+			_windowWidth = _windowWidth - leftWidth - 10;
+		}
+		jQuery("#open_eou_folder").css({width:_windowWidth+'px'});
+	}
+}
+
+function openCompanyContact(contactID){
+		if(contactID>0){
+			openCompanyEdit(contactID);
+		} else {
+			alert("Please select contact first");
+		}		
+	}
+
+function openCompanyThroughContact(){
+	if(jQuery("#inviteeCompanyId").val()!=""){
+		openCompanyContact(jQuery("#inviteeCompanyId").val());
+	}
+}
+
+
+function addNewContact(o){
+	openAddCustomerRequestForm('');
+	jQuery("#inviteeCompanyId>option").each(function(){
+		obj = o.parent().parent().parent().parent().parent().parent().prev();
+		if(jQuery(this).attr('value')==obj.attr('data-c')){
+			jQuery(this).prop('selected',true);
+			_company = jQuery(this).text();
+			jQuery("#addContactForm #createContactModalLabel").html('Add a new person under '+_company);
+			jQuery("#addContactForm #createContactModalLabel").css('width','80%');
+			jQuery("#addContactForm #btnManageCategories").css('display','none').removeAttr('onclick');
+			jQuery("#inviteeCompanyId").parent().append('<input type="hidden" name="invitee[company_id]" id="inviteeCompanyId" value="'+jQuery(this).attr('value')+'"/>');
+			jQuery("#inviteeCompanyId").parent().find("label").css('display','none');
+			jQuery("#inviteeCompanyId").css('display','none');			
+		}
+	});
+}
+acquiData = "";
+function acquisitionImport(_data){
+	if(_data.acquisition.length>0){
+		activityHtmlEmbed('aquisitionTable',2,_data.acquisition);
+	} else {
+		/*empty table and variable*/
+		window.AcquisitionUser=[];
+		jQuery("#aquisitionTable").find("tbody.main_active").empty();
+	}
+}
+
+function getWidthForColumns(){
+	windowColumnWidth = {};
+	windowColumnWidth.__w = jQuery(window).width() - 40;
+	windowColumnWidth.__wS = windowColumnWidth.__w*37.5/100;
+	windowColumnWidth.__wL = windowColumnWidth.__w*62.5/100;
+	windowColumnWidth.__wS1 = windowColumnWidth.__wS*40/100;
+	windowColumnWidth.__wS2 = windowColumnWidth.__wS*60/100;
+	windowColumnWidth.__wL1 = windowColumnWidth.__wL*15/100;
+	windowColumnWidth.__wL2 = windowColumnWidth.__wL*12/100;
+	windowColumnWidth.__wL3 = windowColumnWidth.__wL*73/100;
+	windowColumnWidth.__wSC3 = windowColumnWidth.__wS2;
+	windowColumnWidth.__wSC1 = windowColumnWidth.__wS1*60/100;
+	windowColumnWidth.__wSC2 = windowColumnWidth.__wS1*40/100;
+	return windowColumnWidth;
+}
+function activityHtmlEmbed(parentElement,type,a){
+	_csWidth = getWidthForColumns();	
+	switch(parseInt(type)){
+		case 1:
+			window.SalesUser=[];
+		break;
+		case 2:
+			window.AcquisitionUser=[];
+		break;
+	}	
+	
+	jQuery("#"+parentElement).find("tbody.main_active").empty();
+	jQuery("#count_n_companies").html('Companies: '+a.length);
+	___gateway = 0;
+	if(a.length>0){			
+		for(i=0;i<a.length;i++){
+		_cID=a[i].company.id;
+		_cName=a[i].company.company_name;
+		if(a[i].company.company_name_alias!=''){
+			_cName=a[i].company.company_name_alias;
+		}
+		broker_name='',broker_company='',_person="",_activity="",editConf='',_date="",_note="";
+		if(a[i].activities.length>0){
+			_person=a[i].activities[0].firstName+" "+a[i].activities[0].lastName;
+			_activity=salesActivities[a[i].activities[0].type];
+			_date=a[i].activities[0].activity_date;
+			_date = moment(new Date(_date)).format("HH:mm MMM DD, YY");
+			_note=a[i].activities[0].note;
+			if(!isHTML(_note)){_note = _note.nl2br();}
+			if(a[i].activities[0].type==11){_note = _note.nl2br();}
+			mainNote = _note; 
+			switch(parseInt(a[i].activities[0].type)){
+				case 206:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[0].company_id+","+a[i].activities[0].contact_id+","+a[i].activities[0].type+")'><img src='"+__IMAGEURL+"images/small-vm-calldrip.png' style='width:16px;'/> "+_note+'</a>';
+				break;
+				case 37:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[0].company_id+","+a[i].activities[0].contact_id+","+a[i].activities[0].type+")'><img src='"+__IMAGEURL+"images/Conference_Call-512.png' style='width:16px;'/> "+_note+'</a>';
+				break;
+				case 21:
+				case 22:
+				case 23:
+					let _color = '#2196f3';
+					if(parseInt(a[i].activities[0].type) == 23){
+						_color = '#2d2d2d';
+					} else if(parseInt(a[i].activities[0].type) == 22){
+						_color = '#d1c8c8';
+					}
+					_note = "<a href='javascript://' data-linkedin-message-id='"+a[i].activities[0].id+"' onclick='showLinkedMessageOnFly(jQuery(this))'><i class='glyph-icon icon-linkedin' title='Linkedin Message' style='color:"+_color+"' ></i> "+_note+'</a>';
+				break;
+				case 1:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[0].company_id+","+a[i].activities[0].contact_id+","+a[i].activities[0].type+")'><i class='glyph-icon icon-phone' title='Contacts' style='color:#2196f3' ></i> "+_note+'</a>';
+				break;
+				case 2:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[0].company_id+","+a[i].activities[0].contact_id+","+a[i].activities[0].type+")'><i class='glyph-icon icon-phone' title='Contacts' style='color:#d1c8c8' ></i> "+_note+'</a>';
+				break;
+				case 5:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[0].company_id+","+a[i].activities[0].contact_id+","+a[i].activities[0].type+")'><i class='glyph-icon icon-linkedin' title='Contacts' style='color:#d1c8c8' ></i> "+_note+'</a>';
+				break;
+				case 10:
+					_note = "<a href='javascript://' onclick='approvedFile("+a[i].activities[0].task_id+")'><i class='glyph-icon icon-tasks' title='Contacts' style='color:#2196f3' ></i> &nbsp;"+_note+'</a>';
+				break;
+			}			
+			if(a[i].activities[0].next_call_date!='0000-00-00 00:00:00'){
+				_da = moment(new Date()).tz('America/Los_Angeles').format('YYYY-MM-DD');
+				nextDate = moment(new Date(a[i].activities[0].next_call_date)).tz('America/Los_Angeles').format('YYYY-MM-DD');
+				if(nextDate==_da){
+					
+					switch(parseInt(a[i].activities[0].type)){
+						case 1:
+						case 2: 
+						case 207:
+						case 37:
+						_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[0].company_id+","+a[i].activities[0].contact_id+","+a[i].activities[0].type+")'><i class='glyph-icon icon-exclamation' title='Contacts' style='color:green' ></i> "+mainNote+'</a>';
+						break;
+					}
+				}
+			}
+		}
+		_stepsProcess='',_discardICON='',_classActivity='',_openEditContact='';
+		if(parseInt(_bUsT)==9){
+			switch(parseInt(type)){
+				case 1:					
+					_classActivity = 'showActivity';
+					_openEditContact = "onclick='openCompanyContact("+_cID+")'";
+					_discardICON ="<input type='checkbox' name='assign_delete[]' style='margin-left:0px;'/>";
+					_stepsProcess ='<select name="stage_progress" class="mrg5L pull-right" id="stage_progress" onchange="openProgressPop(jQuery(this))" style="width:155px;">';
+					_stepsProcess +='<option value="" class="no-contact">1 No contact details</option>';
+					stage = 1==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="1" '+stage+' class="torquoise">2 Contact found</option>';
+					stage = 2==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="2" '+stage+' class="torquoise">3 Invitation sent</option>';
+					stage = 7==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="7" '+stage+' class="torquoise">4 Invitation received</option>';
+					stage = 3==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="3" '+stage+' class="torquoise">5 Sale call scheduled</option>';
+					stage = 4==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="4" '+stage+' class="seablue">6 Opportunity understood</option>';
+					stage = 5==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="5" '+stage+' class="seablue">7 Documents reviewed</option>';
+					stage = 8==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="8" '+stage+' class="seablue">8 Customer interested</option>';
+					stage = 9==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="9" '+stage+' class="darksea">9 Documents exchanged</option>';
+					stage = 10==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="10" '+stage+' class="darksea">10 RTP submitted</option>';
+					stage = 11==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="11" '+stage+' class="darksea">11 Payment made</option>';
+					stage = 6==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="6" '+stage+' class="redsea">12 Pass</option>';
+					_stepsProcess +='</select>';
+				break;
+				case 2:
+					_classActivity = 'showActivity';
+					_openEditContact = "onclick='openCompanyContact("+_cID+")'";
+					_discardICON ="<input type='checkbox' name='assign_delete[]' style='margin-left:0px;'/>";
+					_stepsProcess ='<select name="stage_progress" class="mrg5L pull-right" id="stage_progress" onchange="openProgressPop(jQuery(this))" style="width:155px;">';
+					_stepsProcess +='<option value="" class="no-contact">1 No contact details</option>';
+					stage = 1==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="1" '+stage+' class="torquoise">2 Contact found</option>';
+					stage = 2==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="2" '+stage+' class="torquoise">3 Proposal sent</option>';
+					stage = 7==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="7" '+stage+' class="torquoise">4 Proposal received</option>';
+					stage = 3==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="3" '+stage+' class="torquoise">5 Call scheduled</option>';
+					stage = 4==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="4" '+stage+' class="seablue">6 Opportunity understood</option>';
+					stage = 5==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="5" '+stage+' class="seablue">7 Documents reviewed</option>';
+					stage = 8==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="8" '+stage+' class="seablue">8 Seller interested</option>';
+					stage = 9==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="9" '+stage+' class="darksea">9 Documents exchanged</option>';
+					stage = 10==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="10" '+stage+' class="darksea">10 PPA executed</option>';
+					stage = 11==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="11" '+stage+' class="darksea">11 Payment made</option>';
+					stage = 12==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="12" '+stage+' class="darksea">12 Assignment Recorded</option>';
+					stage = 6==a[i].company.stage ?'SELECTED="SELECTED"':'';
+					_stepsProcess +='<option value="6" '+stage+' class="redsea">13 Pass</option>';
+					_stepsProcess +='</select>';
+				break;
+			}			
+		} else {
+		
+			switch(parseInt(type)){
+				case 1:
+					switch(parseInt(a[i].company.stage)){
+						case 1:
+							_stepsProcess = '2 Contact found';
+						break;
+						case 2:
+							_stepsProcess = '3 Invitation sent';
+						break;
+						case 3:
+							_stepsProcess = '5 Sale call scheduled';
+						break;
+						case 4:
+							_stepsProcess = '6 Opportunity understood';
+						break;
+						case 5:
+							_stepsProcess = '7 Documents reviewed';
+						break;
+						case 6:
+							_stepsProcess = '12 Pass';
+						break;
+						case 7:
+							_stepsProcess = '4 Invite received';
+						break;
+						case 8:
+							_stepsProcess = '8 Customer interested';
+						break;
+						case 9:
+							_stepsProcess = '9 Documents exchanged';
+						break;
+						case 10:
+							_stepsProcess = '10 RTP submitted';
+						break;
+						case 11:
+							_stepsProcess = '11 Payment made';
+						break;
+						default:
+							_stepsProcess = '1 No contact details';
+						break;
+					}
+				break;
+				case 2:
+					switch(parseInt(a[i].company.stage)){
+						case 1:
+							_stepsProcess = '2 Contact found';
+						break;
+						case 2:
+							_stepsProcess = '3 Proposal sent';
+						break;
+						case 3:
+							_stepsProcess = '5 Call scheduled';
+						break;
+						case 4:
+							_stepsProcess = '6 Opportunity understood';
+						break;
+						case 5:
+							_stepsProcess = '7 Documents reviewed';
+						break;
+						case 6:
+							_stepsProcess = '13 Pass';
+						break;
+						case 7:
+							_stepsProcess = '4 Proposal received';
+						break;
+						case 8:
+							_stepsProcess = '8 Seller interested';
+						break;
+						case 9:
+							_stepsProcess = '9 Documents exchanged';
+						break;
+						case 10:
+							_stepsProcess = '10 PPA executed';
+						break;
+						case 11:
+							_stepsProcess = '11 Payment made';
+						break;
+						case 12:
+							_stepsProcess = '12 Assignment Recorded';
+						break;
+						default:
+							_stepsProcess = '1 No contact details';
+						break;
+					}
+				break;
+			}
+		}
+	
+	if(parseInt(type)==1){
+	if(_leadCompaniesAssignBroker.length>0 && _bUsT!=9){
+		_classActivity ='',broker_company='',broker_name='';
+		for(lb=0;lb<_leadCompaniesAssignBroker.length;lb++){
+			if(_leadCompaniesAssignBroker[lb].SBLCID ==_cID){
+				_classActivity = 'showActivity';
+				broker_name = _leadCompaniesAssignBroker[lb].company_name;
+				broker_company = _leadCompaniesAssignBroker[lb].company_name;
+				_stepsProcess ='<select name="stage_progress" class="mrg5L pull-right" id="stage_progress" onchange="openProgressPop(jQuery(this))" style="width:155px;">';
+				_stepsProcess +='<option value="" class="no-contact">1 No contact details</option>';
+				stage = 1==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="1" '+stage+' class="torquoise">2 Contact found</option>';
+				stage = 2==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="2" '+stage+' class="torquoise">3 Invitation sent</option>';
+				stage = 7==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="7" '+stage+' class="torquoise">4 Invitation received</option>';
+				stage = 3==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="3" '+stage+' class="torquoise">5 Sale call scheduled</option>';
+				stage = 4==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="4" '+stage+' class="seablue">6 Opportunity understood</option>';
+				stage = 5==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="5" '+stage+' class="seablue">7 Documents reviewed</option>';
+				stage = 8==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="8" '+stage+' class="seablue">8 Customer interested</option>';
+				stage = 9==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="9" '+stage+' class="darksea">9 Documents exchanged</option>';
+				stage = 10==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="10" '+stage+' class="darksea">10 RTP submitted</option>';
+				stage = 11==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="11" '+stage+' class="darksea">11 Payment made</option>';
+				stage = 6==a[i].company.stage ?'SELECTED="SELECTED"':'';
+				_stepsProcess +='<option value="6" '+stage+' class="redsea">12 Pass</option>';
+				_stepsProcess +='</select>';
+			}
+		}
+	} else {
+		broker_name='',broker_company='';
+		_classActivity = 'showActivity';
+		_openEditContact = "onclick='openCompanyContact("+_cID+")'";
+		for(lb=0;lb<_leadCompaniesAssignBroker.length;lb++){			
+			_classActivity = 'showActivity';
+			if(_leadCompaniesAssignBroker[lb].SBLCID ==_cID){
+				broker_name = _leadCompaniesAssignBroker[lb].company_name;
+				broker_company = _leadCompaniesAssignBroker[lb].company_name;
+			}
+			_stepsProcess ='<select name="stage_progress" class="mrg5L pull-right" id="stage_progress" onchange="openProgressPop(jQuery(this))" style="width:155px;">';
+			_stepsProcess +='<option value="" class="no-contact">1 No contact details</option>';
+			stage = 1==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="1" '+stage+' class="torquoise">2 Contact found</option>';
+			stage = 2==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="2" '+stage+' class="torquoise">3 Invitation sent</option>';
+			stage = 7==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="7" '+stage+' class="torquoise">4 Invitation received</option>';
+			stage = 3==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="3" '+stage+' class="torquoise">5 Sale call scheduled</option>';
+			stage = 4==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="4" '+stage+' class="seablue">6 Opportunity understood</option>';
+			stage = 5==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="5" '+stage+' class="seablue">7 Documents reviewed</option>';
+			stage = 8==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="8" '+stage+' class="seablue">8 Customer interested</option>';
+			stage = 9==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="9" '+stage+' class="darksea">9 Documents exchanged</option>';
+			stage = 10==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="10" '+stage+' class="darksea">10 RTP submitted</option>';
+			stage = 11==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="11" '+stage+' class="darksea">11 Payment made</option>';
+			stage = 6==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="6" '+stage+' class="redsea">12 Pass</option>';
+			_stepsProcess +='</select>';
+		}
+	}
+		} else {
+			_classActivity = 'showActivity';
+			_openEditContact = "onclick='openCompanyContact("+_cID+")'";
+			_discardICON ="<input type='checkbox' name='assign_delete[]' style='margin-left:0px;'/>";
+			_stepsProcess ='<select name="stage_progress" class="mrg5L pull-right" id="stage_progress" onchange="openProgressPop(jQuery(this))" style="width:155px;">';
+			_stepsProcess +='<option value="" class="no-contact">1 No contact details</option>';
+			stage = 1==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="1" '+stage+' class="torquoise">2 Contact found</option>';
+			stage = 2==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="2" '+stage+' class="torquoise">3 Proposal sent</option>';
+			stage = 7==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="7" '+stage+' class="torquoise">4 Proposal received</option>';
+			stage = 3==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="3" '+stage+' class="torquoise">5 Call scheduled</option>';
+			stage = 4==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="4" '+stage+' class="seablue">6 Opportunity understood</option>';
+			stage = 5==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="5" '+stage+' class="seablue">7 Documents reviewed</option>';
+			stage = 8==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="8" '+stage+' class="seablue">8 Seller interested</option>';
+			stage = 9==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="9" '+stage+' class="darksea">9 Documents exchanged</option>';
+			stage = 10==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="10" '+stage+' class="darksea">10 PPA executed</option>';
+			stage = 11==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="11" '+stage+' class="darksea">11 Payment made</option>';
+			stage = 12==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="12" '+stage+' class="darksea">12 Assignment Recorded</option>';
+			stage = 6==a[i].company.stage ?'SELECTED="SELECTED"':'';
+			_stepsProcess +='<option value="6" '+stage+' class="redsea">13 Pass</option>';
+			_stepsProcess +='</select>';
+		}
+		/*<td style='width:100px;'>"+_activity+"</td>*/
+		_tr="<tr class='master '  data-c='"+_cID+"'><td style='width:"+_csWidth.__wS1+"px;'>"+_discardICON+_stepsProcess+"</td><td style='width:"+_csWidth.__wS2+"px;'><a href='javascript://' class='"+_classActivity+"'><i class='glyph-icon icon-chevron-right' title='Contacts' style='display:inline-block;width:13px;' ></i></a>&nbsp;<a href='javascript://' "+_openEditContact+"><b>"+_cName+"</b> <span class='broker_detail' data-company='"+broker_company+"' style='float:right;'>"+broker_name+"</span></a></td><td style='width:"+_csWidth.__wL1+"px;'>"+_date+"</td><td style='width:"+_csWidth.__wL2+"px;'>"+_person+"</td>";
+		if(_activity!="" && a[i].activities[0].type!=undefined){
+			switch(a[i].activities[0].type){
+				case 1:
+				case 2:
+				case 37:
+				editConf="<a href='javascript:void(0);' class='' onclick='editActivitiesData("+leadGlobal+',"'+a[i].activities[0].id+"\")'><i class='glyph-icon icon-close'></i></a>"; 
+				break; 
+			}
+		}
+		if(_activity!=""&&(a[i].activities[0].type=="6" || a[i].activities[0].type=="3")&&a[i].activities[0].email_id!=0){
+			if(a[i].activities[0].email.length>0){				
+				if(parseInt(type)==1){
+					window.SalesUser[a[i].activities[0].email[0].id] = a[i].activities[0].email[0];
+				} else if(parseInt(type)==2){
+					window.AcquisitionUser[a[i].activities[0].email[0].id] = a[i].activities[0].email[0];
+				}				
+				__a='';
+				if(parseInt(_bUsT)==9){__a="<a href='javascript:void(0);' class='' onclick='removeFromBox("+leadGlobal+',"'+a[i].activities[0].email[0].id+"\")'><i class='glyph-icon icon-close'></i></a>";}
+				_d = a[i].activities[0].email[0];
+				_innerTR='';if(_d.file_attach!=""&&_d.file_attach!="0"){attachedFiles =jQuery.trim(_d.file_attach); _files=attachedFiles.split(",");if(_files.length>0){for(f=0;f<_files.length;f++){if(_files[f]!=""){filename=_files[f].indexOf("upload");if(filename>0){filename=_files[f].substr(filename+7);translated=escapedString(_files[f]);if(translated.indexOf('https')<0){translated = translated.replace('http','https');}_innerShowData="<a data-href='"+translated+"' data-mime='' onclick='open_drive_files(\""+translated+"\");' href='javascript://'   style='width:93%'><i class='glyph-icon icon-file-o' style='color:#2196f3'></i> "+decodeURIComponent(filename)+"</a>";_innerTR+="<li class='"+a[i].activities[0].email[0].id+" attach docDragable' style='padding:5px 8px;'>"+_innerShowData+"</li>";} else if(_files[f].indexOf("synpat.com")>0){filename = _files[f].split('/').pop();if(filename=='?edit'){filename='Intro DD';}translated=escapedString(_files[f]);if(translated.indexOf('https')<0){translated = translated.replace('http','https');}_innerTR+="<li class='"+a[i].activities[0].email[0].id+"'><a onclick='open_drive_files(\""+translated+"\");' href='javascript://'><i class='glyph-icon icon-file-o' style='color:#2196f3'></i> "+decodeURIComponent(filename)+"</a></li>";}}}}}
+				_color='#2196f3';
+				if(a[i].activities[0].email[0].sent_from==1){_color='#d1c8c8';}
+				if(a[i].activities[0].error==1){_color="#cc0000";}
+				subject = "",_receivedDate = '';
+				if(typeof _d.content!="undefined" &&_d.content!=""){
+				try{
+					_contents=jQuery.parseJSON(_d.content);
+					if(typeof _contents.to!='undefined'){
+						_receivedDate = _contents.date;subject = _contents.subject;
+					} else {
+						if(_contents.length>0){
+							for(c=0;c<_contents.length;c++){
+								_content=_contents[c];header=_content.header;
+								if(header.length>0){
+									for(h=0;h<header.length;h++){
+										if(header[h].name=="Subject"){
+											subject = header[h].value
+										}
+										if(header[h].name=="Date"){
+											_receivedDate=header[h].value
+										}
+									}
+								}
+							}
+						}
+					}
+				} catch(e){
+					
+				}}
+				if(_innerTR!=""){
+				_innerTR="<ul style='margin:0;padding:0;list-style:none;'>"+_innerTR+"</ul>";
+				}
+				
+				if(a[i].activities[0].email[0].account_type==2){
+					if(parseInt(type)==1){
+						if(subject==""){
+							_an="";
+							if(_classActivity!=''){
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://' onclick='imapShowDataSales("+a[i].activities[0].email[0].id+",jQuery(this));'>View Email</a>";
+							} else {
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://'>View Email</a>";
+							}
+							_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'><i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an+_innerTR+"</div></div>";
+							if(_innerTR!=""){
+								/*_tr+="<a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a>";*/
+							}
+							_tr+="</td></tr>";
+						} else {
+							_an="";
+							if(_classActivity!=''){
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://' onclick='imapShowDataSales("+a[i].activities[0].email[0].id+",jQuery(this));'>"+subject+"</a>";
+							} else {
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://'>"+subject+"</a>";
+							}
+							_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'><i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an+_innerTR+"</div></div>";
+							if(_innerTR!=""){
+								/*_tr+="<a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a>";*/
+							}
+							_tr+="</td></tr>";
+						}
+					} else if(parseInt(type)==2){
+						if(subject==""){
+							_an="";
+							if(_classActivity!=''){
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://' onclick='imapShowDataAcc("+a[i].activities[0].email[0].id+",jQuery(this));'>View Email</a>";
+							} else {
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://'>View Email</a>";
+							}
+							_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'><i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an+_innerTR+"</div></div>";
+							if(_innerTR!=""){
+								/*_tr+="<a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a>";*/
+							}
+							_tr+="</td></tr>";
+						} else {
+							_an="";
+							if(_classActivity!=''){
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://' onclick='imapShowDataAcc("+a[i].activities[0].email[0].id+",jQuery(this));'>"+subject+"</a>";
+							} else {
+								_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://'>"+subject+"</a>";
+							}
+							_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'><i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an+_innerTR+"</div></div>";
+							if(_innerTR!=""){
+								/*_tr+="<a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a>";*/
+							}
+							_tr+="</td></tr>";
+						}
+					}
+			} else {				
+				if(subject==""){
+					_an="";
+					if(_classActivity!=''){
+						_an="<a style='' href='javascript://' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' onclick='findOwnThread(\""+a[i].activities[0].email_id+"\",jQuery(this),2);'>View Email</a>";
+					} else {
+						_an="<a style='' href='javascript://' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"'>View Email</a>";
+					}
+					_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'><i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an+_innerTR+"</div></div>";
+					if(_innerTR!=""){
+						/*_tr+="<a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a>";*/
+					}
+					_tr+="</td></tr>";
+				} else {
+					_an="";
+					if(_classActivity!=''){
+						_an="<a style='' href='javascript://' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' onclick='findOwnThread(\""+a[i].activities[0].email_id+"\",jQuery(this),2);'>"+subject+"</a>";
+					} else {
+						_an="<a style='' data-message_id='"+a[i].activities[0].email[0].message_id+"' data-tr='"+a[i].activities[0].email[0].id+"' href='javascript://'>"+subject+"</a>";
+					}
+					_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'><i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an+_innerTR+"</div></div>";
+					if(_innerTR!=""){
+						/*_tr+="<a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a>";*/
+					}
+					_tr+="</td></tr>";
+				}
+			}
+		}
+	} else {
+		/*_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'>"+_note+"</div></div><a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a></td></tr>";*/
+		_tr+="<td style='width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'>"+_note+"</div></div></td></tr>";
+	}
+	jQuery("#"+parentElement).find("tbody.main_active").append(_tr);
+	_cList="<table class='table' style='border:0px;table-layout:fixed;width:"+_csWidth.__wS+"px;'><thead><tr><th style='width:"+_csWidth.__wSC1+"px;'>#&nbsp;<a href='javascript://' onclick='addNewContact(jQuery(this))' class='mrg10L' style='display:inline-block'><i class='glyph-icon icon-plus-circle'></i></a><span style='float:right'>CC</span></th><th style='"+_csWidth.__wSC2+"px;'>Name</th><th style='width:"+_csWidth.__wSC3+"px;'>Title</th></tr></thead><tbody></tbody></table>";
+	_cActivites="<table class='table' style='border:0px;table-layout:fixed;width:"+_csWidth.__wL+"px;'></table>";
+	if(a[i].people.length>0 && _classActivity!=''){
+		_cList="";_tr="";		
+		for(p=0;p<a[i].people.length;p++){
+			_name=a[i].people[p].first_name+" "+a[i].people[p].last_name,_phone='',_gateway='',no_contact='',_dataPhones = '',_sLinks='';
+			if(a[i].people[p].gateway>0){
+				___gateway +=1;
+				_gateway='&nbsp;&nbsp;<i class="icon-user-plus"></i>';
+			}
+			if(a[i].people[p].no_contact=='1'){
+				no_contact = '&nbsp;&nbsp;<img src="'+__IMAGEURL+'images/no_contact.jpg"/>';
+			}
+			if(a[i].people[p].phone!='' || a[i].people[p].telephone!='' || a[i].people[p].company_tel!=''){
+				phoneAttr = 'data-phone="'+a[i].people[p].phone+'"';
+				telephonephoneAttr = 'data-telephone="'+a[i].people[p].telephone+'"';
+				companyphoneAttr = 'data-companyphone="'+a[i].people[p].company_tel+'"';
+				_colorPhone = "#2196f3";
+				if(parseInt(a[i].people[p].new_phone)==1){
+					_colorPhone = "green";
+				}
+				if(a[i].people[p].phone!=''){
+					_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+a[i].people[p].id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone icon-mobile" style="color:'+_colorPhone+'"></i></a>';
+				}
+				_colorTelephone = "#2196f3";
+				if(parseInt(a[i].people[p].new_telephone)==1){
+					_colorTelephone = "green";
+				}
+				if(a[i].people[p].telephone!=''){
+					_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+a[i].people[p].id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone 1" style="color:'+_colorTelephone+'"></i></a>';
+				}
+				_colorCompanyPhone = "#2196f3";
+				if(parseInt(a[i].people[p].new_company)==1){
+					_colorCompanyPhone = "green";
+				}
+				if(a[i].people[p].company_tel!=''){
+					_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+a[i].people[p].id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone icon-phone-square" style="color:'+_colorCompanyPhone+'"></i></a>';
+				}
+			}
+			_emailID = "";
+			_sendFail = false;
+			switch(parseInt(a[i].people[p].active_email)){
+				case 1:
+					_emailID = a[i].people[p].email;
+					break;
+				case 2:
+					_emailID = a[i].people[p].secondary_email;
+					if(_emailID == "" && a[i].people[p].email != ""){
+						_sendFail = true;
+					}
+					break;
+				case 3:
+					_emailID = a[i].people[p].tertiary_email;
+					if(_emailID == "" && a[i].people[p].secondary_email != ""){
+						_sendFail = true;
+					}
+					break;
+			}
+			_emailID = _emailID.trim();
+			if(_emailID != ''){
+				_colorEmail = "#2196f3";
+				if(parseInt(a[i].people[p].new_email)==1){_colorEmail = "green";}
+				_sLinks='<a onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+a[i].people[p].id+',1)\' href="javascript://"><i class="glyph-icon icon-envelope" style="color:'+_colorEmail+'"></i></a>';
+			}
+			if(_sendFail === true || a[i].people[p].active_email == 4){
+				_sLinks='<a href="javascript://"><i class="glyph-icon icon-envelope" style="color:#cc0000"></i></a>';
+			}
+			if(a[i].people[p].linkedin_url!=''){
+				_colorLinkedin = "#222222";
+				if(parseInt(a[i].people[p].new_linkedin)==1){_colorLinkedin = "green";} else if(a[i].people[p].linkedin_error == 1){_colorLinkedin = "#cc0000";} else if(a[i].people[p].proximity == 1){_colorLinkedin = "#2196f3";} else if(a[i].people[p].proximity == 3){_colorLinkedin = "#9d9792";}
+				_sLinks +='&nbsp;<a onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+a[i].people[p].id+',1)\' href="javascript://"><i class="glyph-icon icon-linkedin" style="color:'+_colorLinkedin+'"></i></a>';
+			}
+			_ccColor="";
+			if(a[i].people[p].proximity==1){
+				_ccColor = "blue";
+			}
+			_dataEm = "";
+			if(a[i].people[p].new_email == 1){
+				_dataEm = 'data-attr-new-em="1"';
+			}
+			_tr+="<tr class='salesFDroppable' data-c='"+_cID+"' data-p='"+a[i].people[p].id+"'><td style='border-left:0px;border-bottom:0px;width:"+_csWidth.__wSC1+"px;'>";
+			_tr+='<input name="sales_person[]" onclick="checkMeC(jQuery(this))" class="sales-activity-checkbox" '+_dataEm+' data-gender="'+a[i].people[p].gender+'" data-attr-em="'+_emailID+'" data-attr-linkedin="'+a[i].people[p].linkedin_url+'" data-attr-first="'+jQuery.trim(a[i].people[p].first_name)+'" data-attr-last="'+jQuery.trim(a[i].people[p].last_name)+'" data-attr-name="'+_name+'" data-attr-c-name="'+jQuery.trim(_cName)+'" data-proximity="'+a[i].people[p].proximity+'" data-active_email="'+a[i].people[p].active_email+'"  type="checkbox" value="'+a[i].people[p].id+'" style="margin-left:0px;"/>'+_sLinks+_phone+_gateway+no_contact+'<span style="float:right;color:'+_ccColor+'">'+a[i].people[p].c_c+'</span>';
+			_tr+="</td><td style='border-left:0px;border-bottom:0px;width:"+_csWidth.__wSC2+"px;'><a href='javascript://' onclick='editContact("+a[i].people[p].id+")'>"+_name+"</a></td><td style='border-left:0px;border-bottom:0px;width:"+_csWidth.__wSC3+"px;'>"+a[i].people[p].job_title+"</td></tr>";
+		}
+		_cList="<table class='table' style='border:0px;table-layout:fixed;width:"+_csWidth.__wS+"px;'><thead><tr><th style='width:"+_csWidth.__wSC1+"px;'><input type='checkbox' name='activity_contact_all' onclick='selectAllContactWithinCompany(jQuery(this))'/>&nbsp;<a href='javascript://' onclick='addNewContact(jQuery(this))' class='mrg10L' style='display:inline-block'><i class='glyph-icon icon-plus-circle'></i></a><span style='float:right'>CC</span></th><th style='width:"+_csWidth.__wSC2+"px;'>Name</th><th style='width:"+_csWidth.__wSC3+"px;'>Title</th></tr></thead><tbody>"+_tr+"</tbody></table>";		
+	}
+	if(a[i].activities.length>0){
+		_cActivites="";_tr="";
+		for(al=1;al<a[i].activities.length;al++){
+			_person=a[i].activities[al].firstName+" "+a[i].activities[al].lastName,	_activity=salesActivities[a[i].activities[al].type],_note=a[i].activities[al].note,_date=a[i].activities[al].activity_date;_date = moment(new Date(_date)).format("HH:mm MMM DD, YY");
+			if(!isHTML(_note)){_note = _note.nl2br();}
+			mainNote =_note;
+			if(a[i].activities[al].type==11){_note = _note.nl2br();}
+			switch(parseInt(a[i].activities[al].type)){
+				case  206:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[al].company_id+","+a[i].activities[al].contact_id+","+a[i].activities[al].type+")'><img src='"+__IMAGEURL+"images/small-vm-calldrip.png' style='width:16px;'/> "+_note+'</a>';
+				break;
+				case 37:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[al].company_id+","+a[i].activities[al].contact_id+","+a[i].activities[al].type+")'><img src='"+__IMAGEURL+"images/Conference_Call-512.png' style='width:16px;'/> "+_note+'</a>';
+				break;
+				case 21:
+				case 22:
+				case 23:
+					let _color = '#2196f3';
+					if(parseInt(a[i].activities[0].type) == 23){
+						_color = '#2d2d2d';
+					} else if(parseInt(a[i].activities[0].type) == 22){
+						_color = '#d1c8c8';
+					}
+					_note = "<a href='javascript://' data-linkedin-message-id='"+a[i].activities[0].id+"' onclick='showLinkedMessageOnFly(jQuery(this))'><i class='glyph-icon icon-linkedin' title='Linkedin Message' style='color:"+_color+"' ></i> "+_note+'</a>';
+				break;
+				case 1:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[al].company_id+","+a[i].activities[al].contact_id+","+a[i].activities[al].type+")'><i class='glyph-icon icon-phone' title='Contacts' style='color:#2196f3' ></i> "+_note+'</a>';
+				break;
+				case 2:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[al].company_id+","+a[i].activities[al].contact_id+","+a[i].activities[al].type+")'><i class='glyph-icon icon-phone' title='Contacts' style='color:#d1c8c8' ></i> "+_note+'</a>';
+				break;
+				case 5:
+					_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[al].company_id+","+a[i].activities[al].contact_id+","+a[i].activities[al].type+")'><i class='glyph-icon icon-linkedin' title='Contacts' style='color:#d1c8c8' ></i> "+_note+'</a>';
+				break;
+				case 10:
+					_note = "<a href='javascript://' onclick='approvedFile("+a[i].activities[al].task_id+")'><i class='glyph-icon icon-tasks' title='Contacts' style='color:#2196f3' ></i> &nbsp;"+_note+'</a>';
+				break;
+			}
+			if(a[i].activities[al].next_call_date!='0000-00-00 00:00:00'){
+				_da = moment(new Date()).tz('America/Los_Angeles').format('YYYY-MM-DD');
+				nextDate = moment(new Date(a[i].activities[al].next_call_date)).tz('America/Los_Angeles').format('YYYY-MM-DD');
+				if(nextDate==_da){
+					
+					switch(parseInt(a[i].activities[al].type)){
+						case 1:
+						case 2:
+						case 207:
+						case 37:
+							_note = "<a href='javascript://' onclick='openEvenDialog(jQuery(this),"+a[i].activities[al].company_id+","+a[i].activities[al].contact_id+","+a[i].activities[al].type+")'><i class='glyph-icon icon-exclamation' title='Contacts' style='color:green' ></i> "+mainNote+'</a>';
+						break;						
+					}
+				}
+			}_innerTR='';
+			if(_activity!=""&&(a[i].activities[al].type=="6" || a[i].activities[al].type=="3")&&a[i].activities[al].email_id!=0){
+				if(typeof a[i].activities[al].email!="undefined" && a[i].activities[al].email.length>0){
+					if(parseInt(type)==1){
+						window.SalesUser[a[i].activities[al].email[0].id] = a[i].activities[al].email[0];
+					} else if(parseInt(type)==2){
+						window.AcquisitionUser[a[i].activities[al].email[0].id] = a[i].activities[al].email[0];
+					}
+					_d = a[i].activities[al].email[0];
+					if(_d.file_attach!=""&&_d.file_attach!="0"){attachedFiles =jQuery.trim(_d.file_attach); _files=attachedFiles.split(",");if(_files.length>0){for(f=0;f<_files.length;f++){if(_files[f]!=""){filename=_files[f].indexOf("upload");if(filename>0){filename=_files[f].substr(filename+7);translated=escapedString(_files[f]);if(translated.indexOf('https')<0){translated = translated.replace('http','https');} _innerShowData="<a data-href='"+translated+"' data-mime='' onclick='open_drive_files(\""+translated+"\");' href='javascript://'  style='width:93%'><i class='glyph-icon icon-file-o' style='color:#2196f3'></i> "+decodeURIComponent(filename)+"</a>";_innerTR+="<li class='"+a[i].activities[al].email[0].id+" attach docDragable' style='padding:5px 8px;'>"+_innerShowData+"</li>";} else if(_files[f].indexOf("synpat.com")>0){filename = _files[f].split('/').pop();if(filename=='?edit'){filename='Intro DD';}translated=escapedString(_files[f]);if(translated.indexOf('https')<0){translated = translated.replace('http','https');}_innerTR+="<li class='"+a[i].activities[al].email[0].id+"'><a onclick='open_drive_files(\""+translated+"\");' href='javascript://'><i class='glyph-icon icon-file-o' style='color:#2196f3'></i> "+decodeURIComponent(filename)+"</a></li>";}}}}}
+					subject = "",_receivedDate = '';
+					if(typeof _d.content!="undefined" &&_d.content!=""){
+					try{
+						_contents=jQuery.parseJSON(_d.content);
+						if(typeof _contents.to!='undefined'){
+							_receivedDate = _contents.date;subject = _contents.subject;
+						} else {
+							if(_contents.length>0){
+								for(c=0;c<_contents.length;c++){
+									_content=_contents[c];header=_content.header;
+									if(header.length>0){
+										for(h=0;h<header.length;h++){
+											if(header[h].name=="Subject"){
+												subject = header[h].value
+											}
+											if(header[h].name=="Date"){
+												_receivedDate=header[h].value
+											}
+										}
+									}
+								}
+							}
+						}
+					} catch(e){
+						
+					}}
+					_color='#2196f3';if(a[i].activities[al].email[0].sent_from==1){_color='#d1c8c8';}
+					if(a[i].activities[al].error==1){_color="#cc0000";}
+					if(a[i].activities[al].email[0].account_type==2){
+						var ___messageID = a[i].activities[al].email[0].message_id;
+						if(typeof ___messageID=="undefined"){
+							___messageID = "";
+						}
+						if(parseInt(type)==1){
+							if(subject==""){
+								_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://' onclick='imapShowDataSales("+a[i].activities[al].email[0].id+",jQuery(this));'>View Email</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://'>View Email</a>";}
+								_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+							}else{
+								_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://' onclick='imapShowDataSales("+a[i].activities[al].email[0].id+",jQuery(this));'>"+subject+"</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://'>"+subject+"</a>";}
+							_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+							}
+						} else if(parseInt(type)==2){
+							if(subject==""){
+								_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://' onclick='imapShowDataAcc("+a[i].activities[al].email[0].id+",jQuery(this));'>View Email</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://'>View Email</a>";}
+								_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+							}else{
+								_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://' onclick='imapShowDataAcc("+a[i].activities[al].email[0].id+",jQuery(this));'>"+subject+"</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://'>"+subject+"</a>";}
+							_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+							}
+						}
+					} else {
+						
+						var ___messageID = a[i].activities[al].email[0].message_id;
+						if(typeof ___messageID=="undefined"){
+							___messageID = "";
+						}
+						if(subject==""){
+							_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://' onclick='findOwnThread(\""+a[i].activities[al].email_id+"\",jQuery(this),2);'>View Email</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://'>View Email</a>";}
+							_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+						}else{
+							_an="";if(_classActivity!=''){_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://' onclick='findOwnThread(\""+a[i].activities[al].email_id+"\",jQuery(this),2);'>"+subject+"</a>";} else {_an="<a style='' data-message_id='"+___messageID+"' data-tr='"+a[i].activities[al].email[0].id+"' href='javascript://'>"+subject+"</a>";}
+							_note="<i class='glyph-icon icon-envelope pull-left' style='color:"+_color+"'></i>&nbsp;"+_an;
+						}
+					}
+				}
+			}
+			if(_innerTR!=""){
+				_innerTR="<ul style='margin:0;padding:0;list-style:none;'>"+_innerTR+"</ul>";
+			}
+			/*console.log("ATTACH1",_innerTR);*/
+			_tr+="<tr><td style='width:"+_csWidth.__wL1+"px;'>"+_date+"</td><td style='width: "+_csWidth.__wL2+"px;'>"+_person+"</td><td style='border-right:0px;width:"+_csWidth.__wL3+"px;'><div class='sales-activity-notes'><div class='sales-activity-notes-content'>"+_note+_innerTR+"</div></div>";
+			if(_innerTR!=""){
+				/*_tr+="<a href='' class='sales-activity-notes-icon' onclick='return salesActivityNotesIconClick(jQuery(this))'><i class='glyph-icon icon-angle-down'></i><i class='glyph-icon icon-angle-up'></i></a>";*/
+			}
+			_tr+="</td></tr>";
+		}
+		_cActivites="<table class='table' style='border:0px;table-layout:fixed;width:"+_csWidth.__wL+"px;'><tbody>"+_tr+"</tbody></table>";
+	}
+	_newTr="<tr style='display:none;' data-c='child_"+_cID+"'><td colspan='2' style='padding:0px;border:0px;width:"+_csWidth.__wS+"px;'>"+_cList+"</td><td colspan='3' style='padding:0px;border:0px;width:"+_csWidth.__wL+"px;' class='sales_activities'>"+_cActivites+"</td></tr>";
+	_tHead = jQuery("#"+parentElement).find("thead").find("th");
+	_tHead.eq(0).css("width",_csWidth.__wS1);
+	_tHead.eq(1).css("width",_csWidth.__wS2);
+	_tHead.eq(2).css("width",_csWidth.__wL1);
+	_tHead.eq(3).css("width",_csWidth.__wL2);
+	_tHead.eq(4).css("width",_csWidth.__wL3);
+	jQuery("#"+parentElement).find("tbody.main_active").append(_newTr);
+	
+	}
+	}
+	jQuery("#count_n_gateway").html('Gateway: '+___gateway);
+	docFileDraggable();
+	toggleCompanySales();initHoverEmailClose();checkProcessColor(parentElement);/*runFixedTableLayoutProccess(type);*/
+	if(parseInt(type) == 1){
+		checkCampaignEmailOpen();
+	}
+}
+
+function selectAllContactWithinCompany(o){
+	let _checked = true;
+	if(!o.is(':checked')){
+		_checked = false;
+	}
+	const contactTbody = o.parents('thead').parent().find('tbody');
+	if(contactTbody.find('tr').length > 0){
+		contactTbody.find('tr').find("input[type='checkbox']").prop('checked',_checked);
+	}
+	objParent= "";
+	_mainActivity = jQuery("#activityMainType").val();
+	if(_mainActivity=="1"){
+		objParent = "#activityTable";
+	} else if(_mainActivity=="2"){
+		objParent = "#aquisitionTable";
+	}
+	objList= jQuery(objParent).find('input[name="sales_person[]"]:checked');
+	if(objList.length>0){
+		jQuery("#show_selected_count").text(objList.length);
+	} else {
+		jQuery("#show_selected_count").text('');
+	}
+}
+
+function checkCampaignEmailOpen(){
+	call(__baseUrl+'users/campaign_process','POST',{lead:leadGlobal},resultOfCampaign,'json');
+}
+function resultOfCampaign(data,textStatus,xhr){
+	if(data.list.length > 0){
+		if(data.lead == leadGlobal){
+			const activityTable = jQuery("#activityTable");
+			const openedList = data.list;
+			let trA,envelopeIcon;
+			openedList.forEach(function(e){
+				trA = activityTable.find("a[data-tr='"+e.email_id+"']");
+				if(trA.length > 0){
+					envelopeIcon = trA.parent().find('i.icon-envelope');
+					if(envelopeIcon.length > 0){
+						envelopeIcon.removeClass('icon-envelope').addClass('icon-envelope-open');
+					}
+				}
+			});
+		}
+	}	
+}
+function findThisDriveFile(o,s){
+	_container="";if(jQuery("#from_regular").is(":visible")){_container="#from_regular"}else{if(jQuery("#from_litigation").is(":visible")){_container="#from_litigation"}else{if(jQuery("#from_nonacquistion").is(":visible")){_container="#from_nonacquistion"}}}
+	if(jQuery(_container).find("#litigation_doc_list>ul").find('li').hasClass('active')){
+		_anchorObject = jQuery(_container).find("#litigation_doc_list>ul").find('li.active').find('a');_id=_anchorObject.attr("data-file-id");_mime = _anchorObject.data("mime");
+		_fF='';
+		if(typeof s == "undefined") {
+			if(_container!=''){
+				_fF = jQuery(_container).find('select#clipboard').val();
+				if(_fF=='' && jQuery(_container).find('select#clipboard').find('option:selected').length>0){_fF='GoTOMain';}
+			}
+		} else {
+			_fF = s;
+		}
+		if(_id!=""&&_fF!=""&&_id!=undefined&&_fF!=undefined&& _mime!="application/vnd.google-apps.folder"){
+			var confirmMovingFile = confirm("Are you sure you want to move file?");
+			if(confirmMovingFile===true){
+				jQuery("#mainDocWaitBox").modal("show");jQuery.ajax({url:__baseUrl+"dashboard/move_drive_file_in_lead_folder",type:"POST",data:{d:_id,f:_fF,l:leadGlobal},cache:false,success:function(k){jQuery("#mainDocWaitBox").modal("hide");_anchorObject.parent().remove();
+				_contain = '';
+				if(jQuery('#open_files_gd').hasClass('is-open') && jQuery('#open_files_gd1').hasClass('is-open')==false){
+					_contain = 'open_files_gd';
+				} else if(jQuery('#open_files_gd').hasClass('is-open')==false && jQuery('#open_files_gd1').hasClass('is-open')){
+					_contain = 'open_files_gd1';
+				} else if(jQuery('#open_files_gd').hasClass('is-open') && jQuery('#open_files_gd1').hasClass('is-open')){
+					_cZIndex = jQuery('#open_files_gd').css('zIndex');
+					_cZIndex1 = jQuery('#open_files_gd1').css('zIndex');
+					if(_cZIndex>_cZIndex1){
+						_contain = 'open_files_gd';
+					} else {
+						_contain = 'open_files_gd1';
+					}
+				}
+				if(_contain!=""){
+					closeSlideBarLeftDrive(_contain);
+				}
+				if(_fF=="GoTOMain"){
+					getLeadDriveData =  driveFilesData();
+					getLeadDriveData.done(function(){
+						showDriveData();
+					});
+				} else {
+					if(typeof s != "undefined") {
+						_fF = s;
+					} else {
+						_fF = _fF.val();
+					}
+					leadDriveDataSubFolder(_fF);
+				}
+				}}).fail(function(jqXHR, textStatus){
+					if(textStatus !='parseerror'){alert(textStatus);}
+				});
+			}
+		}
+	} else {
+		if(o.val()=="" || o.val()=="GoTOMain"){
+			/*loadDriveFiles();*/
+			getLeadDriveData =  driveFilesData();
+			getLeadDriveData.done(function(){
+				showDriveData();
+			});
+		} else {
+			if(typeof s != "undefined") {
+				o = s;
+			} else {
+				o = o.val();
+			}
+			leadDriveDataSubFolder(o);
+		}
+	}
+}					
+
+function leadDriveDataSubFolder(v){
+	console.log("Calling sub folder");
+	console.log("ID:"+v)
+	if(v != "" && v != null) {
+		data = {boxes:leadGlobal,f:v};
+		call(__baseUrl+"leads/findDriveFilesSubFolder",'POST',data,driveSubFolderData,'json');
+	}
+}
+function driveSubFolderData(_data,textStatus,xhr) {
+	var _drive=_data.drive;jQuery(_container).find("#litigation_doc_list>ul").empty();
+	if(_drive.length>0){
+		for(d=0;d<_drive.length;d++){
+			switch(_drive[d].mimeType){
+				case "application/vnd.google-apps.folder":					
+					jQuery(_container).find("#litigation_doc_list>ul").append('<li class="driveDragable"><img src="'+_drive[d].iconLink+'"/> <a data-file-id="'+_drive[d].id+'" data-href="'+_drive[d].alternateLink+'" data-mime="'+_drive[d].mimeType+'"  href="javascript:void(0);" class="drive_file_click"   onclick="open_drive_folder(\''+_drive[d].id+"')\">"+_drive[d].title+'</a><span class="pull-right drive-close hide"><a href="javascript:void(0);" class="" onclick="deleteDrive(\''+_drive[d].id+'\')"><i class="glyph-icon icon-close"></i></a></span></li>');
+					break;
+				default:
+					url="https://docs.google.com/file/d/"+_drive[d].id+"/preview";
+					jQuery(_container).find("#litigation_doc_list>ul").append('<li class="driveDragable "><img src="'+_drive[d].iconLink+'"/> <a data-file-id="'+_drive[d].id+'" data-href="'+_drive[d].alternateLink+'" href="javascript:void(0);" class="drive_file_click" data-mime="'+_drive[d].mimeType+'" onclick="open_drive_files(\''+url+"')\">"+_drive[d].title+'</a><span class="pull-right drive-close hide"><a href="javascript:void(0);" class="" onclick="deleteDrive(\''+_drive[d].id+'\')"><i class="glyph-icon icon-close"></i></a></span></li>');
+					break;
+			}
+		}
+		docFileDraggable();driveFileDraggable();initHoverEmailClose();driveRightClick();
+	}
+}
+window.runThreadDetail= function (){
+	/*runActivityProcess();*/
+	threadDetail(jQuery("#all_type_list").find("tbody").find('tr.active'));	
+};
+window.runActivityProcess = function(){
+	data = {};
+	call(__baseUrl+'dashboard/run_process','POST',data,startCampignProcess,'json');
+}
+window.runSignleActivityProcess = function(email,campaign_id){
+	data = {email:email,campaign_id:campaign_id};
+	call(__baseUrl+'dashboard/run_process_single','POST',data,startSingleProccess,'json');
+}
+window.doNothing = function(){
+
+	refreshAcquisitionAndSalesActivity();
+}
+window.noActionPerform = function(data,textStatus,xhr){
+	console.log(data);
+}
+window.startSingleProccess = function(data,textStatus,xhr){
+	if(data.length>0){
+		call(__baseUrl+'dashboard/sales_activity_email_save','POST',data[0],callForCreateOpenTaskLog,'json');
+	}	
+}
+window.callForCreateOpenTaskLog=function(data,textStatus,xhr){
+	if(typeof data.email_id!="undefined" && parseInt(data.email_id)>0){
+		data = {"activity_date":data.activity_date,"company_id":data.company_id,"contact_id":data.contact_id,"email_id":data.email_id,"lead_id":data.lead_id,"note":data.note,"subject":data.subject,"type":data.type,"user_id":data.user_id};
+		
+		var form = document.createElement("form");
+		form.setAttribute("method", "POST");
+		form.setAttribute("action", __baseUrl+"dashboard/open_activity_from_campaign_process");
+		form.setAttribute("id", "temp_task_form");	
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "email_id");
+		hiddenField.setAttribute("id", "email_id");
+		hiddenField.setAttribute("value", data.email_id);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "user_id");
+		hiddenField.setAttribute("id", "user_id");
+		hiddenField.setAttribute("value", data.user_id);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "type");
+		hiddenField.setAttribute("id", "type");
+		hiddenField.setAttribute("value", data.type);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "subject");
+		hiddenField.setAttribute("id", "subject");
+		hiddenField.setAttribute("value", data.subject);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "note");
+		hiddenField.setAttribute("id", "note");
+		hiddenField.setAttribute("value", data.note);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "lead_id");
+		hiddenField.setAttribute("id", "lead_id");
+		hiddenField.setAttribute("value", data.lead_id);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "activity_date");
+		hiddenField.setAttribute("id", "activity_date");
+		hiddenField.setAttribute("value", data.activity_date);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "company_id");
+		hiddenField.setAttribute("id", "company_id");
+		hiddenField.setAttribute("value", data.company_id);
+		form.appendChild(hiddenField);
+		var hiddenField = document.createElement("input"); 
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "contact_id");
+		hiddenField.setAttribute("id", "contact_id");
+		hiddenField.setAttribute("value", data.contact_id);
+		form.appendChild(hiddenField);
+		_data = jQuery(form).serializeArray();
+		_action = jQuery(form).attr('action');
+		data = _data;		
+		call(_action,'POST',data,doNothing,'json');
+		
+	}	
+}
+cpList = [];
+window.startCampignProcess = function(data,textStatus,xhr){
+	if(data!='' && typeof data=='object'){
+		if(data.length>0){
+			cpList = data;
+			jQuery("#alert_message_show").removeClass('alert-success').addClass('alert-info').removeClass('hide').addClass('show').html("Campaign process start.");
+			setTimeout(function(){jQuery("#alert_message_show").removeClass('show').addClass('hide')},2000);
+			initCampaignProcess(0);
+		}
+	}
+}
+_startNo = 0;
+window.checkAndRunProcess = function(data,textStatus,xhr){
+	if(typeof data.email_id!="undefined" && data.email_id>0){
+		callForCreateOpenTaskLog(data);
+	}
+	_startNo = _startNo + 1;
+	if(_startNo<cpList.length){
+		initCampaignProcess(_startNo);
+	} else {
+		_startNo = 0;
+		processID = cpList[0].campaignProcessID;
+		data= {process_id:processID};
+		call(__baseUrl+'dashboard/end_campaign_process','POST',data,endProcess,'json');
+	}	
+}
+window.endProcess = function(data,textStatus,xhr){
+	if(data.update>0){
+		jQuery("#alert_message_show").removeClass('alert-info').addClass('alert-success').removeClass('hide').addClass('show').html("Campaign process finished.");
+		setTimeout(function(){jQuery("#alert_message_show").removeClass('show').addClass('hide')},2000);
+		if(data.lead_id==leadGlobal){
+			getLeadSalesData = salesData();
+			getLeadSalesData.done(function(){
+				showSalesData();
+			});
+		}
+	}
+	cpList = [];
+	_startNo = 0;
+}
+window.callSaveProcessID = function(data,textStatus,xhr){
+	if(!isNaN(data) && data>0){
+		var iframe= jQuery("#open_prefined_message").find('#predefineFormIframe').get(0);
+		var iframewindow= iframe.contentWindow? iframe.contentWindow : iframe.contentDocument.defaultView;
+		let pathName = iframewindow.document.location.pathname;
+		if(pathName.indexOf("email_campaign") >= 0){
+			console.log("I am in path calling campaign process");
+			if(typeof iframewindow.saveCampaignProcess =="function"){
+				iframewindow.saveCampaignProcess(data);
+			}
+		}
+	}
+}
+function initCampaignProcess(startNo){
+	if(cpList.length>0 && typeof cpList[startNo]!='undefined'){
+		_startNo = startNo;
+		call(__baseUrl+'dashboard/sales_activity_email_save','POST',cpList[startNo],checkAndRunProcess,'json');
+	}
+}
+jQuery(document).ready(function(){
+	toggleCompanySales();
+	jQuery('.form-control.is-date').datepicker();
+});
+function openSendTask(url,type){
+jQuery("#formTask").get(0).reset();
+jQuery("#taskDocUrl").val(url);
+jQuery("#replyParentId").val(0);
+jQuery("#replyType").val(type);	
+jQuery("#replyLeadId").val(leadGlobal);
+openTaskModal();
+}
+function tableSortActivity(){
+	_activity = jQuery("#activityMainType").val();
+	_container = "";
+	if(_activity==1){
+		_container = "activityTable";
+	} else if(_activity==2){
+		_container = "aquisitionTable";
+	}else if(_activity==3){
+		_container = "preSaleActivityTable";
+	}
+	if(_container!=""){
+		if(_container=="activityTable"){
+			_table1 = "<table class='table table-bordered' id='sortingActivity'><thead><tr><th>Name</th><th>Stage</th><th>Broker</th><th>Broker Firm</th></tr></thead><tbody>";
+			_table2 = "<table class='table table-bordered' id='sortingActivity1'><thead><tr><th>Name</th><th>Stage</th><th>Broker</th><th>Broker Firm</th></tr></thead><tbody>";
+			_table3 = "<table class='table table-bordered' id='sortingActivity2'><thead><tr><th>Name</th><th>Stage</th><th>Broker</th><th>Broker Firm</th></tr></thead><tbody>";
+			jQuery("#"+_container).find('tr.master').each(function(){
+			_data_c = jQuery(this).attr('data-c');
+			obj = jQuery(this).find('td').eq(1).find('a.showActivity').eq(1);
+			if(obj.length>0){
+			_name = obj.text();	
+			} else {
+				obj = jQuery(this).find('td').eq(1).find('a').eq(1);
+				_name = obj.text();	
+			}
+			broker = '';
+			brokerFirm = '';
+			if(obj.find('span.broker_detail').length>0){
+				broker = obj.find('span.broker_detail').text();
+				brokerFirm = obj.find('span.broker_detail').attr('data-company');
+			}
+			_className="torquoise";
+			if(jQuery(this).find('td').eq(0).find('select').length>0){
+				_select = jQuery(this).find('td').eq(0).find('select').find('option:selected').text();
+				_className  = jQuery(this).find('td').eq(0).find('select').find('option:selected').attr('class');
+			}else {
+				_select = jQuery(this).find('td').eq(0).text();
+			}
+			if(_className=="" || _className=="undefined" || _className==undefined){
+				_className="torquoise";
+			}
+			switch(_className){
+				case 'torquoise':
+					_table1 +="<tr data-c='"+_data_c+"' class='sorting_tr_activity' onclick='findSelectedCompany(jQuery(this))'><td>"+_name+"</td><td>"+_select+"</td><td>"+broker+"</td><td>"+brokerFirm+"</td></tr>";
+				default:
+				break;
+				case 'seablue':
+					_table2 +="<tr data-c='"+_data_c+"' class='sorting_tr_activity' onclick='findSelectedCompany(jQuery(this))'><td>"+_name+"</td><td>"+_select+"</td><td>"+broker+"</td><td>"+brokerFirm+"</td></tr>";
+				break;
+				case 'darksea':
+					_table3 +="<tr data-c='"+_data_c+"' class='sorting_tr_activity' onclick='findSelectedCompany(jQuery(this))'><td>"+_name+"</td><td>"+_select+"</td><td>"+broker+"</td><td>"+brokerFirm+"</td></tr>";
+				break;
+			}			
+			});
+			_table1 +="</tbody></table>";
+			_table2 +="</tbody></table>";
+			_table3 +="</tbody></table>";
+			jQuery("#sortingPopup").find('.modal-body').html('');
+			jQuery("#sortingPopup").css({width:'100%',left:'0%',marginLeft:'0px'});
+			jQuery("#sortingPopup").find('.modal-dialog').css('width','100%');
+			jQuery("#sortingPopup").find('.modal-body').append('<div class="row"><div class="col-lg-4">'+_table1+'</div><div class="col-lg-4">'+_table2+'</div><div class="col-lg-4">'+_table3+'</div></div>');
+			jQuery("#sortingPopup").off('shown.bs.modal').on('shown.bs.modal', function() {
+				jQuery("#sortingActivity,#sortingActivity1,#sortingActivity2").DataTable({"paging": false,"destroy":true,"scrollY":"400px","language": {"emptyTable": "No record found!"}});
+			});
+		} else {
+			if(_container=="preSaleActivityTable"){
+				_table = "<table class='table table-bordered' id='sortingActivity'><thead><tr><th>Name</th><th>Broker</th><th>Broker Firm</th></tr></thead><tbody>";
+			} else {
+				_table = "<table class='table table-bordered' id='sortingActivity'><thead><tr><th>Name</th><th>Broker</th><th>Broker Firm</th></tr></thead><tbody>";
+			}
+			jQuery("#"+_container).find('tr.master').each(function(){
+			_data_c = jQuery(this).attr('data-c');
+			obj = jQuery(this).find('td').eq(1).find('a.showActivity').eq(1);
+			if(obj.length>0){
+			_name = obj.text();	
+			} else {
+				obj = jQuery(this).find('td').eq(1).find('a').eq(1);
+				_name = obj.text();	
+			}
+			broker = '';
+			brokerFirm = '';
+			if(obj.find('span.broker_detail').length>0){
+				broker = obj.find('span.broker_detail').text();
+				brokerFirm = obj.find('span.broker_detail').attr('data-company');
+			}
+			if(_container=="preSaleActivityTable"){
+				_table +="<tr data-c='"+_data_c+"' class='sorting_tr_activity' onclick='findSelectedCompany(jQuery(this))'><td>"+_name+"</td><td>"+broker+"</td><td>"+brokerFirm+"</td></tr>";
+			} else {
+				_table +="<tr data-c='"+_data_c+"' class='sorting_tr_activity' onclick='findSelectedCompany(jQuery(this))'><td>"+_name+"</td><td>"+broker+"</td><td>"+brokerFirm+"</td></tr>";
+			}
+			});
+			_table +="</tbody></table>";
+			jQuery("#sortingPopup").find('.modal-body').html(_table);
+			jQuery("#sortingPopup").css({width:'600px',left:'-50%',marginLeft:'-300px'});
+			jQuery("#sortingPopup").find('.modal-dialog').css('width','100%');
+			
+			jQuery("#sortingPopup").off('shown.bs.modal').on('shown.bs.modal', function() {
+				jQuery("#sortingActivity").DataTable({"paging": false,"destroy":true,"scrollY":"400px","language": {"emptyTable": "No record found!"}});
+			});
+		}
+		jQuery("#sortingPopup").modal('show');
+	} else {
+		alert("No table found");
+	}
+}
+function findSelectedCompany(o){
+	o.parent().find('tr').removeClass('active');
+	o.addClass('active');
+	_activity = jQuery("#activityMainType").val();
+	_container = "";
+	if(_activity==1){
+		_container = "activityTable";
+	} else if(_activity==2){
+		_container = "aquisitionTable";
+	}
+	if(_container!=""){
+		jQuery("#"+_container).find('tr.master').removeClass('active');
+		jQuery("#"+_container).find('tr.master').each(function(){
+			if(jQuery(this).find('td').eq(1).find('a').eq(1).text()==o.find('td').eq(0).text()){
+				jQuery(this).addClass('active');
+
+				jQuery('#dashboard-page').scrollTop(0);
+				jQuery('#dashboard-page').scrollTop(jQuery(this).offset().top-450);
+			}
+		});
+	}
+}
+
+function getNextInboxEmails(container,o,records){
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'users/getMoreRecordsInEmail',
+		data:{r:records,t:'INBOX'},
+		async:true,
+		cache:false,
+		success:function(data){
+			if(data!=''){
+				if(jQuery('.emails-group-container').find('a.active').text()=="Inbox"){
+					/*jQuery('#messages-list').find('.messages_container').append(data);
+					initDragDrop();*/
+					sendCurrentOldLeadLL('INBOX');
+				}				
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	})
+}
+
+function call(url,type,data,fn,datatype){
+	var callAJ = jQuery.ajax({
+		type:type,
+		crossDomain: true,
+		async:true,
+		url:url,
+		data:data,
+		cache:false,
+		dataType:datatype,
+		
+		success:fn
+	});
+	/*callAJ.fail(function(jqXHR, textStatus){
+		alert("Call:"+textStatus);
+	});*/
+	return callAJ;
+}
+_replyEmailFlag=0;
+sendTask  = 0;
+function getImapEmails(container,o,t){
+	jQuery('.message-item').remove();
+	jQuery('#displayEmail').empty();
+	jQuery('#messages-list').find('.message-item').remove();
+	jQuery("#imap_licenses,#imap_operation,#imap_expert").removeClass('active');
+	jQuery("#loading_spinner_heading_messages").css("display","block");
+	o.addClass('active');
+	if(typeof t=="undefined"){
+		t = 1;
+	}
+	jQuery('.emails-group-container').find('.bbblock a').each(function(index){
+		/*if(jQuery(this).attr('data-title')=='INBOX'){
+			jQuery(this).removeClass('active');
+			
+		} */
+		jQuery(this).removeClass('active').parent().removeClass('active');
+	});
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'users/imap_emails/'+t,
+		cache:false,
+		success:function(data){
+			jQuery("#loading_spinner_heading_messages").css("display","none");
+			if(data!=""){
+				_list = jQuery.parseJSON(data);
+				if(_list.length>0){ 
+					for(i=_list.length-1;i>=0;i--){
+						_emailDetail= _list[i];		
+						_attachment="";
+						if(typeof(_emailDetail.attachments)!='undefined'){
+							_attachment='<strong><i class="glyph-icon icon-paperclip"></i>'+_emailDetail.attachments.length+"</strong>";
+						}						
+						/*_inner ='<div class="message-item-right"><div class="media"><div class="media-body"><h5 class="c-dark"><a class="c-dark" style="font-weight:normal" href="javascript:void(0)">'+_emailDetail.from+'</a></h5><h4 class="c-dark">'+_emailDetail.subject+'</h4><div><span class="message-item-date">'+moment(new Date(_emailDetail.overview.date)).format("MMM DD, YYYY")+'</span>&nbsp;'+_attachment+' <a href="javascript://" onclick="enableTask(jQuery(this));" style="float:right;width:15px;" class="c-dark"><i class="glyph-icon icon-plus"></i></a></div></div></div></div>';*/
+						_inner ='<div class="message-item-right"><div class="media"><div class="media-body"><h5 class="c-dark"><a class="c-dark" style="font-weight:normal" href="javascript:void(0)">'+_emailDetail.from+'</a></h5><h4 class="c-dark">'+_emailDetail.subject+'</h4><div><span class="message-item-date">'+moment(new Date(_emailDetail.overview.date)).format("MMM DD, YYYY")+'</span>&nbsp;'+_attachment+' &nbsp;<a href="javascript://" onclick="moveImapEmailToTrash(jQuery(this))" style="float:right;width:15px;" class="c-dark"><i class="glyph-icon"><img src="https://storage.googleapis.com/static.synpat.com/backyard/images/discard.png" style="opacity:0.55;width:10px"></i></a></div></div></div></div>';
+						_div = jQuery("<div/>").data("detail",_emailDetail).click(function(){embedImapEmailDetail(jQuery(this));}).addClass("message-item media draggable ui-draggable ui-draggable-handle").attr("data-id",_emailDetail.uid).attr("data-date",_emailDetail.overview.date).attr("data-message-id",_emailDetail.overview.message_id).attr('data-task','0').css('position','relative').append(_inner);
+						jQuery('#messages-list').find('.messages_container').append(_div);
+					}
+				}  
+			}			
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+function moveImapEmailToTrash(obj){
+	_t =0;
+	if(jQuery('#imap_licenses').hasClass('active')){
+		_t=1;
+	} else if(jQuery('#imap_operation').hasClass('active')){
+		_t=2;
+	} else if(jQuery('#imap_expert').hasClass('active')){
+		_t=3;
+	}
+	jQuery('#displayEmail').html('');
+	parent = obj.parent().parent().parent().parent().parent();
+	parent.css('display','none');
+	message = parent.data("detail");
+	_active=jQuery.trim(jQuery(".emails-group-container").find("a.active").html());
+	jQuery.ajax({type:"POST",url:__baseUrl+"users/deleteImapMessage",data:{msg_no:message.overview.msgno,uid:message.overview.uid,label:'TRASH',t:_t},cache:false,success:function(e){if(e>0){_objNext = parent.next();parent.remove();jQuery('#displayEmail').empty();_objNext.addClass('message-active');imapMessageShow(_objNext.data('detail'));}else{parent.css("display","");}}}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function embedImapEmailDetail(o){
+	jQuery("#messages-list").find('.messages_container').find('div.message-item').removeClass('message-active');
+	o.addClass('message-active');
+	message = o.data("detail");	
+	jQuery("#gmail_message").hide();jQuery("#from_regular").hide();jQuery("#from_litigation").hide();jQuery('#sales_acititity').removeClass('show').addClass('hide');jQuery("#from_nonacquistion").hide();
+	jQuery("#all_type_list tbody tr").removeClass("active");jQuery("#all_type_list tbody td").removeClass("active");
+	jQuery('.DTFC_Cloned tbody tr, .DTFC_Cloned tbody td').removeClass('active');jQuery("#all_type_list tbody td").removeClass("active");
+	if(jQuery("#myDashboardComposeEmails").length>0){jQuery("#myDashboardComposeEmails").get(0).reset()}
+	jQuery("#displayEmail").html();
+	_container = "";
+	if(jQuery("#activityMainType").val()==1){
+		_container = "activityTable";
+	} else{
+		_container = "aquisitionTable";
+	}
+	_t =0;
+	if(jQuery('#imap_licenses').hasClass('active')){
+		_t=1;
+	} else if(jQuery('#imap_operation').hasClass('active')){
+		_t=2;
+	} else if(jQuery('#imap_expert').hasClass('active')){
+		_t=3;
+	}
+	if(_t==0){
+		_t = jQuery("#email_authorize").val();
+	}
+	if(jQuery("#"+_container).find("input[name='sales_person[]']").is(':checked')){
+		if(jQuery("#"+_container).find("input[name='sales_person[]']:checked").length==1){
+			jQuery.ajax({
+				type:'POST',
+				url:__baseUrl+'dashboard/linkImapMessage',
+				data:{msg_no:message.overview.msgno,uid:message.overview.uid,lead_id:leadGlobal,p_id:jQuery("#"+_container).find("input[name='sales_person[]']:checked").val(),c_id:jQuery("#"+_container).find("input[name='sales_person[]']:checked").parent().parent().attr('data-c'),activity_type:jQuery("#activityMainType").val(),t:_t},
+				cache:false,
+				success:function(data){
+					if(data>0){
+						refreshAcquisitionAndSalesActivity();
+					} else {
+						alert('Error!');
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		} else {
+			alert("Please select one person to whom you want to associate email.");
+		}
+	} else {
+		window.parent.leadGlobal=0;
+		window.parent.leadNameGlobal='';
+		jQuery('.topbar-lead-name').html('');
+		imapMessageShow(message);
+	}
+}
+_whichNum=0;
+function imapShowData(obj,o){
+	jQuery("#aquisitionTable").find('tbody>tr>td').removeClass('active');
+	jQuery("#activityTable").find('tbody>tr>td').removeClass('active');
+	jQuery("#aquisitionTable").find('tbody>tr>td').find('div').removeClass('active');
+	jQuery("#activityTable").find('tbody>tr>td').find('div').removeClass('active');
+	o.parent().addClass('active');
+	imapMessageShow(JSON.parse(obj.content),obj.user_id);
+	
+}
+function imapShowDataSales(ID,o){
+	obj = window.SalesUser[ID];
+	_whichNum = ID;
+	o.parents('#activityTable').find('a.active').removeClass('active');
+	jQuery("#aquisitionTable").find('tbody>tr>td').removeClass('active');
+	jQuery("#aquisitionTable").find('tbody>tr>td').find('div').removeClass('active');
+	jQuery("#activityTable").find('tbody>tr>td').removeClass('active');
+	jQuery("#activityTable").find('tbody>tr>td').find('div').removeClass('active');
+	if(typeof o=='object'){o.parent().addClass('active');}
+	if(typeof obj.content=="string"){imapMessageShow(JSON.parse(obj.content),obj.user_id,obj.sent_from);} else {
+		
+		imapMessageShow(obj.content,obj.user_id,obj.sent_from);
+	}
+}
+function imapShowDataAcc(ID,o){
+	obj = window.AcquisitionUser[ID];
+	jQuery("#aquisitionTable").find('tbody>tr>td').removeClass('active');
+	jQuery("#activityTable").find('tbody>tr>td').removeClass('active');
+	jQuery("#aquisitionTable").find('tbody>tr>td').find('div').removeClass('active');
+	jQuery("#activityTable").find('tbody>tr>td').find('div').removeClass('active');
+	o.parent().addClass('active');
+	if(obj.content!=undefined){
+		imapMessageShow(JSON.parse(obj.content),obj.user_id,obj.sent_from);
+	}	
+}
+function showLinkedMessageOnFly(o){	
+	let ID = o.attr('data-linkedin-message-id');
+	if(ID != undefined && ID != null && parseInt(ID)){
+		o.parents('#activityTable').find('a.active').removeClass('active');
+		o.parents('#activityTable').find('div.active').removeClass('active');
+		o.addClass('active');
+		jQuery('#displayEmail').empty();
+		jQuery("#displayEmail").html("<iframe src='"+__baseUrl+"/leads/show_linkedin_filed_message/"+ID+"' scrolling='no' width='100%' height='296'></iframe>");
+		jQuery("#displayEmail iframe").off('load').on('load', function() {
+			checkMyEmailsHeight();
+		});
+	}
+}
+function releaseAll(){
+	/*release selected lead*/
+	jQuery("#btnFormCollapse").removeClass('menu-active');
+	jQuery("#salesActivityButton").removeAttr('onclick').removeClass('menu-active');
+	jQuery("#acquisitionActivityButton").removeAttr('onclick').removeClass('menu-active');
+	jQuery("#btnPatentsAll").removeAttr('onclick').removeClass('menu-active');
+	if(typeof leadGlobal!="undefined"){
+		leadGlobal=0;
+		leadNameGlobal='';
+		snapGlobal='';
+		snp='';
+		snapGlobalFileID='';
+		snapGlobalFileWorkName='';
+	} else if(typeof window.parent.leadGlobal!="undefined"){
+		window.parent.leadGlobal=0;
+		window.parent.leadNameGlobal='';
+		window.parent.snapGlobal='';
+		window.parent.snp='';
+		window.parent.snapGlobalFileID='';
+		window.parent.snapGlobalFileWorkName='';
+	}
+	clearLeadSelectInterval();
+	jQuery(".topbar-lead-name").html('');
+	jQuery("#all_type_list").find('tbody').find('tr').removeClass('active');
+	jQuery("#show_data").empty();
+	jQuery("#displayEmail").empty();
+	jQuery("#displayEmail,#message-detail").data('file','');
+	jQuery("#scrap_patent_data").find('tbody').empty();
+	jQuery("#preSaleActivityTable").find('tbody').empty();
+	jQuery("#aquisitionTable").find('tbody').empty();
+	jQuery("#activityTable").find('tbody').empty();	
+	if(jQuery("#from_regular").length>0){
+		if(jQuery("#from_regular").find("form#marketLead").length>0){
+			jQuery("#from_regular").find("form#marketLead").get(0).reset();
+		}
+	}
+	if(jQuery("#from_litigation").length>0){
+		if(jQuery("#from_litigation").find("form#formLitigation").length>0){
+			jQuery("#from_litigation").find("form#formLitigation").get(0).reset();
+		}
+	}
+	if(jQuery("#from_nonacquistion").length>0){
+		if(jQuery("#from_nonacquistion").find("form#leadForm").length>0){
+			jQuery("#from_nonacquistion").find("form#leadForm").get(0).reset();
+		}
+	}
+	jQuery("#from_regular,#from_litigation,#from_nonacquistion").css('display','none');
+	jQuery("#from_regular,#from_litigation,#from_nonacquistion").find('#litigation_doc_list').empty();
+	jQuery("#activityTable,#aquisitionTable,#sales_acititity").removeClass('show').addClass('hide');
+	if(jQuery("#btnEmail").hasClass('menu-active')==false){
+		jQuery("#btnEmail").removeClass('menu-active');
+		jQuery("#btnEmail").trigger('click');
+	}
+	__dashFlag = true;
+	checkMyEmailsHeight();
+	callnotification();
+}
+window.HTMLImapEmail = "";
+function imapMessageShow(message,userID,sentFrom){	
+	user = 0;
+	window.HTMLImapEmail = "";
+	if(typeof userID!='undefined'){
+		user = userID;
+	}
+	_attachments = "";
+	if(typeof sentFrom=='undefined'){resetMenus(); releaseAll();}
+	if(message.hasOwnProperty('attachments') && typeof(message.attachments)!="undefined" && message.attachments.length>0){
+		for(i=0;i<message.attachments.length;i++){
+			name = "";
+			if(typeof(message.attachments[i].name)!="undefined"){
+				name = message.attachments[i].name;
+			} else if(typeof(message.attachments[i].filename)!="undefined"){
+				name = message.attachments[i].filename;
+			}
+			_attachments +='<li><i class="glyph-icon icon-file" style="color:#2196f3"></i> <a target="_BLANK" href="javascript:// class="strong text-regular"><strong>'+name+'</strong></a></li>';
+		}
+		_attachments = "<ul class='todo-box-1'>"+_attachments+"</ul>";
+	}
+	_to="";
+	if(typeof(message.to)!='undefined'){
+		_to = message.to.join(",");
+	}
+	_cc="";
+	if(typeof(message.cc)!='undefined'){
+		_cc = message.cc.join(",");
+	}
+	_messageBody= message.body;
+	if(isHTML(_messageBody)===false){
+		_messageBody= message.body;
+		_messageBody = _messageBody.nl2br();
+	}
+	/*jQuery(_messageBody)
+	(function($) {
+    $.strRemove = function(theTarget, theString) {
+        return $("<div/>").append(
+            $(theTarget, theString).remove().end()
+        ).html();
+    };
+})(jQuery);
+	*/
+	
+	_messageBody = _messageBody.replace("/https:\/\/synpat.com\/display_synpat_logo.php/","");
+	
+	_messagesString ='<div class="row">'+
+										'<div class="col-md-12 col-sm-12 col-xs-12">'+
+										'    <div class="p-20">'+				
+										'        <div class="message-item media">'+
+										'            <div class="message-item-right">'+
+										'                <div class="media">'+
+										'                    <div class="media-body">'+
+										'                        <p class="c-gray"></p>'+
+										'                    </div>'+
+										'                </div>'+
+										'            </div>'+
+										'        </div>'+
+										'    </div>'+
+										'   <div class="message-body" id="message-body">'+_messageBody+
+										'    </div>'+
+										'</div>'+
+									'</div>';
+	_emailBody ='<div data-padding="40" data-height="window" class="panel panel-default panel-no-margin withScroll mCustomScrollbar _mCS_117" id="message-detail" style="height:300px;max-height:300px;border:0;overflow-y:auto">'+
+	'<div id="mCSB_117" class="mCustomScrollBox mCS-dark-2" data-message-id="'+message.overview.message_id+'" data-message-reference="'+message.overview.references+'">'+
+	'<div class="mCSB_container">'+
+	'<div class="panel-heading messages message-result">'+
+	'<h2 class="message-detail-title is-subject p-t-20 w-500 show">'+
+    '<span class="message-detail-subject">'+message.subject+'</span>'+
+    '</h2>'+
+	'<div class="row">'+
+	'<div class="col-xs-5">'+
+	'<h2 id="messageDetailTitleSubject" class="message-detail-title p-t-20 w-500 show">'+
+	'<strong><span class="message-detail-from show">'+message.from+'</span></strong>'+
+	'</h2>'+
+	'<h2 class="message-detail-title p-t-20 w-500 show">'+
+	'to: <span class="message-detail-to">'+_to+'</span>'+
+	'<div class="message-detail-buttons-left btn-group" role="group">'+
+	'<div class="btn-group" role="group">'+
+	'<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">'+
+	'<span class="caret"></span>'+
+	'</button>'+
+	'<div class="dropdown-menu" role="menu" style="width:300px">'+
+	'<div class="row">'+
+	'<div class="col-xs-3">'+
+	'<label>from:</label>'+
+	'</div>'+
+	'<div class="col-xs-9">'+
+	'<strong class="message-detail-from"><xmp>'+message.from+'</xmp></strong>'+
+	'</div>'+
+	'</div>'+
+	'<div class="row">'+
+	'<div class="col-xs-3">'+
+	'<label>to:</label>'+
+	'</div>'+
+	'<div class="col-xs-9">'+
+	'<span class="message-detail-to"><xmp>'+_to+'</xmp></span>'+
+	'</div>'+
+	'</div>'+
+	'<div class="row">'+
+	'<div class="col-xs-3">'+
+	'<label>cc:</label>'+
+	'</div>'+
+	'<div class="col-xs-9">'+
+	'<span class="message-detail-cc"><xmp>'+_cc+'</xmp></span>'+
+	'</div>'+
+	'</div>'+
+	'<div class="row">'+
+	'<div class="col-xs-3">'+
+	'<label>date:</label>'+
+	'</div>'+
+	'<div class="col-xs-9">'+
+	'<span class="message-detail-date">'+moment(new Date(message.date)).format("MMM DD, YYYY")+'</span>'+
+	'</div>'+
+	'</div>'+
+	'<div class="row">'+
+	'<div class="col-xs-3">'+
+	'<label>subject:</label>'+
+	'</div>'+
+	'<div class="col-xs-9">'+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'</h2>'+
+	'</div>'+
+	'<div class="col-xs-7 text-right">'+
+	'<h2 class="message-detail-title p-t-20 w-500 is-date show">'+
+	'<span class="message-detail-date">'+moment(new Date(message.date)).format("MMM DD, YYYY")+'</span>'+
+	'</h2>'+
+	'<div class="message-detail-right show">'+
+	'<a href="javascript://" onclick="javascript://" data-original-title="" class="message-detail-star tooltip-button" title="To favorite" data-placement="bottom"></a>'+
+	'<div class="message-detail-buttons-right btn-group" role="group">';
+	if(typeof sentFrom=="undefined"){
+		_emailBody +=
+		'<button type="button" id="fileTaskEmail" class="btn btn-default tooltip-button mrg5R" onclick="window.parent.fileTaskImapEmailAll('+message.overview.msgno+','+message.overview.uid+','+sentFrom+')" title="File &#43; Task" data-placement="bottom"> File &#43; Task'+
+		'</button>'+
+		'<button type="button" id="fileEmail" class="btn btn-default tooltip-button mrg5R" onclick="window.parent.fileImapEmailAll('+message.overview.msgno+','+message.overview.uid+','+sentFrom+')" title="File" data-placement="bottom"> File'+
+		'</button>'+
+		'<button type="button" class="btn btn-default tooltip-button" onclick="window.parent.replyImapEmailAll('+message.overview.msgno+','+message.overview.uid+','+sentFrom+')" title="Reply All" data-placement="bottom"> Reply All'+
+		'</button>';
+	} else if(leadGlobal>0 && typeof sentFrom!="undefined") {
+		_emailBody +=	
+		'<button type="button" id="btnResend" class="btn btn-default tooltip-button mrg5R" onclick="window.parent.resendImapEmailAll('+message.overview.msgno+','+message.overview.uid+','+sentFrom+','+_whichNum+',jQuery(this))" title="Resend this message" data-placement="bottom"> Resend'+
+		'</button>'+
+		'<button type="button" class="btn btn-default tooltip-button mrg5R" onclick="window.parent.taskImapEmailAll('+message.overview.msgno+','+message.overview.uid+','+sentFrom+')" title="Task Only" data-placement="bottom"> Task'+
+		'</button>'+
+		'<button type="button" class="btn btn-default tooltip-button" onclick="window.parent.replyImapEmailAll('+message.overview.msgno+','+message.overview.uid+','+sentFrom+')" title="Reply All" data-placement="bottom"> Reply All'+
+		'</button>';
+	}	
+	_emailBody +='<div class="btn-group" role="group">'+
+	'<button type="button" class="btn btn-default dropdown-toggle eReply" data-toggle="dropdown" aria-expanded="false">'+
+	'<span class="caret"></span>'+
+	'</button>'+
+	'<ul class="dropdown-menu" role="menu">'+
+	'<li><a href="javascript://" onclick="window.parent.openEmailDetails()" class="eReply"> Email Open</a></li>'+
+	'<li><a href="javascript://" onclick="window.parent.replyImapEmail('+message.overview.msgno+','+message.overview.uid+','+sentFrom+')" class="eReply"><i class="glyph-icon icon-reply"></i> Reply</a></li>'+
+	'<li><a href="javascript://" onclick="window.parent.printEmail(jQuery(this))">Print</a></li>'+
+	'<li><a href="javascript://" onclick="window.parent.threadLabelChanged("\Trash\",jQuery(this))">Delete</a></li>'+
+	'<li><a href="javascript://" onclick="window.parent.threadLabelChanged("\Spam\",jQuery(this))">Report spam</a></li>'+
+	'<li><a href="javascript://" onclick="window.parent.threadLabelChanged("\Unread\",jQuery(this))">Mark as unread</a></li>'+
+	'</ul>'+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'<div class="panel-body messages message-result message_detail">'+
+	'<div class="loading-spinner" id="loading_spinner" style="display:none">'+
+	'<img src="'+__IMAGEURL+'images/ajax-loader.gif" alt=""/>'+
+	'</div>'+_messagesString+_attachments+
+	'</div>'+
+	'</div>'+
+	'</div>'+
+	'</div>';
+	/*jQuery("#displayEmail").html(_emailBody);*/
+	/*Send HTML Code*/
+	window.HTMLImapEmail = _emailBody;
+	jQuery("#displayEmail").html('<iframe src="'+__baseUrl+'users/sendImapEmailHtml" style="width:100%;"></iframe>');
+	jQuery("#emailThreadId").val("");
+	jQuery("#emailMessageId").val("");  
+	$(".dropdown-toggle").dropdown();
+	jQuery("#message_send_from_email").val("");
+	jQuery("#emailSubject").val("");
+	jQuery("#emailThreadId").val("");
+	jQuery("#emailMessageId").val("");
+	jQuery("#eventT").val(jQuery("#activityMainType").val());
+	jQuery("#eventCid").val(0);
+	jQuery("#eventPid").val(0);	
+	checkMyEmailsHeight();
+}
+
+window.htmlEmailBody = function(data,textStatus,xhr){
+	
+}
+setInterval(callUsersCalendar,300000); 
+function callUsersCalendar(){
+	data = {}
+	call(__baseUrl+'users/getServiceAccountCalendar',"GET",data,userCalendarMessage,"json");
+}
+window.userCalendarMessage = function(){}
+function resendImapEmailAll(mesgNo,UID,sentFrom,whichN,o){
+	o.css('display','none');
+	_t =0;
+	if(jQuery('#imap_licenses').hasClass('active')){
+		_t=1;
+	} else if(jQuery('#imap_operation').hasClass('active')){
+		_t=2;
+	} else if(jQuery('#imap_expert').hasClass('active')){
+		_t=3;
+	}
+	if(_t==0){
+		_t = jQuery("#email_authorize").val();
+	}
+	data={mesg_no:mesgNo,uid:UID,sent_from:sentFrom,which_n:whichN,lead:leadGlobal,t:_t};
+	call(__baseUrl+'dashboard/resendImapEmail','POST',data,resendMessage,'json');
+}
+function openLeadPredefinedTemplate(){
+	jQuery("#activityType").val(7);
+	checkActivityLog();
+}
+function resendMessage(data,textStatus,xhr){
+	if(data>0){
+		jQuery("#btnResend").css('display','');
+		showMessageOnFly("Email send!","alert-info");
+	}
+}
+
+function taskImapEmailAll(mesgNo,UID,sentFrom){
+	openTaskModal();
+}
+var emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi;
+function fileImapEmailAll(mesgNo,UID,sentFrom){
+	jQuery("#fileEmail").css('display','none');
+	_replyEmailFlag = 3;
+	_cont = jQuery("#displayEmail").find('iframe').get(0);
+	_email = jQuery(_cont.contentDocument).find('.message-detail-from').eq(0).html();
+	_email = htmlDecode(_email);
+	if (_email.indexOf("<") >= 0) {
+		/*_nn = _email.substr(0, _email.indexOf("<"));
+		_ss = _email.substr(_email.indexOf("<"));
+		email = _ss.substr(1, _ss.indexOf(">") - 1)
+		*/
+		var email = [];
+		email = _email.match(emailRegex);
+		if(email.length > 0) {
+			email = email[0];
+		}
+	} else {
+		email = _email;
+	}
+	if(sentFrom=='undefined' || sentFrom==undefined){
+		
+	}
+	if(email != "") {
+		findActivitesLeadsFromEmail(email,mesgNo,UID,sentFrom);	
+	} else {
+		alert("No email found!");
+	}
+	
+}
+function htmlDecode(input){
+  /*var e = document.createElement('div');
+  e.innerHTML = input;
+  return e.childNodes[0].nodeValue;*/
+  e = jQuery('<div/>').html(input);
+ 
+  return e.html();
+}
+function fileTaskImapEmailAll(mesgNo,UID,sentFrom){
+	jQuery('#fileTaskEmail').css('display','none');
+	_replyEmailFlag = 4;
+	_cont = jQuery("#displayEmail").find('iframe').get(0);
+	_email = jQuery(_cont.contentDocument).find('.message-detail-from').eq(0).html();
+	_email = htmlDecode(_email);
+	if (_email.indexOf("<") >= 0) {
+		/*_nn = _email.substr(0, _email.indexOf("<"));
+		_ss = _email.substr(_email.indexOf("<"));
+		email = _ss.substr(1, _ss.indexOf(">") - 1)*/
+		var email = [];
+		email = _email.match(emailRegex);
+		if(email.length > 0) {
+			email = email[0];
+		}
+	} else {
+		email = _email;
+	}
+	if(email != "") {
+		findActivitesLeadsFromEmail(email,mesgNo,UID,sentFrom);	
+	} else {
+		alert("No email found!");
+	}	
+}
+
+/*Imap Email Reply*/
+function replyImapEmail(msgNo,UID,sentFrom){	
+	if(leadGlobal>0){
+		replyImapEmailActivities();
+	} else {
+		_replyEmailFlag = 1;
+		_cont = jQuery("#displayEmail").find('iframe').get(0);
+		_email = jQuery(_cont.contentDocument).find('.message-detail-from').eq(0).html();
+		_email = htmlDecode(_email);
+		if (_email.indexOf("<") >= 0) {
+			/*_nn = _email.substr(0, _email.indexOf("<"));
+			_ss = _email.substr(_email.indexOf("<"));
+			email = _ss.substr(1, _ss.indexOf(">") - 1)*/
+			var email = [];
+			email = _email.match(emailRegex);
+			if(email.length > 0) {
+				email = email[0];
+			}
+		} else {
+			email = _email;
+		}
+		if(email != "" ) {
+			findActivitesLeadsFromEmail(email,msgNo,UID,sentFrom);	
+		} else {
+			alert("No email found!");
+		}	
+	}	
+}
+function replyImapEmailAll(msgNo,UID,sentFrom){
+	if(leadGlobal>0){
+		replyImapEmailAllActivities();
+	} else {
+		_replyEmailFlag = 2;
+		_cont = jQuery("#displayEmail").find('iframe').get(0);
+		_email = jQuery(_cont.contentDocument).find('.message-detail-from').eq(0).html();
+		_email = htmlDecode(_email);
+		if (_email.indexOf("<") >= 0) {
+			/*_nn = _email.substr(0, _email.indexOf("<"));
+			_ss = _email.substr(_email.indexOf("<"));
+			email = _ss.substr(1, _ss.indexOf(">") - 1)*/
+			var email = [];
+			email = _email.match(emailRegex);
+			if(email.length > 0) {
+				email = email[0];
+			}
+		} else {
+			email = _email;
+		}
+		if(email != "" ) {
+			findActivitesLeadsFromEmail(email,msgNo,UID,sentFrom);	
+		} else {
+			alert("No email found!");
+		}
+	}
+	
+}
+/*Imap Email Reply End*/
+function findActivitesLeadsFromEmail(email,msgNo,UID,sentFrom){
+	jQuery.ajax({
+		type:'post',
+		data:{email:email},
+		url:__baseUrl+'dashboard/find_activites_leads_from_email',
+		success:function(d){
+			jQuery('#fileTaskEmail,#fileEmail').css('display','');
+			if(d!=""){
+				_d = jQuery.parseJSON(d);
+				if(_d.person_id>0){					
+					if(_d.list.length>0){
+						_table = '<div style="overflow-x:none;overflow-y:scroll;height:300px;"> <table id="lb'+UID+'" class="table table-striped table-hover"><thead><tr><th>Lead</th><th>Activity</th></tr></thead><tbody>';
+						for(l=0;l<_d.list.length;l++){
+							_row = _d.list[l];
+							_activityName="";
+							if(_d.list[l].activity==1){
+								_activityName = "Sales";
+							} else if(_d.list[l].activity==2){
+								_activityName = "Acquisition";
+							}
+							_leadName = _d.list[l].lead_name;
+							/*Check Lead in activelist*/
+							if(_d.active_list.length>0){
+								for(j=0;j<_d.active_list.length;j++){
+									if(_d.active_list[j].id==_row.id && _d.active_list[j].activity==_d.list[l].activity){
+										_leadName = "<b>"+_leadName+"</b>";
+									}
+								}
+							}
+							_table +='<tr onclick="associateEmailWithLead('+msgNo+','+UID+','+_d.list[l].activity+','+_d.company_id+','+_d.person_id+','+_d.list[l].id+',\''+_d.list[l].lead_name+'\');" style="cursor:pointer;"><td>'+_leadName+'</td><td>'+_activityName+'</td></tr>';
+						}
+						_table +='</tbody></table>';
+						var jq;
+						if(typeof window.parent.jQuery!="undefined"){
+							jq = window.parent.jQuery;
+						} else {
+							jq = jQuery;
+						}
+						jq("#sortingPopup").find(".modal-body").html(_table);
+						jq("#sortingPopup").find("#lb"+UID).DataTable().destroy();						
+						jq("#sortingPopup").modal("show");
+						jq("#sortingPopup").find("#lb"+UID).DataTable({destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"},"aaSorting": [],"order": []});
+					} else {
+						showMessageOnFly("No lead found!","alert-warning");
+					}					
+				} else {
+					if(typeof sentFrom=="undefined"){
+						sentFrom = "";
+					}
+					data = {email:email,msgNo:msgNo,UID:UID,sentFrom:sentFrom};
+					call(__baseUrl+'dashboard/runCheckingEmailFailureActivity','POST',data,runCheckingEmailFailureActivity,'json');
+				}
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+window.runCheckingEmailFailureActivity = function(data,textStatus,xhr){
+	if(typeof data.failure!="undefined" && data.failure==0){
+		/*openAddForm();
+		window.parent.jQuery('#addContactForm').find('#inviteeEmail').val(data.email);*/
+		openAddCustomerRequestForm(data.email);
+	} else {
+		if(typeof data.failure!="undefined" && data.failure==1 && typeof data.found_email_attached!="undefined" && parseInt(data.found_email_attached)>0){
+			/*System assume this is error failure message, now ask from user*/
+			con = confirm("Is this an error message?");
+			if(con){
+				_t =0;
+				if(jQuery('#imap_licenses').hasClass('active')){
+					_t=1;
+				} else if(jQuery('#imap_operation').hasClass('active')){
+					_t=2;
+				} else if(jQuery('#imap_expert').hasClass('active')){
+					_t=3;
+				}
+				if(_t==0){
+					_t = jQuery("#email_authorize").val();
+				}
+				data={email:data.email,attached:data.found_email_attached,msgNo:data.msgNo,UID:data.UID,sentFrom:data.sentFrom};
+				call(__baseUrl+'dashboard/attachImapFailureActivity/'+_t,'POST',data,displayProcessAfterFailure,'json');
+			} else {
+				/*Open Contact Add Dialog*/
+				if(_replyEmailFlag==4){
+					jQuery("#message-detail").data('file',jQuery("#fileTaskEmail").attr('onclick'));
+				} else {
+					jQuery("#message-detail").data('file',jQuery("#fileEmail").attr('onclick'));
+				}
+				/*var callback = jQuery("#message-detail").data('file'); x = eval(callback);x();*/
+				openAddCustomerRequestForm(data.email);
+				/*window.parent.jQuery('#addContactForm').find('#inviteeEmail').val(data.email);*/
+			}
+		} else {
+			if(_replyEmailFlag==4){
+				jQuery("#message-detail").data('file',jQuery("#fileTaskEmail").attr('onclick'));
+			} else {
+				jQuery("#message-detail").data('file',jQuery("#fileEmail").attr('onclick'));
+			}
+			/*var callback = jQuery("#message-detail").data('file'); x = eval(callback);x();*/
+			/*openAddForm();
+			window.parent.jQuery('#addContactForm').find('#inviteeEmail').val(data.email);*/
+			openAddCustomerRequestForm(data.email);
+		}		
+	}
+}
+function checkProcessForAttachEmail(){
+	callback = jQuery("#message-detail").data('file');
+	if(typeof callback!="undefined" && callback!=""){		
+		eval(callback);
+	} else {
+		callback = jQuery("#displayEmail").data('file');
+		if(typeof callback!="undefined"  && callback!=""){
+			x = eval(callback);
+			if(typeof x=="function"){
+				x();
+			}
+		}
+	}
+}
+window.displayProcessAfterFailure = function(data,textStatus,xhr){
+	var jq;
+	if(typeof window.parent.jQuery!="undefined"){
+		jq = window.parent.jQuery;
+	} else {
+		jq = jQuery;
+	}
+	if(typeof data.attach_email!="undefined"  && parseInt(data.attach_email)>0){
+		showMessageOnFly("Associate email successfully","alert-info");
+		jq("#messages-list").find('div[data-id='+data.UID+']').remove();
+		if(leadGlobal>0 && leadGlobal==data.lead_id){
+			refreshAcquisitionAndSalesActivity();
+		} else {
+			activity = data.activity;
+			jq("#all_type_list").find("tbody").find("tr").removeClass("active");
+			_index=jq("#all_type_list").find("tbody").find('tr[data-id="'+data.lead_id+'"]').index();
+			jq("#all_type_list").find("tbody").find("tr").eq(_index).addClass("active");
+			jq(".DTFC_Cloned").find("tbody").find("tr").eq(_index).addClass("active");
+			_scrollTop=jq("#all_type_list").find("tbody").find("tr.active").offset();
+			
+			if(jq("#dashboard_charts").is(":visible")){
+				jq("#all_type_list").parent().scrollTop(_scrollTop.top-263.5);
+				
+			} else {
+				jq("#all_type_list").parent().scrollTop(_scrollTop.top-106);
+			
+			}
+			if(activity==1){
+				jq('#sales_acititity').removeClass('hide').addClass('show');
+				jq('#activityTable').removeClass('hide').addClass('show');
+				jq('#aquisitionTable').removeClass('show').addClass('hide');
+				if(jq("#salesActivityButton").hasClass('menu-active')){
+					window.threadDetail(jq("#all_type_list").find("tbody").find("tr.active"));
+				}else{
+					jq("#salesActivityButton").trigger('click');
+				}
+			} else if(activity==2){
+				jq('#sales_acititity').removeClass('hide').addClass('show');
+				jq('#aquisitionTable').removeClass('hide').addClass('show');
+				jq('#activityTable').removeClass('show').addClass('hide');
+				if(jq("#acquisitionActivityButton").hasClass('menu-active')){
+					window.threadDetail(jq("#all_type_list").find("tbody").find("tr.active"));
+				}else{
+					jq("#acquisitionActivityButton").trigger('click');
+				}
+			}
+		}
+		if(_replyEmailFlag==4){
+			/*Task*/
+			window.leadGlobal = data.lead_id;
+			window.openTaskModal();
+			window.jQuery("#taskEmailId").val(_d.send_email);
+			/*End Task*/
+		}
+	}
+}
+
+function associateEmailWithLead(msgNo,uid,activity,companyID,personID,leadID,leadName){
+	var jq;
+	if(typeof window.parent.jQuery!="undefined"){
+		jq = window.parent.jQuery;
+		window.parent.leadGlobal = leadID;
+		window.parent.leadNameGlobal = leadName;
+	} else {
+		jq = jQuery;
+		window.leadGlobal = leadID;
+		window.leadNameGlobal = leadName;
+	}
+	jq("#activityMainType").val(activity);
+	_company_id = companyID;
+	_person_id = personID;	
+	/*_MessageID*/
+	_t =0;
+	if(jq('#imap_licenses').hasClass('active')){
+		_t=1;
+	} else if(jq('#imap_operation').hasClass('active')){
+		_t=2;
+	} else if(jQuery('#imap_expert').hasClass('active')){
+		_t=3;
+	}
+	if(_t==0){
+		_t = jq("#email_authorize").val();
+	}
+	if(_replyEmailFlag!=1 && _replyEmailFlag!=2){		
+		attachImapEmailWithLead(msgNo,uid,leadID,personID,companyID,activity,_t);		
+	} else {
+		jq("#sortingPopup").modal("hide");
+		jQuery("#displayEmail").data("cr-pid",msgNo+'^'+uid+'^'+leadID+'^'+personID+'^'+companyID+'^'+activity+'^'+_t);
+		jQuery("#displayEmail").data('file',attachImapEmailAfterSend);		
+	}
+	if(_replyEmailFlag==1){
+		replyImapEmailActivities();
+	}else if(_replyEmailFlag==2){
+		console.log('TASAS');
+		replyImapEmailAllActivities();
+	}
+}
+
+function attachImapEmailWithLead(msgNo,uid,leadID,personID,companyID,activity,_t){
+	var jq;
+	if(typeof window.parent.jQuery!="undefined"){
+		jq = window.parent.jQuery;
+	} else {
+		jq = jQuery;
+	}
+	jq("#sortingPopup").find(".modal-body").html('<p>Please wait.....</p>');
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'dashboard/linkImapMessage',
+		data:{msg_no:msgNo,uid:uid,lead_id:leadID,p_id:personID,c_id:companyID,activity_type:activity,t:_t},
+		success:function(d){ if(d>0){jq("#sortingPopup").modal("hide");
+		if(_replyEmailFlag==1 || _replyEmailFlag==2){
+			window.sendTask = jq("#messages-list").find('div[data-id='+uid+']').attr('data-task');
+		} else if(_replyEmailFlag==4){
+			openTaskModal();
+			jQuery("#taskEmailId").val(d);
+			jQuery("#taskPID").val(personID);
+			jQuery("#taskCID").val(companyID);
+		}		
+		jq("#messages-list").find('div[data-id='+uid+']').remove();		
+		jq("#all_type_list").find("tbody").find("tr").removeClass("active");
+		window.leadGlobal = leadID;
+		_index=jq("#all_type_list").find("tbody").find('tr[data-id="'+leadID+'"]').index();
+		jq("#all_type_list").find("tbody").find("tr").eq(_index).trigger('click');
+		/*jq("#all_type_list").find("tbody").find("tr").eq(_index).addClass("active");*/
+		/*jq(".DTFC_Cloned").find("tbody").find("tr").eq(_index).addClass("active");*/
+		_scrollTop=jq("#all_type_list").find("tbody").find("tr.active").offset();		
+		if(jq("#dashboard_charts").is(":visible")){
+			jq("#all_type_list").parent().scrollTop(_scrollTop.top-263.5);		
+		} else {
+			jq("#all_type_list").parent().scrollTop(_scrollTop.top-106);		
+		}
+		if(activity==1){
+			jq('#sales_acititity').removeClass('hide').addClass('show');
+			jq('#activityTable').removeClass('hide').addClass('show');
+			jq('#aquisitionTable').removeClass('show').addClass('hide');
+			if(jq("#salesActivityButton").hasClass('menu-active')){
+				//window.threadDetail(jq("#all_type_list").find("tbody").find("tr.active"));
+			}else{
+				jq("#salesActivityButton").trigger('click');
+			}
+		} else if(activity==2){
+			jq('#sales_acititity').removeClass('hide').addClass('show');
+			jq('#aquisitionTable').removeClass('hide').addClass('show');
+			jq('#activityTable').removeClass('show').addClass('hide');
+			if(jq("#acquisitionActivityButton").hasClass('menu-active')){
+				//window.threadDetail(jq("#all_type_list").find("tbody").find("tr.active"));
+			}else{
+				jq("#acquisitionActivityButton").trigger('click');
+			}
+		}
+		}}
+		/*if(window.parent.jQuery("#search_lead_box").is(':visible'))*/
+		
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function attachImapEmailAfterSend(){
+	if(_importEmailID>0){
+		console.log("ENTER INSIDE IMAP AFTER SEND");
+		if(typeof jQuery('#displayEmail').data("cr-pid")!="undefined"){
+			_pid = jQuery('#displayEmail').data("cr-pid").toString();
+			_allVariables = _pid.split('^');
+			if(_allVariables.length>0 && _allVariables.length==7){
+				console.log("I am in file after imap email sent with lead");
+				_msgNo = _allVariables[0].toString();
+				_uid = _allVariables[1];
+				_leadID = _allVariables[2];
+				_personID = _allVariables[3];
+				_companyID = _allVariables[4];
+				__activity = _allVariables[5];
+				_t = _allVariables[6];
+				attachImapEmailWithLead(_msgNo,_uid,_leadID,_personID,_companyID,__activity,_t);
+				console.log(_msgNo+' Message no..');
+				console.log(_uid+' Message uid..');
+				console.log(_leadID+' Message leadID..');
+				console.log(_personID+' Message personal..');
+				console.log(_companyID+' Message company..');
+				console.log(__activity+' Message activity..');
+				console.log(_t+' Message T..');
+			}
+		}
+	}
+}
+
+
+re = /\S+@\S+\.\S+/;
+_cmu = 'licenses@synpat.com';
+_cmuO = 'patents@synpat.com';
+_cmuE = 'experts@synpat.com';
+function replyImapEmailActivities(){
+	embedReference = false;
+	if(leadGlobal>0){
+		_cont = jQuery("#displayEmail").find('iframe').get(0);
+		_email = jQuery(_cont.contentDocument).find('.message-detail-from').eq(0).html();
+		_email = htmlDecode(_email);
+		_nn = "";
+		_newem = "";
+		if (_email.indexOf("<") >= 0) {
+			/*_nn = _email.substr(0, _email.indexOf("<"));
+			_ss = _email.substr(_email.indexOf("<"));
+			_newem = _ss.substr(1, _ss.indexOf(">") - 1)*/
+			var email = [];
+			email = _email.match(emailRegex);
+			if(email.length > 0) {
+				_newem = email[0];
+			}
+		} else {
+			_nn = _email;
+			_newem = _email
+		}
+		openSlidebar(jQuery("#gmail_message_modal"));
+		jQuery("#gmail_message").css("display", "block");
+		jQuery(".gmail-modal").css("display", "block");
+		/*jQuery("body").removeAttr("onselectstart");
+		document.oncontextmenu = new Function("return true");*/
+		jQuery(".dropdown-toggle").dropdown();
+		jQuery("#emailName").val(jQuery.trim(_nn));
+		if(re.test(_newem) && _newem!=_cmu && _newem!=_cmuO && _newem!=_cmuE){
+			jQuery("#emailTo").val(_newem + ", ");
+			findDataRemove.push(_newem);
+		} else {
+			if(_newem==_cmu || _newem==_cmuO || _newem==_cmuE){
+				embedReference=true;
+			}
+			_email = jQuery(_cont.contentDocument).find('.message-detail-to').eq(0).html();
+			_email = htmlDecode(_email);
+			_nn = "";
+			_newem = "";
+			if (_email.indexOf("<") >= 0) {
+				/*_nn = _email.substr(0, _email.indexOf("<"));
+				_ss = _email.substr(_email.indexOf("<"));
+				_newem = _ss.substr(1, _ss.indexOf(">") - 1)*/
+				var email = [];
+				email = _email.match(emailRegex);
+				if(email.length > 0) {
+					_newem = email[0];
+				}
+			} else {
+				_nn = _email;
+				_newem = _email
+			}			
+			if(re.test(_newem) && _newem!=_cmu && _newem!=_cmuO && _newem!=_cmuE){
+				jQuery("#emailName").val(jQuery.trim(_nn));
+				jQuery("#emailTo").val(_newem + ", ");
+				findDataRemove.push(_newem);
+			} else {
+				if(_newem==_cmu || _newem==_cmuO || _newem==_cmuE){
+					embedReference=true;
+				}
+				jQuery("#emailName").val('');
+				_newem = '';
+				findDataRemove = [];
+			}
+		}
+		var jq;
+		if(typeof window.parent.jQuery!="undefined"){
+			jq = window.parent.jQuery;
+		} else {
+			jq = jQuery;
+		}
+		_check = false;
+		if(jq("#imap_expert").length>1){
+			_check = true;
+		}
+		if(_check===false){
+			console.log('DAN');
+			if(jq("#imap_expert").hasClass('active')){
+				jq("#eventUserType").val(3);
+			}else if(jq("#imap_operation").hasClass('active')){
+				jq("#eventUserType").val(2);
+			}else if(jq("#imap_licenses").hasClass('active')){
+				jq("#eventUserType").val(1);
+			}
+		}else {
+			console.log('DAN1');
+			if(jq("#imap_expert").hasClass('active')){
+				jq("#eventUserType").val(3);
+			}else if(jq("#imap_operation").hasClass('active')){
+				jq("#eventUserType").val(2);
+			}else if(jq("#imap_licenses").hasClass('active')){
+				jq("#eventUserType").val(1);
+			}
+		}
+		if(jQuery("#eventUserType").val()=='1'){
+			jQuery("#message_send_from_email").val("licenses@synpat.com");
+		}else if(jQuery("#eventUserType").val()=='2'){
+			jQuery("#message_send_from_email").val("patents@synpat.com");
+		}else if(jQuery("#eventUserType").val()=='3'){
+			jQuery("#message_send_from_email").val("experts@synpat.com");
+		}
+		_subject = jQuery(_cont.contentDocument).find('.message-detail-subject').text();
+		if (_subject.indexOf("RE:") == -1 && _subject.indexOf("Re:") == -1 && _subject.indexOf("re:") == -1) {
+			_subject = "RE: " + _subject
+		}
+		jQuery("#emailSubject").val(_subject);			
+		
+		if(embedReference === true){
+			if(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-id')!='undefined' && jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-id')!=''){
+				jQuery("#emailMessageId").val(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-id'));
+			}
+			if(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-reference')!='undefined' && jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-reference')!=''){
+				jQuery("#emailReference").val(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-reference'));
+			}
+		} else {
+			jQuery("#emailMessageId").val('');
+			jQuery("#emailReference").val('');
+		}
+		jQuery("#emailCC").css("width", "725px").val("");		
+		jQuery("#attach_droppable").empty();
+		jQuery("#gmail_message_modal").find("h4").html("Reply Message: " + leadNameGlobal);
+		jQuery("#messageLeadId").val(leadGlobal);
+		jQuery("#emailMessage").focus();
+		jQuery("#emailAccountType").val(2);
+		checkBodyScrollable();
+	} else {
+		alert("Please associate email to lead first.");
+	}
+}
+function replyImapEmailAllActivities(){
+	embedReference = false;
+	_check = false;
+	var jq;
+	if(typeof window.parent.jQuery!="undefined"){
+		jq = window.parent.jQuery;
+	} else {
+		jq = jQuery;
+	}
+	if(jq("#imap_expert").length>1){
+		_check = true;
+	}
+	if(_check===false){
+		console.log('DAN');
+		if(jq("#imap_expert").hasClass('active')){
+			jq("#eventUserType").val(3);
+		}else if(jq("#imap_operation").hasClass('active')){
+			jq("#eventUserType").val(2);
+		}else if(jq("#imap_licenses").hasClass('active')){
+			jq("#eventUserType").val(1);
+		}
+	}else {
+		console.log('DAN1');
+		if(jq("#imap_expert").hasClass('active')){
+			jq("#eventUserType").val(3);
+		}else if(jq("#imap_operation").hasClass('active')){
+			jq("#eventUserType").val(2);
+		}else if(jq("#imap_licenses").hasClass('active')){
+			jq("#eventUserType").val(1);
+		}
+	}
+	if(jq("#eventUserType").val()=='1'){
+		jq("#message_send_from_email").val("licenses@synpat.com");
+	}else if(jq("#eventUserType").val()=='2'){
+		jq("#message_send_from_email").val("patents@synpat.com");
+	}else if(jq("#eventUserType").val()=='3'){
+		jq("#message_send_from_email").val("experts@synpat.com");
+	}
+	console.log('I am in reply imap all')
+	if(leadGlobal>0){
+		_cont = jq("#displayEmail").find('iframe').get(0);
+		_email = jq(_cont.contentDocument).find('.message-detail-from').eq(0).html();
+		_email = htmlDecode(_email);
+		_nn = "";
+		_allToEmails=jq(_cont.contentDocument).find(".message-detail-to").eq(0).html();
+		_allToEmails = htmlDecode(_allToEmails);
+		_emailss=_allToEmails.split(",");
+		_newem="";
+		stringMainEmails=[];
+		for(ems=0;ems<_emailss.length;ems++) {
+			_currentEms=_emailss[ems].substr(_emailss[ems].indexOf("<"));
+			_currentEms=_currentEms.substr(1,_currentEms.length-1);
+			var c="></";
+			var d=new RegExp(c,"g");
+			_currentEms=_currentEms.replace(d,"^^^");
+			if(_currentEms!="") {
+				_modifyAllEmails=_currentEms.split("^^^");
+				if(_modifyAllEmails.length>0) {
+					for(mda=0;mda<_modifyAllEmails.length;mda++) {
+						var c=">";
+						var d=new RegExp(c,"g");
+						_newString=_modifyAllEmails[mda].replace(d,"");
+						if(re.test(_newString)){							
+							if(jQuery.inArray(_newString,stringMainEmails)!=-1) {
+							}
+							else {
+								if(_newString!=_cmu && _newString!=_cmuO && _newString!=_cmuE) {
+									stringMainEmails.push(_newString);
+									_newem+=_newString+",";
+								} else {									
+									embedReference = true;									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		_cc=jQuery(_cont.contentDocument).find(".message-detail-cc").eq(0).html();
+		_ccEmailput="";
+		if(_cc!="") {
+			_ccEmailss=_cc.split(",");
+			stringMainCCEmails=[];
+			for(ems=0;ems<_ccEmailss.length;ems++) {
+				_currentEms = _ccEmailss[ems];
+				if(_currentEms.indexOf('<xmp>')>=0){
+					_currentEms = _currentEms.replace('<xmp>','');
+					_currentEms = _currentEms.replace('</xmp>','');
+				}
+				_currentEms=_currentEms.substr(_currentEms.indexOf("<"));
+				_currentEms=_currentEms.substr(1,_currentEms.length-1);
+				var c="></";
+				var d=new RegExp(c,"g");
+				_currentEms=_currentEms.replace(d,"^^^");
+				if(_currentEms!=""){
+					_modifyAllEmails=_currentEms.split("^^^");
+					if(_modifyAllEmails.length>0) {
+						for(mda=0;mda<_modifyAllEmails.length;mda++) {
+							var c=">";
+							var d=new RegExp(c,"g");
+							_newString=_modifyAllEmails[mda].replace(d,"");
+							
+							if(re.test(_newString)){
+								if(jQuery.inArray(_newString,stringMainCCEmails)!=-1) {
+								}
+								else {
+									if(_newString==_cmu || _newString==_cmuO || _newString==_cmuE){
+										embedReference = true;
+									}
+									stringMainCCEmails.push(_newString);
+									_ccEmailput+=_newString+",";
+								}
+							}							
+						}
+					}
+				}
+			}
+		}
+		
+		/*_nn=_email.substr(0,_email.indexOf("<"));
+		_ss=_email.substr(_email.indexOf("<"));
+		_fromem=_ss.substr(1,_ss.indexOf(">")-1);*/
+		var email = [];
+		email = _email.match(emailRegex);
+		if(email.length > 0) {
+			_fromem = email[0];
+		}
+		if(re.test(_fromem)){
+			if(_fromem!=_cmu) {
+				_newem+=_fromem+",";
+			} else {
+				embedReference = true;
+			}
+		}
+		
+		if(_newem!="") {
+			jQuery("#emailTo").val(_newem);
+			findDataRemove.push(_newem)
+		}
+
+		if(_ccEmailput!="") {
+			findDataCCRemove.push(_ccEmailput);
+			jQuery("#emailCC").val(_ccEmailput)
+		}
+		if (leadGlobal>0) {
+			_subject = jQuery(_cont.contentDocument).find('.message-detail-subject').text();
+			if (_subject.indexOf("RE:") == -1 && _subject.indexOf("Re:") == -1 && _subject.indexOf("re:") == -1) {
+				_subject = "RE: " + _subject
+			}
+			jQuery("#emailSubject").val(_subject);			
+			if(embedReference === true){
+					if(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-id')!='undefined' && jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-id')!=''){
+					jQuery("#emailMessageId").val(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-id'));
+				}
+				if(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-reference')!='undefined' && jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-reference')!=''){
+					jQuery("#emailReference").val(jQuery(_cont.contentDocument).find('#mCSB_117').attr('data-message-reference'));
+				}
+			} else {
+				jQuery("#emailMessageId").val('');
+				jQuery("#emailReference").val('');
+			}			
+		}
+		openSlidebar(jQuery("#gmail_message_modal"));
+		jQuery("#gmail_message").css("display", "block");
+		height = jQuery(window).height() - 80;		
+		jQuery(".gmail-modal").css("display", "block");
+		jQuery("#gmail_message_modal .slimScrollDiv").css("height", height+"px");
+		jQuery("body").removeAttr("onselectstart");
+		/*document.oncontextmenu = new Function("return true");*/
+		jQuery(".dropdown-toggle").dropdown();
+		jQuery("#emailCC").css("width", "725px");
+		jQuery("#attach_droppable").empty();
+		jQuery("#gmail_message_modal").find("h4").html("Reply Message: " + leadNameGlobal);
+		jQuery("#messageLeadId").val(leadGlobal);
+		jQuery("#emailMessage").focus();
+		jQuery("#emailAccountType").val(2);
+		jQuery("#eventT").val(jQuery("#activityMainType").val());
+		checkBodyScrollable();
+	} else {
+		alert("Please associate email to lead first.");
+	}
+}
+
+function deleteGoogleContactModal(ID,companyID){
+	if(typeof ID!="undefined" && parseInt(ID)>0){
+		res = confirm("Are you sure?");
+		if(res){
+			jQuery.ajax({
+				type:'POST',
+				url:__baseUrl+'opportunity/deleteContact',
+				data:{delete_link:parseInt(ID)},
+				cache:false,
+				success:function(data){
+					if(data>0){
+						console.log('Contact deleted...');
+						if(jQuery("#open_contact_add").hasClass('is-open')){
+							console.log('Profile slider opened');
+							closeSlideBarContact();							
+							if(jQuery("#contactFormIframe").length>0){
+								document.getElementById("contactFormIframe").contentWindow.removeUserFromList(ID);
+								/*document.getElementById("contactFormIframe").contentWindow.location = document.getElementById("contactFormIframe").contentWindow.location.href;*/
+							}
+						}
+						if(jQuery("#open_company_add").hasClass('is-open')){
+							console.log('Company Card opened');
+							if(jQuery("#companyIframe").length>0){
+								document.getElementById("companyIframe").contentWindow.removeUserFromList(ID);
+							}
+						}
+						findUserFromOpenFrameAndReferesh(ID,companyID);
+					} else if(data=='-1'){
+						alert("Some correspondense with this contact.");
+					}
+					/*jQuery("#addContactForm").modal("hide");	*/
+					
+					if(jQuery("#activityMainType").val()>0){
+						_mainActivity = jQuery("#activityMainType").val();
+						objParent= "";
+						if(_mainActivity=="1"){
+							objParent = "#activityTable";
+						} else if(_mainActivity=="2"){
+							objParent = "#aquisitionTable";
+						}
+						objList= jQuery(objParent).find('tr.salesFDroppable[data-p="'+ID+'"]');
+						if(objList.length>0){
+							objList.remove();
+						}
+					}
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+}
+
+function openProgressPop(o){
+	updateStage(o);
+}
+
+function updateStage(o){
+	_c = o.parent().parent().attr("data-c");
+	checkProcessColor();
+	_s = o.val();
+	if(_s==""){
+		_s = 0;
+	}
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'dashboard/update_sales_company_stage',
+		data:{lead:leadGlobal,c:_c,s:_s,activity:jQuery("#activityMainType").val()},
+		cache:false,
+		success:function(data){
+			jQuery("#statingPopup").modal("hide");
+			/*refreshAcquisitionAndSalesActivity();*/
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function checkAllContacts(type,obj){
+	_activeBtn = "";
+	if(jQuery("#acquisitionActivityButton").hasClass('active')){
+		_activeBtn ="aquisitionTable";
+	} else if(jQuery("#salesActivityButton").hasClass('active')){
+		_activeBtn ="activityTable";
+	}
+	switch(type){
+		case 1:
+			/*Email*/
+			_a= true;
+			if(obj.hasClass('checkedd')){
+				_a = false;obj.removeClass('checkedd');
+			} else {
+				obj.addClass('checkedd');
+			}
+			jQuery('#'+_activeBtn).find('tbody').find('input[name="sales_person[]"]').each(function(){		
+				_rowThis = jQuery(this);
+				if(_rowThis.attr('data-attr-em')!=''){
+					_rowThis.prop('checked',_a);
+				}
+			});
+		break;
+		case 5:
+			/*New Emails*/
+			_a= true;
+			if(obj.hasClass('checkedd')){
+				_a = false;obj.removeClass('checkedd');
+			} else {
+				obj.addClass('checkedd');
+			}
+			jQuery('#'+_activeBtn).find('tbody').find('input[name="sales_person[]"]').each(function(){		
+				_rowThis = jQuery(this);
+				if(_rowThis.attr('data-attr-em')!='' && _rowThis.attr('data-attr-new-em')=='1'){
+					_rowThis.prop('checked',_a);
+				}
+			});
+		break;
+		case 3:
+			/*Gateway*/
+			_a= true;
+			if(obj.hasClass('checkedd')){
+				_a = false;obj.removeClass('checkedd');
+			} else {
+				obj.addClass('checkedd');
+			}
+			jQuery('#'+_activeBtn).find('tbody').find('input[name="sales_person[]"]').each(function(){	
+				_rowThis = jQuery(this);
+				_rowThisParent = _rowThis.parent();
+				if(_rowThisParent.find('i.icon-user-plus').length > 0 ){
+					_rowThis.prop('checked',_a);
+				}				
+			});
+		break;
+		case 2:
+			/*LinkedIn*/
+			_a = true;
+			if(obj.hasClass('checkedd')){
+				_a = false;obj.removeClass('checkedd');
+			} else {
+				obj.addClass('checkedd');
+			}
+			jQuery('#'+_activeBtn).find('tbody').find('input[name="sales_person[]"]').each(function(){
+				_rowThis = jQuery(this);
+				if(_rowThis.attr('data-attr-linkedin')!=''){
+					_rowThis.prop('checked',_a);
+				}
+			});
+		break;
+		case 12:
+			/*LinkedIn proximity=>1*/
+			_a = true;
+			if(obj.hasClass('checkedd')){
+				_a = false;obj.removeClass('checkedd');
+			} else {
+				obj.addClass('checkedd');
+			}
+			jQuery('#'+_activeBtn).find('tbody').find('input[name="sales_person[]"]').each(function(){
+				_rowThis = jQuery(this);
+				if(_rowThis.attr('data-attr-linkedin')!='' && _rowThis.attr('data-proximity') == '1'){
+					_rowThis.prop('checked',_a);
+				}
+			});
+		break;
+	}
+	const _selectedCounter = jQuery('#'+_activeBtn).find('tbody').find('input[name="sales_person[]"]:checked').length;
+	jQuery("#show_selected_count").text(_selectedCounter);
+}
+
+function importFileToDrive(){
+	_fileUrl = jQuery("#lititgationImportURL").val();
+	_folder = jQuery("#clipboard").val();
+	jQuery.ajax({
+		url:__baseUrl+"leads/fileInsert",
+		type:"POST",
+		data:{file_name:'Compaint',doc_url:_fileUrl,d:leadGlobal,f:_folder,change:1},
+		cache:false,
+		success:function(k){
+			
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+fillHoleContacts=[];
+function findHolesContacts(){
+	w = jQuery(window).width();
+	w = w*4/5;
+	jQuery("#open_prefined_message").hasClass("is-open")?checkModalFrontOrHide(jQuery("#open_prefined_message"),function(){closeSlideBarLeftSales()}):($("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>'),jQuery("#open_prefined_message_list").html('<iframe id="predefineFormIframe" src="'+__baseUrl+'leads/find_hole_contacts/?send='+encodeURIComponent(JSON.stringify(fillHoleContacts))+'" width="100%" height="100px" scrolling="yes"></iframe>'),openSlidebar(jQuery("#open_prefined_message"),'',w),slidebarOpenCallback(jQuery("#open_prefined_message")),jQuery("#open_prefined_message").addClass("is-open"),open_prefined_listResize(),myProfileResize())/*,retrieveFullContacts()*/
+}
+jQuery(document).ready(function(){
+	/*jQuery('#emailMessage').summernote({
+	  onChange: function(contents, $editable) {
+		rangeSelection = document.getSelection();
+	  }
+	});*/
+	/*Check User Logged IN*/
+	setInterval(userLoggedIN,10000);
+	jQuery.ajaxSetup({
+		crossDomain: true,
+		xhrFields: {
+		 withCredentials: true
+		}
+	});
+});
+
+_inCHeckUser = "";
+function userLoggedIN(){
+	/*data = {};
+	if(_inCHeckUser==''){
+		_inCHeckUser = jQuery.ajax({
+			url:__baseUrl+'client/checkUserLoggedIN',
+			type:"GET",
+			data:{},
+			dataType:'json',
+			ascyn:true,
+			
+			cache:false,
+			statusCode:{
+				302:function(response){
+				},
+			},
+			complete: function(e, xhr, settings){
+				 
+			},
+			error:function(xhr,status,err){
+				_inCHeckUser = '';
+			},
+			success:function(data,textSTatus,xhr){
+				if(data.cu==0 || data.cu==""){					
+				}
+			}
+		}).done(function(data,statusText,xhr){
+			_inCHeckUser = '';
+			if(data.cu==0 || data.cu==""){
+				jQuery("#sortingPopup").find("div.modal-body").html("<p>You session is expired. Please <a href='javascript://' onclick='openLoginForm();' style='color:#2196F3'>Click</a> here to login.</p>");
+				jQuery("#sortingPopup").modal("show");
+			}
+			if(xhr.status==302){
+			}
+		});
+	} else {
+		_inCHeckUser.abort();
+	}*/
+}
+var loginWindow = "";
+function openLoginForm(){
+	loginWindow = window.open(__baseUrl+"login","Backyard Login");
+	setTimeout(checkLogged,10000);
+}
+function checkLogged(){
+	try{
+		if(loginWindow.hasOwnProperty('location') && loginWindow.location.hasOwnProperty('href')){
+			 _url = loginWindow.location.href;
+			 if(_url.indexOf('dashboard')>=0){
+				 jQuery("#sortingPopup").modal("hide");
+				loginWindow.close();
+			 } else{
+				console.log(loginWindow.location.href);
+				setTimeout(checkLogged,3000);
+			 }
+		} else { console.log(loginWindow.location.href);
+			setTimeout(checkLogged,3000);
+		}
+	}catch(e){
+		setTimeout(checkLogged,20000);
+	}
+	
+}
+jQuery(document).ajaxComplete(function(e, xhr, settings){
+   /* if(xhr.status === 302){
+        jQuery(window).unbind("beforeunload");
+		window.location = __baseUrl+'login';
+    }*/
+});
+
+function createNewFolder(){
+	jQuery("#createNewFolderLead").modal("show");
+}
+
+function leadFolderCreate(){
+	data = {l:leadGlobal,folder_name:jQuery('#new_folder_name').val()};
+	call(__baseUrl+'dashboard/create_new_folder',"POST",data,dataLeadFolderStatus,"json");
+}
+
+function dataLeadFolderStatus(d){
+	jQuery("#createNewFolderLead").modal("hide");
+	if(d>0){
+		findThisDriveFile(jQuery("#"+_mainBtnParentElement).find('select#clipboard'));
+	} else {
+		alert("Please try after sometime");
+	}
+}
+
+function updateFromDataFills(){
+	call(__baseUrl+'opportunity/update_contacts_from_datafills',"GET",{},checkUpdateFromDatafills,"json");
+}
+
+window.checkUpdateFromDatafills = function(data,textStatus,xhr){
+	if(jQuery("#open_contact_gd").hasClass("is-open")){
+		jQuery("#open_contact_gd").find("#contactFormIframe").get(0).contentWindow.location.reload(true);
+	}
+}
+
+function inboxLabelChanged(tp,o){
+	jQuery('#displayEmail').html('');
+	_token = o.parent().parent().parent().parent().parent().data('id');
+	call(__baseUrl+'dashboard/addOrRemoveEmailLabel',"POST",{token:_token,label:'starred',step:tp},checkChangeLabel,"json");
+}
+window.checkChangeLabel = function(data,textStatus,xhr){
+	if(data.text!=""){
+		console.log('1');
+		_itm = jQuery("#listMainContainerModif").find('div.message-item[data-id="'+data.thread+'"]');
+		console.log(data.text);
+		if(data.text=="Starred"){
+			console.log('2');
+			_itm.find('a.clb').find('i').removeClass('icon-star-o').addClass('icon-star');
+			_itm.find('a.clb').attr('onclick','inboxLabelChanged(1,jQuery(this))');
+		} else {
+			console.log('3');
+			_itm.find('a.clb').find('i').removeClass('icon-star').addClass('icon-star-o');
+			_itm.find('a.clb').attr('onclick','inboxLabelChanged(0,jQuery(this))');
+		}
+	} else {
+		alert("Please try after sometime");
+	}
+};
+function checkLeadOpen(o){
+	ac="";
+	if(o.is(':checked')){
+		ac="change";
+	} else {
+		ac="revert";
+	}	
+	f = o.data('leadopen');
+	data = {l:leadGlobal,ac:ac,f:f};
+	call(__baseUrl+'opportunity/outsource_permission',"POST",data,dataLeadOpen,"json");
+}
+window.dataLeadOpen = function(data,textStatus,xhr){
+	if(typeof data.update!="undefined" && data.update>0){
+		if(jQuery("#open_eou_folder").hasClass('is-open')){
+			_frameObj = jQuery("#open_eou_folder").find("#eou_frame").find('iframe');
+			if(_frameObj.length>0){
+				if(typeof _frameObj.get(0).contentWindow._taskINString!="undefined"){
+					call(__baseUrl+'opportunity/ajax_eou_in_folder',"GET",{},updateEouData,"json");
+				}
+			}		
+		}
+	}
+}
+window.updateEouData = function(data,textStatus,xhr){
+	if(data.length>0){
+		if(jQuery("#open_eou_folder").hasClass('is-open')){
+			_frameObj = jQuery("#open_eou_folder").find("#eou_frame").find('iframe');
+			if(_frameObj.length>0){
+				_frameObj.get(0).contentWindow._taskINString = data;
+				_frameObj.get(0).contentWindow.hot1.loadData(_frameObj.get(0).contentWindow._taskINString);	
+			}		
+		}
+	}
+}
+var _checkEouInterval;
+function filterLeadOpenSource(filterData){
+	if(jQuery("#open_eou_folder").hasClass("is-open")){
+		_frameObj = jQuery("#open_eou_folder").find("#opensource_slidebar_iframe");
+		if(_frameObj.length>0){
+			if(typeof _frameObj.get(0).contentWindow._taskINString!="undefined"){
+				/*_frameObj.get(0).contentWindow.hot1.getPlugin('filters').addFormula(2, 'by_value', [filterData.toString().toLowerCase()]);
+				_frameObj.get(0).contentWindow.hot1.getPlugin('filters').addFormula(1, 'by_value', [leadNameGlobal.toString().toLowerCase()]);
+				_frameObj.get(0).contentWindow.hot1.getPlugin('filters').filter();*/
+				 _frameObj.get(0).contentWindow.filterFromOutside(2,filterData.toString().toLowerCase());
+				 _frameObj.get(0).contentWindow.filterFromOutside(1,leadNameGlobal.toString().toLowerCase());
+			}
+		}
+	} else {
+		openEOUModal();
+		_checkEouInterval = setInterval(function(){
+			if(jQuery("#open_eou_folder").find("#opensource_slidebar_iframe").length>0){
+				_frameObj = jQuery("#open_eou_folder").find("#opensource_slidebar_iframe");
+				if(typeof _frameObj.get(0).contentWindow._taskINString!="undefined"){
+					 _frameObj.get(0).contentWindow.filterFromOutside(2,filterData.toString().toLowerCase());
+					 _frameObj.get(0).contentWindow.filterFromOutside(1,leadNameGlobal.toString().toLowerCase());
+					clearInterval(_checkEouInterval);
+				}
+			}
+		},500);
+	}
+}
+_checkSPan = false;
+function openLifeSpanChart(){
+	if(typeof _mainBtnParentElement !="undefined"){
+		_checkSPan = true;
+		displayPatentTable(_mainBtnParentElement);
+		alert('The text in the pop up should be: "Check the calculated expiration date of the patents on the list below, and make the required corrections if needed. Then close the patents table. No need to save. The Lifespan chart in the docket will update automatically.');
+	}
+}
+
+function runGrabImagesFromScreenShotAndLinks(){	
+}
+grabImagesAssetsList = [];
+window.runListAssets = function(data,textStatus,xhr){	
+}
+_activeScrap = "";
+function grabDataForAssetsList(i){
+	
+}
+scrappingImageInvention=['chain_source','ipr_source','legal_source','legal_source1','litigation_source','reexam_source','terminal_source'];
+scrappingImageInventionDrive = ['chain_source_drive','ipr_source_drive','legal_source_drive','legal_source1_drive','litigation_source_drive','reexam_source_drive','terminal_source_drive'];
+runLegalScrap = 0;
+runTechScrap = 0;
+function runScrappingImageTODrive(i){	
+}
+var scraperRequest =null;
+var scraperConnectRequest =null;
+var scraperCompanyRequest =null;
+var scraperOwlerRequest =null;
+var _userList = {};
+var queList = [];
+var companyQuList = [];
+var owlerQuList = [];
+var nS = 0;
+var nC = 0;
+var _openForScrap = false;
+function sendScrapperRequest(f){	
+	checkRequest(queList[nS],0,f);
+}
+function sendScrapperCompanyRequest(f){	
+	checkCompanyRequest(companyQuList[nC],0,f);
+}
+
+function checkCompanyRequest(d,t,f){
+	if(t==0){
+		loadingMessage("",f);
+		scraperCompanyRequest = jQuery.ajax({
+			url:__baseUrl+'users/send_scrapper_request_to_server',
+			type:'POST',
+			data:{d:JSON.stringify(d),url:'http://webdriverforscrape.site/linkedin_scrap_company.php'}
+		}).fail(function(jqXHR, textStatus){
+			alert("CompanyRequest:"+textStatus);
+		}).always(function(){
+			if(companyQuList.length-1>nC){
+				updateWithNewCompanyDate(companyQuList[nC]);
+				nC +=1;
+				checkCompanyRequest(companyQuList[nC],0,companyQuList[nC].type);
+			} else {
+				updateWithNewCompanyDate(companyQuList[nC]);				
+				scraperCompanyRequest = null;
+				nC = 0;
+				companyQuList = [];
+				_openForScrap = false;
+			}
+		});
+	}
+	if(t==1){
+		_company = {company:d};
+		updateWithNewCompanyDate(_company);
+	}
+}
+const formatter = new Intl.NumberFormat('en-IN');
+let t = 0;
+function updateWithNewCompanyDate(company){
+	let ID=0;
+	if(typeof company.company!="undefined"){
+		ID=company.company;
+	} else if(typeof company.id!="undefined"){
+		ID=company.id;
+	}
+	if(ID>0){
+	jQuery.ajax({
+		url:__baseUrl+'opportunity/find_company_scrape_data',
+		type:'POST',
+		data:{c:ID},
+		dataType:'json',
+		success:function(d){
+			t = 0;
+			if(jQuery("#open_company_add").hasClass('is-open')){
+				findFrame = jQuery("#open_company_add").find("iframe").eq(0).contents();
+				_companyOPenID = findFrame.find("input#companyId").val();
+				if(_companyOPenID == d.id) {
+					findFrame = jQuery("#open_company_add").find("iframe").contents();
+					findFrame.find("textarea#companyDescribing").val(d.describing);
+					findFrame.find("input#companyJobTitle").val(d.company_name);
+					if((findFrame.find("input#companyLinkedinUrl").val()=="" ||findFrame.find("input#companyLinkedinUrl").val()!=d.linkedin_url) && d.linkedin_url!=""){
+						findFrame.find("input#companyLinkedinUrl").val(d.linkedin_url);
+					}
+					findFrame.find("input#companyOther1").val(d.other1);
+					findFrame.find("input#companyOther2").val(d.other2);
+					findFrame.find("input#companyOther3").val(d.other3);
+					findFrame.find("input#companyOther4").val(d.other4);
+					findFrame.find("input#companyOther5").val(d.other5);
+					findFrame.find("input#companyOther6").val(d.other6);
+					findFrame.find("input#companyIndustry").val(d.industry);
+					findFrame.find("input#companyCity").val(d.city);
+					findFrame.find("input#companyCountry").val(d.state);
+					findFrame.find("input#companyType").val(d.company_type);
+					findFrame.find("input#companyWebAddress").val(d.web_address);
+					findFrame.find("input#companyOwlerUrl").val(d.owler_url);
+					findFrame.find("input#companyOwlerCompanyRevenue").val(d.owler_company_revenue);
+					findFrame.find("textarea#companyOwlerDescription").val(d.owler_description);
+					findFrame.find("input#companySpecialties").val(d.specialties);
+					findFrame.find("input#companyNoOfEmployees").val(formatter.format(d.no_of_employees));
+					findFrame.find("input#companySize").val(d.company_size);
+					findFrame.find("#companyLogo").html('<img src="'+d.company_logo+'" style="height:120px;"/>');
+					_similarOrganization = d.list;
+					_peopleAlsoViewed = d.similar_organisation;
+					_htsCode = d.hts_code;
+					_string = "";
+					if(_peopleAlsoViewed=="" || _peopleAlsoViewed == null){
+						if(_similarOrganization!=""){
+							_similarOrganization = JSON.parse(_similarOrganization);
+						}
+						if(_similarOrganization.length>0){
+							findFrame.find("#company_similar_organization").find('.input-string-group').empty();
+							findFrame.find("#company_similar_organization").find('.input-string-group').append('<label class="control-label">Similar Organizations:</label>');
+							
+							jQuery.each(_similarOrganization,function(i,org){
+								if(org.id > 0 && org.company_name != null) {
+									_string +="<span class='pull-left' style='margin-top:5px;margin-left:5px;'>";
+									_string +="<a href='javascript://' onclick='window.parent.openCompanyEdit("+org.id+")'>"+org.company_name+"</a>";
+									if(i<_similarOrganization.length){
+										_string +=", ";
+									}
+									_string +="</span>";
+								}
+							});
+							if(_htsCode != ""){
+								_htsCode = JSON.parse(_htsCode);
+								_htsCode.map(function(c){
+									_string +="<span class='pull-left' style='margin-top:5px;margin-left:5px;'>"+c+"</span>";
+								});
+							}
+							findFrame.find("#company_similar_organization").find('.input-string-group').append(_string);
+							
+						}
+						
+					} else {
+						try{
+							_pV = JSON.parse(_peopleAlsoViewed);
+							if(_pV.length>0){
+								_listOrg = [];
+								_pV.map(function(org){
+									if(org.name!=null){
+										_listOrg.push(org.name);
+									}									
+								});
+								if(_htsCode != ""){
+									_htsCode = JSON.parse(_htsCode);
+									_htsCode.map(function(c){
+										_listOrg.push(c);
+									});
+								}
+								_string ="<span class='pull-left' style='margin-top:5px;margin-left:5px;width:80%'>"+_listOrg.join(", ")+"</span>";
+								findFrame.find("#company_similar_organization").find('.input-string-group').empty();
+								findFrame.find("#company_similar_organization").find('.input-string-group').append('<label class="control-label">Similar Organizations:</label>');
+								findFrame.find("#company_similar_organization").find('.input-string-group').append(_string);
+							}
+						} catch(e){
+							console.log("Error:"+e);
+						}
+					}
+					if(d.competitors != ""){
+						var competitorList = JSON.parse(d.competitors);
+						if(competitorList.length > 0){
+							var table = "<div><div style='overflow:auto;'><table><tbody><tr>";
+								competitorList.forEach(function(c,i){
+									var cName = "";
+									if(typeof c.company_name != "undefined"){
+										cName = c.company_name;
+									}
+									table += "<td valign='middle' align='center' style='min-width:75px;min-height:85px;'><span class='invite' title='Invite'></span><a href='"+c.href+"' target='_blank'><span title='"+cName+"' class='title' style='margin-top:5px;margin-left:5px;overflow:hidden;display:block;'><img src='"+c.logo+"' style='max-height:30px;'/></span></a><span class='revenue' style='margin-left:5px;width:100%;display:block;'><input type='checkbox' data-href='"+c.href+"' data-logo='"+c.logo+"' title='Create new company' class='n_company' data-revenue='"+c.revenue+"' data-title='"+cName+"' style='width: 10px;margin-left:5px;'/> <a href='"+c.href+"' target='_blank'> "+c.revenue+"</a></span></td>";
+								});
+								table += "</tr></tbody></table></div>";
+							findFrame.find("#company_competitors").find('.input-string-group').empty();
+							findFrame.find("#company_competitors").find('.input-string-group').append('<label class="control-label">Competitors:</label>');
+							findFrame.find("#company_competitors").find('.input-string-group').append(table);
+							jQuery("#open_company_add").find("iframe").get(0).contentWindow.findCompetitorsCompany();
+						}						
+					}
+				} else {
+					console.log("Company pop ID not same:"+_companyOPenID);
+				}
+			}
+			_parent = findParent();
+			/*console.log("scrape inner0");*/
+			if(_parent.jQuery("#open_sales_gd").hasClass('is-open')){
+				console.log("scrape inner1");
+				var frameSrc =  _parent.jQuery("#open_sales_gd").find("iframe").attr('src');
+				if(frameSrc.indexOf('company_list') >= 0) {
+					console.log("Company List");
+					var findFrame = _parent.jQuery("#open_sales_gd").find("iframe").get(0);
+					findFrame.contentWindow.updateTableRowData(d);
+				} else {	
+					var findFrame = _parent.jQuery("#open_sales_gd").find("iframe").eq(0).contents();
+					var $findElementChecked = findFrame.find("input[value='"+d.id+"']");
+					if($findElementChecked.length>0){
+						_date = moment(new Date(d.scrapped_profile_date)).format('MM/DD/YY');
+						$findElementChecked.eq(0).parents('tr').find('a.scrape_date').text(_date);
+						$findElementChecked.eq(0).parents('tr').find('td').eq(7).text(d.no_of_employees);
+						$findElementChecked.eq(0).parents('tr').find('td').eq(8).text(d.company_size);
+						$findElementChecked.eq(0).parents('tr').find('td').eq(9).attr('title',d.industry).html("<div class='overwrap'>"+d.industry+"</div>");
+						$findElementChecked.eq(0).parents('tr').find('td').eq(10).attr('title',d.specialties).html("<div class='overwrap'>"+d.specialties+"</div>");
+						$findElementChecked.eq(0).parents('tr').find('td').eq(4).find('a').eq(1).css('font-weight','bold').text(d.company_name);
+					}
+				}				
+			}
+			if(_parent.jQuery("#open_ccompany_gd").hasClass('is-open')){
+				console.log("scrape inner1");
+				var frameSrc =  _parent.jQuery("#open_ccompany_gd").find("iframe").attr('src');
+				if(frameSrc.indexOf('company_list') >= 0) {
+					console.log("Company List2");
+					var findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe").get(0);
+					findFrame.contentWindow.updateTableRowData(d);
+				} else {
+					var findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe").eq(0).contents();
+					var $findElementChecked = findFrame.find("input[value='"+d.id+"']");
+					if($findElementChecked.length>0){
+						_date = moment(new Date(d.scrapped_profile_date)).format('MM/DD/YY');
+						$findElementChecked.eq(0).parents('tr').find('a.scrape_date').text(_date);
+						$findElementChecked.eq(0).parents('tr').find('td').eq(7).text(d.no_of_employees);
+						$findElementChecked.eq(0).parents('tr').find('td').eq(8).text(d.company_size);
+						$findElementChecked.eq(0).parents('tr').find('td').eq(9).attr('title',d.industry).html("<div class='overwrap'>"+d.industry+"</div>");
+						$findElementChecked.eq(0).parents('tr').find('td').eq(10).attr('title',d.specialties).html("<div class='overwrap'>"+d.specialties+"</div>");
+						$findElementChecked.eq(0).parents('tr').find('td').eq(4).find('a').eq(1).css('font-weight','bold').text(d.company_name);
+					}
+				}
+			}
+		}
+	}).fail(function(jqXHR, textStatus){		
+		if(textStatus !='parseerror'){
+			if(t == 0) {t++ ; updateWithNewCompanyDate(ID);} else {alert("Update Company:"+textStatus);}}
+	});
+	} else {
+		console.log("Property not found!",company);
+	}
+}
+
+function inviteCompanyToSelectedLead(o,cID){
+	var tap = false;
+	if(o.is(":checked")){
+		tap = true;
+	}
+	if(cID > 0 ){
+		if(leadGlobal > 0){
+			var _parent = findParent();
+			var frame;
+			if(_parent.jQuery('#open_ccompany_gd').length > 0){
+				frame = _parent.jQuery('#open_ccompany_gd');
+			}else if(_parent.jQuery('#open_sales_gd').length > 0){
+				frame = _parent.jQuery('#open_sales_gd');
+			}
+			if(frame != undefined && frame != null && frame.length > 0){
+				var frameContent = frame.find("iframe").get(0).contentWindow;
+				if(frameContent.jQuery("#profileListType").val() > 0){
+					frameContent.inviteCompany(cID,frameContent._leadID,tap,frameContent.jQuery("#profileListType").val());
+				} else {
+					alert("Please select type first");
+					o.prop("checked",false);
+					o.removeAttr("checked");
+				}
+			}			
+		} else {
+			alert("Please select lead first.");
+			o.prop("checked",false);
+			o.removeAttr("checked");
+		}
+	} else {
+		alert("Invalid company ID.");
+		o.prop("checked",false);
+		o.removeAttr("checked");
+	}
+}
+
+function updateDDButtonOnClick(){
+	console.log('updateDDE');
+	if(_mainBtnParentElement != ""){
+		console.log('updateDDE1');
+		var leadContainer = document.getElementById(_mainBtnParentElement);
+		if(leadContainer != null){
+			var legalSpan = leadContainer.querySelector("#spnleadOpenLegalOpenContact");
+			if(legalSpan != null){
+				callAutoLogin("#btnLinkToLegalDD");
+			}
+			var illustrationSpan = leadContainer.querySelector("#spnleadOpenIllustrationOpenContact");
+			if(illustrationSpan != null){
+				callAutoLogin("#btnLinkToIllusDD");
+			}
+			var techSpan = leadContainer.querySelector("#spnleadOpenTechnicalOpenContact");
+			if(techSpan != null){
+				callAutoLogin("#btnLinkToTechDD");
+			}
+			var marketSpan = leadContainer.querySelector("#spnleadOpenMarketOpenContact");
+			if(marketSpan != null){
+				//var marketTitle = marketSpan.getAttribute("title");
+				callAutoLogin('#btnLinkToMarketDD');
+				/*if(marketTitle.indexOf(loggedInUsername) >= 0){					
+				}*/
+			}
+			var pdfSpan = leadContainer.querySelector("#spnleadOpenPdfOpenContact");
+			if(pdfSpan != null){
+				callAutoLogin("#btnLinkToPDF");
+			}			
+			var comparablesSpan = leadContainer.querySelector("#spnleadOpenComparablesOpenContact");
+			if(comparablesSpan != null){
+				callAutoLogin("#btnLinkToComparable");
+			}
+			var introimagesSpan = leadContainer.querySelector("#spnleadOpenIntroimagesOpenContact");
+			if(introimagesSpan != null){
+				callAutoLogin("#btnLinkToIntroImages");
+			}
+			var introSpan = leadContainer.querySelector("#spnleadOpenIntroOpenContact");
+			if(introSpan != null){
+				callAutoLogin("#btnLinkToIntroDD");
+			}
+		}
+	}
+}
+
+function callAutoLogin(obj){
+	var leadContainer = document.getElementById(_mainBtnParentElement);
+	var loggedInUsername = document.getElementById('login_user_name').value;
+	var anchorTag = leadContainer.querySelector(obj);
+	var href = anchorTag.getAttribute('href');
+	anchorTag.setAttribute('data-click-href',href+'?m='+document.getElementById('for_user').value);
+	jQuery("#"+_mainBtnParentElement).find(obj).off('click').on('click', function(e) {
+		e.preventDefault();
+		console.log("Clicked");					
+		window.open(jQuery(this).attr('data-click-href'),"_blank");
+	});
+}
+
+function deleteCompanyCheckInOtherPopup(ID){
+	_parent = findParent();
+	if(_parent.jQuery("#open_ccompany_gd").hasClass('is-open')){
+		console.log("delete scrape inner1");
+		findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe").get(0);
+		findFrame.contentWindow.deleteCompanyFromCompanyCard(ID);
+	}
+	if(_parent.jQuery("#open_sales_gd").hasClass('is-open')){
+		console.log("delete scrape inner0");
+		findFrame = _parent.jQuery("#open_sales_gd").find("iframe").get(0);
+		findFrame.contentWindow.deleteCompanyFromCompanyCard(ID);
+	}
+}
+function sendContactScrapperRequest(){
+	/*scraperRequest = jQuery.ajax({
+		url:'https://webdriverforscrape.site/linkedin_scrap_contact_from_list.php',
+		dataType: 'jsonp'
+	}).always(function(){console.log('Request finished that control by server...')});*/
+	console.log('sendContactScrapperRequest');
+	scraperRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/linkedin_scrap_contact_from_list.php',d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).always(function(){console.log('sendContactScrapperRequest Request finished that control by server...');checkMyPendingRequest();});
+}
+function sendContactSingleScrapperRequest(){
+	/*scraperRequest = jQuery.ajax({
+		url:'https://webdriverforscrape.site/linkedin_scrap_contact_from_list.php',
+		dataType: 'jsonp'
+	}).always(function(){console.log('Request finished that control by server...')});*/
+	console.log('sendContactSingleScrapperRequest');
+	scraperRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/linkedin_scrape_single_contact.php',d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).always(function(){console.log('sendContactSingleScrapperRequest Request finished that control by server...');});
+}
+
+function sendContactConnectRequest(){	
+	console.log('sendContactConnectRequest');
+	scraperConnectRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/linkedin_connect_contact_from_list.php',d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).always(function(){console.log('sendContactConnectRequest Request finished that control by server...');checkContactsConnectQueue();});
+}
+
+function sendCompanyPeopleRequest(){	
+	console.log('sendCompanyPeopleRequest');
+	scraperConnectRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/linkedin_scrape_company_people.php',d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).always(function(){console.log('sendCompanyPeopleRequest Request finished that control by server...');checkCompanyPeopleQueue();});
+}
+
+function sendOwlerCompanyRequest(companyID){
+	console.log('sendCompanyPeopleRequest');
+	scraperConnectRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/owler_scrape_company.php?c='+companyID,d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).always(function(){console.log('sendOwlerCompanyRequest Request finished that control by server...');});
+}
+
+function sendOwlerCCompanyRequest(companyID){
+	console.log('sendOwlerCCompanyRequest');
+	scraperConnectRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/owler_scrape.php?from_company='+companyID,d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).always(function(){console.log('sendOwlerCCompanyRequest Request finished that control by server...');});
+}
+
+function sendCompanyScrapperRequest(){
+	scraperCompanyRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/linkedin_scrap_company.php',d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	})
+	.always(function(){console.log('sendCompanyScrapperRequest Request finished that control by server...');checkContactsQueue();});
+}
+
+function sendOwlerScrapperRequest(){
+	scraperOwlerRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/owler_scrape_company.php',d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	})
+	.always(function(){console.log('sendOwlerScrapperRequest Request finished that control by server...');checkOwlerQueue();});
+}
+
+let lastOwlerQueueCounter = 0;
+let testOwlerLimit = 0;
+function checkOwlerQueue() {
+	setTimeout(() => {
+		jQuery.ajax({
+			url:__baseUrl+'opportunity/check_owler_pending_request',
+			type:'GET',
+				dataType:'json'
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		}).done(function(d){
+			if(d.l > 0) {
+				if(lastOwlerQueueCounter == 0) {
+					lastOwlerQueueCounter = d.l;
+					testOwlerLimit++;
+					checkOwlerQueue();
+				} else {
+					if(lastOwlerQueueCounter == d.l) {
+						if(testOwlerLimit == 5){
+							sendOwlerScrapperRequest();
+						} else {
+							testOwlerLimit++;
+							checkOwlerQueue();
+						}							
+					} else {
+						lastOwlerQueueCounter = 0;
+						testOwlerLimit = 0;
+					}
+				}
+			}
+		});
+	},1e4);
+}
+
+let lastQueueCounter = 0;
+let testLimit = 0;
+function checkQueue() {
+	setTimeout(() => {
+		jQuery.ajax({
+			url:__baseUrl+'opportunity/check_my_pending_request',
+			type:'GET',
+				dataType:'json'
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		}).done(function(d){
+			if(d.l > 0) {
+				if(lastQueueCounter == 0) {
+					lastQueueCounter = d.l;
+					testLimit++;
+					checkQueue();
+				} else {
+					if(lastQueueCounter == d.l) {
+						if(testLimit == 5){
+							sendCompanyScrapperRequest();
+						} else {
+							testLimit++;
+							checkQueue();
+						}							
+					} else {
+						lastQueueCounter = 0;
+						testLimit = 0;
+					}
+				}
+			}
+		});
+	},1e4);
+}
+
+let lastContactsQueueCounter = 0;
+let testContactsLimit = 0;
+function checkContactsQueue() {
+	setTimeout(() => {
+		jQuery.ajax({
+			url:__baseUrl+'opportunity/check_my_pending_contact_request',
+			type:'GET',
+				dataType:'json'
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		}).done(function(d){
+			if(d.l > 0) {
+				if(lastContactsQueueCounter == 0) {
+					lastContactsQueueCounter = d.l;
+					testContactsLimit++;
+					checkContactsQueue();
+				} else {
+					if(lastContactsQueueCounter == d.l) {
+						if(testContactsLimit == 5){
+							sendContactScrapperRequest();
+						} else {
+							testContactsLimit++;
+							checkContactsQueue();
+						}							
+					} else {
+						lastContactsQueueCounter = 0;
+						testContactsLimit = 0;
+					}
+				}
+			}
+		});
+	},1e4);
+}
+
+let lastCompanyPeopleQueueCounter = 0;
+let testCompanyPeopleLimit = 0;
+function checkCompanyPeopleQueue() {
+	time = 30e4;
+	if(lastCompanyPeopleQueueCounter == 0){
+		time = 1e3;
+	}
+	setTimeout(() => {
+		jQuery.ajax({
+			url:__baseUrl+'opportunity/check_my_pending_company_people_request',
+			type:'GET',
+				dataType:'json'
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		}).done(function(d){
+			if(d.l > 0) {
+				if(lastCompanyPeopleQueueCounter == 0) {
+					lastCompanyPeopleQueueCounter = d.l;
+					checkCompanyPeopleQueue();
+				} else {
+					/*if(lastCompanyPeopleQueueCounter == d.l) {
+						if(testCompanyPeopleLimit == 5){
+							sendCompanyPeopleRequest();
+						} else {
+							testCompanyPeopleLimit++;
+							checkCompanyPeopleQueue();
+						}							
+					} else {
+						lastCompanyPeopleQueueCounter = 0;
+						testCompanyPeopleLimit = 0;
+					}*/
+				}
+			}
+		});
+	},time);
+}
+
+let lastContactsConnectQueueCounter = 0;
+let testContactsConnectLimit = 0;
+function checkContactsConnectQueue() {
+	setTimeout(() => {
+		jQuery.ajax({
+			url:__baseUrl+'opportunity/check_my_pending_connect_request',
+			type:'GET',
+				dataType:'json'
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		}).done(function(d){
+			if(d.l > 0) {
+				if(lastContactsConnectQueueCounter == 0) {
+					lastContactsConnectQueueCounter = d.l;
+					testContactsConnectLimit++;
+					checkContactsConnectQueue();
+				} else {
+					if(lastContactsConnectQueueCounter == d.l) {
+						if(testContactsConnectLimit == 5){
+							sendContactScrapperRequest();
+						} else {
+							testContactsConnectLimit++;
+							checkContactsConnectQueue();
+						}							
+					} else {
+						lastContactsConnectQueueCounter = 0;
+						testContactsConnectLimit = 0;
+					}
+				}
+			}
+		});
+	},1e4);
+}
+
+function checkMyPendingRequest() {
+	jQuery.ajax({
+		url:__baseUrl+'opportunity/check_my_pending_request',
+		type:'GET',
+		dataType:'json'
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).done(function(d){
+		if(d.l > 0) {
+			if(scraperCompanyRequest==null || (typeof scraperCompanyRequest.readyState!=undefined && scraperCompanyRequest.readyState==4)){
+				console.log('start process again for company');
+				sendCompanyScrapperRequest();
+			}
+		}
+	});
+}
+
+function checkMyPendingConnectRequest() {
+	jQuery.ajax({
+		url:__baseUrl+'opportunity/check_my_pending_connect_request',
+		type:'GET',
+		dataType:'json'
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).done(function(d){
+		if(d.l > 0) {
+			if(scraperConnectRequest==null || (typeof scraperConnectRequest.readyState!=undefined && scraperConnectRequest.readyState==4)){
+				console.log('start process again for contacts connect');
+				sendContactConnectRequest();
+			}
+		}
+	});
+}
+
+function sendEmailScrapperRequest(){
+	console.log('sendEmailScrapperRequest');
+	scraperRequest = jQuery.ajax({
+		url:__baseUrl+'users/send_scrapper_request_to_server',
+		type:'POST',
+		data:{url:'http://webdriverforscrape.site/email_scrapper.php',d:''}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).always(function(){console.log('sendEmailScrapperRequest Request finished that control by server...');});
+}
+
+function checkRequest(d,t,f){
+	if(t==0){
+		loadingMessage("",f);
+		scraperRequest = {readyState:2};
+		/*rl:'https://webdriverforscrape.site/linkedin_scrap_contact_from_list.php',*/
+		jQuery.ajax({
+			url:__baseUrl+'users/send_scrapper_request_to_server',
+			type:'POST',
+			data:{d:JSON.stringify(d),url:'http://webdriverforscrape.site/linkedin_scrap_contact_from_list.php'},
+			beforeSend:function(){
+				scraperRequest = {readyState:2};
+				console.log('scrapper',scraperRequest);
+				console.log('saddasdsadsad');
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		}).always(function(){
+			if(queList.length-1>nS){
+				updateWithNewDate(queList[nS]);
+				nS +=1;
+				checkRequest(queList[nS],0,queList[nS].type);
+			} else {
+				updateWithNewDate(queList[nS]);
+				scraperRequest = null;
+				nS = 0;
+				queList = [];
+				_openForScrap = false;
+			}
+		});
+		console.log('Ajax request',scraperRequest);
+	}
+	if(t==1){
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'opportunity/find_company_users',
+			type:'POST',
+			data:{c:d,p:1},
+			dataType:'json',
+			cache:false,
+			success:function(c){
+				if(c.length>0){
+					updateList(d,c,f,0);
+				}				
+			}
+		}).fail(function(jqXHR, textStatus){
+			if(textStatus !='parseerror'){alert(textStatus);}
+		});
+	}
+}
+function updateUsersData(d,ID){
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'opportunity/find_company_users',
+		type:'POST',
+		data:{c:d,p:1},
+		dataType:'json',
+		cache:false,
+		success:function(c){
+			if(c.length>0){
+				updateList(d,c,3,ID);
+			}				
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+function updateWithNewDate(obj){
+	if(typeof obj.type!=undefined){
+		findFrame = frameFind(obj.type);
+		if(typeof findFrame=="undefined"){
+			findFrame = jQuery;
+		}
+		if(obj.type==1){
+			if(findFrame.find("input[value='"+obj.company+"']").length>0){
+				jQuery.ajax({
+					url:__baseUrl+'opportunity/find_company_scrape_date',
+					type:'POST',
+					data:{c:obj.company},
+					dataType:'json',
+					success:function(d){
+						_date = d.scrapped_date;
+						try{
+							_date = moment(new Date(_date)).format('MM/DD/YY');
+							findFrame.find("input[value='"+obj.company+"']").eq(0).parents('tr').find('a.scrape_date').text(_date);
+							if(typeof d.count_users!=undefined && typeof d.count_users!=null){
+								findFrame.find("input[value='"+obj.company+"']").eq(0).parents('tr').find('td').eq(5).text(d.count_users);
+							}
+							findFrame.find("input[value='"+obj.company+"']").eq(0).parents('tr').find('td').eq(4).find('a').eq(1).text(d.company_name);
+							findFrame.find("input[value='"+obj.company+"']").eq(0).parents('tr').find('input.general').prop("checked",false);
+						}catch(e){
+							console.log('date',e);
+						}
+						
+					}
+				}).fail(function(jqXHR, textStatus){
+					if(textStatus !='parseerror'){alert(textStatus);}
+				})
+			}
+		}
+	}
+}
+function emailScrapperMessage(_check,t){
+	_parseContact = JSON.parse(_check.message);
+	_message = "";
+	if(t==1){
+		_message = "Email scrapper start.";
+	}else if(t==2){
+		_message = "Request for "+_parseContact.first_name+' '+_parseContact.last_name+".";
+	}else if(t==3){
+		_message = "Finished "+_parseContact.first_name+' '+_parseContact.last_name+".";
+	}
+	loadingMessage(_message,0);
+}
+function emailScrapedContact(_check,t){
+	console.log("Email Scraped Contact");
+	console.log(_check);
+	findFrame = frameFind(1);
+	_parseContact = JSON.parse(_check.message);
+	console.log(_parseContact);
+	if(_parseContact.email!=""){
+		
+		_pr = findParent();
+		if(_pr.jQuery("#open_contact_gd").length > 0){
+			var findFrame = _pr.jQuery("#open_contact_gd").find('iframe').get(0);
+			findFrame.contentWindow.emailScrapedData(_parseContact);
+		}
+		if(t==1){
+			_pr = findParent();
+			console.log("Enterrr....");
+			if(_pr.jQuery("#open_contact_add").hasClass('is-open')){
+				console.log("Enterrr1....");
+				findFrame = frameFind(3);
+				if(findFrame.find("#inviteeId").val() ==_parseContact.contact_id){
+					console.log("Enterrr2....");
+					findFrame.find("#inviteeEmail").val(_parseContact.email);
+				}			
+			}
+		}
+	} else {
+		console.log("No email found!");
+	}	
+}
+function contactFrameWithSelectedCompanies(companiesString,t){
+	console.log('C',companiesString);
+	var _parent = findParent();
+	var sliderID = "open_contact_gd";
+	if(_parent.jQuery("#"+sliderID).length == 0){
+		console.log("Tap1");
+		appendSlider(sliderID,'Contacts','Contacts');
+		_parent.jQuery("#"+sliderID).find('.slider_container').html("<iframe id='contactFormIframe' src='" + __baseUrl + "opportunity/contact_list_with_selected_companies/?s="+companiesString+"&t="+t+"' width='100%' height='100px' scrolling='yes'></iframe>");
+		openSlidebar(jQuery("#"+sliderID));
+		_parent.jQuery("#"+sliderID).find('.close_sidebar').removeAttr('onclick').attr('onclick','closeSlidebarRemove(jQuery(this),closeContactSlider)');
+		slidebarOpenCallback(jQuery("#"+sliderID));
+		_parent.jQuery("#"+sliderID).addClass("is-open");
+		changeIframeHeight(jQuery("#"+sliderID));
+	} else {
+		console.log("Tap2");
+		_parent.jQuery("#"+sliderID).find('.slider_container').find("#contactFormIframe").attr("src",__baseUrl + 'opportunity/contact_list_with_selected_companies/?s='+companiesString+'&t='+t);
+	}	
+}
+function findParent(){
+	var _parent ;
+	if(typeof window.parent.jQuery === 'function'){
+		_parent = window.parent;
+	}else if(typeof window.parent.parent.jQuery === 'function'){
+		_parent = window.parent;
+	}else if(typeof jQuery === 'function'){
+		_parent = window;
+	}
+	return _parent;
+}
+function frameFind(f) {
+	var findFrame; var _parent = findParent() ;
+	if(typeof _parent=="object") {
+		if(f == 1) {
+			if(_parent.jQuery("#open_sales_gd").hasClass('is-open')){
+				findFrame = _parent.jQuery("#open_sales_gd").find("iframe").eq(0).contents();
+			} else {
+				findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe").eq(0).contents();
+			}
+		} else if(f == 2) {
+			findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+		} else if(f == 3) {
+			findFrame = _parent.jQuery("#open_contact_add").find("iframe").contents();
+		} else if(f == 4) {
+			findFrame = _parent.jQuery("#open_contact_gd").find("iframe").contents();
+		} else if(f == 33) {
+			findFrame = _parent.jQuery("#open_company_add").find("iframe").contents();
+		} else if(f == 11) {
+			if(_parent.jQuery("#open_ccompany_gd").hasClass('is-open')) {
+				findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe").eq(0).contents();
+			} else {
+				findFrame = _parent.jQuery("#open_sales_gd").find("iframe").eq(0).contents();
+			}
+		}
+	}
+	return findFrame;
+}
+function updateList(c,l,f,ID){
+	//findFrame = frameFind(f);
+	/* */
+	let openProfile = 0;
+	console.log("In update list",c,l,f,ID);
+	_parent = findParent();
+	_listA = [1,2,3,4];
+	var listUpdate = false;
+	_listA.map(function(s,i){
+		console.log("TSSS:"+s);
+		switch(s){
+			case 1:
+			case 2:
+				/*open_sales_gd*/
+				/*open_ccompany_gd*/
+				var frameUrl = "";
+				if(s==1){
+					if(typeof _parent=="object"){
+						var findFrame = _parent.jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+						var findFrameJS = _parent.jQuery("#open_sales_gd").find("iframe#salesFormIframe").get(0);
+						frameUrl = _parent.jQuery("#open_sales_gd").find("iframe#salesFormIframe").attr("src");
+					} else {
+						var findFrame = jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+						var findFrameJS = jQuery("#open_sales_gd").find("iframe#salesFormIframe").get(0);
+						frameUrl = jQuery("#open_sales_gd").find("iframe#salesFormIframe").attr("src");
+					}					
+				} else if(s==2){
+					if(typeof _parent=="object"){
+						var findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+						var findFrameJS = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").get(0);
+						frameUrl = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").attr("src");
+					} else {
+						var findFrame = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+						var findFrameJS = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").get(0);
+						frameUrl = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").attr("src");
+					}					
+				}
+				console.log("S",s,frameUrl);
+				if(frameUrl != "" && frameUrl != 'undefined' && frameUrl != undefined && frameUrl.indexOf('company_list') >= 0) {
+					console.log("Company List user");
+					findFrameJS.contentWindow.updateUserList(c,l);
+				} else if(findFrame != "undefined" && findFrame != undefined){
+					var $table = findFrame.find("#recordsList");
+					var $tr = $table.find('#com_'+c);
+					console.log('In slider 1 or 2');
+					if($tr.length>0){
+						console.log('In slider 1 or 2 find company');
+						listUpdate = true;
+						console.log("Found");
+						var findRow = $tr;
+						var $appendRow ;
+						if(findRow.find('table').length>0){
+							console.log("IN cu list...");
+							$appendRow = findRow.find('table');
+							findFrameJS.contentWindow.sortUserTableDestroy();
+							_contactTdTableTbody = $appendRow.find('tbody');
+							_contactTdTableTbody.empty();
+							jQuery.each(l,function(i,u){
+								var row = u;
+								var cssS = "";
+								if(row.scraped_p==1){
+									cssS = "boldT"
+								}
+								_name = row.first_name+" "+row.last_name;
+								var $trr = jQuery('<tr/>').addClass(cssS).attr('data-ur',row.id);
+								/*ICONS*/
+								var td = jQuery("<td/>");
+								_iconList = "<a href='javascript://' onclick='deleteContact("+row.id+",jQuery(this))'><i class='fa fa-trash'></i></a> ";
+								if(row.email!=""){
+									_iconList += "<i class='fa fa-envelope'></i> ";
+								}
+								if(row.phone!="" ){
+									_iconList += "<i class='fa fa-phone fa-mobile'></i> ";
+								}
+								if(row.telephone!=""){
+									_iconList += "<i class='fa fa-phone'></i> ";
+								}
+								if(row.company_tel!=""){
+									_iconList += "<i class='fa fa-phone-square'></i> ";
+								}
+								if(row.linkedin_url!=""){
+									_iconList += "<a href='"+row.linkedin_url+"' target='_blank'><i class='fa fa-linkedin'></i></a>";
+								}
+								if(row.gateway==1){
+									_iconList += "<i class='fa'><img src='https://storage.googleapis.com/static.synpat.com/backyard/images/gateway-1.png'/></i> ";
+								}
+								console.log('ICONS',_iconList);
+								td.append(_iconList);
+								$trr.append(td);
+								/*Name */
+								var $td = jQuery("<td/>").append("<a href='javascript://' onclick='window.parent.editContact("+row.id+")'>"+_name+"</a>");
+								$trr.append($td);
+								var td = jQuery("<td/>").append(row.proximity);
+								$trr.append(td);
+								var td = jQuery("<td/>").append(row.c_c);
+								$trr.append(td);
+								var td = jQuery("<td/>").append(row.current_company);
+								$trr.append(td);
+								var td = jQuery("<td/>").append(row.job_title);
+								$trr.append(td);								
+								_contactTdTableTbody.append($trr);
+							});
+							//findFrameJS.contentWindow.resizeTable(0);
+							findFrameJS.contentWindow.sortUserTable();						
+						}
+					}
+				}			
+			break;
+			case 3:
+				/* open_contact_add */
+				console.log('level',3);
+				_tapOpen = false;
+				var findFrame;
+				if(typeof _parent=="object"){
+					if(_parent.jQuery("#open_contact_add").hasClass('is-open')){
+						_tapOpen = true;
+						findFrame = jQuery("#open_contact_add").find("iframe").contents();
+					}else if(jQuery("#open_contact_add").hasClass('is-open')){
+						_tapOpen = true;
+						findFrame = jQuery("#open_contact_add").find("iframe").contents();
+					}
+				}
+				if(_tapOpen===true){
+					/* */
+					console.log('Contact profile open');
+					var scraperProfileID = findFrame.find("#inviteeId").val();
+					var row;
+					jQuery.each(l,function(s,u){
+						console.log("SCA:"+scraperProfileID+"@@"+u.id);
+						if(scraperProfileID==u.id){
+							console.log('lvelfound');
+							row = u;
+							return false;
+						}			
+					})
+					if(row!=undefined){
+						console.log('Contact Profile',row);
+						openProfile = row.id;
+						findFrame.find("#inviteeFirstName").val(row.first_name);
+						findFrame.find("#inviteeLastName").val(row.last_name);
+						findFrame.find("#proximity").val(row.proximity);
+						findFrame.find("#cc").val(row.c_c);
+						findFrame.find("#current_c").val(row.current_company);
+						findFrame.find("#inviteeJobTitle").val(row.job_title);
+						findFrame.find("#inviteeAddress").val(row.address);
+						findFrame.find("input[name='invitee[active_email]']").val(row.active_email);
+						findFrame.find("#inviteeEmail").val(row.email);
+						findFrame.find("#inviteeSecondaryEmailAddress").val(row.secondary_email);
+						findFrame.find("#inviteeTertiaryEmailAddress").val(row.tertiary_email);
+						findFrame.find("#inviteeNote").val(row.note);
+						findFrame.find("#show_images").empty();
+						profileImage = row.linkedin_image;
+						findFrame.find("#profileImage").empty().append("<img src='"+profileImage+"' style='height:120px;'>");
+						_images = row.img_card;
+						if(_images!=""){
+							try{
+								imageList = JSON.parse(_images);
+								if(imageList.length>0){
+									jQuery.each(imageList,function(i,img){
+										if(img!="" && img.indexOf('profile-display')<0 && img.indexOf('licdn')<0){
+											if(img.indexOf('app.synpat.com') < 0) {
+												img = img.replace("synpat.com","app.synpat.com");
+											}											
+											findFrame.find("#show_images").append("<div class='col-xs-6'><img src='"+img+"' style='width:100%;'/></div>");
+										}
+									});
+								}
+							}catch(e){}
+						}
+					}
+				}				
+			break;
+			case 4:
+				_tapOpen = false;
+				var findFrame,findFrameJS;
+				if(typeof _parent=="object"){
+					if(_parent.jQuery("#open_company_add").hasClass('is-open')){
+						_tapOpen = true;
+						findFrame = jQuery("#open_company_add").find("iframe").contents();
+						findFrameJS = jQuery("#open_company_add").find("iframe").get(0);
+					}else if(jQuery("#open_company_add").hasClass('is-open')){
+						_tapOpen = true;
+						findFrame = jQuery("#open_company_add").find("iframe").contents();
+						findFrameJS = jQuery("#open_company_add").find("iframe").get(0);
+					}
+				}
+				if(_tapOpen===true){
+					console.log("In Company slider");
+					/*company_users_show_table*/
+					if(findFrame.find("#companyId").val()==c){
+						console.log("Found same company");
+						findFrameJS.contentWindow._dataTable.destroy();
+						findFrame.find("#table_list_user").find('tbody').empty();
+						findFrame.find("#table_list_user").find('th').css('width','');
+						jQuery.each(l,function(i,u){
+							var row = u;
+							_name = row.first_name+" "+row.last_name;
+							var $trr = jQuery('<tr/>').attr('data-id',row.id);
+							var td = jQuery("<td/>").css('padding','5px');
+							_iconList = "<a href='javascript://' onclick='window.parent.deleteGoogleContactModal("+row.id+")'><i class='fa fa-trash colorClass'></i></a> ";
+							/*Name */
+							var $td = jQuery("<td/>").css('padding','5px').append("<a href='javascript://' onclick='window.parent.editContact("+row.id+")'>"+_name+"</a>"+"&nbsp;&nbsp;"+_iconList);
+							$trr.append($td);
+							var td = jQuery("<td/>").css('padding','5px').append(row.job_title);
+							$trr.append(td);
+							_phone = "";
+							if(row.phone!="" ){
+								_phone += "<a href='javascript://' onclick='window.parent.callFromLandline(encodeURIComponent(\'"+row.phone+"\')'><i class='fa fa-phone fa-mobile' style='color:green'></i></a>";
+							}
+							var td = jQuery("<td/>").css('padding','5px').attr('align','center').append(_phone);
+							$trr.append(td);
+							_telephone = "";
+							if(row.telephone!="" ){
+								_telephone += "<a href='javascript://' onclick='window.parent.callFromLandline(encodeURIComponent(\'"+row.telephone+"\')'><i class='fa fa-phone' style='color:#1E88E5'></i></a>";
+							}
+							var td = jQuery("<td/>").css('padding','5px').attr('align','center').append(_telephone);							
+							$trr.append(td);
+							_companyphone = "";
+							if(row.company_tel!="" ){
+								_companyphone += "<a href='javascript://' onclick='window.parent.callFromLandline(encodeURIComponent(\'"+row.company_tel+"\')'><i class='fa fa-phone fa-phone-square' style='color:#1E88E5'></i></a>";
+							}
+							var td = jQuery("<td/>").css('padding','5px').attr('align','center').append(_companyphone);							
+							$trr.append(td);
+							var td = jQuery("<td/>").css('padding','5px').attr('align','center').append(row.proximity);
+							$trr.append(td);
+							var td = jQuery("<td/>").css('padding','5px').append(row.c_c);
+							$trr.append(td);		
+							findFrame.find("#table_list_user").find('tbody').append($trr);
+						});
+						findFrameJS.contentWindow.callDataTable();
+					}
+				}
+			break;
+			case 5:
+				break;
+		}
+	});
+	if(typeof _parent=="object"){
+		var findFrameJS = _parent.jQuery("#open_contact_gd");
+	} else {		
+		var findFrameJS = jQuery("#open_contact_gd");
+	}
+	if(findFrameJS.length > 0) {
+		console.log("CONTACT LIST....");
+		findFrameJS = findFrameJS.find("iframe").get(0);
+		findFrameJS.contentWindow.selectedUserDataScraped(l,openProfile);
+	}
+	console.log("listUpdate",listUpdate);
+	if(listUpdate === false){
+		console.log("Enter in f");
+		jQuery.each(_listA,function(i,s){
+			switch(s){
+				case 1:
+				case 2:
+					/*open_sales_gd*/
+					/*open_ccompany_gd*/
+					var findFrame,findFrameJS;
+					_tapOpen = false;
+					if(s==1){
+						if(typeof _parent=="object"){
+							findFrame = _parent.jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+							findFrameJS = _parent.jQuery("#open_sales_gd").find("iframe#salesFormIframe").get(0);
+						} else {
+							findFrame = jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+							findFrameJS = jQuery("#open_sales_gd").find("iframe#salesFormIframe").get(0);
+						}
+					} else if(s==2){
+						if(typeof _parent=="object"){
+							findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+							var findFrameJS = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").get(0);
+						}else if(jQuery("#open_ccompany_gd").length>0){
+							findFrame = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+							findFrameJS = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").get(0);
+						}
+					}
+					if(_tapOpen===true){
+						var $table = findFrame.find("#rs").find('tbody');
+						$table.find('tr.cu').each(function(){
+							if(jQuery(this).find('table.sbo').find('tr[data-ur="'+ID+'"]').length>0){
+								jQuery(this).find('table.sbo').find('tr[data-ur="'+ID+'"]').remove();
+								return false;
+							}
+						});
+					}					
+				break;
+			}
+		});
+	}
+	
+	
+	/*update in main table Acquisition or Sales*/
+	var openTableActivities;
+	var sTableFound = false;
+	if(jQuery("#activityTable").hasClass("show")){
+		openTableActivities = jQuery("#activityTable");
+		sTableFound = true;
+	} else if(jQuery("#aquisitionTable").hasClass("show")){
+		openTableActivities = jQuery("#aquisitionTable");
+		sTableFound = true;
+	}
+	if(sTableFound===true){
+		var mainTableBody = openTableActivities.find('table tbody.main_active');
+		if(mainTableBody.find('tr.master').length>0){
+			_csWidth = getWidthForColumns();
+			$trNext = mainTableBody.find('tr[data-c="child_'+c+'"]');
+			if($trNext.length > 0){
+				$trNext = $trNext.eq(0)
+				console.log("Sales Company Found!");
+				if(jQuery("#open_contact_add").length > 0){
+					console.log("Profile Card found!");
+					let iframeContact = jQuery("#open_contact_add").find('iframe');
+					console.log("Profile Card found Frame!");
+					if(iframeContact.length > 0){
+						let openUserID = iframeContact[0].contentDocument.querySelector('input#inviteeId').value;
+						console.log("Profile Card User:"+openUserID);
+						let row;
+						l.map(u => {
+							if(parseInt(openUserID) == u.id){
+								row = u;
+							}
+						});
+						console.log("Profile Card User Row Data:",row);
+						if(row != undefined){
+							var $uListTableRow = $trNext.find('tr.salesFDroppable[data-p="'+openUserID+'"]');
+							if($uListTableRow.length > 0){
+								console.log("Profile Card User Row");
+								let tdList = $uListTableRow.find('td');
+								tdList.eq(2).html(row.job_title);
+								tdList.eq(1).find('a').html(row.first_name +' '+ row.last_name);
+								let inputCheckbox = tdList.eq(0).find('input.sales-activity-checkbox');
+								let email = "";
+								let tap = true;
+								switch(parseInt(row.active_email)){
+									case 1:
+										email = row.email;
+										tap = false;
+										break;
+									case 2:
+										email = row.email;
+										if(row.secondary_email != ""){
+											email = row.secondary_email;
+											tap = false;
+										}
+										break;
+									case 3:
+										email = row.email;
+										if(row.tertiary_email != ""){
+											email = row.tertiary_email;
+											tap = false;
+										} else if(row.secondary_email != ""){
+											email = row.secondary_email;
+										}
+										break;
+								}
+								inputCheckbox
+								.attr('data-gender',row.gender)
+								.attr('data-attr-em',email)
+								.attr('data-attr-last',row.last_name)
+								.attr('data-attr-first',row.first_name)
+								.attr('data-attr-name',row.first_name + ' ' + row.last_name)
+								.attr('data-attr-c-name',row.company_name)
+								.attr('data-attr-linkedin',row.linkedin_url)
+								.attr('data-proximity',row.proximity)
+								.attr('data-active_email',row.active_email);
+								_dataEm = "";
+								if(row.new_email == 1 && tap == false){
+									inputCheckbox.attr('data-attr-new-em',1);
+								}
+								let _phone='',_gateway='',no_contact='',_dataPhones = '',_sLinks='',phoneAttr='',telephonephoneAttr='',companyphoneAttr='';
+								if(row.gateway>0){
+									_gateway='&nbsp;&nbsp;<i class="icon-user-plus"></i>';
+								}
+								if(row.no_contact=='1'){
+									no_contact = '&nbsp;&nbsp;<img src="'+__IMAGEURL+'images/no_contact.jpg"/>';
+								}
+								if(row.phone!='' || row.telephone!='' || row.company_tel!=''){
+									phoneAttr = 'data-phone="'+row.phone+'"';
+									telephonephoneAttr = 'data-telephone="'+row.telephone+'"';
+									companyphoneAttr = 'data-companyphone="'+row.company_tel+'"';
+									_colorPhone = "#2196f3";
+									if(parseInt(row.new_phone)==1){
+										_colorPhone = "green";
+									}
+									if(row.phone!=''){
+										_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+c+','+row.id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone icon-mobile" style="color:'+_colorPhone+'"></i></a>';
+									}
+									_colorTelephone = "#2196f3";
+									if(parseInt(row.new_telephone)==1){
+										_colorTelephone = "green";
+									}
+									if(row.telephone!=''){
+										_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+c+','+row.id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone 1" style="color:'+_colorTelephone+'"></i></a>';
+									}
+									_colorCompanyPhone = "#2196f3";
+									if(parseInt(row.new_company)==1){
+										_colorCompanyPhone = "green";
+									}
+									if(row.company_tel!=''){
+										_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+row.id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone icon-phone-square" style="color:'+_colorCompanyPhone+'"></i></a>';
+									}
+								}
+								_emailID = "";
+								_sendFail = false;
+								switch(parseInt(row.active_email)){
+									case 1:
+										_emailID = row.email;
+										break;
+									case 2:
+										_emailID = row.secondary_email;
+										if(_emailID == "" && row.email != ""){
+											_sendFail = true;
+										}
+										break;
+									case 3:
+										_emailID = row.tertiary_email;
+										if(_emailID == "" && row.secondary_email != ""){
+											_sendFail = true;
+										}
+										break;
+								}
+								_emailID = _emailID.trim();
+								if(_emailID != ''){
+									_colorEmail = "#2196f3";
+									if(parseInt(row.new_email)==1){_colorEmail = "green";}
+									_sLinks='<a onclick=\'openEvenDialogFront(jQuery(this),'+c+','+row.id+',1)\' href="javascript://"><i class="glyph-icon icon-envelope" style="color:'+_colorEmail+'"></i></a>';
+								}
+								if(_sendFail === true || row.active_email == 4){
+									_sLinks='<a href="javascript://"><i class="glyph-icon icon-envelope" style="color:#cc0000"></i></a>';
+								}
+								if(row.linkedin_url!=''){
+									_colorLinkedin = "#222222";
+									if(parseInt(row.new_linkedin)==1){_colorLinkedin = "green";} else if(row.linkedin_error == 1){_colorLinkedin = "#cc0000";} else if(row.proximity == 1){_colorLinkedin = "#2196f3";} else if(row.proximity == 3){_colorLinkedin = "#9d9792";}
+									_sLinks +='&nbsp;<a onclick=\'openEvenDialogFront(jQuery(this),'+c+','+row.id+',1)\' href="javascript://"><i class="glyph-icon icon-linkedin" style="color:'+_colorLinkedin+'"></i></a>';
+								}
+								_ccColor="";
+								if(row.proximity==1){
+									_ccColor = "blue";
+								}
+								let anchorList = _sLinks+_phone+_gateway+no_contact+'<span style="float:right;color:'+_ccColor+'">'+row.c_c+'</span>';
+								let inputTag = tdList.eq(0).find('input.sales-activity-checkbox').get(0).outerHTML;
+								tdList.eq(0).empty().append(inputTag).append(anchorList);
+							}
+						}
+					}
+				}				
+			}
+		}
+	}
+}
+function findUserFromOpenFrameAndReferesh(ID,companyID){
+	console.log("FrameRefresh",ID,companyID);
+	var findFFrame = false;
+	if(jQuery("#open_sales_gd").hasClass('is-open')){
+		var findFrame = jQuery("#open_sales_gd").find("iframe#salesFormIframe").get(0).contentWindow;
+		findFFrame = true;
+	} else if(jQuery("#open_ccompany_gd").hasClass('is-open')){
+		var findFrame = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").get(0).contentWindow;
+		findFFrame = true;
+	}
+	if(findFFrame === true && companyID != "undefined" && companyID != null && companyID > 0) {
+		console.log("Found Frame");
+		findFrame.updateCompanyAndUsers(ID,companyID);
+	}	
+}
+
+function updateDeleteRecords(companyList){
+	const compSlider = jQuery("#open_ccompany_gd");
+	if(compSlider.length > 0 && compSlider.hasClass('is-open')){
+		console.log("CLIST",companyList);
+		if(companyList.length > 0){
+			try{
+				const frameC = compSlider.find("#companyFormIframe").get(0);
+				if(frameC != null){
+					frameC.contentWindow.updateCompanyUsersCount(companyList);
+				}
+			}catch(e){
+				console.log("Error","updateDeleteRecords",e);
+			}
+		}
+	}	
+}
+
+function updateMyTab(o,t){
+	_c = 0;
+	if(o.is(':checked')===false){
+		_c = 1;
+	}
+	sp = call(__baseUrl+'leads/update_docket_tab','POST',{lead_id:leadGlobal,t:t,c:_c},resultAfterUpdateTab,'text');
+	sp.done(function(d){
+		if(d>0){
+			const nameC = o.attr('id');
+			let _checked = true;
+			if(_c === 1){
+				_checked = false;
+			}
+			jQuery('#claimchart_panel').find("#"+nameC).prop("checked",_checked);
+		}
+	});
+}
+function resultAfterUpdateTab(d){
+	console.log('UpdateTab:'+d);
+	
+}
+function finishedRequest(o,s){	
+	if(s==1){
+		var findFrame = jQuery("#open_sales_gd").find("iframe#salesFormIframe");
+	} else if(s==2){
+		var findFrame = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe");
+	}
+	console.log('finished request');
+	console.log(o)
+	if(typeof o.d!="undefined"){
+		o = o.d;
+	}
+	var findFrame; var _parent = findParent() ;
+	if(typeof _parent=="object") {
+		if(s == 1) {
+			if(_parent.jQuery("#open_sales_gd").hasClass('is-open')){
+				findFrame = _parent.jQuery("#open_sales_gd").find("iframe");
+			} else {
+				findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe");
+			}
+		} else if(s == 2) {
+			findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe");
+		} else if(s == 11) {
+			if(_parent.jQuery("#open_ccompany_gd").hasClass('is-open')) {
+				findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe");
+			} else {
+				findFrame = _parent.jQuery("#open_sales_gd").find("iframe");
+			}
+		}
+	}
+	if(findFrame != "undefined") {
+		console.log("Request iframe")
+		if(typeof findFrame.get(0).contentWindow != "undefined"){
+			jQuery.ajax({
+			url:__baseUrl+'opportunity/getContactWithCompanyInfo/'+o,
+			type:'GET',
+			cache:false,
+			dataType:'json',
+			success:function(d){
+				if(d.length>0){
+					console.log("send Request iframe")
+					findFrame.get(0).contentWindow.findCompanyUsers(d[0].company_id,"grid_grid_rec_"+d[0].company_id+"_expanded_row");
+				}
+			}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}
+	}
+	
+}
+function finishedCompanyRequest(o,f){
+	if(typeof o.d!="undefined"){
+		o = o.d;
+	}
+	var findFrame; var _parent = findParent() ;
+	if(typeof _parent=="object") {
+		if(f == 1) {
+			if(_parent.jQuery("#open_sales_gd").hasClass('is-open')){
+				findFrame = _parent.jQuery("#open_sales_gd").find("iframe");
+			} else {
+				findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe");
+			}
+		} else if(f == 2) {
+			findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe");
+		} else if(f == 11) {
+			if(_parent.jQuery("#open_ccompany_gd").hasClass('is-open')) {
+				findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe");
+			} else {
+				findFrame = _parent.jQuery("#open_sales_gd").find("iframe");
+			}
+		}
+	}
+	if(findFrame.length > 0) {
+		console.log("Frame",findFrame);
+		jQuery.ajax({
+			url:__baseUrl+'opportunity/find_company_scrape_data',
+			type:'POST',
+			data:{c:o},
+			dataType:'json'
+		}).fail(function(jqXHR, textStatus){
+			//if(textStatus !='parseerror'){alert(textStatus);}
+		}).done(function(d){
+			if(d != "") {
+				console.log("Updating company row data");
+				const frameP = findFrame.get(0);
+				if(typeof frameP.contentWindow == 'object' &&  typeof frameP.contentWindow.updateTableRowData == "function"){
+					console.log("Find Frame company");
+					frameP.contentWindow.updateTableRowData(d);
+				}
+			}			
+		});
+	}
+	/*Find Sales or Acquisition Table*/
+	let checkActivitiesOpen = false,tableObj;
+	if(jQuery("#activityTable").hasClass("show")){
+		checkActivitiesOpen = true;
+		tableObj = jQuery("#activityTable");
+	}else if(jQuery("#activityTable").hasClass("show")){
+		checkActivitiesOpen = true;
+		tableObj = jQuery("#aquisitionTable");
+	}
+	if(checkActivitiesOpen === true){
+		let findCompany = tableObj.find('tbody.main_active tr.master[data-c="'+o+'"]');
+		if(findCompany.length > 0){
+			console.log("Company exist in activity table")
+			jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'opportunity/find_company_users',
+			type:'POST',
+			data:{c:o,p:1},
+			dataType:'json',
+			cache:false,
+			success:function(c){
+					if(c.length>0){
+						let findContactsTR = tableObj.find('tbody.main_active tr.master[data-c="child_'+o+'"]');
+						let _csWidth = getWidthForColumns();	
+						if(findContactsTR.length > 0){
+							let findMainTD = findContactsTR.find('td').eq(0);
+							let findMainTDTbody = findMainTD.find('tbody');
+							if(findMainTDTbody.length > 0){
+								let trHTML = "";
+								c.forEach(contact => {
+									if(findMainTDTbody.find("tr.salesFDroppable[data-p='"+contact.id+"']").length == 0){
+										_name=contact.first_name+" "+contact.last_name,_phone='',_gateway='',no_contact='',_dataPhones = '',_sLinks='';
+										if(contact.gateway>0){
+											___gateway +=1;
+											_gateway='&nbsp;&nbsp;<i class="icon-user-plus"></i>';
+										}
+										if(contact.no_contact=='1'){
+											no_contact = '&nbsp;&nbsp;<img src="'+__IMAGEURL+'images/no_contact.jpg"/>';
+										}
+										if(contact.phone!='' || contact.telephone!='' || contact.company_tel!=''){
+											phoneAttr = 'data-phone="'+contact.phone+'"';
+											telephonephoneAttr = 'data-telephone="'+contact.telephone+'"';
+											companyphoneAttr = 'data-companyphone="'+contact.company_tel+'"';
+											_colorPhone = "#2196f3";
+											if(parseInt(contact.new_phone)==1){
+												_colorPhone = "green";
+											}
+											if(contact.phone!=''){
+												_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+contact.id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone icon-mobile" style="color:'+_colorPhone+'"></i></a>';
+											}
+											_colorTelephone = "#2196f3";
+											if(parseInt(contact.new_telephone)==1){
+												_colorTelephone = "green";
+											}
+											if(contact.telephone!=''){
+												_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+contact.id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone 1" style="color:'+_colorTelephone+'"></i></a>';
+											}
+											_colorCompanyPhone = "#2196f3";
+											if(parseInt(contact.new_company)==1){
+												_colorCompanyPhone = "green";
+											}
+											if(contact.company_tel!=''){
+												_phone +='&nbsp;<a href="javascript://" onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+contact.id+',1)\' '+phoneAttr+' '+telephonephoneAttr+' '+companyphoneAttr+'><i class="glyph-icon icon-phone icon-phone-square" style="color:'+_colorCompanyPhone+'"></i></a>';
+											}
+										}
+										_emailID = "";
+										_sendFail = false;
+										switch(parseInt(contact.active_email)){
+											case 1:
+												_emailID = contact.email;
+												break;
+											case 2:
+												_emailID = contact.secondary_email;
+												if(_emailID == "" && contact.email != ""){
+													_sendFail = true;
+												}
+												break;
+											case 3:
+												_emailID = contact.tertiary_email;
+												if(_emailID == "" && contact.secondary_email != ""){
+													_sendFail = true;
+												}
+												break;
+										}
+										_emailID = _emailID.trim();
+										if(_emailID != ''){
+											_colorEmail = "#2196f3";
+											if(parseInt(contact.new_email)==1){_colorEmail = "green";}
+											_sLinks='<a onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+contact.id+',1)\' href="javascript://"><i class="glyph-icon icon-envelope" style="color:'+_colorEmail+'"></i></a>';
+										}
+										if(_sendFail === true || contact.active_email == 4){
+											_sLinks='<a href="javascript://"><i class="glyph-icon icon-envelope" style="color:#cc0000"></i></a>';
+										}
+										if(contact.linkedin_url!=''){
+											_colorLinkedin = "#222222";
+											if(parseInt(contact.new_linkedin)==1){_colorLinkedin = "green";} else if(contact.linkedin_error == 1){_colorLinkedin = "#cc0000";} else if(contact.proximity == 1){_colorLinkedin = "#2196f3";} else if(contact.proximity == 3){_colorLinkedin = "#9d9792";}
+											_sLinks +='&nbsp;<a onclick=\'openEvenDialogFront(jQuery(this),'+_cID+','+contact.id+',1)\' href="javascript://"><i class="glyph-icon icon-linkedin" style="color:'+_colorLinkedin+'"></i></a>';
+										}
+										_ccColor="";
+										if(contact.proximity==1){
+											_ccColor = "blue";
+										}
+										_dataEm = "";
+										if(contact.new_email == 1){
+											_dataEm = 'data-attr-new-em="1"';
+										}
+										trHTML+="<tr class='salesFDroppable' data-c='"+_cID+"' data-p='"+contact.id+"'><td style='border-left:0px;border-bottom:0px;width:"+_csWidth.__wSC1+"px;'>";
+										trHTML+='<input name="sales_person[]" onclick="checkMeC(jQuery(this))" class="sales-activity-checkbox" '+_dataEm+' data-gender="'+contact.gender+'" data-attr-em="'+_emailID+'" data-attr-linkedin="'+contact.linkedin_url+'" data-attr-first="'+jQuery.trim(contact.first_name)+'" data-attr-last="'+jQuery.trim(contact.last_name)+'" data-attr-name="'+_name+'" data-attr-c-name="'+jQuery.trim(_cName)+'" data-proximity="'+contact.proximity+'" data-active_email="'+contact.active_email+'"  type="checkbox" value="'+contact.id+'" style="margin-left:0px;"/>'+_sLinks+_phone+_gateway+no_contact+'<span style="float:right;color:'+_ccColor+'">'+contact.c_c+'</span>';
+										trHTML+="</td><td style='border-left:0px;border-bottom:0px;width:"+_csWidth.__wSC2+"px;'><a href='javascript://' onclick='editContact("+contact.id+")'>"+_name+"</a></td><td style='border-left:0px;border-bottom:0px;width:"+_csWidth.__wSC3+"px;'>"+contact.job_title+"</td></tr>";
+									} 
+								});
+								if(trHTML != ""){
+									findMainTDTbody.append(trHTML);
+								}
+							}
+						}
+					}				
+				}
+			}).fail(function(jqXHR, textStatus){
+				if(textStatus !='parseerror'){alert(textStatus);}
+			});
+		}		
+	}
+}
+function checkOpenSliders(){
+	var findFrame; var _parent = findParent() ;
+	if(typeof _parent=="object") {
+		findFrame = _parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe");
+		if(findFrame.length > 0){
+			console.log("checkCompaniesSlider",leadGlobal);
+			findFrame.get(0).contentWindow._leadID = leadGlobal;
+		}
+	}
+	var sliderID = "messagesForMe";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		jQuery("#"+sliderID).find("#frame_message_i_created").attr("src", __baseUrl + 'leads/messages/0/'+leadGlobal);
+	}
+	var sliderID = "messagesICreated";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		jQuery("#"+sliderID).find("#frame_message_for_me").attr("src", __baseUrl + 'leads/messages/1/'+leadGlobal);
+	}
+	var sliderID = "tasksICreated";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		jQuery("#"+sliderID).find("#frame_task_me_created").attr("src", __baseUrl + 'leads/user_task_list/1/'+leadGlobal);
+	}
+	var sliderID = "tasksCreatedForMe";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		jQuery("#"+sliderID).find("#frame_task_i_created").attr("src", __baseUrl + 'leads/user_task_list/0/'+leadGlobal);
+	}
+}
+function findUserTab(ID,f){
+	findFrame = frameFind(f);
+	if(f==1 || f==2){
+		if(findFrame.find("#rs").find('tr.cu').find('table tr[data-ur="'+ID+'"]').length>0){
+			if(findFrame.find("#rs").find('tr.cu').find('table tr[data-ur="'+ID+'"]').length>0){
+				return findFrame.find("#rs").find('tr.cu').find('table tr[data-ur="'+ID+'"]').find('td').eq(1).text();
+			} else {
+				return "Profile";
+			}			
+		}
+	} else if(f==3){
+		return findFrame.find("#inviteeFirstName").val()+" "+findFrame.find("#inviteeLastName").val();
+	}		
+}
+function findCompanyTab(ID,f){
+	if(f==3){
+		return findFrame.find("#companyJobTitle").val();
+	} else {
+		if(f==1){
+			var findFrame = jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+			var $table = findFrame.find("#rs").find('tbody');
+			var $tr = $table.find('tr.main');
+			if($tr.find('a[data-id="'+ID+'"]').length>0){
+				return $tr.find('a[data-id="'+ID+'"]').parent().text();
+			} else {
+				return "Company";
+			}
+		} else if(f==2){
+			var findFrame = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+			var $table = findFrame.find("#rs").find('tbody');
+			var $tr = $table.find('tr.main');
+			if($tr.find('a[data-id="'+ID+'"]').length>0){
+				return $tr.find('a[data-id="'+ID+'"]').parent().text();
+			} else {
+				return "Company";
+			}
+		} else {
+			return "Company";
+		}
+	}
+}
+
+function showNotficiationHeadingMessage(m,t){
+	console.log("showNotficiationHeadingMessage",m,t)
+	const notificationSlider = jQuery("#open_notification_list");
+	if(notificationSlider.length > 0 && notificationSlider.hasClass('is-open')){
+		console.log("IN IFRAME");
+		const notificationFrame = notificationSlider.find("iframe").get(0);
+		notificationFrame.contentWindow.addHeadingMessage(m,t);
+	}
+}
+
+function loadingMessage(m,f){
+	jQuery("#scraper_loading_message").find('.modal-body').html('<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 0px;margin-right: 0px;"><span aria-hidden="true">×</span></button><p title="'+m+'">'+m+'</p>');
+	if(!jQuery("#scraper_loading_message").is(':visible')){
+		__width = jQuery(window).width();
+		__width -=300;
+		__marginL = __width/2;
+		jQuery("#scraper_loading_message").css({left:__marginL+'px',right:__marginL+'px'}).modal("show");
+	}
+	const notificationSlider = jQuery("#open_notification_list");
+	if(notificationSlider.length > 0 && notificationSlider.hasClass('is-open')){
+		const notificationFrame = notificationSlider.find("iframe").get(0);
+		notificationFrame.contentWindow.addMessage(m);
+	}
+}
+
+function removeFromList(name,c){
+	console.log("removeFromList",name,c);
+	const notificationSlider = jQuery("#open_notification_list");
+	if(notificationSlider.length > 0 && notificationSlider.hasClass('is-open')){
+		const notificationFrame = notificationSlider.find("iframe").get(0);
+		notificationFrame.contentWindow.removeFromList(name,c);
+	}
+}
+
+function checkUpdateCampaignData(contactData){
+	console.log("Calling checkUpdateCampaignData...");
+	if(jQuery("#open_prefined_message").length > 0 && jQuery("#open_prefined_message").find('#predefineFormIframe').length > 0){
+		var iframe = jQuery("#open_prefined_message").find('#predefineFormIframe').get(0);
+		var iframewindow= iframe.contentWindow? iframe.contentWindow : iframe.contentDocument.defaultView;
+		let pathName = iframewindow.document.location.pathname;
+		if(pathName.indexOf("email_campaign") >= 0){
+			console.log("I am in path calling push function");
+			if(typeof iframewindow.updateDataInList =="function"){
+				iframewindow.updateDataInList(contactData);
+			}
+		}
+	}	
+}
+
+function checkUpdateCampaignCompanyData(companyData){
+	console.log("Calling checkUpdateCampaignCompanyData...");
+	if(jQuery("#open_prefined_message").length > 0 && jQuery("#open_prefined_message").find('#predefineFormIframe').length > 0){
+		var iframe = jQuery("#open_prefined_message").find('#predefineFormIframe').get(0);
+		var iframewindow= iframe.contentWindow? iframe.contentWindow : iframe.contentDocument.defaultView;
+		let pathName = iframewindow.document.location.pathname;
+		if(pathName.indexOf("email_campaign") >= 0){
+			console.log("I am in path calling push function");
+			if(typeof iframewindow.updateCompanyData =="function"){
+				iframewindow.updateCompanyData(companyData);
+			}
+		}
+	}	
+}
+
+function updateContactFromList(contactID) {
+	console.log("I am in contactID:"+contactID);
+	jQuery.ajax({
+		url:__baseUrl+'opportunity/getContactWithCompanyInfo/'+contactID,
+		type:'GET',
+		cache:false,
+		dataType:'json',
+		success:function(d){
+			if(d.length>0){
+				console.log("update contact...",contactID);
+				var _parent = findParent() ;
+				if(_parent.jQuery("#open_contact_gd").length > 0 && _parent.jQuery("#open_contact_gd").hasClass('is-open')){
+					var iframe  = _parent.jQuery("#open_contact_gd").find("iframe");
+					iframe.get(0).contentWindow.updateRecord(d[0]);
+				}
+				checkUpdateCampaignData(d[0]);				
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+function updateContactFromCompanyList(companyID){
+	checkRequest(companyID,1,'',0);
+}
+function pushingContact(companyID,inviteID){
+	jQuery.ajax({
+		url:__baseUrl+'opportunity/listOfUsers',
+		type:'POST',
+		data:{c:companyID},
+		cache:false,
+		dataType:'json',
+		success:function(d){
+			if(d.length>0){
+				console.log("pushing contact...",inviteID);
+				updateCounter(companyID,d);
+				updateList(companyID,d,1,inviteID);
+				d.forEach((c,i)=>{
+					if(c.id == inviteID){
+						console.log("campaign found");
+						checkUpdateCampaignData(c);
+						return false;
+					}
+				})
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+function pushingCompany(companyID){
+	jQuery.ajax({
+		url:__baseUrl+'opportunity/findCompany',
+		type:'POST',
+		data:{edit_link:companyID},
+		cache:false,
+		dataType:'json',
+		success:function(d){
+			if(typeof d.id!='undefined' &&  d.id>0){
+				updateCompanyData(companyID,d);
+				checkUpdateCampaignCompanyData(d);
+			}
+		}
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+
+function updateCounter(companyID,d){
+	var iframeOpen = false;
+	console.log("I am in counter");
+	if(typeof jQuery==='object'){
+		if(jQuery("#open_sales_gd").hasClass('is-open')){
+			var findFrame = jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+			iframeOpen = true;
+		} else if(jQuery("#open_ccompany_gd").hasClass('is-open')){
+			var findFrame = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+			iframeOpen = true;
+		}
+	}else if(typeof window.parent.parent.jQuery==='object'){
+		if(window.parent.parent.jQuery("#open_sales_gd").hasClass('is-open')){
+			var findFrame = window.parent.parent.jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+			iframeOpen = true;
+		} else if(window.parent.parent.jQuery("#open_ccompany_gd").hasClass('is-open')){
+			var findFrame = window.parent.parent.jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+			iframeOpen = true;
+		}
+	}
+	if(iframeOpen===true){
+		console.log("I am in counter company");
+		var $trr = findFrame.find("#rs").find('tbody tr.main');
+		if($trr.find('a[data-id="'+companyID+'"]').length>0){
+			var $parentTr = $trr.find('a[data-id="'+companyID+'"]').parents('tr');
+			try{
+				if(typeof d.companyUsers!='undefined'){
+					$parentTr.find('td').eq(5).text(d.companyUsers.length);
+				}else{
+					$parentTr.find('td').eq(5).text(d.length);
+				}	
+			}catch(e){
+				console.log("update counter",e);
+			}					
+		}
+	}
+}
+
+function updateCompanyData(companyID,d){
+	var companyCard = jQuery("#open_company_add");
+	if(companyCard.length > 0){
+		var findFrameJS = companyCard.find("iframe#companyIframe").contents();
+		if(findFrameJS.find("#companyLogo").find('img').length > 0){
+			var src = findFrameJS.find("#companyLogo").find('img').attr('src');
+			if(d.company_logo != src){
+				findFrameJS.find("#companyLogo").find('img').attr('src',d.company_logo);
+			}
+		}
+	}
+	_listA = [11,22];
+	_listA.map(function(f){
+		switch(f){
+			case 11:
+			case 22:
+				if(f==11){
+					var findFrame = jQuery("#open_sales_gd").find("iframe#salesFormIframe").contents();
+					var findFrameJS = jQuery("#open_sales_gd").find("iframe#salesFormIframe").get(0);
+				} else if(f==22){
+					var findFrame = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").contents();
+					var findFrameJS = jQuery("#open_ccompany_gd").find("iframe#companyFormIframe").get(0);
+				}
+				var $trr = findFrame.find("#rs").find('tbody tr.main');
+				if($trr.find('a[data-id="'+companyID+'"]').length>0){
+					var $parentTr = $trr.find('a[data-id="'+companyID+'"]').parents('tr');
+					$parentTr.find('td').eq(4).find('a').eq(1).text(d.company_name);
+					$parentTr.find("input[name='general_select_bulk[]']").attr('data-linkedin',d.linkedin_url);
+					/*_linkedIN = d.linkedin_url;
+					if(_linkedIN.indexOf('linkedin')>=0){
+						_linkedIN = "In";
+					}*/
+					_linkedIN = d.no_of_employees
+					$parentTr.find('td').eq(6).text(d.companyUsers.length);
+					$parentTr.find('td').eq(7).text(_linkedIN);
+					$parentTr.find('td').eq(8).text(d.company_size);
+					$parentTr.find('td').eq(9).html("<div class='overwrap'>"+d.industry+"</div>").attr('title',d.industry);
+					$parentTr.find('td').eq(10).html("<div class='overwrap'>"+d.specialties+"</div>").attr('title',d.specialties);
+					/*Sectors */
+					_sectorName = "";
+					if(d.sectors.length>0){
+						jQuery.each(d.sectors,function(p,s){
+							_sectorName +=s.sectorName+", ";
+						});
+						_sectorName = _sectorName.substr(0,_sectorName.length-2);
+					}
+					$parentTr.find('td').eq(11).text(_sectorName);
+					/*Category*/
+					_category = d.departments_list;
+					_tech = d.technology_names;
+					if(_category==undefined || _tech==false){
+						_category = "";
+					}
+					_category = _category.toString().split(',').join('<br/>');
+					$parentTr.find('td').eq(12).html("<div class='overwrap'>"+_category+"</div>").attr('title',_category);
+					/*Sub Category */
+					_subcategory = d.subdepartments_list;
+					if(_subcategory==undefined || _subcategory==false){
+						_subcategory = "";
+					}
+					_subcategory = _subcategory.toString().split(',').join('<br/>');
+					$parentTr.find('td').eq(13).html("<div class='overwrap'>"+_subcategory+"</div>").attr('title',_subcategory);
+					
+					if(_tech==undefined || _tech==false){
+						_tech = "";
+					}
+					_tech = _tech.toString().split(',').join('<br/>');
+					$parentTr.find('td').eq(14).html("<div class='overwrap'>"+_tech+"</div>").attr('title',_tech);
+					_subtech = d.sub_technology_names;
+					if(_subtech==undefined || _subtech==false){
+						_subtech = "";
+					}
+					_subtech = _subtech.toString().split(',').join('<br/>');
+					$parentTr.find('td').eq(15).html("<div class='overwrap'>"+_subtech+"</div>").attr('title',_subtech);
+				}
+			break;
+		}
+	});
+	/*update in main table Acquisition or Sales*/
+	var openTableActivities;
+	var openTable = false;
+	if(jQuery("#activityTable").hasClass("show")){
+		openTableActivities = jQuery("#activityTable");
+		openTable = true;
+	} else if(jQuery("#aquisitionTable").hasClass("show")){
+		openTableActivities = jQuery("#aquisitionTable");
+		openTable = true;
+	}
+	if(openTable === true){
+		var mainTableBody = openTableActivities.find('table tbody.main_active');
+		if(mainTableBody.find('tr.master').length>0){
+			mainTableBody.find('tr.master').each(function(){
+				if(jQuery(this).attr('data-c')==companyID){
+					jQuery(this).find('td').eq(1).find('a').eq(1).find('b').text(d.company_name);
+					return false;
+				}
+			})
+		}
+	}	
+}
+function checkCompanyProfileLoadRunScrape(id){
+	setTimeout(
+		function(){
+			var slider;
+			if(jQuery("#open_company_add").length>0){
+				slider = jQuery("#open_company_add");
+			}
+			if(slider.hasClass('is-open')){
+				var sliderOpen =slider;
+				var getContentWindow = sliderOpen.find('iframe').get(0).contentWindow;
+				console.log("Profile run scraper:",id);
+				console.log('Content',getContentWindow);
+				//console.log("Profile run1 scraper:",getContentWindow.document.getElementById("companyId").value);
+				if(typeof getContentWindow.document.getElementById("companyId")!='undefined' && typeof getContentWindow.document.getElementById("companyId")!=null){
+					if(getContentWindow.document.getElementById("companyId").value==id){
+						getContentWindow.scrapeCompany();
+					} else {
+						console.log('Null load....');
+						checkCompanyProfileLoadRunScrape(id);
+					}
+				} else {
+					console.log('1Null load....');
+					checkCompanyProfileLoadRunScrape(id);
+				}
+				
+			} else {
+				console.log('Note load....');
+				checkCompanyProfileLoadRunScrape(id);
+			}
+		},900
+	)
+}
+function checkCompanyProfileLoadRunOwlerScrape(id){
+	setTimeout(
+		function(){
+			var slider;
+			if(jQuery("#open_company_add").length>0){
+				slider = jQuery("#open_company_add");
+			}
+			if(slider.hasClass('is-open')){
+				var sliderOpen =slider;
+				var getContentWindow = sliderOpen.find('iframe').get(0).contentWindow;
+				console.log("Profile run scraper:",id);
+				console.log('Content',getContentWindow);
+				//console.log("Profile run1 scraper:",getContentWindow.document.getElementById("companyId").value);
+				if(typeof getContentWindow.document.getElementById("companyId")!='undefined' && typeof getContentWindow.document.getElementById("companyId")!=null){
+					if(getContentWindow.document.getElementById("companyId").value==id){
+						getContentWindow.addCompanyToPingpong();
+					} else {
+						console.log('Null load....');
+						checkCompanyProfileLoadRunOwlerScrape(id);
+					}
+				} else {
+					console.log('1Null load....');
+					checkCompanyProfileLoadRunOwlerScrape(id);
+				}
+				
+			} else {
+				console.log('Note load....');
+				checkCompanyProfileLoadRunOwlerScrape(id);
+			}
+		},900
+	)
+}
+function confirmCaptchaStatus(o){
+	var _ID = o.attr('data-m');
+	var _t = o.attr('data-t');
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'opportunity/captcha_challenge_confirm',
+		data:{id:_ID,t:_t},
+		cache:false
+	}).done(function(d){
+		console.log('captcha_callenge_status',d);
+		jQuery('#captcha_profile_show').modal('hide');
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	});
+}
+function findClaimChartsReports(){
+	jQuery.ajax({
+		type:'POST',
+		url:__baseUrl+'opportunity/find_claimcharts_reports',
+		cache:false
+	}).fail(function(jqXHR, textStatus){
+		if(textStatus !='parseerror'){alert(textStatus);}
+	}).done(function(d){		
+		if(d>0){
+			if(jQuery("#claim_reports").length>0){
+				jQuery("#claim_reports").html(d);
+				jQuery("#claim_reports").parent().parent().parent().parent().addClass('btn-blink');
+			}
+		} else {
+			jQuery("#claim_reports").html('');
+		}
+	});
+}
+function findCompaniesPeople(leadID){
+	var sliderID = "open_companies_people_research";
+	if(jQuery("#"+sliderID).hasClass('is-open')) {
+		checkModalFrontOrHide(jQuery("#"+sliderID), function() {
+			closeSlideBar(jQuery("#"+sliderID));//jQuery("#activityType").val('');
+		});
+	} else {		
+		appendSlider(sliderID,'Companies People Research','CompaniesPeopleResearch');
+		if(jQuery("#"+sliderID).length > 0) {
+			jQuery("#"+sliderID).find('.slider_container').html('<iframe id="predefineFormIframe" src="' + __baseUrl + "opportunity/find_companies_people_research/" + leadID + '" width="100%" height="100px" scrolling="yes"></iframe>');
+			openSlidebar(jQuery("#"+sliderID));
+			slidebarOpenCallback(jQuery("#"+sliderID));
+			changeIframeHeight(jQuery("#"+sliderID));
+		}
+	}
+}
+
+function findEmailTrackingContactID(a,c){
+	console.log("findEmailTrackingContactID",a,c);
+	if(a > 0){
+		try{
+			if(c != ""){
+				const trackingData = JSON.parse(c);
+				console.log(trackingData);
+				if(trackingData.lead_id > 0 && leadGlobal == trackingData.lead_id){
+					const emailID = trackingData.email_id;
+					/*same lead open*/
+					/*check activity table open*/
+					if(emailID > 0){
+						if(jQuery("#sales_acititity").hasClass("show") && jQuery("#activityTable").hasClass("show")){
+							const activityTable = jQuery("#activityTable");
+							const emailLink = activityTable.find("a[data-tr='"+emailID+"']");
+							if(emailLink.length > 0){
+								emailLink.parent().find('i.glyph-icon').removeClass('icon-envelope').addClass('icon-envelope-open');
+							}
+						}
+					}
+				}
+			}
+		}catch(e){
+			console.log("Error",e);
+		}
+	}
+}
+
+function checkBounceEmail(emailID){
+	/*checkBounceEmail*/
+	call(__baseUrl+'dashboard/check_bounce_email','POST',{email_id:emailID},responseBounceEmail,'text');	
+}
+
+function responseBounceEmail(data,textStatus,xhr){
+	console.log("responseBounceEmail", data, textStatus);
+}

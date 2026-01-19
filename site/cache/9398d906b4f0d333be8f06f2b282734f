@@ -1,0 +1,106 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6028:"<br>Chambré par Kylian Mbappé pour sa passion des chevaux, Edinson Cavani a adressé une petite leçon de vie à son coéquipier du PSG, durant le stage hivernal au Qatar. "L’occasion idéale pour Cavani d’exposer sa philosophie à Mbappé: "C'est ça la vie, c'est pas les voitures, les Ferrari, tout ça, c'est les animaux!" (VIDEO)Jusqu'à 42°C: chaleur intense ce vendredi, 45 départements en vigilance caniculeLigue Europa: le tableau complet des quarts de finaleFacebook interdit à un comité pro-Trump de faire de la publicitéL’astuce pour avoir moins chaud et mieux respirer sous un masque de protection contre le coronavirus malgré la caniculePacifique: trois naufragés sauvés par leur "SOS" écrit sur la plageLes asymptomatiques ont autant de coronavirus en eux que les symptomatiquesPHOTO Faustine Bollaert éblouit ses fans avec un cliché en bikini rougeLes chaînes de télévision pourront diffuser des films les samedis soirsLiban: gaz lacrymogènes contre des manifestants anti-gouvernementaux à BeyrouthBarça: après sa bouderie, Arthur rentre à Barcelone pour tout réglerCoronavirus. Il y a dix jours, le Matador s'affichait en Une du quotidien Record, qui assurait que le club de Lisbonne s'intéressait à lui. Le PSG tremble à nouveau. Le Real Madrid repasse en tête de la Liga mais la presse Catalane crie au scandale notamment sur le but de Karim Benzema, retour aux choses sérieuses au … Kylian Mbappé ne rejoindra pas le Real Madrid lors de ce mercato, mais du côté des Merengue on pense que tout est prêt pour un transfert en 2021. Edinson Cavani a félicité son ancienne équipe pour le sacre acquis en Coupe de France, vendredi soir. Et il vient tout droit du JaponFoot: tousser de façon délibérée sera passible d'une expulsion, décide l'IfabCoronavirus. Dommage quand même qu’il n'ait pas pu jouer avec le duo Mbappé - Neymar, débarqué en 2017. Edinson Cavani (33 ans) pourrait bien rejoindre les rangs lisboètes, dans les prochains jours. C’est plus ou moins ce qu’il a laissé entendre sur les réseaux sociaux ce jeudi.Merci d'activer le javascript sur votre navigateur.PSG : L’aveu de Meunier, les supporters ne vont pas aimerOL : Avant la Juventus, Garcia refait le monde à sa saucePSG : Un incroyable coup double du Benfica à Paris ?De l’OM à l’OL, Rudi Garcia s’excuse auprès des supportersPSG : L'infirmerie déborde de partout, Tuchel ne comprend rienOL : Le triplé de Cristiano Ronaldo va faire pleurer LyonOL : Le triplé de Cristiano Ronaldo va faire pleurer LyonOL : Avant la Juventus, Garcia refait le monde à sa sauceOL : Le triplé de Cristiano Ronaldo va faire pleurer LyonOL : Ce départ XXL, rien ne se dit mais tout se saitDe l’OM à l’OL, Rudi Garcia s’excuse auprès des supportersPSG : Le Graët, Mbappé, la France, Leonardo se lâche  Libre depuis la fin de son contrat au PSG, Edinson Cavani a été associé à de nombreux clubs ces derniers mois. Un million de cas en Afrique, le monde redoute une deuxième vagueDémaquillant : ce baume solide au thé vert ôte le maquillage, même waterproof, en quelques secondesCoronavirus: au moins 50 employés d'un abattoir belge testés positifsKate Middleton : sa future couronne de reine frappée d’une malédictionKoh-Lanta 2020 : voici les comptes Instagram des candidats de la nouvelle saison Les 4 TerresTrump interdit toute transaction avec le propriétaire chinois de TikTok d'ici 45 joursLigue Europa : Wolverhampton et Bâle filent en quarts de finaleFrançois Baroin : pêche, campagne et écriture au programme de ses vacances             Microsoft est susceptible de recevoir des commissions si vous réalisez un achat après avoir cliqué sur un lien de cet article. Kylian Mbappé et Edinson Cavani, sortis sur blessure dimanche soir au cours de la rencontre opposant le PSG à Toulouse, vont passer des examens ce lundi matin. En tout cas, le champion du monde aurait bien voulu porter le même maillot qu’Ibrahimovic. Sur l’antenne de Merci d'activer le javascript sur votre navigateur.PSG : L’aveu de Meunier, les supporters ne vont pas aimerOL : Avant la Juventus, Garcia refait le monde à sa saucePSG : Un incroyable coup double du Benfica à Paris ?De l’OM à l’OL, Rudi Garcia s’excuse auprès des supportersPSG : L'infirmerie déborde de partout, Tuchel ne comprend rienOL : Le triplé de Cristiano Ronaldo va faire pleurer LyonOL : Le triplé de Cristiano Ronaldo va faire pleurer LyonOL : Avant la Juventus, Garcia refait le monde à sa sauceOL : Le triplé de Cristiano Ronaldo va faire pleurer LyonOL : Ce départ XXL, rien ne se dit mais tout se saitDe l’OM à l’OL, Rudi Garcia s’excuse auprès des supportersPSG : Le Graët, Mbappé, la France, Leonardo se lâche <br> <br>www.msn.com/fr-fr/sport/football/mbappé-un-tacle-à-cavani/ar-BB15QXxV Le fail de Neymar, Mbappé… Isabelle Morini-Bosc répond aux critiques contre l'émission de Cyril Hanouna ! <br> <br>Thomas Tuchel croit en la présence de Kylian Mbappé sur le banc pour le choc contre l'Atalanta Bergame. Une interview embarrassante refait surfaceTPMP, c'était mieux avant ? Ça nous peine pour lui. «On est tous très peinés et très gênés pour lui. Kylian Mbappé n'a pas fait une croix sur l'Atalanta. Car avec le Français et le Brésilien, l’avant-centre aurait fait encore plus de dégâts. <br> <br>Durant quatre saisons, de son arrivée en provenance du Milan AC jusqu’à son départ pour Manchester United, Zlatan Ibrahimovic a marqué des buts et empilé les trophées comme les perles à Paris. A lire aussi Mercato - PSG : Neymar, Mbappé... Un président de L1 répond aux critiques d'Aulas ! Publié le 3 novembre 2017 à 18h15 par J.-G.D. mis à jour le 4 novembre 2017 à 1h15 Le Paris Saint-Germain, qui sera privé de Neymar à Nice (et pas que), retrouve toutefois Edinson Cavani et Kylian Mbappé, qui ne s'étaient plus côtoyés dans le groupe depuis près de deux mois. Dernier en date, le Benfica Lisbonne. <br>";s:7:"keyword";s:23:"mbappé crie sur cavani";s:5:"links";s:6078:"<a href='https://backyard.synpat.com/site/article.php?page=salvador-%3A-tourisme-88a0eb'>Salvador : Tourisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-bonhomme-bleu-qui-chante-88a0eb'>Petit Bonhomme Bleu Qui Chante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chanteuse-la-plus-belle-du-monde-88a0eb'>La Chanteuse La Plus Belle Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inscription-gens-de-confiance-88a0eb'>Inscription Gens De Confiance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyber-police-alg%C3%A9rie-88a0eb'>Cyber Police Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=incident-fr%C3%A9gate-turque-88a0eb'>Incident Frégate Turque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=intro-maker-apk-88a0eb'>Intro Maker Apk</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-naples-militaire-88a0eb'>Maillot Naples Militaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bossa-nova-connue-88a0eb'>Bossa Nova Connue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pain-farine-pois-chiche-sarrasin-88a0eb'>Pain Farine Pois Chiche Sarrasin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gravier-d%C3%A9coratif-ext%C3%A9rieur-88a0eb'>Gravier Décoratif Extérieur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=debardeur-rugby-all-black-88a0eb'>Debardeur Rugby All Black</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stansted-airport-wikipedia-88a0eb'>Stansted Airport Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mon-vieux-au-ukulele-88a0eb'>Mon Vieux Au Ukulele</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dance-challenge%2C-tik-tok-2020-88a0eb'>Dance Challenge, Tik Tok 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=civil-war-time-88a0eb'>Civil War Time</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heures-de-pri%C3%A8re-montbazon-2020-88a0eb'>Heures De Prière Montbazon 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=album-jul-2019-88a0eb'>Album Jul 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-ces-termes-synonyme-88a0eb'>En Ces Termes Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-14-24-occasion-88a0eb'>Nikon 14-24 Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9quence-chaine-fran%C3%A7aise-nilesat-2019-88a0eb'>Fréquence Chaine Française Nilesat 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-homme-debout-guitare-cover-88a0eb'>Un Homme Debout Guitare Cover</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tot%C3%B2-riina-arte-88a0eb'>Totò Riina Arte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stigmate-fleur-d%C3%A9finition-88a0eb'>Stigmate Fleur Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sodium-cocoyl-isethionate-ou-acheter-88a0eb'>Sodium Cocoyl Isethionate Ou Acheter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-japon-en-fran%C3%A7ais-88a0eb'>Amazon Japon En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bearman-summoners-war-88a0eb'>Bearman Summoners War</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mat%C3%A9riel-dernier-cri-synonyme-88a0eb'>Matériel Dernier Cri Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=question-pour-un-champion-jeu-en-ligne-88a0eb'>Question Pour Un Champion Jeu En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=instagram-ruby-nikara-88a0eb'>Instagram Ruby Nikara</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=haaland-psg-but-88a0eb'>Haaland Psg But</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-chez-laurette-88a0eb'>Partition Chez Laurette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ebook-musculation-%C3%A0-la-maison-tibo-inshape-gratuit-88a0eb'>Ebook Musculation à La Maison Tibo Inshape Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=us-chartrons-facebook-88a0eb'>Us Chartrons Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mister-mv-ori-88a0eb'>Mister Mv Ori</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mort-koh-lanta-m%C3%A9decin-88a0eb'>Mort Koh-lanta Médecin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=regime-d%27un-cours-d%27eau-88a0eb'>Regime D'un Cours D'eau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=centurion-labz-rage-dmaa-88a0eb'>Centurion Labz Rage Dmaa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=snow-patrol---just-say-yes-traduction-88a0eb'>Snow Patrol - Just Say Yes Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A8me-recommand%C3%A9e-par-les-dermatologues-88a0eb'>Crème Recommandée Par Les Dermatologues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carrefour-gaine-amincissante-88a0eb'>Carrefour Gaine Amincissante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Marco-Asensio-femme-88a0eb'>Marco Asensio Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tiktok-greg-inside-88a0eb'>Tiktok Greg Inside</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-classe-avec-montessori-maths-88a0eb'>En Classe Avec Montessori Maths</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=souvenirs-souvenirs-dofus-88a0eb'>Souvenirs Souvenirs Dofus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-route-en-kit-88a0eb'>Vélo Route En Kit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-bal-des-laze-basse-88a0eb'>Le Bal Des Laze Basse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inshape-nutrition-bruleur-de-graisse-88a0eb'>Inshape Nutrition Bruleur De Graisse</a>,
+";s:7:"expired";i:-1;}

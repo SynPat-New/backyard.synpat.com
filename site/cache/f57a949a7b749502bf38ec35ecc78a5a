@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6193:"<br>Vous trouverez le prix dans la rubrique lipofilling du visage, dans le tableau ci-dessus. Cordialement,Bonjour j aimerais savoir qu elle serais le tarif s d une Une injection d’acide hyaluronique pour le nez merciBonjour, vous trouverez le tarif de la rhinoplastie médicale dans le tableau ci-dessus dans la catégorie “Tarifs médecine esthétique”. <br> <br>Cordialement,Bonjour, un bilan complet s’impose avant de décider de la technique opératoire. CordialementBonsoir, le lipofilling des fesses associé une liposuccion et ensuite la reinjection de la graisse. Chirurgie Esthétique du visage en Tunisie au meilleur prix. Si ces muscles étaient trop relachés, la vaginoplastie pourrait être une solution. <br> <br>Si ce n’est pas le cas, l’intervention est considérée comme esthétique, et tout est à votre charge. Merci par avance de votre reponse. Cordialement,Bonjour, ayant des prothèses mammaires depuis 15 ans, je dois les faire retirer suite à la fuite intra capsulaire de l’une d’elle. Pour les tarifs, il en est de même. Cordialement,si on tombe enceinte apres un lipofiling des fesses, est ce que les resultats seront altérés?Bonjour, après une grossesse, le risque est que les fesses soient un peu plus relachées. Combien de temps pour reprendre son travail . Le premier atout de notre agence est l’accessibilité des tarifs. Si vos jambes sont vraiment très minces, je vous conseille d’associer des prothèses de mollet et un lipofilling de chevilles pour un meilleur résultat. Vous trouverez les tarifs de mini lifting dans le tableau ci-dessus à la rubrique “Tarifs chirurgie esthétique Visage”. Cordialement,Bonjour Madame, le prix indiqué comprend tous les frais. Cependant, il existe une multitude de techniques. Here you can change your privacy preferences. <br> <br>Cordialement,Bonjour, le traitement des seins tombant est la mastopexie. <br> <br>La cicatrice va évoluer pendant 1 année. Vous trouverez les fourchettes de prix sur mon site internet. Nous vous donnerons dans la mesure du possible notre rendez-vous le plus proche. Cordialement,Bonjour, La chirurgie des oreilles décollées peut s’envisager à partir de l’age de 8 ans. <br> <br>L’hospitalisation pour une rhinoplastie est classiquement d’une nuit. Cordialement,Bonjour, la rhinoplastie médicale par acide hyaluronique peut atténuer une bosse mais jamais réduire une pointe. Mais c’est vraiment très rare qu’il soit nécessaire de mettre plus qu’une légère retouche (qui est déjà incluse dans le tarif). En revanche, si vous êtes dans les critères, ce sera possible, mais je ne le pense pas à la lecture de votre description. Et que les cernes étaient plus apparentes justement à cause de cette fonte graisseuse. Cordialement,Bonjour, pour obtenir un résultat avec l’augmentation du point G il faut que vous ayez déjà un point G qui soit sensible un minimum. Mon visage s’est également creusé notamment au dessus de mes pommettes . Cordialement,Bonjour, je suis une femme de 45 ans. Le seul bénéfice est la réduction du cout de la nuit. Dans les prix afficher je trouve pas car moi ce serais vraiment juste pour un retrecissement des narines ? ?Bonjour, Malheureusement, le tarif des injections de Macrolane est constitué aux 2/3 du cout du produit. De plus, les risques de complications postopératoires sont très rares.Adresse : Rue du Lac Victoria-TunisTel : 0033 (0)1 84 800 400 Cordialement,Bonjour, vous trouverez tous les tarifs dans le tableau de tarifs ci-dessus. <br> ( les mamelons gonflés et se rétrécissent quand il fait froid ).Bonjour, une petite gynécomastie qui concerne essentiellement la région de l’aréole n’entre pas dans les critères de prise en charge de la sécurité sociale. Cordialement,Bonjour, il est possible de retoucher des interventions de la silhouette qui se relachent. Cordialement,J’ai des cernes creuses, et ma vallée des larmes descend assez bas. Il donne d’excellents résultats. Dans ce cas, vous pouvez dès à présent envisager une rhinoplastie. (Il est certain que l’interêt de l’acide était d’éviter la chirurgie, à la fois coûteuse, plus invasive, et génératrice de stress ). Je ne peux vous délivrer de devis sans examen préalable. Cordialement,J ai ma lèvre supérieur qui est fine je veux la gonflé un peux il faut faire quoi?Bonjour, le traitement le plus classique et fiable pour augmenter la lèvre fine est l’injection d’acide hyaluronique. <br> <br>Cordialement,Bonjour, je suis aller consulter vos tarifs en rhinoplastie et je vous avoues que je ne sais pas quelle es mon cas – le problème que je trouve à mon nez et que me complexe énormément est que du côté droit j’ai un gros creux (Parcontre j’aime assez le côté gauche de mon nez) donc je serait intéresser par l’acide hyaluronique mais je trouve mon nez gros (mais il ne me complexe pas ta tant que sa cela dépend des jours donc je me demande si le faite de combler se creux augmentera l’effet de gros nez ? <br> <br>Cordialement,Bonjour, Vous trouverez la réponse à ces tarifs dans le tableau ci-dessus, tant pour le prix de consultation, que pour le prix de la liposuccion d’adipomastie. En revanche en cas de ptose mammaire mineure il est possible d’associer les deux actes. Cordialement,Bonjour j’aimerai venir faire repulper mes levres dans votre cabinés et pour cela j’aimerai savoir si je pouvais payer ceci en plusieurs fois . En l’absence de ce signe clinique objectif, les demandes sont rejetées par la sécurité sociale. Cordialement,Afin de me rendre la vie plus belle, accepteriez-vous de m’épouser? <br> <br>Cordialement,Bonjour, bien entendu. Cela reste à confirmer par un examen précis . <br> <br>J’ai perdu il y a 5 ans 25 kilos. Cordialement,Bonjour, vous souhaitez en effet traiter de nombreuses zones. Plusieurs séances sont souvent nécessaires avant de parvenir au résultat final. En revanche les risques sont équivalents à ceux d’une liposuccion abdominale. Même en cas de prise en charge, il restera à votre charge des honoraires que vous trouverez dans le tableau de tarifs ci-dessus. ";s:7:"keyword";s:21:"chirurgie visage prix";s:5:"links";s:5664:"<a href='https://backyard.synpat.com/site/article.php?page=chantal-h%C3%A9bert-conjoint-88a0eb'>Chantal Hébert Conjoint</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dragon-cavalier-de-beurk----saison-1-%C3%A9pisode-9-88a0eb'>Dragon Cavalier De Beurk -- Saison 1 épisode 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=porridge-juice-plus%2B-88a0eb'>Porridge Juice Plus+</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caps-lol-g2-88a0eb'>Caps Lol G2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bo%C3%AEtier-pour-photo-animali%C3%A8re-88a0eb'>Boîtier Pour Photo Animalière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanteur-pianiste-aveugle-88a0eb'>Chanteur Pianiste Aveugle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9cis%C3%A9s-7-lettres-88a0eb'>Précisés 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-avec-le-mot-toi-88a0eb'>Chanson Avec Le Mot Toi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cashback-amazon-widilo-88a0eb'>Cashback Amazon Widilo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-accords-musique-88a0eb'>Les Accords Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brick-insatiable-age-88a0eb'>Brick Insatiable Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romane-serda-%C3%A2g%C3%A9-88a0eb'>Romane Serda âgé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9sum%C3%A9-valence-levante-88a0eb'>Résumé Valence Levante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ch%C3%A2teau-de-monsaraz-portugal-88a0eb'>Château De Monsaraz Portugal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=face-au-juge-2019-youtube-88a0eb'>Face Au Juge 2019 Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eafit-br%C3%BBleur-graisse-88a0eb'>Eafit Brûleur Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-d%C3%A9jeuner-sportif-oeuf-88a0eb'>Petit Déjeuner Sportif Oeuf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=100-questions-snapchat-fran%C3%A7ais-88a0eb'>100 Questions Snapchat Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lanta-wok-uber-eat-88a0eb'>Lanta Wok Uber Eat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chevaux-en-bois-pour-jeu-de-dada-88a0eb'>Chevaux En Bois Pour Jeu De Dada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vol-duba%C3%AF-tha%C3%AFlande-dur%C3%A9e-88a0eb'>Vol Dubaï Thaïlande Durée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ziggy-instrumental-mp3-88a0eb'>Ziggy Instrumental Mp3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=planning-concert-vianney-88a0eb'>Planning Concert Vianney</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arabic-names-pubg-88a0eb'>Arabic Names Pubg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=after-foot-18-mars-88a0eb'>After Foot 18 Mars</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valencia-real-madrid-live-stream-88a0eb'>Valencia Real Madrid Live Stream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=texture-planet-map-88a0eb'>Texture Planet Map</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demain-nous-appartient-facebook-fan-88a0eb'>Demain Nous Appartient Facebook Fan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mus%C3%A9e-ligne-de-d%C3%A9marcation-88a0eb'>Musée Ligne De Démarcation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=score-de-glasgow-avc-88a0eb'>Score De Glasgow Avc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=medespoir-tarif-facette-88a0eb'>Medespoir Tarif Facette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=megane-rs-fiche-technique-88a0eb'>Megane Rs Fiche Technique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bracelet-teamshape-evolution-88a0eb'>Bracelet Teamshape Evolution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ferrari-348-fiche-technique-88a0eb'>Ferrari 348 Fiche Technique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crossfit-sanctional-2020-88a0eb'>Crossfit Sanctional 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=european-championship-swimming-2019-88a0eb'>European Championship Swimming 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-google-font-88a0eb'>Best Google Font</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-est-az-tpmp-88a0eb'>Qui Est Az Tpmp</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-de-personnalit%C3%A9-couleur-quizz-biz-88a0eb'>Test De Personnalité Couleur Quizz Biz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-plat-mijot%C3%A9-printemps-88a0eb'>Recette Plat Mijoté Printemps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=google-earth-timelapse-mobile-88a0eb'>Google Earth Timelapse Mobile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-danemark-coca-cola-88a0eb'>Drapeau Danemark Coca-cola</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wizebot-rank-and-level-88a0eb'>Wizebot Rank And Level</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valorant-riot-beta-88a0eb'>Valorant Riot Beta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27atelier-de-roxane-recette-kawaii-88a0eb'>L'atelier De Roxane Recette Kawaii</a>,
+";s:7:"expired";i:-1;}

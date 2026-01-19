@@ -1,0 +1,83 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4712:"<br>Creative Commons Attribution Share Alike 4.0 International Similar to CC-BY-4.0 but requires derivatives be distributed under the same or a similar, compatible license. This can include using Open Author for creating, remixing, and publishing shared curriculum. Creative Commons is not a party to this License, and makes no warranty whatsoever in connection with the Work. <br> <br>We provide free licenses and other legal tools to mark creative work with the freedom the creator wants it to carry, so others can share, remix, use commercially, or any combination thereof. About CC Search. The entire album rings with obsessively creative complexity; that is, it's the kind of thing you can imagine a bunch of CC affiliates listening to while having a heated discussion about license compatibility.Most people reading this blog post are probably familiar with Creative Commons. <br> <br>Creative Commons is a global nonprofit organization dedicated to supporting an open and accessible Internet that is enriched with free knowledge and creative resources for people around the world to use, share and cultivate. <br> <br>Creative Commons licences provide a standardized way to give the public permission to share and use your creative work — on conditions of your choice. We focus on furthering progress toward open culture, open education, open data, and open access to research in Canada. When you find a work that has been released under a Creative Commons licence, you are always free to share, copy, and redistribute it in any medium or format. <br> <br>Creative Commons licences provide a standardized way to give the public permission to share and use your creative work — on conditions of your choice. For examples of how to attribute material see the Providing proper attribution ensures that the original creator is acknowledged for their work and shows subsequent users that they are also free to use the work under the same conditions.On the web, you can use a shorter attribution format if you provide a link to all the necessary information. Creative Commons will not be liable to You or any party on any legal theory for any damages whatsoever, including without limitation any general, special, incidental or consequential damages arising in connection to this license. In-person and virtual OER workshops help focus instructors to develop a "commons" mindset, to experience the benefits of open processes using the platform's tools, collaborative features, and workflows. The official headquarters for the Creative Commons in Canada. To ensure that the legal and technical infrastructure by which you access, share, and remix music remains robust, please consider The Free Music Archive offers free downloads under Creative Commons and other licenses. What we are highlighting here is just a small portion of the massive amount of free and reusable music available from artists who use CC and are ready to share.This music runs the gamut from electronic to folk to classical, and yet, there's something cohesive about it all. Frequently used for media assets and educational materials. <br> You should check which terms apply to the works you want to use.  <br> <br>CC Search is a tool that allows openly licensed and public domain works to be discovered and used by everyone. Much of the music found on the Free Music Archive is released under Creative Commons licenses. CC BY(Creative Commons Attribution): This grants the right for images to be shared, used, and modified, as long as the work is attributed to the creator. Creative Commons is a nonprofit corporation dedicated to making it easier for people to share and build upon the work of others, consistent with the rules of copyright. <br> <br>Creative Commons licenses provide a flexible range of protections and freedoms for authors, artists, and educators. Creative Commons Notice. The four different licence terms are:This information can be displayed in a variety of ways; there is not one distinct way to attribute. <br> <br>2019-09-18 Global Music Community Tribe of Noise Acquired Free Music Archive Creative Commons, the nonprofit behind CC Search, is the maker of the CC licenses, used over 1.4 billion times to help creators share knowledge and creativity online.. CC Search searches across more than 300 million images from open APIs and the Common Crawl dataset. CC licences let you easily change your copyright terms from the default of “all rights reserved” to “some rights reserved.”For examples of how to mark your work with a CC licence, see When you find a work that has been released under a Creative Commons licence, you are always free to share, copy, and redistribute it in any medium or format. ";s:7:"keyword";s:22:"creative commons share";s:5:"links";s:3194:"<a href='https://backyard.synpat.com/site/article.php?page=histoire-de-l%27irlande-pdf-88a0eb'>Histoire De L'irlande Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clara-kata-twitter-88a0eb'>Clara Kata Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yann-barth%C3%A8s-laurent-bon-88a0eb'>Yann Barthès Laurent Bon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=consolidated-jurisdictional-notice-88a0eb'>Consolidated Jurisdictional Notice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=euro-stoxx-50-d%C3%A9finition-88a0eb'>Euro Stoxx 50 Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=iphone-11-pro-max-prix-algerie-88a0eb'>Iphone 11 Pro Max Prix Algerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-houlgate-25-jours-88a0eb'>Météo Houlgate 25 Jours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ceinture-abdominale-amincissante-avis-88a0eb'>Ceinture Abdominale Amincissante Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=balkany---quotidien-88a0eb'>Balkany - Quotidien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alain-duhamel-fr%C3%A8re-88a0eb'>Alain Duhamel Frère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=AS-Monaco-2001-88a0eb'>AS Monaco 2001</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27atelier-de-roxane-recette-facile-88a0eb'>L'atelier De Roxane Recette Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=in%C3%A8s-loucif-origine-wikipedia-88a0eb'>Inès Loucif Origine Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vald-interview-f%C3%A9ministe-88a0eb'>Vald Interview Féministe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9ation-de-la-cee-88a0eb'>Création De La Cee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aigle-cam%C3%A9ra-embarqu%C3%A9e-duba%C3%AF-88a0eb'>Aigle Caméra Embarquée Dubaï</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yoga-de-gasquet-vid%C3%A9o-88a0eb'>Yoga De Gasquet Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clip-interlude-sch-88a0eb'>Clip Interlude Sch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=texte-d%27amour-a-distance-ado-88a0eb'>Texte D'amour A Distance Ado</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=surnom-pour-victoria-88a0eb'>Surnom Pour Victoria</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neg-marron---tout-le-monde-debout-88a0eb'>Neg Marron - Tout Le Monde Debout</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-farine-patate-douce-nutripure-88a0eb'>Pancake Farine Patate Douce Nutripure</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aurore-%7C-disney-88a0eb'>Aurore | Disney</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Tour-du-monde-des-concepts-88a0eb'>Tour Du Monde Des Concepts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-sont-des-vip-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Ce Sont Des Vip Mots Fléchés</a>,
+";s:7:"expired";i:-1;}

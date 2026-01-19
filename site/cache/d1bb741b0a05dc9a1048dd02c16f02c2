@@ -1,0 +1,101 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5983:"<p>                             Fr 210,000,000  / Négociable                                                                         juillet 29, 2020                                 Dans la catégorie Vente maison Côte d’Ivoire, vous trouverez plus de 5,700 annonces immobilières, par exemple : vente maison de caractère ou vente maison d’architecte. Grace à elles, de nombreux Ivoiriens ont pu être propriétaires de maisons après une période de remboursement. Portail de l'internet Africain et annuaire pages jaunes des entreprises Africaines. Itinéraire.                                                              						                 Fr 150,000,000  / Négociable </p> <p>C’est à juste titre que la ville est classée première ville ouest africaine où il fait bon vivre selon le magazine  britannique "The Economist Intelligence Unit". </p> <p>            /fr/immobilier/afrique/cote-d-ivoire/maisons-a-vendre.html </p> <p>                                                Services 			            									Réponses                                                                                                 Fr 185,000,000  / Négociable 			            								Conseils pour bien choisir votre assurance santé en Côte d'Ivoire.Obtenez un devis pour votre déménagement en Côte d'IvoireBénéficiez des services d'une banque qui vous accompagne dans votre mobilité.Préparez votre intégration de la meilleure façon possible en apprenant la langue. 			            									Réponses Car chez nous vous avez la possibilité de trouver des meubles de qualité pour plusieurs usages.              Voir le reste après ci-dessous… 2.                                                                                                                                                   </p> <p>			            								 </p> <p>             Cette politique a connu une certaine réussite, même si la plupart de ces entreprises ont disparu.                 Fr 55,000,000  / Négociable Une maison de ce type peut –être louée à Abidjan à 200.OOO FCFA.                                                                                Fr 200,000,000  / Négociable 			            								 			            									Réponses 			            								                                      En Côte d'Ivoire, un bien immobilier n'a pas seulement une valeur économique mais aussi une valeur sacrée...                                                                                                                                           août 5, 2020                                                                                          </p> <p>Les trois maisons les plus chères du monde sont sur la Côte d'Azur .                                                                                                                                           </p> <p>                                                                        août 6, 2020                                 La croissance de la population, ces dernières années s’explique par une forte industrialisation et une urbanisation très poussée.                                                        </p> <p>                                                     			            								 </p> <p>             			            								                                        Fr 1,500,000,000  / Négociable Vous devez user de beaucoup plus de vigilance à ce niveau. L’information a été révélée par l’imam Mahamoud Dicko dans une publication audio, le président du haut conseil islamique du Mali…                                                                                                                                                                                           La ville dispose d'un climat chaud et humide, ce qui rend sa vie agréable.                          		                                                          </p> <p>                          Go Africa Online.  Sites dédiés: la connaissance à portée de                                      Fr 190,000,000  / Négociable                     Fréquence à laquelle vous souhaitez recevoir des notifications par e-mail                                 main                                                      Dès l’accession de la Côte d’Ivoire à l’Indépendance, le gouvernement a créé plusieurs entreprises publiques qui avaient à charge de construire des logements aussi bien à Abidjan qu’à l’intérieur du pays.                                                                                                                                              Saisissez l'adresse mail avec laquelle vous vous êtes inscrit                                                                                                                           Fr 180,000,000  / Négociable </p> <p>Appeler.                                                          Comme on peut le constater sur le terrain, le District d’            Abidjan, la ville qui attire le plus les candidats à l'achat immobilier, et draine des acquisitions dans les villes qui la jouxtent                                                                                                                                                                                             						                                                                                       Fr 185,000,000  / Négociable Il est impératif pour vous d’établir un contrat explicite avec l’entreprise que vous aurez choisie. Grâce aux projets entamés par des particuliers comme par des promoteurs, les offres de maisons dans la capitale fleurissent désormais.Une multitude de choix s’offrent à vous pour louer une maison à Abidjan. A ce niveau, ce qui rentre en ligne de compte, c’est de faire assurer sa maison en plus du budget dédié au terrain, les dépenses de la construction et de main d’œuvre du constructeur. </p>";s:7:"keyword";s:40:"la maison la plus chere en cote d'ivoire";s:5:"links";s:5474:"<a href='https://backyard.synpat.com/site/article.php?page=cdf-paintball-2020-88a0eb'>Cdf Paintball 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-bonhomme-bleu-qui-chante-88a0eb'>Petit Bonhomme Bleu Qui Chante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creative-commons-share-88a0eb'>Creative Commons Share</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-joueur-marocain-de-tous-les-temps-88a0eb'>Meilleur Joueur Marocain De Tous Les Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-recrutement-2019-88a0eb'>Decathlon Recrutement 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9finition-de-temps-en-temps-88a0eb'>Définition De Temps En Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-dirait-amir-88a0eb'>On Dirait Amir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acide-amin%C3%A9-avant-ou-apr%C3%A8s-entra%C3%AEnement-88a0eb'>Acide Aminé Avant Ou Après Entraînement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fairfield-inn-montreal-88a0eb'>Fairfield Inn Montreal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=excel-substring-french-88a0eb'>Excel Substring French</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=noire-en-anglais-88a0eb'>Noire En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-entremet-10-personnes-88a0eb'>Prix Entremet 10 Personnes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivian-en-couple-88a0eb'>Vivian En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=audience-jimmy-kimmel-live-88a0eb'>Audience Jimmy Kimmel Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-harry-potter-difficile-88a0eb'>Test Harry Potter Difficile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-italie-foot-2020-88a0eb'>France Italie Foot 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=santafixie-raval-raw-60mm-88a0eb'>Santafixie Raval Raw 60mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qu%27allah-le-gu%C3%A9risse-en-arabe-88a0eb'>Qu'allah Le Guérisse En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-regards-d%27assainissement-pdf-88a0eb'>Les Regards D'assainissement Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=12eme-dan-judo-88a0eb'>12eme Dan Judo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plan-chelsea-market-88a0eb'>Plan Chelsea Market</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-de-personnalit%C3%A9-couleur-quizz-biz-88a0eb'>Test De Personnalité Couleur Quizz Biz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=concour-marc-blata-88a0eb'>Concour Marc Blata</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-dortmund-streaming-vf-88a0eb'>Psg Dortmund Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-licence-pro-e-commerce-88a0eb'>Lettre De Motivation Licence Pro E-commerce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ramadan-mabrouk-signification-88a0eb'>Ramadan Mabrouk Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jam-traduction-michael-jackson-88a0eb'>Jam Traduction Michael Jackson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miraculous-ladybug-streaming-saison-3-88a0eb'>Miraculous Ladybug Streaming Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cake-au-miel-sans-beurre-88a0eb'>Cake Au Miel Sans Beurre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estrade-%C3%A0-vendre-88a0eb'>Estrade à Vendre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yann-sommer-mariage-88a0eb'>Yann Sommer Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=catherine-mcbroom-wikipedia-88a0eb'>Catherine Mcbroom Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pauline-julien-pascale-galipeau-88a0eb'>Pauline Julien Pascale Galipeau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tibo-inshape-menu-88a0eb'>Tibo Inshape Menu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traduction-m83-midnight-city-88a0eb'>Traduction M83 Midnight City</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-musculaire-%C3%A9lectrique-88a0eb'>Appareil Musculaire électrique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lebrequier-mathilde-plus-belle-la-vie-88a0eb'>Lebrequier Mathilde Plus Belle La Vie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=intersport-rennes-pac%C3%A9-88a0eb'>Intersport Rennes Pacé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=polymastie-prise-en-charge-88a0eb'>Polymastie Prise En Charge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-doser-la-whey-88a0eb'>Comment Doser La Whey</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-d%C3%A9bloquer-un-compte-tiktok-88a0eb'>Comment Débloquer Un Compte Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=journaliste-lci-femme-noire-88a0eb'>Journaliste Lci Femme Noire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ils-s%27aiment-%283%29-88a0eb'>Ils S'aiment (3)</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,133 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3595:"<p>See how it works Boost your conversations with chat features Share high-quality media without extra fees, text on Wi-Fi, see when your friends are typing and enjoy better group chats. Group messages can have up to 8 participants, including the person who sends the message. Use Messages for web to send SMS, MMS and chat messages from your computer. Google has finally brought Android Messages to the web. At the bottom, enter your message, and click Send . To create a group text message, add up to 7 names or phone numbers. By using our services, you agree to our use of cookiesBy purchasing this item, you are transacting with Google Payments and agreeing to the Google Payments With Messages, you can communicate with anyone in any location with the reliability of texting and the richness of chat. Connect with friends and family through group messages, shared photos, videos, GIFs, emoji, and more. Send and receive SMS text messages through the Google Voice. All rights reserved. We’re working to bring your favorite features to the Messages app so you can have richer conversations with all your friends. </p> <p>Third-party services like Access to Messages for web isn’t the only new feature in Android Messages. During our time together, we brought you a smarter way to chat, with features like the Google Assistant, Allo for web and selfie stickers. The move is a step towards revamping its messaging strategy, which is still a little confusing. Messages for web Download Messages Simple, helpful messaging by Google. Enter a contact’s name or phone number. So, you will still bear all your SMS charges. Open the Messages app on your Android phone to get started. Use Google applications via SMS text message. On your computer, open Messages for web in a browser, like Chrome or Safari. </p> <p>At the top, click Send a message. Calendar SMS. If you don’t check the box, you can tap More Settings … Optional: To sign in to Messages for web automatically next time, check the box "Remember this computer." Meet Messages, Google’s official app for texting (SMS, MMS) and chat (RCS). If you … And the app will now let you easily copy one-time passwords and security codes.Android Messages is also set to better take on iMessage with support for Copyright ©2020 Designtechnica Corporation. All you need to do is head to the Android Messages for Web is now fully deployed – make sure you have the latest Messages client, and then head over to There are a few extra features hidden in the Settings on the web version, such as a dark mode.This isn’t the first time texting from an Android phone has been available on desktops. With Messages, you can communicate with anyone in any location with the reliability of texting and the richness of chat. Since it uses a connection from your computer to your phone. For starters, when you tap the “+” icon, you’ll now be able to search for GIFs to add to your conversation. Android Messages will be the company’s focus for the foreseeable future, and Google has been porting a lot of features from The full roll out for Android Messages for the web is complete. Intuitive and modern, Messages makes conversations easy, expressive, and fun. Connect with friends and family through group messages, shared photos, videos, GIFs, emoji, and more. Google has been adding new features to the app for some time now. Google now lets users chat with their friends through 'Messages for Web' by showing all their conversation from its mobile app. Meet Messages, Google’s official app for texting (SMS, MMS) and chat (RCS). </p>";s:7:"keyword";s:20:"champion judo  100kg";s:5:"links";s:9556:"<a href='https://backyard.synpat.com/site/article.php?page=avec-quoi-prendre-la-cr%C3%A9atine-88a0eb'>Avec Quoi Prendre La Créatine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=old-map-lines-88a0eb'>Old Map Lines</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ast%C3%A9rix-aux-jeux-olympiques-film-complet-en-fran%C3%A7ais-88a0eb'>Astérix Aux Jeux Olympiques Film Complet En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mode-d%27emploi-canon-eos-2000d-88a0eb'>Mode D'emploi Canon Eos 2000d</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mat%C3%A9riel-de-musculation-maison-88a0eb'>Matériel De Musculation Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gratin-patate-douce-blanche-88a0eb'>Gratin Patate Douce Blanche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synth%C3%A8se-d%C3%A9finition-philosophique-88a0eb'>Synthèse Définition Philosophique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rester-en-forme-france-2-88a0eb'>Rester En Forme France 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=escap-from-tarkov-bois-88a0eb'>Escap From Tarkov Bois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-belle-chanson-au-piano-88a0eb'>Plus Belle Chanson Au Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=league-of-angels-3---avis-88a0eb'>League Of Angels 3 - Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-canon-400mm-88a0eb'>Objectif Canon 400mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9tat-de-new-york-88a0eb'>état De New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bete-et-mechant-prime-88a0eb'>Bete Et Mechant Prime</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bernard-lama-psg-88a0eb'>Bernard Lama Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=man-city---chelsea-2019-88a0eb'>Man City - Chelsea 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invitation-officielle-pour-lobtention-visa-88a0eb'>Invitation Officielle Pour Lobtention Visa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-r%C3%A9ussite-motivation-88a0eb'>Citation Réussite Motivation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sasha-alexander-dawson-88a0eb'>Sasha Alexander Dawson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lyon-luton-easyjet-88a0eb'>Lyon Luton Easyjet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-boh%C3%A8me-partition-guitare-pdf-88a0eb'>La Bohème Partition Guitare Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandra-occupation-double-bali-88a0eb'>Alexandra Occupation Double Bali</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-delpech-emmanuel-delpech-88a0eb'>Michel Delpech Emmanuel Delpech</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Blagnac-FC-f%C3%A9minine-88a0eb'>Blagnac FC Féminine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zazie-speed-karaok%C3%A9-88a0eb'>Zazie Speed Karaoké</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=solitude-homme-50-ans-88a0eb'>Solitude Homme 50 Ans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mode-d%27emploi-canon-eos-200d-88a0eb'>Mode D'emploi Canon Eos 200d</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Cr%C3%A9ation-de-Instagram-88a0eb'>Création De Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=albin-michel-jeunesse-88a0eb'>Albin Michel Jeunesse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-maison-de-didier-drogba-%C3%A0-cocody-88a0eb'>La Maison De Didier Drogba à Cocody</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=total-mass-matrix-utilisation-88a0eb'>Total Mass Matrix Utilisation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27aziza-lille-livraison-88a0eb'>L'aziza Lille Livraison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coloriage-pokemon-sur-ordinateur-88a0eb'>Coloriage Pokemon Sur Ordinateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cody-simpson-taille-88a0eb'>Cody Simpson Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toile-cir%C3%A9e-basque-88a0eb'>Toile Cirée Basque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=San-Francisco-guitare-TAB-88a0eb'>San Francisco Guitare TAB</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-se-muscler-88a0eb'>Comment Se Muscler</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ismaily-Sporting-Club-88a0eb'>Ismaily Sporting Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-2020-covid-88a0eb'>Koh-lanta 2020 Covid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=HOTEL-RED-FOX4%2C0%28587%29%C3%80-1%2C4%C2%A0km298%C2%A0%E2%82%AA-88a0eb'>HOTEL RED FOX4,0(587)À 1,4 km298 ₪</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pour-un-flirt-avec-toi-ukulele-88a0eb'>Pour Un Flirt Avec Toi Ukulele</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Flora-Coquerel-Instagram-88a0eb'>Flora Coquerel Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A2te-%C3%A0-tartiner-prot%C3%A9in%C3%A9e-avis-88a0eb'>Pâte à Tartiner Protéinée Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=superficie-centre-commercial-carrefour-flins-88a0eb'>Superficie Centre Commercial Carrefour Flins</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-lacs-du-connemara-partition-fl%C3%BBte-88a0eb'>Les Lacs Du Connemara Partition Flûte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lyle-lovett-jeune-88a0eb'>Lyle Lovett Jeune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=montre-cartier-occasion-particulier-88a0eb'>Montre Cartier Occasion Particulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=slay-cuz-bae-traduction-88a0eb'>Slay Cuz Bae Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patricia-vinces-fausse-couch%C3%A9-88a0eb'>Patricia Vinces Fausse Couché</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-slam-d%C3%A9finition-88a0eb'>Le Slam Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nerf-fortnite-amazon-88a0eb'>Nerf Fortnite Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nutri-and-co-spiruline-88a0eb'>Nutri And Co Spiruline</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=state-bicycle-wheels-88a0eb'>State Bicycle Wheels</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=in%C3%A8s-reg-spectacle-streaming-88a0eb'>Inès Reg Spectacle Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carr%C3%A9-herm%C3%A8s-occasion-ebay-88a0eb'>Carré Hermès Occasion Ebay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shaker-so-shape-utilisation-88a0eb'>Shaker So Shape Utilisation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lagrimas-negras-son-cubano-88a0eb'>Lagrimas Negras Son Cubano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-clubman-hyde-park-2017-avis-88a0eb'>Mini Clubman Hyde Park 2017 Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boxe-sanda-club-88a0eb'>Boxe Sanda Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A0-vos-avis-88a0eb'>à Vos Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A9rard-loussine-doublage-88a0eb'>Gérard Loussine Doublage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zaz-et-grand-corps-malade-en-couple-88a0eb'>Zaz Et Grand Corps Malade En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vid%C3%A9o-fortnite-saison-2-chapitre-2-jeanfils-88a0eb'>Vidéo Fortnite Saison 2 Chapitre 2 Jeanfils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maillot-PSG-2010-88a0eb'>Maillot PSG 2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philippe-quintais-hospitalis%C3%A9-88a0eb'>Philippe Quintais Hospitalisé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=champions-league-streaming-vf-88a0eb'>Champions League Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=power-plate---exercice-88a0eb'>Power Plate - Exercice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=love-story-musique-parole-88a0eb'>Love Story Musique Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thefitfeline-blog-brownie-proteine-88a0eb'>Thefitfeline Blog Brownie Proteine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=didier-raoult-vaccins-88a0eb'>Didier Raoult Vaccins</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=olivia-ruiz-famille-88a0eb'>Olivia Ruiz Famille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-hic-el-watan-88a0eb'>Le Hic El Watan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prism-srambad-instagram-88a0eb'>Prism Srambad Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=scream-3-fin-88a0eb'>Scream 3 Fin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yellow-submarine-chanson-88a0eb'>Yellow Submarine Chanson</a>,
+";s:7:"expired";i:-1;}

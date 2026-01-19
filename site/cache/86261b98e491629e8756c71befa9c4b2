@@ -1,0 +1,101 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5947:"<p>Si vous voulez que vos entraînements vous fassent perdre du ventre assez rapidement, dépassez les 25 minutes de vélo elliptique régulières en entraînez-vous au moins 30 minutes par séance. Faire 10 minutes d’entraînement tous les jours. Une dizaine de minutes le matin, 10 minutes le midi et vous faites vos derniÃ¨res 10 minutes en soirÃ©e.Utilisez chaque minute de votre entraÃ®nement pour brÃ»ler le plus de calories possible, amÃ©liorer votre endurance et votre capacitÃ© physique. Vous tenez donc à le rentabiliser. Il est évident que vous aviez eu l’idée d’appliquer n’importe quels courses soit à pied, soit par vélo classique, soit en sautant les cordes mais nuls résultats optimaux n’étaient présents.La plupart des questions se formulent toujours comme suit : Quelle est la Et en ce qui concerne la course à bicyclette ? tous droits rÃ©servÃ©s - Par 56 Led 30W 12V lumière du jour pour piscine Culot de l'ampoule Vis Puissance/Teinte de l'ampoule 30W 2.700Lm 6.000°K angle 90° fact. Néanmoins, pour que la dépense calorique ait un impact suffisant sur la perte de poids, il est conseillé de s'entraîner entre 30 minutes à 1h00. Velo Elliptique 30 Min Par Jour. </p> <p>Donc 180 pulsations par minute pour une personne de 40 ans : 220 – 40; Pour la perte de poids, il faut viser une intensité autour de 60 % de cette FC max., à + ou -10 % suivant votre expérience sportive. Il en vaut quand même la peine d’essayer car si vous ne vivez pas quelques expériences vous n’allez pas réussir. Faites en bon usage ! 1 : Le vélo elliptique fait maigrir. Un programme de rééquilibrage alimentaire qui permet de retrouver une bonne alimentation et de reprendre une activité physique.Un coffret de programme minceur pour perdre 9, 10 et 11 kilos rapidement en 56 jours (8 semaines). De nombreux vÃ©los elliptiques affichent le nombre de kilomÃ¨tres que vous parcourez sur le tableau de bord de lâappareil. </p> <p>Un régime pour les femmes et les hommes qui souhaitent se débarrasser efficacement des poignées d'amour, des bourrelets, de la cellulite sur toutes les zones du corps .Un coffret de programme minceur pour perdre 6, 7 et 8 kilos rapidement en 42 jours (6 semaines). Des solutions de régime protéiné adaptées à chaque profil pour perdre du poids sans effet yoyo.Un coffret de programme minceur pour perdre 12, 13 et 14 kilos rapidement en 70 jours (10 semaines). En rentrant votre temps d’entrainement et votre poids en kilos, vous pourrez avoir une notion des dépenses en calories que vous brûlez en faisant à différentes intensité du vélo elliptique.Le tableau ci-dessous vous permet de voir combien de calories sont perdues en faisant du vélo elliptique à différents rythmes !Le vélo elliptique est sans conteste l’un des meilleurs appareils de fitness car il permet de muscler une grande partie du corps tout en assurant de vrais avantages pour le travail du cardio. </p> <p>VELO ELLIPTIQUE. Si vous avez de la difficultÃ© Ã  trouver 30 Ã  60 minutes consÃ©cutive pour faire votre sÃ©ance dâexerciceâ¦ Coupez lÃ  en trois ! Découvrez sans plus attendre les bienfaits du vélo elliptique. Si vous voulez perdre efficacement des graisses sur votre vélo elliptique, vos séances doivent durer au minimum 30 minutes. Vous améliorerez ainsi votre endurance cardio-respiratoire, votre état musculaire et osseux et, en bonus, vous serez sûr de vous tenir à l’écart les kilos en trop. Or c’est un objectif accessible en faisant seulement du vélo elliptique pendant 20 à 30 minutes, 3 fois par semaine. En 2007 Lisbeth Eriksen du magazine Diabetologia a mené une étude auprès de diabétiques. C’est-à-dire que Une séance de 30 minutes par jour sur un vélo elliptique est la plus idéale en termes de méthodes pour maigrir. Si vous avez un bon niveau en sport d'endurance, vous pouvez vous approcher de 70 %. Tellement d’envie de maigrir ? </p> <p>Donc moi je fait 50min de vélo à une vitesse d'à peu près 14.4km/h et j'en fait maximum 5 fois par jour. Au fil du temps, vous pourrez augmenter la durée de vos séances jusqu’à 45 minutes, 1 heure ou 1 heure 30. Faites en bon usage ! Temps d'entraînement vélo elliptique . Pour le vélo, au moins 30 minutes par jour sur 5 jours est considéré comme l’idéal. </p> <p>DÃ©buter pendant 2 Ã  5 minutes Ã  un rythme facile, puis augmenter la rÃ©sistance et la vitesse de votre entraÃ®nement elliptique. </p> <p>Mais connaissez-vous les 5 règles d'Or pour y parvenir? En effet, au début de la séance, d'autres filières énergétiques sont mises en jeu. </p> <p>En plus dâÃªtre bÃ©nÃ©fique pour la glycÃ©mie, elle a Ã©galement constatÃ© que lâeffet sur le systÃ¨me cardio-vasculaire Ã©tait similaire. Vélo elliptique intensité haute MET = 13; La formule de calcul détaillée pour le vélo elliptique. </p> <p>Elle augmente progressivement avec le temps pour devenir optimale après seulement 2h30 à 3h d'effort. </p> <p>En effet, au moins 30 minutes d’entraînement sont nécessaires pour que le vélo elliptique puisse avoir des effets durables sur votre organisme. </p> <p>Si vous marchez ou joggez 20 kilomÃ¨tres par semaine, vous  rÃ©duisez votre taux de mauvais cholestÃ©rol et pour de 30 kilomÃ¨tres par semaine, vous augmentez  votre taux de bon cholestÃ©rol. Je fais 30 à 45 minutes de vélo elliptique puis 15 à 20 minutes de musculation de type fitness avec séries d' abdos-fessiers, semi-pompes et gainage (environ 2 minutes) avec une alimentation </p> <p>Pour cela quoi de mieux que d’en faire tous les jours ! Elle a dÃ©couvert que trois sÃ©ances de 10 minutes dâexercice cardio-vasculaire par jour Ã©taient aussi efficaces quâune sÃ©ance de 30 minutes chez les personnes diabÃ©tiques. Votre vélo d’appartement est un investissement. </p>";s:7:"keyword";s:35:"30 min de vélo elliptique par jour";s:5:"links";s:5538:"<a href='https://backyard.synpat.com/site/article.php?page=30-g-muesli-calories-88a0eb'>30 G Muesli Calories</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abb%C3%A9-ou-cur%C3%A9-88a0eb'>Abbé Ou Curé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-du-fioul-bollor%C3%A9-riedisheim-88a0eb'>Prix Du Fioul Bolloré Riedisheim</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yvan-benedetti-frapp%C3%A9-88a0eb'>Yvan Benedetti Frappé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-google-home-88a0eb'>Amazon Google Home</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=regime-d%27un-cours-d%27eau-88a0eb'>Regime D'un Cours D'eau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-r%C3%A9publicain-rambouillet-88a0eb'>Le Républicain Rambouillet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cardiff-university-football-88a0eb'>Cardiff University Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=friandise-synonyme-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Friandise Synonyme Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Zineb-El-Rhazoui-dessin-88a0eb'>Zineb El Rhazoui Dessin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dortmund-schalke-compo-probable-88a0eb'>Dortmund Schalke Compo Probable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=provisions-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Provisions Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manchester-city-tottenham-ldc-replay-88a0eb'>Manchester City Tottenham Ldc Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alice-notting-hill-88a0eb'>Alice Notting Hill</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mido-multifort-automatic-88a0eb'>Mido Multifort Automatic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-witcher-3-gambit-royal-88a0eb'>The Witcher 3 Gambit Royal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=banana-pancakes-recipe-88a0eb'>Banana Pancakes Recipe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-de-pois-ou-soja-88a0eb'>Protéine De Pois Ou Soja</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=money-kicks-traduction-88a0eb'>Money Kicks Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=new-yorker-commander-en-ligne-88a0eb'>New Yorker Commander En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-optimum-nutrition-88a0eb'>Bcaa Optimum Nutrition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=des-tablettes-de-chocolat-en-30-jours-avis-88a0eb'>Des Tablettes De Chocolat En 30 Jours Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-a-l-affiche-luchini-88a0eb'>Film A L Affiche Luchini</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-ramadan-2020-lausanne-88a0eb'>Horaire Ramadan 2020 Lausanne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cl%C3%A9-base-militaire-tarkov-88a0eb'>Clé Base Militaire Tarkov</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ramadan-greetings-2020-88a0eb'>Ramadan Greetings 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-pour-maigrir-femme-88a0eb'>Protéine Pour Maigrir Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-tunisie-2019-prix-88a0eb'>Maillot Tunisie 2019 Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gil-vicente-benfica-stream-88a0eb'>Gil Vicente Benfica Stream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-aliment-liste-88a0eb'>Protéine Aliment Liste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-cour-en-bois-88a0eb'>Jeux De Cour En Bois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gustine-harpe-youtube-88a0eb'>Gustine Harpe Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gainer-maison-1000-calorie-88a0eb'>Gainer Maison 1000 Calorie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruno-pelletier-amphith%C3%A9%C3%A2tre-88a0eb'>Bruno Pelletier Amphithéâtre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-m%27ennuie-dans-ma-vie-2019-88a0eb'>Je M'ennuie Dans Ma Vie 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=de-plus-synonyme-larousse-88a0eb'>De Plus Synonyme Larousse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moussa-koh-lanta-taille-poids-2020-88a0eb'>Moussa Koh-lanta Taille Poids 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=flocon-d%27avoine-ballonnement-88a0eb'>Flocon D'avoine Ballonnement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-johor-episode-1-streaming-88a0eb'>Koh-lanta Johor Episode 1 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baden-baden---j%27ai-plong%C3%A9-dans-le-bruit-88a0eb'>Baden Baden - J'ai Plongé Dans Le Bruit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=med-hondo-doublage-88a0eb'>Med Hondo Doublage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Jours-f%C3%A9ri%C3%A9s-Suisse-2020-88a0eb'>Jours Fériés Suisse 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-witcher-3-retrouver-la-femme-du-baron-88a0eb'>The Witcher 3 Retrouver La Femme Du Baron</a>,
+";s:7:"expired";i:-1;}

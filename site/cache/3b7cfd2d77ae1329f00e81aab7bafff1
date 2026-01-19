@@ -1,0 +1,101 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4933:"<br>Parcourons ensemble les nouveautés. Comment préparer des petits pois frais? Vérifiez de temps en temps qu'il y ait assez d'eau au fond pour éviter que cela n'attache, versez un verre d'eau si besoin. Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies. Déposez-les dans une casserole, recouvrez d’eau et laissez cuire 15 minutes sur feux vif. Utilisez pour cela des petits pois ramassés le jour même (il est important que les petits pois soient très frais). Si vos petits pois sont gros, faites les cuire 1 à 2 minutes supplémentaires. Combien de temps pour la cuisson des petits pois frais? Puisqu'ils sont préalablement blanchis avant d'être surgelés, les petits pois congelés nécessitent un temps de cuisson plus court que les frais. Comment réussir la cuisson des petits pois frais ? Ecosser les petits pois. Hors saison, optez même pour des petits pois en conserve ou surgelés. Le site fait peau neuve. Soyez toujours attentif à la cuisson. Enfin, versez un fond d'eau sur vos petits pois dans un plat en verre. Si vous préférez la cuisson vapeur, laissez cuire 8 à 10 minutes dans le panier vapeur de votre autocuiseur. Complétez votre profil culinaire afin de découvrir des recettes adaptées à vos goûts. Là encore, lavez et écossez les petits pois. Vous obtiendrez un joli plat de petits pois à la française.  Petits, mais plein d'énergie ! Écossez les petits pois en enlevant ceux qui seraient abîmés. Petits, mais plein d'énergie ! La feuille de laitue joue en quelque sorte le rôle d'éponge…- La laitue apporte une touche subtile d'amertume, qui met en valeur le goût sucré du petit pois.Maintenant, chacun fait comme il veut, voyez le « truc du chef » à la fin de la recette…Amaury de Ternay – Photo expression-bretagne.com pour Prince de BretagneVeuillez compléter l\'opération pour envoyer votre message : Pour des petits pois gourmands ou également appelés mange-tout, vous cuirez également à la vapeur durant 5 à 7 minutes, après les avoir rincés à l'eau claire.     Tendres et délicatement sucrés, les petits pois sont des légumes frais très parfumés. <br> Profitez-en, demandez aux enfants de vous aider à écosser les petits pois, ça va les amuser ! Dès la reprise de l'ébullition, recouvrez la casserole et laissez mijoter pendant 20 minutes à feu doux. Parcourons ensemble les nouveautés. Temps de cuisson des petits pois à l’eau. Comptez 8 minutes de cuisson à partir du moment où la soupape commence à tourner Les petits pois sont alors cuits. S'ils sont bien frais, vous pourrez facilement les cuire à l'eau ou à la vapeur. Faites cuire des petits pois avec 500 ml de bouillon de volaille pour faire une soupe de petits pois très simple. Préparez une délicieuse poêlée de légumes verts en les faisant revenir avec des fèves préalablement blanchies à l'eau bouillante et des pointes d'asperges vertes. QOOQ évolue ! Accédez à vos recettes favorites : celles que vous aimez, celles de vos amis et les vôtres. Rien de plus simple et tellement meilleure cette recette de petits pois à la française. Les champs obligatoires sont marqués par Ce site utilise Akismet pour réduire les indésirables. Le petit pois, c’est rond, c’est tout vert, c’est rigolo. Dans une grande casserole, portez à ébullition de l'eau salée. Le secret, c'est d'y incorporer de la laitue. Une fois plongés dans de l'eau bouillante, les cuire 10 minutes puis les rafraichir dans de l'eau glacée pour préserver leur belle couleur verte. Ah, ben ça reste un mystère, semble-t-il. Si vous avez déjà un compte QOOQ, utilisez les mêmes identifiants Laisser mijoter à feu doux, 30 minutes environ, jusqu'à ce que les petits pois soient tendres. Les petits pois sont en réalité une légumineuse, qui se cuisine comme les légumes. Faites blanchir 5 minutes dans une eau salée. Après les avoir écossés, placez-les dans le panier vapeur de votre cocotte-minute ou de votre cuit vapeur. Petits, mais plein d'énergie ! Ça tombe bien, c’est plein de bonnes choses ! Ajoutez deux cuillères à soupe de crème fraiche et assaisonnez à votre convenance. Adaptez le … 					©2020 QOOQ ©2020 Unowhy. Porter à ébullition une casserole d'eau salée. Faites cuire les petits pois avec une noix de beurre, de l'ognon et de l'ail. Servez-les simplement avec un peu de beurre frais … Faites chauffer et comptez 10 minutes de temps de cuisson pour des petits pois légèrement croquants et 15 minutes pour qu'ils soient fondants. Rincez immédiatement après sous un filet d’eau fraiche. Créez ou accédez à votre liste de courses. Le pois gourmand doit être choisi jeune et vert tendre. Rafraîchir immédiatement à l'eau glacée pour stopper la cuisson et préserver leur couleur. Avec ou sans carottes, c’est l’un des mets préférés des petits. <br> <br>";s:7:"keyword";s:33:"temps de cuisson petit pois frais";s:5:"links";s:5486:"<a href='https://backyard.synpat.com/site/article.php?page=scream-3-fin-88a0eb'>Scream 3 Fin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marvyn-et-gabrielle-88a0eb'>Marvyn Et Gabrielle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invitation-go%C3%BBter-adulte-88a0eb'>Invitation Goûter Adulte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-tottenham-2012-2013-88a0eb'>Effectif Tottenham 2012-2013</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-charles-sabattier-instagram-88a0eb'>Jean-charles Sabattier Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=type-beat-trap-88a0eb'>Type Beat Trap</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=susan-fischer-orange-is-the-new-black-actress-88a0eb'>Susan Fischer Orange Is The New Black Actress</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sweet-dreams-piano-facile-88a0eb'>Sweet Dreams Piano Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hagda-les-anges-12-instagram-88a0eb'>Hagda Les Anges 12 Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soupe-patate-douce-minceur-88a0eb'>Soupe Patate Douce Minceur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-inspir%C3%A9-d%27une-histoire-vraie-drame-88a0eb'>Film Inspiré D'une Histoire Vraie Drame</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=christophe-jakubyszyn-bfm-business-88a0eb'>Christophe Jakubyszyn Bfm Business</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mari-julie-morelle-mariage-88a0eb'>Mari Julie Morelle Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-eden-op%C3%A9ra-88a0eb'>Hôtel Eden Opéra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sucrer-les-fraises-humour-88a0eb'>Sucrer Les Fraises Humour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%89mission-Loft-Story-88a0eb'>Émission Loft Story</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=On-n%27est-pas-que-des-cobayes-nouveau-88a0eb'>On N'est Pas Que Des Cobayes Nouveau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=employ%C3%A9-de-maison-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Employé De Maison Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perdre-bourrelet-ventre-88a0eb'>Perdre Bourrelet Ventre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plan%C3%A8te-plus-bell-88a0eb'>Planète Plus Bell</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=s%C3%A9rie-disparue-netflix-88a0eb'>Série Disparue Netflix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-paroles-traduction-88a0eb'>Brother Paroles Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=macron-cheveux-roux-88a0eb'>Macron Cheveux Roux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-kurdistan-turc-88a0eb'>Drapeau Kurdistan Turc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mort-de-rire-synonyme-88a0eb'>Mort De Rire Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=that-girl-lay-lay-parents-88a0eb'>That Girl Lay Lay Parents</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tapis-de-sol-mousse-camping-88a0eb'>Tapis De Sol Mousse Camping</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=combien-de-temps-une-femme-peut-s%27abstenir-88a0eb'>Combien De Temps Une Femme Peut S'abstenir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=advertising-a-product-example-88a0eb'>Advertising A Product Example</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-moyen-fessier-88a0eb'>Exercice Moyen Fessier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-chiffre-montessori-88a0eb'>Carte Chiffre Montessori</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boisson-minceur-pharmacie-88a0eb'>Boisson Minceur Pharmacie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tempo-musculation-hypertrophie-88a0eb'>Tempo Musculation Hypertrophie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gaia-chanteuse-chega-88a0eb'>Gaia Chanteuse Chega</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Water-Park-Minecraft-88a0eb'>Water Park Minecraft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-cereal-healthy-88a0eb'>Pancake Cereal Healthy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Parole-chanson-je-t%27aime-88a0eb'>Parole Chanson Je T'aime</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-compote-sans-oeuf-88a0eb'>Pancake Compote Sans Oeuf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-ne-fonctionne-plus-sur-safari-88a0eb'>Twitter Ne Fonctionne Plus Sur Safari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roland-magdane-wikip%C3%A9dia-88a0eb'>Roland Magdane Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=table-de-multiplication-de-4-%2B-exercices-88a0eb'>Table De Multiplication De 4 + Exercices</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-whole-9-signification-88a0eb'>The Whole 9 Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-tales-of-two-sons-88a0eb'>Brother Tales Of Two Sons</a>,
+";s:7:"expired";i:-1;}

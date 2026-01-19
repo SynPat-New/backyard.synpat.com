@@ -1,0 +1,425 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+		<style>
+			.banner-panel{
+				height: 45px;
+				overflow:hidden;
+				width:100%;
+			}
+			.banner-panel-box-shadow{
+				box-shadow: 0 3px 4px 0 rgba(0,0,0,.15)
+			}
+			.banner-title{
+				float:left;
+				font-size:14px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				cursor: default;
+				font-weight: 500;
+			}
+			.banner-title p{
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: pre;
+				margin: 12px 0;
+			}
+			.bg-color{
+				background-color:rgb(249, 249, 249);
+			}
+			.height-small{
+				height:145px;
+			}
+			.height-medium{
+				height:300px;
+			}
+			.height-large{
+				height:453px;
+			}
+			.dbrd-control-container{
+				background-color:#fff;
+				box-shadow:0 2px 6px 0 rgba(0,0,0,.07);
+			}
+			.color-blue{color:#39669a;}
+			.color-red{color:#ff5151;}
+			.color-dark-blue{color:#214666;}
+			.google-visualization-controls-rangefilter .google-visualization-controls-label{margin:0;padding:0;display:inline;}
+		</style>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		
+		<script type="text/javascript">
+			/*let chartData = {
+				"total_customers":{"total":0},
+				"new_customers":{"total":0},
+				"new_deals":{"total":0},
+				"best_region":{"name":"","counter":0},
+				"best_customer":{"name":"","counter":0},
+				"transaction_regions_counter":[],
+				"transaction_postal_counter":[],
+				"transaction_regions_monthly":[],
+				"transaction_customer_yearly":[]
+			};*/
+			let chartData = {"total_customers":{"total":6},"new_customers":{"total":1},"new_deals":{"total":1},"best_region":{"name":"New york","counter":20},"best_customer":{"name":"Vivint, inc.","counter":6},"transaction_regions_counter":[{"name":"Texas","counter":4},{"name":"Michigan","counter":7},{"name":"New york","counter":8},{"name":"Connecticut","counter":9},{"name":"North carolina","counter":12}],"transaction_postal_counter":[{"state":"Texas","postal_code":"75202-3714","counter":2},{"state":"Texas","postal_code":"75202","counter":2},{"state":"North carolina","postal_code":"28255-0001","counter":6},{"state":"North carolina","postal_code":"28255","counter":6},{"state":"Michigan","postal_code":"48084","counter":7},{"state":"New york","postal_code":"10017","counter":8},{"state":"Connecticut","postal_code":"06103","counter":9}],"transaction_regions_monthly":[{"state":"Connecticut","deal_months":"April","total":15},{"state":"New york","deal_months":"August","total":2},{"state":"Texas","deal_months":"December","total":2},{"state":"Michigan","deal_months":"June","total":5},{"state":"Michigan","deal_months":"March","total":8},{"state":"North carolina","deal_months":"September","total":8}],"transaction_regions_yearly":[],"transaction_customer_yearly":[{"name":"Cenveo, inc.","deal_year":"2006","total":1},{"name":"Rx technology corp","deal_year":"2006","total":1},{"name":"Cadmus marketing group, inc.","deal_year":"2007","total":2},{"name":"Cdms management, llc","deal_year":"2007","total":2},{"name":"Cadmus printing group, inc.","deal_year":"2007","total":2},{"name":"American graphics, inc.","deal_year":"2007","total":2},{"name":"Vaughn printers inc.","deal_year":"2007","total":2},{"name":"Cadmus financial distribution, inc.","deal_year":"2007","total":2},{"name":"Cadmus direct marketing, inc.","deal_year":"2007","total":2},{"name":"Vsub holding company","deal_year":"2007","total":2},{"name":"Cadmus technology solutions, inc.","deal_year":"2007","total":2},{"name":"Cadmus interactive, inc.","deal_year":"2007","total":2},{"name":"Pc ink corp.","deal_year":"2007","total":2},{"name":"Garamond/pridemark press, inc.","deal_year":"2007","total":2},{"name":"Cadmus marketing, inc.","deal_year":"2007","total":2},{"name":"Printegra corporation","deal_year":"2007","total":2},{"name":"Washburn graphics, inc.","deal_year":"2007","total":3},{"name":"Cadmus o'keefe marketing, inc.","deal_year":"2007","total":2},{"name":"Cadmus journal services, inc.","deal_year":"2007","total":2},{"name":"Old tsi, inc.","deal_year":"2007","total":2},{"name":"Cadmus delaware, inc.","deal_year":"2007","total":2},{"name":"Cadmus investments, llc","deal_year":"2007","total":2},{"name":"Cadmus uk, inc.","deal_year":"2007","total":2},{"name":"Port city press, inc.","deal_year":"2007","total":2},{"name":"Expert graphics, inc.","deal_year":"2007","total":2},{"name":"Science craftsman incorporated","deal_year":"2007","total":2},{"name":"Cenveo, inc.","deal_year":"2007","total":2},{"name":"Cadmus government publication services, inc.","deal_year":"2007","total":2},{"name":"Cadmus international holdings, inc.","deal_year":"2007","total":2},{"name":"Cenveo corporation","deal_year":"2007","total":3},{"name":"Cenveo corporation,","deal_year":"2013","total":1},{"name":"Cenveo corporation","deal_year":"2013","total":4},{"name":"Discount labels, llc","deal_year":"2013","total":4},{"name":"Rx technology corp.","deal_year":"2013","total":4},{"name":"Washburn graphics, inc.","deal_year":"2013","total":4},{"name":"Nashua corporation","deal_year":"2013","total":5},{"name":"Envelope product group, llc","deal_year":"2013","total":4},{"name":"Cequent performance products, inc.","deal_year":"2015","total":5},{"name":"Cequent consumer products, inc.","deal_year":"2015","total":5},{"name":"Vivint, inc.","deal_year":"2016","total":4},{"name":"Quality park, llc","deal_year":"2017","total":1},{"name":"Vivint, inc.","deal_year":"2018","total":4},{"name":"Cenveo worldwide limited","deal_year":"2018","total":1},{"name":"Lightninglabels.com llc","deal_year":"2018","total":1},{"name":"Horizon global corporation","deal_year":"2019","total":2},{"name":"Horizon global americas inc.","deal_year":"2019","total":2}]};
+			
+			google.charts.load('current', {'packages':['corechart', 'bar', 'table', 'controls'], 'mapsApiKey': 'AIzaSyBMnxwsU18M7iBzMbpObQGIl7_-BpDj2rY'});
+			google.charts.setOnLoadCallback(drawVisualization);
+			
+
+			function reDrawCharts(data){
+				chartData = data;
+				console.log(chartData);
+				console.log(chartData['total_customers'], chartData.total_customers['total'], chartData.total_customers.total);
+				drawVisualization();
+			}
+
+			function drawVisualization() {
+				document.getElementById('total_customers').querySelector('h3').innerText = chartData.total_customers.total;
+				document.getElementById('new_customers').querySelector('h3').innerText = chartData.new_customers.total;
+				document.getElementById('new_deals').querySelector('h3').innerText = chartData.new_deals.total;
+				document.getElementById('best_region').querySelector('h3').innerText = chartData.best_region.name;
+				document.getElementById('best_customer').querySelector('h3').innerText = chartData.best_customer.name;
+
+				let control1,control2,control3,control4;
+				if(chartData.transaction_regions_counter.length > 0){
+					//control1 = createDashboardRegional();
+				}
+				
+				if(chartData.transaction_regions_monthly.length > 0){
+					control3 = createDashboardRegionalMonthly();
+				}
+				
+				if(chartData.transaction_customer_yearly.length > 0){
+					control4 = createDashboardCustomerYearly();
+				}
+			}
+			
+			
+			
+			function cleanAllCircles(){
+				let containers = ['current_ratio_chart', 'dsi_chart', 'dso_chart', 'dpo_chart'];
+				containers.forEach( container => {
+					let element = document.getElementById(container);
+					let allCircles = element.querySelectorAll("circle");
+					console.log(allCircles);
+					Array.prototype.forEach.call(allCircles, function(circle, i) {
+						if(i == allCircles.length -1){
+							circle.remove();
+						} else {
+							circle.setAttribute('fill', '#fff');
+							circle.setAttribute('stroke', '#fff');
+						}
+					});
+					let findPath = element.querySelector("path[stroke='#c63310']");
+					if(findPath != null){
+						findPath.setAttribute('fill', '#5B6472');
+						findPath.setAttribute('stroke', '#5B6472');
+					}
+					let findTickPath = element.querySelector("path[stroke='#333333']");
+					if(findTickPath != null){
+						findTickPath.remove();
+					}
+					let text = element.querySelector("text[text-anchor='middle']");
+					if(text != null){
+						text.remove();
+					}
+				});				
+			}
+
+			function createDashboardRegionalMonthly(){
+				let regionChartMonthlyData = new google.visualization.DataTable();
+						regionChartMonthlyData.addColumn('string', 'Month');
+						let stateList = [];
+						if(chartData.transaction_regions_monthly.length > 0){
+							chartData.transaction_regions_monthly.forEach( state => {
+								if(stateList.indexOf(state.state) <= 0){
+									stateList.push(state.state);
+								}								
+							});
+							stateList.forEach( state => {
+								regionChartMonthlyData.addColumn('number',state);
+							})							
+						}						
+						//regionChartMonthlyData.addColumn('number', 'Total');
+						if(chartData.transaction_regions_monthly.length > 0){
+							chartData.transaction_regions_monthly.forEach( state => {
+								let createNewRow = [];
+								createNewRow.push(state.deal_months);
+								stateList.forEach(s => {
+									if(s == state.state){
+										createNewRow.push(Number(state.total));
+									} else {
+										createNewRow.push(0);
+									}
+								});							
+								regionChartMonthlyData.addRow(createNewRow);
+							});
+						}
+						var regionMonthlySlider = new google.visualization.ControlWrapper({
+							'controlType': 'CategoryFilter',
+							'containerId': 'region_control_div',
+							'options': {
+								filterColumnIndex: 0,
+								'ui': {
+									'allowTyping': false,
+									'allowMultiple': true,
+									'orientation': 'horizontal',
+									'showRangeValues': false,
+									'label': ''
+								}
+							}
+						});
+
+						var regionTransactionMonthlyChart  = new google.visualization.ChartWrapper({
+							'chartType': 'LineChart',
+							'containerId': 'transactions_region',
+							'options': {
+								width: '100%',
+								height: 450,
+								vAxis: {format: '0'}
+							}
+						});	
+						var dashboard = new google.visualization.Dashboard(document.getElementById('programmatic_dashboard_div'));
+				
+						dashboard.bind(regionMonthlySlider, [regionTransactionMonthlyChart]);
+						dashboard.draw(regionChartMonthlyData);
+						
+						return regionMonthlySlider;
+			}
+			
+			function createDashboardCustomerYearly(){
+				let customerChartYearlyData = new google.visualization.DataTable();
+						customerChartYearlyData.addColumn('number', 'Year');
+						let customerList = [];
+						if(chartData.transaction_customer_yearly.length > 0){
+							chartData.transaction_customer_yearly.forEach( customer => {
+								if(customerList.indexOf(customer.name) <= 0){
+									customerList.push(customer.name);
+								}								
+							});
+							customerList.forEach( customer => {
+								customerChartYearlyData.addColumn('number',customer);
+							})							
+						}						
+						
+						if(chartData.transaction_customer_yearly.length > 0){
+							chartData.transaction_customer_yearly.forEach( customer => {
+							
+								
+								let createNewRow = [];
+								createNewRow.push(Number(customer.deal_year));
+								customerList.forEach(c => {
+									if(c == customer.name){
+										createNewRow.push(Number(customer.total));
+									} else {
+										createNewRow.push(0);
+									}
+								});							
+								customerChartYearlyData.addRow(createNewRow);
+							});
+						}
+						var customerYearlySlider = new google.visualization.ControlWrapper({
+							'controlType': 'CategoryFilter',
+							'containerId': 'region_control_div',
+							'options': {
+								filterColumnIndex: 0,
+								'ui': {
+									'allowTyping': false,
+									'allowMultiple': true,
+									'orientation': 'horizontal',
+									'showRangeValues': false,
+									'label': ''
+								}
+							}
+						});
+
+						var customerTransactionYearlyChart  = new google.visualization.ChartWrapper({
+							'chartType': 'LineChart',
+							'containerId': 'transactions_customer',
+							'options': {
+								width: '100%',
+								height: 450,
+								vAxis: {format: '0'}
+							}
+						});	
+						var dashboard = new google.visualization.Dashboard(document.getElementById('programmatic_dashboard_div'));
+				
+						dashboard.bind(customerYearlySlider, [customerTransactionYearlyChart]);
+						dashboard.draw(customerChartYearlyData);
+						
+						return customerYearlySlider;
+			}
+			
+			function createDashboardRegional(){
+				let regionChartData = new google.visualization.DataTable();
+						regionChartData.addColumn('string', 'State');
+						regionChartData.addColumn('number', 'Total');
+						if(chartData.transaction_regions_counter.length > 0){
+							chartData.transaction_regions_counter.forEach( state => {
+								regionChartData.addRow([state.name, Number(state.counter)]);
+							});
+						}
+
+						var regionSlider = new google.visualization.ControlWrapper({
+							'controlType': 'CategoryFilter',
+							'containerId': 'region_control_div',
+							'options': {
+								filterColumnIndex: 0,
+								'ui': {
+									'allowTyping': false,
+									'allowMultiple': true,
+									'orientation': 'horizontal',
+									'showRangeValues': false,
+									'label': ''
+								}
+							}
+						});
+
+						var regionChart  = new google.visualization.ChartWrapper({
+							'chartType': 'GeoChart',
+							'containerId': 'map_region',
+							'options': {
+								width: '100%',
+								height: 475,
+								region: 'IT',
+								displayMode: 'markers',
+								colorAxis: {colors: ['#B46617']},
+								legend: 'none',
+								chartArea: {left: 15, top: 15, right: 0, bottom: 0}
+							}
+						});	
+						var dashboard = new google.visualization.Dashboard(document.getElementById('programmatic_dashboard_div'));
+				
+						dashboard.bind(regionSlider, [regionChart]);
+						dashboard.draw(regionChartData);
+						
+						return regionSlider;
+			}
+
+			window.addEventListener("resize", drawVisualization);
+
+
+
+			
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid" id="programmatic_dashboard_div">
+			<div class="row">				
+				<div class="banner-panel banner-panel-box-shadow">
+					<div class="col-lg-12">
+						<div class="banner-title">
+							<p>Financial Management</p>
+						</div>
+						<div class="row d-none">
+							<div id="region_control_div" class="col-lg-3 col-md-3 col-sm-3"></div>
+							<div id="programmatic_control_div" class="col-lg-3 col-md-3 col-sm-3"></div>
+							<div id="column_control_div" class="col-lg-3 col-md-3 col-sm-3"></div>
+							<div id="line_control_div" class="col-lg-3 col-md-3 col-sm-3"></div>
+							<div id="stack_control_div" class="col-lg-3 col-md-3 col-sm-3"></div>
+						</div>						
+					</div>
+				</div>
+			</div>
+			<div class="row bg-color">
+				<div class="col-lg-12 col-md-12 col-sm-12">	
+					<div class="row">
+						<div class="col pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row h-100">
+									<div class="col-sm-12 my-auto">
+										<div class="text-center">
+											Customers:
+										</div>
+										<div class="text-center color-blue" id="total_customers">
+											<h3>$1,630,270</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row h-100">
+									<div class="col-sm-12 my-auto">
+										<div class="text-center">
+											New Customers:
+										</div>
+										<div class="text-center color-red" id="new_customers">
+											<h3>$1,630,270</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row h-100">
+									<div class="col-sm-12 my-auto">
+										<div class="text-center">
+											New Deals:
+										</div>
+										<div class="text-center color-red" id="new_deals">
+											<h3>$1,630,270</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row h-100">
+									<div class="col-sm-12 my-auto">
+										<div class="text-center">
+											Best Region:
+										</div>
+										<div class="text-center color-red" id="best_region">
+											<h3>$1,630,270</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pt-1">
+							<div class="dbrd-control-container height-small mx-1">
+								<div class="row h-100">
+									<div class="col-sm-12 my-auto">
+										<div class="text-center">
+											Best Customer:
+										</div>
+										<div class="text-center color-red" id="best_customer">
+											<h3>$1,630,270</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 p-3">
+							<div class="mt-1 dbrd-control-container height-large mx-1"  id="map_region">
+							
+							</div>
+						</div>
+						<div class="col-6 p-3">
+							<div class="mt-1 dbrd-control-container height-large mx-1"  id="map_region_postal">
+							
+							</div>
+						</div>
+						<div class="col-6 p-3">
+							<div class="mt-1 dbrd-control-container height-large mx-1"  id="transactions_region">
+							
+							</div>
+						</div>
+						<div class="col-6 p-3">
+							<div class="mt-1 dbrd-control-container height-large mx-1"  id="transactions_customer">
+							
+							</div>
+						</div>						
+					</div>
+				</div>					
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,86 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3870:"<p>Fortune’s 2019 40 Under 40, our annual selection of the most influential young people in business. Top3 : Rohff. ↪ NINHO A VENDU + 1 000 000 D’ÉQUIVALENTS VENTES M.I.L.S. We teamed up with Qlik, the Official Analytics Partner of the Fortune 500, to bring to life the shifting fortunes of iconic companies and sectors in an interactive data visualization. Our director of infographics, Nicolas Rapp, offers a look at where they're located—and how far some have come (or fallen).The number of female CEOs in the Fortune 500 hits an all-time recordFortune 500 CEO survey: How are America’s biggest companies dealing with the coronavirus pandemic?The companies that will be devastated by the economy this year Use of this site constitutes acceptance of our Ever wonder how many Fortune 500 companies are in your state? </p> <p>We teamed up with Qlik, the Official Analytics Partner of the Fortune 500, to bring to life the shifting fortunes of iconic companies and sectors in an interactive data visualization.© 2020 Fortune Media IP Limited. All Rights Reserved. : + 100 000 (2016) COMME PRÉVU : + 400 000 (2017) M.I.L.S. view 2019 list. Combien la fortune de Ninho en 2020? For an astounding 13th straight year, Apple claims the top spot in Fortune’s annual ranking of corporate reputation, based on a survey of almost 3,800 executives, directors, and analysts.  Ninho fortune personnelle 2020, sa jeunesse et carrière music.Ninho est un rappeur et chanteur auteur-compositeur français.il est aussi un Rappeur youtubeur, a l’age de 16 ans il fait différents remixes et freestyles.En 2020, la valeur nette et la fortune personnelle de Ninho estimée à environ 6 millions de dollars.Ninho pseudonyme de William Nzobazola né le 2 avril 1996 à Longjumeau dans l’Essonne en France.A l’âge de 12 ans Ninho commence le Rap, en meme temps il étudie a l’ecole.Ninho sort 3 mixtapes: en 2013 ‘ils sont pas au courant Vol’. Puis dans une semaine l’album est certifié disque d’or. (Or how often those companies made the cut over the last 20 years?) Avec plus de 20 ans de carrière et 8 albums, Rohff fait partie des rappeurs les plus riches du moment. Il faut ajouter à cela des partenariats commerciaux et d’autres investissements, et vous aller obtenir un revenu annuel estimé à 550,000 euros, et une fortune totale estimée à 6 millions d’euros ! 2019 2018 2017 2016 2015 2014 2013 2012. Ensuite en 2019, Ninho sort l’album Destin, en collaboration sur 7 morceaux vec Niska, Dadju, Jul. Ensuite en 2020, il annonce sa mixtape M.I.L.S 3.0, qui classe apres une semaine sur Spotify en France et cinquième du Top mondial sur Deezer. 1, et en 2014 il sort ‘En attendant I.S.P.A.C 2’ (Ils sont pas au courant), et puis en 2016 ‘I.S.P.A.C 2’.Ensuite en 2016 il il sort sa mixtape qui qui avoir grande succè et certifiée disque de platine intitulée M.I.L.S (Maintenant ils le savent).En 2018 Ninho sort sa mixtape M.I.L.S 2.0. qui rencontre un succès impressionnant en France.En duo avec Rim’k pour ‘ Air max ‘, qui Il est certifié single de diamant et avoirun grand succès aussi.Ensuite en 2019, Ninho sort l’album Destin, en collaboration sur 7 morceaux vec Voici quelques-uns des meilleurs moments de la carrière de Ninho:Ninho rencontre un succès fulgurant de ses mixtapes, et remporte des prix et des distinctions.Enfin en 2020 la valeur nette de Ninho estimée à une fortune de 6 millions de dollars.Sur Jeprofite on met une collection de la fortune des célébrités du monde, telles que ses voitures, maisons.Bienvenue dans notre communauté, et nous sommes très reconnaissants de vous avoir parmi nous. This year's Global 500 generated $27.7 trillion in revenues and $1.5 trillion in profits. 2.0 : +200 000 (2018) DESTIN : + 300 000 (2019) Félicitations à @ninhosdt ! 2018 2017 2016. more. </p>";s:7:"keyword";s:18:"ninho fortune 2019";s:5:"links";s:3516:"<a href='https://backyard.synpat.com/site/article.php?page=mat%C3%A9riel-division-montessori-88a0eb'>Matériel Division Montessori</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=accessoire-real-madrid-88a0eb'>Accessoire Real Madrid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hannibal-lecter-%3A-les-origines-du-mal-streaming-vf-hd-88a0eb'>Hannibal Lecter : Les Origines Du Mal Streaming Vf Hd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minables-6-lettres-88a0eb'>Minables 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mass-tech-vs-serious-mass-88a0eb'>Mass Tech Vs Serious Mass</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-voyage-de-magellan-streaming-vf-88a0eb'>Le Voyage De Magellan Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=messi-iniesta-xavi-88a0eb'>Messi Iniesta Xavi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Aline-de-P%C3%A9tigny-88a0eb'>Aline De Pétigny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acide-amin%C3%A9-avant-ou-apr%C3%A8s-entra%C3%AEnement-88a0eb'>Acide Aminé Avant Ou Après Entraînement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-porto-2021-88a0eb'>Maillot Porto 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AEles-lavezzi-h%C3%A9bergement-88a0eb'>îles Lavezzi Hébergement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neymar-s%C5%93ur-couple-88a0eb'>Neymar Sœur Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Fortnite-skin-minotaure-88a0eb'>Fortnite Skin Minotaure</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-bio-saint-denis-974-88a0eb'>Magasin Bio Saint-denis 974</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bio-ron-ely-88a0eb'>Bio Ron Ely</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=buena-suerte-paroles-traduction-88a0eb'>Buena Suerte Paroles Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=highlander-definition-maladie-88a0eb'>Highlander Definition Maladie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-meurice-juin-2020-88a0eb'>Guillaume Meurice Juin 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mr-gaspacho-streaming-vf-88a0eb'>Mr Gaspacho Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taux-moyen-d%C3%A9finition-88a0eb'>Taux Moyen Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-d%C3%A9jeuner-m%C3%A9nopause-88a0eb'>Petit Déjeuner Ménopause</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-naruto-et-sasuke-88a0eb'>Photo Naruto Et Sasuke</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manchester-m%C3%A9t%C3%A9o-annuelle-88a0eb'>Manchester Météo Annuelle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mariana-mazza-youtube-88a0eb'>Mariana Mazza Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pizza-marie-cuisson-88a0eb'>Pizza Marie Cuisson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Water-Park-Minecraft-88a0eb'>Water Park Minecraft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=subsequent-meaning-in-arabic-88a0eb'>Subsequent Meaning In Arabic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=run-chanson-prank-88a0eb'>Run Chanson Prank</a>,
+";s:7:"expired";i:-1;}

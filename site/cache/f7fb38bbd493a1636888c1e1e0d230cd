@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6371:"<p>You will not be denied or charged different prices or rates for goods or services or provided a different level or quality of goods or services.As of the effective date of this policy, we do not have actual knowledge that we sell CCPA PI of consumers under 16 years of age. </p> <p>                 Advance your career with online courses in programming, data science, artificial intelligence, digital marketing, and more.          Whether you're a beginner or a seasoned pro looking to upskill, Treehouse has a course or program for you. </p> <p>                                           L'ACEL a lancé une plateforme pour les étudiants qui doivent se rendre à l'étranger pour leurs examens et qui auraient besoin d'un test Covid-19. )Speaking of libraries, yours can probably hook you up with a selection of Meanwhile, good news for parents: Amazon is now offering Anyone for a virtual tour of the American Museum of Magic?Like so many industries, live theater is taking a beating right now. Any customer who wishes to request further information about our compliance with these requirements, or who has questions or concerns about our privacy practices and policies, please use the Contact Us information provided below.If you are located in the European Economic Area, the United Kingdom, or Switzerland (the âEuropean Countriesâ), you have certain rights and protections under applicable law regarding the processing of your âpersonal dataâ as defined under applicable law.  Xandr may also act as a âprocessorâ as defined under applicable law to the extent that it processes your personal data on behalf of and at the instruction of another party, for example a Xandr client.Xandrâs legal basis for processing your personal data depends upon the specific context in which we collect or use it. With many gyms now closed indefinitely, many services have stepped up with free home-workout options. In order to exercise these choices, visit AT&Tâs If you reside in certain jurisdictions, you may have the right to access the data we hold about your devices.                                                     Screenshot by Rick Broida/CNET We may ask for your permission to resume sale of your CCPA PI at a later date, but we will wait at least 12 months before doing so.                                                                                                                              How For the most up-to-date news and information about the coronavirus pandemic, visit the  All of this born from a deeply rooted love for games, utmost care about customers, and …          These are external links and will open in a new window                             Dépistage                                   If you are interested in exercising any of these rights, please click If you reside in certain jurisdictions, you may have the right to delete the data we hold about your devices.                          If we collect CCPA PI that we know is from a child under 16 years old in the future, we will not sell that information unless we receive affirmative permission to do so.                 &copy2020 Xandr Inc. Xandr℠, the Kite logo, AT&T, the Globe logo and other marks are trademarks and service marks of AT&T Intellectual Property and/or AT&T affiliated companies. In Game or Online Viewing Activities (e.g., videos viewed, pages viewed). Need some new pictures for the kids to color?                                                      Rick Broida/CNET                                                              There's also no login or even registration required, and I was able to listen on my phone via my mobile browser. Afin d'alléger leur période d'examen, une nouvelle procédure a été lancée conjointement par l'ACEL, le ministère de l’Éducation et le ministère de la Santé.Une nouvelle plateforme permettra désormais aux étudiants de demander un bon afin de se faire dépister gratuitement. While we take care to obtain assurances from our clients and partners that their use of Platform Data will comply with applicable laws, when clients remove data from the Platform, their use of that data is governed by their own privacy policies and applicable laws, rules, or regulations.We shared Platform Data, in some instances together with Other Information, with third parties as follows:If you reside or are located in certain jurisdictions, you may have rights and protections regarding the collection, processing, sharing, and use of your data under a particular jurisdictionâs law.  For the moment it looks like a browser is required for this; the streams don't seem to be available within Audible's apps.                                   </p> <p>... Coronavirus: The sports turning to gaming during lockdown . Our legitimate interests are described in greater detail in the âIf you are located in one of the European Countries, you may be entitled to exercise certain data-subject rights available under applicable laws.                                                   If the agent relies on written permission, weâll need to verify the agentâs identity. The gaming community has "united" to say thank you to the "truly extraordinary people who make up the NHS frontline team", Ukie CEO Dr Jo Twist says. We know this is complicated, so if you have any questions about this information, pleaseÂ Below we provide an overview of our practices and where you can find more information.Regardless of where you live, Xandr provides several options for you to choose how you want to interact with the Platform and respects user choices provided by certain apps and device-system software.                              Call of Duty: Modern Warfare: Xbox One, PS4, PC (October 25)                  </p> <p>                 Animal Crossing: Why people play a game about 'meaningless tasks'  Final Fantasy 7 Remake: 'This is not just for the players of the original'  Animal Crossing, Warzone and the coronavirus impact  Coronavirus: The sports turning to gaming during lockdown </p> <p>It enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets as part of the wider European COVID-19 … Five games, all free this month for Amazon Prime subscribers (and Twitch users).Tired of bite-size phone games? </p>";s:7:"keyword";s:37:"plateforme gaming gratuit coronavirus";s:5:"links";s:6302:"<a href='https://backyard.synpat.com/site/article.php?page=paris-hotel-34b-astotel-88a0eb'>Paris Hotel 34b Astotel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bapt-et-ga%C3%ABl-dispute-88a0eb'>Bapt Et Gaël Dispute</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hell%27s-bells-tablature-88a0eb'>Hell's Bells Tablature</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=listen-verbe-irr%C3%A9gulier-anglais-88a0eb'>Listen Verbe Irrégulier Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-charles-sabattier-instagram-88a0eb'>Jean-charles Sabattier Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mots-avec-oy-88a0eb'>Mots Avec Oy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=reportage-foot-canal-%2B-88a0eb'>Reportage Foot Canal +</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chouf-tv-asmaa-amrani-2020-88a0eb'>Chouf Tv Asmaa Amrani 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=album-en-anglais-you-tube-88a0eb'>Album En Anglais You Tube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-3-auvergne-%3A-programme-88a0eb'>France 3 Auvergne : Programme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-avec-le-mot-monde-dedans-94-88a0eb'>Musique Avec Le Mot Monde Dedans 94</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=google-back-story-88a0eb'>Google Back Story</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=candice-pascal-%C3%A2ge-88a0eb'>Candice Pascal âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=one-piece-tome-1-date-de-sortie-88a0eb'>One Piece Tome 1 Date De Sortie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-pri%C3%A8re-nouakchott-ramadan-88a0eb'>Horaire Prière Nouakchott Ramadan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gainer-maison-1000-kcal-88a0eb'>Gainer Maison 1000 Kcal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-chlo%C3%A9-bottet-date-de-naissance-88a0eb'>Anne-chloé Bottet Date De Naissance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tpmp-prime-2020-88a0eb'>Tpmp Prime 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=j%27ai-en-anglais-88a0eb'>J'ai En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-de-stretching-avec-%C3%A9lastique-pdf-88a0eb'>Exercice De Stretching Avec élastique Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-witcher-3-gambit-royal-88a0eb'>The Witcher 3 Gambit Royal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Exercice-en-duo-88a0eb'>Exercice En Duo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=to-butter-someone-up-88a0eb'>To Butter Someone Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-nike-france-88a0eb'>Magasin Nike France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%A9b%C3%A9-lol-vid%C3%A9o-88a0eb'>Bébé Lol Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angle-site-et-gisement-88a0eb'>Angle Site Et Gisement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=championnat-des-etats-unis-88a0eb'>Championnat Des Etats-unis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cla-1000-avis-consommateur-88a0eb'>Cla 1000 Avis Consommateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marvyn-et-gabrielle-88a0eb'>Marvyn Et Gabrielle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-duo-88a0eb'>Pékin Express Duo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sephora-latelier-des-subtils-88a0eb'>Sephora Latelier Des Subtils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=si-on-s%27aimait-candidat-fanny-88a0eb'>Si On S'aimait Candidat Fanny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dimitri-rougeul-je-voudrais-d%C3%A9j%C3%A0-%C3%AAtre-roi-88a0eb'>Dimitri Rougeul Je Voudrais Déjà être Roi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-fourchette-de-prix-88a0eb'>Synonyme De Fourchette De Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hello-partition-piano-88a0eb'>Hello Partition Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mathieu-flamini-club-88a0eb'>Mathieu Flamini Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sorbonne-universit%C3%A9-biblioth%C3%A8que-88a0eb'>Sorbonne Université Bibliothèque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-rap-gratuit-t%C3%A9l%C3%A9charger-88a0eb'>Beat Rap Gratuit Télécharger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-france-adresse-88a0eb'>Twitter France Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=auxiliaire-de-vie-suisse-salaire-88a0eb'>Auxiliaire De Vie Suisse Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-mfc-j4510dw-cartouche-88a0eb'>Brother Mfc-j4510dw Cartouche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mat%C3%A9riel-de-musculation-maison-88a0eb'>Matériel De Musculation Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=antenne-int%C3%A9rieure-70-db-88a0eb'>Antenne Intérieure 70 Db</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tsa-precheck-air-france-88a0eb'>Tsa Precheck Air France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-monaco-2004-88a0eb'>Chelsea Monaco 2004</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=veo-veo-juego-88a0eb'>Veo Veo Juego</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-meilleur-passeur-d%C3%A9cisif-88a0eb'>Le Meilleur Passeur Décisif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-smoothie-thibault-geoffray-88a0eb'>Recette Smoothie Thibault Geoffray</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contraire-du-mot-nocturne-88a0eb'>Contraire Du Mot Nocturne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=farine-de-lupin-prix-88a0eb'>Farine De Lupin Prix</a>,
+";s:7:"expired";i:-1;}

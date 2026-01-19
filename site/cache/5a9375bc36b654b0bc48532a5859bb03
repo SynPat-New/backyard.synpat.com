@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6667:"<p>Elle a integré l'aventure au troisième jour après l'abandon de Charlie. Elle a integré l'aventure au troisième jour après l'abandon de Charlie.                                                                     Tous les tags Koh-Lanta 2016 Laureen Romain couple revelation.                 ** Votre e-mail est destiné à CMI Digital et les sociétés du groupe CMI France (sauf opposition de votre part) pour les finalités suivantes (i ) inscription aux Newsletters Public.fr (ii) proposition de messages et contenus adaptés à votre profil, et selon les consentements que vous allez nous donner (iii) réception des bons plans et offres commerciales des partenaires de Public.fr.                              Les deux candidats de l'émission sont en couple depuis plusieurs mois, combien exactement ? Laura Smet, Lily Allen, Nelly Auteuil,... comme Line Papin, elles se sont mariées en robe Delphine Manivet ! Camille Combal : cette célèbre émission qu'il s'apprête à relancer sur TF1                                                                      Top Chef                              Restons connectés https://t.co/SV3AfByVsWKoh-Lanta 2016 : Karima avec le couple Laureen/RomainKoh-Lanta 2016 : Karima a eu un coup de coeur pour Carole dans l'aventureKoh-Lanta 2016 : Karima aux côtés de sa maman, de Laurent Maistret et de TeheiuraKoh-Lanta 2016 - Karima : ses sourcils avaient été moqués sur Twitter lors de l'épisode 4Koh-Lanta 2016 : Karima très complice avec sa mamanKoh-Lanta 2016 : Karima se définit comme une "fille à maman" </p> <p>                                                                    Koh-Lanta ANTENNEREUNION.FR – créé le 5.04.2016 à 17h36 – mis à jour le 5.04.2016 à 17h36                              Romain et Laureen seraient-ils en couple ?                                                                                  Golden Globes                                 Meghan Markle a 39 ans !             atteinte à vos droits ? Laura Smet, Lily Allen, Nelly Auteuil,... comme Line Papin, elles se sont mariées en robe Delphine Manivet !                                                                                      Mariés au premier regard                                                                     Pékin Express Merci de nous le signaler. Pour exercer vos droits, contacter CMI Digital à l’adresse contact@public.fr en justifiant de votre identité. Mort de Ron Nicolosi : La série How I Met Your Mother en deuil... les hommages sur Twitter se multiplient ! Idéal !Vous avez repéré un commentaire avec un contenu illégal ou portant                                                     Mariage 4 magazines Public numériques offerts* Photos : lèvres refaites : ces stars qui ont eu recours aux injections labiales                                  Iris Mittenaere blessée : ces vacances en Grèce qui tournent mal Laureen Hugel, née le 26 mai 1989, est une des candidates de Koh Lanta: Thaïlande.                                                                     Enfants de stars                                                                     Oscars PHOTOS - Tendance été 2020 : shoppez vos mules à talons de luxe... À moindre coût ! </p> <p>                                                             Umbrella Academy : Zoom sur Tom Hopper (Spaceboy) alias l'atout sexy de l'une des séries phares de Netflix ! Koh lanta 2016: Élimination de Laureen et Steve ! </p> <p>                             Mathilde de "Koh-Lanta" et Romain en couple - photo publiée le 6 avril 2020, sur Instagram Laureen et Romain, candidats de "Koh-Lanta 2016" sont en couple.                                                                     Livenews </p> <p></p> <p>Pourtant au début, les deux tourtereaux avaient nié toutes les rumeurs d'une éventuelle romance entre eux.                              Télé et téléréalité; Koh-Lanta; Pour la seconde fois dans l'histoire de Koh-Lanta, un couple d'aventuriers s'est formé. Le 31/05/2016 à 14:50 par Nathalie CRESPEAU Modifié le 17/08/2017 à 18:10 En effet, une histoire d’amour est née entre deux candidats de l’émission. Koh Lanta 2016 en images Les 20 candidats partent pour la Thaïlande ... de belles aventures s'y déroulent. La petite Mélody 225 views. Romain vit à Saint-Laurent du Var tandis que Laureen habite à Cannes.                                                                     Divorce                              «Koh Lanta 2016»: Laureen et Romain sont en couple. Elle fait parti de la tribu jaune, les Karwaï.                                                                                         TV                                                 C'est officiel, Laureen et Romain, les deux aventuriers de la saison 2016 de Koh Lanta, sont en couple !             atteinte à vos droits ? Valérie Trierweiler in love de Romain Magellan : “Il n’était pas libre quand je l’ai rencontré”"Nous n'avons jamais eu de discussion"... Romain, le fils de Michel Sardou balance ! Pour toute information complémentaire, consulter notre                                 Iris Mittenaere blessée : ces vacances en Grèce qui tournent mal                                                                     Les Marseillais </p> <p>                                                                    Demain nous appartient Restons connectés Merci de nous le signaler. PHOTOS - Tendance été 2020 : shoppez vos mules à talons de luxe... À moindre coût !                 ** Votre e-mail est destiné à CMI Digital et les sociétés du groupe CMI France (sauf opposition de votre part) pour les finalités suivantes (i ) inscription aux Newsletters Public.fr (ii) proposition de messages et contenus adaptés à votre profil, et selon les consentements que vous allez nous donner (iii) réception des bons plans et offres commerciales des partenaires de Public.fr. Mai 2016. ... Il n'empêche que, parfois, de belles aventures s'y déroulent. Et pour sceller définitivement les liens après la fin de l'aventure, les deux habitent à quelques kilomètres. Laureen et Romain de Koh Lanta 2016 sont tombés amoureux !                                                                     Les Anges @selenagomez will star in a new @hulu series with @SteveMartinToGo and Martin Short https://t.co/Idrhedrmrv✨ my favorite emoji is the magic sparkle ✨ what’s yours? Romain et Laureen (Koh Lanta 2016) : ils officialisent leur couple !                                                     MTV Music Awards Pour toute information complémentaire, consulter notre </p>";s:7:"keyword";s:29:"romain koh lanta 2016 laureen";s:5:"links";s:6724:"<a href='https://backyard.synpat.com/site/article.php?page=ramadan-maroc-date-aujourd%27hui-88a0eb'>Ramadan Maroc Date Aujourd'hui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-chardons---flavie-flament-88a0eb'>Les Chardons - Flavie Flament</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vallee-des-pyrenees-espagnoles-4-lettres-88a0eb'>Vallee Des Pyrenees Espagnoles 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-d5600-%2B-18-140-vr-88a0eb'>Nikon D5600 + 18-140 Vr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rowing-menton-prise-serr%C3%A9e-88a0eb'>Rowing Menton Prise Serrée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yann-sommer-mariage-88a0eb'>Yann Sommer Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=racines-paris-tondo-88a0eb'>Racines Paris Tondo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-consultant-senior-manager-88a0eb'>Salaire Consultant Senior Manager</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thiron-gardais-st%C3%A9phane-bern-88a0eb'>Thiron-gardais Stéphane Bern</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rectification-culasse-prix-88a0eb'>Rectification Culasse Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abonn%C3%A9s-twitter-gratuit-88a0eb'>Abonnés Twitter Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-sans-%C3%A9dulcorant-88a0eb'>Bcaa Sans édulcorant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=approbation-en-attente-instagram-88a0eb'>Approbation En Attente Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9crire-un-texte-en-n%C3%A9erlandais-88a0eb'>écrire Un Texte En Néerlandais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-milieu-de-terrain-2020-88a0eb'>Meilleur Milieu De Terrain 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-primotexto-88a0eb'>Code Promo Primotexto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dressing-en-u-88a0eb'>Dressing En U</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toner-brother-dcp-l2530dw-88a0eb'>Toner Brother Dcp-l2530dw</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Exercices-de-r%C3%A9sistance-88a0eb'>Exercices De Résistance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-l%27ile-des-heros-episode-11-88a0eb'>Koh Lanta L'ile Des Heros Episode 11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tu-m%27appr%C3%A9cie-definition-88a0eb'>Tu M'apprécie Definition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-17-70-occasion-88a0eb'>Sigma 17 70 Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=is-this-love-guitar-88a0eb'>Is This Love Guitar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-podcast-soundcloud-88a0eb'>Meilleur Podcast Soundcloud</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-fou-de-vous-paroles-88a0eb'>Je Suis Fou De Vous Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-ramadan-allemagne-88a0eb'>Horaire Ramadan Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angelina-the-voice-kid-%C3%A2ge-88a0eb'>Angelina The Voice Kid âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pasta-della-norma-88a0eb'>Pasta Della Norma</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-film-fran%C3%A7ais-88a0eb'>Un Film Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zombie-chronicles-2-date-de-sortie-88a0eb'>Zombie Chronicles 2 Date De Sortie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Partition-Ma%C3%AEtre-Gims-88a0eb'>Partition Maître Gims</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lettre-de-motivation-CFC-88a0eb'>Lettre De Motivation CFC</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=simons-ouverture-19-mai-88a0eb'>Simons Ouverture 19 Mai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=forum-in%C3%A8s-koh-lanta-88a0eb'>Forum Inès Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marjana-tir-age-88a0eb'>Marjana Tir Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-premier-match-de-messi-88a0eb'>Le Premier Match De Messi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magma---mythes-et-legendes-epok-2-88a0eb'>Magma - Mythes Et Legendes Epok 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lellouche-rmc-delphine-88a0eb'>Lellouche Rmc Delphine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-mfc-9330cdw-toner-88a0eb'>Brother Mfc-9330cdw Toner</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=genoa-italy-port-88a0eb'>Genoa Italy Port</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9%C3%A9ducation-%C3%A9paule-%C3%A9lastique-88a0eb'>Rééducation épaule élastique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ronnie-Coleman-1991-88a0eb'>Ronnie Coleman 1991</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marche-rapide-r%C3%A9sultats-visibles-forum-88a0eb'>Marche Rapide Résultats Visibles Forum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=100-recettes-pour-toi-mon-coeur-88a0eb'>100 Recettes Pour Toi Mon Coeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Photo-Balavoine-mort-88a0eb'>Photo Balavoine Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maxime-Dereymez-taille-88a0eb'>Maxime Dereymez Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bella-ciao-guitare-fingerstyle-88a0eb'>Bella Ciao Guitare Fingerstyle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plan-heathrow-terminal-4-88a0eb'>Plan Heathrow Terminal 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-veux-tes-yeux-accords-88a0eb'>Je Veux Tes Yeux Accords</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9crire-une-lettre-en-italien-bac-88a0eb'>écrire Une Lettre En Italien Bac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-sur-la-fin-du-monde-88a0eb'>Film Sur La Fin Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karafun-le-blues-du-businessman-88a0eb'>Karafun Le Blues Du Businessman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capitale-d%C3%A9finition-fran%C3%A7ais-88a0eb'>Capitale Définition Français</a>,
+";s:7:"expired";i:-1;}

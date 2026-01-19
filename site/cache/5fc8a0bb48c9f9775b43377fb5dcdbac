@@ -1,0 +1,109 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6335:"<br>This means anyone with an Android phone or tablet can use the Amazon Music app to play their favorite songs, stations, playlists, and more right to their Google Home speaker.To start, download the Amazon Music app from the Google Play Store here. Wir zeigen Ihnen in diesem Praxistipp, wie es Ihnen dennoch gelingt.Für die Wiedergabe von Music unterstützt Google Home von Haus aus Spotify, Deezer, Google Music sowie zahlreiche Radio-Sender. Let’s take a look at how to do it.Like with any other source of audio, you’re going to need to be using Chrome on your computer in order to stream to a Google device, whether it be a Google Home or a Chromecast Audio. <br> Google Home is one of our favorite smart speakers, and Amazon Music is a free-with-Prime subscription service that makes listening to music easy. <br> <br>Put simply, we'll walk you through turning your dumb home into a smart home.Lut us send you our best tips weekly for the Echo, Google Home, and more. Apple Music ne peut pas être lu directement sur PlayStation 4. Sure, streaming from your computer is the easiest way for anyone to get Amazon Music up and running on their Google Home speaker, but if you want to change the album playing or skip a song on one of Amazon’s radio stations, you’ll need to head back to your computer instead of controlling the playback right from the phone you keep on you. Just fill out the information below and we'll turn you into a smart home expertEnter your e-mail below and we'll send you our best tips weekly for the Echo, Google Home, and more. You should hear a jingle on your device, and the box displayed over your browser will read “Casting tab.”Exit out of the box and find something to playback on your Google Home device. Select the speaker you wish to cast to, and you’ll hear a jingle from the device after you’ve connected. While the limitations implemented in using Amazon Music with Google Home, particularly when it comes to voice control, remains frustrating, we’ll take basic support for casting audio over a lack of total support for playback at all.Hopefully 2020 sees an improvement between Amazon and Google on both hardware and software sides. Google has many special features to help you find exactly what you're looking for. If you only have one Cast-enabled device, it may be the only listing on your network. Google and Amazon started competing in the streaming game, with Amazon refusing to sell the Chromecast or Chromecast Ultra and instead offering users an Amazon Fire Stick or Roku device, and again refusing to carry the Google Home library of smart speakers.Google retaliated throughout 2017, pulling YouTube from both the Echo Show and the Fire Stick (though YouTube support has since returned to the latter). It started slowly, with Amazon first developing their own fork of Android and pushing for standard Android users to download the Amazon Appstore to gain access to Prime Video.  Cast-enabled speakers from third-party manufacturers, like the ones you can find listed on this Find the name of your Google Home device on this list. Le service de musique par défaut de Google Home est Google Play, mais il prend également en charge le service gratuit de Pandora (États-Unis uniquement), Spotify Free et Premium et YouTube Music. <br> <br>If you haven’t been playing music for a while, you might see your phone or tablet disconnect from your speaker.If you happen to have Amazon Music on an iPhone or an iPad, you’re out of luck. That doesn’t mean there’s a lack of third-party support, but in the case of Amazon Music, you won’t have the full power of Google Assistant. <br> <br>If and when additional support for Amazon Music on Google Home arrives, we’ll make sure to update this guide with additional information.The same goes for Amazon’s Alexa, and FireStick. Amazon Music mit dem Google Home nutzen - so geht's Für die Wiedergabe von Music unterstützt Google Home von Haus aus Spotify, Deezer, Google Music sowie zahlreiche Radio-Sender. This default service will be used first when possible. Enjoy music from popular music services by artist, song, genre, album, playlist, mood, or activity. Articles liés: Comment jouer de la musique Apple sur Amazon Echo ? Für Links auf dieser Seite erhält CHIP ggf. Journal de la voix est édité par des fans d'assistants vocaux et d'IA. Vérifiez que l'appareil et Google Home sont connectés au même réseau Wi-Fi. Controlling the volume on your device can be done one of three ways:Once you have your volume set at a solid rate, begin playing something from your library or one of Amazon’s own radio stations.  <br>TuneIn est un service d’écoute de radio en streaming déjà largement utilisé en version application iOS et Android et depuis peu également sous forme de Skill Alexa. <br> <br>Google Home : Le Guide Complet Pour Bien Démarrer Cliquez sur 'en lire plus' pour découvrir l'ensemble du contenu du livre. Listen to your favourite songs online from your web browser. <br> <br>I also downloaded amazon music app on my iphone and there was no icon for “casting” either. 60 million songs with new releases from today's most popular artists. So while you might be able to cast from some audio apps installed on your phone (again, assuming you’re using Android), asking Google to “Play “God’s Plan” by Drake on Amazon Music” will garner you a response of “Voice Actions aren’t available for that app.”To start, follow either guide above to get music from Amazon playing back on your device. <br> <br>Une fois importé, vous pouvez configurer l'appareil Google Home et lire Apple Music sur Google Home ou Google Home mini à l'aide de la commande vocale simple. Si vous êtes déjà membre de la famille Apple Music et souhaitez utiliser Google Home pour diffuser en continu Apple Music, nous allons décrire ici deux manières pratiques d'écouter facilement Apple Music sur Google Home. If you have Amazon installed on your phone, you shouldn’t have to log in with your email and password; it should automatically sign you in.From the main display inside the application, look for the Cast icon as pictured here Tap on the Cast icon to view a list of the supported devices on your network, including your Google Home, Home Mini, or Home Max speaker. <br>";s:7:"keyword";s:29:"google home lire amazon music";s:5:"links";s:6922:"<a href='https://backyard.synpat.com/site/article.php?page=comment-brancher-plusieurs-tv-avec-la-fibre-88a0eb'>Comment Brancher Plusieurs Tv Avec La Fibre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-chaussure-nike-tn-88a0eb'>Photo De Chaussure Nike Tn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta%2C-la-guerre-des-chefs-streaming-%C3%A9pisode-1-88a0eb'>Koh-lanta, La Guerre Des Chefs Streaming épisode 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-pour-devenir-auxiliaire-de-pu%C3%A9riculture-88a0eb'>Lettre De Motivation Pour Devenir Auxiliaire De Puériculture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chouf-tv-asmaa-amrani-2020-88a0eb'>Chouf Tv Asmaa Amrani 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Bad-Boy-Boogie-tab-88a0eb'>Bad Boy Boogie Tab</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patrick-battiston-girondins-de-bordeaux-88a0eb'>Patrick Battiston Girondins De Bordeaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=editions-h%C3%A9lo%C3%AFse-d%27ormesson-manuscrits-88a0eb'>Editions Héloïse D'ormesson Manuscrits</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=samantha-et-nathalie-instagram-88a0eb'>Samantha Et Nathalie Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=asma-tele-r%C3%A9alit%C3%A9-instagram-88a0eb'>Asma Tele Réalité Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=note-de-production-documentaire-88a0eb'>Note De Production Documentaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-mfc-9330cdw-driver-88a0eb'>Brother Mfc-9330cdw Driver</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ecolo-province-luxembourg-88a0eb'>Ecolo Province Luxembourg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-nba-jordan-88a0eb'>Maillot Nba Jordan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-le-grand-slam-france-3-88a0eb'>Jeu Le Grand Slam France 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maxime-Dereymez-taille-88a0eb'>Maxime Dereymez Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-abonnement-france-football-88a0eb'>Code Promo Abonnement France Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-michel-jarre%2C-gong-li-mariage-88a0eb'>Jean-michel Jarre, Gong Li Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-protein-works-diet-whey-complex-extreme-avis-88a0eb'>The Protein Works Diet Whey Complex Extreme Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=donner-du-temps-au-temps-en-anglais-88a0eb'>Donner Du Temps Au Temps En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-sans-%C3%A9dulcorant-88a0eb'>Bcaa Sans édulcorant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lilou-fogli-film-88a0eb'>Lilou Fogli Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jane-goodall-jeune-88a0eb'>Jane Goodall Jeune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2019---youtube-88a0eb'>Fort Boyard 2019 - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Koh-Lanta-2018-%C3%A9pisode-7-88a0eb'>Koh-Lanta 2018 épisode 7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pharmacie-lafayette-l%27union-88a0eb'>Pharmacie Lafayette L'union</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamines-et-min%C3%A9raux-naturels-88a0eb'>Vitamines Et Minéraux Naturels</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-d%27%C3%A9dition-lyon-recrutement-88a0eb'>Maison D'édition Lyon Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cagnotte-claude-koh-lanta-montant-88a0eb'>Cagnotte Claude Koh-lanta Montant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-capu%C3%A7on-concert-musique-de-film-88a0eb'>Renaud Capuçon Concert Musique De Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-michel-larqu%C3%A9-thierry-roland-88a0eb'>Jean-michel Larqué Thierry Roland</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hagda-en-couple-avec-j%C3%A9r%C3%A9my-88a0eb'>Hagda En Couple Avec Jérémy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clo-koh-lanta-dylan-88a0eb'>Clo Koh-lanta Dylan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-de-mot-invariable-88a0eb'>Exemple De Mot Invariable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estimation-gain-cha%C3%AEne-youtube-88a0eb'>Estimation Gain Chaîne Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=centre-a%C3%A9r%C3%A9-montcuq-88a0eb'>Centre Aéré Montcuq</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amine-%28chanteur%29-titres-88a0eb'>Amine (chanteur) Titres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=snapchat-joueur-alg%C3%A9rien-88a0eb'>Snapchat Joueur Algérien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Jo%C3%ABl-Kimwaki-salaire-88a0eb'>Joël Kimwaki Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=New-zealand-flag-icon-88a0eb'>New Zealand Flag Icon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-connu-londres-88a0eb'>Hotel Connu Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=indice-des-prix-%C3%A0-la-consommation-insee-2020-88a0eb'>Indice Des Prix à La Consommation Insee 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=franck-gastambide-twitterenvoi-sms-group%C3%A9-bouygues-88a0eb'>Franck Gastambide Twitterenvoi Sms Groupé Bouygues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=indochine-stade-de-france-2021-88a0eb'>Indochine Stade De France 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=4-mois-sans-musculation-88a0eb'>4 Mois Sans Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=danny-pintauro-mort-88a0eb'>Danny Pintauro Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-de-l%27auteur-de-self-4-lettres-88a0eb'>Prénom De L'auteur De Self 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jamcore-dz-programme-femme-pdf-gratuit-88a0eb'>Jamcore Dz Programme Femme Pdf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=une-fois-de-temps-en-temps-88a0eb'>Une Fois De Temps En Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lane-8-no-captain-88a0eb'>Lane 8 No Captain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zidane-finale-ligue-des-champions-88a0eb'>Zidane Finale Ligue Des Champions</a>,
+";s:7:"expired";i:-1;}

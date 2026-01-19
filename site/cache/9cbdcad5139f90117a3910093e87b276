@@ -1,0 +1,85 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4839:"<br>In During the 1999–2000 season, the club played in the new On 18 August 2018, Poyet was suspended by Bordeaux after labelling the situation embarrassing when Since July 2020, the equipment manufacturer of the Girondins de Bordeaux is In its history, Bordeaux have had 36 coaches. und Emil Kostadinov (66.)                                Johan Micoud verlässt den UEFA Champions League-Teilnehmer Werder Bremen und wechselt zum FC Girondins de Bordeaux. The first was the FC Girondins de Bordeaux first competitive European match was in the Girondins de Bordeaux muss zum Auftakt der UEFA Champions League vermutlich auf Fernando Menegazzo verzichten, der sich die Schulter ausgekugelt hat.Der FC Girondins de Bordeaux muss zum Auftakt der UEFA Champions League vermutlich auf Mittelfeldspieler Fernando Menegazzo verzichten, der sich am Samstag die Schulter ausgekugelt hat. 05:15 17/06/2020 Live Bayern: The season so far. machten die Tore.• Zwei Wochen später behielten die Bayern mit 3:1 die Oberhand. Le PSG devra aussi réussir à enchaîner avec la fin de la Ligue des Champions. In Frankreich durfte er sich über einen 1:0-Sieg freuen, zu Hause verlor seine Mannschaft mit 1:2.• Bordeaux' Mittelfeldspieler Alou Diarra verließ Frankreich im Jahr 2000 als Teenager und ging für zwei Jahre zu den Bayern. ).• Bayern hat von den vorigen vier Spielen in Frankreich keines verloren, insgesamt steht die Bilanz in diesem Land jedoch bei zwei Siegen, drei Remis und sechs Niederlagen.• Die Münchener feierten ihren dritten Triumph im Pokal der europäischen Meistervereine gegen eine französische Mannschaft, im Mai 1976 wurde der AS Saint-Etienne im Finale von Glasgow mit 1:0 bezwungen.• In der gleichen Saison erlebte Blanc ein enttäuschendes Halbfinale gegen ein weiteres deutsches Team, er scheiterte mit ManU aufgrund der Auswärtstorregel an Bayer 04 Leverkusen.• Zuvor hatte Blanc im UEFA-Pokal Siege gegen die Bundesligisten Werder Bremen und Hertha BSC Berlin gefeiert, mit Olympique de Marseille (1998/99, zweite Runde) bzw. UEFA Champions League - Bordeaux bangt um Fernando - News Sie dürfen nicht für kommerzielle Zwecke verwendet werden. Alles zum Verein G. Bordeaux (Ligue 1) aktueller Kader mit Marktwerten Transfers Gerüchte Spieler-Statistiken Spielplan News Daniel Dutuel (75.) <br> Après le succès face à Iéna la saison précédente, l'annonce d'un nouvel adversaire est-allemand est accueillie avec un optimisme mesuré, bien que le match aller ait lieu à Bordeaux. Bei den Italienern, die diese Partie gewannen, kam Bayern-Stürmer Luca Toni zum Einsatz.• Ribéry war von 2005 bis 2007 bei Olympique de Marseille Teamkollege von Bordeaux' Cédric Carasso. 101,75 Mio. Malgré l’élimination en Ligue des Champions, les Bordelais tirent du positif de la soirée de mercredi.  und Mehmet Scholl (60.)                                                       Inklusive dem 3:0-Auftaktsieg bei Haifa haben die Münchener von den vergangenen elf Auftritten in der Fremde sechs gewonnen und nur zwei verloren.• Der letzte Besuch der Bayern in Frankreich war in der letztjährigen Gruppenphase, als sie mit 3:2 bei Olympique Lyonnais gewannen. Girondins de Bordeaux muss zum Auftakt der UEFA Champions League vermutlich auf Fernando Menegazzo verzichten, der sich die Schulter ausgekugelt hat.                 Letzte Aktualisierung: Sonntag, 13. Zuletzt traf er auch bei der UEFA EURO 2008™ für die Niederlande, als diese in der Vorrunde mit 4:1 über Frankreich triumphierten.Der Name UEFA, das UEFA-Logo und alle Marken von UEFA-Wettbewerben sind geschützte Marken und/oder von der UEFA urheberrechtlich geschützt. <br> <br>Ligue des Champions : tout juste parti de l'Atalanta, Tameze prévient le PSG ! Am dritten Spieltag der UEFA Champions League stehen sich die beiden führenden Teams in der Gruppe A gegenüber, der FC Girondins de Bordeaux und der deutsche Rekordmeister FC Bayern München.  <br>Wettbewerbe Une excellente nouvelle à dix jours du quart de finale de Ligue des Champions contre l'Atalanta. <br> <br>            © 1998-2020 UEFA. Am dritten Spieltag der UEFA Champions League stehen sich die beiden führenden Teams in der Gruppe A gegenüber, der FC Girondins de Bordeaux und der deutsche Rekordmeister FC Bayern München.Am dritten Spieltag kämpfen der FC Girondins de Bordeaux und der FC Bayern München im direkten Duell um die Tabellenführung in der Gruppe A. Beide stehen derzeit bei vier Punkten, mit einem Sieg könnten sie einen großen Schritt in Richtung Achtelfinale machen.• Das Hinspiel in Deutschland gewannen die Münchener am 1. Johan Micoud verlässt den UEFA Champions League-Teilnehmer Werder Bremen und wechselt zum FC Girondins de Bordeaux. <br> <br>München (RPO). Live 2019 Champions League semi-finals in 90 seconds. <br>";s:7:"keyword";s:28:"bordeaux ligue des champions";s:5:"links";s:3494:"<a href='https://backyard.synpat.com/site/article.php?page=amelle-chahbi-taille-88a0eb'>Amelle Chahbi Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-dire-apr%C3%A8s-salut-%C3%A7a-va-88a0eb'>Que Dire Après Salut ça Va</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eddy-%28secret-story%29-88a0eb'>Eddy (secret Story)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=master-psychologie-sociale-de-la-communication-et-du-marketing-88a0eb'>Master Psychologie Sociale De La Communication Et Du Marketing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=friandise-synonyme-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Friandise Synonyme Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mercato-dortmund-2020-88a0eb'>Mercato Dortmund 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-chinois-paris-2019-88a0eb'>Film Chinois Paris 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-choses-simples-sont-parfois-les-plus-belles-88a0eb'>Les Choses Simples Sont Parfois Les Plus Belles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pixar-film-netflix-88a0eb'>Pixar Film Netflix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-photographe-immobilier-88a0eb'>Plateforme Photographe Immobilier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=din-din-din---traduction-88a0eb'>Din Din Din - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fautif-en-arabe-88a0eb'>Fautif En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appli-pour-se-muscler-gratuit-88a0eb'>Appli Pour Se Muscler Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yseult-nouvelle-star-finale-88a0eb'>Yseult Nouvelle Star Finale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=50-sub-twitch-en-euro-88a0eb'>50 Sub Twitch En Euro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=doublage-harry-potter-hero-88a0eb'>Doublage Harry Potter Hero</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shaker-pas-cher-decathlon-88a0eb'>Shaker Pas Cher Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lellouche-rmc-delphine-88a0eb'>Lellouche Rmc Delphine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quotidien-lilia-hassaine-origine-88a0eb'>Quotidien Lilia Hassaine Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barre-be-kind-auchan-88a0eb'>Barre Be Kind Auchan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stade-manchester-united-88a0eb'>Stade Manchester United</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=real-madrid-liga-classement-88a0eb'>Real Madrid Liga Classement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-guide-pour-progresser-en-musculation-pdf-88a0eb'>Le Guide Pour Progresser En Musculation Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-de-milliardaire-en-france-88a0eb'>Maison De Milliardaire En France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-home-decor-88a0eb'>Amazon Home Decor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aisselle-de-ne-pas-rire-impossible-88a0eb'>Aisselle De Ne Pas Rire Impossible</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lane-8-no-captain-88a0eb'>Lane 8 No Captain</a>,
+";s:7:"expired";i:-1;}

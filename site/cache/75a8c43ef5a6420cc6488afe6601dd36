@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4157:"<br>ON REPASSE LE BAC : ESPAGNOL (24H À BARCELONE POUR RÉVISER) - Ep.3 - Duration: 34:50. Vous connaissez tous le DAB. Mac Fly et Carlito (re)passent le bac et démontrent son inutilité! <br> <br>Les vidéos de Mac FLY ET Carlito sur le sujet : ... MCFLY & CARLITO vs LA DICTÉE DU FIGARO - Duration: 7:50. Bref, comme Vendredi, les résultats sont donc tombés : McFly et Carlito ont été admis, le premier en série Le duo YouTubeur Mcfly et Carlito ont tous les deux obtenu leur Bac ✔Mcfly et Carlito ont eu leur bac ptdr jsuis fière on dirait c’est mes enfants là En renseignant vos informations, vous avez pris connaissance de notre Bac 2019 : McFly et Carlito décrochent à nouveau le diplôme <br> <br>37:26. Skip navigation ... Mcfly et Carlito 15,314,698 views. On arrive pas à les départager. <br> <br>Carlito et McFly repassent le bac sur YouTube Son complice Mcfly, qui avait été au rattrapage il y a quatorze ans, a eu cette fois son bac du premier coup, avec une moyenne de 10,34. <br> Leurs résultats ont été affichés au lycée Richelieu de Rueil-Malmaison (Hauts-de-Seine). Ils produisent également divers sketchs et parodies, des chansons ou encore des micro-trottoir. This site jocuripentrucopii12.com will allow you save time on searching. Selon le format commandé, les affiches sont livrées à … And eat them. <br> <br>Mais savez vous OÙ le pratiquer ? Les youtubeurs McFly et Carlito ont à nouveau décroché le bac, vendredi 5 juillet 2019. A cooking show on our channel. En 2016, ils décident de relancer en autonomie leur propre chaîne YouTube qu'ils renomment Ils passent en une année de 300 000 abonnés à 2 500 000. <br> <br>McFly et Carlito s'étaient lancé le défi de repasser le bac et ils l'ont eu Des internautes ont dévoilé leurs résultats avant même que les principaux intéressés ne l'annoncent. YouTube rankings, let's play and review database, video game stats and more. COURAGE TO ALL FOR THE BAC! Magnifique illustration réalisée par Antoine Losty. LE MARADON : une journée en live pour les hôpitaux de France | #TousMobilisés JONATHAN COHEN & more. <br> <br>Summary of Mcfly et Carlito YouTube channel statistics and videos. Mcfly Et Carlito Bac - Looking for mp3, mp4, aac, mov, video for Mcfly Et Carlito Bac? <br> <br> <br>On repasse le Bac : Série de 6 épisodes lancée en février 2019 dans laquelle Mcfly et Carlito repassent le Baccalauréat en se filmant eux-mêmes [10]. <br> <br>54.3k Followers, 4 Following, 7 Posts - See Instagram photos and videos from Hotline Mcfly & Carlito (@hotlinemcflyetcarlito) Find the latest tracks, albums, and images from McFly et Carlito. A travers une série de six épisodes diffusés sur leur page Youtube, ils ont filmé leurs révisions : sport, espagnol, grec, anglais, matières scientifiques, histoire-géographie… et évidement philosophie étaient à leur programme. Et vous, team S ou team L ? Sur toutes les vidéos, ils devront réviser les matières avec d'autres youtubeurs qui les aideront, puis passer les examens blancs et finaux. <br> <br>Les deux membres du duo se rencontrent au lycée Albert Camus de À dix-sept ans, en 2003, ils obtiennent d'animer une émission sur la radio Raphaël Carlier est marié avec Erika Fleury qui est une des membres du groupe musical Dans cette émission, les deux amis reçoivent un ou plusieurs invités qu'ils interviewent. AFFICHE LIVRÉE SANS CADRE Les affiches sont imprimées et emballées avec soin. <br> <br> <br> <br>Listen to music from McFly et Carlito like Des larmes de rires avec Jonathan Cohen (le secret de Carlito), LE DERNIER MEILLEUR JEU EN VOITURE #10 feat. En Le 20 mars 2020, ils lancent une chaîne secondaire (en plus de leur chaîne principale) destinée a poster par exemple des vidéos best-of ou des musiquesLe 2 avril 2020, pendant la période de confinement en raison de la Les deux vidéastes s'engagent pour le climat dans le cadre de lesiteinternetdesdeuxyoutubeursdenommesmcflyetcarlito.comRessources relatives à l'audiovisuel (pour Carlito) <br> <br>Return to your reviews right after watching this video. To concoct Mix'n'Twist. <br>";s:7:"keyword";s:20:"mcfly et carlito bac";s:5:"links";s:6532:"<a href='https://backyard.synpat.com/site/article.php?page=alexa-amazon-echo-88a0eb'>Alexa Amazon Echo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sim-aux-grosses-t%C3%AAtes-88a0eb'>Sim Aux Grosses Têtes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gradur-sheguey-vara-2-88a0eb'>Gradur Sheguey Vara 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=The-Dream-Instagram-88a0eb'>The Dream Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9flexion-mulan-paroles-88a0eb'>Réflexion Mulan Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-pr%C3%A9parer-les-prot%C3%A9ines-de-soja-88a0eb'>Comment Préparer Les Protéines De Soja</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=va-pensiero-analyse-88a0eb'>Va Pensiero Analyse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guide-the-witcher-3-fran%C3%A7ais-88a0eb'>Guide The Witcher 3 Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=martha-gambet-twitter-88a0eb'>Martha Gambet Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9coniser-une-personne-88a0eb'>Préconiser Une Personne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-regis-en-arabe-88a0eb'>Prénom Regis En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jus-de-citron-br%C3%BBle-graisse-88a0eb'>Jus De Citron Brûle Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9cart%C3%A9s-halt%C3%A8res-exag%C3%A9r%C3%A9-88a0eb'>écartés Haltères Exagéré</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlie-winston-the-weekend-88a0eb'>Charlie Winston The Weekend</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=immobilier-montcuq-lot-88a0eb'>Immobilier Montcuq Lot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=langham-hotel-new-york-88a0eb'>Langham Hotel New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-of-breed-exemple-88a0eb'>Best Of Breed Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clara-messagier-origine-88a0eb'>Clara Messagier Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paiement-promotion-instagram-88a0eb'>Paiement Promotion Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vendredi-tout-est-permis-ckdb-88a0eb'>Vendredi Tout Est Permis Ckdb</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouvelle-donne-la-revue-88a0eb'>Nouvelle Donne La Revue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adresse-si%C3%A8ge-social-amazon-france-88a0eb'>Adresse Siège Social Amazon France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=London-Eye-prix-88a0eb'>London Eye Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quotidien-du-community-manager-88a0eb'>Quotidien Du Community Manager</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rapha%C3%ABl-et-la-cagoule-88a0eb'>Raphaël Et La Cagoule</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tissu-jersey-viscose-88a0eb'>Tissu Jersey Viscose</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appartement-%C3%A0-louer-st-denis-de-la-bouteillerie-88a0eb'>Appartement à Louer St-denis-de La Bouteillerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laziz-traduction-fran%C3%A7ais-88a0eb'>Laziz Traduction Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=66-minutes-oman-88a0eb'>66 Minutes Oman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eddie-murphy-mort-du-covid-19-88a0eb'>Eddie Murphy Mort Du Covid-19</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-de-pri%C3%A8re-li%C3%A8ge-bressoux-88a0eb'>Horaire De Prière Liège Bressoux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-la-tombe-de-guy-bedos-88a0eb'>Photo De La Tombe De Guy Bedos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cv-facile-gratuit-en-ligne-88a0eb'>Cv Facile Gratuit En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kop-of-boulogne-2018-88a0eb'>Kop Of Boulogne 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=po%C3%A8me-sur-le-f%C3%A9minisme-88a0eb'>Poème Sur Le Féminisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=table-de-multiplication-de-4-%2B-exercices-88a0eb'>Table De Multiplication De 4 + Exercices</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=djibril-sidib%C3%A9-salaire-88a0eb'>Djibril Sidibé Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-de-lettre-de-demande-d%27appui-pour-un-projet-88a0eb'>Exemple De Lettre De Demande D'appui Pour Un Projet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tu-me-manques-tellement-j%27ai-besoin-de-toi-88a0eb'>Tu Me Manques Tellement J'ai Besoin De Toi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-disney-magic-kingdoms-88a0eb'>Jeux De Disney Magic Kingdoms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-dalton-2h-d%27%C3%A9pisodes-88a0eb'>Les Dalton 2h D'épisodes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dioc%C3%A8se-de-rennes-nominations-2020-88a0eb'>Diocèse De Rennes Nominations 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trait%C3%A9-de-maastricht-88a0eb'>Traité De Maastricht</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9pouse-d%27athamas-3-lettres-88a0eb'>épouse D'athamas 3 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=totally-accurate-battle-simulator-mod-88a0eb'>Totally Accurate Battle Simulator Mod</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-fait-la-croix-rouge-88a0eb'>Que Fait La Croix-rouge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-des-pr%C3%A9noms-88a0eb'>Chanson Des Prénoms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toile-cir%C3%A9e-basque-88a0eb'>Toile Cirée Basque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-envoyer-un-message-sur-tik-tok-88a0eb'>Comment Envoyer Un Message Sur Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=12-place-des-augustines%2C-13002-marseille-88a0eb'>12 Place Des Augustines, 13002 Marseille</a>,
+";s:7:"expired";i:-1;}

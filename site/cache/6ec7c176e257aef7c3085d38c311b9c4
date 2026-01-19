@@ -1,0 +1,138 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6284:"<br>Sardoche annonce son grand retour sur LoL, de quoi ravir ses 600 000 followers sur Twitch qui attendaient ça avec impatience. (which is in my opinion one of the reason cassio had a really high skillcap : the ability to go closer to deal more with a mage)Maybe Riot did a mistake or I don't know but I'm kinda sad to see absolutly EVERYTHING is disappointing on this patch.Just spoke with Stashu (the primary gameplay designer on the Cassi update) and he's confirmed with me this is being fixed ASAP such that the reset is to .5s in all cases. Il débute dans le monde du streaming avec Corobizar, en reprenant des crénaux horaires sur son stream. <br> <br>Gamepedia's League of Legends Esports wiki covers tournaments, teams, players, and personalities in League of Legends. <br> <br>Il devient populaire notamment grâce à sa rage extrême. The site may not work properly if you don't If you do not update your browser, we suggest you visit Press J to jump to the feed. Il s’est même vu offrir par Domingo un emblématique punching-ball pour l’aider à canaliser son illustre rage.Annoncé en déclin par ses détracteurs sans son jeu de prédilection, il a continué ses lives sur diverses licences telles que Dark Soul, God of War ou bien The Legend of Zelda, et termine ce mois de mai sur le nombre symbolique de 11 000 subs à sa chaîne Twitch.  For more information, schedules and stats head to watch.lolesports.com Un nombre révélateur quant à la taille de sa communauté qui l’entoure au quotidien.Son ID ban arrivant à son terme, il a posté ce lundi sur son compte Twitter une vidéo marquante pour annoncer son grand retour sur League of Legends : le 27 mai à 17h00. Sardoche annonce son grand retour sur LoL, de quoi ravir ses 600 000 followers sur Twitch qui attendaient ça avec impatience. Happy to see you finally discovered that 1 year later. Il est un chroniqueur important du talk-show Popcorn de Domingo, lui permettant de montrer au grand public d’autres facettes de sa personnalité avec ses chroniques accès sur la science comme l’IA et le sommeil polyphasique. But I only found it now.I tried to put subtitles but my english isn't perfect. ZYRA INSANE BACKDOOR - End of an epic 32 hours marathon-stream by Sardoche in leagueoflegends [–] Sardoche [ S ] 0 points 1 point 2 points 3 years ago (0 children) This clip is quite old and back in those time, it was allowed on Twitch. Il s'est fait connaître notamment avec League of Legends (LoL). Best Of Sardoche 502,100 views. <br> <br>Esport organization & WebTV on Fortnite, League of Legends & HearthStone powered by LogitechGFrance PredatorFrance & Objectif Code #SLYWIN contact@solary.fr By using our Services or clicking I agree, you agree to our use of cookies. Sardoche, LoL, Twitch, Infos, Heure, League of Legends, Ban, Riot Games, Riot FR. Press question mark to learn the rest of the keyboard shortcutsCookies help us deliver our Services. I wonder how many attempts it took to get that right.Yo man, I use to be Legendary but I didn't have much time to play this season :/ I play for fun thoNot having a shirt is a violation of Twitch's TOS of streaming.  Pages modified between June 2016 and September 2017 are adapted from information taken from EsportsWikis.com. On ne présente plus Sardoche et les nombreux clips viraux qui l’entourent mettant en avant ses coups de sang et dérapages sur Aujourd'hui, les 6 mois ont passé et il est temps de retrouver Sardoche en live sur du LoL !En dehors de ses dérapages, Sardoche est aussi connu pour son côté passionné. <br> <br>We would like to show you a description here but the site won’t allow us. SARDOCHE - PIXEL PERFECT SQUAD - ADN SUPÉRIEUR - (Annonce vers 20h) Sardoche. Il a d'ailleurs été interdit de streamer League of Legend pendant six mois, ce qui a généré un record d'audience à son retour. :') Funny play I've done some days ago during the early season grinding against some ex-master players.Hope you enjoy ! We would like to show you a description here but the site won’t allow us. (Activate sub-titles in english ! <br> <br>Sardoche stream beaucoup ses parties de jeux vidéos sur Twitch. Avec plus d’un million de vues générées en seulement 2 jours et un accueil chaleureux de la part de la scène Twitch francophone, Sardoche compte bien faire entendre à tout le monde qu’il est de retour sur la faille de l’invocateur.Mario & Luigi : Superstar Saga + les sbires de BowserPokémon : Let's Go, Pikachu et Pokémon : Let's Go, Évoli But it's not even close to be that.I can't really bring "numbers" but I can send you this graph I've made really fast to help you understand my point : I used to go really close to my targets as cassio to improve my DPS in really close fights. Official Twitch Channel of the League of Legends European Championship. Hope you like it. :)Hi. Il est aussi connu pour rager lors de ses parties. I played her on live now and I wanted to talk about the new E CD-on-cast thing.With that giant nerf in early game, and those insane manacosts, I expected one "buff" to be real : E CD-on-cast.But it's not even close to be a buff. Really appreciate the in-depth breakdown here, dude.Hotfix seems unlikely at the moment for stability reasons, but i'll keep you updated if anything changes.Looks like you're using new Reddit on an old browser. Playing Fall Guys. <br> <br>Pages that were modified between April 2014 and June 2016 are adapted from information taken from Esportspedia.com. classic and rare vines to watch when you lose your will to live - Duration: 24:04 ... Dream 300 IQ moments - Duration: 16:18. <br> <br>LE DERNIER BEST OF LEAGUE OF LEGENDS - Duration: 10:59. <br> <br>French. We would like to show you a description here but the site won’t allow us. SARDOCHE - MARATHON FALL GUYS - (Into Open Tour) - ((Into Marathon Fall Guys)) Fri, Jul 31 at 17:42 - streamed for 14 hours - watch VOD Fall Guys - 13 hours (99%) Melphior Recommended for you. Retour de Sardoche sur LoL, à quelle heure est-il déban pour stream ? Andréas Honnet, alias "Sardoche", est à la base, un joueur compétitif de League of Legends. You don't have 4 ways to escape like Ahri or Zed :DI'm the "challenger" guy who wrote this thread about cassiopeia's nerf. <br>";s:7:"keyword";s:19:"stream lol sardoche";s:5:"links";s:10596:"<a href='https://backyard.synpat.com/site/article.php?page=derby-county-maillot-rooney-88a0eb'>Derby County Maillot Rooney</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emploi-municipalit%C3%A9-lanaudi%C3%A8re-88a0eb'>Emploi Municipalité Lanaudière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-marianne-%C3%A9tait-jolie-explication-88a0eb'>Que Marianne était Jolie Explication</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creative-commons-share-88a0eb'>Creative Commons Share</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kays-ruiz-p%C3%A8re-88a0eb'>Kays Ruiz Père</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heriot-watt-university-classement-88a0eb'>Heriot-watt University Classement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-pencher-en-7-lettres-88a0eb'>Synonyme De Pencher En 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abb%C3%A9-ou-cur%C3%A9-88a0eb'>Abbé Ou Curé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paris-match-journal-de-droite-ou-de-gauche-88a0eb'>Paris Match Journal De Droite Ou De Gauche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dofus-kaliptus-2019-88a0eb'>Dofus Kaliptus 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yoga-de-gasquet-vid%C3%A9o-88a0eb'>Yoga De Gasquet Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-le-cab-20%E2%82%AC-88a0eb'>Code Promo Le Cab 20€</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=journalistes-des-grandes-gueules-88a0eb'>Journalistes Des Grandes Gueules</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=in%C3%A8s-loucif-origine-wikipedia-88a0eb'>Inès Loucif Origine Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-17-70-occasion-88a0eb'>Sigma 17 70 Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-fran%C3%A7ois-hernandez-om-88a0eb'>Jean-françois Hernandez Om</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=montcuq-immobilier-location-88a0eb'>Montcuq Immobilier Location</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=types-of-cyber-crimes-88a0eb'>Types Of Cyber Crimes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-perte-de-cheveux-88a0eb'>Protéine Perte De Cheveux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=resto-la-mamounia-lille-88a0eb'>Resto La Mamounia Lille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rmc-story-replay-l%27ombre-d%27un-doute-venise-88a0eb'>Rmc Story Replay L'ombre D'un Doute Venise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=assiette-b%C3%A9b%C3%A9-ventouse-ikea-88a0eb'>Assiette Bébé Ventouse Ikea</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlie-puth---marvin-gaye-88a0eb'>Charlie Puth - Marvin Gaye</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9crire-%C3%A0-la-r%C3%A9daction-d%27un-journal-88a0eb'>écrire à La Rédaction D'un Journal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heather-o%27rourke-enterrement-88a0eb'>Heather O'rourke Enterrement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=saint-west-instagram-88a0eb'>Saint West Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ex%C3%A9cuter-synonyme-9-lettres-88a0eb'>Exécuter Synonyme 9 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=au-bouchon-gourmand-tremblay-en-france-88a0eb'>Au Bouchon Gourmand Tremblay-en-france</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masque-avocat-miel-yaourt-visage-88a0eb'>Masque Avocat Miel Yaourt Visage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=base-de-donn%C3%A9es-influenceurs-88a0eb'>Base De Données Influenceurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27homme-le-plus-puissant-du-monde-2020-88a0eb'>L'homme Le Plus Puissant Du Monde 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=newcastle-tottenham-compo-probable-88a0eb'>Newcastle Tottenham Compo Probable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=face-au-juge-2019-youtube-88a0eb'>Face Au Juge 2019 Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invitation-anniversaire-gar%C3%A7on-gratuite-%C3%A0-imprimer-88a0eb'>Invitation Anniversaire Garçon Gratuite à Imprimer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tiktok-tibo-inshape-et-jujufitcat-88a0eb'>Tiktok Tibo Inshape Et Jujufitcat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-club-pro-point-de-comp%C3%A9tence-bu-88a0eb'>Fifa 20 Club Pro Point De Compétence Bu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=online-shopping-france-88a0eb'>Online Shopping France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-typologie-88a0eb'>Code Promo Typologie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prendre-effet-d%C3%A9finition-88a0eb'>Prendre Effet Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baklava-sans-beurre-88a0eb'>Baklava Sans Beurre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-nike-nantes-88a0eb'>Magasin Nike Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-ponce-plante-88a0eb'>Pierre Ponce Plante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tottenham-aston-villa-tickets-88a0eb'>Tottenham Aston Villa Tickets</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-corrig%C3%A9-indice-base-100-88a0eb'>Exercice Corrigé Indice Base 100</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maillot-Euro-2000-88a0eb'>Maillot Euro 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fernando-mar%C3%A7al-%C3%A9quipes-actuelles-88a0eb'>Fernando Marçal équipes Actuelles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-de-p%C3%A9tanque-fran%C3%A7ais-88a0eb'>Joueur De Pétanque Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9passer-une-voiture-en-anglais-88a0eb'>Dépasser Une Voiture En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zidane-et-deschamps-sont-ils-amis-88a0eb'>Zidane Et Deschamps Sont Ils Amis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-alg%C3%A9rie-foot-2019-88a0eb'>France-algérie Foot 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-l%C3%A9s%C3%A9-assurancereplay-capital-15-d%C3%A9cembre-2019-88a0eb'>Le Lésé Assurancereplay Capital 15 Décembre 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bamboo-scaffolding-minecraft-88a0eb'>Bamboo Scaffolding Minecraft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=argentine-la-main-de-dieu-88a0eb'>Argentine La Main De Dieu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-fou-de-vous-paroles-88a0eb'>Je Suis Fou De Vous Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pascale-pellegrin-cause-du-d%C3%A9c%C3%A8s-88a0eb'>Pascale Pellegrin Cause Du Décès</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-milieu-de-terrain-2020-88a0eb'>Meilleur Milieu De Terrain 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-redeemed-and-the-dominant%3A-fittest-on-earth-88a0eb'>The Redeemed And The Dominant: Fittest On Earth</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=run-chanson-prank-88a0eb'>Run Chanson Prank</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thibault-geoffray-quotidien-88a0eb'>Thibault Geoffray Quotidien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=greenland-film-sortie-france-88a0eb'>Greenland Film Sortie France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=passions-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Passions Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bricklin-sv-1-fiche-technique-88a0eb'>Bricklin Sv-1 Fiche Technique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=muscler-les-jambes-sans-mat%C3%A9riel-88a0eb'>Muscler Les Jambes Sans Matériel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-personnage-assassin-88a0eb'>Lol Personnage Assassin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oeuvre-de-nick-cave-88a0eb'>Oeuvre De Nick Cave</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plan-bus-86-hanoi-88a0eb'>Plan Bus 86 Hanoi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vieira-de-leiria-88a0eb'>Vieira De Leiria</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jane-goodall-sa-mort-88a0eb'>Jane Goodall Sa Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-d%27amour-netflix-2020-88a0eb'>Film D'amour Netflix 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-fitness-boutique-juin-2020-88a0eb'>Code Promo Fitness Boutique Juin 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patients-%28film%29-distribution-88a0eb'>Patients (film) Distribution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objet-interdit-stade-v%C3%A9lodrome-88a0eb'>Objet Interdit Stade Vélodrome</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=margau-the-voice-canada-88a0eb'>Margau The Voice Canada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rowing-vertical-halt%C3%A8re-88a0eb'>Rowing Vertical Haltère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=melon-trop-m%C3%BBr-diarrh%C3%A9e-88a0eb'>Melon Trop Mûr Diarrhée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=isabelle-balkany-twitter-grain-de-riz-88a0eb'>Isabelle Balkany Twitter Grain De Riz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9cision-d%27achat-du-consommateur-88a0eb'>Décision D'achat Du Consommateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boucherie-rue-des-martyrs-88a0eb'>Boucherie Rue Des Martyrs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-10-22-ou-10-18-88a0eb'>Canon 10-22 Ou 10-18</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=slogan-sur-le-sport-sant%C3%A9-88a0eb'>Slogan Sur Le Sport Santé</a>,
+";s:7:"expired";i:-1;}

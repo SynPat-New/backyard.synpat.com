@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5019:"<p>     </p> <p>                        DESDE 33.950 €                                   Véhicules d'occasion et neufs MINI Clubman finition Hyde Park Avec 57 MINI Clubman disponibles sur L'argus.fr, nous sommes parmi les leaders de l'annonce auto en France.      </p> <p>     Errores y cambios exceptuados. DETALLES DE PRECIO 13 490 €      </p> <p>TIN: 7,99%.  Para obtener más información, visite nuestra página de *P.V.P recomendado para MINI One First para Península y Baleares para vehículos con equipamiento de serie. </p> <p>Le Groupe Gueudet vous propose cette annonce de Mini Clubman F54) clubman 102 edition hyde park d'occasion de 2017 en vente à JAUX à 19890 €. d'un état éventuellement dégradé par rapport à une usure normaleToutes ces mesures sont sous l'unique responsabilité du vendeur. </p> <p>              La MINI CLUBMAN Cooper 136 ch Edition Hyde Park est      Il existe cependant chez MINI des versions récentes équivalentes en citadine essence ou diesel, 3 portes ou 5  "},{"label":"feux automatiques"},{"label":"banquette 1/3 - 2/3"},{"label":"fixations ISOFIX"},{"label":"volant multifonctions"},{"label":"phares av. Al final del plazo contratado, podrás devolverlo (según condiciones de contrato), cambiarlo o quedártelo pagando la cuota final.                              Gastos de matriculación y pre-entrega no incluidos. La MINI CLUBMAN Cooper 136 ch Edition Hyde Park est un Berline Essence 5 portes. MINI One D 116ch Hyde Park Clubman; MINI One D 116ch Hyde Park Clubman * Hors frais d'immatriculation et de mise à la route. Son moteur 3 cylindres développe 136 ch, consomme 5.3 l/100 km en cycle mixte et rejette 123g de Co2 par km. Plus le prix est en dessous du prix moyen, meilleure sera l'affaire. Avant d'acheter, estimer le coût de votre assurance auto, et Découvrez l’avis et la note attribuée sur la Mini Mini Clubman III CLUBMAN COOPER 136 EDITION HYDE PARK BV6 par ajj18gtt. Es posible que aún no estén disponibles todas las opciones de equipamiento.ESI Path--> /apps/settings/wcm/designs/minidigital-white.clientlibinclude.categories__minidigital-white.mode__js.async__.onload__.jsESI Path--> /apps/settings/wcm/designs/minidigital-white.clientlibinclude.categories__minidigital-white%3F%3Flatinacc.mode__css.async__.onload__.jsESI Path--> /apps/settings/wcm/designs/minidigital-white.clientlibinclude.categories__minidigital%3F%3Fvendor%3F%3Fkrpano.mode__js.async__.onload__.jsESI Path--> /apps/settings/wcm/designs/minidigital-white.clientlibinclude.categories__minidigital%3F%3Fpdh.mode__.async__.onload__.js                     e-mail.Calculez les mensualités de votre crédit auto avec Choisir.comCette voiture n'est plus commercialisée par MINI Mini Clubman Cooper 136 Hyde Park de couleur Gris, 136 CH, 7 CV, avec garantie Garantie 12 mois et mis en vente par CITROEN LORIENT - MIDI AUTO, un professionnel auto situé à sur CAUDAN , Morbihan (56) dans la région Bretagne.      </p> <p>     </p> <p>                              La MINI CLUBMAN Cooper 136 ch Edition Hyde Park                              DESDE 21.550 €                             max est de 205 km/h.  </p> <p>EL ICONO ORIGINAL, CON MÁS PUERTAS.                          sont disponibles dans la fiche complète que vous pouvez demander à recevoir par Les avis mini Clubman 2015 : 1.5 One D 116 ch BVM6, 32.000 km,2017, Hyde Park Le 0 à 100km/h est abattu en 9,1s et sa vitesse      DETALLES DE PRECIO         Seul un comparateur de crédit vous permet d'interroger en une fois tous les organismes de crédit pour trouver le meilleur taux Occasion MINI CLUBMAN : Cooper D 150ch Hyde Park.               exprimé en grammes / kilomètre parcouru du moins polluant (A) au plus polluant (G)En cas de double motorisation, les informations concernant la </p> <p> Disfrutad del viaje en un interior con revestimiento de techo en antracita y líneas cromadas, acceso confort, climatizador, Bluetooth, y pantalla a color de 6,5’’. Hazlo con un sensor de aparcamiento delantero y trasero, asistente de aparcamiento, y el completo paquete MINI Connected Navigation, que incluye Apple CarPlay, Radio Visual Boost, sistema de Navegación MINI, e información del tráfico en tiempo real.          Empezando por el origen londinense de su nombre, y continuando con un equipamiento exclusivo que no dejará a nadie indiferente: asientos deportivos, pintura metalizada de serie, volante y llantas 18” MINI Yours, Paquete MINI Connected Navigation con sistema de navegación con … Tu concesionario MINI te proporcionará toda la información vinculante sobre precios. Il existe cependant chez MINI des versions récentes équivalentes en citadine essence ou diesel, 3 portes ou 5 Tu concesionario MINI te proporcionará toda la información vinculante sobre precios. Son moteur 3 cylindres Cette version Boîte manuelle 6 vitesses, sortie                                    Le 0 à 100km/h est abattu en 9,1s et sa vitesse max est de 205 km/h.              </p>";s:7:"keyword";s:22:"mini hyde park clubman";s:5:"links";s:6772:"<a href='https://backyard.synpat.com/site/article.php?page=lloyd%27s-de-londres-88a0eb'>Lloyd's De Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fly-me-to-the-moon-guitar-jazz-88a0eb'>Fly Me To The Moon Guitar Jazz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=teeqzy-box-fight-88a0eb'>Teeqzy Box Fight</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clueless-meaning-in-french-88a0eb'>Clueless Meaning In French</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ta-reine-ang%C3%A8le-piano-facile-88a0eb'>Ta Reine Angèle Piano Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photos-de-vrai-pok%C3%A9mon-88a0eb'>Photos De Vrai Pokémon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ordre-de-malte-wiki-88a0eb'>Ordre De Malte Wiki</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dance-retro-fortnite-88a0eb'>Dance Retro Fortnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-assistant-ing%C3%A9nieur-biologie-88a0eb'>Lettre De Motivation Assistant Ingénieur Biologie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9cossais-en-4-lettres-88a0eb'>écossais En 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaine-velo-emm%C3%AAl%C3%A9e-88a0eb'>Chaine Velo Emmêlée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9latonine-pr%C3%A9paration-magistrale-88a0eb'>Mélatonine Préparation Magistrale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-une-proposition-synonyme-88a0eb'>Faire Une Proposition Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tu-me-manques-tellement-j%27ai-besoin-de-toi-88a0eb'>Tu Me Manques Tellement J'ai Besoin De Toi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barreau-de-montpellier-gr%C3%A8ve-88a0eb'>Barreau De Montpellier Grève</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-de-cv-pour-master-88a0eb'>Exemple De Cv Pour Master</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-groupon-2020-88a0eb'>Code Promo Groupon 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ils-sont-r%C3%A9gis-par-la-loi-88a0eb'>Ils Sont Régis Par La Loi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=logo-groupe-renault-88a0eb'>Logo Groupe Renault</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frites-de-patates-douces-friteuse-88a0eb'>Frites De Patates Douces Friteuse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jusqu%27%C3%A0-ce-que-la-mort-nous-s%C3%A9pare-telefilm-88a0eb'>Jusqu'à Ce Que La Mort Nous Sépare Telefilm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-avec-christine-88a0eb'>Chanson Avec Christine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-12-24-dg-hsm-ii-88a0eb'>Sigma 12-24 Dg Hsm Ii</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Gaston-Le-roux-88a0eb'>Gaston Le Roux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elastiband-decathlon-bleu-88a0eb'>Elastiband Decathlon Bleu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=benzema-salaire-2019-88a0eb'>Benzema Salaire 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-namur-a%C3%A9roport-charleroi-88a0eb'>Taxi Namur Aéroport Charleroi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livraison-boulangerie-bordeaux-88a0eb'>Livraison Boulangerie Bordeaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Claire-Chazal-2012-88a0eb'>Claire Chazal 2012</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-abdo-electrique-prix-88a0eb'>Appareil Abdo Electrique Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2019---youtube-88a0eb'>Fort Boyard 2019 - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-seule-riche-88a0eb'>Femme Seule Riche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=xtend-bcaa-review-88a0eb'>Xtend Bcaa Review</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tier-list-valorant-skyyart-88a0eb'>Tier List Valorant Skyyart</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-de-bons-conseils-88a0eb'>être De Bons Conseils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-neymar-jordan-88a0eb'>Chaussure Neymar Jordan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-maternelle-continuit%C3%A9-p%C3%A9dagogique-88a0eb'>Défi Maternelle Continuité Pédagogique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i%27m-feeling-good-88a0eb'>I'm Feeling Good</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=machine-abdo-salle-88a0eb'>Machine Abdo Salle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=victor-valdes-num%C3%A9ro-32-88a0eb'>Victor Valdes Numéro 32</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=william-lebghil-origine-arabe-88a0eb'>William Lebghil Origine Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coup-de-boule-zidane-88a0eb'>Coup De Boule Zidane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dragon-d%C3%A9fenseur-de-beurk-saison-2-%C3%A9pisode-2-streaming-vf-88a0eb'>Dragon Défenseur De Beurk Saison 2 épisode 2 Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=antonyme-de-solitaire-88a0eb'>Antonyme De Solitaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-live-on-air-dailymotion-88a0eb'>Le Live On Air Dailymotion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rita-kordahi-ghosn-88a0eb'>Rita Kordahi Ghosn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dugarry-rmc-salaire-88a0eb'>Dugarry Rmc Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=league-of-legend-champion-88a0eb'>League Of Legend Champion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Psychologie-%C3%A9cologique-Gibson-88a0eb'>Psychologie écologique Gibson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livraison-de-pain-%C3%A0-domicile-toulouse-88a0eb'>Livraison De Pain à Domicile Toulouse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hamidou-msaidie-%C3%A2ge-88a0eb'>Hamidou Msaidie âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canal-qatar-arabie-saoudite-88a0eb'>Canal Qatar Arabie Saoudite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=you-are-the-one-chanson-88a0eb'>You Are The One Chanson</a>,
+";s:7:"expired";i:-1;}

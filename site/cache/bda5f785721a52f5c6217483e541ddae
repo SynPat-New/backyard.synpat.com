@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3786:"Le Sénégal (2002), le Togo (2006) et l'Angola (2006) sont les trois seuls pays ayant participé à la Coupe du monde à ne jamais avoir remporté la CAN. L'équipe du Togo de football est constituée par une sélection des meilleurs joueurs togolais sous l'égide de la Le Togo participe aux éliminatoires de la Coupe du monde pour l’édition de Lors de la phase qualificative de la zone Afrique, le Togo a éliminé difficilement la La plus large victoire des éperviers fut enregistrée le Le premier ministre togolais a également décrété trois jours de deuil national. Après avoir été rappelée par son gouvernement, la sélection du Togo renonce finalement à prendre part à la compétition malgré la volonté des joueurs de jouer en l'honneur de leurs camaradesLe Togo se trouve dans le groupe D dit "groupe de la mort" en raison du niveau relevé des équipes qui le composent qui sont : la Côte d'Ivoire, la Tunisie et l'Algérie. Le Togo rencontre le Burkina Faso pour leur premier match de quart de finale et se fait éliminer durant les prolongations sur un but de Pitroipa (1-0).  Cela se solda par un score de 1  1. Au classement FIFA, tous les records se passèrent dans le dernier trimestre de 2014. Avant la fondation de la Fédération Togol… Cette Coupe d'Afrique des Nations reste marquée comme l'une des meilleures prestations qu'a offert le Togo jusqu'à présent durant une CAN. L'équipe du Togo de football est constituée par une sélection des meilleurs joueurs togolais sous l'égide de la Fédération togolaise de football. La 31ème édition de la CAN 2017 s’ouvre ce samedi 14 janvier en terre gabonaise. En s’imposant à Lomé jeudi lors de la première journée des éliminatoires de la CAN 2021, les Comores se sont offerts un résultat historique. Le match fut joué alors que le pays nétait pas encore indépendant vis-à-vis de la France (27 avril 1960, date de lindépendance). http://www.africatopsports.comJe pense que les Comores vont se battre pour les trois points. L'Algerie detient le record de plus grand nombre du points obtenus dans une tournois 19 pts en CAN 2019 (6 victoires et 1 match nul). La Côte d'Ivoire (CAN 2012) et le Cameroun (CAN 2002) sont les seules équipes à avoir disputé l'intégralité d'une Coupe d'Afrique des nations sans prendre de but. Premier portail sportif Africain. Le premier match du groupe D commence avec la rencontre Togo - Côte d'Ivoire le Les Éperviers parviennent à créer l'exploit en se qualifiant pour la première fois de leur histoire à une phase de quart de finale d'une Coupe d'Afrique des Nations, ayant parvenu à faire un match nul contre la Tunisie (1-1) et sauver par un pénalty contestable raté par les Tunisiens. Le premier match officiel du Togo fut joué à domicile contre le Ghana, le 13 octobre 1956. Des Pharaons privés de Mohamed Salah et tenus en échec par le Kenya (1-1).Rédacteur en chef à Africa Top Sports. La Côte d'Ivoire et le Togo sont donc les deux qualifiés du groupe D pour les quarts de finale de la Coupe d'Afrique des Nations 2013. Tout ce qu’il faut est de Yaya Touré: La solution de Yaya Touré pour éviter le racisme dans le football Lors de la deuxième journée des éliminatoires de la CAN 2021, les Coelacanthes reçoivent dimanche l’Egypte à Malouzini. Leur sur ce match du 18/11/2019 c’est un nul.Paris sportifs n'ont jamais été aussi pratiques et simples. Jeune nation de football, les Comores progressent depuis plusieurs années. 16 pays prendront part à cette compétition qui se disputera jusqu’au 5 février, date de la finale. Outre le 1-0 qui leur offre la tête du groupe G des qualifciations, c’est la première fois que l’Ile remporte un match officiel à l’extérieur de leur histoire. ";s:7:"keyword";s:46:"combien de fois le togo a participé à la can";s:5:"links";s:6708:"<a href='https://backyard.synpat.com/site/article.php?page=david-mcneil-chansons-88a0eb'>David Mcneil Chansons</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofitel-dubai-palm-jumeirah-88a0eb'>Sofitel Dubai Palm Jumeirah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-12-24mm-f4-dg-hsm-88a0eb'>Sigma 12 24mm F4 Dg Hsm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stairway-to-heaven-solo-backing-track-88a0eb'>Stairway To Heaven Solo Backing Track</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=groupe-briand-chiffre-d%27affaires-88a0eb'>Groupe Briand Chiffre D'affaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-music-tik-tok-88a0eb'>Youtube Music Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clo-koh-lanta-couple-88a0eb'>Clo Koh-lanta Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diff%C3%A9rence-entre-racine-et-tubercule-pdf-88a0eb'>Différence Entre Racine Et Tubercule Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inverness-loch-ness-distance-88a0eb'>Inverness Loch Ness Distance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-devenir-miss-ado-88a0eb'>Comment Devenir Miss Ado</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9paration-joint-de-culasse-avis-88a0eb'>Réparation Joint De Culasse Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=black-up-rouge-%C3%A0-l%C3%A8vre-88a0eb'>Black Up Rouge à Lèvre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rmc-story-replay-l%27ombre-d%27un-doute-venise-88a0eb'>Rmc Story Replay L'ombre D'un Doute Venise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A2teau-aux-pruneaux-sans-sucre-88a0eb'>Gâteau Aux Pruneaux Sans Sucre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-api-include_rts-88a0eb'>Twitter Api Include_rts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kettlebell-comp%C3%A9tition-20kg-88a0eb'>Kettlebell Compétition 20kg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=travailler-en-boulangerie-sans-dipl%C3%B4me-88a0eb'>Travailler En Boulangerie Sans Diplôme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Valentine-Oberti-Instagram-88a0eb'>Valentine Oberti Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Sarah-%28P%C3%A9kin-Express%29-88a0eb'>Sarah (Pékin Express)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicolo-%28la-villa-des-c%C5%93urs-bris%C3%A9s-%C3%A2ge%29-88a0eb'>Nicolo (la Villa Des Cœurs Brisés âge)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amir-on-dirait-mp3-88a0eb'>Amir On Dirait Mp3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daisy-et-natascha-2019-88a0eb'>Daisy Et Natascha 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ou-se-trouve-la-c%C3%B4te-du-corbeau-mort-88a0eb'>Ou Se Trouve La Côte Du Corbeau Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%2B%C2%A018autresRestauration-rapideEast-Side-Burgers%2C-McDonald%27s-autres-88a0eb'>+ 18autresRestauration RapideEast Side Burgers, McDonald's Autres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A2teau-aux-pruneaux-sans-sucre-88a0eb'>Gâteau Aux Pruneaux Sans Sucre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=never-back-down-3-film-complet-fran%C3%A7ais---youtube-88a0eb'>Never Back Down 3 Film Complet Français - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-ambassadeur-instagram-88a0eb'>Nike Ambassadeur Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-graphiste-alternance-88a0eb'>Lettre De Motivation Graphiste Alternance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-space-oddity-88a0eb'>Paroles Space Oddity</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=transport-pedretti-offre-d%27emploi-88a0eb'>Transport Pedretti Offre D'emploi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=us-chartrons-facebook-88a0eb'>Us Chartrons Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouveau-maillot-tottenham-2021-88a0eb'>Nouveau Maillot Tottenham 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=panasonic-100-300-ii-review-88a0eb'>Panasonic 100-300 Ii Review</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%D8%AE%D9%85%D8%B3%D8%A9-%D9%88%D9%86%D8%B5-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-5-88a0eb'>خمسة ونص الحلقة 5</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-tottenham-2012-2013-88a0eb'>Effectif Tottenham 2012-2013</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=logement-p%C3%A9kin-%C3%A9tudiant-88a0eb'>Logement Pékin étudiant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Notre-belle-d%C3%A9mence-88a0eb'>Notre Belle Démence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mgr-d%27ornellas-malade-88a0eb'>Mgr D'ornellas Malade</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fly-me-to-the-moon-lyrics-pdf-88a0eb'>Fly Me To The Moon Lyrics Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=naoil-tita-koh-lanta-88a0eb'>Naoil Tita Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=matthieu-p%C3%A9kin-express-instagram-88a0eb'>Matthieu Pékin Express Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-m%C3%A9hari-ibiza-88a0eb'>Location Méhari Ibiza</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Suisse-Euro-2004-88a0eb'>Suisse Euro 2004</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-lejeune-ch%C3%A2lons-en-champagne-88a0eb'>Taxi Lejeune Châlons En Champagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-lettre-de-motivation-lyc%C3%A9e-seconde-g%C3%A9n%C3%A9rale-88a0eb'>Exemple Lettre De Motivation Lycée Seconde Générale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-p%C3%AAche-requin-vid%C3%A9o-88a0eb'>Koh-lanta Pêche Requin Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-be-loved-88a0eb'>Film Be Loved</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-meilleur-supporter-foot-2019-france-88a0eb'>Classement Meilleur Supporter Foot 2019 France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=animation-f%C3%AAte-foraine-88a0eb'>Animation Fête Foraine</a>,
+";s:7:"expired";i:-1;}

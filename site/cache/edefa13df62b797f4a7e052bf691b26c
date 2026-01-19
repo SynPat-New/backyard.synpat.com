@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5473:"La répartition des groupes est présentée dans l’ordre des pots du tirage au sort, chaque groupe étant tiré complètement sauf le groupe A qui reçoit la dernière équipe du dernier pot. Résultats détaillés du groupe C du Championnat d'Europe de football 2008.. Ce groupe est qualifié de « groupe de la mort » car au début de l'épreuve les équipes d'Italie, de France, des Pays-Bas et de Roumanie sont respectivement classées aux 1 re, 2 e, 4 e et 8 e places du classement Elo [1] en Europe. Les éliminatoires du championnat d'Europe de football 2008 se sont déroulés du 16 août 2006 au 21 novembre 2007. L’ancien coach de Livorno découvre le poste de sélectionneur, ainsi qu’une nouvelle dimension.Le match commence fort, puisqu’il ne faut que deux petites minutes à Sidney Govou pour ouvrir le score, grâce à une somptueuse reprise de volée. <br> <br>Et il n’est pas dévalorisant de dire que ce match compte plus pour l’Équipe de France que pour la Du côté transalpin, on attend des champions du monde d’assumer ce nouveau statut. Une place, qui au final, finira par revenir aux Mercredi 6 septembre 2006, Stade de France, Saint-Denis, 78 831 spectateursBut : Govou (2ème et 56ème), Henry (17ème) pour la France, Gilardino (19ème) pour l’Italie,A peine le championnat de Serie A conclu que Walter Zenga, l’entraîneur de Cagliari qui […][]La cinquième place et une qualification immédiate pour la prochaine Europa League en poche, les […]L’Inter s’est qualifiée pour les quarts de finale d’Europa League en battant Getafe 2-0. Depuis plus d’un siècle, les oppositions entre formations italiennes et françaises offrent des rencontres de légendes. Ce format de répartition permet d'équilibrer les forces dans les groupes et de préserver ainsi les meilleures équipes (chaque groupe contient deux têtes de série), qui ont toutes les chances de se qualifier en phase finale. Dans chaque groupe toutes les équipes se rencontrent en matchs aller-retour. Le Lyonnais, un peu sonné sur le moment, s’offre un doublé et permet à la France de creuser l’écart. C’est le seul groupe où une tête de série, l'Angleterre, a été éliminée. Tout redevient possible.Le match va ensuite reprendre un cours plus tranquille et les deux équipes commencent à se neutraliser. Voici […] Calciomio est la référence du calcio et du foot italien en France. Andrea Pirlo dépose le ballon dans la surface et Alberto Gilardino se charge de mettre la tête au bon moment. Les informations concernant l'utilisation que vous faites de notre site nous sont transmises dans cette optique. France – Italie 3-1 Deux d'entre elles sont qualifiées d’office (pays organisateurs), les 50 autres fédérations sont réparties avant le tirage au sort dans des pots en fonction du classement obtenu lors des précédentes compétitions internationales de l’UEFA et de la Le total des points remportés lors des qualifications de ces deux compétitions est divisé par le nombre de rencontres disputées. Éliminatoires du championnat d'Europe de football 2008 Ce quotient permet de déterminer le classement des fédérations (toutefois, le coefficient d’une fédération qui s’était qualifiée directement pour l’une des phases finales de ces compétitions est calculé uniquement à partir des résultats obtenus par celle-ci lors de son tour de qualification le plus récent, sans tenir compte des résultats des phases finales à laquelle seule une minorité d’équipe a pu participer).  <br>Calciomio vous propose de revivre ces parties mémorables, avec aujourd’hui le deuxième duel entre la France et l’Italie de l’an 2006, comptant pour les éliminatoires de l’EURO 2008.Il est vrai que lorsque l’on pense à un grand duel franco-italiens, on s’attend à une affiche de Coupe du Monde ou de Champions League.  Guide saison par saison pour les Championnats d'Europe de l'UEFA incluant matches, classements et extraits vidéo. Sur le flanc droit, Willy Sagnol centre en direction du point de pénalty où Fabio Cannavaro attend la balle. Des duels souvent épiques, qui ont contribué à la légende de ce sport. À l'issue de ces matchs, le… <br> <br>Voir ci-dessous pour le détail des résultats des groupes éliminatoires. Actualités, débats, informations sur les équipes et les joueurs du football italien. Le score ne bougera plus, la France tient sa revanche et prend une option sur la première place. Ainsi, les 7 têtes de série (autres que les fédérations organisatrices) ne peuvent se rencontrer lors des éliminatoires. Les Bleus viennent de marquer deux buts face à l'Italie en phases éliminatoires de l'euro 2008. Les Français sont lancés et parviennent même à creuser l’écart, grâce à Thierry Henry, dont le tir dévié trompe Gianluigi Buffon. Le deux premiers de chaque groupe sont qualifiés pour la phase finale. La grande histoire de l'EURO. Nous diffusons des cookies afin d'analyser le trafic sur ce site. Non seulement les deux finalistes de la dernière Coupe du Monde se retrouvent même pas deux mois après leur duel de Berlin, s’affronteront aussi en Italie, mais ils se retrouveront également L’enjeu du match est donc lié à la fierté, à l’orgueil. Éliminatoires de l’UEFA EURO 2008 – Groupe B. Mercredi 6 septembre 2006, Stade de France, Saint-Denis, 78 831 spectateurs. Tweet. Abonnez-vous au Nouvel Observateur. <br>";s:7:"keyword";s:34:"dimash kudaibergen   the voice usa";s:5:"links";s:5648:"<a href='https://backyard.synpat.com/site/article.php?page=6-pack-abs-88a0eb'>6 Pack Abs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=belle-lettre-10-lettres-88a0eb'>Belle Lettre 10 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canap%C3%A9-merci-paris-88a0eb'>Canapé Merci Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=une-m%C3%A8re-sous-influence-final-88a0eb'>Une Mère Sous Influence Final</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jerry-o%27connell-serie-88a0eb'>Jerry O'connell Serie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-adeline-fran%C3%A7ois-88a0eb'>Photo Adeline François</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=6-pack-ems-mode-d%27emploi-en-fran%C3%A7ais-88a0eb'>6 Pack Ems Mode D'emploi En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=love-020-drama-88a0eb'>Love 020 Drama</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adel-abdessemed-souterrain-88a0eb'>Adel Abdessemed Souterrain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joint-de-culasse-pourri-88a0eb'>Joint De Culasse Pourri</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-d%C3%A9jeuner---paul-88a0eb'>Petit Déjeuner - Paul</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Prix-publication-Instagram-88a0eb'>Prix Publication Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fils-de-pierre-perret-88a0eb'>Fils De Pierre Perret</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fixie-state-bicycle---black-label-v2-88a0eb'>Fixie State Bicycle - Black Label V2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=il-bacaro-paris-88a0eb'>Il Bacaro Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pete-buttigieg-french-88a0eb'>Pete Buttigieg French</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fulham-cardiff-pronostic-88a0eb'>Fulham Cardiff Pronostic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paris-match-journal-de-droite-ou-de-gauche-88a0eb'>Paris Match Journal De Droite Ou De Gauche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capital-du-15-mars-2020-88a0eb'>Capital Du 15 Mars 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Joyce-Lomalisa-salaire-88a0eb'>Joyce Lomalisa Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minimal-residual-disease-88a0eb'>Minimal Residual Disease</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-yanne-film-complet-88a0eb'>Jean Yanne Film Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=leave-verbe-irr%C3%A9gulier-88a0eb'>Leave Verbe Irrégulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stan-gusman-couple-88a0eb'>Stan Gusman Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-info-twitter-88a0eb'>France Info Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kiabi-maillot-de-bain-homme-88a0eb'>Kiabi Maillot De Bain Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-will---traduction-en-fran%C3%A7ais-88a0eb'>I Will - Traduction En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-femme-2020-88a0eb'>Nike Femme 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tu-ne-seras-jamais-seul-t%C3%A9l%C3%A9charger-88a0eb'>Tu Ne Seras Jamais Seul Télécharger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bowlcake-200-calories-88a0eb'>Bowlcake 200 Calories</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Uber-taxi-Montr%C3%A9al-88a0eb'>Uber Taxi Montréal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ou-se-fournit-mino-du-sud-88a0eb'>Ou Se Fournit Mino Du Sud</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=imsak-paris-avril-2020-88a0eb'>Imsak Paris Avril 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sterling-foot-mercato-88a0eb'>Sterling Foot Mercato</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=greater-anglia-southend-airport-88a0eb'>Greater Anglia Southend Airport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cuisson-des-haricots-blancs-secs-avec-trempage-marmiton-88a0eb'>Cuisson Des Haricots Blancs Secs Avec Trempage Marmiton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lint%C3%A9grale-gaston-lagaffe-de-936-pages-88a0eb'>Lintégrale Gaston Lagaffe De 936 Pages</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blanc-d%27oeuf-liquide-leclerc-88a0eb'>Blanc D'oeuf Liquide Leclerc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Simple-%26-Funky-88a0eb'>Simple & Funky</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parodie-a-toutes-les-filles-que-j%27ai-aim%C3%A9-avant-88a0eb'>Parodie A Toutes Les Filles Que J'ai Aimé Avant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-yeux-d%27la-tete-danser-88a0eb'>Les Yeux D'la Tete Danser</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fils-de-pierre-perret-88a0eb'>Fils De Pierre Perret</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9thode-su%C3%A9doise-gymnastique-88a0eb'>Méthode Suédoise Gymnastique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-sur-l%27exil-88a0eb'>Chanson Sur L'exil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adsl-tv-apk-88a0eb'>Adsl Tv Apk</a>,
+";s:7:"expired";i:-1;}

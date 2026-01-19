@@ -1,0 +1,136 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4223:"<p> [Parodie] PEKIN EXPRESS 2018 Guest ESTELLE et ESTELLE (episode 4) - Duration: 6:22.                                                                         Stars                                                 </p> <p>                 Le couple de jeunes mariés que l'on peut voir actuellement dans l'émission "Pékin...                                      L'occasion...Pas touche à son Maxime !                                                                                                           Danse avec les Stars           Pékin Express, la route du bout du monde commence ce soir sur M6.                                                                     Danse avec les Stars Maxime partage la première échographie de son bébé le 10 mai 2020.Pauline et Aurélie de "Pékin Express" en interview pour "Purepeople", janvier 2020Julie et Denis de "Pékin Express 2020" en interview pour "Purepeople", en janvier                                                                                                                                          Les Anges                                                                     Festival de Cannes </p> <p>Lors de chaque fin de course, si l'enveloppe noire détenue par l'équipe qui a gagné la précédente étape annonce aux derniers arrivés qu'elle est éliminatoire, la dernière équipe arrivée est éliminée.                                                                                                                          Livenews                                                                      People UK </p> <p>19k Followers, 480 Following, 97 Posts - See Instagram photos and videos from Briac Pekin Express (@briac_pekin_express) </p> <p>La finaliste de "Pékin Express 2019" s'est exprimée pour la première fois sur son... Create an account to see everything they share. 6:22.           SpaceBabiesTV - La chaîne des Parodies 21,163 views.                                                     The Voice </p> <p>                                                                    Grammy Awards                                                                                                                                          Accueil                                                                                                      67.5k Followers, 1,222 Following, 553 Posts - See Instagram photos and videos from Denis Pierinelli (@denis_pekinexpress)                          </p> <p>Le candidat de "Pékin Express 2018" n'est plus un coeur à prendre.                   </p> <p>                                                    Golden Globes                                                     Mariage                                                                     Justin Bieber    </p> <p>                                                                    Pékin Express </p> <p>                                                                                                          MTV Music Awards  </p> <p>1,665 Followers, 171 Following, 368 Posts - See Instagram photos and videos from PHARMASHOPI (@pharmashopi_)                                                                     Tous les tags Après 45 jours d'aventure, ils peuvent gagner jusqu'à 100 000 euros.                          </p> <p>                                                                    Demain nous appartient                                                                     Télé Réalité                                                      </p> <p>                                                    People France                                                                                                                                                                                    Royauté                                                                                                                                                                         </p> <p>                                                                    Koh-Lanta          Alors que Frédéric a fait son retour dans Pékin Express : à la découverte des...                              </p>";s:7:"keyword";s:35:"amir   longtemps guitare acoustique";s:5:"links";s:9890:"<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-big-ben-pdf-88a0eb'>Exposé Big Ben Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nani-meme-music-88a0eb'>Nani Meme Music</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adresse-mail-cma-moselle-88a0eb'>Adresse Mail Cma Moselle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=english-league-one-88a0eb'>English League One</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-moustaki---ma-libert%C3%A9-88a0eb'>Youtube Moustaki - Ma Liberté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joanna-star-ac-8-88a0eb'>Joanna Star Ac 8</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pap-le-touquet-88a0eb'>Pap Le Touquet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=csod-maisons-du-monde-88a0eb'>Csod Maisons Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-piano-%23chopin-88a0eb'>Youtube Piano #chopin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-et-laurence-lemarchal-88a0eb'>Pierre Et Laurence Lemarchal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frites-de-patates-douces-friteuse-88a0eb'>Frites De Patates Douces Friteuse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%2B%C2%A018autresRestauration-rapideEast-Side-Burgers%2C-McDonald%27s-autres-88a0eb'>+ 18autresRestauration RapideEast Side Burgers, McDonald's Autres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compagnon-du-tour-de-france-mouchard-88a0eb'>Compagnon Du Tour De France Mouchard</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pat-patrouille-jeux-online-88a0eb'>Pat Patrouille Jeux Online</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=national-animal-of-wales-88a0eb'>National Animal Of Wales</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-invincibles-youtube-88a0eb'>Les Invincibles Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cuisinier-la-quotidienne-88a0eb'>Cuisinier La Quotidienne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brm-v6-44-hybride-88a0eb'>Brm V6-44 Hybride</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abi-the-voice-autiste-88a0eb'>Abi The Voice Autiste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-passantes-brassens-partition-piano-88a0eb'>Les Passantes Brassens Partition Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lincoln-city-canada-88a0eb'>Lincoln City Canada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chasing-cars-sleeping-at-last-traduction-88a0eb'>Chasing Cars Sleeping At Last Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contraire-du-mot-nocturne-88a0eb'>Contraire Du Mot Nocturne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=obtenir-en-anglais-88a0eb'>Obtenir En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coexister-qui-chante-88a0eb'>Coexister Qui Chante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=run-traduction-snow-patrol-88a0eb'>Run Traduction Snow Patrol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bourse-de-londres-en-direct-88a0eb'>Bourse De Londres En Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gravit-designer-en-ligne-88a0eb'>Gravit Designer En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Photo-Claude-Fran%C3%A7ois-88a0eb'>Photo Claude François</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barthez-le-divin-chauve-88a0eb'>Barthez Le Divin Chauve</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-de-bain-tanga-grande-taille-88a0eb'>Maillot De Bain Tanga Grande Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=replay-gerra-depardieu-88a0eb'>Replay Gerra Depardieu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Citation-Alain-Delon-88a0eb'>Citation Alain Delon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=go-show-yourself-88a0eb'>Go Show Yourself</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=summoners-war-symbol-of-transcendence-88a0eb'>Summoners War Symbol Of Transcendence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-parking-a%C3%A9roport-tanger-longue-dur%C3%A9e-88a0eb'>Prix Parking Aéroport Tanger Longue Durée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleure-appli-compteur-calorie-88a0eb'>Meilleure Appli Compteur Calorie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=empire-colonial-espagnol-88a0eb'>Empire Colonial Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=obtenir-en-anglais-88a0eb'>Obtenir En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=conjugaison-wollen-conditionnel-88a0eb'>Conjugaison Wollen Conditionnel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exporter-contact-facebook-vers-gmail-88a0eb'>Exporter Contact Facebook Vers Gmail</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alex-ferguson-mon-autobiographie-pdf-gratuit-88a0eb'>Alex Ferguson Mon Autobiographie Pdf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9lanie-taravant-age-88a0eb'>Mélanie Taravant Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=va-pensiero-analyse-88a0eb'>Va Pensiero Analyse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=match-ligue-2-88a0eb'>Match Ligue 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=po%C3%A8me-pr%C3%A9nom-philippe-88a0eb'>Poème Prénom Philippe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-super-film-88a0eb'>Un Super Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-d%27ile-animal-crossing-88a0eb'>Nom D'ile Animal Crossing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mr-olympia-2019-men%27s-physique-88a0eb'>Mr Olympia 2019 Men's Physique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sujet-de-slam-88a0eb'>Sujet De Slam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Luis-Enrique-entra%C3%AEneur-88a0eb'>Luis Enrique Entraîneur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=regime-d%27un-cours-d%27eau-88a0eb'>Regime D'un Cours D'eau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Laure-Albin-Guillot-88a0eb'>Laure Albin Guillot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-fou-de-vous-paroles-88a0eb'>Je Suis Fou De Vous Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masque-au-couleur-du-psg-88a0eb'>Masque Au Couleur Du Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-g7-gr%C3%A8ve-88a0eb'>Code Promo G7 Grève</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recrue-de-manchester-united-88a0eb'>Recrue De Manchester United</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chapelle-des-marais-chambre-d%27hote-88a0eb'>La Chapelle Des Marais Chambre D'hote</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=benabar-bataclan-2020-annul%C3%A9-88a0eb'>Benabar Bataclan 2020 Annulé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-protein-360-extreme-88a0eb'>Whey Protein 360 Extreme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portsmouth-football-club-classement-88a0eb'>Portsmouth Football Club Classement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patrick-pelloux-vie-familiale-88a0eb'>Patrick Pelloux Vie Familiale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=id%C3%A9e-de-slam-sur-le-silence-88a0eb'>Idée De Slam Sur Le Silence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=grill-chef-tennessee-88a0eb'>Grill Chef Tennessee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fleuve-de-la-seine-maritime-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Fleuve De La Seine Maritime Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Artiste-peintre-2019-88a0eb'>Artiste Peintre 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-pectoraux-halt%C3%A8re-au-sol-88a0eb'>Exercice Pectoraux Haltère Au Sol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=airbnb-amsterdam-fumeur-88a0eb'>Airbnb Amsterdam Fumeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=babor-chez-daoush-88a0eb'>Babor Chez Daoush</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perfect-duet-guitare-88a0eb'>Perfect Duet Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=si-j%27%C3%A9tais-un-ange-88a0eb'>Si J'étais Un Ange</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-poulet-2020-88a0eb'>Musique Poulet 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nuno-lopes-films-et-programmes-tv-88a0eb'>Nuno Lopes Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quiz-pour-fille-de-12-ans-88a0eb'>Quiz Pour Fille De 12 Ans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adresse-embarcad%C3%A8re-%C3%AEle-nancy-andr%C3%A9sy-88a0eb'>Adresse Embarcadère île Nancy Andrésy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=league-of-legends-ps4-release-date-88a0eb'>League Of Legends Ps4 Release Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=challenge-2020-tiktok-88a0eb'>Challenge 2020 Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-piano-beethoven-88a0eb'>Youtube Piano Beethoven</a>,
+";s:7:"expired";i:-1;}

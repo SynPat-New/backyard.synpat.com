@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5449:"<p>Calcul de la correction à appliquer aux gisements 20 Calculs topométriques. </p> <p>En navigation, le gisement est l'angle formé entre l'axe longitudinal (ou ligne de foi) d'un navire ou d'un aéronef, et la direction d'un point extérieur (fixe ou mobile). </p> <p>3. L’azimut (anciennement et parfois encore orthographié azimuth [1]) est l'angle dans le plan horizontal entre la direction d'un objet et une direction de référence.Le terme est issu de l'espagnol « acimut », lui-même issu de l'arabe السمت (as-simt), qui signifie direction. Si la distance entre les deux points est faible, mieux vaut tracer une droite plus longue, afin de faciliter le relèvement. On peut relever un gisement, par exemple pour préparer une marche à l'azimut, ou reporter un gisement, pour tracer sur la carte un trajet effectué, ou lors d'un repérage par triangulation. </p> <p>Il est utile de savoir relever un gisement, principalement lors de la préparation de raids ou d'explorations comprenant une marche à l'azimut. Deux mobiles ont une route de collision lorsqu'ils évoluent à gisement (ou relèvement) constant dans un même plan. </p> <p>Comme précédemment, attention à ne pas confondre le quadrillage cardinal avec le cadrillage UTM pour le GPS. </p> <p>Lorsqu'on est confronté à cet inconvénient, il suffit de mesurer le gisement inverse de celui que l'on cherche ; au final, la direction sera la même. La différence tient à la Pour convertir un azimut relevé sur le terrain en gisement, on utilisera la formule suivante : De la même manière, un azimut, tel qu'il est relevé sur le terrain, n'est pas applicable tel-quel sur la carte. Pour convertir un gisement relevé sur la carte en azimut à suivre sur le terrain, on utilisera la formule inverse : </p> <p>Il est nécessaire de savoir reporter un gisement à chaque fois que l'on a un azimut et qu'on veut le traduire sur une carte : pour reporter sur la carte un trajet suivi à l'azimut, ou lors d'un repérage par triangulation. Il s'agit donc d'une direction relative (puisque relative au navire), indépendante de la vitesse ou du cap du navire. </p> <p>Consolidez vos connaissances et utilisez-les avec TIMEZERO pour une navigation en toute sérénité. La lettre grecque Epsilon (ε) désigne l'angle de site (ou „site”). Les notions de navigation aussi essentielles que le relèvement, le cap ou le gisement ne sont pas toujours faciles à maîtriser. </p> <p>Elle est surtout utile pour indiquer ou repérer le "progrès" d'un obstacle ou d'un Le gisement peut être estimé à l'œil (quand un mesure approximative suffit) ou mesuré avec une simple Le gisement est mesuré en degrés de 0 à 360°, depuis l'avant, dans le sens horaire  (le gisement 90° est le travers tribord, 180° indique donc l'arrière et 270° le travers bâbord). </p> <p>Il a été exprimé dans le passé entre -180° et 180°, le sens positif à droite (vers tribord), négatif à gauche (vers bâbord). Celà peut se faire grâce à la formule suivante :  </p> <p>angle e avec : 1. </p> <p>On ne relève donc pas directement un azimut sur une carte, mais un gisement, qu'il faut convertir en azimut. Par exemple, si je dois reporter un gisement est à partir d'un point situé tout à l'est de ma carte, il me suffira de reporter un gisement ouest, puis d'allonger ma droite. Lorsqu'on est trop près du bord de la carte, il peut être impossible de marquer le point correspondant à l'angle mesuré, si celui-ci se trouve hors de la carte. Les gisements En aviation, il peut aussi être exprimé en «heures» ; «3 heures» indique ainsi le gisement 90°, et « 9 heures », le gisement 270° ou -90°. </p> <p>C'est pourquoi nous avons rédigé cet article en collaboration avec des navigateurs expérimentés, mais aussi des techniciens nautiques. </p> <p>Lorsque les mesures sont effectuées en degrés, on trouve le gisement inverse en ajoutant 180 au gisement d'origine, si celui-ci est à l'est (gisement compris entre 0° et 180°), ou en en retranchant 180, s'il est à l'ouest (gisement compris entre 180° et 360°). </p> <p></p> <p>Calcul du gisement moyen d'orientation en S 4. Le travail sur un gisement se fait avec une carte et un rapporteur (idéalement, un rapporteur circulaire à 360°), qui peut éventuellement être remplacé par une boussole, plate de préférence. En navigation, le gisement  est l'angle formé entre l'axe longitudinal (ou ligne de foi) d'un navire ou d'un aéronef, et la direction d'un point extérieur (fixe ou mobile). L'angle de site est positif lorsqu'il est au-dessus de l'horizon (site 0°), et négatif en dessous. </p> <p>Attention, les cartes récentes comportent souvent des quadrillages UTM WGS-84, destinés au repérage par coordonnées UTM, principalement par GPS. Calcul des gisements et distances entre la station connue et les points d'orientation 2. </p> <p>Il ne faut pas confondre le gisement, qui concerne la Le gisement, tel qu'il est relevé sur la carte, n'est pas applicable tel-quel sur le terrain. </p> <p>Il suffit ensuite de calculer les coordonnées de S à partir : </p> <p>Le gisement désigne, en topographie, l'angle formé entre une direction et le nord de la carte. </p> <p>Il est possible d'utiliser le quadrillage présent sur la carte, si les traits verticaux croisent le point d'origine de l'azimut ; dans les autres cas, pour plus de précision, mieux vaut tracer. </p>";s:7:"keyword";s:22:"angle site et gisement";s:5:"links";s:6836:"<a href='https://backyard.synpat.com/site/article.php?page=lanta-wok-bagneux-menu-88a0eb'>Lanta Wok Bagneux Menu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarif-taxi-2020-lyon-88a0eb'>Tarif Taxi 2020 Lyon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=london-city-airport-website-88a0eb'>London City Airport Website</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cabinet-maxime-pr%C3%A9vot-88a0eb'>Cabinet Maxime Prévot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=squatter-traduction-arabe-88a0eb'>Squatter Traduction Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9er-un-compte-twitter-pro-88a0eb'>Créer Un Compte Twitter Pro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philips-hd8827%2F01-prix-88a0eb'>Philips Hd8827/01 Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tomate-et-chocolat-nevers-88a0eb'>Tomate Et Chocolat Nevers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-demande-de-stage-pdf-88a0eb'>Lettre De Demande De Stage Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=image-vaiana-b%C3%A9b%C3%A9-88a0eb'>Image Vaiana Bébé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=etta-ng-chok-lam-andi-autumn-88a0eb'>Etta Ng Chok Lam Andi Autumn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruno-pelletier-et-isabelle-conjointe-88a0eb'>Bruno Pelletier Et Isabelle Conjointe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-totale-ou-whey-88a0eb'>Protéine Totale Ou Whey</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thank-you-dad-88a0eb'>Thank You Dad</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=interdit-en-5-lettres-88a0eb'>Interdit En 5 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patate-douce-au-four-en-papillote-88a0eb'>Patate Douce Au Four En Papillote</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=excel-substring-french-88a0eb'>Excel Substring French</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Exercice-en-duo-88a0eb'>Exercice En Duo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=survivre-et-vivre-pdf-88a0eb'>Survivre Et Vivre Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%89-%D8%AF%D9%88%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85--88a0eb'>مباريات اليوم فى دوريات العالم-</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-n%27est-pas-que-des-cobayes-voiture-88a0eb'>On N'est Pas Que Des Cobayes Voiture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=base-de-donn%C3%A9es-influenceurs-88a0eb'>Base De Données Influenceurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-belle-chanson-au-piano-88a0eb'>Plus Belle Chanson Au Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=casino-bonus-sans-d%C3%A9p%C3%B4t-imm%C3%A9diat-2020-88a0eb'>Casino Bonus Sans Dépôt Immédiat 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-eat-bordeaux-num%C3%A9ro-88a0eb'>Uber Eat Bordeaux Numéro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ingrid-pekin-express-facebook-88a0eb'>Ingrid Pekin Express Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%A9pha%C3%AFstos-lycan-paroles-88a0eb'>Héphaïstos Lycan Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invit%C3%A9-europe1-ce-matin-88a0eb'>Invité Europe1 Ce Matin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=candice-pascal-couple-88a0eb'>Candice Pascal Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-%C3%A9lastique-fessier-88a0eb'>Exercice élastique Fessier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=annuler-taxi-g7-88a0eb'>Annuler Taxi G7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-breed-acteur-88a0eb'>The Breed Acteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9fecture-de-la-moselle-%C3%A9lections-municipales-88a0eb'>Préfecture De La Moselle élections Municipales</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-du-ramadan-2018-88a0eb'>Fin Du Ramadan 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=el-drag%C3%B3n-saison-3-adela-88a0eb'>El Dragón Saison 3 Adela</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-gagick-femme-88a0eb'>Jean-pierre Gagick Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neeskens-kebano-nestor-kebano-88a0eb'>Neeskens Kebano Nestor Kebano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yves-calvi-oeil-2020-88a0eb'>Yves Calvi Oeil 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pourquoi-linox-s%27appelle-linox-88a0eb'>Pourquoi Linox S'appelle Linox</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=copine-pfut10-insta-88a0eb'>Copine Pfut10 Insta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rap-contenders-17-carte-88a0eb'>Rap Contenders 17 Carte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-v%C3%A9nus-plan%C3%A8te-88a0eb'>Photo De Vénus Planète</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lellouche-rmc-delphine-88a0eb'>Lellouche Rmc Delphine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%AAver-de-couleur-bleu-islam-88a0eb'>Rêver De Couleur Bleu Islam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a-qui-s%27abonner-sur-twitter-88a0eb'>A Qui S'abonner Sur Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-sur-lugdunum-88a0eb'>Exposé Sur Lugdunum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mass-tech-vs-serious-mass-88a0eb'>Mass Tech Vs Serious Mass</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tpmp-14-janvier-2020-88a0eb'>Tpmp 14 Janvier 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-l%C3%A9a-elui-88a0eb'>Salaire Léa Elui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shaker-avant-ou-apr%C3%A8s-manger-88a0eb'>Shaker Avant Ou Après Manger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-elastiband-%C3%A0-deux-88a0eb'>Exercices Elastiband à Deux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-groupon-2020-88a0eb'>Code Promo Groupon 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rabat-marrakech-train-temps-88a0eb'>Rabat Marrakech Train Temps</a>,
+";s:7:"expired";i:-1;}

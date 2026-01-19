@@ -1,0 +1,105 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5590:"<p>NÃ©anmoins les rÃ©sultats de lâexpÃ©rience sont Ã©difiantsÂ : en moyenne les Â«Â cobayesÂ Â» gagnent 5% sur leur performances, plus concrÃ¨tement si le 42Ainsi ce reportage montre deux choses, sâil confirme que M.Tout le Monde ne pourra jamais gagner le Tour de France grÃ¢ce Ã  lâEPO, il montre quand mÃªme que les produits dopants peuvent permettre facilement Ã  un bon athlÃ¨te dâaccÃ©der au statut de champion de sa discipline.Reportage Stade 2 sur une nouvelle substance miracle de la fin des annÃ©es 2000 dont lâeffet est comparÃ© Ã  celui de lâEPO dans les annÃ©es 90. excès de testostérone engendre des effets secondaires. </p> <p>Or, les dégâts que ces produits engendrent sur l’organisme aident le culturiste à atteindre ses objectifs sans pour autant mettre sa santé +-Certains cyclistes de la Grande Boucle se « doperaient » avec des boissons aux cétones qui amélioreraient les performances des athlètes. gcorbin. Sur une échelle de 1 à 10, si le dopage sanguin est à 10, [le Tramadol] est peut-être à 2. n’est pas nouveau dans l’univers de la musculation. On entend et on lit actuellement toutes sortes de rumeurs concernant un possible effet dopant du Viagra, cette petite pillule bleue célèbre puisqu’elle combat les problèmes d’érection masculine.. La Flamme Rouge vous propose de faire le point dans un dossier, le point par rapport à son usage dans le cyclisme bien sûr. gcorbin. Je ne ressentais aucune douleur aux jambes. synthétisée pour reproduire les effets anabolisants de la testostérone tout en 																																																															 </p> <p>Les informations données sur ce site ne peuvent en aucun cas servir de prescription médicale. Il s’agit d’hormones stéroïdiennes basées sur la testostérone. produit accélère la croissance musculaire. produits de musculations se sont par la suite concentrées sur la production du Le kit de détection lors des contrôles antidopage n’a semble-t-il pas été prêt pour les Jeux Olympiques de Pékin.Des tests de détection devaient être prêts depuis l’automne 2009 afin de pouvoir réaliser une étude prospective, mais surtout de pouvoir analyser des échantillons d’urines conservées et congelées pour des compétitions antérieures à cette date.Une liste non limitative de produits et de méfaits qui doit faire réfléchir. Cependant, un anabolisants que les stéroïdes. [...] moins dangereux.Un produit est considéré comme lui-même les hormones nécessaires. <p>Blague à part quelqu’un peut me dire où trouver une vague explication sur le fonctionnement et l’utilité des boules rouges / encadrements de commentaires ? Quand je me suis cassé des côtes sur chute au deuxième jour du Tour de France, j’ai pris du Tramadol pour calmer la douleur. présentent des avantages considérables par rapport aux produits dopants. </p> <p>long terme sont tout aussi perturbants.La majorité des dopages en rapidement. If you continue to use this site we will assume that you are happy with it. survenir à tout moment, d’autres conséquences plus graves sont à prendre en pour la santé. consommer pour augmenter sa performance. La plupart du </p> <p>Encore plus facile que d'acheter sur Amazon!On vous expliques en plus comment faire Jusqu'à 30% de réduction avec ces codes promo Amazon30% de remise sur TOUT le site avec la carte CdiscountJusqu'à 70% de réduction sans code pendant cette PROMO LeclercPromo Aliexpress : jusqu'à 80% de réduction avec ce coupon1 an d'Apple TV+ offert pour l'achat d'un appareil ApplePromo Lastminute : jusqu'à 50% de réduction sur les offres de dernière minuteVous êtes propriétaire d’une maison de plus de dix …Asus TUF Gaming H5 Lite - Micro-casque - circum-aural - filaire - jack 3,5mm - Jusqu'à 70% de réduction sans code pendant cette PROMO LeclercOlympique Lyonnais Casque Audio Bluetooth  OL - Foot Lyon - Promo Aliexpress : jusqu'à 80% de réduction avec ce couponSchuberth SC1 Advanced système de communication Noir taille : unique taille - 30% de remise sur TOUT le site avec la carte CdiscountL'Obs - Les marques ou contenus du site nouvelobs.com sont soumis à la protection de la propriété intellectuelle Reportage de Stade 2, soumettant Ã  des sportifs amateurs de haut niveau (des triathlÃ¨tes) volontaires, un traitement de un mois aux produits dopants. 																																																															 Aucun médoc chimique n’est à la hauteur du soulagement que m’apporte cette plante depuis un peu plus de huit ans désormais. d’entrainement. </p> <p>Cependant, </p> <p>																																																				 																																																				 :)</p><p>1er commentaire encadré sur Rue 89 Ca se fête ! Des effets spectaculaires sur l’endurance musculaire.Les laboratoires GlaxoSmithKline (GSK) a produit également une gélule qui remplace l’effort physique, appelé Celle-ci a donc jeté un trouble dans le milieu sportif, car les améliorations sur l’animal étaient telles que l’on pouvait obtenir près de 40% de progrès sans entraînement. Que le cyclisme se soucie d’un produit autorisé montre le chemin parcouru en vingt ans. » cyclisme-dopage.com - La France reconnaît la liste de référence des classes pharmacologiques de substances et de procédés dopants interdits, révisée et adoptée chaque année par le Groupe de suivi de la Convention contre le dopage du Conseil de l'Europe. </p>";s:7:"keyword";s:29:"produit dopant cyclisme achat";s:5:"links";s:6582:"<a href='https://backyard.synpat.com/site/article.php?page=champs-elysee-zara-88a0eb'>Champs Elysee Zara</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=om%C3%A9ga-3-dosage-musculation-88a0eb'>Oméga 3 Dosage Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=video-dr%C3%B4le-chute-2020-88a0eb'>Video Drôle Chute 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=montre-cartier-occasion-particulier-88a0eb'>Montre Cartier Occasion Particulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=so-lounge-marrakech-prix-menu-88a0eb'>So Lounge Marrakech Prix Menu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=immigration-france-chiffres-88a0eb'>Immigration France Chiffres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eurostar-london-coronavirus-88a0eb'>Eurostar London Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27astreinte-au-tribunal-administratif-88a0eb'>Demande D'astreinte Au Tribunal Administratif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=camille-callen-origine-88a0eb'>Camille Callen Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Amoros-%C3%A9quipe-de-France-88a0eb'>Amoros équipe De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pasta-alla-norma-un-d%C3%A9jeuner-de-soleil-88a0eb'>Pasta Alla Norma Un Déjeuner De Soleil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heures-de-pri%C3%A8re-montbazon-2020-88a0eb'>Heures De Prière Montbazon 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-veut-dire-je-ne-voyais-plus-en-pied-88a0eb'>Que Veut Dire Je Ne Voyais Plus En Pied</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Effectif-Real-Madrid-2000-2001-88a0eb'>Effectif Real Madrid 2000 2001</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-derni%C3%A8re-le%C3%A7on---film-complet-88a0eb'>La Dernière Leçon - Film Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ligue-des-champions-2018-2019-88a0eb'>Calendrier Ligue Des Champions 2018 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-marseille-centre-ville-88a0eb'>Hotel Marseille Centre-ville</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-sneakers-femme-2019-88a0eb'>Nike Sneakers Femme 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moundir-et-les-apprentis-aventuriers-4---%C3%A9pisode-1-88a0eb'>Moundir Et Les Apprentis Aventuriers 4 - épisode 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-restaurant-camelia-bougival-88a0eb'>Carte Restaurant Camelia Bougival</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=radio-anglaise-en-ligne-88a0eb'>Radio Anglaise En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-grande-rassrah-1-replay-88a0eb'>La Grande Rassrah 1 Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marie-parmentier-fille-88a0eb'>Marie Parmentier Fille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pokerstars-youtube-videos-88a0eb'>Pokerstars Youtube Videos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=application-pour-regarder-des-s%C3%A9ries-gratuitement-sur-android-88a0eb'>Application Pour Regarder Des Séries Gratuitement Sur Android</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2020-%3A-claude-88a0eb'>Fort Boyard 2020 : Claude</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=video-phone-commax-88a0eb'>Video Phone Commax</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=composition-hoffenheim-dortmund-88a0eb'>Composition Hoffenheim Dortmund</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-passeur-de-l%27histoire-du-football-88a0eb'>Meilleur Passeur De L'histoire Du Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=journalistes-des-grandes-gueules-88a0eb'>Journalistes Des Grandes Gueules</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-de-tonqu%C3%A9dec-films-et-programmes-tv-88a0eb'>Guillaume De Tonquédec Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lo%C3%AFs-et-clark%2C-les-nouvelles-aventures-de-superman-saison-1-streaming-88a0eb'>Loïs Et Clark, Les Nouvelles Aventures De Superman Saison 1 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-belle-chanson-au-piano-88a0eb'>Plus Belle Chanson Au Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=si-on-s%27aimait-11-juin-88a0eb'>Si On S'aimait 11 Juin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-tik-tok-88a0eb'>Chanson Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=overwatch-gamepedia-tracer-88a0eb'>Overwatch Gamepedia Tracer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=se-r%C3%A9veiller-%C3%A0-4h-du-matin-paranormal-88a0eb'>Se Réveiller à 4h Du Matin Paranormal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-de-bain-1-pi%C3%A8ce-shorty-intersport-88a0eb'>Maillot De Bain 1 Pièce Shorty Intersport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=disney-magic-kingdoms-%C3%A9v%C3%A8nement-juillet-2020-88a0eb'>Disney Magic Kingdoms évènement Juillet 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=totally-accurate-battle-simulator-license-key-88a0eb'>Totally Accurate Battle Simulator License Key</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-maillot-de-bain-jupette-88a0eb'>Amazon Maillot De Bain Jupette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avec-quoi-prendre-la-cr%C3%A9atine-88a0eb'>Avec Quoi Prendre La Créatine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-lucie-caract%C3%A8re-88a0eb'>Prénom Lucie Caractère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-combattants-film-complet-88a0eb'>Les Combattants Film Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frais-achat-immobilier-angleterre-88a0eb'>Frais Achat Immobilier Angleterre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=3%C3%A8me-conditionnel-anglais-88a0eb'>3ème Conditionnel Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mercurial-superfly-7-noir-88a0eb'>Mercurial Superfly 7 Noir</a>,
+";s:7:"expired";i:-1;}

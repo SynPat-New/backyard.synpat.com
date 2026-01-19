@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5085:"Pour les jardiniers experts ou les débutants, botanic® propose un très large choix de plants potagers. suppression. <br> <br>En observant les plantes qui se développent spontanément dans le jardin, … Vous pourrez toutefois vous désinscrire à tout moment via le lien Vous conservez un droit d’accès et de rectification sur les Données vous concernant. Informations à compter du 11 mai 2020, tous nos magasins vous accueillent - Port du masque obligatoire Créez le potager qui vous ressemble grâce à toutes nos variétés de  <br> <br>1,1 K J’aime. <br> <br> mardi 4 août 2020 : vite, découvrez nos réductions sur l'offre Plants potager bio sur Cdiscount ! Nous prosposons dans notre boutique en ligne des plants de légumes et des plantes aromatiques prêts à être mis en terre dans votre potager bio. Les fraisiers sont beaux (même si chevreuils et lièvres aiment bien manger quelques feuilles), et ils sont en fleurs…Nous adapterons bien sûr la vente à la situation sanitaire…La petite pluie du jour va faire du bien, car le temps était bien sec depuis mars… Cela ne simplifie pas le travail du sol et la reprise des plants et semis…Nous sommes deux maraîchers, Hélène et Damien, installés depuis 2017, sur la commune des Auxons, proche de la gare TGV, dans le Grand- Besançon.Nous ouvrons au public tous les samedis matin de 9h à 12h (de fin avril à fin décembre) pour vendre notre production de légumes bio et plants bioVous pouvez aussi retrouver nos produits à la Biocoop Vesonbio, place Leclerc à Besançon, à la Biocoop La Canopée zone de Valentin à Châtillon le Duc et à la Biocoop de Saint Vit !  <br>Notre spécialité, les plants de tomates, plus de 20 variétés ! Avec leurs services et produits de grande qualité, réalisez tous vos projets jardinage ! De […] Ces droits sont à exercer sur présentation d’un justificatif valide d’identité à l’adresse TRUFFAUT – RGPD – 2 avenue des parcs 91090 Livraison rapide et économies garanties. <br> <br>Paysagistes, pépiniéristes, producteurs bio de plantes, spécialistes en aménagement, décoration ou entretien de jardin...Découvrez des professionnels du jardin près de chez vous, ayant une démarche respectueuse de l'environnement. Les productions de la Ferme Maraîchère du Windstein: Les plants BIO du potager, un grand choix de variétés anciennes. Toute notre production est certifiée en Agriculture Biologique. <br> <br>Les plantes sauvages et cultivées sont plus ou moins sensibles à la nature du sol. Le compagnonnage, les plantes compagnes ou encore les cultures associées est une technique de jardinage basée sur l’observation des bonnes et mauvaises interactions des plantes entre elles au potager. Vous pouvez aussi retrouver nos produits à la Biocoop Vesonbio, place Leclerc à Besançon, à la Biocoop La Canopée zone de Valentin à Châtillon le Duc et à la Biocoop de Saint Vit !  Vente de plants de légumes et aromatiques- Site de production: la haranguerie 27230 Saint Mards de Fresne Livraison offerte* dès 39€ d'achats sur Truffaut.com de désabonnement présent dans l’email reçu ou si vous possédez un Compte Client Truffaut.com directement via l’onglet « Mes Infos personnelles ». Parce qu'il n'est pas toujours facile de faire soi-même des semis, vous pourrez trouver toutes les plantes potagères botanic® en motte ou en godet. Notre entreprise existe depuis 1920. Depuis des siècles, les jardiniers et paysans, associent les plantes amies entre-elles et évitent de cultiver les plantes ennemies les unes à côté des autres. politique de fidélisation, de promotion et d’amélioration continue de la relation client. Ainsi, au potager, mariez les choux, les salades et les plantes aromatiques ! Privilégiez des plants et des graines bio, pour encore plus de naturel. Nous ouvrons au public tous les samedis matin de 9h à 12h (de fin avril à fin décembre) pour vendre notre production de légumes bio et plants bio. Les plants sont prêts et n’attendent plus que vous !Les légumes primeurs sont là aussi !!! Vous pouvez ajouter à votre potager quelques graines, bulbes ou plants de fleurs pour embellir votre potager et surtout attirer les insectes pollinisateurs très bénéfiques à vos plantations de légumes. Un jardin bio est un jardin où les plantes et légumes vivent en harmonie les uns avec les autres et s'entraident entre eux pour favoriser leur croissance mutuelle ou se débarrasser des indésirables. Pour éviter les mauvaises associations et privilégier les bonnes, il y a quelques règles à savoir. <br> <br>Certaines plantes ont un effet bénéfique sur d'autres, stimulant leur croissance et les protégeant des différents parasites.. Pour recevoir nos conseils et alertes de nouveautés.« En renseignant ce champ, vous acceptez de recevoir la newsletter Truffaut Promos, Evènements et Conseils par email élaborée dans le cadre de notre N'oubliez pas : pour ne pas épuiser votre sol et cultiver vos légumes bio, pratiquez la rotation des cultures. <br>";s:7:"keyword";s:25:"les bio plants du potager";s:5:"links";s:5690:"<a href='https://backyard.synpat.com/site/article.php?page=eric-judor-pain-de-mie-88a0eb'>Eric Judor Pain De Mie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-astoria-autriche-88a0eb'>Hôtel Astoria Autriche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-full-body-avanc%C3%A9-88a0eb'>Programme Full Body Avancé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=becky-trailer-%282020%29-88a0eb'>Becky Trailer (2020)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=critique-film-armada-88a0eb'>Critique Film Armada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barbecue-pierre-brico-88a0eb'>Barbecue Pierre Brico</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=starter-pack-fortnite-chapitre-2-saison-2-88a0eb'>Starter Pack Fortnite Chapitre 2 Saison 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-seux-linkedin-88a0eb'>Dominique Seux Linkedin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=robe-d%27%C3%A9t%C3%A9-longue-88a0eb'>Robe D'été Longue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=astreinte-juge-administratif-88a0eb'>Astreinte Juge Administratif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=world%27s-most-wanted-fugitives-88a0eb'>World's Most Wanted Fugitives</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=naturaliser-une-b%C3%A9casse-88a0eb'>Naturaliser Une Bécasse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-qui-d%C3%A9crit-une-personne-88a0eb'>Chanson Qui Décrit Une Personne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sidiku-buari-and-his-jam-busters-88a0eb'>Sidiku Buari And His Jam Busters</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lumix-leica-12-60-88a0eb'>Lumix Leica 12-60</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ast%C3%A9rix-et-ob%C3%A9lix-dessin-anim%C3%A9-le-domaine-des-dieux-88a0eb'>Astérix Et Obélix Dessin Animé Le Domaine Des Dieux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maddie-ziegler-taille-88a0eb'>Maddie Ziegler Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emma-%7C-the-voice-je-suis-malade-88a0eb'>Emma | The Voice Je Suis Malade</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-fromage-blanc-sans-levure-88a0eb'>Pancake Fromage Blanc Sans Levure</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Aim%C3%A9-Jacquet-2019-88a0eb'>Aimé Jacquet 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-jobs-france-88a0eb'>Amazon Jobs France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=po%C3%A8me-libert%C3%A9-victor-hugo-88a0eb'>Poème Liberté Victor Hugo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-duo-88a0eb'>Pékin Express Duo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traduction-fran%C3%A7aise-koh-lanta-88a0eb'>Traduction Française Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-ne-vit-qu%27une-fois-snoopy-88a0eb'>On Ne Vit Qu'une Fois Snoopy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remplir-une-carte-postale-88a0eb'>Remplir Une Carte Postale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=langham-hotel-new-york-88a0eb'>Langham Hotel New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fouz-al-fahad-mariage-88a0eb'>Fouz Al Fahad Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-marionnettes-christophe-remix-88a0eb'>Les Marionnettes Christophe Remix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cabinet-maxime-pr%C3%A9vot-88a0eb'>Cabinet Maxime Prévot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyber-criminal-serie-88a0eb'>Cyber Criminal Serie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laure-boulleau-en-couple-avec-neymar-88a0eb'>Laure Boulleau En Couple Avec Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-objectifs-sony-88a0eb'>Prix Objectifs Sony</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-2016-episode-9-88a0eb'>Koh Lanta 2016 Episode 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-nike-france-88a0eb'>Magasin Nike France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=antoine-tom%C3%A9-all-for-one-88a0eb'>Antoine Tomé All For One</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-plus-beaux-buts-88a0eb'>Les Plus Beaux Buts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Robert-Pir%C3%A8s-OM-88a0eb'>Robert Pirès OM</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=richard-rawlings-ray-rawlings-88a0eb'>Richard Rawlings Ray Rawlings</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livraison-boulangerie-bordeaux-88a0eb'>Livraison Boulangerie Bordeaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=flash-pour-canon-eos-2000d-88a0eb'>Flash Pour Canon Eos 2000d</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-moustaki---ma-libert%C3%A9-88a0eb'>Youtube Moustaki - Ma Liberté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=note-fifa-19-88a0eb'>Note Fifa 19</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ronde-synonyme-en-10-lettres-88a0eb'>Ronde Synonyme En 10 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toner-brother-dcp-l2530dw-88a0eb'>Toner Brother Dcp-l2530dw</a>,
+";s:7:"expired";i:-1;}

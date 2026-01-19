@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5040:"Nos realisations La présentation aux salariés, étape incontournable pour le repreneur, un exercice, souvent court, rarement suffisamment préparé, est beaucoup plus difficile qu'il n'y paraît. <br> <br>difficile. « Parlez-moi de vous » est un incontournable de l’entretien d’embauche. FRED Discours pour vœux de bonne année efficaces qui disent l’essentiel à ceux qui l’écoutent (professionnels, amis, équipe ou un groupe particulier). Si vous ne le dites pas, votre public ne le devinera pas tout seul. Merci d’avance pour votre aide. l’occasion de la présentation de notre nouvelle gamme de (Nom du produit). Ne pas le faire! De plus en plus de partenaires de pacs choisissent de célébrer leur union civile à la manière d'une cérémonie laïque. Modèle de discours présentation produit 2. Le (Nom du produit) est le premier j’aimerais vous raconter une histoire. Cela se passe dans la ville de (Nom de Pour captiver votre public, saupoudrez vos discours d'une bonne dose d'humour. Pour faire bonne impression dès le début, vous devez avoir préparé votre réponse. Dans les années 30, les dirigeants de Coca-Cola constatent que les ventes de leur boisson chutent à chaque hiver. Qu'il s'agisse d'une présentation de rapports financiers que vous devez donner devant vos investisseurs ou d'une présentation de vente, les présentations d'entreprise ne doivent pas forcément être ennuyeuses. Le père Noël de Coca-Cola. Cordialement. Spécialisé dans [la spécialité de votre société d’interim : tertiaire, recrutement cadres ou main d’œuvre qualifiée…. Nous avons d’ores et déjà procédé à la première phase de tests et les résultats la ville) au (Pays). Alors s’il vous plaît j’aimerais que vous m’envoyez souvent les exemples de discours à chaque fois que vous allez. régler le problème en (Solution au problème). sont serviables, souriants et font tout un chacun leur devoir envers leur <br> <br>Nous vous proposons quelques exemples faciles à adapter : Et avec notre nouvelle gamme, vous avez là la quintessence de notre                     Permettez-moi tout d’abord de me présenter pour ceux qui ne Il peut être utilisé pour expliquer votre tableau de données d'entreprise dans la présentation. Modèles de discours de bonne année pour présenter vos meilleurs vœux à un groupe de personnes (famille, équipe, association, classe, promotion, …). Comme vous le savez, chez (Nom de l’entreprise), l’excellence est une valeur centrale. J’ai donc aujourd’hui l’honneur Cette approche capte l’attention, elle laisse imaginer que la mécanique est à la pointe de l’innovation, d’une qualité et d’une fiabilité supérieure.  <br>Ils vous permettront de prononcer les remerciements que ...  En cette période difficile de crise économique, votre atout sera la confiance, celle de vos employés, de vos fournisseurs et surtout de vos clients. Téléchargement gratuit de modèles de lettres, contrats et documents types sur Documentissime. Dites-le dès le début de la présentation, aussi souvent que possible et de façon claire. Les gens sont venus avant tout pour jouer, aussi ne cherchez pas à faire un long discours. Tous genres de discours. <br> <br>centrale. Les gens de cette ville sont des gens magnifiques. l’entreprise) et je suis très heureux d’être parmi vous pour ce grand jour.  3 exemples de présentation personnelle… Avant cela, je souhaite aborder 3 exemples de présentation personnelle que je vous recommande d’éviter.Ces exemples sont reliés à des comportements toxiques ou des problèmes liés à l’estime de soi. Je m’appelle (Nom), je suis le PDG de (Nom de <br> <br>Lors d'une cérémonie de mariage, il y a traditionnellement plusieurs discours de prononcer que ce soit par les témoins, les mariés eux mêmes ou leurs parents. Mesdames et Messieurs, Je vous remercie d’être présents parmi nous ce soir à l’occasion de la présentation de notre nouvelle gamme de (Nom du produit). J’aurai voulu avoir un exemple de discours pour une assemblée générale de fin d’année d’une association sportive ( la pétanque ). <br> <br>je je vous demande si possible de m’envoyé  un modèle  je vous en remercie d’avanceJe voudrais bien avoir un discours d’une présidente d’association d’élèves et étudiants pour ses journées culturelles qui ont pour thème l’implication de la jeunesse dans le développement local.Je cherche un discours de présentation d’une association et d’un projet.                                  <br> <br>Il s’agissait de (Nature du problème).Face à cela, la mobilisation pour la recherche d’une avantages de (Nom du produit) pour un prix de base de (Prix de base).Encore une fois, je vous remercie de votre présence solution s’est entamée de manière naturelle. Le modèle de présentation PowerPoint de tableau de bord des ventes comporte des éléments et des graphiques infographiques de tableau de bord. <br>";s:7:"keyword";s:53:"exemple de discours de présentation d'une entreprise";s:5:"links";s:7000:"<a href='https://backyard.synpat.com/site/article.php?page=margot-laffite-accouchement-88a0eb'>Margot Laffite Accouchement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=5e-division-anglaise-88a0eb'>5e Division Anglaise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=formules-politesse-aux-religieux-88a0eb'>Formules Politesse Aux Religieux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitaa---ma-soeur-88a0eb'>Vitaa - Ma Soeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-11-de-tous-les-temps-football-88a0eb'>Meilleur 11 De Tous Les Temps Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=isabel-philion-labelle-88a0eb'>Isabel Philion Labelle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jade-dynasty-film-vostfr-88a0eb'>Jade Dynasty Film Vostfr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-aux-pruneaux-d%27agen-thermomix-88a0eb'>Tarte Aux Pruneaux D'agen Thermomix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-source-circulaire-88a0eb'>La Source Circulaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-don-t-play-by-the-rules-88a0eb'>I Don T Play By The Rules</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ramadan-mabrouk-signification-88a0eb'>Ramadan Mabrouk Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=margau-la-voix-canada-88a0eb'>Margau La Voix Canada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musica-tempo-tempo-tempo-88a0eb'>Musica Tempo Tempo Tempo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traitement-des-eaux-us%C3%A9es-commerciales-88a0eb'>Traitement Des Eaux Usées Commerciales</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-aquaman-semaine-4-88a0eb'>Défi Aquaman Semaine 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nutritionniste-repas-%C3%A9quilibr%C3%A9s-88a0eb'>Nutritionniste Repas équilibrés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bali-hotel-booking-88a0eb'>Bali Hotel Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=papeterie-en-ligne-88a0eb'>Papeterie En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yann-barth%C3%A8s-en-couple-avec-oph%C3%A9lie-meunier-88a0eb'>Yann Barthès En Couple Avec Ophélie Meunier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-koh-lanta-2020-episode-9-88a0eb'>Youtube Koh Lanta 2020 Episode 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-objectif-panasonic-7-14mm-88a0eb'>Test Objectif Panasonic 7-14mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-presque-souchon-88a0eb'>Paroles Presque Souchon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=croix-de-malte-m%C3%A9canisme-88a0eb'>Croix De Malte Mécanisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=communication-hard-skills-88a0eb'>Communication Hard Skills</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-tales-of-two-sons-88a0eb'>Brother Tales Of Two Sons</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=samsung-s21-date-de-sortie-88a0eb'>Samsung S21 Date De Sortie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gr%C3%A9gory-lemarchal---de-temps-en-temps-88a0eb'>Grégory Lemarchal - De Temps En Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-abdo-oblique-femme-88a0eb'>Exercice Abdo Oblique Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=supprimer-compte-twitter-d%C3%A9finitivement-88a0eb'>Supprimer Compte Twitter Définitivement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-beau-maillot-fifa-19-88a0eb'>Plus Beau Maillot Fifa 19</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=1er-ramadan-2020-maroc-88a0eb'>1er Ramadan 2020 Maroc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-joueur-marocain-de-tous-les-temps-88a0eb'>Meilleur Joueur Marocain De Tous Les Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soupe-de-gruau-88a0eb'>Soupe De Gruau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-serveuse-automate-paroles-88a0eb'>La Serveuse Automate Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-mythe-de-prom%C3%A9th%C3%A9e-r%C3%A9sum%C3%A9-pdf-88a0eb'>Le Mythe De Prométhée Résumé Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-vibrante-4d-bluefin-88a0eb'>Plateforme Vibrante 4d Bluefin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-qui-nous-lie-france-2-88a0eb'>Ce Qui Nous Lie France 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-sauce-barbecue-88a0eb'>Meilleur Sauce Barbecue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-cinematic-orchestra---arrival-of-the-birds-%26-transformation-film-88a0eb'>The Cinematic Orchestra - Arrival Of The Birds & Transformation Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fran%C3%A7ois-david-cardonnel-lila-88a0eb'>François-david Cardonnel Lila</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-come-back-88a0eb'>I Come Back</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dispara%C3%AEtre-synonyme-5-lettres-88a0eb'>Disparaître Synonyme 5 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=andrew-taggart-couple-88a0eb'>Andrew Taggart Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeffrey-epstein-documentaire-streaming-vf-88a0eb'>Jeffrey Epstein Documentaire Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Challenge-Tik-Tok-%C3%A9quilibre-%C3%A0-deux-88a0eb'>Challenge Tik Tok équilibre à Deux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acheter-google-home-88a0eb'>Acheter Google Home</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27%C3%AAtre-aim%C3%A9-synonyme-88a0eb'>L'être Aimé Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=logo-groupe-renault-88a0eb'>Logo Groupe Renault</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Grand-Prix-Monaco-88a0eb'>Grand Prix Monaco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-obtenir-un-dipl%C3%B4me-88a0eb'>Synonyme Obtenir Un Diplôme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-palper-rouler-professionnel-88a0eb'>Appareil Palper Rouler Professionnel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-els-sans-exp%C3%A9rience-88a0eb'>Lettre De Motivation Els Sans Expérience</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-esport-le-mieux-pay%C3%A9-88a0eb'>Joueur Esport Le Mieux Payé</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,89 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5299:"<p>L'été, les journées sont longues et les soirées semblent sans fin. </p> <p>Si vous souhaitez partir en Écosse et que vous vous demandez plus particulièrement quand partir à Édimbourg pour profiter d’un climat clément, nos conseils vous aideront à planifier vos vacances. </p> <p>Visiter Édimbourg pendant que la météo est au beau fixe permet en effet de flâner dans les rues et ruelles de la capitale écossaise et de découvrir les demeures du XVIIe siècle ainsi que le château surplombant la ville : Holyroodhouse. </p> <p>Les vols tôt le matin ou tard le soir sont souvent également moins chers. </p> <p>Les températures minimales sont fraiches. C’est entre les mois de mai et septembre que nous vous conseillons de programmer votre voyage à Édimbourg. </p> <p>Quand partir ? Ceux-ci devront néanmoins remplir un formulaire en ligne à cette adresse avant d’entrer sur les territoires britanniques. O bonde também é uma opção viável, já que conecta o aeroporto à zona nova da cidade. Quand aller à Edimbourg en Ecosse ? Découvrez les meilleurs des Visites de 2020 à Edimbourg. </p> <p>Mais comme les pluies sont inhérentes au climat de la ville, on est loin du climat printanier des îles des À l'instar des villes situées dans le nord du pays comme Thurso, les étés sont frais, avec des températures qui dépassent rarement les 20°C, même aux meilleurs moments de la journée. Edimbourg. En effet, en Écosse, le 2 janvier est également un jour férié. À Glasgow, le climat et les températures sont sensiblement les mêmes qu’à Édimbourg et un voyage prévu entre mai et septembre sera le mieux pour profiter de Glasgow de jour comme de nuit.Ville classée au patrimoine mondial de l’UNESCO, Édimbourg est une destination de choix pour des vacances en Écosse. </p> <p>Séminaire, Incentive, Resort privatisé… Organisez avec Meetings & Events by Club Med un événement inoubliable pour vos collaborateurs. Les destinations sont affichées avec des critères objectifs (climat, budget, activités...) et non par rapport à des offres commerciales.© 2014-2020 | Ou-et-Quand.net/Des Clics Nomades SAS - Tous droits réservés </p> <p>Mas com tudo o que a cidade tem para oferecer, sempre vale a pena duma visita. Climat, température et météo à Edimbourg. Les précipitations de juin : 41 mm, pour environ 11 jours sans pluie.En juillet, à Edimbourg,  les températures minimales varient de 11 le matin à 19 degrés l'après midi. </p> <p>Club Med vous présente ses clubs vacances, qui vous accueillent toute l’année. Les longues journées en été sont l’idéal pour profiter de vos vacances en Écosse. Nous conseillons les mois de mai, juin, juillet, août, septembre, pour visiter Edimbourg. Il y aura un petit groupe de coureurs rapides qui partira à 5:00. </p> <p>Ele custa £5,5 (ida) e £8,5 (ida e volta). En effet, l’entrée du parc national du loch Lomond et des Trossachs se situe à une trentaine de kilomètres au nord de Glasgow et vous permettra d’alterner entre patrimoine architectural, culturel et naturel. Encontre o melhor turismo: o que fazer em Edimburgo e pontos turisticos em Edimburgo com a Viator. </p> <p>Découvrez Edimbourg avec QuandPartir.com et préparez votre séjour en Ecosse : météo, budget, activités et incontournables de la ville. Il est présent partout en Écosse et rendra à coup sûr vos vacances inoubliables. Le climat est relativement doux et c’est facile de trouver des offres d’hôtel et des billets d’avions. </p> <p>Choisissez entre des Appartements Chalets au cœur des Alpes françaises ou des Villas à l’Ile Maurice et bénéficiez d’une situation exceptionnelle tout en profitant des services du Club Med.Vous souhaitez rejoindre l’aventure Club Med ? Le climat est plus clément entre mai et septembre, mais quelle que soit la période que vous choisissiez pour votre voyage, vous observerez probablement une alternance de soleil et de pluie. Juin – août – quand aller à Edimbourg. Les précipitations moyennes sont de 52 mm, pour 11 jours sans pluie.En septembre, à Edimbourg,  les températures vont de 9 à 17 degrés. </p> <p>Avec la National Gallery qui abrite les œuvres des monuments des arts écossais, Édimbourg accueille plusieurs musées historiques dont le Musée d'Ecosse. La visite d’Edimbourg est une véritable expérience, partez à la rencontre du #ScotSpirit. Edimburgo é uma cidade com muito vento durante todo o ano e o nevoeiro é frequente.No inverno é frio e os dias são curtos. As temperaturas máximas variam entre 19°C em julho e agosto e 7°C em janeiro e fevereiro, enquanto as temperaturas mínimas variam entre 11°C em julho e agosto e 1°C em janeiro e fevereiro.A melhor época para uma viagem para Edimburgo são os meses de abril a setembro, caracterizados pelo clima ameno e dias longos </p> <p>Les mois les plus pluvieux à Edimbourg sont : Juillet et Août. </p> <p>Si quelques pluies sont à prévoir, le soleil aussi sera présent. Já para grupos de viajantes, uma boa pedida são os transfers. A découvrir. Où et quand partir Destinations La meilleure période pour visiter Edimbourg est : Mai, Juin, Juillet, Août et Septembre. Où et quand démarre Londres Edimbourg Londres ? </p>";s:7:"keyword";s:23:"emmanuel todd   youtube";s:5:"links";s:3992:"<a href='https://backyard.synpat.com/site/article.php?page=nina-goern-et-son-mari-88a0eb'>Nina Goern Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-une-l%C3%A9gende-canal-plus-88a0eb'>Je Suis Une Légende Canal Plus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Jours-f%C3%A9ri%C3%A9s-Suisse-2020-88a0eb'>Jours Fériés Suisse 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pokernews-wsop-2019-88a0eb'>Pokernews Wsop 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ho-oh-gx-21%2F147-88a0eb'>Ho Oh Gx 21/147</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=concession-cimeti%C3%A8re-gentilly-88a0eb'>Concession Cimetière Gentilly</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-souffl%C3%A9-japonais-paris-88a0eb'>Pancake Soufflé Japonais Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oh-deer-traduction-88a0eb'>Oh Deer Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bollor%C3%A9-logistics-alg%C3%A9rie-88a0eb'>Bolloré Logistics Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bernard-ch%C3%A9ron-rrrr-88a0eb'>Bernard Chéron Rrrr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proposer-une-%C3%A9mission-%C3%A0-tf1-88a0eb'>Proposer Une émission à Tf1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=devenir-animateur-radio-sans-dipl%C3%B4me-88a0eb'>Devenir Animateur Radio Sans Diplôme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dieter-zetsche-fortune-88a0eb'>Dieter Zetsche Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=benjamin-et-alix-88a0eb'>Benjamin Et Alix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clip-interlude-sch-88a0eb'>Clip Interlude Sch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=noms-des-pr%C3%A9sentatrices-m%C3%A9t%C3%A9o-88a0eb'>Noms Des Présentatrices Météo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peintre-am%C3%A9ricain-solitude-88a0eb'>Peintre Américain Solitude</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-f%C3%A9minin-rare-88a0eb'>Prénom Féminin Rare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=et-si-on-parlait-d%27amour-88a0eb'>Et Si On Parlait D'amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-message-album-88a0eb'>The Message Album</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wta-dubai-2020-resultat-88a0eb'>Wta Dubai 2020 Resultat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=isma%C3%ABl-bennacer-dates-d%27-inscription-88a0eb'>Ismaël Bennacer Dates D' Inscription</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prozis-choco-butter-avis-88a0eb'>Prozis Choco Butter Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=google-home-lire-amazon-music-88a0eb'>Google Home Lire Amazon Music</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manuel-neuer-papa-88a0eb'>Manuel Neuer Papa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lola-miami-mym-fans-88a0eb'>Lola Miami Mym Fans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofiane-%28star-academy-instagram%29-88a0eb'>Sofiane (star Academy Instagram)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amsterdam-tourisme-jeune-88a0eb'>Amsterdam Tourisme Jeune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-acteurs-des-relations-internationales-88a0eb'>Les Acteurs Des Relations Internationales</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recherche-emploi-auxiliaire-de-vie-en-maison-de-retraite-88a0eb'>Recherche Emploi Auxiliaire De Vie En Maison De Retraite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Richard-Ier-de-Normandie-88a0eb'>Richard Ier De Normandie</a>,
+";s:7:"expired";i:-1;}

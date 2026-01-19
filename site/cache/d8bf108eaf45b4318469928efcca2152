@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6399:"<br>                                                   Les bornes de la fourchette sont calculées pour qu'elle inclue 90% des prix du marché, en excluant les 5% des prix les plus faibles comme 5% des prix les plus élevés de la zone "                                              Cette liste n’est pas approuvée par le propriétaire ni l’éditorial.                                                                           13002 Marseille      <br> <br>                                                                Suggestions de 18 à 95 € (pour deux).              plus cher              Studio                                       13002 Marseille <br> <br>                      moins cher  Facebook is showing information to help you better understand the purpose of a Page.                                                                                         Comparez gratuitement les offres de +100 banques pour votre prêt immobilier.           <br> <br>     Bar des 13 coins at 45 rue sainte Françoise, 13002 Spok bis at 7 rue lulli, 13001 The Queen Victoria Restaurant-Pub Marseille at 1 place aux huiles, 13001 MON RESTO, Restaurant Bobolivo Restaurant at 29 rue Caisserie, 13002 Vinoneo at 6 place Daviel, 13002                                       13002 Marseille 12 pl Augustines, 13002 Marseille Plus d'infos.                                      12 Place des Augustines, 13002, Marseille, France Indications particulières Marseille 2ème , Provence-Alpes-Côte-d'Azur , Bouches-du-Rhône (13) , Le Panier                               8 rues à proximité                                                                                 3 pièces <br> <br>                  Tout sur la voie 10 place des Augustines, 13002 Marseille : prix immobilier (m2), immeuble par immeuble. <br> <br> En poursuivant votre navigation sur le site, vous consentez à l'utilisation de cookies.      des Augustines, 13002 Marseille.  Ouvert du mardi au samedi le midi et le soir.                                                              13002 Marseille Pour voir cette carte, n’hésitez pas à télécharger un navigateur plus récent.                                                     <br> <br>                               Le niveau de l’indice va du plus prudent (1 : confiance faible) au plus élevé (5 : confiance élevée).                                       3,7 %                                                              Pour connaître précisément la valeur d’un appartement au 12 place des Augustines, veuillez renseigner ses caractéristiques grâce à notre outil d'estimation.            : Mardi > Dimanche déjeuner et dîner Combien ?                     Page Transparency See More.      La comparaison entre les professionnels de l’immobilier s’effectue en fonction de leur performance pour vendre un bien similaire et de la proximité des biens vendus par rapport à l’adresse saisie. Pour en savoir plus L’exactitude des données ne peut être garantie.              <br>                            *L'indicateur de Tension Immobilière (ITI) mesure le rapport entre le nombre d'acheteurs et de biens à vendre.                             Prix du m² de l'appartement le moins cher à cette adressePrix du m² de l'appartement le plus cher à cette adressePrix du m² des maisons les moins chères dans ce secteurPrix du m² des maisons les plus chères dans ce secteur Evolution du m2 et estimation immobilière des appartements et maisons 12 pl. Evolution du m2 et estimation immobilière des appartements et maisons 10 pl. : 12 Place des Augustines 13002 Marseille Quand ? 12, Place des Augustines 13002 Marseille France Voir sur la carte.                                Le prix du mètre carré au  Covid-19 : Des évolutions de prix sont à suivre durant les prochains mois en fonction de l'actualité économique.  Estimez votre bien en fonction de ses caractéristiquesOu trouvez l'agence la plus pertinente pour votre projet                             21                                     <br> <br>Où ?             - 68 m²                                                                         <br> <br>Opens at 11:00 AM.                                                Voir les annonces                                                                                                                                                                                     Le Bistrot des Pistoles-Les Delices Du Panier 27 r Panier, 13002 Marseille Ouvre à … Est partenaire le professionnel de l’immobilier qui décide d’être référencé par la création d’une vitrine, qu’elle soit gratuite ou non.                                                    Annonces de biens à vendre                       06.50.45.07.87; Réserver.                                                                        Appartement   <br> <br>                        <br> <br>                                      13002 Marseille                                                         Le prix du mètre carré au 12 place des Augustines est globalement équivalent que le prix des autres addresses à                                                                         MeilleursAgents affiche un indice de confiance en complément de ses estimations sur la Carte des prix ou quand vous utilisez ESTIMA.                                                                              - 60 m²                        Terrasse.  Construction de la page en quelques 0.16124201 secondes                                                      104              <br> <br>          Contact La Table d’Augustine on Messenger.                                              LE GRAND SAINT ANTOINE in Ars, 12 PLACE DES AUGUSTINES , 13002 MARSEILLE 2, +33967288439, Clients, offres, bons, les horaires d’ouverture, les directions - toutes les informations en un coup de œil                            Accueil des groupes. <br> <br>12 place des Augustines (4,139.58 mi) Marseille, France 13002.                                           Local professionnel                                        <br>                                            <br> <br>  <br> <br>Appartement  <br> <br>                                                                                                                                                       <br>";s:7:"keyword";s:40:"12 place des augustines, 13002 marseille";s:5:"links";s:5974:"<a href='https://backyard.synpat.com/site/article.php?page=isabelle-aubret---un-premier-amour-88a0eb'>Isabelle Aubret - Un Premier Amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandra-occupation-double-bali-88a0eb'>Alexandra Occupation Double Bali</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9sentatrice-m%C3%A9t%C3%A9o-cnews-hinatea-chatal-88a0eb'>Présentatrice Météo Cnews Hinatea Chatal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-platform-explication-fin-88a0eb'>The Platform Explication Fin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-disney-le-roi-lion-88a0eb'>Chanson Disney Le Roi Lion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=surnom-dr%C3%B4le-et-mignon-88a0eb'>Surnom Drôle Et Mignon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=facteurs-socioculturels-qui-ont-une-influence-sur-la-consommation-88a0eb'>Facteurs Socioculturels Qui Ont Une Influence Sur La Consommation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Koh-Lanta-saison-2-streaming-88a0eb'>Koh-Lanta Saison 2 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-chez-laurette-88a0eb'>Partition Chez Laurette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=overwatch-gratuit-ps4-88a0eb'>Overwatch Gratuit Ps4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mongeville-remous-en-thalasso-youtube-88a0eb'>Mongeville Remous En Thalasso Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vinaigre-blanc-en-vrac-88a0eb'>Vinaigre Blanc En Vrac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nadia-buari-age-88a0eb'>Nadia Buari Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mot-inverse-miroir-88a0eb'>Mot Inverse Miroir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%AApe-gruau-prot%C3%A9ine-88a0eb'>Crêpe Gruau Protéine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=utorrent-64-bit-88a0eb'>Utorrent 64 Bit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kitoko-signification-eva-queen-88a0eb'>Kitoko Signification Eva Queen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gardien-italien-1994-88a0eb'>Gardien Italien 1994</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-tao-du-jeet-kune-do-pdf-fran%C3%A7ais-88a0eb'>Le Tao Du Jeet Kune Do Pdf Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calcul-charge-polluante-eaux-us%C3%A9es-88a0eb'>Calcul Charge Polluante Eaux Usées</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-irlande-2010-resultat-foot-88a0eb'>France Irlande 2010 Resultat Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moutarde-fallot-carrefour-88a0eb'>Moutarde Fallot Carrefour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-boulevers%C3%A9-d%C3%A9finition-88a0eb'>être Bouleversé Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27emploi-en-italien-88a0eb'>Demande D'emploi En Italien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=celine-dion-blues-88a0eb'>Celine Dion Blues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steve-reeves-superman-88a0eb'>Steve Reeves Superman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancakes-sans-oeufs-88a0eb'>Pancakes Sans Oeufs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lauren-lapkus-taille-88a0eb'>Lauren Lapkus Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandra-ropele-jeel-88a0eb'>Alexandra Ropele Jeel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g7-abonn%C3%A9s-t%C3%A9l%C3%A9phone-88a0eb'>G7 Abonnés Téléphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%AAter-en-anglais-88a0eb'>Prêter En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-a-atteint-la-morgue-88a0eb'>Qui A Atteint La Morgue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tapis-de-sol-fitness-ultrasport-88a0eb'>Tapis De Sol Fitness Ultrasport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-anniversaire-marseille-88a0eb'>Maillot Anniversaire Marseille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-all-musculation-88a0eb'>Code Promo All Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-g%C3%A9n%C3%A9rique-koh-lanta-2019-88a0eb'>Musique Générique Koh Lanta 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=saint-jhn-1999-88a0eb'>Saint Jhn 1999</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lincoln-city-canada-88a0eb'>Lincoln City Canada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-de-outro-88a0eb'>Musique De Outro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soprano-duo-2020-88a0eb'>Soprano Duo 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-trouver-des-micro-influenceurs-88a0eb'>Comment Trouver Des Micro-influenceurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-voyage-autour-du-monde-88a0eb'>Chanson Voyage Autour Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alain-duhamel-fr%C3%A8re-88a0eb'>Alain Duhamel Frère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-vibrante-et-oscillante-4d-triples-moteurs-silencieux-bluefin-fitness-88a0eb'>Plateforme Vibrante Et Oscillante 4d Triples Moteurs Silencieux Bluefin Fitness</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-amour-secret-88a0eb'>Chanson Amour Secret</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abdos-obliques-hypopressif-88a0eb'>Abdos Obliques Hypopressif</a>,
+";s:7:"expired";i:-1;}

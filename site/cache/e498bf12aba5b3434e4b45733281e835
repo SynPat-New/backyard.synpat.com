@@ -1,0 +1,137 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5264:"Иск подготовит юрист телеканала "Царьград". По словам предпринимателя, канал был задуман “как трибуна и голос русского православного большинства".Помимо страницы телеканала “Царьград”, Youtube заблокировал и аккаунт сообщества “Двуглавый орел”. This content is not available in your region Добавлю, какое бы давление ни оказывалось на канал, мы не прекратим говорить правду”, - говорится в официальном заявлении канала. С нами просто не выходят на связь, поэтому конфликт мы планируем решать в суде. МИД Росси призвал профильные международные организации и правозащитников отреагировать на произошедшее.Основатель телеканала “Царьград” - бизнесмен Константин Малофеев. Plans for Poland to withdraw from the Istanbul Convention have brought to light the spiralling pandemic no one is talking about - the surge in domestic violence and dilution of women's rights.The news that UK nurses will not be benefiting from a pay rise has angered many across the profession, one which has lost members to coronavirus and continues to fight the pandemic on the frontlines. Latest breaking news available as free video on demand. Suivez toutes les infos en direct grâce à Euronews - Retrouvez l'actualité en France et les informations à l'international. Если мы обнаруживаем, что учетная запись нарушает эти законы, то предпринимаем соответствующие действия", — сообщили агентству “Интерфакс” в пресс-службе интернет-гиганта.Представительство России при ОБСЕ назвало блокировку аккаунта телеканала "грубым нарушением международных обязательств и примером политической цензуры". В редакции сообщили, что обратятся в суд. <br> <br>В редакции сообщили, что обратятся в суд. Youtube заблокировал аккаунт телеканала “Царьград”, на который были подписаны более миллиона человек. Suivez l'actualité en temps réel avec l'info live gratuit - Avec le direct Euronews, vous êtes le premier informé des événements à l'international. The controversial decision to strip the Hagia Sophia of its status as a symbol of interfaith and intercultural co-operation is yet another hammer blow to EU-Turkish relations.International spokesman for the office of Hungarian prime minister, Zoltán Kovács responds to a Euronews opinion piece penned by contributors Sohini Chatterjee and Péter Krekó.At least 10 people were killed and more than 3,300 homes ruined by flooding triggered by torrential rains across much of Sudan this week, the country's civil defence organisation said. Pequeño fragmento de las emisiones experimentales en castellano del canal paneuropeo de noticias EuroNews en el satélite Eutelsat II-F1 a comienzos de 1993. Youtube заблокировал аккаунт телеканала “Царьград”, на который были подписаны более миллиона человек. <br> <br> <br>Если у вас есть вопросы, обратитесь к юристу”.“Мы не получали ни предупреждений, ни уведомлений, ни страйков от Youtube. Сам видеосервис не объяснил, с чем связано такое решение.“Царьград” опубликовал скриншот уведомления о блокировке: “Ваш аккаунт Google был отключен и не может быть восстановлен, так как нарушил экспортное законодательство. Более того, администрация сервиса и сейчас не объясняет причины блокировки. Read more from our international journalists Kérésre a legfrissebb hírek ingyenes videó formájában is elérhetők Tájékozódjon Európa és a világ gazdasági, politikai és diplomáciai híreiről... az Euronews-zal. Сам видеосервис не объяснил, с … Его также основал Малофеев. "Google соблюдает все применимые законы о санкциях и соблюдении правил торговли. Stay informed on European and world news about economy, politics, diplomacy… with Euronews.  С 2014 года он находится в санкционном списке США в связи с событиями на Украине. <br>";s:7:"keyword";s:16:"euronew you tube";s:5:"links";s:10146:"<a href='https://backyard.synpat.com/site/article.php?page=musique-g%C3%A9n%C3%A9rique-koh-lanta-2019-88a0eb'>Musique Générique Koh Lanta 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=projecteur-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Projecteur Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-au-temps-chaud-88a0eb'>Synonyme De Au Temps Chaud</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tv-streaming-ps4-88a0eb'>Tv Streaming Ps4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sms-gratuit-sans-inscription-partout-dans-le-monde-88a0eb'>Sms Gratuit Sans Inscription Partout Dans Le Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%AEte-de-france-montcuq-88a0eb'>Gîte De France Montcuq</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=au-service-de-madame-monaco-88a0eb'>Au Service De Madame Monaco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9duse-koh-phi-phi-88a0eb'>Méduse Koh Phi Phi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karn-la-krang-neung-nai-hua-jai-02-vostfr-88a0eb'>Karn La Krang Neung Nai Hua Jai 02 Vostfr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ebook-minceur-gratuit-88a0eb'>Ebook Minceur Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ou-acheter-carte-sim-pr%C3%A9pay%C3%A9e-88a0eb'>Ou Acheter Carte Sim Prépayée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kameto-ban-twitch-88a0eb'>Kameto Ban Twitch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=teeqzy-live-twitch-88a0eb'>Teeqzy Live Twitch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-du-sport-%C3%A0-deux-coronavirus-88a0eb'>Faire Du Sport à Deux Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanteuse-yseult-nouvelle-star-88a0eb'>Chanteuse Yseult Nouvelle Star</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=driss-spinosa-2020-88a0eb'>Driss Spinosa 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=teeqzy-live-twitch-88a0eb'>Teeqzy Live Twitch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-fran%C3%A7ois-pi%C3%A8ge-fils-88a0eb'>Jean-françois Piège Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adjectif-en--ing-anglais-88a0eb'>Adjectif En -ing Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=haaland-psg-but-88a0eb'>Haaland Psg But</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mort-koh-lanta-m%C3%A9decin-88a0eb'>Mort Koh-lanta Médecin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-de-bain-1-pi%C3%A8ce-shorty-intersport-88a0eb'>Maillot De Bain 1 Pièce Shorty Intersport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-fou-de-vous-paroles-88a0eb'>Je Suis Fou De Vous Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Exercice-en-duo-88a0eb'>Exercice En Duo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beurre-de-cacahu%C3%A8te-s%C3%A8che-88a0eb'>Beurre De Cacahuète Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9ranger-synonyme-8-lettres-88a0eb'>Déranger Synonyme 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Pour-arriver-%C3%A0-moi-88a0eb'>Pour Arriver à Moi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-derni%C3%A8re-danse---indila-88a0eb'>Paroles Dernière Danse - Indila</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=argot-parisien-1900-88a0eb'>Argot Parisien 1900</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%C3%A9o-matte%C3%AF-saison-1-88a0eb'>Léo Matteï Saison 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=j%C3%A9r%C3%A9mie-balavoine-mariage-88a0eb'>Jérémie Balavoine Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hannah-arendt-pdf-gratuit-88a0eb'>Hannah Arendt Pdf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-joyce---astotel-88a0eb'>Hotel Joyce - Astotel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ergot-de-seigle-achat-88a0eb'>Ergot De Seigle Achat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-joueur-du-monde-2020-88a0eb'>Meilleur Joueur Du Monde 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%AApe-gruau-prot%C3%A9ine-88a0eb'>Crêpe Gruau Protéine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=booking-londres-coronavirus-88a0eb'>Booking Londres Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=imp%C3%B4ts-succession-angleterre-88a0eb'>Impôts Succession Angleterre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valise-rtl-replay-88a0eb'>Valise Rtl Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-diner-presque-parfait-recettes-88a0eb'>Un Diner Presque Parfait Recettes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=superficie-centre-commercial-carrefour-flins-88a0eb'>Superficie Centre Commercial Carrefour Flins</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-cas-prot%C3%A9ine-maison-88a0eb'>En-cas Protéine Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=golden-body-dz-88a0eb'>Golden Body Dz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nia-jax-couple-88a0eb'>Nia Jax Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mal%C3%A9fique-canal%2B-plus-88a0eb'>Maléfique Canal+ Plus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-nommer-quelqu%27un-88a0eb'>Synonyme De Nommer Quelqu'un</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=foals-neptune-lyrics-88a0eb'>Foals Neptune Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9lanie-taravant-mari-88a0eb'>Mélanie Taravant Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-easiest-way-to-get-blue-essence-88a0eb'>Lol Easiest Way To Get Blue Essence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-culture-enseignement-%C3%A0-distance-88a0eb'>France Culture Enseignement à Distance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vital-proteins-collagen-peptides-avis-88a0eb'>Vital Proteins Collagen Peptides Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chauffeur-priv%C3%A9-nancy-88a0eb'>Chauffeur Privé Nancy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=groupe-aline-tahiti-88a0eb'>Groupe Aline Tahiti</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruno-pelletier-et-isabelle-conjointe-88a0eb'>Bruno Pelletier Et Isabelle Conjointe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=celia-leo-linkedin-88a0eb'>Celia Leo Linkedin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-n%27ai-plus-la-chaine-8-88a0eb'>Je N'ai Plus La Chaine 8</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contrat-de-travail-exemple-gratuit-88a0eb'>Contrat De Travail Exemple Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uk-energy-mix-88a0eb'>Uk Energy Mix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taux-moyen-d%C3%A9finition-88a0eb'>Taux Moyen Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pascal-le-boulanger-horaires-88a0eb'>Pascal Le Boulanger Horaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyntoia-brown-wikipedia-fran%C3%A7ais-88a0eb'>Cyntoia Brown Wikipedia Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marjana-et-kamila-dispute-88a0eb'>Marjana Et Kamila Dispute</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Vincent-Kompany-age-88a0eb'>Vincent Kompany Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ramadan-2020-vaud-88a0eb'>Ramadan 2020 Vaud</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lyc%C3%A9e-cadenelle-marseille-avis-88a0eb'>Lycée Cadenelle Marseille Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frais-achat-immobilier-angleterre-88a0eb'>Frais Achat Immobilier Angleterre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-totale-ou-whey-88a0eb'>Protéine Totale Ou Whey</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manchester-city-vs-manchester-united-cha%C3%AEne-tv-88a0eb'>Manchester City Vs Manchester United Chaîne Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alimentation-sportif-menu-88a0eb'>Alimentation Sportif Menu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mort-koh-lanta-m%C3%A9decin-88a0eb'>Mort Koh-lanta Médecin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-avec-miss-you-88a0eb'>Chanson Avec Miss You</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-fort-boyard-switch-leclerc-88a0eb'>Jeu Fort Boyard Switch Leclerc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sarah-lopez-et-jonathan-matijas-rupture-88a0eb'>Sarah Lopez Et Jonathan Matijas Rupture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fernand-de-magellan-88a0eb'>Fernand De Magellan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-2020-m%C3%A9rignac-88a0eb'>Calendrier Ramadan 2020 Mérignac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-fran%C3%A7ois-et-sa-femme-88a0eb'>Jean-pierre François Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-le-monde-a-son-mot-%C3%A0-dire-inscription-88a0eb'>Tout Le Monde A Son Mot à Dire Inscription</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emmanuel-lechypre-bfm-88a0eb'>Emmanuel Lechypre Bfm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jacques-ii-successeur-88a0eb'>Jacques Ii Successeur</a>,
+";s:7:"expired";i:-1;}

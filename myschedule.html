@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Backyard Scheduler</title>
+
+    <!-- Import the Nylas Schedule Editor script --> 
+    <script src="https://schedule.nylas.com/schedule-editor/v1.0/schedule-editor.js" type="text/javascript"></script>
+    
+  </head>
+
+  <body>
+    <script>
+      nylas.scheduler.show({
+          auth: {
+            // Account access_token with active calendar scope
+            accessToken: "B4C7AulQ3x2Eyo7fByHcI9YnOgqwhg", 
+          },
+          style: {
+            // Style the schedule editor
+            tintColor: '#32325d',
+            backgroundColor: 'white',
+          },
+          defaults: {
+            event: {
+              title: 'Delta Electronics - Switching Mode Power Supply',
+              duration: 30,
+            },
+          },
+        });
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,138 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5419:"<p>Une bougie répulsive anti-mouches, moustiques et moustiques tigres à base de Géraniol. Si vous avez aimé notre publication aujourd’hui, nous vous encourageons à la partager avec vos amis. L’essence de citronnelle est l’insectifuge le plus couramment utilisé. </p> <p>Efficace ?Spirale anti moustique : Est-elle reelement efficace ? </p> <p>En plus de vous permettre de passer une “Soirée Tranquille”, ces bougies maison créent une très belle ambiance. </p> <p>Bougie à poser sur la table, est efficace contre les moustiques Tigre. Au cas où il ferait complètement froid, on ne pourrait plus le mettre dedans.Placez la mèche dans le trou laissé par la tige et coupez l’excès de mèche. et les moustiques aussi. </p> <p>20 heures d'efficacité garantie et testée en laboratoire. Placez un papier absorbant sur la cire et repassez plusieurs fois. Il peut être fabriqué à partir de paraffine ou de cire naturelle. </p> <p>Ces décorations sont très appropriées pour les fêtes d’enfants, les célébrations spéciales, … Vous verrez comment vous pouvez changer l’apparence d’un simple contenant de verre et obtenir une bougie qui attirera l’attention… Courage!Tout le matériel que nous avons utilisé dans cette publication peut être acheté sur notre site web Gran Velada (http://www.granvelada.com/es/), où vous trouverez des prix, des produits similaires, des accessoires cadeaux, des emballages, ….Cette cire est un produit 100% naturel, extrait d’un palmier du nord-ouest du Brésil et est très apprécié pour sa dureté et son éclat éblouissant. De cette façon, nous évitons leurs morsures et la transmission d’éventuelles maladies. Bougies répulsives composées de géraniol : à adopter pour vos tables d'été ! </p> <p>Les bougies en paraffine conviennent donc pour un usage ponctuel, dans un espace aéré ou extérieur. Il est également utilisé en cosmétique, donc si vous avez acheté plus que nécessaire pour ce métier, vous pouvez l’utiliser pour fabriquer vos propres cosmétiques. De plus, ils nous permettent de maintenir une atmosphère propre et fraîche et avec un arôme très agréable. Il se liquéfie puis remonte par capillarité le long de la mèche. L'action est immédiate dès l'allumage de la bougie. Et cela fera toute la différence.La paraffine est une cire d’origine minérale, c’est un dérivé pétro-chimique qui dégage des COV (composés organiques volatiles) lors de sa combustion. Si chaque année vos pieds, chevilles, bras, mains, ou votre visage sont couverts de piqures de moustique cela … Mais il y en a de toute sorte. </p> <p></p> <p>Il est possible de prolonger la durée d’une bougie allumée. Livraison 24/48h  Une bougie made in France à l'efficacité garantie !Groupe Devineau, une entreprise familiale depuis 1803Le produit a été ajouté dans la liste de comparaison!Le produit a été retiré depuis la liste de comparaison!Inscrivez-vous et ne ratez plus aucunes offres (promos, nouveautés, ventes d'usine) :, le groupe Devineau s'est imposé comme un acteur incontournable sur le marché de la bougie et des senteurs (bougies parfumées, encens...) pour la maison et le jardin.Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. L’été est arrivé, …. </p> <p>Une bougie répulsive au Géraniol anti-mouches et moustiques. </p> <p>Testée en laboratoire, cette bougie répulsive au géraniol repousse les indésirables : mouches, moustiques et moustiques tigres. Ce diffuseur répulsif au géraniol vous assure une protection contre les mouches, les moustiques et moustiques tigres pendant 2 semaines. Une bougie répulsive anti-mouches, moustiques et moustiques tigres à base de Géraniol. 40 heures d'efficacité garantie et testée en laboratoire. 3) La bougie anti-moustiques à la cire basique Les recettes de bougies pour chasser les moustiques ne manquent pas. </p> <p>A défaut de trouver votre bonheur en magasin pour réaliser cette bougie naturelle anti-moustique à la citronnelle, je vous mets le lien Amazon un peu plus bas d’un pot que j’ai repéré. Découvrez les bougies répulsives Devineau. Moustiques.info, le site d’informations sur les moustiques. </p> <p>Cela peut se faire de plusieurs façons, dont l’une est de l’introduire au préalable dans le congélateur. Lot de 30 chauffe-plats jaunes. Il faut faire attention à l’essence de citronnelle et éviter tout contact avec les yeux et les muqueuses, car dans certains cas, elle peut provoquer des irritations cutanées.Versez ensuite le résultat dans le récipient en verre de votre choix.Le laisser se solidifier et avant qu’il ne refroidisse complètement, introduire la tige de guidage au milieu de la bougie pour mettre la mèche. Présentée dans un verre bleu, cette bougie anti-vent est indispensable pour protéger votre famille lors des soirées d'été dans le jardin. Cette bougie anti-mouches et moustiques est la solution de protection idéale pour toute la famille ! Ici (lien vers un tutoriel GranVelada) vous pouvez voir quelques exemples.Cette essence est une huile naturelle concentrée à 100%, ce qui lui donne une couleur brunâtre très caractéristique. Pour savoir comment faire, nous vous recommandons notre tutoriel sur “Comment faire des bougies décorées avec des paillettes” (lien direct vers la publication). </p>";s:7:"keyword";s:21:"bougie anti moustique";s:5:"links";s:10036:"<a href='https://backyard.synpat.com/site/article.php?page=salaire-esport-fifa-88a0eb'>Salaire Esport Fifa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-baigne-film-dvd-88a0eb'>Tout Baigne Film Dvd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-amour-rap-2018-88a0eb'>Chanson Amour Rap 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partizan-belgrade-shop-88a0eb'>Partizan Belgrade Shop</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-cour-en-bois-88a0eb'>Jeux De Cour En Bois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeanne-mas-et-son-mari-88a0eb'>Jeanne Mas Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=veilleuse-sophie-la-girafe-light-and-dream-88a0eb'>Veilleuse Sophie La Girafe Light And Dream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=claquette-4-lettres-88a0eb'>Claquette 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mariana-mazza-youtube-88a0eb'>Mariana Mazza Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alcool-marrakech-ramadan-88a0eb'>Alcool Marrakech Ramadan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jonathan-zidane-zinedine-zidane-88a0eb'>Jonathan Zidane Zinedine Zidane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perle-c%C3%A9ramique-ou-charbon-actif-88a0eb'>Perle Céramique Ou Charbon Actif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sapeur-pompier-de-paris-88a0eb'>Sapeur-pompier De Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proc%C3%A8s-balkany-%C3%A2ge-88a0eb'>Procès Balkany âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charles-magnien-age-88a0eb'>Charles Magnien Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=david-hasselhoff-films-et-programmes-tv-88a0eb'>David Hasselhoff Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crossfit-open-2020-dates-88a0eb'>Crossfit Open 2020 Dates</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canal-qatar-arabie-saoudite-88a0eb'>Canal Qatar Arabie Saoudite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emc-cm2-confinement-88a0eb'>Emc Cm2 Confinement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=deesse-de-la-chasse-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Deesse De La Chasse Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Marion-Mar%C3%A9chal-Instagram-88a0eb'>Marion Maréchal Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bicarbonate-en-cas-de-diarrh%C3%A9e-88a0eb'>Bicarbonate En Cas De Diarrhée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=curry-patate-douce-cookeo-88a0eb'>Curry Patate Douce Cookeo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-tezenas-du-montcel-wikip%C3%A9dia-88a0eb'>Jean Tezenas Du Montcel Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=temps-de-repos-traction-88a0eb'>Temps De Repos Traction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=espadrille-chanel-femme-noir-88a0eb'>Espadrille Chanel Femme Noir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anthony-ange-4-88a0eb'>Anthony Ange 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=om%C3%A9ga-3-peau-s%C3%A8che-88a0eb'>Oméga 3 Peau Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quartier-pas-cher-londres-88a0eb'>Quartier Pas Cher Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9codeur-tnt-wifi-darty-88a0eb'>Décodeur Tnt Wifi Darty</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=slam-magazine-juin-2020-88a0eb'>Slam Magazine Juin 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hot-diggity-dog-88a0eb'>Hot Diggity Dog</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Exercice-sur-la-lettre-g-88a0eb'>Exercice Sur La Lettre G</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=influenceuse-duba%C3%AF-arr%C3%AAt%C3%A9e-88a0eb'>Influenceuse Dubaï Arrêtée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=donner-du-courage-%C3%A0-quelqu%27un-88a0eb'>Donner Du Courage à Quelqu'un</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dubai-expo-2020-88a0eb'>Dubai Expo 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9er-une-twitter-card-88a0eb'>Créer Une Twitter Card</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=totally-accurate-battle-simulator-license-key-88a0eb'>Totally Accurate Battle Simulator License Key</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Charlie-puth-Tumblr-88a0eb'>Charlie Puth Tumblr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hatha-yoga-traditionnel-88a0eb'>Hatha Yoga Traditionnel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9thode-de-gasquet-p%C3%A9rin%C3%A9e-88a0eb'>Méthode De Gasquet Périnée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=offensante-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Offensante Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=monoprix-maison-nouvelle-collection-88a0eb'>Monoprix Maison Nouvelle Collection</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=madame-est-servie-emploi-88a0eb'>Madame Est Servie Emploi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minion-xp-lol-88a0eb'>Minion Xp Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-le-grand-slam-france-3-88a0eb'>Jeu Le Grand Slam France 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=logo-team-sport-88a0eb'>Logo Team Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=immobilier-orgeval-yvelines-88a0eb'>Immobilier Orgeval Yvelines</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-twitch-mai-2020-fr-88a0eb'>Classement Twitch Mai 2020 Fr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=montre-chronos-1898-88a0eb'>Montre Chronos 1898</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-la-manic-88a0eb'>Youtube La Manic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=postuler-apr%C3%A8s-un-stage-lettre-de-motivation-88a0eb'>Postuler Après Un Stage Lettre De Motivation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-du-ramadan-2018-88a0eb'>Fin Du Ramadan 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9tro-duba%C3%AF-abu-dhabi-88a0eb'>Métro Dubaï Abu Dhabi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ergot-de-seigle-achat-88a0eb'>Ergot De Seigle Achat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=de-sciglio-transfermarkt-88a0eb'>De Sciglio Transfermarkt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invention-du-t%C3%A9l%C3%A9phone-88a0eb'>Invention Du Téléphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=volcan-eyjafjallaj%C3%B6kull-2010-88a0eb'>Volcan Eyjafjallajökull 2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=au-revoir-dinos-88a0eb'>Au Revoir Dinos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beno%C3%AEt-assadi-origine-iranienne-88a0eb'>Benoît Assadi Origine Iranienne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9partition-split-6-jours-88a0eb'>Répartition Split 6 Jours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=histoire-du-slam-pdf-88a0eb'>Histoire Du Slam Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A7a-va-%C3%A7a-vient-auteur-88a0eb'>ça Va ça Vient Auteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Effectif-Real-Madrid-2000-2001-88a0eb'>Effectif Real Madrid 2000 2001</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sport-7-lettres-88a0eb'>Sport 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gymnastique-abdominale-hypopressive-exercices-pdf-88a0eb'>Gymnastique Abdominale Hypopressive Exercices Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appr%C3%A9hender-en-arabe-88a0eb'>Appréhender En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-michel-delpech---tu-me-fais-planer-88a0eb'>Chanson Michel Delpech - Tu Me Fais Planer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gullit-90-fifa-20-88a0eb'>Gullit 90 Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neymar-senior-origine-88a0eb'>Neymar Senior Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Yarol-Poupaud-studio-88a0eb'>Yarol Poupaud Studio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=don-t-want-synonym-88a0eb'>Don T Want Synonym</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Premier-League-classement-buteur-88a0eb'>Premier League Classement Buteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandra-koh-lanta-portrait-88a0eb'>Alexandra Koh-lanta Portrait</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a%C3%A9roport-bordeaux-adresse-gps-88a0eb'>Aéroport Bordeaux Adresse Gps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lebouseuh-prank-tk-best-of-88a0eb'>Lebouseuh Prank Tk Best Of</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quartier-a-%C3%A9viter-birmingham-88a0eb'>Quartier A éviter Birmingham</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lideal-en-vrai-88a0eb'>Lideal En Vrai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perles-pes-2020-88a0eb'>Perles Pes 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=snapchat-joueur-alg%C3%A9rien-88a0eb'>Snapchat Joueur Algérien</a>,
+";s:7:"expired";i:-1;}

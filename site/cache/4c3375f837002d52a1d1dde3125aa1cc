@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5983:"<br>YAY! Good quality but the format is not convenient for travel or reading in bed. Pour en savoir plus, suivons les personnages dans les étages et les souterrains du temple de la danse et de la musique. <br> <br>So what are you waiting for? However, this seems to me to be an extreme and heartless  adaptation, and there was no mention of the alterations in the description  of the book.             Le Petit Prince (French Language Edition) Gaston Leroux Adaptation de D. Roland Fantastique Qui est le mystérieux fantôme qui hante lOpéra de Paris ? Please try your request again later.This shopping feature will continue to load items when the Enter key is pressed. NOT AS LEAD TO BELIEVE. Please try againSorry, we failed to record your vote. Les amis de Christine réussiront-ils à libérer la jeune fille ? I wish you good hunting. Dossiers : Gaston Leroux Les fantômes  Les monstres dans la littérature Le fantôme de lOpéra au cinémaGaston Leroux Adaptation de D. Roland  Fantastique Qui est le mystérieux fantôme qui hante lOpéra de Paris ?   Style littéraire un peu particulier mais une histoire fascinante qui laisse le doute sur l'existence réelle du Fantôme le plus célèbre de Paris ! The book that was sent to me was entirely in KOREAN! <br> <br>Please try againSorry, we failed to record your vote. Les amis de Christine réussiront-ils à libérer la jeune fille ? <br> <br>Please try againSorry, we failed to record your vote. Please try againSorry, we failed to record your vote. <br> <br>            Le Fantome De L'Opera (Livre+ CD Audio) (French Edition) I was terribly disappointed to discover that, far from being the original novel in its  entirety, it is "abridged and adapted especially for intermediate  students of French."                                                                                                                                                           Rapidité de livraison et emballage parfait et livre impeccable I cannot properly review this book because even though I ordered a French version of the book, the only part of it that was in French was the front cover.                                                                                    <br> <br>Il a jeté son dévolu sur Christine, une jeune cantatrice, prisonnière dun pacte terrifiant quelle doit respecter. <br> Le lecteur est tenu en haleine jusqu'à la fin. Pour en savoir plus, suivons les personnages dans les étages et les souterrains du temple de la danse et de la musique. Please try againSorry, we failed to record your vote. We work hard to protect your security and privacy. I have always loved the story of the phantom of the opera and here was my chance to read it is french! Le fantôme de l'opéra by Leroux, Gaston, 1868-1927; Milani, Frank; Collet, Paulette. I love the feel of the opera and the description of the phantom.   Bought this in French so I can translate while I learn French. Thanks!!                                                               Französische Lektüre für das 2., 3. und 4. Publication date 1992 Topics French language, French language Publisher Lincolnwood (Chicago), Ill., U.S.A. : National Textbook Co. Collection inlibrary; printdisabled; internetarchivebooks; china Digitizing sponsor Internet Archive Contributor Internet Archive Language French. Please try againSorry, we failed to record your vote. I didnt realise this book was for intermediate french students until it arrived. Gaston Leroux - The Phantom of the Opera It was my favorite play so I am very happy to have read the book. Très bon livre, devenu classique de la littérature française. Enter your mobile number or email address below and we'll send you a link to download the free Kindle App. Now, I can understand that some editing for  students is necessary (did I mention there are questions at the end of each  chapter?) <br> <br>                                     Nur registrierte Kunden können Bewertungen abgeben.  <br>Ships from and sold by Amazon.com. By choice, not as an assignment.         Your recently viewed items and featured recommendations Gaston Leroux avait un style innovant pour l'époque, des trouvailles géniale pour entretenir le suspens, écrit à la manière d'un scénario de film actuel, un fantôme poignant, un Raoul "pot de colle" et des personnages burlesques!! Le Fantôme de l'Opéra (French Edition) [Leroux, Gaston] on Amazon.com. You're listening to a sample of the Audible audio edition.Something went wrong. Avec l'histoire du fantôme de l'opéra, Gaston Leroux vous emmène à la découverte d'une sombre histoire passionnante et intriguante.  Il a jeté son dévolu sur Christine, une jeune cantatrice, prisonnière dun pacte terrifiant quelle doit respecter. Please try againSorry, we failed to record your vote. <br> <br>Les amis de Christine réussiront-ils à libérer la jeune fille ? Your recently viewed items and featured recommendations Un des meilleurs Gaston Leroux... Un beau et grand roman qui ravira les amateurs de fantastique et de musique. 15 juil.                             Nur registrierte Kunden können Bewertungen abgeben. J'ai adoré.      Please try againSorry, we failed to record your vote. this is an adaption with questions throughout every chapter for Intermediate French Students, but not for those who simply wish to enjoy the unädulterated edition of the work. Très bon roman, où l’intrigue, l'amour, le tragique et le fantastique sont présents. Gaston Leroux Adaptation de D. Roland  Fantastique Qui est le mystérieux fantôme qui hante lOpéra de Paris ?                                                                                    A few typos. However, for  Phantom fans who have read every English translation within reach (and own  most of them), I regretfully suggest that you continue the search, and  please tell me what you find. <br> <br>Il a existe en chair et en os." [Please pardon the  lack of accents.] <br>";s:7:"keyword";s:34:"le fantôme de lopéra personnages";s:5:"links";s:6038:"<a href='https://backyard.synpat.com/site/article.php?page=replay-gerra-depardieu-88a0eb'>Replay Gerra Depardieu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=homemade-nutella-3-ingredients-88a0eb'>Homemade Nutella 3 Ingredients</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%D8%B4%D9%87%D9%8A%D9%88%D8%A7%D8%AA-%D8%B4%D9%85%D9%8A%D8%B4%D8%A9-2019-88a0eb'>شهيوات شميشة 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=machine-de-guerre---mots-crois%C3%A9s-88a0eb'>Machine De Guerre - Mots Croisés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=6-pack-abs-88a0eb'>6 Pack Abs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laddition-pos%C3%A9e-avec-retenue-cp-88a0eb'>Laddition Posée Avec Retenue Cp</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ramadan-greetings-2020-88a0eb'>Ramadan Greetings 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=booking-si%C3%A8ge-social-88a0eb'>Booking Siège Social</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-coco-wax-carla-88a0eb'>Code Promo Coco Wax Carla</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rose-backroad-2020-test-88a0eb'>Rose Backroad 2020 Test</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=priv%C3%A9-en-6-lettres-88a0eb'>Privé En 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-br%C3%A9sil-2006-but-88a0eb'>France-brésil 2006 But</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boulangerie-ange-avis-88a0eb'>Boulangerie Ange Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=smartphone-meilleur-autonomie-2018-88a0eb'>Smartphone Meilleur Autonomie 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rowing-vertical-halt%C3%A8re-88a0eb'>Rowing Vertical Haltère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stan-kirsch-friend-88a0eb'>Stan Kirsch Friend</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-fort-boyard-switch-leclerc-88a0eb'>Jeu Fort Boyard Switch Leclerc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=combien-de-fois-le-togo-a-particip%C3%A9-%C3%A0-la-can-88a0eb'>Combien De Fois Le Togo A Participé à La Can</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-plat-unique-printemps-88a0eb'>Recette Plat Unique Printemps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vendredi-tout-est-permis-ckdb-88a0eb'>Vendredi Tout Est Permis Ckdb</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-meilleurs-haricots-verts-sans-fils-88a0eb'>Les Meilleurs Haricots Verts Sans Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pompe-submersible-canac-88a0eb'>Pompe Submersible Canac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=messi-iniesta-xavi-88a0eb'>Messi Iniesta Xavi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manchester-city-tottenham-ldc-replay-88a0eb'>Manchester City Tottenham Ldc Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-plombier-sanitaire-d%C3%A9butant-88a0eb'>Lettre De Motivation Plombier Sanitaire Débutant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Yarol-Poupaud-studio-88a0eb'>Yarol Poupaud Studio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salade-de-fraises-88a0eb'>Salade De Fraises</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fiston-origine-du-mot-88a0eb'>Fiston Origine Du Mot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-guitare-rock-88a0eb'>Musique Guitare Rock</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blaise-matuidi-transfermarkt-88a0eb'>Blaise Matuidi Transfermarkt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniel-pr%C3%A9vost-fils-88a0eb'>Daniel Prévost Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livre-de-blague-cultura-88a0eb'>Livre De Blague Cultura</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-episode-5-streaming-88a0eb'>Pékin Express Episode 5 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avenir-club-avignon-fff-88a0eb'>Avenir Club Avignon Fff</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pauline-desmet-p%C3%A9kin-express-88a0eb'>Pauline Desmet Pékin Express</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%A9pha%C3%AFstos-lycan-paroles-88a0eb'>Héphaïstos Lycan Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=publier-un-texte-sur-internet-88a0eb'>Publier Un Texte Sur Internet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-signes-du-d%C3%A9sir-chez-un-homme-88a0eb'>Les Signes Du Désir Chez Un Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chamboul%C3%A9-en-anglais-88a0eb'>Chamboulé En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appr%C3%A9ciation-bulletin-scolaire-primaire-pdf-88a0eb'>Appréciation Bulletin Scolaire Primaire Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-baklava-grec-88a0eb'>Recette Baklava Grec</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-choses-simples-sont-parfois-les-plus-belles-88a0eb'>Les Choses Simples Sont Parfois Les Plus Belles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=12-place-des-augustines%2C-13002-marseille-88a0eb'>12 Place Des Augustines, 13002 Marseille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-signes-du-d%C3%A9sir-chez-un-homme-88a0eb'>Les Signes Du Désir Chez Un Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pholien-systermans-ffn-88a0eb'>Pholien Systermans Ffn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofitel-lyon-restaurant-88a0eb'>Sofitel Lyon Restaurant</a>,
+";s:7:"expired";i:-1;}

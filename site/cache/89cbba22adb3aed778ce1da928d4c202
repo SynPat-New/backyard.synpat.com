@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6367:"<br>                                                                                   <br>Nous avons conscience que c'est très important pour le client et nous vous invitons à bien vérifier avec nos partenaires lors de votre commande.                                                                           Le football club de Nantes a été fondé au début des années 40 par Marcel Saupin. Billets FC Nantes - Amiens SC Réservez place pour les match foot FC Nantes - Amiens SC 26. avril, 2020 La Beaujoire, Nantes Billetterie Cliquez ICI! En revanche, il s'inclinera deux …                                                         Discover our FAQ You can find here all the Parc des Princes latest news and buy your tickets to have a ringside seat for the Ligue 1 Uber Eats and Champions League games.                                                                                      Nous indiquons pour chaque match les tribunes les mieux placées.                                                                         Download                              Contactez-nous en message privée, nous vous proposerons une solution adaptée aux groupes pour voir les matchs de .Que ce soit des billets électroniques ou en version papier, vous pouvez en effet recevoir des places à un autre nom.                                                                                                                                                          Information                      Attention, vous ne pourrez pas choisir un numéro de place exact, vous choisirez uniquement la tribune.Généralement, nos partenaires proposent une option permettant de commander plusieurs places assises côte à côte.                                                                                                                                                                                Mbappé, Neymar and all the other stars can’t wait to meet you again at the heart of the volcano for a new Parisian season!                                                                         Discover                                             Discover Atalanta Bergame Malgré un but spectaculaire de l'attaquant José Touré de Nantes , le PSG a gagné 3-2 dans une finale qui restera comme une des plus belles de l'histoire de cette compétition. Exchange rate to buy and sell your PSG tickets. <br> <br>                                                        Season 2020-21                                                                                                                C'est légal et le nom présent sur le billet n'est pas un frein à l'entrée du stade, vous pouvez y aller les yeux fermés!Quelque soit le moyen de transport choisit, nous vous conseillons de vous rendre au Parc des Princes 1H30 avant le match, le temps de trouver facilement le stade et de regagner votre place sans stresse!                              Le Stade rennais football club, couramment abrégé en Stade rennais, est fondé en 1901.                                                                                                                                     Information                                                                                                   Discover our VIP offers                              <br> <br>Ce sont donc des billets qui ont appartenus à une autre personne qui sont revendus.                                                                         View the match schedule                                                              Billet PSG - Nantes Ligue 1.                                                                                                      Visit Official ticket resale platform for Paris Saint-Gemain matches                                                                                                                       Discover the schedule La campagne d'abonnement de l'OM n'est actuellement pas disponible. Retrouvez toutes les informations, liens et tarifs des différentes billetteries pour acheter en ligne vos billets pour les matches entre PSG et NANTES chez Fnac, Carrefour, Viagogo, etc. <br> You can find here all the Parc des Princes latest news and buy your tickets to have a ringside seat for the Ligue 1 Uber Seats and Champions League games.                                                                                                                                                                               Practical information <br> <br>Les Canaris comptent sur vous ! Avec ses trois coupes de France et ses huit titres de champions de France, le FCN fait incontestablement partie des clubs les plus prestigieux du pays.                                          Place PSG - Nantes : Avec P2F, réservez vos billets de foot Nantes, PSG Paris.pour le match PSG - Nantes .                                                                                                                                                                                               Vous ne connaissez pas le stade Parc des Princes, nous vous invitons à suivre nos conseils sur la fiche ci-dessus.                              By reselling your ticket, you may be subject to tax and social obligations which are described on                                                                          Discover Billet PSG - Nantes Ligue 1. Le club accède au statut professionnel en1932, et dispute deux finales de Coupe de France en 1922 et 1935. Dans les années 1960, sous la houlette de son entraîneur Jean Prouff, le Stade Rennais remporte par deux fois cette Coupe de France en 1965 et 1971. Le Parc des Princes s'apprête à accueillir la rencontre PSG - Nantes comptant pour la 13ème journée de Ligue 1 (2017-2018) en ce samedi 18 novembre 2017. Trouvez vos places au meilleur prix pour venir voir jouer les Parisiens.                                                                                                                                                                                                                Welcome to the official Paris Saint-Germain ticketing website. Please check our FAQ section if you have any question.                                                                         Discover La billetterie pour Nantes-PSG ouvre jeudi à 9h. <br>";s:7:"keyword";s:17:"Billet PSG Nantes";s:5:"links";s:5710:"<a href='https://backyard.synpat.com/site/article.php?page=dernier-superman-film-88a0eb'>Dernier Superman Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Messi-FIFA-13-88a0eb'>Messi FIFA 13</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=you-gon-learn-eminem-lyrics-genius-88a0eb'>You Gon Learn Eminem Lyrics Genius</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t%C3%A9zigue-en-3-lettres-88a0eb'>Tézigue En 3 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anastasie-ton-corps-m%27anesth%C3%A9sie-88a0eb'>Anastasie Ton Corps M'anesthésie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-obstacles-psychologiques-de-la-communication-88a0eb'>Les Obstacles Psychologiques De La Communication</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-d%C3%A9fense-liga-2019-2020-88a0eb'>Meilleur Défense Liga 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=transport-pedretti-offre-d%27emploi-88a0eb'>Transport Pedretti Offre D'emploi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france---angleterre-2004-88a0eb'>France - Angleterre 2004</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laure-boulleau-couple-88a0eb'>Laure Boulleau Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jingle-radio-web-radio-88a0eb'>Jingle Radio Web Radio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-generation-musique-88a0eb'>Beat Generation Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yoga-de-gasquet-vid%C3%A9o-88a0eb'>Yoga De Gasquet Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandra-rosenfeld-twitter-88a0eb'>Alexandra Rosenfeld Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bandes-dessin%C3%A9es-ann%C3%A9es-60-70-88a0eb'>Bandes Dessinées Années 60-70</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oh%C3%A9-du-bateau%2C-du-grand-m%C3%A2t%2C-de-la-hune-88a0eb'>Ohé Du Bateau, Du Grand Mât, De La Hune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-cooper-shoreditch-occasion-88a0eb'>Mini Cooper Shoreditch Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Michel-Sardou-1969-88a0eb'>Michel Sardou 1969</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clans-of-scotland-88a0eb'>Clans Of Scotland</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-buteur-de-la-bundesliga-88a0eb'>Meilleur Buteur De La Bundesliga</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Parle-lui-de-moi-88a0eb'>Parle Lui De Moi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=disneyworld-orlando-ie-88a0eb'>Disneyworld Orlando Ie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coumba-mohamed-koh-lanta-88a0eb'>Coumba Mohamed Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arboretum-harcourt-esp%C3%A8ces-d%27arbres-88a0eb'>Arboretum Harcourt Espèces D'arbres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vtc-lyon-uber-88a0eb'>Vtc Lyon Uber</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=madame-est-servie-streaming-saison-4-88a0eb'>Madame Est Servie Streaming Saison 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-mfc-j4510dw-cartouche-88a0eb'>Brother Mfc-j4510dw Cartouche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aline-partition-gratuite-88a0eb'>Aline Partition Gratuite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liar-%3A-la-nuit-du-mensonge-saison-1-streaming-vf-88a0eb'>Liar : La Nuit Du Mensonge Saison 1 Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sms-saha-a%C3%AFdek-cheri-88a0eb'>Sms Saha Aïdek Cheri</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france%2Fmaroc-foot-2007-88a0eb'>France/maroc Foot 2007</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aline-elle-m%27oubliera-88a0eb'>Aline Elle M'oubliera</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ho-oh-gx-21%2F147-88a0eb'>Ho Oh Gx 21/147</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=medespoir-tarif-facette-88a0eb'>Medespoir Tarif Facette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v-bucks-gratuit-2020-88a0eb'>V-bucks Gratuit 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angie-harmon-films-et-programmes-tv-88a0eb'>Angie Harmon Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amelle-chahbi-taille-88a0eb'>Amelle Chahbi Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-taille-de-kenny-88a0eb'>La Taille De Kenny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inscription-gens-de-confiance-88a0eb'>Inscription Gens De Confiance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=in%C3%A8s-loucif-origine-wikipedia-88a0eb'>Inès Loucif Origine Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-canada-solde-88a0eb'>Nike Canada Solde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=implique-7-lettres-88a0eb'>Implique 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aigle-cam%C3%A9ra-embarqu%C3%A9e-duba%C3%AF-88a0eb'>Aigle Caméra Embarquée Dubaï</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-poulet-2020-88a0eb'>Musique Poulet 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pet-peeve---traduction-88a0eb'>Pet Peeve - Traduction</a>,
+";s:7:"expired";i:-1;}

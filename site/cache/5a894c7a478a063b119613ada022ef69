@@ -1,0 +1,135 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6500:"<p>123, boulevard Sébastopol, 2nd arr., 75002 Paris, France – Excellent location – show map – Subway Access Stay in the heart of Paris – Excellent location – show map Located in the 2nd district of Paris, just 500 feet from Réamur-Sébastopol Metro Station, 123 Sébastopol offers a terrace, 24-hour reception and luggage storage. We're sorry, but there was an error submitting your comment. Also very artistic and unique. Each floor pays tribute to a specific cinema artist and each room includes complimentary nonalcoholic beverages in the mini-bar.A buffet breakfast is served each morning at 123 Sébastopol and it can also be enjoyed in the comfort of your own room. These technical cookies must be enabled to use our site and services. The room on 5th floor was not the biggest, but more than adequate. They'll find you an incredible place to stay.There are more places to choose from in the Paris area.Which popular attractions are close to Hotel Le 123 Sebastopol - Astotel?Nearby attractions include Epsilon Escape (0.05 miles), L'Antichambre Escape Games Blondel (0.09 miles), and La Piece (0.2 miles).What are some of the property amenities at Hotel Le 123 Sebastopol - Astotel?Some of the more popular amenities offered include free wifi, a lounge, and a fitness center.Which room amenities are available at Hotel Le 123 Sebastopol - Astotel?Top room amenities include a minibar, air conditioning, and a flat screen TV.What food & drink options are available at Hotel Le 123 Sebastopol - Astotel?Guests can enjoy a lounge, breakfast, and complimentary tea during their stay. Pick your preferred language. That way we can improve our website, apps, and communications, and make sure we're interesting and relevant. Place de la République is only a 10-minute walk away.With a cinema-inspired décor, all rooms are air-conditioned and feature an iPod docking station, a flat-screen TV, and a mini-bar with free soft drinks. 123, boulevard Sébastopol, 2nd arr., 75002 Paris, France – Excellent location - show map – Metro access Stay in the heart of Paris – Excellent location - show map Located in the 2nd district of Paris, just 150 yards from Réamur-Sébastopol Metro Station, 123 Sébastopol offers a terrace, 24-hour reception and luggage storage. Nearby attractions include Epsilon Escape (0.05 miles), La Piece (0.2 miles), and The Escape Agency (0.2 miles).                                                                                  Email address  Paris 8th. ”“Excellent location. Guests are required to show a photo ID and credit card at check-in </p> <p>Starting April 6, 2020, your chosen cancellation policy will apply, regardless of the coronavirus.                             Need an account? She went over and above to help us as we were a walk in booking. The 63-room Le 123 Sebastopol - Astotel is a mid-range chain hotel that first opened its doors in 2013. And there is a Metro station a block away. Booking.com does not accept responsibility or liability for any question or answers. Low rates • Get exclusive access to members-only deals by email. We are happy to know your stay had lived up to your expectations.                                                     Please check you have entered your email address correctly. Now $151 (Was $̶1̶7̶9̶) on Tripadvisor: Hotel Le 123 Sebastopol - Astotel, Paris.                                                      This hotel offers it all including comfort and friendly staff eager to help. The staff was exceptional as well. If you're looking for convenience and want to submerse you're self into the culture, this is the place. Staff were incredibly helpful and friendly for the duration of our stay. Very close to the garment centre Le 123 Sébastopol - Astotel accepts these cards and reserves the right to temporarily hold an amount prior to arrival. With a stay at Hôtel Le 123 Sébastopol - Astotel, you'll be centrally located in Paris, steps from Grands Boulevards and 6 minutes by foot from Les Halles. Bed and room amazing.” Very close to 2 different metro stations and close to great Local restaurants. Excellent front help desk staff who provided brilliant directions and advice. Booking.com and our trusted partners use third-party cookies. Your opinion helps us figure out what kinds of info we should ask properties for. It's a good location to visit Paris, even by foot (because of the strike). It’s a genuine 5/5 for us. It looks like something went wrong submitting this. We use this info to improve our site and services. Thanks!                                                               English "I visited Paris last month and stayed at Hotel Le 123 Sebastopol for 12 nights, the first half of the trip on my own, the second half joined by a friend. Staff were incredibly friendly and helpful Experience this fine hotel and you will never forget it. This includes essential security and accessibility features. They also remember your selected currency, language, past searches, and other preferences. Come back whenever you want ! Staff were incredibly friendly and helpful Very close to the garment centre                                                               Nearby attractions include Epsilon Escape (0.05 miles), La Piece (0.2 miles), and The Escape Agency (0.2 miles). I highly recommend staying here and will definitely be booking this hotel again on my next visit to Paris.Thank you for the feedback. </p> <p>The staff were professional, friendly and very helpful. See 2,105 traveller reviews, 1,621 photos, and cheap rates for Hotel Le 123 Sebastopol - Astotel, ranked #58 of 1,843 hotels in Paris and rated 5 of 5 at Tripadvisor. Wonderful.”“Very close to 2 different metro stations and close to great Local restaurants.”1133310,1140880,1152210,1148630,1162120,1144830,1144820,1147980,1157610,1147160,1161780,1163410|3,1156140,1148630|1,1164210,1095870,1152640,1117110,1145390,1161320,1160400,1150360,1157530,1082980,1157980,1081120,1163410,1161780|4,1146510,1147160|2,1156530,1146510|2,1114720,1160400|1,1163770 In response to the coronavirus (COVID-19), additional safety and sanitation measures are currently in effect at this property.Food and beverage services at this property may be limited or unavailable due to the coronavirus (COVID-19).Due to the coronavirus (COVID-19), this property is taking steps to protect the safety of guests and staff. Good for couples – they rated the facilities 9.1 for two-person stays. </p>";s:7:"keyword";s:25:"le 123 sebastopol astotel";s:5:"links";s:10016:"<a href='https://backyard.synpat.com/site/article.php?page=carte-amazon-5%E2%82%AC-88a0eb'>Carte Amazon 5€</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=corneille---le-jour-apr%C3%A8s-la-fin-du-monde-88a0eb'>Corneille - Le Jour Après La Fin Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Rap-Contenders-13-88a0eb'>Rap Contenders 13</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-disney-pour-chat-88a0eb'>Prénom Disney Pour Chat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michael-manousakis-date-de-naissance-88a0eb'>Michael Manousakis Date De Naissance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=macron-cheveux-roux-88a0eb'>Macron Cheveux Roux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=st%C3%A9phane-koh-lanta-2016-88a0eb'>Stéphane Koh-lanta 2016</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanel-gabrielle-parfum-prix-88a0eb'>Chanel Gabrielle Parfum Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-inspirante-2020-88a0eb'>Femme Inspirante 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-musique-titres-diffus%C3%A9s-88a0eb'>France Musique Titres Diffusés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sao-shirushi-lyrics-88a0eb'>Sao Shirushi Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-choses-simples-sont-parfois-les-plus-belles-88a0eb'>Les Choses Simples Sont Parfois Les Plus Belles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marc-koh-lanta-finale-88a0eb'>Marc Koh-lanta Finale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=signification-du-drapeau-d%27ouessant-88a0eb'>Signification Du Drapeau D'ouessant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gagnant-occupation-double-2017-88a0eb'>Gagnant Occupation Double 2017</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lideal-en-vrai-88a0eb'>Lideal En Vrai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clara-kata-wikip%C3%A9dia-88a0eb'>Clara Kata Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=to-butter-someone-up-88a0eb'>To Butter Someone Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aparthotel-adagio-london-brentford-booking-88a0eb'>Aparthotel Adagio London Brentford Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karaoke-de-stay-88a0eb'>Karaoke De Stay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blue-solutions-quimper-88a0eb'>Blue Solutions Quimper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=europe-1-rentr%C3%A9e-2020-2021-88a0eb'>Europe 1 Rentrée 2020 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tapis-de-sol-mousse-camping-88a0eb'>Tapis De Sol Mousse Camping</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alli%C3%A9s-en-anglais-88a0eb'>Alliés En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=de-sciglio-transfermarkt-88a0eb'>De Sciglio Transfermarkt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9glementation-publicit%C3%A9-sur-v%C3%A9hicule-88a0eb'>Réglementation Publicité Sur Véhicule</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=larriv%C3%A9e-des-influenceurs-88a0eb'>Larrivée Des Influenceurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a%C3%AFd-el-fitr-maroc-88a0eb'>Aïd El Fitr Maroc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-kermesse-rigolos-88a0eb'>Jeux De Kermesse Rigolos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vrd-cours-ppt-88a0eb'>Vrd Cours Ppt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pasta-alla-norma-un-d%C3%A9jeuner-de-soleil-88a0eb'>Pasta Alla Norma Un Déjeuner De Soleil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=donner-de-l%27importance-a-quelqu%27un-qui-ne-merite-pas-citation-88a0eb'>Donner De L'importance A Quelqu'un Qui Ne Merite Pas Citation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angle-site-et-gisement-88a0eb'>Angle Site Et Gisement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Julien-bert-gif-88a0eb'>Julien Bert Gif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-portugal-vila-real-tras-os-montes-88a0eb'>Météo Portugal Vila Real Tras Os Montes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Exercices-de-r%C3%A9sistance-88a0eb'>Exercices De Résistance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-but-synonyme-88a0eb'>Objectif But Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-hair-vibes-king-jouet-88a0eb'>Lol Hair Vibes King Jouet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-faire-une-bonne-demande-de-sponsoring-88a0eb'>Comment Faire Une Bonne Demande De Sponsoring</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ayem-nour-aujourd%27hui-88a0eb'>Ayem Nour Aujourd'hui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-ville-animal-crossing-new-horizon-88a0eb'>Nom Ville Animal Crossing New Horizon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-objectif-panasonic-100-400-88a0eb'>Location Objectif Panasonic 100 400</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-photographe-film-critique-88a0eb'>Le Photographe Film Critique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-of-moto-gp-2019-88a0eb'>Best Of Moto Gp 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-17-70-occasion-88a0eb'>Sigma 17 70 Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=not-today-bts-traduction-88a0eb'>Not Today Bts Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valouzz-et-pidi-en-couple-88a0eb'>Valouzz Et Pidi En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=R%C3%A9mi-Garde-et-sa-femme-88a0eb'>Rémi Garde Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pistolet-paintball-co2-88a0eb'>Pistolet Paintball Co2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-pdf-ramadan-2020-bordeaux-88a0eb'>Calendrier Pdf Ramadan 2020 Bordeaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-flageolet-tomate-lardon-88a0eb'>Recette Flageolet Tomate Lardon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jo%C3%ABlle-koh-lanta-saison-9-88a0eb'>Joëlle Koh Lanta Saison 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salvador-%3A-tourisme-88a0eb'>Salvador : Tourisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avis-plateforme-vibrante-perte-de-poids-88a0eb'>Avis Plateforme Vibrante Perte De Poids</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=infirmi%C3%A8re-coordinatrice-h%C3%B4pital-88a0eb'>Infirmière Coordinatrice Hôpital</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kiera-cass-callaway-cass-88a0eb'>Kiera Cass Callaway Cass</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perles-rocailles-miyuki-11%2F0-88a0eb'>Perles Rocailles Miyuki 11/0</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=swinging-sixties-england-88a0eb'>Swinging Sixties England</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27emploi-en-italien-88a0eb'>Demande D'emploi En Italien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=goodbye-marylou-ukulele-88a0eb'>Goodbye Marylou Ukulele</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minecraft-fail-compilation-88a0eb'>Minecraft Fail Compilation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-belgique%2C-%3A-v%C3%AAtements-88a0eb'>Amazon Belgique, : Vêtements</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parole-grand-corps-malade-mesdames-88a0eb'>Parole Grand Corps Malade Mesdames</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-panasonic-hybride-occasion-88a0eb'>Objectif Panasonic Hybride Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adidas-femme-superstar-88a0eb'>Adidas Femme Superstar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=histoire-de-toulouse-88a0eb'>Histoire De Toulouse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=polo-fortnite-sauver-le-monde-88a0eb'>Polo Fortnite Sauver Le Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=combien-gagn%C3%A9-fortnite-par-mois-88a0eb'>Combien Gagné Fortnite Par Mois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avis-tamron-150-600-88a0eb'>Avis Tamron 150 600</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parodie-a-toutes-les-filles-que-j%27ai-aim%C3%A9-avant-88a0eb'>Parodie A Toutes Les Filles Que J'ai Aimé Avant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-de-la-mort-africaine-88a0eb'>Chanson De La Mort Africaine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steven-gerrard-palmar%C3%A8s-88a0eb'>Steven Gerrard Palmarès</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ofea-fea-paroles-88a0eb'>Ofea Fea Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-pompe-%C3%A0-v%C3%A9lo-avec-manom%C3%A8tre-88a0eb'>Mini Pompe à Vélo Avec Manomètre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-accords-musique-88a0eb'>Les Accords Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zazie---rue-de-la-paix-%28live%29-88a0eb'>Zazie - Rue De La Paix (live)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=binge-watching-in-french-88a0eb'>Binge Watching In French</a>,
+";s:7:"expired";i:-1;}

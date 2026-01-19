@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6468:"Au sujet de BFM TV. jeudi 21h00 Le 21h. <br> <br>Les douze coups de midi. Sur le web, la chaîne est également accessible en direct gratuitement sur son site officiel, sur smartphone ou PC. Sur ce, la chaîne se présente en tant que « première chaîne de télévision pour les informations de France » disponibles sur différents supports de réception. Regarder le direct télé de la chaîne BFM TV gratuitement sur le web avec playtv.fr, votre plateforme de tv en live. Si vous souhaitez programmer votre soirée, vous pouvez utiliser notre grille tv contenant tous les programmes tv de ce soir et des jours suivants.Profitez sans plus attendre de notre service gratuit pour visionner vos émissions favorites sur Vous souhaitez regarder un documentaire, un reportage, le JT, une série tv, un match de foot en live, un match de rugby, de handball ou de tennis, le tour de france, le bétisier de noel, suivre les jeux olympiques, des séries policières, du sport, le zapping ou encore d'autres émissions de télévision ? Regarder le direct télé de la chaîne BFM TV gratuitement sur le web avec playtv.fr, votre plateforme de tv en live. France 3. Visionner le streaming live de BFMTV. <br> <br>jeudi 19h00 BFM Soir. Magazine d'information présenté par Lucie Nuttin. Découvrez en images les prévisions météo complètes du samedi 1er août 2020 à Paris et en Île-de-France sur BFM PARIS, la première chaîne d’information de la région parisienne. Plus de 200 chaînes disponibles depuis votre mobile, tablette ou poste fixe. <br> <br>BFM TV appartient au groupe NextRadioTV également propriétaire de RMC. Si vous avez raté le début, utilisez la fonction “regarder depuis le début” pour rattraper ce que vous avez manqué.- Le replay de nombreuses chaînes dans une seule application. ... Ils mettent au service des téléspectateurs leur expertise de l'information. Ils sont en direct et en replay sur Molotov. Visionner le streaming live de BFMTV Vous retrouverez ainsi vos chaînes préférées : TF1, France 2, M6, Arte, C8 ou BFM Business, …Molotov est disponible sur tous vos écrans, tout le temps.Notre app vous permet de regarder la télévision gratuitement sur tous vos appareils. Mission Galápagos. <br> <br>La chaîne a été créée en 2005. Avec 35 chaînes accessibles gratuitement sur Molotov, vous ne raterez rien de ce qui passe en ce moment.- Accédez gratuitement aux chaînes de la TNT : TF1, France 2, France 5, M6, C8, BFM, …- Libre à vous d'ajouter des options pour disposer de davantage de chaînes de TV et de services.- Tous vos programmes préférés sont disponibles : divertissements, séries, films ou encore du sport, en direct et en replay.- Avec nos offres complémentaires, vivez pleinement le cinéma ! <br> <br>Nous vous proposons une liste de 28 chaînes de télévision française et francophone. BFM TV en streaming accessible gratuitement sans VPN ni inscription! <br> <br>TNT en Direct - Le site pour regarder la TV par internet ... France 3 ; France 5 ; M6 ; Arte ; C8 ; W9 ; TMC ; TFX ; NRJ12 ; France 4 ; BFM TV ; CStar ; Gulli ; France O ; TF1 Séries Films ; L'Équipe 21 ; 6ter ; Numéro 23 ; RMC Découverte ; Chérie 25 ; contact TV depuis l'étranger. Retrouvez ainsi les grands moments de sport, comme les matchs de l’équipe de France de football, les émissions de télé réalité ou de variété. RTS Info. <br> <br>Actuellement, la chaîne recense plusieurs millions de téléspectateurs répartis à travers de nombreux pays dans le monde.Pour découvrir plus d’informations au quotidien, la chaîne BFM TV live streaming gratuit est accessible légalement sur le câble, la TNT, le satellite, le Hotbird, le cryptée sur Astra, la télévision par ADSL ou par IPTV. RTS Un. C’est une filiale du groupe NextRadioTV rassemblant RMC Story, RMC Découverte, BFM Paris, ou encore BFM Business. TNT en Direct - regarder la TV en direct. <br> <br>- Tous vos programmes préférés sont disponibles : divertissements, séries, films ou encore du sport, en direct et … Depuis sa création, le président-directeur général est Alain Weill. TV-PROGRAMME.COM. jeudi 20h00 Le 20H. BFM TV est une chaine d'information en français, 24 heures sur 24. En un coup d’oeil, dans une interface pensée pour vous, vous pouvez voir tout ce qui passe à la télévision. France 5. Quatre heures d'information en direct, mêlant info "chaude" et info "de proximité", pour accompagner les Français durant leurs week-ends.Chaque matin, Thomas Misrachi prend le temps de s'arrêter sur certains évènements de l'actualité du jour. Cliquez sur l'image d'une des chaînes de télévision pour regarder votre programme en tv direct gratuitement ! <br> <br>Sur tous vos écrans, c’est un jeu d’enfant.Il vous suffit d’enregistrer l’émission à l’avance depuis n’importe quel appareil. Vous trouverez ainsi facilement le programme qui vous plaît, à regarder dès maintenant.- Découvrez le programme TV des prochains jours avec Molotov. 12/13 : Journal national. Regarder BFMTV en direct gratuitement sur internet depuis votre PC, tablette ou mobile. Un moment de pédagogie et d'explications à l'aide de reportages et d'éléments visuels pour prendre du recul sur les faits et permettre aux téléspectateurs de mieux comprendre les événements.Karine de Ménonville et François Gapihan sont aux commandes de la session d'information de l'après-midi.  <br>Plus belle la vie. Ils nous font vivre en direct toute l'actualité du coeur de la journée. Regarder RMC Découverte en direct : toutes vos émissions en streaming et gratuitement sur votre ordinateur, votre tablette et même sur votre téléphone ! Chaque matin, Thomas Misrachi prend le temps de s'arrêter sur certains évènements de l'actualité du jour. Accédez à vos programmes en différé avec un seul compte.- Oubliez le zapping traditionnel. Regarder la télévision en direct gratuitement grâce à notre service de web tv en ligne. TF1. Regarder France 2 en direct et en streaming 24h/24 - tous les programmes France 2 en direct sur france.tv Gratuitement.Regardez la tv en direct, en replay et quand vous le voulez.Molotov, c'est la télévision gratuite que vous connaissez, organisée comme vous ne l'avez encore jamais vue. TNT en Direct - regarder la TV en direct. jeudi 22h00 BFM Soir. <br> <br>BFM TV est basé sur les mesures d’audience offertes par l’institut Médiamétrie. <br>";s:7:"keyword";s:32:"chaîne bfm tv en direct gratuit";s:5:"links";s:6822:"<a href='https://backyard.synpat.com/site/article.php?page=br%C3%BBle-graisse-naturel-%C3%A0-boire-88a0eb'>Brûle Graisse Naturel à Boire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ikemen-desu-ne-88a0eb'>Ikemen Desu Ne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9cathlon-koh-lanta-twitter-88a0eb'>Décathlon Koh-lanta Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Haaland-nombre-de-but-88a0eb'>Haaland Nombre De But</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-nature-animaux-88a0eb'>Appareil Photo Nature Animaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-squale---ma-gueule-88a0eb'>La Squale - Ma Gueule</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-roissy-en-france-spa-88a0eb'>Hôtel Roissy En France Spa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adagio-london-stratford-88a0eb'>Adagio London Stratford</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=s%C3%A9bastien-koh-lanta-2006-88a0eb'>Sébastien Koh-lanta 2006</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarif-taxi-charleville-m%C3%A9zi%C3%A8res-88a0eb'>Tarif Taxi Charleville-mézières</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=big-boss-bruce-lee-vf-88a0eb'>Big Boss Bruce Lee Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=terraria-gobelin-pnj-88a0eb'>Terraria Gobelin Pnj</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chute-de-la-maison-usher-film-1928-88a0eb'>La Chute De La Maison Usher Film 1928</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-faire-des-abdos-homme-88a0eb'>Comment Faire Des Abdos Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Michael-Holbrook-Penniman-88a0eb'>Michael Holbrook Penniman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Dessin-Fallout-4-88a0eb'>Dessin Fallout 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bielsa---espagne-m%C3%A9t%C3%A9o-88a0eb'>Bielsa - Espagne Météo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=evangelista-sports-montreal%2C-qc-88a0eb'>Evangelista Sports Montreal, Qc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-%C3%AEle-de-sainte-h%C3%A9l%C3%A8ne-88a0eb'>Carte île De Sainte-hélène</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=danse-de-bal-musette-88a0eb'>Danse De Bal Musette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jurnee-smollett-bell-filmographie-88a0eb'>Jurnee Smollett-bell Filmographie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=om%C3%A9ga-3-dosage-musculation-88a0eb'>Oméga 3 Dosage Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tsa-precheck-air-france-88a0eb'>Tsa Precheck Air France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oprah-winfrey-film-88a0eb'>Oprah Winfrey Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-de-foot-elite-88a0eb'>Chaussure De Foot Elite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fais-pas-ci%2C-fais-pas-%C3%A7a-streaming-saison-6-88a0eb'>Fais Pas Ci, Fais Pas ça Streaming Saison 6</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=imagine-version-instrumentale-88a0eb'>Imagine Version Instrumentale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-vert-marrakech-2020-88a0eb'>Taxi Vert Marrakech 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trois-dimensions-synonyme-88a0eb'>Trois Dimensions Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=big-boss-2019-88a0eb'>Big Boss 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-maison-de-neymar-au-br%C3%A9sil-88a0eb'>La Maison De Neymar Au Brésil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=non-d%C3%A9finition-larousse-88a0eb'>Non Définition Larousse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nutella-low-calorie-88a0eb'>Nutella Low Calorie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-2020-montr%C3%A9al-88a0eb'>Calendrier Ramadan 2020 Montréal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-running-cloudsurfer-88a0eb'>On Running Cloudsurfer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=booster-naturel-avant-sport-88a0eb'>Booster Naturel Avant Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creation-totem-koh-lanta-88a0eb'>Creation Totem Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Partition-La-grenade-88a0eb'>Partition La Grenade</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-topographique-italie-88a0eb'>Carte Topographique Italie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-maison-pour-tournage-clip-88a0eb'>Location Maison Pour Tournage Clip</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adieu-en-italien-88a0eb'>Adieu En Italien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-maurane-album-88a0eb'>Youtube Maurane Album</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-reviendrai-vers-vous-dans-les-meilleurs-d%C3%A9lais-88a0eb'>Je Reviendrai Vers Vous Dans Les Meilleurs Délais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alicia-keys---new-york-88a0eb'>Alicia Keys - New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barcelone-chelsea-chaine-88a0eb'>Barcelone Chelsea Chaine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france---angleterre-2004-88a0eb'>France - Angleterre 2004</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-passantes-brassens-partition-piano-88a0eb'>Les Passantes Brassens Partition Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estelle-cars_-instagram-88a0eb'>Estelle Cars_ Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=team-df-deujna-88a0eb'>Team Df Deujna</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decoration-amour-dessin-88a0eb'>Decoration Amour Dessin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dragon-d%C3%A9fenseur-de-beurk-saison-2-%C3%A9pisode-2-streaming-vf-88a0eb'>Dragon Défenseur De Beurk Saison 2 épisode 2 Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cahiers-de-nutrition-et-de-di%C3%A9t%C3%A9tique-impact-factor-88a0eb'>Cahiers De Nutrition Et De Diététique Impact Factor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitch-jl-walid-88a0eb'>Twitch Jl Walid</a>,
+";s:7:"expired";i:-1;}

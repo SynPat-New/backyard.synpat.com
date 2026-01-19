@@ -1,0 +1,123 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5029:"<br>modèle de lettre de motivation gratuit pour un poste de plombier en candidature spontanée, niveau plombier chauffagiste h/f . Aussi, j’ai pu acquérir les bases du métier et développer une bonne technicité. Exemple de lettre de motivation pour une formation de plombier à l'Afpa. Exemple de lettre pour intégrer le poste de Plombier. La compétition est féroce et vous devez vous démarquer. Rédiger une lettre de motivation est une étape nécessaire pour trouver un stage en entreprise, un CDI ou encore un job d'été.Généralement, l'offre précise qu'une lettre ainsi qu'un CV doivent être envoyés pour postuler. mai modèle de lettre de motivation gratuit pour un poste de plombier en réponse à annonce, niveau débutant.  <br>Lettre de motivation Formation Plombier (Afpa) Le plombier, aujourd’hui, n’est plus seulement chargé d’installer et d’entretenir les canalisations et les installations sanitaires et de chauffage. Rigoureux, patient et consciencieux, j’apprécie rendre service et donner entière satisfaction aux clients me pousse à me perfectionner toujours plus.                 Exemple de lettre de motivation pour une formation de plombier à l'Afpa.Le plombier, aujourd’hui, n’est plus seulement chargé d’installer et d’entretenir les canalisations et les installations sanitaires et de chauffage. <br> <br>Contrairement aux idées reçues, le plombier n’est pas toujours couché sous un évier à colmater une fuite inopinée. Objet : Candidature au poste de plombier. exemple de lettre de motivation - Postuler à un premier emplois - Plombier Ce modèle de lettre de motivation pour le métier Plombier est un exemple pour prétendre à un premier emploi. Modèle pour une candidature spontanée à un poste de plombier chauffagisteTitulaire d’un baccalauréat professionnel Technicien de maintenance des systèmes énergétiques et climatiques, je suis vivement intéressé par votre société positionnée sur le secteur énergétique dans lequel je souhaite faire ma carrière professionnelle. Vous démontrerez que vous avez les compétences techniques (formation, expérience) et les qualités requises (ex : sens du conseil, adaptation, autonomie ...) pour le poste. Top consultation des exemples de lettre de motivation. <br> Objet : candidature spontanée pour un poste de plombier chauffagiste. Consultez notre exemple de lettre de motivation plombier afin de vous inspirer et obtenir le poste de vos rêves. Ainsi des parcours de formations diplômantes, en alternance ou non, Les personnes possédant déjà une expérience du métier ont la possibilité de se perfectionner ou de se spécialiser, en développant de nouvelles compétences par des formations certifiantes qui conduisent à l’obtention de certificats de compétences professionnelles ou de certificats complémentaires de spécialisation. métier plombier(ière) : un plombier ou une plombière a pour mission de procéder à l'installation et à la tenance des équipements sanitaires. <br> <br>Lettre de motivation , Exemple lettre motivation , Modele lettre motivation , modele de CV ou Curriculum vitae, lettre de motivation type et exemple de CV Adroit, précis et organisé, je suis doté d’une grande résistance physique et reste agréable avec le client même lorsque je dois intervenir en urgence.Réellement enthousiaste à l’idée de rejoindre votre équipe, je reste à votre entière disposition pour fixer un entretien à votre convenance.Dans cette attente, veuillez recevoir, Madame …, Monsieur …, l’assurance des mes sincères salutations.N’hésitez pas à préciser les raisons pour lesquelles vous postulez auprès de cette entreprise en particulier plutôt qu’une autre. <br> <br>Notre modèle de lettre de motivation pour un plombier chauffagiste vous permettra de trouver l'inspiration pour votre propre courrier de candidature. <br> <br>La polyvalence acquise est un gage de réussite sur le marché de l’emploi.Le postulant à une formation Afpa de plombier devra Les entretiens d’orientation m’ont permis de préciser ce projet au regard de mes aptitudes, de mes compétences et de mon ambition professionnelle.Motivé par l’idée de travailler manuellement dans un domaine en perpétuelle évolution, je veux acquérir les compétences nécessaires à l’obtention d’un titre professionnel qui me permettra de m’insérer rapidement dans la vie active.Le contenu des formations que proposent vos établissements, ainsi que les moyens pédagogiques qu’ils mettent en œuvre, me donnent l’assurance de parvenir progressivement à une véritable maîtrise des gestes et des techniques qu’exige le métier.Travailleur et méthodique, je sais faire preuve d’initiative et d’autonomie. Exemple de lettre de motivation pour un plombier chauffagiste. <br> <br> <br> <br>Métier plombier(ière) : Un plombier ou une plombière a pour mission de procéder à l'installation et à la maintenance des équipements sanitaires. <br>";s:7:"keyword";s:34:"lettre de motivation aide plombier";s:5:"links";s:8392:"<a href='https://backyard.synpat.com/site/article.php?page=Classement-Championnat-d%27Angleterre-88a0eb'>Classement Championnat D'Angleterre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=harold-et-la-l%C3%A9gende-du-pikpoketos-uptobox-88a0eb'>Harold Et La Légende Du Pikpoketos Uptobox</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avicii-hey-brother-clip-officiel-88a0eb'>Avicii Hey Brother Clip Officiel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-figaro-koh-lanta-88a0eb'>Le Figaro Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=living-things---traduction-88a0eb'>Living Things - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-big-ben-pdf-88a0eb'>Exposé Big Ben Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-lettre-prospection-nouveaux-clients-88a0eb'>Exemple Lettre Prospection Nouveaux Clients</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-%3A-hongrie-emoji-88a0eb'>Drapeau : Hongrie Emoji</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-que-moi-tu-meurs-expression-88a0eb'>Plus Que Moi Tu Meurs Expression</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-perret-lily-analyse-88a0eb'>Pierre Perret Lily Analyse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-topographique-italie-88a0eb'>Carte Topographique Italie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gaia-tv-youtube-88a0eb'>Gaia Tv Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shannen-doherty-et-son-fils-88a0eb'>Shannen Doherty Et Son Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t-shirt-chelsea-2020-88a0eb'>T Shirt Chelsea 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tina-arena-2020-88a0eb'>Tina Arena 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vaiana-waialiki-age-88a0eb'>Vaiana Waialiki Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=justine-gallice-youtub-88a0eb'>Justine Gallice Youtub</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fat-burner-femme-88a0eb'>Fat Burner Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=basket-adidas-homme-2019-88a0eb'>Basket Adidas Homme 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sandrine-koh-lanta-2020-88a0eb'>Sandrine Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=graine-de-chanvre-ou-acheter-88a0eb'>Graine De Chanvre Ou Acheter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-sont-des-vip-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Ce Sont Des Vip Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mot-de-la-m%C3%AAme-famille-d%C3%A9couverte-88a0eb'>Mot De La Même Famille Découverte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=high-side-road-trip-88a0eb'>High Side Road Trip</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=map-toboggan-michou-88a0eb'>Map Toboggan Michou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portail-famille-riorges-88a0eb'>Portail Famille Riorges</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rio-claude-fran%C3%A7ois-88a0eb'>Rio Claude François</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thomas-lemar-origine-nigerian-88a0eb'>Thomas Lemar Origine Nigerian</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angelina-the-voice-kid-%C3%A2ge-88a0eb'>Angelina The Voice Kid âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=table-de-multiplication-de-60-88a0eb'>Table De Multiplication De 60</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=serge-khalfon-origine-88a0eb'>Serge Khalfon Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma-huateng-fortune-88a0eb'>Ma Huateng Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=iphone-11-pro-max-prix-algerie-88a0eb'>Iphone 11 Pro Max Prix Algerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr7-chaussure-de-ville-88a0eb'>Cr7 Chaussure De Ville</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-pour-chauffer-une-salle-88a0eb'>Musique Pour Chauffer Une Salle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A2te-%C3%A0-tartiner-prot%C3%A9in%C3%A9e-avis-88a0eb'>Pâte à Tartiner Protéinée Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cv-pour-arm%C3%A9e-de-terre-88a0eb'>Cv Pour Armée De Terre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ensemble-atletico-madrid-rose-88a0eb'>Ensemble Atletico Madrid Rose</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=european-medical-devices-regulation-88a0eb'>European Medical Devices Regulation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=summoners-war-database-88a0eb'>Summoners War Database</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-de-gainage-pour-femmes-88a0eb'>Exercices De Gainage Pour Femmes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cl%C3%A9mentine-koh-lanta-saison-88a0eb'>Clémentine Koh-lanta Saison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emmanuel-todd---youtube-88a0eb'>Emmanuel Todd - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gr%C3%A9gory-galiffi-fils-de-88a0eb'>Grégory Galiffi Fils De</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-entraide-groupe-88a0eb'>Citation Entraide Groupe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=claquette-4-lettres-88a0eb'>Claquette 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pri%C3%A8re-de-la%C3%AFd-heure-roubaix-88a0eb'>Prière De Laïd Heure Roubaix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france---argentine-composition-88a0eb'>France - Argentine Composition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-leeb---les-animaux-88a0eb'>Michel Leeb - Les Animaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9rone---rom%C3%A9o-et-juliette-paroles-88a0eb'>Vérone - Roméo Et Juliette Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=smartphone-meilleur-autonomie-2018-88a0eb'>Smartphone Meilleur Autonomie 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=halo-2-pc-gratuit-88a0eb'>Halo 2 Pc Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tacos-world-ahmad-88a0eb'>Tacos World Ahmad</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=score-de-glasgow-avc-88a0eb'>Score De Glasgow Avc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=combien-rapporte-les-pubs-sur-une-application-88a0eb'>Combien Rapporte Les Pubs Sur Une Application</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vase-chicha-amy-deluxe-88a0eb'>Vase Chicha Amy Deluxe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-faire-des-abdos-homme-88a0eb'>Comment Faire Des Abdos Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-rendre-une-femme-amoureuse-de-toi-88a0eb'>Comment Rendre Une Femme Amoureuse De Toi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-%C3%A0-vendre-hampstead-londres-88a0eb'>Maison à Vendre Hampstead Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tapis-de-course-nordictrack-occasion-88a0eb'>Tapis De Course Nordictrack Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estudiantes-de-la-plata-ligue-88a0eb'>Estudiantes De La Plata Ligue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtubeur-voiture-de-luxe-88a0eb'>Youtubeur Voiture De Luxe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-coco-wax-carla-88a0eb'>Code Promo Coco Wax Carla</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hannibal-lecter-%3A-les-origines-du-mal-streaming-vf-hd-88a0eb'>Hannibal Lecter : Les Origines Du Mal Streaming Vf Hd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-2003-michel-88a0eb'>Koh-lanta 2003 Michel</a>,
+";s:7:"expired";i:-1;}

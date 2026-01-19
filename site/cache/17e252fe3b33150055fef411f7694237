@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4709:"- Bremsen Vo. <br> <br>- Serviceheft vorhanden, alle Service wurden eingetragen! Barres de toit, Verrou central avec 2x télécoman...CHEVROLET AVEO, 1a entrata in circolazione 2010, COLLAUDATA IL 22.07.2020, cilindrata 1200cc, solo 85000 Km, auto con catena di distribuzione, aria condizionata, servosterzo, chiusure centralizzate con chiavi e telecomando nuovi, vetri elettrici, ...CHEVROLET AVEO, FRESCA DI COLLAUDO, cilindrata 1200cc, solo 85000 Km, auto con catena di distribuzione, aria condizionata, servosterzo, chiusure centralizzate con chiavi e telecomando nuovi, vetri elettrici, radio CD ed entrata AUX, interni in buo...**Super Kleinwagen**  Eckdaten: -Inverkehrsetzung 10.2008 -Kilometer ca.  <br>Es ist ein 4 Plätzer mit 5 Türen. Top Fahrzeug zum Hammer Preis. 1.6 Benzin. Wie ladenneu, garantiert unfallfrei...Zum Verkaufen Subaru Forester 2.o 4 WD mlit klimaanlage fur exporet ab platzZiehl Abegg Regelgerät PTE-10AHQ-L  Digitaler, stufenloser Regelautomat für Lüfter bis 6 A. Zusätzliches Heizrelais ermöglicht den Anschluss einer separaten Heizung/Klimaanlage. - Klimaanlage - Alufelgen mit Winter...***Achtung Sehr Sparsames Auto*** eine probe Fahrt lohnt sich *** Frisch ab MFK bei Verkauf*** Frisch ab Ölwechselservice*** neue Bremsen vorne und hinten*** 8fach bereift 4 Neue Winterreifen*** Dachträger kostenlos dazu***  Bluetooth Freisprechan...Peugeot 807  Peugeot 807 2.2 HDI FAP 128PS 6Gang  167900 km 1PA642 7 Platz / ele. Tragende Teile sind nicht beschädigt! Mit Abstand günstigster SLR und erst noch in der beliebtesten Farbe schwarz-schwarz. Kleiner Flitzer und dennoch geräumig, findet in jeder Parklücke Platz. <br> <br>Nichtrauchera...Super CHEVROLET Captiva 2.0 TDi 4x4 Automatique EXPERTISÉ 02.2020,  7 places. Der Zahnriemen und die Wasserpumpe wurden am 18.02.2016 bei 148 575 KM ersetzt,Fahrzeug hat momentan...sommerreifen21 zoll winterreifen 18 zoll Automatische klimaanlage (4-zonen) Bluetooth Elektrische Heckklappe Elektrische Sitzverstellung Kurvenlicht luftfederung Parksensoren vorne und hinter (Kamera) Xenon-ScheinwerferIn sehr gutem Zustand, schwarze Lederinnenausstattung, mit Klimaanlage,  im Winter nie gefahren, ab MFK (Febr. Fast N' Loud; Garage Rehab; Tequila N' Energy. 159'999 -Getriebeart Schaltgetriebe manuell -Treibstoff Benzin -PS 70  Allgemein: -frisch MFK&Service -Technisch tadellos -sehr regelmässige Services -Optisch Occasion Gebrau...verkaufe Autoabschlepper IVECO Daily 35 S 17 neue ladebrücke zuladung 1500kg läuft tip top .neue Reife,neue Bremsen.Anhängelast 3500 kg Luftfederung Sie können jedes tiefe Auto laden.Hubraum: 2'998 cm3 170 PS..Automatische Klimaanlage .Kurvenlicht...Ford Maverick 3.0 XLT  JG 12.2003  km 127890  MFK 04. Klimaanlage: 1'674 Annonces.  Parkplatz in Tiefgarage Franken 130. Capteur de température du FAP à changer Toutes options: Climatisation, Tempomat. Getriebe genauso i.O. Automat Klimaanlage Leichtmetallfelgen Panoramaglasschiebedach U.v.m. annonces entreprises Petites annonces gratuites de particuliers à particuliers classées par thèmes : immobilier, rencontres, emploi, vente, sorties. Diverse Einstellmöglichkeiten. Show; Garage Inventory; The Monkeys; Merch; Contact; Open Monday - Saturday from 9am - 6pm . Gefällt 94 Mal. Einmal Backofen und einmal Backofen steamer ...Klimaanlage inkl. Fahrzeug läuft einwandfrei.Die letzte MFK war am 25.01.2019.Alle Service wurden immer gemacht,der letzte Service war am 23.01.2019 bei 170 702 KM. The Garage Inventory. <br> <br>9500 Wil. 150CV, 2007, 151000 km. 2 Sitzer Rechtsgelenkt. Detail de l'annonce : Studio vide a loué quartier bourgogne juste ruelle sur bd zerktouni pas loin de châteaud'eau,6eme etage,chambre,salon,cuisine américaine, sdb,balcon,ascenseur, garage… Wegen … Wunderbare Weitsicht von Säntis bis Berner Alpen. Gas Monkey Tequila ; Gas Monkey Energy; Foundation. - Letzte Service bei 266.000km  - KLIMAANLAGE! Frisch ab MFK. Wegen einer Neuanschaffung verkaufe ich meinen sparsamen Flitzer- ab Service, MFK, Garantie. Wenn der Strom ausgeschaltet...Zu verkaufen:  VW Bora Variant 1.9TDI  Hatte vor kurzem einen Unfall. Je suis une fantaisie pour tout homme! Nur die Stossstange und der Frontscheinwerfer sind defekt. <br> <br>Beifahrersitz versenkbar.Dadurch Lade oder Liegelänge bis 250cm. Trenngitter.tragbar, Hochdruckreiniger, Bewässerung, Rasensprüher, zur Reinigung von Unterlegscheiben im Auto, 12 V  Die Pumpe des Sprühgeräts wird 12 V vom Zigarettenanzünder betrieben, um sie auf der mobilen Stelle zu verwenden. Suzuki Celerio 1.0 Compact Top Fahrzeug in einem Top Zustand 05.2015 65'700km 68 PS Benzin Schaltgetriebe manuell 6 Gang Vorderradantrieb Zylin... 7'300.- 9500 Wil. <br>";s:7:"keyword";s:23:"garage vetement annonce";s:5:"links";s:5914:"<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-lou-en-arabe-88a0eb'>Prénom Lou En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boyard-land-episode-1-streaming-88a0eb'>Boyard Land Episode 1 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eva-signification-islam-88a0eb'>Eva Signification Islam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=torche-pour-retraite-au-flambeau-88a0eb'>Torche Pour Retraite Au Flambeau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9installer-photos-mac-88a0eb'>Réinstaller Photos Mac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=R%C3%A9gua-%E2%80%91-Porto-88a0eb'>Régua ‑ Porto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-directeur-g%C3%A9n%C3%A9ral-bfmtv-88a0eb'>Salaire Directeur Général Bfmtv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=duba%C3%AF-singapour-dur%C3%A9e-de-vol-88a0eb'>Dubaï Singapour Durée De Vol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=buckingham-palace-visit-entrance-88a0eb'>Buckingham Palace Visit Entrance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sainte-audrey-histoire-88a0eb'>Sainte Audrey Histoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=spectacle-fabrice-ebou%C3%A9-2020-streaming-88a0eb'>Spectacle Fabrice Eboué 2020 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jorge-l%C3%B3pez-astorga-y-danna-paola-88a0eb'>Jorge López Astorga Y Danna Paola</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rider-id-deliveroo-88a0eb'>Rider Id Deliveroo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-yanne-film-complet-88a0eb'>Jean Yanne Film Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yves-calvi-oeil-2020-88a0eb'>Yves Calvi Oeil 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=would-%2B-verb-tense-88a0eb'>Would + Verb Tense</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-champion-lol-2020-88a0eb'>Meilleur Champion Lol 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=odesza-how-did-i-get-here-88a0eb'>Odesza How Did I Get Here</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=6-pack-ems-mode-d%27emploi-en-fran%C3%A7ais-88a0eb'>6 Pack Ems Mode D'emploi En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=box-de-bienvenue-psg-88a0eb'>Box De Bienvenue Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9glementation-taxi-covid-88a0eb'>Réglementation Taxi Covid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kelly-et-neymar-les-anges-88a0eb'>Kelly Et Neymar Les Anges</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-kalulu-aldo-88a0eb'>Pierre Kalulu Aldo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=son-d%27avoine-vertus-et-posologie-88a0eb'>Son D'avoine Vertus Et Posologie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tournoi-de-foot-organisation-88a0eb'>Tournoi De Foot Organisation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f%C3%A9minicide-charlotte-d%27ornellas-88a0eb'>Féminicide Charlotte D'ornellas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dragon-cavalier-de-beurk----saison-1-%C3%A9pisode-9-88a0eb'>Dragon Cavalier De Beurk -- Saison 1 épisode 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=accompagnement-pancake-patate-douce-88a0eb'>Accompagnement Pancake Patate Douce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=grey%27s-anatomy-saison-10-88a0eb'>Grey's Anatomy Saison 10</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=squatter-traduction-arabe-88a0eb'>Squatter Traduction Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perfect-%28karaoke-female%29-88a0eb'>Perfect (karaoke Female)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-ne-vit-qu%27une-fois-snoopy-88a0eb'>On Ne Vit Qu'une Fois Snoopy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-shaker-pour-grossir-88a0eb'>Recette Shaker Pour Grossir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-vous-contacte-par-rapport-88a0eb'>Je Vous Contacte Par Rapport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouvelle-donne-la-revue-88a0eb'>Nouvelle Donne La Revue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-twitter-le-plus-suivi-2020-88a0eb'>Compte Twitter Le Plus Suivi 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-qu%C3%A9bec-formation-88a0eb'>Vélo Québec Formation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=national-animal-of-wales-88a0eb'>National Animal Of Wales</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=HLM-en-Angleterre-88a0eb'>HLM En Angleterre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tatiana-legros-truffaut-88a0eb'>Tatiana Legros Truffaut</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-royaliste-live-88a0eb'>Le Royaliste Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jouer-%C3%A0-motus-sur-ordinateur-88a0eb'>Jouer à Motus Sur Ordinateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dessin-joker-r%C3%A9aliste-88a0eb'>Dessin Joker Réaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=image-vaiana-b%C3%A9b%C3%A9-88a0eb'>Image Vaiana Bébé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-temps-des-colonies-wiki-88a0eb'>Le Temps Des Colonies Wiki</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neeskens-kebano-nestor-kebano-88a0eb'>Neeskens Kebano Nestor Kebano</a>,
+";s:7:"expired";i:-1;}

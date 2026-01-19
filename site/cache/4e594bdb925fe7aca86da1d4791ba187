@@ -1,0 +1,88 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4413:"<br>Par extension, ornement en forme de crête. 									Afin de vous aider dans vos mots croisés ou mots fléchés, nous avons classé les synonymes de Crête par nombre de lettres. C'est une île montagneuse. 5 solutions pour la definition "Crête" en 4 lettres: Définition Nombre de lettres Solution; Crête: 4: Dent: Crête: 4: Haut: Crête: 4: Cime: Crête: 4: Dôme: Crête: 4: Tête: Dent.                                             Samedi 10 Février 2018 D'une superficie de 8 400 km², et d'une périphérie d'environ 1 000 km, elle est la cinquième île de Méditerranée après la Tout comme la Corse, elle est montagneuse ; trois massifs montagneux dominent l'île : les La Crète marque l'un des extrema géographiques de l'Europe : le cap Tripiti sur l'île de La Crète compte officiellement environ 35 millions d’La Crète souffre en revanche de problèmes d'environnement. Crête de coq, nom donné à des cristaux indéterminables qui, étant minces et arrondis sur les bords, imitent jusqu'à un certain point des crêtes de coq.Petite passementerie à dent comme une crête, sorte d'agrément, servant à border ou encadrer des rideaux, des siéges, etc.Tas de blé qui est dans un bateau et qui est élevé en forme pyramidale. Les solutions pour la définition ABOIEMENT DU CHIEN pour des mots croisés ou mots fléchés, ainsi que des synonymes existants. crista ; du latin crista.Ajoutez : Crête intérieure, la ligne la plus élevée d'un épaulement, celle derrière laquelle se placent les défenseurs pour faire feu ; c'est l'intersection du talus intérieur et de la plongée.Crête de coq, sorte de papillon, appelé le chameau par Lucas, bombyx camelina.À rire commença, s'a les sourcilz levez ; Bertran le regarda comme lyon cretezCe n'est pas raison qu'à faulte de rime ils me refusent la dispense [d'user de termes libres] que mesme des hommes ecclesiastiques, des nostres et des plus cretez, jouissent en ce siecleFig. CommeUneFleche.com Accueil Rechercher. Le vocabulaire « passif » ou dit « de culture générale » n'utilise qu'entre 2 500 et 6 000 mots. <br> <br>Synonymes de Crête en 9 lettres : Culminant. <br> <br>Menu . La solution à ce puzzle est constituéè de 5 lettres et commence par la lettre M Surélévation. Crête de morue, certain endroit du dos de la morue vers la tête.  <br>Altitude. Animal crêté, animal représenté avec une crête d'un autre émail que le corps.Terme d'histoire naturelle. <br> <br>Quel est le synonyme de crête? La réutilisation au format électronique, des éléments de cette page (textes, images, tableaux, ...), est autorisée en mentionnant la source à l'aide du code fourni ci-dessous ou à l'aide d'un lien vers cette page du site. Voici une liste des synonymes pour ce mot. Crête Crête en 4 lettres. 			Un synonyme se dit d'un mot qui a un sens identique ou voisin à celui d'un autre mot. <br> Afin de vous aider dans vos mots croisés ou mots fléchés, nous avons classé les synonymes de Crête par ordre alphabétique. Définition ou synonyme. Pièce de fer en forme de crête qui surmonte un casque ou autre coiffure semblable. Qu'elles peuvent être les solutions possibles ? Retrouvez le synonyme du mot français crête dans notre dictionnaire des synonymes. Changer la langue cible pour obtenir des traductions.Copyright © 2000-2016 sensagent : Encyclopédie en ligne, Thesaurus, dictionnaire de définitions et plus. Qu'elles peuvent être les solutions possibles ? 			 J.-C.exostose de la crête iliaque | région pelvienne et cuisseC.E., C.E.E., C.É.E., CE, CEE, Communauté, Communauté Économique Européenne, Communauté européenne, Europe, UE, Union européenneN.A.T.O., O.T.A.N., Organisation du traité de l'Atlantique, Organisation du Traité de l'Atlantique Nord, OTAN, Pacte atlantiqueMediterranée, Méditerranée, Mer Mediterranée, Mer MéditerranéeGrèce, Hellênikê Dêmokratia, république de Grèce, République hellénique, terre des dieuxMediterranée, Méditerranée, Mer Mediterranée, Mer Méditerranéeélévation, élévation de terrain, levée de terre, saillieligne d'intersection des deux versants de la montagne.Excroissance charnue que les coqs et quelques autres gallinacés ont sur leur tête.  de la Méditerranée (8336 km²; 503000 habitants; capitale : Héraklion). Voir la liste des synonymes des mots commençant par la lettre : <br>";s:7:"keyword";s:28:"crête synonyme en 4 lettres";s:5:"links";s:3776:"<a href='https://backyard.synpat.com/site/article.php?page=st%C3%A9phane-bern-et-son-compagnon-cyril-vergniol-88a0eb'>Stéphane Bern Et Son Compagnon Cyril Vergniol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=loyer-londres-colocation-88a0eb'>Loyer Londres Colocation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-sur-le-carnaval-de-rio-88a0eb'>Exposé Sur Le Carnaval De Rio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fm-2020-bargain-88a0eb'>Fm 2020 Bargain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-anticipateurs-shop-88a0eb'>Les Anticipateurs Shop</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=particularit%C3%A9-de-new-york-88a0eb'>Particularité De New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-%C3%AEles-marshall-88a0eb'>Drapeau îles Marshall</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=assiettes-porcelaine-blanche-88a0eb'>Assiettes Porcelaine Blanche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-trouve-%C3%A7a-cool%2C-cool-88a0eb'>Je Trouve ça Cool, Cool</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wild-bill-calamity-jane-88a0eb'>Wild Bill Calamity Jane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-pr%C3%A9parer-la-prot%C3%A9ine-de-pois-88a0eb'>Comment Préparer La Protéine De Pois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=open-data-football-88a0eb'>Open Data Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boutique-pour-femme-place-ste-foy-88a0eb'>Boutique Pour Femme Place Ste-foy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fondation-thuram-paris-88a0eb'>Fondation Thuram Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-regret-amour-88a0eb'>Chanson Regret Amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tifo-dortmund-frankfurt-88a0eb'>Tifo Dortmund Frankfurt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yassir-food-contact-88a0eb'>Yassir Food Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=earth-texture-4k-88a0eb'>Earth Texture 4k</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=palmar%C3%A8s-juventus-ligue-des-champions-88a0eb'>Palmarès Juventus Ligue Des Champions</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-mdc-fifa-20-fut-88a0eb'>Meilleur Mdc Fifa 20 Fut</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baby-love-me-88a0eb'>Baby Love Me</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-louis-vuitton-prix-88a0eb'>Nike Louis Vuitton Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-tactique-liverpool-fifa-20-88a0eb'>Meilleur Tactique Liverpool Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-pancakes-cereal-88a0eb'>Mini Pancakes Cereal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jus-de-citron-le-soir-pour-maigrir-88a0eb'>Jus De Citron Le Soir Pour Maigrir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maroc-news-line-live-88a0eb'>Maroc News Line Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mass-tech-vs-serious-mass-88a0eb'>Mass Tech Vs Serious Mass</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Mercato-Man-Utd-2019-2020-88a0eb'>Mercato Man Utd 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-p%C3%AAche-requin-vid%C3%A9o-88a0eb'>Koh-lanta Pêche Requin Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d7-anglaise-classement-88a0eb'>D7 Anglaise Classement</a>,
+";s:7:"expired";i:-1;}

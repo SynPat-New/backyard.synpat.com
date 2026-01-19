@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4411:"<p>Avec un salaire mensuel brut de 120 000 €, Andy Delort est le troisième joueur le mieux payé de  Au plus haut niveau, Neymar Jr est le joueur le mieux payé en France. – @FacebookAndré-Pierre Gignac lui avait ouvert la voie, un an avant lui en quittant la France et Marseille pour le Mexique. </p> <p>En Février dernier, L’Equipe dévoilait les plus hauts salaires de chaque club de Ligue 1. Toute l'actualité de Andy Delort et de Montpellier, son palmarès, ses stats... sur L'ÉQUIPE Quant à la pépite Algérienne venue du club Italien Napoli vers l’OGC Nice, Adam Ounas vient en troisième position avec un salaire brut de 180.000 euros par mois, soit 2,1 millions d’euros par an. Andy Delort passe le questionnaire de Noël de FF : «J'ai un petit faible pour le foie gras» Comme chaque 25 décembre depuis 2015, FF.fr vous propose son interview de Noël. Andy Delort, le footballeur français qui rêve d’être sélectionné en Algérie. Mercato : Salaire, transfert… Andy Delort justifie son retour en France ! Delort émarge cette saison 2016-2017 à près de 2,4 millions d’euros brut au Mexique contre 4 millions d’euros brut versés à Gignac, pour sa deuxième saison au club.  Site non-officiel du MHSC Carcassonnais de naissance, depuis 1991, mon coeur bat orange et bleu. L’attaquant de Montpellier a fait valoir ses racines maternelles pour obtenir la nationalité algérienne. </p> <p>"Récit d'un supporter lensois : "Diarra est capable de fulgurances et derrière d'envoyer une gifle"Je m'en bats les c..., je gagne 150 000 € par mois.J'aimerais bien, pour lui, qu'il gagne ce salaire, mais ce n'est pas chez moi. Andy Delort connait un début de carrière marqué par de nombreux changements de clubs, dont deux départs à l'étranger, en Angleterre et au Mexique. </p> <p>Tout travail mérite salaire… sauf pour les agents de joueur de football le cas Andy Delort. Le 23 juillet 2013, lors de la signature de l’attaquant Andy Delort au FC Tours, la commission d’agent ne s’élève, en effet, qu’à 8 400 euros. Publié le 28 avril 2017 à 3h00 par G.d.S.S. "Je suis excité à l'idée d'affronter le TFC au Stadium et à Paul-Lignon"Le compte-rendu de la réunion Damien Comolli / groupes de supporters par l'ADISTTFC 2-2 Pau : Les trois choses à retenir et les notes des ToulousainsLa réserve du TFC bat Blagnac en amical, Corredor doublement décisifMenace de mort contre Comolli, tout vient d'InstagramLa réaction de Manu Koné après le nul face à Pau (2-2)Le TFC pourra faire 5 changements par match en Ligue 2Le TFC pourra faire 5 changements par match en Ligue 2Un neuvième mois consécutif sans victoire pour le TFC, malgré tout...Le TFC et la Coupe de la Ligue, c'est fini, 10 choses à savoirGarande : "Encore beaucoup de travail et des promesses"En vidéo : l'après-match et le débrief de TFC - Pau avec la rédaction du site LesViolets.ComLe TFC arrache le match nul contre Pau, 2-2, découvrez la fiche techniqueDamien Comolli menacé de mort sur les réseaux sociaux a porté plainte !La Lettre du Violet : "Rendez-nous notre Jacques Breda ! Question rémunération, le salaire d’Andy Delort aux Tigres de Monterrey est l’un des plus élevés de l’effectif.Mais selon les informations, récemment données par le journal portugais Record, il est près de moitié inférieur à celui de André-Pierre Gignac. "Je suis excité à l'idée d'affronter le TFC au Stadium et à Paul-Lignon"Le compte-rendu de la réunion Damien Comolli / groupes de supporters par l'ADISTTFC 2-2 Pau : Les trois choses à retenir et les notes des ToulousainsLa réserve du TFC bat Blagnac en amical, Corredor doublement décisifMenace de mort contre Comolli, tout vient d'InstagramLa réaction de Manu Koné après le nul face à Pau (2-2)Le TFC pourra faire 5 changements par match en Ligue 2Le TFC pourra faire 5 changements par match en Ligue 2Un neuvième mois consécutif sans victoire pour le TFC, malgré tout...Le TFC et la Coupe de la Ligue, c'est fini, 10 choses à savoirGarande : "Encore beaucoup de travail et des promesses"En vidéo : l'après-match et le débrief de TFC - Pau avec la rédaction du site LesViolets.ComLe TFC arrache le match nul contre Pau, 2-2, découvrez la fiche techniqueDamien Comolli menacé de mort sur les réseaux sociaux a porté plainte !La Lettre du Violet : "Rendez-nous notre Jacques Breda ! </p>";s:7:"keyword";s:19:"andy delort salaire";s:5:"links";s:6896:"<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-lou-en-arabe-88a0eb'>Prénom Lou En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=grippy-tome-2-88a0eb'>Grippy Tome 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trois-dimensions-synonyme-88a0eb'>Trois Dimensions Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=top-forebet-aujourd%27hui-88a0eb'>Top Forebet Aujourd'hui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=summoners-war-co-chow-88a0eb'>Summoners War Co Chow</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=villa-real%2C-portugal-88a0eb'>Villa Real, Portugal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ak%C3%A9-om-fifa-20-88a0eb'>Aké Om Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=La-terreur-du-Loch-Ness-88a0eb'>La Terreur Du Loch Ness</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-presque-souchon-88a0eb'>Paroles Presque Souchon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=apprendre-le-jargon-fran%C3%A7ais-88a0eb'>Apprendre Le Jargon Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-facteurs-de-l%27environnement-88a0eb'>Les Facteurs De L'environnement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=myprotein-beurre-de-cajou-88a0eb'>Myprotein Beurre De Cajou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=br%C3%BBle-graisse-naturel-%C3%A0-boire-88a0eb'>Brûle Graisse Naturel à Boire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=il-faut-rire-de-la-mort-surtout-quand-c%27est-les-autres-88a0eb'>Il Faut Rire De La Mort Surtout Quand C'est Les Autres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comptine-du-jardin-moi-je-me-balance%2C-je-danse%2C-je-danse-88a0eb'>Comptine Du Jardin Moi Je Me Balance, Je Danse, Je Danse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-le-grand-slam-france-3-88a0eb'>Jeu Le Grand Slam France 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zaz-effet-miroir-88a0eb'>Zaz Effet Miroir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-eos-250d-prix-88a0eb'>Canon Eos 250d Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toile-cir%C3%A9e-basque-88a0eb'>Toile Cirée Basque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=devils-don-t-fly-nightcore-88a0eb'>Devils Don T Fly Nightcore</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-appareil-photo-grand-angle-88a0eb'>Objectif Appareil Photo Grand Angle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-ne-recois-pas-le-code-d%27authentification-twitter-88a0eb'>Je Ne Recois Pas Le Code D'authentification Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=se-faire-belle-synonyme-88a0eb'>Se Faire Belle Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drap-de-plage-88a0eb'>Drap De Plage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-gouvernante-majestic-88a0eb'>Salaire Gouvernante Majestic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roxane-bruneau-parents-88a0eb'>Roxane Bruneau Parents</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romain-goisbeau-adresse-88a0eb'>Romain Goisbeau Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=katharine-hepburn-mari-88a0eb'>Katharine Hepburn Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arboretum-harcourt-esp%C3%A8ces-d%27arbres-88a0eb'>Arboretum Harcourt Espèces D'arbres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9passer-une-voiture-en-anglais-88a0eb'>Dépasser Une Voiture En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%B4le-des-protides-dans-l%27organisme-88a0eb'>Rôle Des Protides Dans L'organisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9quence-osn-nilesat-2020-88a0eb'>Fréquence Osn Nilesat 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wuxia-novel-fr-88a0eb'>Wuxia Novel Fr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-roumanie-coup-de-t%C3%AAte-88a0eb'>Koh-lanta Roumanie Coup De Tête</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=domino-je-vous-trouve-tr%C3%A8s-beau-88a0eb'>Domino Je Vous Trouve Très Beau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-29-mai-2020-entier-88a0eb'>Koh-lanta 29 Mai 2020 Entier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=accord-participe-pr%C3%A9sent-88a0eb'>Accord Participe Présent</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-interdire-88a0eb'>Synonyme De Interdire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stop-fuite-joint-de-culasse-wynn%27s-88a0eb'>Stop Fuite Joint De Culasse Wynn's</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emperor-menelik-ii-88a0eb'>Emperor Menelik Ii</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Calendrier-Ramadan-Tunisie-88a0eb'>Calendrier Ramadan Tunisie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oeuvre-de-nick-cave-88a0eb'>Oeuvre De Nick Cave</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=match-dortmund-cha%C3%AEne-88a0eb'>Match Dortmund Chaîne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%A9nabar-le-d%C3%A9but-de-la-suite---youtube-88a0eb'>Bénabar Le Début De La Suite - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perfect-fit-senior-chat-88a0eb'>Perfect Fit Senior Chat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chat-papier-toilette-saut-88a0eb'>Chat Papier Toilette Saut</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anastasie-ton-corps-m%27anesth%C3%A9sie-88a0eb'>Anastasie Ton Corps M'anesthésie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sporting-charleroi-2010-2011-88a0eb'>Sporting Charleroi 2010 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-pectoraux-halt%C3%A8re-au-sol-88a0eb'>Exercice Pectoraux Haltère Au Sol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-123-elysees---astotel-88a0eb'>Le 123 Elysees - Astotel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zoe-c%27est-la-vie-88a0eb'>Zoe C'est La Vie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=planification-et-ordonnancement-de-la-production-excel-88a0eb'>Planification Et Ordonnancement De La Production Excel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=logement-p%C3%A9kin-%C3%A9tudiant-88a0eb'>Logement Pékin étudiant</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,101 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5331:"<br>                        Vendredi 24 juillet 2020 Je vous invite à écouter une sélection de musiques classiques établie selon les conseils avisés du professeur Michel Lejoyeux pour avoir le sourire ! Répondre. Les musiques classiques qui donnent le sourire !  La musique adoucit l’humeur et donne le sourire : démarrez la journée du bon pied et libérez-vous grâce à notre playlist garantie 100% smile. En voici quelques ingrédients : de belles musiques, un cadre pittoresque ou poétique et une jolie histoire. Êtes-vous d'accord ? Quand vous débarquerez au boulot, vous pourrez chantonner le dernier son de Soprano à la machine à café histoire de booster vos collègues et répandre votre énergie, comme Diego dans La Bombonera, vous rentrerez dans Sinon, si vous n’arrivez pas à choisir une musique en particulier (parce qu’il y en a plein), vous pouvez toujours brancher votre radio-réveil sur Demotivateur est le premier média digital de divertissement français à destination des millenialsUne solution pour motiver toutes les paresseuses à se lever le matin : ce réveil « à insérer dans son vagin » vous réveillera avec un orgasme !La réponse très drôle de cette humoriste aux terroristes responsables des attentats de Bruxelles est à écouter d'urgenceAu réveil, cette députée LREM retrouve sa maison... emmuréeUn père parcourt près de 4000 km à vélo pour écouter une dernière fois battre le coeur greffé de sa fille !Découvrez Babypod, l'invention qui permet de faire écouter de la musique au nourrisson en introduisant une enceinte... dans votre vaginÀ Bali, des ONG bravent le danger d'un volcan en réveil pour sauver les animaux1 – Jamie XX feat. avril 11, 2018. On démarre donc tout de suite en faisant nôtres ces mantras […] Bebe Rexha & J. Balvin - Say My Name <br> <br>{"xtn2":3,"xtpage":"Article::article_-_La_playlist_qui_vous_donne_le_sourire","x4":13,"x5":"[Culture_musicale]","x6":"[Nathalie_Moller]","x7":"[La_playlist_qui_vous_donne_le_sourire]","x10":"20171006","x11":"20180320","x12":"[France_musique]","x14":"[texte|video]","x15":"[Culture_musicale]","x16":"[b1fd583a0482d46e8f353b543b92df6c7e69e67a]","xt_multc":"","xt_an":"","xt_ac":"","xt_mtcl":"","xt_npg":"","atinternet_share":"Partages::Article::La_playlist_qui_vous_donne_le_sourire","atinternet_podcast":""} Je vous invite à écouter une sélection établie selon les conseils avisés du professeur Michel Lejoyeux (extrait du livre « Le temps d’exposition recommandé pour un maximum d’effet est de 50 minutes.N’hésitez pas à commenter et à partager pour diffuser la bonne humeur autour de vous !MERCI pour cette escapade musicale qui redonne la vitalité et la joie…..Merci, mille mercis pour cette douceur, je découvre, et quel bonheur…..je pensais pas que du mozard me rendrait joyeux moi qui ecoute un style musical complétement oposé, je dois avoué que sa donne envie de l’écouter bien plus souventCe site utilise Akismet pour réduire les indésirables. Il s’agit de l’influence positive sur notre cerveau qu’ont les musiques telles que la Sonate pour deux pianos Köchel 448. Il faut écouter de temps à autre de la musique relaxante .                         Vendredi 31 juillet 2020  10 techniques pour apaiser instantanément la colère15 questions pour se réveiller, se libérer et vivre pleinement sa vieNous utilisons des cookies pour vous garantir une meilleure expérience sur notre site en adaptant notamment le contenu des annonces publicitaires. <br> <br>                        Mercredi 29 juillet 2020 "Robot Rock" de Daft Punk, c'est le son idéal pour avoir de l'énergie directement au réveil. Il y a mille et une façon de sourire : discrètement, continuellement, largement, avec effort, avec tendresse, et même avec les yeux... Mais est-ce toujours un si bon présage ? <br> <br>                     Phrase Sur La Vie Santé Bien Être Autre Apprendre À Embrasser Court Métrage Enfant Gestion Mentale Lacher Lâcher Prise Education Bienveillante Ce n'est qu'une question de spiritualité et avec ce tube de Phoenix, vous aurez en tête que les choses iront toujours mieux.C'est le moment de sortir de chez soi pour traîner sa peine jusqu'au métro/boulot... Traîner sa peine ? Très belle journée. Il doit jongler habillement entre différentes émotions sans pour autant tomber dans la niaiserie, dans le grossier ou dans le tragique. En effet, sur son smartphone, chacun doit avoir sa petite musique qui a ce don merveilleux d’éveiller doucement vos sens et vous aider à démarrer la journée du bon pied, avec la pêche et le sourire. La raison pour laquelle il vaut mieux l'adopter par vous-même, il vous arrivera certainement d'aller à la gare en tapant quelques pas de danse et de rentrer dans le métro avec un mouvement des hanches qui vous échauffera pour la journée.Pour finir, un petit peu de rap français sur un son latino. <br> <br>                    Isaac Stern : 10 (petites) choses que vous ne savez (peut-être) pas sur le grand violoniste Le rythme dans la peau est contagieux, à vous de propager le virus ! Nous savons que la musique peut avoir des effets thérapeutiques, qui peuvent aider à combattre la solitude et donner le sourire pendant cette épidémie inédite du COVID-19. <br>";s:7:"keyword";s:38:"hôtel 34b   astotel paris tripadvisor";s:5:"links";s:5286:"<a href='https://backyard.synpat.com/site/article.php?page=arsenal-newcastle-notes-88a0eb'>Arsenal Newcastle Notes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=is-this-love-guitar-88a0eb'>Is This Love Guitar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beno%C3%AEt-koh-lanta-2020-triathlon-88a0eb'>Benoît Koh-lanta 2020 Triathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Flow-t%27as-valid%C3%A9-88a0eb'>Flow T'as Validé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=usine-wolfsburg-volkswagen-88a0eb'>Usine Wolfsburg Volkswagen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9duse-koh-phi-phi-88a0eb'>Méduse Koh Phi Phi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=copine-pfut10-insta-88a0eb'>Copine Pfut10 Insta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Flora-Coquerel-Instagram-88a0eb'>Flora Coquerel Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A2tisserie-orientale-recette-88a0eb'>Pâtisserie Orientale Recette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patrick-roy-salaire-88a0eb'>Patrick Roy Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-baigne-film-dvd-88a0eb'>Tout Baigne Film Dvd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=circuit-visite-cardiff-88a0eb'>Circuit Visite Cardiff</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dr-thierry-costa-perpignan-88a0eb'>Dr Thierry Costa Perpignan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=unai-emery-et-sa-femme-88a0eb'>Unai Emery Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kiera-cass-callaway-cass-88a0eb'>Kiera Cass Callaway Cass</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=top-soccer-prediction-88a0eb'>Top Soccer Prediction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appli-pour-se-muscler-gratuit-88a0eb'>Appli Pour Se Muscler Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vid%C3%A9o-mickalow-overwatch-88a0eb'>Vidéo Mickalow Overwatch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=macron-salon-agriculture-figurants-88a0eb'>Macron Salon Agriculture Figurants</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-bcaa-forum-88a0eb'>Meilleur Bcaa Forum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=11%3A00-am-bst-88a0eb'>11:00 Am Bst</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cosa-nostra-chef-2020-88a0eb'>Cosa Nostra Chef 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-dosage-s%C3%A8che-88a0eb'>Bcaa Dosage Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=template-sommaire-word-88a0eb'>Template Sommaire Word</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-public-de-france-foot-2020-88a0eb'>Meilleur Public De France Foot 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-yvette-c%C3%A9l%C3%A8bres-88a0eb'>Les Yvette Célèbres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marie-parmentier-fille-88a0eb'>Marie Parmentier Fille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=claude-dartois-chauffeur-de-ma%C3%AEtre-de-qui-88a0eb'>Claude Dartois Chauffeur De Maître De Qui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=news-media-definition-88a0eb'>News Media Definition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remplir-une-carte-postale-88a0eb'>Remplir Une Carte Postale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=publier-un-texte-sur-internet-88a0eb'>Publier Un Texte Sur Internet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-belgique%2C-%3A-v%C3%AAtements-88a0eb'>Amazon Belgique, : Vêtements</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=spy-scan-vf-88a0eb'>Spy Scan Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=missing-2019-prime-video-88a0eb'>Missing 2019 Prime Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-pbe-oubli%C3%A9-88a0eb'>Compte Pbe Oublié</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-force-femme-88a0eb'>Citation Force Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decoration-amour-dessin-88a0eb'>Decoration Amour Dessin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=starter-choke-position-88a0eb'>Starter Choke Position</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=in%C3%A8s-loucif-origine-wikipedia-88a0eb'>Inès Loucif Origine Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mc-guillaume-album-88a0eb'>Mc Guillaume Album</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-2020-wikip%C3%A9dia-88a0eb'>Pékin Express 2020 Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-plus-beaux-buts-de-neymar-88a0eb'>Les Plus Beaux Buts De Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%AAter-un-livre-en-anglais-88a0eb'>Prêter Un Livre En Anglais</a>,
+";s:7:"expired";i:-1;}

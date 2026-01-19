@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6197:"Séparer en deux tasses : l'une avec 9 cl et l'autre avec le reste (qui servira pour servir). Un régal <3[…] finesse après plusieurs heures de repos. Je diminue de 10g le sucre du coup. merci pour la rectification.Il me tente bien. <br> <br>Ajouter le miel, les oeufs, l'arôme, le sel, la poudre à lever, puis la farine. Ajouter le miel, les oeufs, l'arôme, le sel, la poudre à lever, puis la farine. Un délicieux gâteau, à la mie tendre et moelleuse. Chicken & Beef. Le cake au citron sans beurre 3.7/5 Selon nos informations, cette recette est compatible avec les régimes suivants : végétarien, sans lactose Un régal <3[…] finesse après plusieurs heures de repos. Auteur et photographe culinaire, je partage avec vous mes recettes simples et ensoleillées, mes astuces et mes coups de coeur pour vous donner envie de profiter de ces petits bonheurs de la vie !Copyright © @2020 - Un déjeuner de soleil. Vous pouvez modifier ces paramètres à tout moment. Ajouter le zeste ou la vanille puis les ingrédients secs : le sucre et le mélange de farine. Tamiser la farine avec la poudre d’amandes et la levure. C'est bien ce qui résume ce cake au miel. Le test du cure-dent est votre allié.Lo faccio oggi, mi attira molto e sarà sicuramente ottimoJe dois avouer que je lis votre blog depuis des années et que c'est la premiere fois que je prends le temps de laisser un commentaire, ingrate que je suis ! Il s’agit bien d’un gâteau à la saveur du miel, avec des oeufs, du beurre, de la farine de blé, de la levure, etc… (pour rappel le pain d’épices ne contient pas tous ces ingrédients) Add all product of recipe. <br> <br>a . J'aime sa saveur un peu rustique.Merci mille fois Marie pour vos mots ! Quick and Easy Recipes. L'ajout de ce dernier dans la pâte remplace avantageusement le sucre et contribue à l'apport en vitamines.Cette musique n'est-elle pas parfaite pour préparer ou déguster cette recette ? Mélanger afin d’obtenir une pâte presque homogène et fluide (ne pas trop mélanger, s’il reste des mini grumeaux ce n’est pas grave).Déguster tiède ou à température ambiante et servir avec le reste de thé à côté ou dessus.Avertissement : ce formulaire peut être utilisé uniquement si JavaScript est activé dans votre navigateur.Saisissez votre adresse e-mail pour vous abonner à ce blog et recevoir une notification de chaque nouvel article par email ainsi que la newsletter thématique Pour assurer le bon fonctionnement de ce site, des cookies sont parfois enregistrés sur votre navigateur. Alerter. ... la recette Cake au miel. Je diminue de 10g le sucre du coup. Vous pouvez bien sûr y ajouter aussi des épices, des herbes (comme le thym par exemple) ou même le thé ou la tisane en poudre comme dans ce Poids de l’oeuf : entier 50 à 60 g sans la coquilleBonjour, je pense que la poudre d orange est en fait la poudre d amande mais je vois "l œuf" dans le déroulement mais pas dans les ingrédients. Laisser cuire 20 à 30 minutes environ. J'ai rapporté du miel de sapin, je vais essayer avec. Un cake moelleux et délicieux au miel (sans laitages)Porter à petite ébullition l'eau (on peut aussi la réchauffer au micro-ondes puis y laisser infuser le thé ou la tisane ou la camomille 3 minutes environ (selon le type choisi, sa puissance etc…) ou 7 minutes s'il s'agit de camomille. Ajouter le zeste ou la vanille puis les ingrédients secs : le sucre et le mélange de farine. Recette suivante Dans la même sélection : Cake au yaourt pomme-citron Voir la recette. Sortir du four, laisser un peu tiédir et démouler.La recette originale dont je me suis inspirée avec de nombreuses modifications et tirée du magazine australien Donna Hay, prévoyait de la camomille qui reste très douce et va bien dans la gâteaux. je l ai fait avec de l huile de coco car pas d huile d olive de qualité ici (Mexique).L'ho fatto ieri. Si vous aimez le miel il est vraiment pour vous, tout doux et gentil, bien différent d’un pain d’épices ou de ce gâteau moelleux au miel (plus dense et rustique et … <br> <br>Pour le temps de cuisson comme précisé dans mes notes et comme toujours, il peut varier (je donne des points de repères et le mien). J’ajoute mon grain de sel Top vidéo au hasard - Faire un clafoutis. Sortir du four, laisser un peu tiédir et démouler.La recette originale dont je me suis inspirée avec de nombreuses modifications et tirée du magazine australien Donna Hay, prévoyait de la camomille qui reste très douce et va bien dans la gâteaux. Petit cake moelleux et parfait pour le goûter… Merci. L'ajout de ce dernier dans la pâte remplace avantageusement le sucre et contribue à l'apport en vitamines. Tous droits réservés.Sans laitages, il est aussi très très facile à réaliser, en gros vous devez juste mélanger (même pas fouetter ou mixer, pratique non ? Cake au miel (sans laitages) Voici un cake tout moelleux et léger au miel parfait pour l’heure du thé ou le petit déjeuner. <br> <br> È finito in un attimo. Tapisser un moule à cale avec du papier cuisson légèrement mouillé (ça colle mieux).Dans un saladier ou la cuve d’un robot, mélanger les ingrédients liquides : les 9 cl de thé avec le miel, l’oeuf et l’huile. L'ajout de ce dernier dans la pâte remplace avantageusement le sucre et contribue à l'apport en vitamines.Cette musique n'est-elle pas parfaite pour préparer ou déguster cette recette ? La pâte doit un peu gonfler, dorer et en enfilant la pointe d'un couteau ou un cure-dent, ils doivent ressortir secs (c'est la preuve que c'est bien cuit). Les miels étant plus ou moins crémeux, et donc plus ou moins épais, on n’obtient pas le même résultat après cuisson.  <br>Cake à l'huile d'olive et au miel Voir la recette. Le thé ou une tisane vont très bien aussi. 14 juil. Si vous aimez le miel il est vraiment pour vous, tout doux et gentil, bien différent d’un pain d’épices ou de ce gâteau moelleux au miel (plus dense et rustique et que j’aime beaucoup ! Pour le temps de cuisson comme précisé dans mes notes et comme toujours, il peut varier (je donne des points de repères et le mien). <br>";s:7:"keyword";s:24:"cake au miel sans beurre";s:5:"links";s:6566:"<a href='https://backyard.synpat.com/site/article.php?page=doudou-b%C3%A9b%C3%A9-personnalis%C3%A9-88a0eb'>Doudou Bébé Personnalisé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-fant%C3%B4me-de-l%27op%C3%A9ra-film-1990-88a0eb'>Le Fantôme De L'opéra Film 1990</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=premier-pas-dans-la-gendarmerie-replay-88a0eb'>Premier Pas Dans La Gendarmerie Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-guadeloupe-horaire-88a0eb'>Decathlon Guadeloupe Horaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=I-Love-to-Love-88a0eb'>I Love To Love</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Drapeau-%C3%AEles-Salomon-88a0eb'>Drapeau îles Salomon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-2020-%C3%A9limination-88a0eb'>Pékin Express 2020 élimination</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9marche-synonyme-fran%C3%A7ais-88a0eb'>Démarche Synonyme Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-poulet-2020-88a0eb'>Musique Poulet 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Partition-Serge-Lama-PDF-88a0eb'>Partition Serge Lama PDF</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paul-biya-fortune-88a0eb'>Paul Biya Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-satellite-prix-88a0eb'>Carte Satellite Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=j%C3%A9r%C3%A9my-nadeau-copine-88a0eb'>Jérémy Nadeau Copine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=farine-la-moins-calorique-88a0eb'>Farine La Moins Calorique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=accompagnement-pancake-patate-douce-88a0eb'>Accompagnement Pancake Patate Douce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ateliers-cycle-3-88a0eb'>Ateliers Cycle 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9dalier-fixie-decathlon-88a0eb'>Pédalier Fixie Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abdominaux-profonds-anatomie-88a0eb'>Abdominaux Profonds Anatomie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-juste-milieu-luxembourg-88a0eb'>Le Juste Milieu Luxembourg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hachette-collection-renault-88a0eb'>Hachette Collection Renault</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=khoutir-benattia-instagram-88a0eb'>Khoutir Benattia Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remboursement-expedia-vol-annul%C3%A9-88a0eb'>Remboursement Expedia Vol Annulé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tibo-inshape-ninja-warrior-88a0eb'>Tibo Inshape Ninja Warrior</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eric-favre-prise-de-masse-88a0eb'>Eric Favre Prise De Masse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sandrine-koh-lanta-2020-88a0eb'>Sandrine Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-de-l%27auteur-de-self-4-lettres-88a0eb'>Prénom De L'auteur De Self 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=facteur-de-sant%C3%A9-d%C3%A9finition-88a0eb'>Facteur De Santé Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charles-magnien-bourdin-88a0eb'>Charles Magnien Bourdin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=port-elizabeth-m%C3%A9t%C3%A9o-88a0eb'>Port Elizabeth Météo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=teheiura-koh-lanta-%C3%A2g%C3%A9-88a0eb'>Teheiura Koh-lanta âgé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anick-si-on-s%27aimait-88a0eb'>Anick Si On S'aimait</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=video-de-batman-en-lego-88a0eb'>Video De Batman En Lego</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-village-pr%C3%A9f%C3%A9r%C3%A9-des-fran%C3%A7ais-2020-88a0eb'>Le Village Préféré Des Français 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=absorption-prot%C3%A9ine-v%C3%A9g%C3%A9tale-88a0eb'>Absorption Protéine Végétale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=id%C3%A9e-animation-radio-88a0eb'>Idée Animation Radio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-red-hand-of-ulster-traduction-88a0eb'>The Red Hand Of Ulster Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hereafter-islam-s%C3%A9rie-88a0eb'>Hereafter Islam Série</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soin-de-visage-naturel-pour-peau-noire-88a0eb'>Soin De Visage Naturel Pour Peau Noire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Okinawa-Weekly-Harborview-Mansion-main-building4%2C1%28374%29%C3%80-0%2C6%C2%A0km1%E2%80%AF347%C2%A0TWD-88a0eb'>Okinawa Weekly Harborview Mansion Main Building4,1(374)À 0,6 km1 347 TWD</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nutri-and-co-spiruline-88a0eb'>Nutri And Co Spiruline</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-asiatique-2019-88a0eb'>Film Asiatique 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-adams-2019-88a0eb'>Jean-pierre Adams 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=4-mois-musculation-88a0eb'>4 Mois Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traduction-fran%C3%A7aise-koh-lanta-88a0eb'>Traduction Française Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-pencher-en-7-lettres-88a0eb'>Synonyme De Pencher En 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=atelier-z%C3%B4dio-saran-88a0eb'>Atelier Zôdio Saran</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-de-lion-animal-88a0eb'>Prénom De Lion Animal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9rit%C3%A9-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Mérité Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Delhaize-Namur-Jambes-88a0eb'>Delhaize Namur Jambes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=european-championship-swimming-2019-88a0eb'>European Championship Swimming 2019</a>,
+";s:7:"expired";i:-1;}

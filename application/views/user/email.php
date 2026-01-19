@@ -1,0 +1,1744 @@
+<?php 
+	$subject = "";
+	$from = "";
+	$to = "";
+	$cc = "";
+	$date = "";
+	$email = "";
+	$delieveredTo="";
+	$star="";
+	$_attachmentString="";
+	$_messagesString = "";
+	$_referenceString="";
+	$stringUL = "";
+	$attr = "";
+	$threadID = "";
+	$messageID = "";
+	$messageIDD = "";
+	$id = 0;
+	$userID = $this->session->userdata['id'];
+	$leadID = 0;
+	$forwardBody="";
+	$otherDate = "";
+	$forwardAttachment= array();
+	if($type==1 || $type==3){
+		for($i=0;$i<count($thread_detail);$i++){
+			$threadID = $thread_detail[$i]['thread_id'];
+			$messageID = $thread_detail[$i]['message_id'];
+			$headers = $thread_detail[$i]['header'];
+			$labelIds = $thread_detail[$i]['labelIds'];										
+			for($j=0;$j<count($headers);$j++){												
+				if($headers[$j]->name=='Subject'){
+				$subject = $headers[$j]->value;
+				}
+				if($headers[$j]->name=='From'){
+					$from = $headers[$j]->value;
+					/*$from = str_replace("<","",$from);
+					$from = str_replace(">","",$from);*/
+				}
+				if($headers[$j]->name=='To'){
+					$to = $headers[$j]->value;
+					/*$to = str_replace("<","",$to);
+					$to = str_replace(">","",$to);*/
+				}
+				if($headers[$j]->name=='Delivered-To'){
+					$delieveredTo = $headers[$j]->value;
+				}
+				if($headers[$j]->name=='References'){
+					$_rFlag = 1;
+					$_referenceString = $headers[$j]->value;
+				}
+				if($headers[$j]->name=='Message-ID'){					
+					$messageIDD = $headers[$j]->value;
+				}
+				if(strtolower($headers[$j]->name)=='cc'){
+					$cc = $headers[$j]->value;
+				}
+				if($headers[$j]->name=='Authentication-Results'){
+					$raw = $headers[$j]->value;
+					$raw = explode('smtp.mail=',$raw);
+					if(count($raw)==2){
+						$email = $raw[1];
+					}
+				}
+				if($headers[$j]->name=='Received'){
+					$date = $headers[$j]->value;
+					$_da = explode(';',$date);
+					if(count($_da)==2){
+						$date = $_da[1];
+					}
+				}
+				if($headers[$j]->name=='Date'){
+					$otherDate = $headers[$j]->value;
+					$_da = explode(';',$date);
+					if(count($_da)==2){
+						$otherDate = $_da[1];
+					}
+				}
+			}
+			if($date == ""){
+				$date = $otherDate;
+			}
+			if($from=="" && $email!=""){
+				$from=$email;											
+			}
+			if($to=="" && $delieveredTo!=""){
+				$to = $delieveredTo;											
+			}
+			if(in_array("STARRED",$labelIds)){
+				$star = '<i class="glyph-icon icon-star"></i>';
+				$attr = 'Starred';
+			} else {
+				$star = '<i class="glyph-icon icon-star-o"></i>';
+				$attr = 'No Starred';
+			}
+			$body = $thread_detail[$i]['body'];	
+			$forwardBody = $body;
+			if(isHTML($body)===false){
+				$body = nl2br($body);
+			}
+			$body =	preg_replace("/https:\/\/synpat.com\/display_synpat_logo.php/m", '', $body);
+			
+			if(count($thread_detail[$i]['attachments'])>0){
+				for($a=0;$a<count($thread_detail[$i]['attachments']);$a++){
+					
+					$attachmentData  = $thread_detail[$i]['attachments'][$a];
+					$fileName = $attachmentData['filename'];
+					$realAttachID = $attachmentData['realAttachID'];
+					$partId = $attachmentData['partId'];
+					$mimeType = $attachmentData['mimeType'];
+					$attachmentId = $attachmentData['attachmentId'];
+					$decodeMine = base64_decode($mimeType);
+					$link = "";
+					if(!empty($realAttachID)){
+						$link ='https://mail.google.com/mail/u/0/?ui=2&view=att&th='.$messageID.'&disp=inline&realattid='.$realAttachID;
+					} else if(!empty($partId)){
+						$link ='https://mail.google.com/mail/u/0/?ui=2&view=att&th='.$messageID.'&attid=0.'.$partId.'&disp=inline';
+					} else {
+						$link ='https://mail.google.com/mail/u/0/?ui=2&view=att&th='.$messageID.'&attid=0.1.3&disp=inline';
+					}
+					$attIDMail = "";
+					if(!empty($threadID)){
+						$attIDMail = $threadID;
+					} else if(!empty($messageID)){
+						$attIDMail = $messageID;
+					}
+					$fileName = str_replace("http","https",$fileName);
+					if(strpos($fileName,'pdf')!==false){
+						$_attachmentString .='<li><i class="glyph-icon icon-file" style="color:#2196f3"></i> <a target="_BLANK" href="'.$link.'" dataId="'.$messageID.'" dataMime="'.$decodeMine.'" dataAttached="'.$attachmentId.'" dataFileName="'.$fileName.'" db="getGmailAttachment(jQuery(this))"; class="strong text-regular"><strong>'.$fileName.'</strong></a></li>';
+					} else {
+						$_attachmentString .='<li><i class="glyph-icon icon-file" style="color:#2196f3"></i> <a target="_BLANK" href="https://mail.google.com/mail/u/0/#inbox/'.$attIDMail.'" dataId="'.$messageID.'" dataMime="'.$decodeMine.'" dataAttached="'.$attachmentId.'" dataFileName="'.$fileName.'" db="getGmailAttachment(jQuery(this))"; class="strong text-regular"><strong>'.$fileName.'</strong></a></li>';
+					}					
+				}
+			}
+			$_messagesString .='<div class="row">'.
+									'<div class="col-md-12 col-sm-12 col-xs-12">'.
+									'    <div class="p-20">';
+			if($i>0){
+				$_messagesString .='<h3 class="message-title">'.$subject.'</h3>';
+			}
+			$_messagesString .=		'        <div class="message-item media">'.
+									'            <div class="message-item-right">'.
+									'                <div class="media">'.
+									'                    <div class="media-body">'.
+									'                        <p class="c-gray"></p>'.
+									'                    </div>'.
+									'                </div>'.
+									'            </div>'.
+									'        </div>'.
+									'    </div>'.
+									'   <div class="message-body" id="message-body">'.$body.
+									'    </div>'.
+									'</div>'.
+								'</div>';
+			
+			if($i>0 && $i<count($thread_detail)-1){
+				$_messagesString .='<div class="message-between"></div>';
+			}
+			if($i==count($thread_detail)-1){
+				$stringUL = "<ul class='todo-box-1'>".$_attachmentString."</ul>";
+			}
+		}
+		if(isset($thread_find) && count($thread_find)>0){
+			$type = 2;
+			$id = $thread_find[0]->id;
+		}
+		
+	} else {
+		
+		$mainData = $thread_detail;		
+		if(count($mainData)>0){			
+			for($m=0;$m<count($mainData);$m++){
+				$leadID = $mainData[$m]->lead_id;
+				if($mainData[$m]->account_type!=2){
+				$id = $mainData[$m]->id;
+				$userID = $mainData[$m]->user_id;
+				$thread_detail = json_decode($mainData[$m]->content);	
+				$threadID = $mainData[$m]->thread_id;
+				$messageID = $mainData[$m]->message_id;	
+				$otherDate = "";
+				for($i=0;$i<count($thread_detail);$i++){
+					$headers = $thread_detail[$i]->header;
+					$labelIds = $thread_detail[$i]->labelIds;										
+					for($j=0;$j<count($headers);$j++){												
+						if($headers[$j]->name=='Subject'){
+						$subject = $headers[$j]->value;
+						}
+						if($headers[$j]->name=='From'){
+							$from = $headers[$j]->value;
+							/*$from = str_replace("<","",$from);
+							$from = str_replace(">","",$from);*/
+						}
+						if($headers[$j]->name=='To'){
+							$to = $headers[$j]->value;
+							/*$to = str_replace("<","",$to);
+							$to = str_replace(">","",$to);*/
+						}
+						if($headers[$j]->name=='Delivered-To'){
+							$delieveredTo = $headers[$j]->value;
+						}
+						if($headers[$j]->name=='References'){
+							$_rFlag = 1;
+							$_referenceString = $headers[$j]->value;
+						}
+						if(strtolower($headers[$j]->name)=='cc'){
+							$cc = $headers[$j]->value;
+						}
+						if($headers[$j]->name=='Message-ID'){					
+							$messageIDD = $headers[$j]->value;
+						}
+						if($headers[$j]->name=='Authentication-Results'){
+							$raw = $headers[$j]->value;
+							$raw = explode('smtp.mail=',$raw);
+							if(count($raw)==2){
+								$email = $raw[1];
+							}
+						}
+						if($headers[$j]->name=='Received'){
+							$date = $headers[$j]->value;
+							$_da = explode(';',$date);
+							if(count($_da)==2){
+								$date = $_da[1];
+							}
+						}
+						if($headers[$j]->name=='Date'){
+							$otherDate = $headers[$j]->value;
+							$_da = explode(';',$date);
+							if(count($_da)==2){
+								$otherDate = $_da[1];
+							}
+						}
+					}
+					if($date == ""){
+						$date = $otherDate;
+					}
+					if($from=="" && $email!=""){
+						$from=$email;											
+					}
+					if($to=="" && $delieveredTo!=""){
+						$to = $delieveredTo;											
+					}
+					if(in_array("STARRED",$labelIds)){
+						$star = '<i class="glyph-icon icon-star"></i>';
+						$attr = 'Starred';
+					} else {
+						$star = '<i class="glyph-icon icon-star-o"></i>';
+						$attr = 'No Starred';
+					}
+					$body = $thread_detail[$i]->body;
+					if(isHTML($body)===false){
+						$body = nl2br($body);
+					}
+					$forwardBody= $body;
+					if($i==0){
+						$_files = explode(',',$mainData[$m]->file_attach);						
+						if(count($_files)>0){
+							$forwardAttachment= $_files;
+							for($a=0;$a<count($_files);$a++){
+								if($_files[$a]!=""){
+									$filename = stristr($_files[$a],'upload');
+									$filenameSub=$_files[$a];
+									if($filename){
+										$filenameSub = substr($_files[$a],$filename+7);
+									}		
+									$fileLink = $_files[$a]; 
+									$fileLink = str_replace('http','https',$fileLink);
+								$_attachmentString .="<tr class='attach ".$thread_detail[$i]->message_id."'><td><a data-href='".$fileLink."' href='javascript://' onclick='window.parent.open_drive_files(\"".$fileLink."\")' target='_BLANK'><i class='glyph-icon icon-file' data-mime='' style='color:#2196f3'></i> ".$filenameSub."</a></td></tr>";
+								}
+							}
+						}
+					}
+					
+					$_messagesString .='<div class="row">'.
+											'<div class="col-md-12 col-sm-12 col-xs-12">'.
+											'    <div class="p-20">';
+					if($i>0){
+						$_messagesString .='<h3 class="message-title">'.$subject.'</h3>';
+					}
+					$_messagesString .=		'        <div class="message-item media">'.
+											'            <div class="message-item-right">'.
+											'                <div class="media">'.
+											'                    <div class="media-body">'.
+											'                        <p class="c-gray"></p>'.
+											'                    </div>'.
+											'                </div>'.
+											'            </div>'.
+											'        </div>'.
+											'    </div>'.
+											'   <div class="message-body" id="message-body">'.$body.
+											'    </div>'.
+											'</div>'.
+										'</div>';
+					
+					if($i>0 && $i<count($thread_detail)-1){
+						$_messagesString .='<div class="message-between"></div>';
+					}
+					if($m==count($mainData)-1){
+						$stringUL = "<table><tbody>".$_attachmentString."</tbody></table>";
+						
+					}
+				}
+				}
+			}
+		}
+	}
+	if($threadID==""){
+		$threadID = $messageID;
+	}	
+	$_messagesString = preg_replace("/<a(.*?)>/", "<a$1 target=\"_blank\">", $_messagesString);
+	
+	
+	if(isset($thread_detail[0]->account_type) && $thread_detail[0]->account_type==2){
+		$data = (array)$thread_detail[0];
+		$content = json_decode($data['content']);
+		$data['content'] =$content;
+	?>
+	<script>
+	window.parent.SalesUser[<?php echo $thread_detail[0]->id;?>]=<?php echo json_encode($data);?>
+	;window.parent.imapShowDataSales(<?php echo $thread_detail[0]->id;?>,'');
+	</script>
+	<?php
+	} else {
+?>
+<style>body{min-width:0}
+body.is-scrollable-body {
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+}
+button,.btn, .btn div, .btn a{color:#000 !important;}
+#page-content{padding:0}.message-result .message-detail-right a{color:#222}.message-result .message-detail-right a:hover{color:#56b2fe}.dropdown-menu li>a,.ui-menu li>a{color:#222;text-decoration:none}.dropdown-menu .row>div{margin-bottom:0!important}#message-body a{color:#2196f3;}.gmail_chipgmail_drive_chip{height:27px !important;max-height:27px !important;min-height:27px !important;}
+.col-xs-4{width:33.33333333333333% !important;}
+.col-xs-8{width:66.66666666666666% !important;}
+
+.col-xs-8 .message-detail-right, .col-xs-8 .btn-group{width:auto !important;}
+</style>
+<div class="modal modal-opened-header fade" id="modal_c_users" role="dialog" aria-labelledby="createContactModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false" style="width:100%;z-index:999999">
+	<div class="modal-dialog" style=''>
+		<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top:-9px;margin-right:-5px;float:left;"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div style='max-height:300px;' id="cUsers"></div>
+			</div>
+		<div class="modal-footer"></div>
+		</div>
+	</div>
+</div>
+<div data-padding="40" data-height="window" class="panel panel-default panel-no-margin withScroll mCustomScrollbar _mCS_117" id="message-detail" style="height:300px;max-height:300px;border:0;overflow-y:auto">
+<div id="mCSB_117" class="mCustomScrollBox mCS-dark-2">
+<div class="mCSB_container">
+<div class="panel-heading messages message-result">
+<h2 class="message-detail-title is-subject p-t-20 w-500 show">
+<span class="message-detail-subject">
+<?php echo $subject;?>
+</span>
+</h2>
+<div class="row">
+<div class="col-xs-4">
+<h2 id="messageDetailTitleSubject" class="message-detail-title p-t-20 w-500 show">
+<strong><span class="message-detail-from show"><?php echo $from;?></span></strong>
+</h2>
+<h2 class="message-detail-title p-t-20 w-500 show">
+to: <span class="message-detail-to"><?php echo $to?></span>
+<div class="message-detail-buttons-left btn-group" role="group">
+<div class="btn-group" role="group">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+<span class="caret"></span>
+</button>
+<div class="dropdown-menu" role="menu" style="width:300px">
+<div class="row">
+<div class="col-xs-3">
+<label>from:</label>
+</div>
+<div class="col-xs-9">
+<strong class="message-detail-from" style='word-wrap:break-word'><xmp><?php echo $from;?></xmp></strong>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-3">
+<label>to:</label>
+</div>
+<div class="col-xs-9">
+<span class="message-detail-to" style='word-wrap:break-word'><xmp><?php echo $to?></xmp></span>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-3">
+<label>cc:</label>
+</div>
+<div class="col-xs-9">
+<span class="message-detail-cc" style='word-wrap:break-word'><xmp><?php echo $cc;?></xmp></span>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-3">
+<label>date:</label>
+</div>
+<div class="col-xs-9">
+<span class="message-detail-date"><?php echo date('D, d M Y H:i:s O',strtotime($date));?></span>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-3">
+<label>subject:</label>
+</div>
+<div class="col-xs-9">
+<span class="message-detail-subject"><?php echo $subject;?></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</h2>
+</div>
+<div class="col-xs-8 text-right">
+<h2 class="message-detail-title p-t-20 w-500 is-date show">
+<span class="message-detail-date"><?php echo date('D, d M Y H:i:s O',strtotime($date));?></span>
+</h2>
+<div class="message-detail-right show">
+<a href="javascript://" onclick="threadLabelChanged('Starred',jQuery(this))" data-original-title="<?php echo $attr;?>" class="message-detail-star tooltip-button" title="To favorite" data-placement="bottom">
+<?php echo $star;?>
+</a>
+<div class="message-detail-buttons-right btn-group" role="group">
+<?php 
+	if($type==2):
+?>
+<button type="button" class="btn btn-default tooltip-button mrg5R" onclick="taskOnly()" title="File and Task" data-placement="bottom">Task</button>
+<button type="button" class="btn btn-default tooltip-button" onclick="replyEmailAll()" title="Reply All" data-placement="bottom">Reply All</button>
+<?php
+	else:
+?>
+<button type="button" class="btn btn-default tooltip-button mrg5R" onclick="fileAndTask()" title="File and Task" data-placement="bottom">File + Task</button>
+<button type="button" class="btn btn-default tooltip-button mrg5R" onclick="fileOnly()" title="File" data-placement="bottom">File</button>
+<button type="button" class="btn btn-default tooltip-button" onclick="replyEmailAll()" title="Reply All" data-placement="bottom">Reply All</button>
+<?php
+	endif;
+?>
+
+<div class="btn-group" role="group">
+<button type="button" class="btn btn-default dropdown-toggle eReply" data-toggle="dropdown" aria-expanded="false">
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+<li><a href="javascript://" onclick="openEmailDetails()" class='eReply'>Email Open</a></li>
+<li><a href="javascript://" onclick="replyEmail()" class='eReply'>Reply Sender Only</a></li>
+<li><a href="javascript://" onclick="forwardEmail()">Forward</a></li>
+<li><a href="javascript://" onclick="printEmail(jQuery(this))">Print</a></li>
+<li><a href="javascript://" onclick="threadLabelChanged('Trash',jQuery(this))">Trash</a></li>
+<li><a href="javascript://" onclick="threadPermanentDelete(jQuery(this))">Delete</a></li>
+<li><a href="javascript://" onclick="threadLabelChanged('Spam',jQuery(this))">Report spam</a></li>
+<li><a href="javascript://" onclick="threadLabelChanged('Unread',jQuery(this))">Mark as unread</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-body messages message-result message_detail">
+<div class="loading-spinner" id="loading_spinner" style='display:none'>
+<img src="<?php echo $Layout->aws_server_cdn;?>images/ajax-loader.gif" alt="">
+</div>
+<?php echo $_messagesString.$stringUL;?>
+</div>
+</div>
+</div>
+</div>
+<?php
+ $to = str_replace("'",'',$to);
+ $to = str_replace('"','',$to);
+ $cc = str_replace("'",'',$cc);
+ $cc = str_replace('"','',$cc);
+
+ ?>
+<script>
+__baseUrl='<?php echo $Layout->baseUrl?>';
+function bigContent() {
+	_height = jQuery(window).height() - 90;
+	$('#message-detail').css('height', _height+'px');
+	$('#message-detail').css('max-height', '99999px');
+	$('body').addClass('is-scrollable-body');
+}
+bigContent();
+_leadID = <?php echo $leadID;?>;
+if(_leadID>0){
+	/*_acTnl = "";
+	if(window.parent.jQuery("#aquisitionTable").is(":visible")){
+		_acTnl="#aquisitionTable";
+	} else if(window.parent.jQuery("#activityTable").is(":visible")){
+		_acTnl="#activityTable";
+	}
+	if(window.parent.jQuery(_acTnl).find("table").find("tbody.main_active").find("tr").find('div.sales-activity-notes').find('a[data-tr="<?php echo $ID?>"]').length>0){
+		
+	}*/
+	if(window.parent.leadGlobal!=_leadID || window.parent.jQuery("#advanced_search").hasClass('is-open')){
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'dashboard/find_activites_leads_from_email_id',
+			data:{id:'<?php echo $ID?>',lead_id:_leadID},
+			cache:false,
+			success:function(d){
+				if(d!=""){
+					_d = jQuery.parseJSON(d);
+					console.log(_d);
+					if(typeof _d.activity!="undefined" && typeof _d.company_id!="undefined" && _d.activity!='' && _d.company_id!=""){
+						activateLead(_leadID,_d.activity,_d.company_id,_d.contact_id);
+					}
+				}
+			}
+		});
+	}
+}
+function extractEmails (text){return text.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);}_person_id=0;_company_id=0;<?php if(count($person_email_detail)>0):?>_person_id="<?php echo $person_email_detail->contact_id?>";_company_id="<?php echo $person_email_detail->company_id?>";<?php endif;?>_MessageThreadID="<?php echo $threadID;?>";_MessageID="<?php echo $messageID;?>";_subject='<?php echo addslashes($subject);?>';_id="<?php echo $id?>";_userID=<?php echo $userID?>;_flag=0;_type="";_email='<?php echo addslashes($from);?>';function printEmail(b){_flag=0;_id="";window.parent.jQuery("div.messages_container").find(".message-item").each(function(){if(window.parent.jQuery(this).hasClass("message-active")){_flag=1;_id=window.parent.jQuery(this).attr("data-id")}});if(_flag==0){window.parent.jQuery("#other_list_boxes>table").find("tr").each(function(){window.parent.jQuery(this).find("td").each(function(){if(window.parent.jQuery(this).hasClass("active")){_flag=2}})})}if(_flag==0){html='<div class="alert alert-success"><a href="#" title="Close" class="glyph-icon alert-close-btn icon-remove"></a><p>Please select message for reply</p></div>';window.parent.jQuery("#contentPart").find(".alert").remove();window.parent.jQuery("#contentPart>.row").before(html);removeAlert()}else{if(_flag==1){window.open("https://mail.google.com/mail/u/0/?ui=2&ik=62926f1489&view=pt&search=inbox&msg="+_id+"&siml="+_id,"_BLANK")}else{if(_flag==2){window.print()}}}}function openEmailDetails(){/*window.parent.jQuery("#emailOpenContent").html(jQuery("#mCSB_117").html());*/window.parent.jQuery("#emailOpenContent").html('<iframe src="'+window.location.href+'" style="width:100%;height:550px;" scrolling="yes"></iframe>');window.parent.$(".dropdown-toggle").dropdown();window.parent.jQuery("#emailOpenModal").modal("show");/*window.parent.jQuery("body").removeAttr("onselectstart");window.parent.document.oncontextmenu=new Function("return true")*/}
+_replyEmailFlag=0;
+__type=<?php echo $type?>;
+_to = '<?php echo $to;?>';_cc ='<?php echo $cc?>';
+if(_subject!=""){
+	if(_subject.toLowerCase().indexOf("re:")<0) {
+		_subject="Re: "+_subject;
+	}
+}
+if(_email!=""){
+	email = [];
+	/*if (_email.indexOf("<") >= 0) {
+		_nn = _email.substr(0, _email.indexOf("<"));
+		_ss = _email.substr(_email.indexOf("<"));
+		email = _ss.substr(1, _ss.indexOf(">") - 1)
+	} else {
+		email = _email
+	}*/
+	email = _email.match(emailRegex);
+	if(email.length > 0) {
+		email = email[0];
+	} else {
+		email = "";
+	}
+	if(email==window.parent._cmU){
+		var _emailss = GetEmailsFromString(_to);
+		if(_emailss.length>0){
+			jQuery.each(_emailss, function(indx, em){
+				if(em!=""){
+					_email = em;
+					return;
+				}
+			});
+		}
+	} else {
+		console.log("A:"+_email+"@@:"+window.parent._cmU+"T");
+	}
+}
+console.info(window.location.href);
+console.info(_userID);
+function threadPermanentDelete(){
+	_flag=0;_id="";
+	window.parent.jQuery("div.messages_container").find(".message-item").each(function(){
+		if(window.parent.jQuery(this).hasClass("message-active")){
+			_flag=1;_id=window.parent.jQuery(this).attr("data-id");return false;
+		}
+	});
+	if(_flag==0 && window.parent.jQuery("#advanced_search").hasClass('is-open')){
+		_activeItem = window.parent.jQuery("#advanced_search #emailListSearch").find('.message-item.message-active');
+		if(_activeItem.length>0){
+			_flag=1;_id=_activeItem.data('id');
+		}
+	}
+	if(_flag===1){
+		_object=window.parent.jQuery(".emails-group-container").find("a.active");_active=_object.html().toUpperCase();window.parent.jQuery.ajax({url:"<?php echo $this->config->base_url()?>/dashboard/deleteEmailPermanently",type:"POST",data:{token:_id,active:_active},cache:false,success:function(a){if(a=="1"){alert("Message moved successfully");window.parent.getEmails("messages_container",_active,_object);window.parent.jQuery("#displayEmail").html('');}else{alert("Please try after sometime")}}})
+	}else{alert('Error:');}
+}
+function threadLabelChanged(c,d){_flag=0;_id="";
+	window.parent.jQuery("div.messages_container").find(".message-item").each(function(){
+		if(window.parent.jQuery(this).hasClass("message-active")){
+			_flag=1;_id=window.parent.jQuery(this).attr("data-id");return false;
+		}
+	});
+	if(_flag==0 && window.parent.jQuery("#advanced_search").hasClass('is-open')){
+		_activeItem = window.parent.jQuery("#advanced_search #emailListSearch").find('.message-item.message-active');
+		if(_activeItem.length>0){
+			_flag=1;_id=_activeItem.data('id');
+		}
+	}
+	if(_flag==0){html='<div class="alert alert-success"><a href="#" title="Close" class="glyph-icon alert-close-btn icon-remove"></a><p>Please select message for reply</p></div>';window.parent.jQuery("#contentPart").find(".alert").remove();window.parent.jQuery("#contentPart>.row").before(html);window.parent.removeAlert()}else{_object=window.parent.jQuery(".emails-group-container").find("a.active");_active=_object.html().toUpperCase();window.parent.jQuery.ajax({url:"<?php echo $this->config->base_url()?>/dashboard/modifyLabel",type:"POST",data:{token:_id,label:c,active:_active},cache:false,success:function(a){if(a=="Starred"){alert("Message moved successfully");window.parent.getEmails("messages_container",_active,_object);if(c=="Trash"){window.parent.jQuery("#displayEmail").html('');}}else{alert("Please try after sometime")}}})}}
+var _tableAssociate;
+	function findActivitesLeadsFromEmail(email){
+	if(window.parent.jQuery('#open_contact_add').hasClass("is-open")){
+		window.parent.closeSlideBarContact();
+	}
+	jQuery.ajax({
+		type:'post',
+		data:{email:email},
+		url:__baseUrl+'dashboard/find_activites_leads_from_email',
+		success:function(d){
+			if(d!=""){
+				_d = jQuery.parseJSON(d);				
+				if(_d.person_id>0 && _d.list.length>0){
+					_table = '<div style="/*overflow-x:none;overflow-y:scroll;height:300px;*/"> <table id="lb'+_MessageID+'" class="table table-striped table-hover" data-order="[]"><thead><tr><th>Lead</th><th>Activity</th></tr></thead><tbody>';
+					for(l=0;l<_d.list.length;l++){
+						_row = _d.list[l];
+						_activityName="";
+						if(_d.list[l].activity==1){
+							_activityName = "Sales";
+						} else if(_d.list[l].activity==2){
+							_activityName = "Acquisition";
+						} else if(_d.list[l].activity==3){
+							_activityName = "Pre Sale";
+						}
+						_leadName = _d.list[l].lead_name;
+						/*Check Lead in activelist*/
+						if(_d.active_list.length>0){
+							for(j=0;j<_d.active_list.length;j++){
+								if(_d.active_list[j].id==_row.id && _d.active_list[j].activity==_d.list[l].activity){
+									_leadName = "<b>"+_leadName+"</b>";
+								}   
+							}
+						}						
+						__leadName = _leadName.replace(/'/g, "\\'");
+						_table +='<tr onclick="jQuery(\'#displayEmail\').find(\'iframe\')[0].contentWindow.associateEmailWithLead('+_d.list[l].activity+','+_d.company_id+','+_d.person_id+','+_d.list[l].id+',\''+__leadName+'\');" style="cursor:pointer;"><td>'+_leadName+'</td><td>'+_activityName+'</td></tr>';
+					}
+					_table +='</tbody></table>';
+					window.parent.jQuery("#sortingPopup").find(".modal-body").html(_table);
+					window.parent.jQuery("#sortingPopup").find("#lb"+_MessageID).DataTable().destroy();
+					window.parent.jQuery("#sortingPopup").find('.modal-content').css({width:'600px'});
+					window.parent.jQuery("#sortingPopup").css({width:'600px'}).modal("show");
+					_tableAssociate = window.parent.jQuery("#sortingPopup").find("#lb"+_MessageID).DataTable({destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"},"aaSorting": [],"order": []});
+					setTimeout(function(){
+						_tableAssociate.destroy();
+						_tableAssociate = window.parent.jQuery("#sortingPopup").find("#lb"+_MessageID).DataTable({destroy:true,paging:false,searching:true,"scrollY":"300px","scrollCollapse": true,language:{emptyTable:"No record found!"},"aaSorting": [],"order": []});
+					},1000);
+				} else {
+					if(_replyEmailFlag==3){
+						window.parent.jQuery("#displayEmail").data('file',window.parent.jQuery("#displayEmail").find('iframe')[0].contentWindow.fileAndTask);
+					} else if(_replyEmailFlag==1 || _replyEmailFlag==2){
+						window.parent.jQuery("#displayEmail").data('file',window.parent.jQuery("#displayEmail").find('iframe')[0].contentWindow.replyEmailAll);
+					}
+					openAddForm(email);
+				}
+			}
+		}
+	});
+}
+_topUpEmail = "";
+function openAddForm(email){
+	
+	window.parent.openContactEditForm(0);
+	_topUpEmail = email;
+	setTimeout(function(){
+		embedEmailInContact();
+	},1500);
+	
+}
+
+function embedEmailInContact(){
+	console.log(_topUpEmail);
+	_iframe = window.parent.jQuery('#open_contact_add').find('iframe').get(0);
+	_htmlContent = _iframe.contentDocument;
+	console.log(_htmlContent);
+	if(jQuery(_htmlContent).find('#inviteeEmail').length>0){
+		jQuery(_htmlContent).find('#inviteeEmail').val(_topUpEmail);
+	} else {
+		setTimeout(function(){
+			embedEmailInContact();
+		},1000);
+	}	
+}
+var emailDate = '<?php echo $date;?>';
+function associateEmailWithLead(activity,companyID,personID,leadID,leadName){
+	//window.parent.tableDT.search( '' ).columns().search( '' ).draw();
+	window.parent.jQuery("#sortingPopup").find(".modal-body").html('<p>Please wait.....</p>');
+	window.parent.jQuery("#activityMainType").val(activity);
+	_company_id = companyID;
+	_person_id = personID;
+	window.parent.leadGlobal = leadID;
+	window.parent.leadNameGlobal = leadName;
+	console.log("LeadID:"+window.parent.leadGlobal);
+	console.log("Name:"+window.parent.leadNameGlobal);
+	/*_MessageID*/
+		if(_replyEmailFlag!=1 && _replyEmailFlag!=2){
+		jQuery.ajax({
+			type:'POST',
+			url:__baseUrl+'dashboard/linkWithMessage',
+			data:{thread:_MessageID,old_thread:leadID,c_id:_company_id,p:_person_id,t:activity,date:emailDate},
+			success:function(d){_d = jQuery.parseJSON(d); if(_d.send>0){_id = _d.send;window.parent.jQuery("#sortingPopup").modal("hide");
+			window.parent.sendTask = window.parent.jQuery("#messages-list").find('div[data-id='+_MessageID+']').attr('data-task');
+			window.parent.jQuery("#messages-list").find('div[data-id='+_MessageID+']').remove();
+			if(__type==3){
+				if(window.parent.jQuery("#advanced_search").is(':visible')){
+					window.parent.jQuery("#advanced_search").find("#emailListSearch").find('div[data-id="'+_MessageID+'"]').removeClass('message-active');
+					_allMessageID = [];
+					_allMessageID.push(_MessageID);
+					window.parent.call(__baseUrl+"leads/findEmailsInLeadBulk",'POST',{message_ids:_allMessageID},window.parent.embedToSearchEmails,'json');
+				}
+			}
+			/*activateLead(leadID,activity);*/
+			activateLead(leadID,activity,companyID);
+			if(_replyEmailFlag==3){
+				window.parent.openTaskModal();
+				window.parent.jQuery("#taskEmailId").val(_d.send);
+			}
+			}}
+		});
+		} else {
+			if(_replyEmailFlag==1 || _replyEmailFlag==2){
+				_date = '<?php echo $date;?>';
+				console.log("File After email send");
+				window.parent.jQuery("#displayEmail").data('cr-pid',_MessageID+'^'+leadID+'^'+_company_id+'^'+_person_id+'^'+activity+'^'+_date);
+				window.parent.jQuery("#displayEmail").data('file',window.parent.fileAfterEmailSentWithLead);
+				window.parent.jQuery("#sortingPopup").modal('hide');
+				activateLead(leadID,activity,companyID);
+			}
+		}
+	if(_replyEmailFlag==1){
+		replyEmailActivities();
+	}else if(_replyEmailFlag==2){
+		replyEmailAllActivities();
+	}
+	
+}
+var intervalCheck = "";
+var checkProcess = false;
+var _activityTable = 0;
+function activateLead(leadID,activity,companyID,contactID){
+	_href = window.parent.jQuery("#displayEmail").find('iframe')[0].contentWindow.location.href;
+	if(_href.substring(_href.length-1)=="/"){
+		_href = _href.substring(0,_href.length-1);
+	}
+	_href = _href.split('/').pop();
+	console.log("Href: "+_href+" ID:"+_id);
+	if(parseInt(activity)==1){
+		console.log("ENTER1");
+		window.parent.jQuery('#sales_acititity').removeClass('hide').addClass('show');
+		window.parent.jQuery('#activityTable').removeClass('hide').addClass('show');
+		window.parent.jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+		window.parent.jQuery('#aquisitionTable').removeClass('show').addClass('hide');
+		//window.parent.jQuery('#salesActivityButton').addClass('menu-active');
+		window.parent.jQuery('#acquisitionActivityButton').removeClass('menu-active');
+	} else if(parseInt(activity)==2){
+		console.log("ENTER2");
+		window.parent.jQuery('#sales_acititity').removeClass('hide').addClass('show');
+		window.parent.jQuery('#aquisitionTable').removeClass('hide').addClass('show');
+		window.parent.jQuery("#preSaleActivityTable").removeClass("show").addClass("hide");
+		window.parent.jQuery('#activityTable').removeClass('show').addClass('hide');
+		window.parent.jQuery('#salesActivityButton').removeClass('menu-active');		
+		//window.parent.jQuery('#acquisitionActivityButton').addClass('menu-active');
+	} else if(parseInt(activity)==3){
+		window.parent.jQuery('#sales_acititity').removeClass('hide').addClass('show');
+		window.parent.jQuery('#aquisitionTable').removeClass('hide').addClass('show');
+		window.parent.jQuery('#activityTable').removeClass('hide').addClass('show');
+		window.parent.jQuery("#preSaleActivityTable").removeClass("hide").addClass("show");
+		window.parent.jQuery('#acquisitionActivityButton').removeClass('menu-active');
+		//window.parent.jQuery('#salesActivityButton').addClass('menu-active');
+	}
+	/*window.parent.leadNameGlobal = window.parent.jQuery("#all_type_list").find("tbody").find("tr").eq(_index).find('td').eq(0).find('label>a').text();*/
+	var objectTable = "";
+	if(jQuery.trim(_href)!=_id){
+		window.parent.jQuery("#all_type_list").find("tbody").find("tr").removeClass("active");
+		_index=window.parent.jQuery("#all_type_list").find("tbody").find('tr[data-id="'+leadID+'"]').index();
+		if(_index>=0){
+			console.log("INDEX in ActivateLeadFn"+_index);
+			console.log("URL and ID not macthed");
+			window.parent.jQuery("#all_type_list").find("tbody").find("tr").eq(_index).addClass("active");
+			window.parent.jQuery(".DTFC_Cloned").find("tbody").find("tr").eq(_index).addClass("active");
+			window.parent.threadDetail(window.parent.jQuery("#all_type_list").find("tbody").find("tr.active"),'undefined',1);
+			/*window.parent.leadGlobal = window.parent.jQuery("#all_type_list").find("tbody").find("tr.active").data('id');*/
+			_scrollTop=window.parent.jQuery("#all_type_list").find("tbody").find("tr.active").offset();
+			console.log(_scrollTop);
+			if(window.parent.jQuery("#dashboard_charts").is(":visible")){
+				window.parent.jQuery("#all_type_list").parent().scrollTop(_scrollTop.top-263.5);
+				console.log('KS');
+			} else {
+				window.parent.jQuery("#all_type_list").parent().scrollTop(_scrollTop.top-106);
+				console.log('BKS');
+			}
+			_activityTable = activity;
+			_company_id = companyID;
+			console.log("S:"+activity+"C:"+companyID);
+			
+			if(window.parent.jQuery("#acquisitionActivityButton").hasClass('menu-active')){			
+				window.parent.jQuery("#acquisitionActivityButton").trigger("click");
+			} else if (window.parent.jQuery("#salesActivityButton").hasClass('menu-active')){			
+				window.parent.jQuery("#salesActivityButton").trigger("click");
+			}
+			if(objectTable==""){
+				console.log("I am in obj is blank");
+				checkProcess = false;
+				if(parseInt(activity)==1){	
+					objectTable = '#activityTable';
+					window.parent.jQuery("#salesActivityButton").trigger("click");
+				} else if(parseInt(activity)==2){
+					objectTable = '#aquisitionTable';
+					window.parent.jQuery("#acquisitionActivityButton").trigger("click");
+				}else if(parseInt(activity)==3){
+					objectTable = '#preSaleActivityTable';
+					window.parent.jQuery("#acquisitionActivityButton").trigger("click");
+				}
+			}		
+			if(typeof companyID!='undefined' && objectTable!=""){
+				console.log("I am in obj");
+				intervalCheck = setInterval(function(){
+					clickA=0;			
+					if(checkProcess===false){
+						console.log("In Process:"+objectTable);
+						if(window.parent.jQuery("#sales_acititity").hasClass('show')===false){
+							window.parent.jQuery("#sales_acititity").addClass('show').removeClass('hide');
+							window.parent.jQuery(objectTable).addClass('show').removeClass('hide');
+						}
+						if(window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').length>0){					
+							console.log("Entered into");
+							checkProcess = true;
+							console.log("Check Process: "+checkProcess);
+							window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().toggle();
+							if(_id>0){
+								console.log("I am in email ID");
+								window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').find('a[data-tr="'+_id+'"]').parent().addClass('active');		
+								if(window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').find('a[data-tr="'+_id+'"]').parent().hasClass('active')){
+									clickA=1;
+									window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').find('a[data-tr="'+_id+'"]').trigger('click');
+														
+								}
+								window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().find('td').find('table>tbody>tr').find('div.sales-activity-notes').find('a[data-tr="'+_id+'"]').parent().addClass('active');
+								if(clickA==0 && window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().find('td').find('table>tbody>tr').find('div.sales-activity-notes').find('a[data-tr="'+_id+'"]').parent().hasClass('active')){
+									window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().find('td').find('table>tbody>tr').find('div.sales-activity-notes').find('a[data-tr="'+_id+'"]').trigger('click');
+									
+								}	
+								clearInterval(intervalCheck);							
+							} else {
+								console.log("I am in email href");
+								window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').find('a[data-message_id="'+_href+'"]').trigger('click');
+								clearInterval(intervalCheck);
+							}
+						}
+					}				
+				},3000);
+			}
+		} else {
+			alert("Please load lead first into lead table");
+			setTimeout(function(){
+				window.parent.closeSlideBarLeftMessage();
+			});
+			return false;
+		}		
+	} else {
+		if(objectTable==""){			
+			if(parseInt(activity)==1){	
+				objectTable = '#activityTable';				
+			} else if(parseInt(activity)==2){
+				objectTable = '#aquisitionTable';				
+			}else if(parseInt(activity)==3){
+				objectTable = '#preSaleActivityTable';				
+			}
+		}
+		if(objectTable!=""){
+			if(window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').length>0){	
+				if(_id>0){
+					clickA = 0
+					if(window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').find('a[data-tr="'+_id+'"]').parent().hasClass('active')===false){
+						window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').find('a[data-tr="'+_id+'"]').parent().addClass('active');
+						clickA=1;
+						window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').find('a[data-tr="'+_id+'"]').trigger('click');				
+					}
+					if(clickA==0 && window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().find('td').find('table>tbody>tr').find('div.sales-activity-notes').find('a[data-tr="'+_id+'"]').parent().hasClass('active')==false){
+						window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().find('td').find('table>tbody>tr').find('div.sales-activity-notes').find('a[data-tr="'+_id+'"]').parent().addClass('active');
+						window.parent.jQuery(objectTable).find('tbody.main_active').find('tr.master[data-c="'+companyID+'"]').next().find('td').find('table>tbody>tr').find('div.sales-activity-notes').find('a[data-tr="'+_id+'"]').trigger('click');
+						
+					}
+				}
+			}
+		}
+	}	
+	/*if(window.parent.jQuery("#search_lead_box").is(':visible'))*/
+	
+}
+
+function replyEmail() {
+	if ((window.parent.leadGlobal!=0 || __type==2) && __type!=3) {
+		console.log('Email:1');
+		if(__type==2){
+			console.log('Email:11');
+			if(window.parent.jQuery('#advanced_search').find('#emailListSearch>div.message-item.message-active').length>0){
+				console.log('Email:111');
+				obj = window.parent.jQuery('#advanced_search').find('#emailListSearch>div.message-item.message-active');
+				lead_id = parseInt(obj.attr('data-lead'));
+				if(isNaN(lead_id)===false){
+					activity = obj.attr('data-type');
+					activateLead(lead_id,activity);
+				}
+			} else if(window.parent.jQuery('.list-group').find('a.active').length>0){
+				console.log('Email:112');
+				window.parent.jQuery('.list-group').find('a.active').each(function(){
+					if(jQuery.trim(jQuery(this).text())=='Leads'){
+						if(window.parent.jQuery('.messages_container>div.message-item.message-active').length>0){
+							console.log('Email:1121');
+							obj = window.parent.jQuery('.messages_container>div.message-item.message-active');
+							lead_id = parseInt(obj.attr('data-lead'));
+							if(isNaN(lead_id)===false){
+								console.log('Email:11211');
+								activity = obj.attr('data-type');
+								activateLead(lead_id,activity);
+							}
+						}
+					} else {
+						replyEmailActivities();
+					}
+				});
+			}
+		} else if(window.parent.leadGlobal!=0){
+			console.log('Email:12');
+			replyEmailActivities();
+		} else {
+			alert('Error!');
+		}        
+    } else {
+		console.log('Email:2');
+        _replyEmailFlag = 1;
+		email = "";
+		/*if (_email.indexOf("<") >= 0) {
+			_nn = _email.substr(0, _email.indexOf("<"));
+			_ss = _email.substr(_email.indexOf("<"));
+			email = _ss.substr(1, _ss.indexOf(">") - 1)
+		} else {
+			email = _email
+		}*/
+		var email = [];
+		email = _email.match(emailRegex);
+		if(email.length > 0) {
+			findActivitesLeadsFromEmail(email[0]);
+		} else {
+			alert("No email found!");
+		}
+		/*alert("Replying is available after associating the message with existing Lead.")*/
+    }
+}
+
+_forwardFiles = [];
+<?php 
+	if(is_array($forwardAttachment) && count($forwardAttachment)>0){
+?>
+	
+	_forwardFiles = JSON.parse('<?php echo json_encode($forwardAttachment);?>');
+<?php		
+	}
+?>
+function forwardEmail(){
+	if(window.parent.leadGlobal>0){
+		window.parent.jQuery("#emailDocUrl").val("");
+		window.parent.jQuery("#attach_droppable").empty();
+		_flag = 1;
+		_type = "message";
+		window.parent.jQuery("#message_send_from_email").val(window.parent.jQuery("#user_email").val());
+		window.parent.jQuery("#eventCid").val(_company_id);
+		window.parent.jQuery("#eventPid").val(_person_id);
+		window.parent.jQuery("#eventT").val(window.parent.jQuery("#activityMainType").val());
+		window.parent.jQuery("#emailSubject").val("Fwd:"+_subject);
+		window.parent.jQuery("#emailThreadId").val(_MessageThreadID);
+		window.parent.jQuery("#emailMessageId").val('<?php echo $messageIDD?>');
+		window.parent.jQuery("#emailCC").css("width", "725px").val("");
+		window.parent.jQuery("#emailTo").css("width", "725px").val("");	
+		if (window.parent._CS == _userID) {
+			window.parent.jQuery("#emailReference").val("<?php echo $_referenceString;?>");
+		} else {
+			window.parent.jQuery("#emailReference").val("");
+		}
+		if(_forwardFiles.length>0){
+			window.parent.jQuery("#attach_droppable").append('<ul class="attachment-list"></ul>');
+			for(i=0;i<_forwardFiles.length;i++){
+				if(_forwardFiles[i]!=''){
+					$filenameSub = _forwardFiles[i]
+					$filename = $filenameSub.split('/').pop();
+					window.parent.jQuery("#attach_droppable").find('ul.attachment-list').append('<li class="attachment-list-item ms-hover"><a  onclick="open_drive_files(\"'+_forwardFiles[i]+'\")" data-mime="" href="javascript://" target="_BLANK" style="width:93%"><i class="glyph-icon icon-file-o" style="color:#2196f3"></i> '+$filename+'</a><span class="remove-attachment pull-right hide"><a href="javascript://" onclick="deleteMe(jQuery(this))"><i class="glyph-icon icon-close"></i></a></span></li>');
+				}
+			}
+			window.parent.initAttachRemove();
+		}
+		window.parent.jQuery("#gmail_message_modal").find("h4").html("Reply Message: " + window.parent.leadNameGlobal);
+		window.parent.jQuery("#messageLeadId").val(window.parent.leadGlobal);
+		window.parent.jQuery("#emailMessage").focus();
+		if (window.parent.availableTags.length == 0) {
+			jQuery.ajax({
+				type: "POST",
+				url: "<?php echo $this->config->base_url()?>dashboard/search_contact",
+				cache: false,
+				success: function(a) {
+					window.parent.availableTags = jQuery.parseJSON(a);
+					window.parent.$("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');
+					
+					window.parent.jQuery("#gmail_message").css("display", "block");
+					window.parent.jQuery(".gmail-modal").css("display", "block");
+					window.parent.jQuery("body").removeAttr("onselectstart");
+					/*window.parent.document.oncontextmenu = new Function("return true");*/
+					window.parent.$(".dropdown-toggle").dropdown();
+					window.parent.jQuery("#emailMessage").code('<br/><br/><br/>'+window.parent.jQuery("#original_signature").val()+'<br/>'+jQuery("#forwardAttachment_message:hidden").html());
+					window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+					window.parent.checkBodyScrollable();
+				}
+			});
+		} else {
+			window.parent.$("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');		
+			window.parent.jQuery("#gmail_message").css("display", "block");
+			window.parent.jQuery(".gmail-modal").css("display", "block");
+			window.parent.jQuery("body").removeAttr("onselectstart");
+			/*window.parent.document.oncontextmenu = new Function("return true");*/
+			window.parent.$(".dropdown-toggle").dropdown();
+			window.parent.jQuery("#emailMessage").code('<br/><br/><br/>'+window.parent.jQuery("#original_signature").val()+'<br/>'+jQuery("#forwardAttachment_message:hidden").html());			
+			window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+			window.parent.checkBodyScrollable();
+		}
+	} else {
+		alert("Please select lead first.");
+	}	
+}
+
+function replyEmailActivities(){
+	window.parent.jQuery("#emailDocUrl").val("");
+	window.parent.jQuery("#attach_droppable").empty();
+	_flag = 1;
+	_type = "message";
+	window.parent.jQuery("#message_send_from_email").val(window.parent.jQuery("#user_email").val());
+	window.parent.jQuery("#eventCid").val(_company_id);
+	window.parent.jQuery("#eventPid").val(_person_id);
+	window.parent.jQuery("#eventT").val(window.parent.jQuery("#activityMainType").val());
+
+	/*if (_subject.indexOf("Re:")<0) {
+		_subject = "Re: " + _subject
+	}*/
+	window.parent.jQuery("#other_list_boxes>table").find("tr").each(function() {
+		jQuery(this).find("td").each(function() {
+			if (jQuery(this).hasClass("active")) {
+				if (window.parent._CS != _userID) {
+					_flag = 2;
+					window.parent.jQuery("#emailSubject").val(_subject);
+					window.parent.jQuery("#emailThreadId").val("");
+					window.parent.jQuery("#emailMessageId").val("");
+					if (window.parent.availableTags.length > 0) {
+						$("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');
+						window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+						window.parent.jQuery("#gmail_message").css("display", "block");
+						window.parent.jQuery(".gmail-modal").css("display", "block");
+						window.parent.jQuery("body").removeAttr("onselectstart");
+						/*window.parent.document.oncontextmenu = new Function("return true");*/
+						window.parent.$(".dropdown-toggle").dropdown();
+						if (_email.indexOf("<") >= 0) {
+							/*_nn = _email.substr(0, _email.indexOf("<"));
+							_ss = _email.substr(_email.indexOf("<"));
+							_newem = _ss.substr(1, _ss.indexOf(">") - 1)
+							*/
+							email = _email.match(emailRegex);
+							if(email.length > 0) {
+								_newem = email[0];
+							}
+							
+						} else {
+							_nn = _email;
+							_newem = _email
+						}
+						window.parent.jQuery("#emailName").val(jQuery.trim(_nn));
+						window.parent.jQuery("#emailTo").val(_newem + ", ");
+						window.parent.jQuery("#emailCC").css("width", "725px").val("");
+						window.parent.jQuery("#emailReference").val("<?php echo $_referenceString;?>");
+						window.parent.findDataRemove.push(_newem);
+						window.parent.jQuery("#attach_droppable").empty();
+						window.parent.jQuery("#gmail_message_modal").find("h4").html("Reply Message: " + window.parent.leadNameGlobal);
+						window.parent.jQuery("#messageLeadId").val(window.parent.leadGlobal);
+						window.parent.jQuery("#emailMessage").focus();
+						if(_replyEmailFlag==1){
+							/*window.parent.jQuery("#activityMainType").val(0);
+							window.parent.leadGlobal = 0;
+							window.parent.leadNameGlobal = "";*/
+						}
+					} else {
+						jQuery.ajax({
+							type: "POST",
+							url: "<?php echo $this->config->base_url()?>dashboard/search_contact",
+							cache: false,
+							success: function(a) {
+								window.parent.availableTags = jQuery.parseJSON(a);
+								window.parent.jQuery("#emailCC").css("width", "725px").val("");
+								window.parent.$("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');
+								window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+								window.parent.jQuery("#gmail_message").css("display", "block");
+								window.parent.jQuery(".gmail-modal").css("display", "block");
+								window.parent.jQuery("body").removeAttr("onselectstart");
+								/*window.parent.document.oncontextmenu = new Function("return true");*/
+								window.parent.$(".dropdown-toggle").dropdown();
+								if (_email.indexOf("<") >= 0) {
+									/*_nn = _email.substr(0, _email.indexOf("<"));
+									_ss = _email.substr(_email.indexOf("<"));
+									_newem = _ss.substr(1, _ss.indexOf(">") - 1)
+									*/
+									email = _email.match(emailRegex);
+									if(email.length > 0) {
+										_newem = email[0];
+									}
+									
+								} else {
+									_nn = _email;
+									_newem = _email
+								}
+								window.parent.jQuery("#emailName").val(jQuery.trim(_nn));
+								window.parent.jQuery("#emailTo").val(_newem + ", ");
+								window.parent.jQuery("#emailReference").val("<?php echo $_referenceString;?>");
+								window.parent.findDataRemove.push(_newem);
+								window.parent.jQuery("#attach_droppable").empty();
+								window.parent.jQuery("#gmail_message_modal").find("h4").html("Reply Message: " + window.parent.leadNameGlobal);
+								window.parent.jQuery("#messageLeadId").val(window.parent.leadGlobal);
+								window.parent.jQuery("#emailMessage").focus();
+								if(_replyEmailFlag==1){
+									/*window.parent.jQuery("#activityMainType").val(0);
+									window.parent.leadGlobal = 0;
+									window.parent.leadNameGlobal = "";*/
+								}
+							}
+						})
+					}
+				}
+			}
+		})
+	});
+	if (_flag == 0) {
+		html = '<div class="alert alert-success"><a href="#" title="Close" class="glyph-icon alert-close-btn icon-remove"></a><p>Please select message for reply</p></div>';
+		window.parent.jQuery("#contentPart").find(".alert").remove();
+		window.parent.jQuery("#contentPart>.row").before(html);
+		window.parent.removeAlert()
+	} else {
+		if (_flag == 1) {
+			window.parent.jQuery("#emailThreadId").val(_MessageThreadID);
+			window.parent.jQuery("#emailMessageId").val('<?php echo $messageIDD?>');
+			window.parent.jQuery("#emailReference").val("<?php echo $_referenceString;?>");
+			if (_email.indexOf("<") >= 0) {
+				/*_nn = _email.substr(0, _email.indexOf("<"));
+				_ss = _email.substr(_email.indexOf("<"));
+				_newem = _ss.substr(1, _ss.indexOf(">") - 1)*/
+				email = _email.match(emailRegex);
+				if(email.length > 0) {
+					_newem = email[0];
+				}
+			} else {
+				_nn = _email;
+				_newem = _email
+			}
+			if (_newem != window.parent._cmU) {
+				window.parent.jQuery("#emailTo").val(_newem + ", ");
+				window.parent.findDataRemove.push(_newem)
+			} else {
+				/*_allEmails = jQuery(".message-detail-to").eq(0).html();*/
+				_allEmails = _to;
+				/*_emailss = _allEmails.split(",");*/
+				_emailss = GetEmailsFromString(_allEmails);
+				_newem = "";
+				stringMainEmails = [];
+				for (ems = 0; ems < _emailss.length; ems++) {
+					_currentEms = _emailss[ems].substr(_emailss[ems].indexOf("<"));
+					_currentEms = _currentEms.substr(1, _currentEms.length - 1);
+					var c = "></";
+					var d = new RegExp(c, "g");
+					_currentEms = _currentEms.replace(d, "^^^");
+					if (_currentEms != "") {
+						_modifyAllEmails = _currentEms.split("^^^");
+						if (_modifyAllEmails.length > 0) {
+							for (mda = 0; mda < _modifyAllEmails.length; mda++) {
+								var c = ">";
+								var d = new RegExp(c, "g");
+								_newString = _modifyAllEmails[mda].replace(d, "");
+								if (jQuery.inArray(_newString, stringMainEmails) != -1) {} else {
+									stringMainEmails.push(_newString);
+									_newem += _newString + ","
+								}
+							}
+						}
+					}
+				}
+				if (_newem != "") {
+					window.parent.jQuery("#emailTo").val(_newem);
+					window.parent.findDataRemove.push(_newem)
+				}
+			}
+			window.parent.jQuery("#emailSubject").val(_subject).attr("readonly", "readonly");
+			window.parent.jQuery("#emailName").val(jQuery.trim(_nn));
+			window.parent.jQuery("#gmail_message_modal").find("#emailAccountType").val(1);
+			if (window.parent.availableTags.length == 0) {
+				jQuery.ajax({
+					type: "POST",
+					url: "<?php echo $this->config->base_url()?>dashboard/search_contact",
+					cache: false,
+					success: function(a) {
+						window.parent.availableTags = jQuery.parseJSON(a);
+						window.parent.jQuery("#emailCC").css("width", "725px").val("");
+						window.parent.$("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');
+						window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+						window.parent.jQuery("#gmail_message").css("display", "block");
+						window.parent.jQuery(".gmail-modal").css("display", "block");
+						window.parent.jQuery("body").removeAttr("onselectstart");
+						/*window.parent.document.oncontextmenu = new Function("return true");*/
+						window.parent.$(".dropdown-toggle").dropdown();
+						window.parent.jQuery("#attach_droppable").empty();
+						window.parent.jQuery("#gmail_message_modal").find("h4").html("Reply Message: " + window.parent.leadNameGlobal);
+						window.parent.jQuery("#messageLeadId").val(window.parent.leadGlobal);
+						window.parent.jQuery("#emailMessage").focus();
+						window.parent.checkBodyScrollable();
+						if(_replyEmailFlag==1){
+							/*window.parent.jQuery("#activityMainType").val(0);
+							window.parent.leadGlobal = 0;
+							window.parent.leadNameGlobal = "";*/
+						}
+					}
+				})
+			} else {
+				window.parent.$("body").append('<div class="modal-backdrop modal-backdrop-drive"></div>');
+				window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+				window.parent.jQuery("#emailCC").css("width", "725px").val("");
+				window.parent.jQuery("#gmail_message").css("display", "block");
+				window.parent.jQuery(".gmail-modal").css("display", "block");
+				window.parent.jQuery("body").removeAttr("onselectstart");
+				/*window.parent.document.oncontextmenu = new Function("return true");*/
+				window.parent.$(".dropdown-toggle").dropdown();
+				window.parent.jQuery("#attach_droppable").empty();
+				window.parent.jQuery("#gmail_message_modal").find("h4").html("Reply Message: " + window.parent.leadNameGlobal);
+				window.parent.jQuery("#messageLeadId").val(window.parent.leadGlobal);
+				window.parent.jQuery("#emailMessage").focus();
+				window.parent.checkBodyScrollable();
+				if(_replyEmailFlag==1){
+					/*window.parent.jQuery("#activityMainType").val(0);
+					window.parent.leadGlobal = 0;
+					window.parent.leadNameGlobal = "";*/
+				}
+			}
+		}
+	}
+}
+function GetEmailsFromString(input) {
+	var ret = [];
+	if(input.indexOf('<')>=0){
+		var email = /<([^\>]+)\>/g
+		var match;
+		while (match = email.exec(input)){
+			if(match[1]!=null){
+			  ret.push(match[1]);
+			}
+		}
+	} else {
+	  ret.push(input);
+	} 
+	return ret;  
+}
+function replyEmailAllActivities(){
+	window.parent.jQuery("#message_send_from_email").val(window.parent.jQuery("#user_email").val());
+	window.parent.jQuery("#eventCid").val(_company_id);
+	window.parent.jQuery("#eventPid").val(_person_id);
+	window.parent.jQuery("#eventT").val(window.parent.jQuery("#activityMainType").val());
+	window.parent.jQuery("#emailDocUrl").val("");
+	window.parent.jQuery("#attach_droppable").empty();
+	if(window.parent.availableTags.length==0) {
+		jQuery.ajax({
+			type:"POST",
+			url:"<?php echo $this->config->base_url()?>dashboard/search_contact",
+			cache:false,
+			success:function(a){window.parent.availableTags=jQuery.parseJSON(a)}
+		});
+	}
+	_flag=1;
+	_type="message";
+	/*if(_subject.indexOf("Re:")<0) {
+		_subject="Re: "+_subject
+	}*/
+	if(window.parent._CS!=_userID) {
+		console.log("Not same user.");
+		_flag=2;
+		window.parent.jQuery("#emailSubject").val(_subject);
+		window.parent.jQuery("#emailThreadId").val("");
+		window.parent.jQuery("#emailMessageId").val("");
+		window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+		window.parent.jQuery("#gmail_message_modal").find("#emailAccountType").val(1);
+		window.parent.jQuery("#gmail_message").css("display","block");
+		window.parent.jQuery(".gmail-modal").css("display","block");
+		/*window.parent.jQuery("body").removeAttr("onselectstart");
+		document.oncontextmenu=new Function("return true");*/
+		window.parent.$(".dropdown-toggle").dropdown();
+		if(_email.indexOf("<")>=0){
+			_nn=_email;
+			/*_nn=_email.substr(0,_email.indexOf("<"));
+			_ss=_email.substr(_email.indexOf("<"));
+			_newem=_ss.substr(1,_ss.indexOf(">")-1);
+			*/
+			email = _email.match(emailRegex);
+			if(email.length > 0) {
+				_newem = email[0];
+			}
+			if (_newem != window.parent._cmU) {
+				_newem +=', ';
+			}
+			
+		}
+		else {
+			_nn=_email;
+			_newem=_email;
+			if (_newem != window.parent._cmU) {
+				_newem +=', ';
+			}
+		}
+		/*if(window.parent._cmU==_newem){
+			_newem = '';
+		}*/
+		/*_cc=jQuery(".message-detail-cc").eq(0).html();*/
+		_newccEm="";
+		stringMainCCEmails=[];
+		if(jQuery.trim(_cc)!="") {
+			/*_nn=_cc.substr(0,_cc.indexOf("<"));
+			_ss=_cc.substr(_cc.indexOf("<"));
+			_newccEm=_ss.substr(1,_ss.indexOf(">")-1)*/
+
+			if(_cc!="") {
+				/*_ccEmailss=_cc.split(",");*/
+				_ccEmailss=GetEmailsFromString(_cc);
+				
+
+				for(ems=0;ems<_ccEmailss.length;ems++) {
+					_currentEms=_ccEmailss[ems].substr(_ccEmailss[ems].indexOf("<"));
+					_currentEms=_currentEms.substr(1,_currentEms.length-1);
+
+					var c="></";
+					var d=new RegExp(c,"g");
+
+					_currentEms=_currentEms.replace(d,"^^^");
+
+					if(_currentEms!=""){
+						_modifyAllEmails=_currentEms.split("^^^");
+
+						if(_modifyAllEmails.length>0) {
+							for(mda=0;mda<_modifyAllEmails.length;mda++) {
+								var c=">";
+								var d=new RegExp(c,"g");
+
+								_newString=_modifyAllEmails[mda].replace(d,"");
+
+								if(jQuery.inArray(_newString,stringMainCCEmails)!=-1) {
+
+								}
+								else {
+									if (_newString != window.parent._cmU) {
+										stringMainCCEmails.push(_newString);
+										_newccEm +=_newString+",";
+									}
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		window.parent.jQuery("#emailReference").val("<?php echo $_referenceString;?>");
+		window.parent.findDataRemove.push(_newem);
+		window.parent.jQuery("#emailName").val(jQuery.trim(_nn));
+		_allEmails = _to;
+		_emailss = GetEmailsFromString(_allEmails);	
+		console.log("All emails",_emailss);		
+		console.log("All emails",_newem);		
+		stringMainEmails = [];
+		for (ems = 0; ems < _emailss.length; ems++) {
+			if(_emailss[ems].indexOf("<") >= 0) {
+				_currentEms = _emailss[ems].substr(_emailss[ems].indexOf("<"));
+				_currentEms = _currentEms.substr(1, _currentEms.length - 1);
+				console.log("Modify emails1",_currentEms);
+				var c = "></";
+				var d = new RegExp(c, "g");
+				_currentEms = _currentEms.replace(d, "^^^");
+				if (_currentEms != "") {
+					_modifyAllEmails = _currentEms.split("^^^");
+					console.log("Modify emails",_modifyAllEmails);	
+					if (_modifyAllEmails.length > 0) {
+						for (mda = 0; mda < _modifyAllEmails.length; mda++) {
+							var c = ">";
+							var d = new RegExp(c, "g");
+							_newString = _modifyAllEmails[mda].replace(d, "");
+							if (jQuery.inArray(_newString, stringMainEmails) != -1) {} else {
+								if (_newString != "" && _newString != window.parent._cmU) {
+									stringMainCCEmails.push(_newString);
+									_newem +=_newString+",";
+								}
+							}
+						}
+					}
+				}
+			} else {
+				var checkEmail = _emailss[ems].match(emailRegex);
+				console.log("Modify emails2",checkEmail);
+				if(checkEmail != "") {
+					if (jQuery.inArray(checkEmail, stringMainEmails) != -1) {} else {
+						if (checkEmail != "" && checkEmail != window.parent._cmU) {
+							stringMainCCEmails.push(checkEmail);
+							_newem +=checkEmail+", ";
+						}
+					}
+				}
+			}			
+		}
+		if(_newem!="") {
+			window.parent.findDataRemove.push(_newem);
+			_newem = jQuery.trim(_newem);
+			var _checkLastChar = _newem.substr(_newem.length-1,_newem.length-1);
+			console.log("CHAR","SP"+_checkLastChar+"AP");
+			if(_checkLastChar != ",") {
+				_newem += ", ";
+			}
+			window.parent.jQuery("#emailTo").val(_newem);
+		}
+		if(_newccEm!="") {
+			window.parent.findDataCCRemove.push(_newccEm);
+			window.parent.jQuery("#emailCC").val(_newccEm);
+		}
+		window.parent.jQuery("#attach_droppable").empty();
+		window.parent.jQuery("#gmail_message_modal").find("h4").html("Reply Message: "+window.parent.leadNameGlobal);
+		window.parent.jQuery("#messageLeadId").val(window.parent.leadGlobal);
+		window.parent.jQuery("#emailMessage").focus();
+		if(_replyEmailFlag==2){
+			/*window.parent.jQuery("#activityMainType").val(0);
+			window.parent.leadGlobal = 0;
+			window.parent.leadNameGlobal = "";*/
+		}
+	}
+	if(_flag==0) {
+		html='<div class="alert alert-success"><a href="#" title="Close" class="glyph-icon alert-close-btn icon-remove"></a><p>Please select message for reply</p></div>';
+		window.parent.jQuery("#contentPart").find(".alert").remove();
+		window.parent.jQuery("#contentPart>.row").before(html);
+		window.parent.removeAlert();
+	}
+	else {
+		if(_flag==1) {
+			console.log("Comes in ping pong");
+			if(window.parent.availableTags.length==0) {
+				jQuery.ajax({
+					type:"POST",
+					url:"<?php echo $this->config->base_url()?>dashboard/search_contact",
+					cache:false,
+					success:function(a) {
+						window.parent.availableTags=jQuery.parseJSON(a)
+					}
+				})
+			}
+			console.log("Reference:<?php echo $_referenceString;?>");
+			console.log("_MessageThreadID:"+_MessageThreadID);
+			console.log("_MessageID:"+_MessageID);
+			window.parent.jQuery("#emailThreadId").val(_MessageThreadID);
+			window.parent.jQuery("#emailMessageId").val('<?php echo $messageIDD?>');
+			window.parent.jQuery("#gmail_message_modal").find("#emailAccountType").val(1);
+			/*_allEmails=jQuery(".message-detail-to").eq(0).html();*/
+			_allEmails=_to;
+			_emailss=GetEmailsFromString(_allEmails);
+			_newem="";
+			stringMainEmails=[];
+			/*_cc=jQuery(".message-detail-cc").eq(0).html();*/
+			console.info("TO:"+_allEmails);
+			for(ems=0;ems<_emailss.length;ems++) {
+				if(_emailss[ems].indexOf("<")>=0){
+					_currentEms=_emailss[ems].substr(_emailss[ems].indexOf("<"));
+					_currentEms=_currentEms.substr(1,_currentEms.length-1);
+				} else {
+					_currentEms= jQuery.trim(_emailss[ems]);
+				}
+
+				var c="></";
+				var d=new RegExp(c,"g");
+
+				_currentEms=_currentEms.replace(d,"^^^");
+
+				if(_currentEms!="") {
+					_modifyAllEmails=_currentEms.split("^^^");
+
+					if(_modifyAllEmails.length>0) {
+						for(mda=0;mda<_modifyAllEmails.length;mda++) {
+							var c=">";
+							var d=new RegExp(c,"g");
+							_newString=_modifyAllEmails[mda].replace(d,"");
+
+							if(jQuery.inArray(_newString,stringMainEmails)!=-1) {
+
+							}
+							else {
+								if(_newString!=window.parent._cmU) {
+									stringMainEmails.push(_newString);
+									_newem+=_newString+", "
+								}
+							}
+						}
+					}
+				}
+			}
+
+			_ccEmailput="";
+			
+			if(_cc!="") {
+				console.info("CC:"+_cc);
+				/*_ccEmailss=_cc.split(",");*/
+				_ccEmailss =  GetEmailsFromString(_cc);
+				console.info("CCC:"+_ccEmailss.join(','));
+				stringMainCCEmails=[];
+
+				for(ems=0;ems<_ccEmailss.length;ems++) {
+					if(_ccEmailss[ems].indexOf("<")>=0){
+						_currentEms=_ccEmailss[ems].substr(_ccEmailss[ems].indexOf("<"));
+						_currentEms=_currentEms.substr(1,_currentEms.length-1);
+					} else {
+						_currentEms= jQuery.trim(_ccEmailss[ems]);
+					}
+					
+					console.info("A"+ems+":"+_currentEms);
+					var c="></";
+					var d=new RegExp(c,"g");
+
+					_currentEms=_currentEms.replace(d,"^^^");
+
+					if(_currentEms!=""){
+						_modifyAllEmails=_currentEms.split("^^^");
+
+						if(_modifyAllEmails.length>0) {
+							for(mda=0;mda<_modifyAllEmails.length;mda++) {
+								var c=">";
+								var d=new RegExp(c,"g");
+
+								_newString=_modifyAllEmails[mda].replace(d,"");
+
+								if(jQuery.inArray(_newString,stringMainCCEmails)!=-1) {
+
+								}
+								else {
+									if(_newString!=window.parent._cmU) {
+										stringMainEmails.push(_newString);
+										_ccEmailput+=_newString+", "
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			_fromem = _email;
+			if(_email.indexOf("<")>=0){
+				/*_nn=_email.substr(0,_email.indexOf("<"));
+				_ss=_email.substr(_email.indexOf("<"));
+				_fromem=_ss.substr(1,_ss.indexOf(">")-1);*/
+				email = _email.match(emailRegex);
+				if(email.length > 0) {
+					_fromem = email[0];
+				}
+			}		
+			
+			if(_fromem!=window.parent._cmU) {				
+				window.parent.jQuery("#emailTo").val(_fromem+', ');
+				window.parent.findDataRemove.push(_fromem);
+				_fromem = _fromem+", ";
+				if(jQuery.trim(_newem)!=jQuery.trim(_fromem)){
+					console.log("newEm:"+_newem+"Fromem:"+_fromem);
+					_allCLEmail = _newem + _ccEmailput;
+				} else {
+					_allCLEmail = _ccEmailput;
+				}
+				
+				window.parent.findDataCCRemove.push(_allCLEmail);
+				window.parent.jQuery("#emailCC").val(_allCLEmail)
+			} else {
+				_newem+=_fromem+", ";
+				if(_newem!="") {
+					window.parent.jQuery("#emailTo").val(_newem);
+					window.parent.findDataRemove.push(_fromem);
+				}
+				if(_ccEmailput!="") {
+					window.parent.findDataCCRemove.push(_ccEmailput);
+					window.parent.jQuery("#emailCC").val(_ccEmailput)
+				}
+			}
+			window.parent.jQuery("#emailSubject").val(_subject).attr("readonly","readonly");
+			window.parent.jQuery("#emailName").val("<?php echo $this->session->userdata['name']?>");
+			window.parent.openSlidebar(window.parent.jQuery("#gmail_message_modal"));
+			window.parent.jQuery("#gmail_message").css("display","block");
+			window.parent.jQuery(".gmail-modal").css("display","block");
+			/*window.parent.jQuery("body").removeAttr("onselectstart");
+			document.oncontextmenu=new Function("return true");*/
+			window.parent.$(".dropdown-toggle").dropdown();
+			window.parent.jQuery("#gmail_message_modal").find("h4").html("Reply Message: "+window.parent.leadNameGlobal);
+			window.parent.jQuery("#messageLeadId").val(window.parent.leadGlobal);
+			window.parent.jQuery("#emailReference").val("<?php echo $_referenceString;?>");
+			window.parent.jQuery("#emailMessage").focus();
+			window.parent.checkBodyScrollable();
+			if(_replyEmailFlag==2){
+				/*window.parent.jQuery("#activityMainType").val(0);
+				window.parent.leadGlobal = 0;
+				window.parent.leadNameGlobal = "";*/
+			}
+		}
+	}	
+}
+
+function replyEmailAll(){
+	if ((window.parent.leadGlobal!=0 || __type==2)&& __type!=1 && __type!=3) {		
+		if(__type==2){
+			console.log('Asasd adasd1');
+			if(window.parent.jQuery('#advanced_search').find('#emailListSearch>div.message-item.message-active').length>0){
+				console.log('PEP');
+				obj = window.parent.jQuery('#advanced_search').find('#emailListSearch>div.message-item.message-active');
+				lead_id = parseInt(obj.attr('data-lead'));
+				leadName = obj.attr('data-lead-name');
+				companyID = obj.attr('data-acompany');
+				if(companyID=="" || companyID==null || companyID=="undefined"){
+					companyID= obj.attr('data-scompany');
+				}
+				if(isNaN(lead_id)===false){
+					activity = obj.attr('data-type');
+					window.parent.jQuery("#activityMainType").val(activity);
+					activateLead(lead_id,activity,companyID);					
+					window.parent.leadGlobal = lead_id;
+					window.parent.leadNameGlobal = leadName;
+					replyEmailAllActivities();
+					console.log('3');
+				}
+			} else if(window.parent.jQuery('.list-group').find('a.active').length>0){
+				console.log('KEP');
+				window.parent.jQuery('.list-group').find('a.active').each(function(){
+					if(jQuery.trim(jQuery(this).text())=='Leads'){
+						if(window.parent.jQuery('.messages_container>div.message-item.message-active').length>0){ 
+							obj = window.parent.jQuery('.messages_container>div.message-item.message-active');
+							lead_id = parseInt(obj.attr('data-lead'));
+							leadName = obj.attr('data-lead-name');
+							companyID = obj.attr('data-acompany');
+							if(companyID=="" || companyID==null || companyID=="undefined"){
+								companyID= obj.attr('data-scompany');
+							}
+							if(isNaN(lead_id)===false){
+								activity = obj.attr('data-type');
+								window.parent.jQuery("#activityMainType").val(activity);
+								activateLead(lead_id,activity,companyID);
+								window.parent.leadGlobal = leadID;
+								window.parent.leadNameGlobal = leadName;
+								replyEmailAllActivities();
+								console.log('4');
+							}
+						}
+					} else {
+						replyEmailAllActivities();
+					}/*else if(jQuery.trim(jQuery(this).text())=='Inbox'){
+						
+								console.log('8');
+					}*/
+				});
+			}
+		} else if(window.parent.leadGlobal!=0){
+			replyEmailAllActivities();
+			console.log('5');
+		} else {
+			alert('Error!');
+		}
+	}
+	else {
+		console.log('2');
+		console.log('Comes in 2');
+		_replyEmailFlag = 2;  
+		email = [];
+		email = _email.match(emailRegex);
+		/*if (_email.indexOf("<") >= 0) {
+			_nn = _email.substr(0, _email.indexOf("<"));
+			_ss = _email.substr(_email.indexOf("<"));
+			email = _ss.substr(1, _ss.indexOf(">") - 1)
+		} else {
+			email = _email
+		}*/
+		console.log("Email:"+email);
+		if(email.length > 0) {
+			findActivitesLeadsFromEmail(email[0]);
+		} else {
+			alert("No email found!");
+		}
+		/*alert("Replying is available after associating the message with existing Lead.");*/
+	}
+}
+function taskOnly(){
+	window.parent.openTaskModal();
+}
+var emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi;
+function fileOnly(){
+	_replyEmailFlag = 0;
+	var email = [];
+	email = _email.match(emailRegex);
+	/*if (_email.indexOf("<") >= 0) {
+		_nn = _email.substr(0, _email.indexOf("<"));
+		_ss = _email.substr(_email.indexOf("<"));
+		email = _ss.substr(1, _ss.indexOf(">") - 1)
+	} else {
+		email = _email
+	}*/
+	if(email.length > 0) {
+		findActivitesLeadsFromEmail(email[0]);
+	} else {
+		alert("No email found!");
+	}
+}
+function fileAndTask(){
+	_replyEmailFlag = 3;
+	/*email = "";
+	if (_email.indexOf("<") >= 0) {
+		_nn = _email.substr(0, _email.indexOf("<"));
+		_ss = _email.substr(_email.indexOf("<"));
+		email = _ss.substr(1, _ss.indexOf(">") - 1)
+	} else {
+		email = _email
+	}*/
+	var email = [];
+	email = _email.match(emailRegex);
+	if(email.length > 0) {
+		findActivitesLeadsFromEmail(email[0]);
+	} else {
+		alert("No email found!");		
+	}
+}
+</script>
+	<?php } ?>
+	<script>
+	jQuery(document).ready(function(){
+	jQuery(".dropdown-toggle").dropdown();
+	bigContent();
+}); 
+
+/*
+function smallContent() {
+	$('#message-detail').css('height', '300px');
+	$('#message-detail').css('max-height', '300px');
+	$('body').removeClass('is-scrollable-body');
+}
+*/
+
+
+
+</script>
+<div id="forwardAttachment_message" style='display:none'>
+---------- Forwarded message ----------
+<br/>
+From:<xmp><?php echo $from;?></xmp>
+<br/>
+Date: <?php echo $date;?>
+<br/>
+Subject: <?php echo $subject;?>
+<br/>
+To: <xmp><?php echo $to;?></xmp>
+<br/>
+<br/>
+<br/>
+<?php echo $forwardBody;?>
+</div>

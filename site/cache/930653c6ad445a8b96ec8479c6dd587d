@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4349:"                                  Pour d'autres inspirations, rejoignez-nous! Photos souvenirs: Isabel Richer Chaque semaine dans son Cahier Weekend, Le Journal vous présente des moments marquants de la carrière d’un artiste ainsi que quelques photos souvenirs. Il y a deux ans, elle annonçait qu’elle avait de nouveau trouvé l’amour!                 Afficher les profils des personnes qui s’appellent Isabel Richer.                          Isabel Richer est une actrice ayant joué dans plusieurs séries québécoises. <br> <br>Récemment, ce fut d’ailleurs annoncé que l’un de ses projets devait être mis sur pause à cause de la COVID-19.En effet, les tournages de la deuxième saison de la série Au mois de décembre dernier, Isabel Richer a publié une photo qui a fait beaucoup jaser.                                  Télévision Guillaume Wagner, Isabelle Richer, Marilou et Alexandre Champagne, Patrice Robitaille, Rémi-Pierre Paquin, Salvail Demain à ENQUÊTE : un dossier qui pourrit dans le Nord à la Romaine 24 novembre 2016 24 novembre 2016 Les ArtsZé <br> <br>«Je n'aime pas parler de mon couple.» Isabel avoue même que l'impatience est son pire défaut: «J'ai l'air calme comme ça, mais je ne suis pas zen pour deux cennes!», raconte-t-elle. Fiche de la star, célébrité ⭐ Isabelle Richer - Radio / TV / Web : Journaliste femme.                            ANDRÉ ROBITAILLE EN COUPLE DEPUIS UN AN DÉJÀ AVEC SON AMOUREUSE Découvrez son age, sa taille, date de naissance, signe du zodiaque, chinois, … Et ses comptes sur les réseaux sociaux : Facebook, Twitter, Youtube, Instagram.                            <br> <br> Casting Mélissa Désormaux-Poulin Daniel Parent Isabelle Guérard Catherine Trudeau Isabelle Richer Vincent-Guillaume Otis Production Année de production: 2016 Production: Aetios Productions Pays: Canada Réalisateur(s): Marilou Wolfe Auteur(s) Daniel Thibault, Isabelle Pelletier et Luc Dionne                                                           La comédienne Isabel Richer qui a joué notamment dans la série Rupture, et O’ à TVA est très apprécié des Québécois. Consultez le profil complet sur LinkedIn et découvrez les relations de Isabelle, ainsi que des emplois dans des entreprises similaires. «Prendre la parole à un mariage ou présenter un prix dans un gala, c'est l'horreur pour moi. <br> <br>                                            <br> <br>  Et pour faire de beaux enfants...Si elle n'aime pas beaucoup parler de sa vie personnelle et privée, Isabel Richer est toutefois très fier de son fils, Henri, issu de sa relation avec Luc Picard qui s'est malheureusement terminée en 2013. Isabelle Richer, journaliste chez Radio-Canada, a été gravement blessée à la tête après qu’un camion l’ait percuté alors qu’elle était à … Récemment, ce fut d’ailleurs annoncé que l’un de ses projets devait être mis sur pause à cause de la COVID-19.                                                                                                                                                              Isabelle Richer se manifeste sur Facebook!                             	 <br> <br>                                                      <br> <br>                                                                          Suite à son annonce officielle, elle n’a toutefois pas voulu révéler l’identité de son amoureux, puisqu’elle souhaite garder un semblant de vie privé.                            Abonnez-vous à notre infolettre pour des nouvelles et potins de stars. Si elle n'aime pas beaucoup parler de sa vie personnelle et privée, Isabel Richer est toutefois très fier de son fils, Henri, issu de sa relation avec Luc Picard qui s'est malheureusement terminée en 2013.  <br> <br> <br>J'ai d'ailleurs souvent menti en invoquant une fausse urgence à la maison pour me défiler à la dernière minute!».L'actrice vient tout juste de revenir d'un séjour en République Dominicaine. Isabelle indique 1 poste sur son profil. Elle a peut-être du talent pour le bonheur, mais elle a aussi pour le jeu!                                         sur Facebook                                                     She is an actress, known for La loi du cochon (2001), Babine (2008) and Eldorado (1995). <br>";s:7:"keyword";s:30:"marilou richer isabelle richer";s:5:"links";s:6372:"<a href='https://backyard.synpat.com/site/article.php?page=mosqu%C3%A9e-fontaine-du-bac-clermont-ferrand-88a0eb'>Mosquée Fontaine Du Bac Clermont Ferrand</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chateau-d%27edimbourg-interieur-88a0eb'>Chateau D'edimbourg Interieur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicolas-roy-%28koh-lanta-mort%29-88a0eb'>Nicolas Roy (koh-lanta Mort)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moussa-sylla-auteur-88a0eb'>Moussa Sylla Auteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moto-gp-marquez-angle-88a0eb'>Moto Gp Marquez Angle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=max-gradel-salaire-2019-88a0eb'>Max Gradel Salaire 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-marseillais-kim-et-giulia-88a0eb'>Les Marseillais Kim Et Giulia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=domyos-exercices-abdominaux-88a0eb'>Domyos Exercices Abdominaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Bernard-Casoni-OM-88a0eb'>Bernard Casoni OM</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Participant-Koh%E2%80%91Lanta-2019-88a0eb'>Participant Koh‑Lanta 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=monsieur-en-allemand-88a0eb'>Monsieur En Allemand</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9actions-apr%C3%A8s-dortmund-psg-88a0eb'>Réactions Après Dortmund-psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chlo%C3%A9-nab%C3%A9dian-mariage-88a0eb'>Chloé Nabédian Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9quence-bfm-tv-88a0eb'>Fréquence Bfm Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=divergent-en-arabe-88a0eb'>Divergent En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=real-madrid-vs-bayern-munich-statistics-88a0eb'>Real Madrid Vs Bayern Munich Statistics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-faire-du-petit-lait-du-beurre-clarifi%C3%A9-88a0eb'>Que Faire Du Petit Lait Du Beurre Clarifié</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sb-signification-sms-88a0eb'>Sb Signification Sms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tp-topographie-mesure-des-distances-88a0eb'>Tp Topographie Mesure Des Distances</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-de-zidane-origine-88a0eb'>Femme De Zidane Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=centrale-la-grande-3-88a0eb'>Centrale La Grande-3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-smoothie-thibault-geoffray-88a0eb'>Recette Smoothie Thibault Geoffray</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=melissa-merchiche-2020-88a0eb'>Melissa Merchiche 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-d%27%C3%A9dition-lyon-recrutement-88a0eb'>Maison D'édition Lyon Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-canal-play-6-ce-soir-88a0eb'>Programme Canal Play 6 Ce Soir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=terence-stamp-film-88a0eb'>Terence Stamp Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-pr%C3%A9parer-les-prot%C3%A9ines-de-soja-88a0eb'>Comment Préparer Les Protéines De Soja</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=indochine-album-2020-88a0eb'>Indochine Album 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fulham-cardiff-pronostic-88a0eb'>Fulham Cardiff Pronostic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=danone-recrutement-alternance-88a0eb'>Danone Recrutement Alternance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faux-diamant-synonyme-88a0eb'>Faux Diamant Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clinton-njie-lyon-88a0eb'>Clinton Njie Lyon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=concert-pnl-2021-88a0eb'>Concert Pnl 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruce-lee-fils-88a0eb'>Bruce Lee Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jojo-bruno-bucciarati-death-88a0eb'>Jojo Bruno Bucciarati Death</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27%C3%A9mancipation-de-la-femme-africaine-88a0eb'>L'émancipation De La Femme Africaine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-nikon-70-300-avis-88a0eb'>Objectif Nikon 70-300 Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ronde-synonyme-en-10-lettres-88a0eb'>Ronde Synonyme En 10 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarek-benattia-fortune-88a0eb'>Tarek Benattia Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Livre-Philippe-Etchebest-88a0eb'>Livre Philippe Etchebest</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lada-niva-occasion-rh%C3%B4ne-alpes-88a0eb'>Lada Niva Occasion Rhône-alpes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jus-de-citron-br%C3%BBle-graisse-88a0eb'>Jus De Citron Brûle Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=three-lives-three-worlds-the-pillow-book-movie-88a0eb'>Three Lives Three Worlds The Pillow Book Movie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=week-end-vibes-88a0eb'>Week End Vibes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-fils-de-bruce-lee-88a0eb'>Le Fils De Bruce Lee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-de-lupin-88a0eb'>Protéine De Lupin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ta-reine-ang%C3%A8le-piano-facile-88a0eb'>Ta Reine Angèle Piano Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boutique-psg-bercy-village-88a0eb'>Boutique Psg Bercy Village</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Secret-d%27Histoire-g%C3%A9n%C3%A9rique-88a0eb'>Secret D'Histoire Générique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-fille-2015-88a0eb'>Jeux De Fille 2015</a>,
+";s:7:"expired";i:-1;}

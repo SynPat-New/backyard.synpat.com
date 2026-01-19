@@ -1,0 +1,105 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4657:"<br>Hear the audio that matters most to you. Du lundi au jeudi, retrouvez les polémistes de RTL, ensemble, ils débattent et confrontent leurs idées afin de rebondir sur les sujets d’actualité. <br> <br>Jean-Luc Mélenchon y voit une visite, qui risque de désorganiser les autorités sur place, déjà accusées d'être responsable de l'explosion en raison de la corruption..le nitrate d'ammonium "a été stocké pendant plus de cinq ans dans le port, qui, comme toutes les frontières, dépend de l'État". 2020. Si la classe dirigeante le savait, "c'est un crime et si elle ne le savait pas, c'est un double crime",Habituellement ce genre de "remarque" est de BB5, mais il ne vient plus.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 02 juil. <br> <br>Le code HTML sera affiché comme du texteNous vous demandons de vous identifier pour laisser vos commentaires. 2020.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 22 avr. Comme le tatouage, nous parlons là de pratiques tribales, traditionnelles, remises au goût du jour. Jean-Luc Mélenchon y voit une visite, qui risque de désorganiser les autorités sur place, déjà accusées d'être responsable de l'explosion en raison de la corruption..le nitrate d'ammonium "a été stocké pendant plus de cinq ans dans le port, qui, comme toutes les frontières, dépend de l'État". <br> <br>Du lundi au jeudi, retrouvez les polémistes de RTL, ensemble, ils débattent et confrontent leurs idées afin de rebondir sur les sujets d’actualité.Du lundi au jeudi, retrouvez les polémistes de RTL, ensemble, ils débattent et confrontent leurs idées afin de rebondir sur les sujets d’actualité.Du lundi au jeudi, retrouvez les polémistes de RTL, ensemble, ils débattent et confrontent leurs idées afin de rebondir sur les sujets d’actualité.Retrouvez On refait le monde avec Thomas Sotto du 20 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 19 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 18 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 14 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 13 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 12 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 11 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 07 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 06 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 05 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 04 mai 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 30 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 29 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 28 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 27 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 23 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 22 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 21 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Thomas Sotto du 20 avril 2020 sur RTL.fr.Retrouvez On refait le monde avec Vincent Parizot du 16 avril 2020 sur RTL.fr.Sports, music, news and podcasts.  <br>2020.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 29 avr. Publié le 24 juillet 2020 à 14h28 - Mis à jour le 25 juillet 2020 à 13h19                      2020.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 01 juil. <br> <br>2020.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 20 avr. <br> <br>2020.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 27 avr. 2020.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 07 avr. Cette inscription sera valable sur le site RTL.fr.Un déplacement qui fait grincer des dents notamment du côté de l'opposition. On refait le monde (x11) Elles sont si serrées nos mâchoires, qu'on pourrait s'en péter les dents Et si on a le regard noir, c'est qu'on voyait la vie autrement https://tunein.com/podcasts/French-Talk/On-refait-le-monde-p122143 <br> <br>Jérôme Fourquet -"On voit monter une peur sur les conséquences économiques et sociales de la crise" - Duration: 1:08:43. <br> <br>Ghosting : pourquoi certaines personnes coupent les ponts sans prévenir du jour au lendemain - Duration: 36:14. Interrogée, RTL confirme l'information mais n'a pas souhaité faire de commentaire. <br> <br>New 2020. <br> 2020.Écoutez ou réécoutez On refait le monde de Thomas Sotto du 07 avr. <br>";s:7:"keyword";s:26:"on refait le monde youtube";s:5:"links";s:6190:"<a href='https://backyard.synpat.com/site/article.php?page=corentin-tolisso-et-sandra-88a0eb'>Corentin Tolisso Et Sandra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=louvain-la-neuve-bruxelles-distance-88a0eb'>Louvain-la-neuve Bruxelles Distance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caps-lol-g2-88a0eb'>Caps Lol G2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-yeux-revolver-partition-piano-pdf-88a0eb'>Les Yeux Revolver Partition Piano Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-squale---ma-gueule-88a0eb'>La Squale - Ma Gueule</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A2te-%C3%A0-tartiner-prot%C3%A9in%C3%A9e-avis-88a0eb'>Pâte à Tartiner Protéinée Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-marie-le-pen-gaming-animal-crossing-88a0eb'>Jean Marie Le Pen Gaming Animal Crossing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bali-hotel-booking-88a0eb'>Bali Hotel Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baptiste-hugues-ferrari-88a0eb'>Baptiste Hugues Ferrari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clara-kata-twitter-88a0eb'>Clara Kata Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paris-match-journal-de-droite-ou-de-gauche-88a0eb'>Paris Match Journal De Droite Ou De Gauche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Costa-Diadema-Duba%C3%AF-88a0eb'>Costa Diadema Dubaï</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rap-contenders-17-carte-88a0eb'>Rap Contenders 17 Carte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-mbapp%C3%A9-et-neymar-88a0eb'>Photo De Mbappé Et Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cagnottes-claude-koh-lanta-88a0eb'>Cagnottes Claude Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-fran%C3%A7ois-hernandez-om-88a0eb'>Jean-françois Hernandez Om</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=artiste-peintre-letellier-88a0eb'>Artiste Peintre Letellier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=composition-hoffenheim-dortmund-88a0eb'>Composition Hoffenheim Dortmund</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rmc-story-replay-l%27ombre-d%27un-doute-venise-88a0eb'>Rmc Story Replay L'ombre D'un Doute Venise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=enseigner-l%27anglais-%C3%A0-partir-d%27albums-ce1-ce2-88a0eb'>Enseigner L'anglais à Partir D'albums Ce1 Ce2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Staybridge-Suites-London---Stratford-City4%2C5%28398%29%C3%80-0%2C1%C2%A0km121%C2%A0%24US-88a0eb'>Staybridge Suites London - Stratford City4,5(398)À 0,1 km121 $US</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sentiment-et-%C3%A9motion-88a0eb'>Sentiment Et émotion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=all-pepe-gif-88a0eb'>All Pepe Gif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-a-tous-le-droit-balavoine-88a0eb'>On A Tous Le Droit Balavoine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acheter-m%C3%A9latonine-3mg-88a0eb'>Acheter Mélatonine 3mg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-a-le-plus-d%27%C3%A9toile-au-foot-88a0eb'>Qui A Le Plus D'étoile Au Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-slam-d%C3%A9finition-88a0eb'>Le Slam Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=torche-flambeau-anti-moustique-88a0eb'>Torche Flambeau Anti Moustique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patients-%28film%29-distribution-88a0eb'>Patients (film) Distribution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alex-vizorek-nouveau-spectacle-88a0eb'>Alex Vizorek Nouveau Spectacle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sous-leffet-de-88a0eb'>Sous Leffet De</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rallye-lecture-otto-88a0eb'>Rallye Lecture Otto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-cr%C3%A8me-visage-2018-88a0eb'>Meilleur Crème Visage 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crise-de-foie-chocolat-88a0eb'>Crise De Foie Chocolat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9ranger-quelqu%27un-synonyme-88a0eb'>Déranger Quelqu'un Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perle-c%C3%A9ramique-ou-charbon-actif-88a0eb'>Perle Céramique Ou Charbon Actif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nissan-4x4-pick-up-88a0eb'>Nissan 4x4 Pick-up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-cr%C3%A9er-un-quiz-sur-powerpoint-88a0eb'>Comment Créer Un Quiz Sur Powerpoint</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kit-animation-anniversaire-gratuit-88a0eb'>Kit Animation Anniversaire Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=restaurant-quimper-ouvert-88a0eb'>Restaurant Quimper Ouvert</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-lettre-%28france-2-replay%29-88a0eb'>La Lettre (france 2 Replay)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=giannina-maradona-pere-88a0eb'>Giannina Maradona Pere</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Didier-deschamps-2007-88a0eb'>Didier Deschamps 2007</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acide-amin%C3%A9-avant-ou-apr%C3%A8s-entra%C3%AEnement-88a0eb'>Acide Aminé Avant Ou Après Entraînement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-b12-delagrange-avis-88a0eb'>Vitamine B12 Delagrange Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nissan-4x4-navara-88a0eb'>Nissan 4x4 Navara</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m-moustache-bonnegueule-88a0eb'>M Moustache Bonnegueule</a>,
+";s:7:"expired";i:-1;}

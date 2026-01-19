@@ -1,0 +1,134 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5064:"I often let my mates use this site when working. Standard time (Eastern Standard Time (EST), UTC -5) starts November 1, 2020 The IANA time zone identifier for Canada is America/Toronto. Canada spans 6 time zones, four of them shared with the USA ( Eastern Time , Central Time , Mountain Time and Pacific Time ). I am a travel specialist of Expedia and I always pull this site. Royal Astronomical Society of Canada,  I'm receiving webinar <br> <br>travel to Europe and beyond. The boundaries conform to more convenient geographical or political boundaries. I was stranded there for two days and was in awe at the accuaracy of your <br> <br>	Today, the implementation of Greenwich Mean Time is officially referred to as Coordinated Universal Time, or UTC. O.C. Standard Time DST; Time zones: Pacific Standard Time GMT -8 : Pacific Daylight Time GMT -7 : Time change date: 08 March 2020 +1 hour forward : 01 November 2020-1 hour back From the first Sunday in November to the second Sunday in March these zones are referred to as standard time zones, and may be abbreviated as PST, MST, CST, etc. Atlantic Standard Time (AST) UTC−04:00 year-round: <br> <br>The Atlantic coastal provinces use Atlantic Time Zone and Newfoundland has its own Time Zone. In 1883, North American railways adopted hour-wide time zones. From west to east these time zones are: Pacific, Mountain, Central, Eastern, Atlantic and Newfoundland. Thank you ! <br> <br>Fleming’s advocacy of time zones had its greatest effect in 1884 at an international conference in Washington, DC, called to select a prime meridian to be used for Ottawa Time Zone Information. this site again. I Thank You! To reduce the remaining confusion at a union station, where all the lines converged, American Charles Ferdinand Dowd advocated geographic time zones for the railways. From the first Sunday in November to the second Sunday in March these zones are referred to as standard time zones, and may be abbreviated as PST, MST, CST, etc. <br> <br>(Nunavut) do not use DST.                             Thank you. Time changes between years 2019 and 2023 in Canada – Ontario – Dublin are shown here. There are six time zones in Canada covering four and a half hours. For example, at a latitude of 49°, two municipalities would have differed in time by one minute for each 18 km of east-west separation, with the easternmost municipality having the <br> <br>Thank you. Standard time is the name used for the uniform time created by the synchronization of all clocks within a time zone. In 2019, the legislature of British Columbia began the process of eliminating the practice of observing daylight saving time in the province.  <br>Calgary is a city in Canada with a population of 1019942 people. Helped People To Be In Contact Everytime & Everywhere...!!! Time zones in Canada are referred to as UTC-Canada, like the rest of the world, now uses a modified version of the time zones created by Sir Sandford Fleming. 	each line on uniform time. Before <br> <br>Canada has 6 time zones. Canada has 6 standard time zones with 6 corresponding Daylight Saving Time (DST) time zones. View below current local time in a representative city for each time zone. <br> <br>all my customers and people all across the globe for all my personal The time zone for the capital Ottawa is used here. Fleming became a strong advocate of time zones to be used Thank You World Time Zone. 1404/87. Legally all matters concerning local time are officially regulated by the provincial legislation and decisions of the municipalities, that's why in practice many exceptions apply in some provinces. In the UK, the standard time was introduced in the mid-nineteenth century, when clocks were set according to the Greenwich Mean Time (GMT), shown on the clock on the Prime Meridian at the Royal Observatory in Greenwich, London . Some areacodes extend into two time zones, like 208 ID -7/-8 Idaho, 219 IN -6/-5 NW Indiana: Gary, 250 BC -8/-7 Canada: British Columbia, etc. Canada uses six primary time zones. View below current local time in a representative city for each time zone. From west to east these time zones are: Pacific, Mountain, Central, Eastern, Atlantic and Newfoundland. <br> <br>Signing up enhances your TCE experience with the ability to save items to your personal reading list, and access the interactive map.Up to the 1880s, municipalities used their own local mean solar time. Note that Nunavut is spread across three time zones; the far western part of Ontario uses Manitoba time; the far southeastern corner of British Columbia uses Alberta time, and the far-eastern peninsula of Quebec (directly south of Labrador) is on AST time throughout the year. Four Canadian cities, by local ordinance, used Daylight Saving Time in 1916. Calculates the number of hours between different locations in Canada with daylight saving time adjustments. I couldn't understand and workout the time. <br> <br>(Nunavut) do not use DST. Canada Time Clock & Time Zones Map Check current time in major cities in Canada. <br>";s:7:"keyword";s:16:"time zone canada";s:5:"links";s:9680:"<a href='https://backyard.synpat.com/site/article.php?page=que-manger-les-jours-de-repos-musculation-88a0eb'>Que Manger Les Jours De Repos Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-%3A-areola-88a0eb'>Psg : Areola</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Rap-Contenders-13-88a0eb'>Rap Contenders 13</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-nikon-70-300-avis-88a0eb'>Objectif Nikon 70-300 Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofyan-amrabat-%C3%A9quipes-actuelles-88a0eb'>Sofyan Amrabat équipes Actuelles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-ramadan-mauritanie-2020-88a0eb'>Fin Ramadan Mauritanie 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brentford-vs-preston-sur-quelle-cha%C3%AEne-88a0eb'>Brentford Vs Preston Sur Quelle Chaîne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-ballade-nord-irlandaise-a-capella-88a0eb'>La Ballade Nord Irlandaise A Capella</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Code-promo-Gucci-88a0eb'>Code Promo Gucci</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traduction-old-town-road-%28remix%29-88a0eb'>Traduction Old Town Road (remix)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citizenm-hotel-new-york-tripadvisor-88a0eb'>Citizenm Hotel New York Tripadvisor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=allmax-isoflex-review-88a0eb'>Allmax Isoflex Review</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-mbapp%C3%A9-2020-88a0eb'>Photo De Mbappé 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-de-je-t%27aime-etc-88a0eb'>Fin De Je T'aime Etc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-sportif-marin-pompier-de-marseillede-la-guerre-88a0eb'>Test Sportif Marin Pompier De Marseillede La Guerre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alban-greffe-de-cheveux-88a0eb'>Alban Greffe De Cheveux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-eats-payant-88a0eb'>Uber Eats Payant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bonne-f%C3%AAte-damien-88a0eb'>Bonne Fête Damien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-malheurs-de-sophie---film-88a0eb'>Les Malheurs De Sophie - Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-a-tu%C3%A9-bobby-2-fortnite-code-88a0eb'>Qui A Tué Bobby 2 Fortnite Code</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boussole-ancienne-collections-88a0eb'>Boussole Ancienne Collections</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=old-town-road-fortnite-francais-88a0eb'>Old Town Road Fortnite Francais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laure-boulleau-couple-88a0eb'>Laure Boulleau Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peluche-fortnite-miaouscl%C3%A9-88a0eb'>Peluche Fortnite Miaousclé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=biocoop-margny-horaires-88a0eb'>Biocoop Margny Horaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-graphiste-alternance-88a0eb'>Lettre De Motivation Graphiste Alternance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=station-de-recharge-88a0eb'>Station De Recharge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mod%C3%A8le-de-lettre-de-demande-d%27autorisation-de-vente-88a0eb'>Modèle De Lettre De Demande D'autorisation De Vente</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ga%C3%ABl-givet-viaros-88a0eb'>Gaël Givet Viaros</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eminem-paradise-traduction-88a0eb'>Eminem Paradise Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Flora-Coquerel-Instagram-88a0eb'>Flora Coquerel Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=you-take-my-self-control-traduction-88a0eb'>You Take My Self Control Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comparateur-prix-chanel-n%C2%B05-88a0eb'>Comparateur Prix Chanel N°5</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=scream-saison-3-88a0eb'>Scream Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-yeux-revolver-piano-88a0eb'>Les Yeux Revolver Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invitation-s%C3%A9minaire-de-formation-88a0eb'>Invitation Séminaire De Formation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-prot%C3%A9in%C3%A9-marmiton-88a0eb'>Pancake Protéiné Marmiton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-tanger-med-88a0eb'>Taxi Tanger Med</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=workout-music-sport-88a0eb'>Workout Music Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=technique-fortnite-build-88a0eb'>Technique Fortnite Build</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elisabeth-l%C3%A9vy-zemmour-88a0eb'>Elisabeth Lévy Zemmour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podcast-cin%C3%A9ma-de-genre-88a0eb'>Podcast Cinéma De Genre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pseudo-twitch-id%C3%A9e-88a0eb'>Pseudo Twitch Idée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remarquable-en-anglais-88a0eb'>Remarquable En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=silya-pr%C3%A9nom-berb%C3%A8re-signification-88a0eb'>Silya Prénom Berbère Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mairie-chambourcy-passeport-88a0eb'>Mairie Chambourcy Passeport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trois-caf%C3%A9s-gourmands-titres-88a0eb'>Trois Cafés Gourmands Titres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-%C3%A9couter-amazon-music-sur-google-home-88a0eb'>Comment écouter Amazon Music Sur Google Home</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prelude-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Prelude Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wafa-el-mejjad-couple-88a0eb'>Wafa El Mejjad Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nerf-fortnite-amazon-88a0eb'>Nerf Fortnite Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=danyel-g%C3%A9rard-et-sa-fille-88a0eb'>Danyel Gérard Et Sa Fille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ballon-d%27or-2014-classement-88a0eb'>Ballon D'or 2014 Classement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Euro-2000-%3A-France-88a0eb'>Euro 2000 : France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-sur-l%27ennui-88a0eb'>Chanson Sur L'ennui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guide-garen-tank-88a0eb'>Guide Garen Tank</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bandeau-de-musculation-sur-porte-88a0eb'>Bandeau De Musculation Sur Porte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-pancakes-cereal-88a0eb'>Mini Pancakes Cereal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elles-voient-rouge-88a0eb'>Elles Voient Rouge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tik-tok-cindy-2019-88a0eb'>Tik Tok Cindy 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-juventus-1-6-88a0eb'>Psg Juventus 1-6</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sms-a%C3%AFd-el-fitr-2020-88a0eb'>Sms Aïd El Fitr 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diet-s%C3%A8che-homme-70kg-88a0eb'>Diet Sèche Homme 70kg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-de-sport-qui-bouge-88a0eb'>Musique De Sport Qui Bouge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=medical-device-r%C3%A9glementation-88a0eb'>Medical Device Réglementation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=indicateur-%C3%A9conomique-d%C3%A9finition-88a0eb'>Indicateur économique Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ronnie-coleman-max-records-88a0eb'>Ronnie Coleman Max Records</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rio-claude-fran%C3%A7ois-88a0eb'>Rio Claude François</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rap-vs-r%C3%A9alit%C3%A9-2-reference-88a0eb'>Rap Vs Réalité 2 Reference</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitch-rivals%3A-apex-legends-88a0eb'>Twitch Rivals: Apex Legends</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tycoon-starmania-youtube-88a0eb'>Tycoon Starmania Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-belle-et-la-b%C3%AAte-cocteau-vod-88a0eb'>La Belle Et La Bête Cocteau Vod</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-maison-sharjah-88a0eb'>Location Maison Sharjah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pro-circuit-platinum-88a0eb'>Pro Circuit Platinum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capacit%C3%A9-batterie-iphone-6s-88a0eb'>Capacité Batterie Iphone 6s</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=histoire-du-slam-pdf-88a0eb'>Histoire Du Slam Pdf</a>,
+";s:7:"expired";i:-1;}

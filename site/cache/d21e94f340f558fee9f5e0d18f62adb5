@@ -1,0 +1,106 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5247:"<br>Des news de Aurélie Casse et son conjoint ? Découvrez la photo sexy qui à donné chaud aux télespectateurs de la chaine d’information BFM TV. En duplex avec le Sud-Est de la France où sévissent d’énormes incendies de forêt actuellement, Thomas Misrachi et et depuis qu’elle présente le journal sur Bfm Tv au côté de Stefan Etcheverry on ne s’en lasse pas, mais qui sont Aurélie Casse et son compagnon ?Aurélie Casse, mais quelles sont ses origines ? Trois créatures sont en compétition, une Noire très sensuelle (Kareen Guiock), une algéro-vietnamienne très girly (Émilie Tran Nguyen), et une Indienne déjà en poste (Patricia Loi… En 2015, elle rejoint I-Télé puis BFMTV. Cette jeune maman enceinte de son deuxième enfant refuse de se laisser abattre et veut "rester debout". Chloé Nabedian et son Mari, mais qui est son compagnon ? tentez votre chance pour devenir son conjoint ! PORTRAIT – AURÉLIE CASSE : Une future star du PAF. De la rentrée 2017 à mi-mars 2018, elle est titularisée, en semaine, au Non Stop (9 h - 12 h) aux côtés de Damien Gourlet, remplaçant ainsi Roselyne Dubois partie en congé maternité. 20740. Les lecteurs qui regardent les chaînes d’info sur les bouquets satellitaires français ne peuvent pas ne pas avoir remarqué Aurélie Casse.  Casse commence sa carrière en 2014 chez LCI puis signe en 2015 avec I-Télé puis migre chez BFM TV à la fin de la même année. Adieu pâle patriarcat, bonjour féminisme coloré.  Après avoir débuté sur LCI, elle a travaillé sur Itélé avant de se retrouver, dès la semaine prochaine, sur BFM télé. Elle intègre l’agence Capa comme assistante et décide de reprendre des études de journalisme.À la suite de son stage de fin d’études à la chaîne d’information LCI, elle y est engagée en 2014 comme assistante. Retrouvez toutes les infos sur Aurélie Casse avec Télé-Loisirs.fr : sa biographie, son actualité, ses photos et vidéos. Adolescente, elle vit un an et demi à l’île Maurice. By La rédaction / 25 février 2018 . Share 8; Tweet; LinkedIn; 8 shares. En 2017, elle y présente  <br> <br>Nous tacherons de vous éclairer dans les quelques lignes qui viennent, avec en bonus des photos sexy de la splendide Chloé. Les « hommes blancs de plus de 50 ans » dégagent, aux profit des « jeunes femmes de la diversité ». Passionnée de journalisme dès son plus jeune âge, elle imite les journalistes qu’elle voit à la télé, avec son petit frère. Elle est belle, intélligente et tellement chou ! Nous voudrions effectuer une description ici mais le site que vous consultez ne nous en laisse pas la possibilité. 13 Déc 2015 19h00. Elle crée même un journal papier, Étudiante, elle rencontre le journaliste Victor Robert dont la passion pour le journalisme lui fait comprendre que c’est ce métier qu’elle veut faire. Delphine Ernotte, la boss du service public audiovisuel, cherche à « diversifier » la présentation du 20 Heures. Aurélie Casse voit le jour en 1986, à Limoux dans l’Aude, d’un père mauricien et d’une mère française. <br> <br>Déjà petite, Aurélie fantasmait de devenir journaliste et, avec son petit frère, se prenaient pour des stars de la télé..C’est en 2014 qu’elle commence sa carrière sur la chaine LCI avant de signer en 2015 chez I-Télé, c’est finalement l’écurie BFM TV qu’elle rejoint en fin de la même année.De la rentrée 2017 à mi-mars 2018, elle est titularisée en semaine au À partir de la rentrée 2018, elle s’occupe de la présentation de la matinale Aurélie Casse et son compagnon d’émission, Stefan Etcheverry, journaliste également, ils assurent ensemble la présentation de la matinale week-end.La belle journaliste remplace depuis Juin 2019 à 21 h, une belle évolution pour Aurélie Casse, journaliste montante de la chaîne Bfm Tv.Cette saison, elle pilotait la matinale week-end aux côtés de Stefan Etcheverry.Aurélie est une personnalité rayonnante du paysage audiovisuel français, tout comme ses consoeurs présentatrices méteo sur France 2, Aurélie Casse est-t’elle célibataire ? Aurélie Casse voit le jour en 1986, à Limoux dans l’Aude, d’un père mauricien et d’une mère française. Après son enfance à Maurice, son père, Robert Casse s’est délocalisé en France où il vit et travaille dans l’industrie informatique. Elle est née d’un père mauricien et d’une mère française, elle est titulaire d’un baccalauréat scientifiqueAurélie a vécu une bonne année à Maurice, elle y revient de temps en temps pour voir sa grand-mère maternelle, dont la beauté et le raffinement se ressemblent. Aurélie Casse et son compagnon Aurélie Casse et son compagnon d’émission, Stefan Etcheverry, journaliste également, ils assurent ensemble la présentation de la matinale week-end. Vous avez demandé Chloé Nabedian et son mari ?                             Vous avez 1 article à lire Adolescente, elle vit un an et demi à l’île Maurice. <br> <br>Du tri de dépêches à la voix off, elle y apprend le métier, puis anime la matinale du week-end avec Damien Givelet. Le 13 novembre dernier, Aurélie perdait l'homme de sa vie. <br>";s:7:"keyword";s:24:"aurélie casse compagnon";s:5:"links";s:6016:"<a href='https://backyard.synpat.com/site/article.php?page=plage-publique-gammarth-88a0eb'>Plage Publique Gammarth</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sims-5-2020-88a0eb'>Sims 5 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steel-ball-run-jojo-88a0eb'>Steel Ball Run Jojo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cahiers-de-nutrition-et-de-di%C3%A9t%C3%A9tique-impact-factor-88a0eb'>Cahiers De Nutrition Et De Diététique Impact Factor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cardio-course-%C3%A0-pied-88a0eb'>Cardio Course à Pied</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eurostar-vente-priv%C3%A9e-88a0eb'>Eurostar Vente Privée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=R%C3%A9mi-Garde-et-sa-femme-88a0eb'>Rémi Garde Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A0-nantes-elle-conflue-avec-la-loire-88a0eb'>à Nantes Elle Conflue Avec La Loire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-cordialement-mail-88a0eb'>Synonyme Cordialement Mail</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9codeur-tnt-wifi-darty-88a0eb'>Décodeur Tnt Wifi Darty</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romain-et-mathilde-koh-lanta-88a0eb'>Romain Et Mathilde Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jingle-radio-web-radio-88a0eb'>Jingle Radio Web Radio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fitness-master-class-cuisses-88a0eb'>Fitness Master Class Cuisses</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thierry-m%C3%A9decin-koh-lanta-88a0eb'>Thierry Médecin Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hyperbolic-mass-prix-alg%C3%A9rie-88a0eb'>Hyperbolic Mass Prix Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Olympique-Lyonnais-1974-88a0eb'>Olympique Lyonnais 1974</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lucie---pascal-obispo-piano-partition-88a0eb'>Lucie - Pascal Obispo Piano Partition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dylan-rocher-femme-88a0eb'>Dylan Rocher Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-seul-au-monde-chanson-88a0eb'>Tout Seul Au Monde Chanson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=montre-chronos-1898-88a0eb'>Montre Chronos 1898</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9sentation-d%27un-%C3%A9l%C3%A8ve-88a0eb'>Présentation D'un élève</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bo%C3%AEtier-pour-photo-animali%C3%A8re-88a0eb'>Boîtier Pour Photo Animalière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=monaco-flag-indonesia-88a0eb'>Monaco Flag Indonesia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=down-by-law-musique-88a0eb'>Down By Law Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nor%C3%A9-abdelali-%C3%A2ge-88a0eb'>Noré Abdelali âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-plateforme-vibrante-88a0eb'>Exercices Plateforme Vibrante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tifo-lyon-1950-88a0eb'>Tifo Lyon 1950</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2013-streaming-88a0eb'>Fort Boyard 2013 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pain-farine-pois-chiche-sarrasin-88a0eb'>Pain Farine Pois Chiche Sarrasin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comme-une-%C3%A9vidence-instrumental-88a0eb'>Comme Une évidence Instrumental</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=google-shortener-link-88a0eb'>Google Shortener Link</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-slam-d%C3%A9finition-88a0eb'>Le Slam Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-de-nice-2019-88a0eb'>Maillot De Nice 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lion-empaill%C3%A9-rat%C3%A9-88a0eb'>Lion Empaillé Raté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carolina-et-st%C3%A9phane-p%C3%A9kin-express-88a0eb'>Carolina Et Stéphane Pékin Express</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hydrolysat-de-cas%C3%A9ine-88a0eb'>Hydrolysat De Caséine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=six-pack-abs-how-to-get-them-fast-88a0eb'>Six Pack Abs How To Get Them Fast</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laura-branigan-chips-88a0eb'>Laura Branigan Chips</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-r%C3%A9pondre-%C3%A0-ramadan-mubarak-88a0eb'>Que Répondre à Ramadan Mubarak</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=s%C3%A9lection-martinique-football-88a0eb'>Sélection Martinique Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bet-tip-win-88a0eb'>Bet Tip Win</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-%C3%A0-dos-femme-marque-88a0eb'>Sac à Dos Femme Marque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-de-bordeaux-2019-88a0eb'>Joueur De Bordeaux 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=olivier-poli-football-88a0eb'>Olivier Poli Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=you-slay-traduction-88a0eb'>You Slay Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livre-nutrition-avis-88a0eb'>Livre Nutrition Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bim-bam-toi-gacha-life-88a0eb'>Bim Bam Toi Gacha Life</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fairfield-inn-montreal-88a0eb'>Fairfield Inn Montreal</a>,
+";s:7:"expired";i:-1;}

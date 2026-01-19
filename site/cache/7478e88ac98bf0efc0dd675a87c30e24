@@ -1,0 +1,88 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4985:"<br>                         11H01                     Jeanne Mas : Au bord de la rupture amoureuse, elle dit pourquoi Elle se retrouve donc assez seule comme elle l’avait expliquée dans l’émission de France 5, C à Vous.                 Jeanne Mas est sur les nerfs !                           6 août                                                5 août                                                3 août                      Découvrez son age, sa taille, date de naissance, signe du zodiaque, chinois, … Et ses comptes sur les réseaux sociaux : Facebook, Twitter, Youtube, Instagram. Elle a marqué les années 80 avec ses chansons, et son look si personnel, un peu gothique, même si le terme n’existait pas encore vraiment. <br> <br>Non Stop People vous en dit plus. Ce comportement consiste à ne rien consommer ni même utiliser de produits d’origine animale. Ce comportement consiste à ne rien consommer ni même utiliser de produits d’origine animale.Un choix de vie qu’elle assume pleinement et qu’elle mène depuis des années. Jeanne Mas est sur les nerfs !                           2 août                                                                                   Elle monte un groupe punk, fait des pubs télé, devient speakerine de l… L'année suivante, elle abandonne ces activités pour partir en Italie. <br> <br>Lors d’un récent entretien accordé à Paris Match, Jeanne Mas est revenue sur son quotidien, confiant n’avoir jamais été aussi bien dans sa peau. <br> <br>La chanteuse est en pleine promotion de son livre « Ma vie est une pomme » dans lequel elle parle de son régime végétalien. Mais cette attitude s’immisce jusque dans sa vie privée. <br> <br>Urticaire, asthme, croûtes sur les jambes : Jeanne Mas s’est sentie responsable des maux de Victoria. Dans une interview accordée à Ici Paris, la chanteuse de « En Rouge et Noir » pense que son compagnon consomme de la viande. Elle y signe un premier contrat avec la maison de disques RCA, qui publie son premier 45 tours, On the Moon3. Lundi 25 mai 2020 dans N'oubliez pas les paroles, Nagui a fait savoir qu'il ne portait pas                           3 août                      Une situation qu’elle ne peut pas accepter.Son comportement quotidien la pousse même à repousser n’importe quel être humain qui porterait ou mangerait quelque chose venant d’un animal.                           1 août                      <br> <br>                          4 août                      En cause, un changement radical dans sa vie. La chanteuse est en pleine promotion de son livre « Ma vie est une pomme » dans lequel elle parle de son régime végétalien. <br> Lionel, l’inoubliable interprète de “la danse des canards”, s’est…A peine remis de son confinement, le chanteur de 75 ans Gérard Lenorman doit…Pour Danièle Gilbert, cette animatrice mythique qui adore les gens, le contact…                           6 août                      C'est en 1984 en France que Jeanne Mas connaît le succès grâce à son titre Au printemps 1986, elle confirme son statut de nouvelle idole avec son deuxième album, À la même époque, elle lance en magasins une ligne de chaussures dessinées par elle-même et produites par le groupe Labelle. <br> <br>« Heureusement, l'artiste âgée de 58 ans peut compter sur l'amour de ses deux lapins, Félix et Jean...Le nouveau hors-série de nos confrères d'ICI Paris est actuellement en vente…Laurence, l'unique enfant de Juliette Gréco, a succombé à un cancer, après…C’est dans une souffrance épouvantable que le fils de Nathalie Marquay et…Laura Smet vient de faire des révélations fracassantes sur la disparition……la princesse Béatrice d'York s’est unie le 17 juillet à son fiancé, le…En désaccord avec le chef de l’état, Brigitte Bardot, la pasionaria de la……de Renaud, censé fustiger le covid-19, est un désastre qui désole ses…J.J. Publié le 17 mars 2016                           2 août                      En 1988, alors qu'elle fait une pause pour mettre au monde une petite fille, l'artiste s'indigne publiquement à la suite de la récidive d'un violeur d'enfants : elle écrit une lettre au président de la République Jeanne Mas revient sur le devant de la scène début 1989 avec un album aux textes plus engagés, Après une pause, elle surprend son public en 1996 avec L'année 2008 signe le retour sur scène de Jeanne Mas, tout d'abord en tant qu'invitée d'honneur le En 2010, elle est engagée avec ses musiciens pour la tournée Le 7 juillet 2011, Jeanne Mas publie son treizième album, Début 2017, elle annonce sur son compte Twitter la sortie le Deux autres extraits sont proposés pour promouvoir l'album : Pour la quatrième fois de sa carrière, Jeanne Mas retrouvera la scène de l'Olympia les 20 et 21 novembre 2020 avant une tournée de dix dates en France et en Belgique avec Cheyenne Productions ";s:7:"keyword";s:22:"jeanne mas et son mari";s:5:"links";s:4004:"<a href='https://backyard.synpat.com/site/article.php?page=accompagnement-pancake-patate-douce-88a0eb'>Accompagnement Pancake Patate Douce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-apr%C3%A8s-hiit-88a0eb'>Whey Après Hiit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-amazon-alexa-88a0eb'>Compte Amazon Alexa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=serge-nubret-abs-88a0eb'>Serge Nubret Abs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=logiciel-envoi-sms-group%C3%A9-gratuit-88a0eb'>Logiciel Envoi Sms Groupé Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mod%C3%A8le-de-lettre-de-demande-d%27enqu%C3%AAte-88a0eb'>Modèle De Lettre De Demande D'enquête</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-choses-perec-pdf-gratuit-88a0eb'>Les Choses Perec Pdf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikka-costa-age-88a0eb'>Nikka Costa Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boussole-ancienne-collections-88a0eb'>Boussole Ancienne Collections</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-abonnement-france-football-88a0eb'>Code Promo Abonnement France Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vieira-de-leiria-88a0eb'>Vieira De Leiria</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nissan-4x4-pick-up-88a0eb'>Nissan 4x4 Pick-up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-de-pachelbel-orgue-88a0eb'>Canon De Pachelbel Orgue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-sanchez-wikip%C3%A9dia-88a0eb'>Guillaume Sanchez Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ril%C3%A8s-thank-god-88a0eb'>Rilès Thank God</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=swan-et-n%C3%A9o-parc-aquatique-2019-88a0eb'>Swan Et Néo Parc Aquatique 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-faire-avec-un-reste-de-lait-de-coco-88a0eb'>Que Faire Avec Un Reste De Lait De Coco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-cap-petite-enfance-cr%C3%A8che-88a0eb'>Lettre De Motivation Cap Petite Enfance Crèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joint-kit-50-top-perf-euro-3-88a0eb'>Joint Kit 50 Top Perf Euro 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-de-chanson-connue-88a0eb'>Paroles De Chanson Connue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=white-lines-saison-2-quand-88a0eb'>White Lines Saison 2 Quand</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inshape-nutrition-bruleur-de-graisse-88a0eb'>Inshape Nutrition Bruleur De Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-vendeuse-dior-88a0eb'>Salaire Vendeuse Dior</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-maison-de-la-radio-adresse-88a0eb'>La Maison De La Radio Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=forfait-illimit%C3%A9-orange-88a0eb'>Forfait Illimité Orange</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-guitare-rock-88a0eb'>Musique Guitare Rock</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=id%C3%A9e-slogan-automobile-88a0eb'>Idée Slogan Automobile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ac-dc-back-in-black-backing-track-with-vocals-88a0eb'>Ac Dc Back In Black Backing Track With Vocals</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%D9%8A%D9%88%D8%B3%D9%81-%D8%A7%D9%84%D9%82%D8%B1%D8%B6%D8%A7%D9%88%D9%8A-%D9%81%D9%8A-%D8%B0%D9%85%D8%A9-%D8%A7%D9%84%D9%84%D9%87-88a0eb'>يوسف القرضاوي في ذمة الله</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roxane-roxane-film-88a0eb'>Roxane Roxane Film</a>,
+";s:7:"expired";i:-1;}

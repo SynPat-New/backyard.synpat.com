@@ -1,0 +1,106 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6732:"<p>Did he want to go a different direction from Stray Kids?There’s a possibly that the key underwater is Hyunjin’s. 부작용 (Side Effects) Returning to the lighter and more romantic style that first made them famous, It’s definitely funky. We felt like our music has been like in a much slower, more mellow place. Hyunjin goes up to him and snatches the camera away from him.Woojin and Chan holds him back and the other members hold Seungmin back. We sit down and we’ll talk for 4 or 5 hours and then a song will just kind of fall out. No, but she’s the best. Side Effects It is composed of eight members: Bang Chan, Lee Know, Changbin, Hyunjin, Han </p> <p>Seungmin takes out his camera to take some photos of it. And it’s summertime, and we feel like we really wanted to make an upbeat summertime record – and that’s what we came up with. Side Effects Stray Kids . In SKZ’s debut MV “District 9,” it shows Chan distributing some kind of note. But then, Hyunjin is the only member that tries to shove him down back to his seat.Then, the vehicle stops because of a blockage. She’s probably one of our favorite human beings, period. There’s also a scene where someone clenches his fists, and it seem to be Hyunjin, since the next scene shows him. Stray Kids - TMT (별생각) Lyrics KOREAN Romanization, Korean, Translation. [Laughs.] Right when the song starts, you see Stray Kids walking forward, happy with their decision to not take that bus that passed by. Wait, this is strange, it’s getting blurry Why isn’t this ending? Stray Kids is a K-pop group formed by JYP Entertainment through the 2017 reality show of the same name. I keep hearing that anxious sound Even from … Dallas Smith Lyrics "Side Effects" Midnight knock, On the front door let you in, We don't talk Kiss for kiss, We trade this rush again, We can't stop Yea there's something so narcotic About how bad I want it, Forget about the price of the pain, I'm just a junky for the fix, Even though it hits Like a gun shot the next day Your lips should come with a warnin' Your … We always joke that it’s like these long therapy sessions before we start writing. Everywhere is closed, I should just go home, yeah. I … Changbin comes and pushes Hyunjin, Chan, and Woojin away. (Common side effects include nervousness, insomnia, nausea, agitation, anxiety) 머리 아프다 (Woo, ho) (Vision problems, psychosis, dizziness, headaches, weight loss) vistas 10.304. nal mitgoseo nal deonjyeosseo hajiman wae hwipsseulligo isseulkka nal mitgoseo nal deonjyeosseo hajiman wae apeugiman han geolkka da bikyeo (sashil nan) naega maja (museobda) da dugo bwa (hal su itna?) </p> <p></p> <p>Stray Kids - 부작용 (Side Effects) (Romanisé) Lyrics & Traduction. One of Stray Kids' many songs regarding mental health, “Side Effects” shows a [supposedly] boy who’s been deceived by other people and especially himself.The lyrics are drenched with pessimism, self-sabotage, self-doubt and hopelessness, which ultimately describes the feelings of the muse for this track.He takes pills in order to help him out, but they don’t seem to aid anything at all since the side effects only contribute to worsen his state. Hyunjin, Minho, and Woojin were members who weren’t shown reading the note. Seungmin, Jeongin, Han, Changbin, and Felix were seen reading the note. My feet are taking me to your front door. When you’re comfortable with someone and they know you well, it’s really easy to make music that you enjoy and are excited about. geu maldeureul jikiji mothalkka duryeobda jeomjeom nan dallajyeo wae angwa bakki dallajyeo … Seungmin, Jeongin, Han, Changbin, and Felix were seen reading the note. </p> <p>She’s such a good listener, and she’s so clever, and you’ll say something and she’s like, “oooh, lets keep talking about that.” Eventually a song falls out." He must be going crazy because of the side effects that he did that. </p> <p>Changbin could even have been telling him, “Why would you fight against him? i looked to see if i could figure out what it was that they were trying to treat but i couldnt find anything. Our music is almost always a reflection of what we’re going through at that moment, and as soon as the weather got better, and everything warmed up – we started making music that reflected that.”We love writing about millennial relationships, for better or worse. Side Effects (Ft. District 9) Theory ༊ In SKZ’s debut MV “District 9,” it shows Chan distributing some kind of note. It’s really exciting that she’s featured on this record and hopefully the world loves it, ‘cause I think it’s time that they all get to know who Emily Warren is.Writing songs with people, it comes down to your connection with them. </p> <p>Compartir en Facebook Compartir en Twitter. Side Effects Lyrics. The city looks very similar to the one in Hellevator.If you listen closely, there’s a man in the background saying, “Side Effects include nervousness, insomnia, nausea, agitation, anxiety, etc.” I’m thinking Hyunjin has gotten the side effect of agitation, since he’s being so “negative” to Seungmin and Felix.In the last scene of “Side Effects,” Hyunjin is on the grass, laying down. </p> <p>The MV only shows him staring at Chan walking by.The color yellow in some cases mean happiness and optimism. </p> <p>Emily is just the most fun. Side Effects Lyrics: It's 4AM, I don't know where to go / Everywhere is closed, I should just go home, yeah / My feet are taking me to your front door / I … This website saves cookies to your browser in order to improve your online experience and show you personalized content. As Felix sings his line, Hyunjin has this little line where he says, “Can I do it?” He might be trying to say, “Can I overcome it” as well.And in a few scenes, Hyunjin was shown looking out of the vehicle and sighing.And as the MV goes on, Felix stands up to look at something beautiful he might have seen.  He’s already experiencing side effects of trashing the note away already.”They get back into the pickup truck, and start moving once again. She’s so not only intelligent, but she’s so well-read in so many different things. [Verse 1: Emily Warren] It's 4AM, I don't know where to go. Hyunjin is slowing behind the other 8 and seems hesitant about their choice.As Stray Kids walk by, if you look up, there are two moons. i was wondering if anyone else figured it out but i havent seen anything yet. after writing this blog and seeing the mv a few more times, i noticed a lot more things, but i was too lazy to rewrite 8-8A lovely place where you can share your love for Kpop with people from all over the world! </p>";s:7:"keyword";s:18:"monture canon ef s";s:5:"links";s:6250:"<a href='https://backyard.synpat.com/site/article.php?page=dinos-presque-c%C3%A9l%C3%A8bre-88a0eb'>Dinos Presque Célèbre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-de-foot-pas-cher-2019-2020-88a0eb'>Maillot De Foot Pas Cher 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=texte-scientifique-exemple-88a0eb'>Texte Scientifique Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shot-down-in-flames-chords-88a0eb'>Shot Down In Flames Chords</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marthe-villalonga-bedos-88a0eb'>Marthe Villalonga Bedos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shape-shake-effet-secondaire-88a0eb'>Shape Shake Effet Secondaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-plus-belles-villas-de-france-88a0eb'>Les Plus Belles Villas De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=1-million-de-gourmandises-88a0eb'>1 Million De Gourmandises</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-seux-%C3%A9pous%C3%A9-88a0eb'>Dominique Seux épousé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=journaliste-c-l%27hebdo-88a0eb'>Journaliste C L'hebdo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=info-magazine-limoges-contact-88a0eb'>Info Magazine Limoges Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alice-braga-fortune-88a0eb'>Alice Braga Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prendre-du-muscle-sec-88a0eb'>Prendre Du Muscle Sec</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faites-entrer-laccus%C3%A9-youtube-2009-88a0eb'>Faites Entrer Laccusé Youtube 2009</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lunch-run-traduction-88a0eb'>Lunch Run Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-processus-d%27influence-sociale-88a0eb'>Les Processus D'influence Sociale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mass-gainer-30-88a0eb'>Mass Gainer 30</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-femme-est-l%27avenir-de-l%27homme-dissertation-88a0eb'>La Femme Est L'avenir De L'homme Dissertation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=depuis-longtemps-d%C3%A9j%C3%A0-88a0eb'>Depuis Longtemps Déjà</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=H%C3%B4tel-Club-Maintenon4%2C1%28225%29%C3%80-0%2C2%C2%A0km9%E2%80%AF657%C2%A0%E2%82%B9-88a0eb'>Hôtel Club Maintenon4,1(225)À 0,2 km9 657 ₹</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heetch-alg%C3%A9rie-chauffeur-88a0eb'>Heetch Algérie Chauffeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=enora-malagr%C3%A9-en-couple-88a0eb'>Enora Malagré En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=edinburgh-castle-visit-88a0eb'>Edinburgh Castle Visit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=enigme-qu%27est-ce-qui-est-au-milieu-de-paris-88a0eb'>Enigme Qu'est Ce Qui Est Au Milieu De Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=darcheville-fc-nantes-88a0eb'>Darcheville Fc Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=billetterie-stade-du-dragon-88a0eb'>Billetterie Stade Du Dragon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-cover-88a0eb'>Fifa 20 Cover</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Yumee-kty-origine-88a0eb'>Yumee Kty Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perles-rocailles-miyuki-11%2F0-88a0eb'>Perles Rocailles Miyuki 11/0</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=copine-pfut10-insta-88a0eb'>Copine Pfut10 Insta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9lastique-cross-training---training-band-88a0eb'>élastique Cross-training - Training Band</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bagarre-de-filles-aux-usa-youtube-88a0eb'>Bagarre De Filles Aux Usa Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=indochine-stade-de-france-2021-88a0eb'>Indochine Stade De France 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=centrale-la-grande-3-88a0eb'>Centrale La Grande-3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bfm-banque-espace-client-88a0eb'>Bfm Banque Espace Client</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pur%C3%A9e-patate-douce-vache-qui-rit-88a0eb'>Purée Patate Douce Vache Qui Rit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=newcastle-que-faire-88a0eb'>Newcastle Que Faire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=devenir-avocat-%C3%A0-la-cour-de-cassation-88a0eb'>Devenir Avocat à La Cour De Cassation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=signer-un-mail-88a0eb'>Signer Un Mail</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chiffre-d%27affaire-d%27une-epicerie-88a0eb'>Chiffre D'affaire D'une Epicerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=projecteur-en-4-lettres-88a0eb'>Projecteur En 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=son-le-sien-en-anglais-88a0eb'>Son Le Sien En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beurre-de-cacahu%C3%A8tes-sans-sucre-88a0eb'>Beurre De Cacahuètes Sans Sucre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Euro-2000-%3A-France-88a0eb'>Euro 2000 : France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%AApe-patate-douce-bonnefont-88a0eb'>Crêpe Patate Douce Bonnefont</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-tezenas-du-montcel-wikip%C3%A9dia-88a0eb'>Jean Tezenas Du Montcel Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-dcp-l2530dw-toner-amazon-88a0eb'>Brother Dcp-l2530dw Toner Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-de-mirah-wow-classic-88a0eb'>Chanson De Mirah Wow Classic</a>,
+";s:7:"expired";i:-1;}

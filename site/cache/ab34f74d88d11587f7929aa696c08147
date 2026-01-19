@@ -1,0 +1,109 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4564:"<p>Réalisé en 2000 - durée 3 h 01 mn Au Père Lachaize pour les 140 ans de la Commune. Femmes et enfants ne travaillent pas. C'est le début de la Commune de Paris De plus en plus de genssedéplacentdéménagentdésormais dese lacampagnesvers les grandes villes, l. Le nombre de petits ateliers se réduit et le nombre d’ouvriers augmente massivement avec l’industrialisation. </p> <p>En quelques semaines, on en compte plus de 5000.Dès le 6 septembre le gouvernement français, sous Adolphe Thiers, commença les négociations de paix avec l´Allemagne. Leurs salaires varient, mais sont dans la plupart des cas supérieurs à ceux d´un ouvrier. L´empereur de l´époque Napoléon III est plus ou moins accommodant envers les revendications des ouvriers. Le soulèvement du 18 mars 1871 est la riposte des révolutionnaires parisiens à la décision du gouvernement d'Adolphe Thiers de leur retirer leurs armes et leurs canons volés. Certains témoins de l´époque rapportent que l’on commence même à vendre de la viande de rats et de chats. Voir la Les journalistes se rendent sur les lieux où naît la Commune : mairie, barricades, clubs féministes, Peter Watkins demande aux acteurs, plusieurs mois avant le tournage, d'effectuer eux-mêmes une recherche historique sur Ces recherches personnelles complèteront celles effectuées par une autre équipe propre à la réalisation, composée notamment d'éminents historiens. Annexe La Chronologie des évènements de la Commune de ParisLe 28 mars en 1871 la Commune de Paris est déclarée, suite à une révolte socialiste menée par les ouvriers parisiens, nommés les ‘Communards’. Malheureusement, ce ne sont pas les ouvriers qui profitent de la diminution des prix de biens, mais plutôt la bourgeoisie. En outre, plus de 70 000 artisans et petits commerçants se trouvent dans une situation financière comparable à celle des ouvriers.Dans les villes, cette nouvelle classe sociale habite majoritairement dans des quartiers d´ouvriers, qui se situent généralement près des usines.L’air de cCes quartierssursont trèspeuplés esttsaturé parenvahis dela poussière de charbon provenant des usines, qui affectentla santé des habitants. Vous pouvez aider en ajoutant des références ou en supprimant le contenu inédit. Par conséquent, de nombreux ouvriers tombent malades, voireenmeurent dans certains cas. Ce texte décrit les évènements, le contexte, l’influence, les côtés négatifs et positifs de cette révolution unique.Avec l´invention de la machine à vapeur et l’introduction des grandes usines auXIX19e siècle, se forme également la couche sociale des ouvriers. Déroutant certes, mais cela n'est-il pas opportun, réflexion faite, d'entendre parler de droit au logement au Dans le but de favoriser, cette fois-ci, l'implication de ce que l'on a dès lors du mal à appeler encore un « spectateur » — tant ce dernier est habituellement associé à la notion de passivité — Conséquence, entre autres, de ces longs plans ininterrompus habituellement découpés et réduits dans la phase de montage du film, Traduisant ainsi leur implication réelle dans le processus du film, quelques comédiens et « spectateurs » ont créé l'association En recherchant, pour son film, des processus cinématographiques ouverts et participatifs, Vincent Avenel sur le site internet critikat.com estime qu'il s'agit d'une œuvre maîtresse dans la filmographie de Proclamation de la Commune de Paris, le 29 mars 1871.Cette section est vide, insuffisamment détaillée ou incomplète. La Commune (Paris, 1871) est un film historique français en deux parties de Peter Watkins, diffusé en 2000.Il prend place lors de la Commune de Paris, en 1871.. Premièrement diffusé sur Arte en 2000, il sort sept ans plus tard au cinéma dans une version écourtée de trois heures. En général, ils mènent une vie relativement agréablevoireoumême luxueuseCette scission des classes avec une telle différence de qualité de vie, mène au mécontentement dans la société ouvrière. La garde nationale, milice de citoyens formée en 1789 dans chaque ville, essaye encore de maintenir la santé des citoyens parisiens avec le soutien financier des pauvres et la mise à disposition de nourriture. 3.Conclusion Résumé : Particularités et acquisitions de la Commune5. » Sebastian Haffner 1, journaliste brittanique-allemenand. On pourrait dire: Le 20e siècle commence le 18 mars 1871 à Paris. Ceci mène à des maladies, comme par exemple, la tuberculose. </p>";s:7:"keyword";s:31:"la commune paris, 1871 partie 2";s:5:"links";s:6526:"<a href='https://backyard.synpat.com/site/article.php?page=flex-wheeler-comeback-88a0eb'>Flex Wheeler Comeback</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pronostic-juventus-roma-88a0eb'>Pronostic Juventus Roma</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-ventre-plat-femme-88a0eb'>Objectif Ventre Plat Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-public-de-france-foot-2020-88a0eb'>Meilleur Public De France Foot 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synth%C3%A8se-d%C3%A9finition-philosophique-88a0eb'>Synthèse Définition Philosophique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-types-de-ram-88a0eb'>Les Types De Ram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=face-pull-halt%C3%A8re-88a0eb'>Face Pull Haltère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=https-www-europol-europa-eu-careers-procurement-vacancies-88a0eb'>Https Www Europol Europa Eu Careers Procurement Vacancies</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tu-m%27appr%C3%A9cie-definition-88a0eb'>Tu M'apprécie Definition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-classe-avec-montessori-maths-88a0eb'>En Classe Avec Montessori Maths</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-roissy-en-france-spa-88a0eb'>Hôtel Roissy En France Spa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lyon-en-commun-88a0eb'>Lyon En Commun</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-aux-pruneaux-d%27agen-thermomix-88a0eb'>Tarte Aux Pruneaux D'agen Thermomix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yamina-niya-c%C3%A9libataire-88a0eb'>Yamina Niya Célibataire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-chez-laurette-88a0eb'>Partition Chez Laurette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tp-topographie-mesure-des-distances-88a0eb'>Tp Topographie Mesure Des Distances</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perles-heishi-belgique-88a0eb'>Perles Heishi Belgique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remise-en-forme-d%C3%A9finition-88a0eb'>Remise En Forme Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ventre-plat-m%C3%A9nopause-88a0eb'>Ventre Plat Ménopause</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Parole-de-chanson-fran%C3%A7aise-88a0eb'>Parole De Chanson Française</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angie-harmon-films-et-programmes-tv-88a0eb'>Angie Harmon Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quel-produit-acheter-en-allemagne-88a0eb'>Quel Produit Acheter En Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=passions-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Passions Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=staybridge-suites-times-square-avis-88a0eb'>Staybridge Suites Times Square Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=actualit%C3%A9-renault-f1-88a0eb'>Actualité Renault F1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=statistique-ethnique-france-88a0eb'>Statistique Ethnique France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cnews-zemmour-horaires-88a0eb'>Cnews Zemmour Horaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-la-tombe-de-guy-bedos-88a0eb'>Photo De La Tombe De Guy Bedos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-nouveau-look-pour-une-nouvelle-vie-%C3%A9pisode-88a0eb'>Un Nouveau Look Pour Une Nouvelle Vie épisode</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniel-bryan-et-brie-bella-88a0eb'>Daniel Bryan Et Brie Bella</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-guitare-rock-88a0eb'>Musique Guitare Rock</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-chanteur-ukulele-88a0eb'>Le Chanteur Ukulele</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=match-day-film-barcelona-88a0eb'>Match Day Film Barcelona</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=madame-est-servie-wikip%C3%A9dia-88a0eb'>Madame Est Servie Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=conseil-final-koh-lanta-2020-88a0eb'>Conseil Final Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lyc%C3%A9e-aristide-briand-nantes-88a0eb'>Lycée Aristide Briand Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ressentir-le-d%C3%A9sir-de-l%27autre-88a0eb'>Ressentir Le Désir De L'autre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=retrouver-un-tweet-supprim%C3%A9-88a0eb'>Retrouver Un Tweet Supprimé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-rouge-et-noir-karaoke-88a0eb'>En Rouge Et Noir Karaoke</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-dernier-cri-88a0eb'>Le Dernier Cri</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-dubai-palm-atlantis-88a0eb'>Hotel Dubai Palm Atlantis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9ation-de-la-cee-88a0eb'>Création De La Cee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chamboule-tout-auchan-88a0eb'>Chamboule Tout Auchan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-don-t-play-by-the-rules-88a0eb'>I Don T Play By The Rules</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arr%C3%AAter-de-fumer-effet-88a0eb'>Arrêter De Fumer Effet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=transport-pedretti-offre-d%27emploi-88a0eb'>Transport Pedretti Offre D'emploi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-de-bons-conseils-88a0eb'>être De Bons Conseils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dad-le-livre-88a0eb'>Dad Le Livre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeanne-mas-et-son-mari-88a0eb'>Jeanne Mas Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sony-sel-fe-20mm-f1-8-g-88a0eb'>Sony Sel Fe 20mm F1 8 G</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-gouix-agent-88a0eb'>Guillaume Gouix Agent</a>,
+";s:7:"expired";i:-1;}

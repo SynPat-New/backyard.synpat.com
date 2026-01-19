@@ -1,0 +1,85 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4062:"<br>La somme de l'ensemble des notes donne la note finale de l'école, qui permet de déterminer le classement des écoles. C'est pour cela que l'on parle de « mardi gras ». Cependant, aucune de ces tentatives n'a abouti. Les deux meilleures écoles de chaque groupe montent dans le groupe au-dessus, tandis que les deux dernières descendent (un peu comme au football). Selbst an der hell beleuchteten Copacabana überkommt einen deshalb ein etwas mulmiges Gefühl. Carnival in Riio, Brazil. « Às 10 horas da noite era enorme a massa de povo na avenida Central, sendo iniciado com algum entusiasmo o jogo de Ces défilés ont lieu de nuit, de 21 heures à 6 heures du matin. <br> <br>À cette époque, plusieurs tentatives de modification de la date du carnaval eurent lieu : il s'agissait de le transposer en hiver (de juin à août dans l'hémisphère sud), afin d'éviter les maléfices d'un été trop chaud. Die Angst, an jeder Ecke überfallen … Chaque école doit donc se soumettre à un certain nombre de règles strictes. Le mardi gras est le jour le plus important de la période du carnaval. <br> <br>Pendant toute la durée du défilé, les participants doivent reprendre en chœur les paroles de la samba de enredo et danser sur sa musique, tout en veillant à ne pas perdre de pièce de son costume (chapeau, cape...). Si ces conditions ne sont pas respectées par l'ensemble des participants, l'école risque de perdre des points, et donc d'avoir un moins bon classement. Auch interessant: So funktioniert der Karneval in Rio de Janeiro. Dans les écoles du groupe spécial, environ 3 000 personnes costumées défilent. Rio de Janeiro est une grande ville du sud-est du Brésil, et la capitale de l’État du même nom. Aussi surprenant que cela puisse paraître de nos jours aux néophytes, le « L'idée de mouvement se joint au concept de diversion et influence la manière dont le C'est ce modèle d'occupation festive des rues que l'élite « Même les dénominations se francisent complétement, et les L'importation des traditions carnavalesques parisiennes à Rio est vue par la bourgeoisie au « Pendant que les blancs s'abandonnent aux distractions mondaines ; les nègres se livrent avec une sorte de furie bestiale à tous les excès de la danse.  Le carnaval de Rio est l'un des carnavals les plus célèbres au monde. 26.07.2016 - Le carnaval de Rio défile sur Pinterest - Carnaval de Rio. Avant de jeûner, il était habituel de faire le plein d'aliments gras et de vider les réserves de viande et d'œufs. Le Carnaval de Rio a notamment des origines africaines, et cela ressort de façon évidente quand on considère les costumes exotiques faits à partir d'os, de plumes, et de paillettes, et bien sûr, lorsque l'on pense à la samba qui est aujourd'hui la composante principale des festivités du Carnaval. Les esclaves africains amenés par les Cela explique, pourquoi, lors du carnaval, les différents groupes des À l'issue de ces défilés, un classement, rendu public le mercredi suivant le carnaval, est attribué. Meiden Sie nach 22 Uhr ziellose Spaziergänge durch Rios Straßen! Cependant, du fait du retard qui s'accumule d'école en école, la dernière école défile généralement dans le jour levant. C'est un jour de fête, car c'est le dernier jour avant d'entamer la période de carême. Don Camillo, Rio de Janeiro Picture: ambiance carnaval - Check out Tripadvisor members' 54,084 candid photos and videos of Don Camillo Amflora : Les améliorations : enzyme GBSS La pomme de terre StCDF1 : Dues à une diversité allélique permettant de modifier son horloge circadienne Amérindiens Variété conventionnelle : - Résistance - Composition des tubercules -Impliqué dans les cycles circadiens -Existence d'un Le Carnaval de Rio est l'événement touristique le plus important de la municipalité de Rio et la fête nationale la plus populaire au Brésil, en particulier à Rio de Janeiro.Il est devenu un vrai synonyme de la célébration du carnaval dans le pays et même au monde. <br>";s:7:"keyword";s:30:"exposé sur le carnaval de rio";s:5:"links";s:3588:"<a href='https://backyard.synpat.com/site/article.php?page=polo-fortnite-sauver-le-monde-88a0eb'>Polo Fortnite Sauver Le Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gateau-oriental-pour-mariage-prix-88a0eb'>Gateau Oriental Pour Mariage Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vers-la-tendresse-streaming-vf-88a0eb'>Vers La Tendresse Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mass-tech-vs-serious-mass-88a0eb'>Mass Tech Vs Serious Mass</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guide-the-witcher-3-fran%C3%A7ais-88a0eb'>Guide The Witcher 3 Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-chlo%C3%A9-bottet-date-de-naissance-88a0eb'>Anne-chloé Bottet Date De Naissance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-photographe-immobilier-88a0eb'>Plateforme Photographe Immobilier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma-vie-en-espagnol-88a0eb'>Ma Vie En Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-filles-au-chocolat-film-88a0eb'>Les Filles Au Chocolat Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-lejeune-ch%C3%A2lons-en-champagne-88a0eb'>Taxi Lejeune Châlons En Champagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9velopp%C3%A9-halt%C3%A8re-unilat%C3%A9ral-88a0eb'>Développé Haltère Unilatéral</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=num%C3%A9ro-virtuel-sms-88a0eb'>Numéro Virtuel Sms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-api-include_rts-88a0eb'>Twitter Api Include_rts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traitement-m%C3%A9diatique-covid-88a0eb'>Traitement Médiatique Covid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-2020-roubaix-pdf-88a0eb'>Calendrier Ramadan 2020 Roubaix Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-rapprocher-sa-poitrine-88a0eb'>Comment Rapprocher Sa Poitrine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-ne-recois-pas-le-code-d%27authentification-twitter-88a0eb'>Je Ne Recois Pas Le Code D'authentification Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=leonardo-express-plan-88a0eb'>Leonardo Express Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wodapalooza-leaderboard-2018-88a0eb'>Wodapalooza Leaderboard 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-motivation-koh-lanta-88a0eb'>Lettre Motivation Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-livraison-gratuite-myprotein-88a0eb'>Code Livraison Gratuite Myprotein</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daisi-et-natascha-88a0eb'>Daisi Et Natascha</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=L%27Emprise-des-t%C3%A9n%C3%A8bres-88a0eb'>L'Emprise Des Ténèbres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-s%C3%A9lection%2C-tome-3-lire-en-ligne-88a0eb'>La Sélection, Tome 3 Lire En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-sneakers-femme-2019-88a0eb'>Nike Sneakers Femme 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Simple-%26-Funky-88a0eb'>Simple & Funky</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tier-list-skin-league-of-legends-88a0eb'>Tier List Skin League Of Legends</a>,
+";s:7:"expired";i:-1;}

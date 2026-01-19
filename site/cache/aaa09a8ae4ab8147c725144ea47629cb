@@ -1,0 +1,134 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6116:"<p>and the average value for Breed 3 is 600 lbs.                         tout à fait d’accord.                                                3.5/5bon film et fallait pas ce ratée avec les chien  bien réussi             I still haven’t beaten it yet but it’s so good I had to buy the sequal “Assualt”.                                        YOu guys ROCK!! Ex.                                          Lire ses 2 480 critiques                                                                                                                                                     </p> <p>                                    Vendredi 13 - Chapitre 5 : une nouvelle terreur Bande-annonce VOCiné Music Festival : The Cure Live in Hyde Park - 2018 Bande-annonce VO                               j'ai vraiment pour le coup détesté le film!          Les chiens ne sont pas effrayants et les effets très pauvres.                                                      Composite progeny can be very phenotypically consistent, which is an advantage in the marketplace.                                        </p> <p>                        Le film est moyen car la réalisation est monotone mais les chiens sont bien utilisés et dressés ( à contrario de Wolf Town ).                                                      RÉALISATION: CONVIENT POUR LES PUBLICS: Réalisé par Nicholas Mastandrea.                                                                                       De plus, les molosses sont tout sauf ridicules.          aucun réalisme dans le comportement des acteurs, c'est un pur navet qui est juste insupportable!          and the average value for Breed 3 is 600 lbs.                                                                                                                                                                                  Cliché, ridicule, mal foutu, ce film empile les mauvais points.                          BIDON UNE GROCE M....                    Dans ce cas de figure où l'instinct a repris le dessus sur l'asservissement, il est avant tout question de prédateurs redoutables.                               </p> <p>						New N. Verted Mode, playable characters, and more revealed for Crash Bandicoot 4: It’s About Time						 </p> <p>          tv-shows tv-schedules petsource wild animals games video blogs roar newsletters shop What size dog are you interested in? </p> <p>                               3/5                                     </p> <p>The Breed est le premier film réalisé par Nicholas Mastandrea, collaborateur de longue date de Wes Craven.                                                                                                                exactly what XMbeaner said. If you liked Episode 1 we think you will love the rest.I know someone that loves these games.                                                                                    i may have platinumed these already but i still play em cause of how fun they are.Nice to see people getting their moneys worth from the games. Ne sert à rien.                                                  </p> <p>                                            I’ve heard some great things about the series and would love to get them all in one shot.just got the first 2 on sale.               </p> <p> Breeds that are more genetically different (Brahman and Hereford) will exhibit more heterosis than breeds that are more genetically alike (Simmental and Limousin).                   Publiée le 23 juillet 2009 							Senior Manager of Game Services Content, SIE						      I’d love a bundle price, too.                                                                                                                                                      </p> <p>www.allocine.fr/video/player_gen_cmedia=19536360&cfilm=60780.html  Très mauvais! </p> <p>          The Breed est un film réalisé par Nicholas Mastandrea avec Michelle Rodriguez, Taryn Manning. </p> <p>With Michelle Rodriguez, Oliver Hudson, Taryn Manning, Eric Lively. Alien Breed™ 3: Descent is the final explosive chapter in the Alien Breed™ series, and is a science fiction arcade-shooter with an epic story, swarms of highly intelligent alien enemies, high-impact weapons and stunning environments, developed using Epic Games' Unreal® Engine 3.          </p> <p>                       For example, if the average value for weaning weight of Breed 1 is 500 lbs.                            </p> <p>                                    Je recommande fortement.                                                                                     </p> <p>                 </p> <p>                 Au premier abord, le fond de l'histoire est tout à fait basique: cinq jeunes gens se retirent pour un weekend sur une ile à priori déserte.                               </p> <p>                            Selection of the parents for their potential genetic contribution to a trait (called the additive genetic effect) will be more important than heterosis or breed effects.                          The use of EPDs and other selection tools within a breed should not be discarded for the sake of heterosis. </p> <p>                                                          </p> <p>                  Yay!                        </p> <p>                                                                                                   And it’s very easy on the wallet aswell.                                           </p> <p>2.5/5                                        Mais, pour The Breed, les rôles sont inversés, le réalisateur devient producteur et le producteur prend la place du réalisateur.                       Heterosis is defined as the difference in the value of a trait compared to the average value of the parents for the trait. </p> <p>                       </p> <p>                                   Publiée le 24 septembre 2009               my back log is growning out of hand.. i  shouldve did my homework better tho thats all.. this game is fun overallFINALLY!!!      </p>";s:7:"keyword";s:11:"the breed 3";s:5:"links";s:9802:"<a href='https://backyard.synpat.com/site/article.php?page=bcaa-%2B-glutamine-xpress-600g-88a0eb'>Bcaa + Glutamine Xpress 600g</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gagnant-occupation-double-2017-88a0eb'>Gagnant Occupation Double 2017</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=isma%C3%ABl-bennacer-dates-d%27-inscription-88a0eb'>Ismaël Bennacer Dates D' Inscription</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Symbole-de-la-France-88a0eb'>Symbole De La France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles---dalida-%28accords-guitare%29-88a0eb'>Paroles - Dalida (accords Guitare)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=employ%C3%A9-de-maison-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Employé De Maison Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=team-fortnite-discord-88a0eb'>Team Fortnite Discord</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=publier-un-texte-sur-internet-88a0eb'>Publier Un Texte Sur Internet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capitaine-haddock-insultes-youtube-88a0eb'>Capitaine Haddock Insultes Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=spy-scan-vf-88a0eb'>Spy Scan Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=commission-europ%C3%A9enne----concurrence-88a0eb'>Commission Européenne -- Concurrence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-d5300-objectif-18-105-88a0eb'>Nikon D5300 Objectif 18-105</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-de-personnalit%C3%A9-couleur-quizz-biz-88a0eb'>Test De Personnalité Couleur Quizz Biz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dance-challenge%2C-tik-tok-2020-88a0eb'>Dance Challenge, Tik Tok 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9finition-de-temps-en-temps-88a0eb'>Définition De Temps En Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marion-delpech-c-news-88a0eb'>Marion Delpech C News</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aspiration-professionnelle-exemple-88a0eb'>Aspiration Professionnelle Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abs-workout-gym-woman-88a0eb'>Abs Workout Gym Woman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=11%3A00-am-bst-88a0eb'>11:00 Am Bst</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mido-multifort-automatic-88a0eb'>Mido Multifort Automatic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-fromage-blanc-sans-levure-88a0eb'>Pancake Fromage Blanc Sans Levure</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanteuse-yseult-nouvelle-star-88a0eb'>Chanteuse Yseult Nouvelle Star</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livre-swan-et-n%C3%A9o-amazon-88a0eb'>Livre Swan Et Néo Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=naoil-enceinte-koh-lanta-88a0eb'>Naoil Enceinte Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-10-20-pentax-test-88a0eb'>Sigma 10-20 Pentax Test</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-women%27s-best-%3A-avis-88a0eb'>Whey Women's Best : Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=entra%C3%AEnement-militaire-france-88a0eb'>Entraînement Militaire France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hommage-%C3%A0-gr%C3%A9gory-lemarchal-88a0eb'>Hommage à Grégory Lemarchal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nero-nemesis-lamborghini-88a0eb'>Nero Nemesis Lamborghini</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%B4-puits-nevers-88a0eb'>ô Puits Nevers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=intro-gotaga-remix-88a0eb'>Intro Gotaga Remix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kelly-et-neymar-les-anges-88a0eb'>Kelly Et Neymar Les Anges</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-appartement-r%C3%A9sidence-thalassa-marseille-88a0eb'>Location Appartement Résidence Thalassa Marseille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bouazza-ouassini-photo-88a0eb'>Bouazza Ouassini Photo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brighton-pier-unlimited-rides-wristbands-88a0eb'>Brighton Pier Unlimited Rides Wristbands</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=reprise-ancien-canap%C3%A9-alin%C3%A9a-88a0eb'>Reprise Ancien Canapé Alinéa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tifo-dortmund-frankfurt-88a0eb'>Tifo Dortmund Frankfurt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=furious-jumper-sur-roblox-88a0eb'>Furious Jumper Sur Roblox</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nas-the-firm-affirmative-action-88a0eb'>Nas The Firm Affirmative Action</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beauty-time-avant-apr%C3%A8s-88a0eb'>Beauty Time Avant Après</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=championnat-br%C3%A9sil-r%C3%A9sultat-88a0eb'>Championnat Brésil Résultat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=module-photo-externe-smartphone-88a0eb'>Module Photo Externe Smartphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=travailler-en-boulangerie-sans-dipl%C3%B4me-88a0eb'>Travailler En Boulangerie Sans Diplôme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rmc-story-replay-l%27ombre-d%27un-doute-venise-88a0eb'>Rmc Story Replay L'ombre D'un Doute Venise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-objectifs-sony-88a0eb'>Prix Objectifs Sony</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=personne-influente-exemple-88a0eb'>Personne Influente Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-liewood-88a0eb'>Code Promo Liewood</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=What%27s-Your-Sign%3F-88a0eb'>What's Your Sign?</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9v%C3%A9nements-%C3%A0-venir-%C3%A0-viseu%2C-portugal-88a0eb'>événements à Venir à Viseu, Portugal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caisse-enregistreuse-saguenay-88a0eb'>Caisse Enregistreuse Saguenay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avoir-pour-effet-de-88a0eb'>Avoir Pour Effet De</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-eden-op%C3%A9ra-88a0eb'>Hôtel Eden Opéra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anti-claque-porte-de-s%C3%A9curit%C3%A9-88a0eb'>Anti Claque Porte De Sécurité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Code-promo-Gucci-88a0eb'>Code Promo Gucci</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podcast-cin%C3%A9ma-de-genre-88a0eb'>Podcast Cinéma De Genre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mon-dressing-priv%C3%A9-88a0eb'>Mon Dressing Privé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-yanne-orgue-88a0eb'>Jean Yanne Orgue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=all-pepe-gif-88a0eb'>All Pepe Gif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ron-ely-valerie-lundeen-88a0eb'>Ron Ely Valerie Lundeen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-new-gate-scan-1-vf-88a0eb'>The New Gate Scan 1 Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-bouzi-tournament-2-88a0eb'>Code Bouzi Tournament 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=london-city-airport-website-88a0eb'>London City Airport Website</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beno%C3%AEt-koh-lanta-2020-triathlon-88a0eb'>Benoît Koh-lanta 2020 Triathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avant-apr%C3%A8s-r%C3%A9gime-et-sport-homme-88a0eb'>Avant Après Régime Et Sport Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=half-body-workout-88a0eb'>Half Body Workout</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=polo-fortnite-sauver-le-monde-88a0eb'>Polo Fortnite Sauver Le Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=allo-cin%C3%A9-une-intime-conviction-88a0eb'>Allo Ciné Une Intime Conviction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=journal-l%C3%A9quipe-28-juin-1984-88a0eb'>Journal Léquipe 28 Juin 1984</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%A9ranger---une-ville-88a0eb'>Béranger - Une Ville</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-10-22-ou-10-18-88a0eb'>Canon 10-22 Ou 10-18</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-savoir-sur-la-s%C3%A8che-88a0eb'>Tout Savoir Sur La Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=discours-coach-motivation-88a0eb'>Discours Coach Motivation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anti-claque-porte-de-s%C3%A9curit%C3%A9-88a0eb'>Anti Claque Porte De Sécurité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-de-lupin-88a0eb'>Protéine De Lupin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-sauce-barbecue-88a0eb'>Meilleur Sauce Barbecue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beauty-time-avant-apr%C3%A8s-88a0eb'>Beauty Time Avant Après</a>,
+";s:7:"expired";i:-1;}

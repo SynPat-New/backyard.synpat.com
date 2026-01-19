@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6198:"<br>Ramadan 2020 - Ramadan Quotes are the words full of devotion towards Allah. Ramadan Mubarak 2020: Messages, SMS, Blessings, Prayers to share on Ramadan Kareem. It was battled in 624 C.E in exhibit day Saudi Arabia, with the Muslims picking up triumph, and is said in the Quran and recorded in Hadiths.Amid Ramadan, the quick starts at dawn, when the “white string ends up unmistakable from the dark string,” Despite the fact that fasting is necessary there are numerous who are excluded from watching it. <br> <br>This is the time to celebrate you’re your family and friends and send them Happy Eid Ul Fitr messages on this auspicious occasion.  Since fasting is a demonstration of love, they are required in any case, to make up an equivalent measure of days after the fact of the year. Ramadan is the sacred month of fasting as appointed by the Quran for all Muslims who have achieved adolescence and who can keep it, and it is the fourth mainstay of Islam. Since Ramadan is quickly approaching, Let us prepare our hearts and heads. Chaand raat mubarak This portal is designed to spread love and unity among the people by gather a huge variety of Ramadan SMS that include greetings, quotes, wishes and much more. Ramadan Mubarak رمضان المبارک کا مقدس مہینہ اب آرہا ہے ، اللہ پاک ہمارے عقائد کو قبول فرمائے اور ہمارے تمام گناہوں اور کوتاہیوں کو معاف فرمائے۔ چاند رات مبارک!چاند رات بہت مبارک ہو۔ اس دعا کے ساتھ کہ اللہ پاک آپ کی زندگی کی ہر خواہش، ہر تمنا ہر آرزو ہر خوشی ہر دعا پوری کرئے۔ ماہ رمضان کی شان آپ کے دلوں میں ہمیشہ چمکتی رہے اور آپ کو زندگی میں آگے بڑھنے کی رہنمائی کرے۔ رمضان مبارک سب کو رمضان کا مہینہ مبارک ہو۔ آپ کے سارے عقائد کا جواب مل سکے اور اللہ آپ سب کو نیک کام کا اجر و ثواب عطا فرمائے۔I hope you will achieve the purification of the soul upon commemorating the month of Ramadan. "O Allah, gift us with righteous action from You that will bring us closer to You." Chaand Raat Mubarak. Chaand Raat Mubarak. May Allah bless your loved ones and you.May that festivity push at calmness to surpass the ground,Ramadan is about fasts and fasts are about immunity and patience towards deed. May the festival of lights brighten you up and your near and dear one’s lifestyles. The individuals who can’t do as such should nourish a destitute individual for every day that has been missed.Muslims trust that their great deeds and expectations in the long stretch of Ramadan bring more noteworthy prizes than at some other time. Happy Ramadan May the festival of lights brighten you up and your near and dear one’s lifestyles. Indeed, it’s not even a day, it’s a whole month. This month is likewise pivotal for another critical occasion, the Battle of Badr, which was the principal fight between the Muslims of Medina and the agnostics of Mecca. Fasting is fard (mandatory) for grown-up Muslims, aside from the individuals who are experiencing an ailment, voyaging, are elderly, pregnant, breastfeeding, diabetic, constantly sick or menstruating. These unique SMS contains messages like welcoming Ramadan, advises for Ramadan, wishes and prays for Ramadan and many more. Eid is the day of celebration for Muslims. May the light which we observe at Ramadan show us how & guide us together about the Route of peace & social stability Wish you happy Ramadan Mubarak The crescent moon has been spotted. The Ramadan isn’t just for fasting but also all Muslims should devote themselves from accepting food or drink and demands, requesting forgiveness for their wrongdoings and committing themselves. sehri ramadan sms – ramadan mubarak arabic sms. You discuss it may.Qur’an reminds us we must keep pristine until Allah’s throne. We include a few Ramadan Mubarak SMS fantasies and card greetings which you may utilize. - Ramadan Mubarak! Here are our series of best wishes and messages to share and spread with your loved ones-"Almighty Allah SWT offered lots of spiritual reward for this month of Ramadan! Ramadan Mubarak Sms Featured Ramadan Mubarak Sms May the lamps of pleasure, illuminate your lifetime and Fill your times with all the glowing sparkles Of … Ramadan Wishes - As we all know that the holy month of Ramadan is about to begin. Ramadan text Messages and Ramadan Greetings Messages Happy Ramadan Wishes and Happy Ramadan Greetings Messages Ramadan text Messages and Ramadan Greetings Messages Happy Ramadan 2020 Wishes and Happy Ramadan 2020 Quotes Ramadan text Messages and Ramadan Greetings Messages Happy Ramadan 2020 Text Messages and Happy Ramadan Quotes Ramadan text Messages and Ramadan Greetings Messages Ramadan Kareem Quotes and Ramadan Kareem 2020 Quotes It's always a pleasure to send and receive compliments in regards of welcoming Ramadan, so we have compiled a nice list of Ramadan SMS Messages. We bring today’s post all about happy Ramadan Mubarak messages 2020 to send through text or Whatsapp. The vision is for your appointed time. As social media and networking apps have made a huge impact in connecting people. And ensure your family and friends have the advantages of the Ramadan notify them about the month’s actions and responsibilities. It is all about thanking Allah for blessing us that this month that is valuable in.I hope this vacation will direct us into the Ideal pathway: Always remember me in your prayers . <br> <br>But it’s also the one that’s most exposed to the elements. (Keep the faith. This means...  Ramadan wishes in Arabic and Ramadan Quotes From Quran  Ramadan Mubarak Quotes and Ramadan Quotes From Quran  sending you my hottest Ramadan Kareem wishes! Ramadan Mubarak Messages 2020 Text SMS and Quotes. Happy Ramadan Mubarak Text Messages … As someone who has a Masters’ degree in Human Rights she also delivers lectures on Intercultural Management to students of Human Rights. Everything is seen by Allah. <br>";s:7:"keyword";s:19:"ramadan mubarak sms";s:5:"links";s:6348:"<a href='https://backyard.synpat.com/site/article.php?page=recette-plat-mijot%C3%A9-printemps-88a0eb'>Recette Plat Mijoté Printemps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cabas-moa-caroline-receveur-88a0eb'>Cabas Moa Caroline Receveur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aline-elle-m%27oubliera-88a0eb'>Aline Elle M'oubliera</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9couter-drake-god%27s-plan-88a0eb'>écouter Drake God's Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marylou-koh-lanta-2012-88a0eb'>Marylou Koh Lanta 2012</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=L%27Emprise-des-t%C3%A9n%C3%A8bres-88a0eb'>L'Emprise Des Ténèbres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gym-direct-bas-du-corps-88a0eb'>Gym Direct Bas Du Corps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=london-commuter-belt-88a0eb'>London Commuter Belt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-redeemed-and-the-dominant%3A-fittest-on-earth-88a0eb'>The Redeemed And The Dominant: Fittest On Earth</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hopeless%2C-tome-3-88a0eb'>Hopeless, Tome 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=surv%C3%AAtement-pays-bas-2020-88a0eb'>Survêtement Pays-bas 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-fnac-tahiti-88a0eb'>Magasin Fnac Tahiti</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caroline-cln-fitness-snap-88a0eb'>Caroline Cln Fitness Snap</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-stray-kids-side-effects-88a0eb'>Youtube Stray Kids Side Effects</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kilari-seiji-hiwatari-88a0eb'>Kilari Seiji Hiwatari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Speaker-Corner-Londres-88a0eb'>Speaker Corner Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=doctor-who-the-time-of-the-doctor-88a0eb'>Doctor Who The Time Of The Doctor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-yeux-d%27la-tete-danser-88a0eb'>Les Yeux D'la Tete Danser</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hampstead-heath-ponds-88a0eb'>Hampstead Heath Ponds</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2020-nouveaut%C3%A9-88a0eb'>Fort Boyard 2020 Nouveauté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=knysna-afrique-du-sud-%C3%A9quipe-de-france-88a0eb'>Knysna Afrique Du Sud équipe De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-musculation-1-mois-sans-mat%C3%A9riel-88a0eb'>Programme Musculation 1 Mois Sans Matériel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=papa-parole-la-fouine-88a0eb'>Papa Parole La Fouine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-marocain-ajax-88a0eb'>Joueur Marocain Ajax</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zombie-chronicles-2-date-de-sortie-88a0eb'>Zombie Chronicles 2 Date De Sortie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=business-plan-cr%C3%A9ation-de-bijoux-88a0eb'>Business Plan Création De Bijoux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-koh-lanta-2020-episode-9-88a0eb'>Youtube Koh Lanta 2020 Episode 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=missing-s%C3%A9rie-su%C3%A9doise-88a0eb'>Missing Série Suédoise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tapis-de-course-inclinable-occasion-88a0eb'>Tapis De Course Inclinable Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=apprendre-le-jargon-fran%C3%A7ais-88a0eb'>Apprendre Le Jargon Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=saint-josse-bruxelles-vitrine-88a0eb'>Saint-josse Bruxelles Vitrine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=machine-pectoraux-butterfly-88a0eb'>Machine Pectoraux Butterfly</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pop-brigitte-overwatch-88a0eb'>Pop Brigitte Overwatch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-canon-occasion-fnac-88a0eb'>Objectif Canon Occasion Fnac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-argentine-2011-88a0eb'>Effectif Argentine 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%AEte-le-crotoy-2-personnes-88a0eb'>Gîte Le Crotoy 2 Personnes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charline-vanhoenacker-brut-88a0eb'>Charline Vanhoenacker Brut</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pack-s%C3%A8che-extr%C3%AAme-88a0eb'>Pack Sèche Extrême</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-aesthetic-tik-tok-88a0eb'>Musique Aesthetic Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cela-impact-ou-impact%C3%A9-88a0eb'>Cela Impact Ou Impacté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contact-les-echos-88a0eb'>Contact Les Echos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bail-enforcement-traduction-88a0eb'>Bail Enforcement Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-jour-apr%C3%A8s-la-fin-du-monde-chords-88a0eb'>Le Jour Après La Fin Du Monde Chords</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=linkin-park-catalyst-88a0eb'>Linkin Park Catalyst</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-passeur-de-l%27histoire-du-football-88a0eb'>Meilleur Passeur De L'histoire Du Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tableau-naruto-akatsuki-88a0eb'>Tableau Naruto Akatsuki</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-pri%C3%A8re-mosqu%C3%A9e-al-amal-88a0eb'>Horaire Prière Mosquée Al-amal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=surv%C3%AAtement-pays-bas-2020-88a0eb'>Survêtement Pays-bas 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mathias-pogba-et-sa-femme-88a0eb'>Mathias Pogba Et Sa Femme</a>,
+";s:7:"expired";i:-1;}

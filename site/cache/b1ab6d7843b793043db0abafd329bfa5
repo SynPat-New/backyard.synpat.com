@@ -1,0 +1,101 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5754:"<p>One circle in each direction equals 1 rep. Do 8 to 10 reps.This one may look like you’re running in the air, but hey, it works. Stick to it, and we promise you’ll feel the burn — and see results. After 30 days, you will notice a change in the shape of your abs. © 2019 Greatist a Red Ventures Company. No worries: We've rounded up some of the best core moves you can use to create circuits that will have you feeling the burn in all the right places. Hold cable handle in both hands. Pull handle overhead, using your hands to hold cable in place on top of your head. To properly target and tone all four muscle groups, it’s important to perform a range of... Plank crawl out. How to: With the side of your body facing the cable machine, grab one … Completing both the right and left sides counts as 1 rep. Do 8 to 10 reps.Don’t let the cable machine intimidate you — it’s easier to use than you think. Keeping arms straight, pull yourself toward the straps, driving hands to the right. We may earn commission from links on this page, but we only recommend products we back. With the help of a medicine or fitness ball, you can get great results as well. Then, you can increase the number of sets, and you can do it three or four times per week.Below you can find more stomach workouts at gym in which you can learn more types of exercises and how to use the different equipment efficiently.In case you need something harder, then this is routine for you. </p> <p>For many women, achieving a lean midsection is no easy feat. Return to starting position, then repeat, pulling both knees toward left elbow. Hold for 30 seconds, then switch sides. Start with the right side of your body facing the machine, right foot and left knee on the floor. Grip a pull-up bar … This can make it challenging to get flat, firm abs.But visible abdominal muscles aren’t impossible — you might just need to commit to doing more than standard sit-ups. Place right hand on the floor if you need more support. Slowly lower and return to starting position. Targets: abs, core. </p> <p>You can approach this workout three different ways: Make it a complete 20 minute core workout — complete 20 repetitions {or 20 second isometric hold} of each exercise x 4 sets, or as many sets as possible in 20 minutes. Load a light weight onto the cable machine and slide the carriage down to a setting close to the floor. 7 Day Customer Support. Slowly release and return to starting position. Basic crunches can’t flatten your belly. For a truly effective abs workout, you have to incorporate the best ab exercises for targeting your entire core. Place the Bosu ball flat side down. Get started (and see results) with these moves. Squeeze your abs and glutes and keep your hips, neck and spine in one straight line. Perform a situp, so the bar is extended overhead. 11/ The Best No-Crunch Ab Workout. Rest right hip on the ball, legs extended straight. Keep back and rear flat against the mat, not allowing your body to roll to the right or onto your right hip. That’s 1 rep. Do 10 to 12 reps. You’ll need an incline bench for this move. Next, hold 1 cable handle with both hands. Roll out as far as you can without letting your hips fall to the floor or hiking your hips up. With core engaged, perform a chest press by pushing the bar out in front of your chest. Engage core and lift knees toward right side of your torso, allowing your legs to bend naturally. Squeeze thighs to keep feet close together. 				This commenting section is created and maintained by a third party, and imported onto this page. Raise arms straight at your sides so your body forms a V shape. Sit in the center of the bubble side, knees together and bent. One: Crunches don't encourage your And two: When done improperly, crunches are unduly taxing on your Luckily, so many other ab exercises are safe and effective. Training these core muscles will also stabilize your spine and pelvis to improve your posture and reduce or avoid back pain.Unlike traditional crunches or sit-ups, stabilization exercises that target the core will work more muscles and burn more calories.Complete these abdominal exercises two to three times a week for a stronger core.You can make this exercise harder by lifting one leg before walking your hands out.Using your arms and legs in this exercise adds intensity and resistance.Add hip dips for an extra challenge. Once you have your balance, slowly lift feet off the floor and lean back slightly to keep balanced. </p> <p>Having a strong core means you'll have better posture, more balance, and less joint pain.Not sure how to vary your ab routine to get the best results? Kneel on the floor, facing away from the straps. Placing your hands … Grip a pull-up bar with palms parallel, arms extended. Do 8 to 10 reps with a heavier weight or 10 to 12 reps with a lighter weight.Start in the same position as above. See a certified medical professional for diagnosis. It also combines movement and resistance for added intensity.Remember, exercises like these will help you strengthen your ab muscles and improve your posture. Start in a plank position, gripping the edges of the flat side of the ball. Perform the same exercise for 30 to 45 seconds but continually dip your hips until you lightly tap the floor and then return to the starting position.Unlike a traditional plank, you’ll support your body weight on just two points of contact. Return to starting position, then repeat, this time driving hands to the left. This requires more work from your core to stay stable. You may be able to find more information on their web site. Engage your core. ... Abs: everyone wants 'em, but the vast majority of us don't know how to build them. </p>";s:7:"keyword";s:21:"abs workout gym woman";s:5:"links";s:5490:"<a href='https://backyard.synpat.com/site/article.php?page=jessica-da-silva-instagram-88a0eb'>Jessica Da Silva Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tuto-changer-joint-de-culasse-twingo-1-phase-2-88a0eb'>Tuto Changer Joint De Culasse Twingo 1 Phase 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-mercato-2019-2020-88a0eb'>Chelsea Mercato 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dictionnaire-accords-ukul%C3%A9l%C3%A9-88a0eb'>Dictionnaire Accords Ukulélé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tibo-inshape-entrainement-dos-88a0eb'>Tibo Inshape Entrainement Dos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-naples-2019-88a0eb'>Maillot Naples 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-maurane-album-88a0eb'>Youtube Maurane Album</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romane-serda-%C3%A2g%C3%A9-88a0eb'>Romane Serda âgé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carr%C3%A9-herm%C3%A8s-occasion-ebay-88a0eb'>Carré Hermès Occasion Ebay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=source-fiable-steroide-88a0eb'>Source Fiable Steroide</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-aux-fraises-mascarpone-pistache-88a0eb'>Tarte Aux Fraises Mascarpone Pistache</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ronaldo-19-ans-88a0eb'>Ronaldo 19 Ans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-fils-de-bruce-lee-88a0eb'>Le Fils De Bruce Lee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-l%C3%A9s%C3%A9-assurancereplay-capital-15-d%C3%A9cembre-2019-88a0eb'>Le Lésé Assurancereplay Capital 15 Décembre 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-japon-en-fran%C3%A7ais-88a0eb'>Amazon Japon En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=formation-webmaster-pour-adulte-88a0eb'>Formation Webmaster Pour Adulte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fleuve-de-la-seine-maritime-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Fleuve De La Seine Maritime Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=micka%C3%ABl-landreau-fr%C3%A8re-88a0eb'>Mickaël Landreau Frère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pib-et-pnb-pdf-88a0eb'>Pib Et Pnb Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Eden-Hazard-2019%2F2020-88a0eb'>Eden Hazard 2019/2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-embl%C3%A9matique-louis-vuitton-88a0eb'>Sac Emblématique Louis Vuitton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clo-koh-lanta-couple-88a0eb'>Clo Koh-lanta Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=samir-a%C3%AFt-sa%C3%AFd-copine-88a0eb'>Samir Aït Saïd Copine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-carmet-mort-88a0eb'>Jean Carmet Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tancer-en-arabe-88a0eb'>Tancer En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-mon-coeur-l%C3%A2che-live-88a0eb'>Que Mon Coeur Lâche Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=batman-logo-pixel-art-88a0eb'>Batman Logo Pixel Art</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-trousse-de-sobelle-anglais-where-are-you-88a0eb'>La Trousse De Sobelle Anglais Where Are You</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-%C3%A9crire-un-concept-d%27%C3%A9mission-t%C3%A9l%C3%A9-pdf-88a0eb'>Comment écrire Un Concept D'émission Télé Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=to-taste---conjugaison-88a0eb'>To Taste - Conjugaison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=queen-film%2C-2018-88a0eb'>Queen Film, 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%A9b%C3%A9-lol-vid%C3%A9o-88a0eb'>Bébé Lol Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Dream-League-PSG-88a0eb'>Dream League PSG</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=essuie-mains-basque-88a0eb'>Essuie Mains Basque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cookie-healthy-avoine-banane-88a0eb'>Cookie Healthy Avoine Banane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exc%C3%A8de-en-arabe-88a0eb'>Excède En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-de-tonqu%C3%A9dec-films-et-programmes-tv-88a0eb'>Guillaume De Tonquédec Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=robben-real-madrid-88a0eb'>Robben Real Madrid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-nom-de-se-sauver-88a0eb'>Le Nom De Se Sauver</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pigalle-paris-store-88a0eb'>Pigalle Paris Store</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blague-drole-adulte-88a0eb'>Blague Drole Adulte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=internet-dinos-lyrics-88a0eb'>Internet Dinos Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dimash---unforgettable-day-reaction-88a0eb'>Dimash - Unforgettable Day Reaction</a>,
+";s:7:"expired";i:-1;}

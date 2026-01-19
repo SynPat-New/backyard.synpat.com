@@ -1,0 +1,101 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6153:"<p>We hope you have enjoyed exploring Oprah Winfrey biography and her success story and it has inspired you to new discoveries.Elon Musk Biography: Success Story of The 21st Century InnovatorGuest Post from Zen Assets: Business Experience of Sergey Sosnov </p> <p>For example, she never received any commission for the goods and products, which she advertised in her show. But Oprah did it and so can everyone. Through the power of media, Oprah Winfrey has created an unparalleled connection with people around the world. </p> <p>But Oprah did it and so can everyone. </p> <p>At the end of the show, Oprah went down to the audience and high-fived her guests and staff on her way out.On January 01, 2011, Oprah Winfrey launched her own channel called In 2014, The Oprah Winfrey Network leased for three-floor office space on The Lot in West Hollywood, California.Oprah is pleased to donate money to various charities and funds supporting children. It would be impossible to tell of all the difficulties and failures she had to surmount for there were many. During the interview, he incidentally noticed that he regarded Oprah as an idol of a typical American woman, and bound his statement by an innocent Indeed, it may only be a coincidence that both George Bush Junior and Barack Obama won the elections. Oprah’s real name was “Orpah.” She was named after the biblical character, Ruth’s daughter-in-law in the Book of Ruth. “Oprah Winfrey at her last show, on September 13, 2010.The people in the audience of the finale, women mostly, as usual, could not hold themselves together and burst into tears. Primarily, the show was not just a simple job for Oprah. Turning her life from its bitter beginnings with the help of her father, Winfrey entered the media world on the bases of having a good voice.. It was a sacred ritual, which took place in 117 countries of the world. On Wednesday, over just one day, the audience bought thirty-five thousand book copies. </p> <p>The news turned out to be not her cup of tea. Overall, it would not hurt anyone who is aiming at the President’s office to ensure the support of this prominent orator, just in case, to be on the safe side.Having become the highest paid figure in show business, Oprah Winfrey had no intentions of resting on laurels. The staff and operations will move to the Oprah Winfrey Network’s headquarters in West Hollywood.In just five years of the company’s existence, according to the Forbes magazine of September 1993, Oprah’s personal income amounted to $98 million. LiveAbout uses cookies to provide you with a great user experience. </p> <p>Only once did she invite all her staff to join her at the stage to thank them for their longstanding work and loyalty. However, he brought her back home, to her furious mother, who immediately renounced her. Over the next 8 days, according to the publisher, the remaining three hundred thousand copies were sold. In 1994, she proposed a bill to Congress that aimed at creating a single database to help track child abusers. A surprised teacher did so. In 1998, she produced and starred as Sethe in an adaptation of Toni Morrison's novel "Beloved. </p> <p>She was only nineteen.At the second year of college, Oprah Winfrey became the news anchor on Nashville’s television. Neither her parents nor her friends could pronounce Orpah. Oprah accepted the offer. </p> <p>As it turned out later, the mother’s numerous friends and relatives repeatedly molested Oprah.When she was thirteen, Oprah got so tired of humiliation and harassment that she stole some money from her mom and ran away again. </p> <p>Oprah Short Biography. It may sound not so wondrous to you right now when the President of the United States of America is black, however at that time of rampant racism it had seemed easier to get to the Political Bureau of USSR than to take the top position in the USA’s television industry.Unfortunately, that job became Oprah’s abject failure. </p> <p>That is why they decided to change it even in her birth certificate to Oprah.Oprah Winfrey had a very difficult childhood. Although her first name was officially spelled in 1960, Oprah and her mother moved to Milwaukee, Wisconsin, where the two lived in poverty. Most of the time, Oprah was on stage alone. </p> <p> Her ability for self-identification with the interlocutor during their conversation in the room full of people allows her to ask such questions which other journalists would not even consider.Oprah Winfrey’s close friend and mentor Maya Angelou once called her the cheapest and most honest shrink of America. As paradoxically as it may sound, Oprah’s huge fortune is the result of never trading her principles for wealth and money.Oprah Winfrey’s personality traits include being sincere, courageous, and hard working. Her life turned its direction vividly, reminding the American Dream coming true. In Oprah’s Book Club 2.0, there are The answer is obvious – the secret lies in the unique personality of the show’s host. She soon moved on to television, becoming the youngest news anchor and first African-American anchor at Nashville's WTVF.Oprah's first stint as a talk show host came after a move to Baltimore, Maryland, where she joined the news team at WJZ. She became pregnant at 14, but her son was born prematurely and died in infancy. She is the first African-American female billionaire.Oprah Winfrey was born on January 29, 1954, in Kosciusko, Mississippi, United States. The thing was that her show was aired simultaneously with the most popular with Americans program of the day Fortunately, her fears never came true. Shortly afterward local TV station CBS offered her a job, and Oprah Winfrey became the first black female assistant to Nashville’s evening news anchor. Moreover, that turned out to be not her only anxiety at that time. </p> <p>Oprah Winfrey Short Biography. </p> <p>Oprah in return Oprah loves self-help books. Winfrey is uniquely capable of communicating without being boring, raising delicate topics without causing nuisances, motivating without sounding didactic, and teaching without lecturing. </p>";s:7:"keyword";s:29:"oprah winfrey short biography";s:5:"links";s:5464:"<a href='https://backyard.synpat.com/site/article.php?page=tiktok-greg-inside-88a0eb'>Tiktok Greg Inside</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tibo-inshape-menu-88a0eb'>Tibo Inshape Menu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-cheat-bundesliga-fut-20-88a0eb'>Joueur Cheat Bundesliga Fut 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blb-front-rack-review-88a0eb'>Blb Front Rack Review</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%A9ctor-beller%C3%ADn-instagram-88a0eb'>Héctor Bellerín Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9rim%C3%A8tre-ce2-lutin-bazar-88a0eb'>Périmètre Ce2 Lutin Bazar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abonn%C3%A9s-twitter-gratuit-88a0eb'>Abonnés Twitter Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fortnite-bloqu%C3%A9-sur-pseudonyme-88a0eb'>Fortnite Bloqué Sur Pseudonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Marshmello-photo-visage-88a0eb'>Marshmello Photo Visage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanteuse-everything-but-the-girl-88a0eb'>Chanteuse Everything But The Girl</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=balance-ton-quoi-version-instrumentale-88a0eb'>Balance Ton Quoi Version Instrumentale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9er-une-web-tv-88a0eb'>Créer Une Web Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adidas-basket-homme-88a0eb'>Adidas Basket Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=suspendre-compte-twitter-88a0eb'>Suspendre Compte Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles---dalida-%28accords-guitare%29-88a0eb'>Paroles - Dalida (accords Guitare)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-6ku-odyssey-88a0eb'>Vélo 6ku Odyssey</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=benjamin-et-alix-88a0eb'>Benjamin Et Alix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=critical-role-vecna-analysis-88a0eb'>Critical Role Vecna Analysis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-yanne-orgue-88a0eb'>Jean Yanne Orgue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=legging-sport-action-88a0eb'>Legging Sport Action</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carabao-cup-europa-league-88a0eb'>Carabao Cup Europa League</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stop-fuite-joint-de-culasse-wynn%27s-88a0eb'>Stop Fuite Joint De Culasse Wynn's</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-heist-minecraft-88a0eb'>The Heist Minecraft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Qui-veut-%C3%A9pouser-mon-fils-%3F-88a0eb'>Qui Veut épouser Mon Fils ?</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raymond-aron-totalitarisme-88a0eb'>Raymond Aron Totalitarisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rappeur-mort-2017-88a0eb'>Rappeur Mort 2017</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chips-de-patate-douce-%C3%A0-la-po%C3%AAle-88a0eb'>Chips De Patate Douce à La Poêle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synth%C3%A8se-d%C3%A9finition-philosophique-88a0eb'>Synthèse Définition Philosophique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podcast-cin%C3%A9ma-de-genre-88a0eb'>Podcast Cinéma De Genre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manchester-united-1999-2000-88a0eb'>Manchester United 1999 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ak%C3%A9-om-fifa-20-88a0eb'>Aké Om Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stade-du-lou-88a0eb'>Stade Du Lou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Jo%C3%ABl-Kimwaki-salaire-88a0eb'>Joël Kimwaki Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9volte-des-canuts-88a0eb'>Révolte Des Canuts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hollywood-david-mcneil-paroles-88a0eb'>Hollywood David Mcneil Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=world%27s-most-wanted-fugitives-88a0eb'>World's Most Wanted Fugitives</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ressources-pour-cm2-88a0eb'>Ressources Pour Cm2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agatha-christie-oeuvres-compl%C3%A8tes-le-masque-88a0eb'>Agatha Christie Oeuvres Complètes Le Masque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=face-pull-halt%C3%A8re-88a0eb'>Face Pull Haltère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chanson-un-peu-plus-haut%2C-un-peu-plus-bas-88a0eb'>La Chanson Un Peu Plus Haut, Un Peu Plus Bas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pokerstars-youtube-videos-88a0eb'>Pokerstars Youtube Videos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taux-de-drop-dofus-turquoise-dofus-retro-88a0eb'>Taux De Drop Dofus Turquoise Dofus Retro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-2020-lens-pdf-88a0eb'>Calendrier Ramadan 2020 Lens Pdf</a>,
+";s:7:"expired";i:-1;}

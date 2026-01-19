@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5000:"<p>                                                                                                                                                                                                                                                                                                                                                                                                                       The host of Koh-Lanta is Denis Brogniart since the second season..      Koh-Lanta 9 - Palau - Micronésie (2009) Nombre de jours: 39/39 Précédé par sa réputation de stratège, Patrick va devoir être encore plus vigilant qu'en 2009.      </p> <p>                                    Actualités              Ce mode permet d'optimiser le confort de lecture et de réduire la fatigue oculaire.                                                                                                                          The series premiered on August 4, 2001. Je n'ai jamais trahi les personnes qui m'ont aimé, comme Isabelle, Christina et Kader. </p> <p>                                                                                                                                                     Profile retrieved from tf1.fr. </p> <p>                                      Disponible uniquement sur les pages programmes pour le moment. </p> <p>                                   Jade et Kevin sont les deux gagnants de cette saison. Les gens n'ont pas compris que Non, elle m'a vraiment écrit, mais a priori elle a envoyé le courrier un peu trop tard.Sur le moment, oui... Après il est vrai qu'en regardant l'épisode sur mon canapé, je me suis dit qu'on avait peut-être été un peu méchants. Alors, faut-il revoir les règles de                                                                                                                                          Patrick Koh Lanta 9 Koh-Lanta Ça va vous intéresser. </p> <p>                                           J'assume ma stratègie et j'accepte les critiques.Oui, même je n'aurais pas dû le faire si ouvertement. </p> <p>                                         Elle a été diffusée du 30 juin 2007 au 11 septembre 2007 sur TF1.                                                                                                                                                             Accueil               Mais nous n'avons pas été au bout, donc la question ne se pose pas.Pourquoi pas !      Disponible uniquement sur les pages programmes pour le moment.              Le 01/11/2009 à 10h18 Koh-Lanta : Le résumé de la finale.                                                                            Ce mode permet d'optimiser le confort de lecture et de réduire la fatigue oculaire. </p> <p>                                                                                                                                 (rires) Je sais que ma femme en a eu plus peur, qu'elle a regardé un peu les messages sur internet... Mais vous voyez je suis à Paris, et les gens me prennent beaucoup en photo, tout se passe très bien.                                                                                                                                                                                                            The show is broadcast on TF1 and there have been 17 regular seasons, and 4 special seasons.                   Tout le monde fait de la stratégie sur Oui, peut-être, mais je n'arrive pas à comprendre : sur On en avait parlé un petit peu... On s'était dit "pourquoi pas ?". </p> <p>Denis Brogniart lui-même l'a reconnu après coup.                                           J'ai réalisé que je l'avais blessé, alors que pour moi, J'ai pensé que j'étais stratège, c'est clair. </p> <p>                                 </p> <p>     J'ai trahi, plus ou moins on va dire, Raphaëlle, car elle est partie en cacahuète.                                                                                                                                                                                                                                                                                                                                                                                                                     </p> <p>         Mais les personnes qui m'ont fait confiance, elles ont eu raison de le faire. Nouveautés, changements et déroulement Retour: À cause de l’abandon volontaire d'Ali, Pascale a pu retourner dans l'aventure., Echange: Adrien demande au 29 jour à denis d’echanger sa place avec Grégoire Koh-Lanta is a French reality game show based on the popular international Survivor format.                                                                                                   </p> <p>Nombre d'entre vous ont été choqué par ce manque de fair-play, mais aussi de respect.                                           </p>";s:7:"keyword";s:28:"président de renault nissan";s:5:"links";s:6772:"<a href='https://backyard.synpat.com/site/article.php?page=leonardo-express-plan-88a0eb'>Leonardo Express Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-verbe-boucher-88a0eb'>Synonyme Verbe Boucher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=john-elkann-fortune-88a0eb'>John Elkann Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-cooper-shoreditch-occasion-88a0eb'>Mini Cooper Shoreditch Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-fait-la-croix-rouge-88a0eb'>Que Fait La Croix-rouge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laisser-faire-le-temps-en-amour-88a0eb'>Laisser Faire Le Temps En Amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9capitulatif-fiscal-uber-88a0eb'>Récapitulatif Fiscal Uber</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=my-deer-en-francais-88a0eb'>My Deer En Francais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roxane-bruneau---le-blues-du-musicien-88a0eb'>Roxane Bruneau - Le Blues Du Musicien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dragon-d%C3%A9fenseur-de-beurk-saison-2-%C3%A9pisode-2-streaming-vf-88a0eb'>Dragon Défenseur De Beurk Saison 2 épisode 2 Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shallow-acoustic-guitare-88a0eb'>Shallow Acoustic Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-villa-de-luxe-avec-piscine-88a0eb'>Photo De Villa De Luxe Avec Piscine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-2014-effectif-88a0eb'>Chelsea 2014 Effectif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dur%C3%A9e-de-vie-joint-de-culasse-88a0eb'>Durée De Vie Joint De Culasse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-le-cab-20%E2%82%AC-88a0eb'>Code Promo Le Cab 20€</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-2020-roubaix-pdf-88a0eb'>Calendrier Ramadan 2020 Roubaix Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ancien-directeur-renault-88a0eb'>Ancien Directeur Renault</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emission-h%C3%B4tel-de-luxe-88a0eb'>Emission Hôtel De Luxe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bon-anniversaire-christelle-humour-88a0eb'>Bon Anniversaire Christelle Humour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=besoin-vital-en-arabe-88a0eb'>Besoin Vital En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lettre-de-motivation-CFC-88a0eb'>Lettre De Motivation CFC</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9quence-osn-nilesat-2020-88a0eb'>Fréquence Osn Nilesat 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sos-d%27un-terrien-en-d%C3%A9tresse-japonais-88a0eb'>Sos D'un Terrien En Détresse Japonais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bd-en-ligne-pdf-88a0eb'>Bd En Ligne Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-d%C3%A9jeuner-sportif-oeuf-88a0eb'>Petit Déjeuner Sportif Oeuf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=garen-top-build-2019-88a0eb'>Garen Top Build 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=regime-d%27un-cours-d%27eau-88a0eb'>Regime D'un Cours D'eau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ceinture-amincissante-vibrante-88a0eb'>Ceinture Amincissante Vibrante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=affluent-loire-5-lettres-88a0eb'>Affluent Loire 5 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=homme-possessif-et-contr%C3%B4leur-88a0eb'>Homme Possessif Et Contrôleur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=style-de-musique-2019-88a0eb'>Style De Musique 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Charlie-puth-Tumblr-88a0eb'>Charlie Puth Tumblr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-rockn-roll-88a0eb'>Chanson Rockn Roll</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlie-winston-the-weekend-88a0eb'>Charlie Winston The Weekend</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9atine-fitness-boutique-avis-88a0eb'>Créatine Fitness Boutique Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=banque-fran%C3%A7aise-mutualiste-t%C3%A9l%C3%A9phone-88a0eb'>Banque Française Mutualiste Téléphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=temps-de-cuisson-petit-pois-frais-88a0eb'>Temps De Cuisson Petit Pois Frais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pain-sans-gluten-farine-de-chanvre-88a0eb'>Pain Sans Gluten Farine De Chanvre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pauline-lef%C3%A8vre-instagram-88a0eb'>Pauline Lefèvre Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-beatles---help-mp3-88a0eb'>The Beatles - Help Mp3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bein-sport-hd11-88a0eb'>Bein Sport Hd11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marie-verlhac-tignous-88a0eb'>Marie Verlhac Tignous</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouvelle-bo%C3%AEte-de-jeu-slam-2018-88a0eb'>Nouvelle Boîte De Jeu Slam 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-avec-miss-you-88a0eb'>Chanson Avec Miss You</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=s%27attribuer-illegalement-synonyme-88a0eb'>S'attribuer Illegalement Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=haricot-noir-bienfaits-88a0eb'>Haricot Noir Bienfaits</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-%C3%A0-pinces-maternelle-88a0eb'>Carte à Pinces Maternelle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jonathan-zidane-zinedine-zidane-88a0eb'>Jonathan Zidane Zinedine Zidane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-amour-rap-2018-88a0eb'>Chanson Amour Rap 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9tude-de-cas-uber-88a0eb'>étude De Cas Uber</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inter-milan---sampdoria-88a0eb'>Inter Milan - Sampdoria</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=becky-g-couple-88a0eb'>Becky G Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=big-will-instagram-88a0eb'>Big Will Instagram</a>,
+";s:7:"expired";i:-1;}

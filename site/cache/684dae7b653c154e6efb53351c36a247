@@ -1,0 +1,136 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6691:"<br>0000007422 00000 n             pour des raisons pratiques, l'auteur correspondant est l'auteur qui est géographiquement 0000030233 00000 n 0000039392 00000 n <br> <br> <br>Patronyme * Prénom * Email * Téléphone * Adresse personnelle * Adresse professionnelle * DOSSIER PROPOSÉ. Il est entendu que toute démarche entreprise pour la publication des résultats d’un travail de recherche scientifique implique que le manuscrit (livre ou article) est inédit et qu’il n’a pas été proposé à d’autres maisons d’édition. 0000009350 00000 n 0000016733 00000 n <br> <br>0000003368 00000 n                 ambigu entre un correcteur et un auteur ou un metteur en pages.Avec les logiciels de traitement de texte, il est possible d'enregistrerLorsque le manuscrit est mis en pages dans sa forme définitive, l'auteur correspondant                 co-auteurs, s'il y en a, qu'un article a été déposé en leur nom. Cette démarche permet à l'auteur d'être certain que <br> <br>À la fin du processus d'évaluation par les pairs, le comité de rédaction prend une Un article rejeté peut être soumis à une autre revue.Une fois que le manuscrit est accepté, il est transmis à l'édition qui peut aussi                 bibliographie.Peu importe la décision qui sera prise à propos de l'article, l'éditeur envoie Lorsque vous aurez soumis votre article, vous aurez la possibilité de vérifier la progression de votre manuscrit tout au long du processus de révision. Tout projet éditorial est soumis à une évaluation préalable réalisée soit par le L’auteur/éditeur est informé de cette évaluation qui, lorsqu’elle est favorable, implique qu’il doit remettre son manuscrit dans un délai maximum d’un an. Mis à jour le 28 avril 2020. 0000006348 00000 n Seuls les dossiers complets peuvent être soumis à expertise scientifique.                 annoter un manuscrit. Il peut encore, sur cette dernière 0000017953 00000 n                 illustrations (tableaux, graphiques, figures, photographies et cartes) et de la                 l'article.La lettre contient une déclaration sur l'honneur de l'absence de conflit 0000005653 00000 n                         site Web). Get this from a library! << /Length 5 0 R /Filter /FlateDecode >> 0000015498 00000 n Par ailleurs, une liste de noms pour les hommages sera établie en concertation avec laLe nombre d’exemplaires à attribuer sera spécifié dans le contrat. Write away Rédiger en anglais scientifique et technique écrit par Joline BOULON, Hélène MARCHAND, éditeur ELLIPSES, collection Optimum, , livre neuf année 2012, isbn 9782729864279. Figure 15.5. 0000002724 00000 n _____ Conseils pour préparer la soumission d’un article scientifique avec succès et coup d’oeil sur ce qui se passe en coulisses 31 mai, 13:30-16:00, campus de l’UQAT Nombre de participants : Minimum (10), Maximum (20) Vous pensez être finalement prêts à soumettre un manuscrit à un journal ? 0000027682 00000 n L’écriture d’un article scientifique est un processus long qui fait souvent peur. La rédaction de plus en plus généralisée en anglais constitue une difficulté supplémentaire. 0000005688 00000 n x���n�F������g,�bx��8�,�� 0000011300 00000 n La rédaction de plus en plus généralisée en anglais constitue une difficulté supplémentaire.                 se manifester s'il n'est pas d'accord.Avant d'être soumis au comité de rédaction et au comité de lecture, l'article va La rédaction d'un article scientifique : petit guide pratique adapté aux sciences appliquées et sciences de la vie à l'heure du libre accès.                 précisera, entre autres, la forme des différentes parties, la taille du texte <br> 0000026731 00000 n 0000009781 00000 n Dans le cas d’une publication dans la CCV ou la revue, une Lettre d’accord de cession de droits d’auteur est signée par l’auteur de chaque contribution.                 toujours un accusé de réception.                 (courrier électronique) à tous les auteurs qui ont été renseignés.Un guide des auteurs va préciser la forme et la structure du texte attendu.                 de temps si l'article ne convient pas, La ou les personnes qui effectue(nt) cette première lecture va(vont) évaluer 0000004553 00000 n Les illustrations devront être référencées individuellement, conformément à leur genre (figure, carte, photographie, planche), selon une numérotation en continu pour une monographie (BCV, ECV) ou par article pour un collectif (CCV, L’auteur/éditeur scientifique adresse son dossier complet sous les formats suivants:Elle est effectuée par des spécialistes sélectionnés par le À réception des expertises, établies dans un délai de cinq semaines, une synthèse est adressée à l’auteur/éditeur scientifique qui, en cas d’avis favorable, est invité à remettre son Si les expertises ne convergent pas, il est fait appel à un troisième expert.                 d'abord être examiné attentivement pour voir s'il peut leur être soumis.                 poser un certain nombre de questionsIl existe des signes conventionnels utilisés par les éditeurs et les lecteurs pour L’auteur/éditeur scientifique adresse son manuscrit définitif à la responsable des Publications s’il s’agit de l’une des collections (BCV, CCV, ECV), ou au secrétariat de rédaction s’il s’agit de la revue (Si les normes éditoriales ne sont pas strictement respectées, le manuscrit (livre ou contribution) sera renvoyé à l’auteur/éditeur scientifique pour sa mise en conformité (voir les Par ailleurs, ne seront conservées que les illustrations conformes aux Lors du dépôt du manuscrit définitif, l’auteur/éditeur scientifique fournira une proposition de texte pour la quatrième de couverture (800 signes maximum). Ces signes (voir figure ci-dessus) permettent un dialogue non 0000031910 00000 n <br> <br>0000002588 00000 n Dans cet article, nous faisons le tour de la question : pourquoi, quand, comment et où faut-il publier ? 0000023262 00000 n                 l'originalité du manuscrit ainsi que la forme et le fond de celui-ci. > Téléchargez le formulaire de vérification de la remise des éléments de votre manuscrit définitif pour une publication aux éditions de la Casa de Velázquez :Dès lors que le manuscrit est inscrit dans la programmation éditoriale, son traitement s’opère en trois étapes: Un contrat d’édition est signé entre le directeur de la Casa de Velázquez et l’auteur/éditeur scientifique, une fois que la forme et le contenu du manuscrit ont été validés. <br>";s:7:"keyword";s:36:"soumission d'un article scientifique";s:5:"links";s:10080:"<a href='https://backyard.synpat.com/site/article.php?page=influenceuse-alg%C3%A9rienne-instagram-88a0eb'>Influenceuse Algérienne Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bob-gratton-ma-vie%2C-my-life-streaming-vf-88a0eb'>Bob Gratton Ma Vie, My Life Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-loi-de-julien-resume-88a0eb'>La Loi De Julien Resume</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rb-leipzig---tottenham-composition-88a0eb'>Rb Leipzig - Tottenham Composition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-classe-avec-montessori-maths-88a0eb'>En Classe Avec Montessori Maths</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zara-home-italie-88a0eb'>Zara Home Italie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=desafinado-la-boite-a-chanson-88a0eb'>Desafinado La Boite A Chanson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-banane-ricardo-88a0eb'>Pancake Banane Ricardo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baden-baden---j%27ai-plong%C3%A9-dans-le-bruit-88a0eb'>Baden Baden - J'ai Plongé Dans Le Bruit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diff%C3%A9rence-entre-racine-et-tubercule-pdf-88a0eb'>Différence Entre Racine Et Tubercule Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=skyrim-relaxing-music-88a0eb'>Skyrim Relaxing Music</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=depuis-tout-%C3%A0-l%27heure-en-arabe-88a0eb'>Depuis Tout à L'heure En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-mbapp%C3%A9-et-neymar-88a0eb'>Photo De Mbappé Et Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mort-koh-lanta-m%C3%A9decin-88a0eb'>Mort Koh-lanta Médecin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=porte-d%27entr%C3%A9e-qui-a-du-jeu-88a0eb'>Porte D'entrée Qui A Du Jeu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Portugal-EURO-2008-88a0eb'>Portugal EURO 2008</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dad-le-livre-88a0eb'>Dad Le Livre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=andrew-instagram-les-princes-de-lamour-88a0eb'>Andrew Instagram Les Princes De Lamour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=banane-fruit-ou-l%C3%A9gume-88a0eb'>Banane Fruit Ou Légume</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-%C3%A9paule-femme-88a0eb'>Sac épaule Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=matchday---episode-2-88a0eb'>Matchday - Episode 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frites-de-patates-douces-friteuse-88a0eb'>Frites De Patates Douces Friteuse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=impact-native-whey-isolate-myprotein-88a0eb'>Impact Native Whey Isolate Myprotein</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=duba%C3%AF-singapour-dur%C3%A9e-de-vol-88a0eb'>Dubaï Singapour Durée De Vol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=besoin-vital-en-arabe-88a0eb'>Besoin Vital En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-lyon-tarif-88a0eb'>Uber Lyon Tarif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-city-de-londres-et-le-brexit-88a0eb'>La City De Londres Et Le Brexit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dortmund---psg-%3A-les-notes-des-joueurs-88a0eb'>Dortmund - Psg : Les Notes Des Joueurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fortnite-dance-coeur-88a0eb'>Fortnite Dance Coeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ip-man-%3A-la-l%C3%A9gende-est-n%C3%A9e-vf-88a0eb'>Ip Man : La Légende Est Née Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-b12-delagrange-avis-88a0eb'>Vitamine B12 Delagrange Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=netflix-payment-fr-88a0eb'>Netflix Payment Fr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-fire-nananana-88a0eb'>On Fire Nananana</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t2r---loka-5-88a0eb'>T2r - Loka 5</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A2tisserie-orientale-recette-88a0eb'>Pâtisserie Orientale Recette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=luna-la-heredera-lyrics-88a0eb'>Luna La Heredera Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=texture-planet-map-88a0eb'>Texture Planet Map</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-d5600-%2B-18-140-vr-88a0eb'>Nikon D5600 + 18-140 Vr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Logo-Valencia-CF-88a0eb'>Logo Valencia CF</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lagrimas-negras-oum-paroles-88a0eb'>Lagrimas Negras Oum Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-l%27ile-des-heros-episode-11-88a0eb'>Koh Lanta L'ile Des Heros Episode 11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=floor-press-pectoraux-88a0eb'>Floor Press Pectoraux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-corps-de-r%C3%AAve-instagram-88a0eb'>Un Corps De Rêve Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-jouer-%C3%A0-quiz-planet-sur-messenger-88a0eb'>Comment Jouer à Quiz Planet Sur Messenger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-site-officiel-88a0eb'>Chelsea Site Officiel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contact-les-echos-88a0eb'>Contact Les Echos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rebelle-%C3%A0-la-discipline-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Rebelle à La Discipline Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-1986-d%C3%A9cembre-88a0eb'>Calendrier 1986 Décembre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cdf-paintball-2020-88a0eb'>Cdf Paintball 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-%C3%A0-vendre-hampstead-londres-88a0eb'>Maison à Vendre Hampstead Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=KAROL-SEVILLA-Instagram-88a0eb'>KAROL SEVILLA Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nissan-navara-d40-king-cab-88a0eb'>Nissan Navara D40 King Cab</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=c%C3%A9cilia-%28koh-lanta-couple%29-88a0eb'>Cécilia (koh-lanta Couple)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calories-son-d%27avoine-une-cuill%C3%A8re-%C3%A0-soupe-88a0eb'>Calories Son D'avoine Une Cuillère à Soupe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=poltergeist-mal%C3%A9diction-film-88a0eb'>Poltergeist Malédiction Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=safari-ne-peut-pas-ouvrir-la-page-car-une-connexion-securisee-au-serveur-n%27a-pu-etre-etablie-iphone-88a0eb'>Safari Ne Peut Pas Ouvrir La Page Car Une Connexion Securisee Au Serveur N'a Pu Etre Etablie Iphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27art-de-faire-l%27amour-%C3%A0-un-homme-belinda-88a0eb'>L'art De Faire L'amour à Un Homme Belinda</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=as-monaco-2006-07-88a0eb'>As Monaco 2006-07</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=limite-abonnement-twitter-88a0eb'>Limite Abonnement Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boulangerie-ange-avis-88a0eb'>Boulangerie Ange Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quartier-a-%C3%A9viter-birmingham-88a0eb'>Quartier A éviter Birmingham</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boucherie-rue-lepic-88a0eb'>Boucherie Rue Lepic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sbi-groupe-eos-88a0eb'>Sbi Groupe Eos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Loren-Gray-wallpaper-88a0eb'>Loren Gray Wallpaper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=katy-perry-beginning-88a0eb'>Katy Perry Beginning</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=melissa-m-benthi-acteur-88a0eb'>Melissa M Benthi Acteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bonne-f%C3%AAte-de-l%27aid-fitr-88a0eb'>Bonne Fête De L'aid Fitr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caroline-cln-fitness-snap-88a0eb'>Caroline Cln Fitness Snap</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cardiff-university-football-88a0eb'>Cardiff University Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=house-of-hot-dog-by-cheezer-88a0eb'>House Of Hot Dog By Cheezer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expo-dubai-2020-date-88a0eb'>Expo Dubai 2020 Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=namadia-koh-lanta-saison-88a0eb'>Namadia Koh-lanta Saison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Que-devient-Cavani-88a0eb'>Que Devient Cavani</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bfm-les-experts-podcast-88a0eb'>Bfm Les Experts Podcast</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=luna-la-heredera-lyrics-88a0eb'>Luna La Heredera Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exportation-royaume-uni-europe-88a0eb'>Exportation Royaume-uni Europe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-eos-800d-18-135mm-88a0eb'>Canon Eos 800d 18-135mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=olympique-saint-etienne-u18-88a0eb'>Olympique Saint-etienne U18</a>,
+";s:7:"expired";i:-1;}

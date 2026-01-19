@@ -1,0 +1,123 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4988:"<p>Au même moment, Superman choisit de renoncer à ses pouvoirs par amour pour Lois Lane... Mais Lex Luthor, toujours décidé à anéantir l'Homme d'Acier, décide de créer son propre super-héros et décide de voler quelques cheveux de Superman présentés dans un musée. Superman film 2017. Dernier film superman.                                                 Superman 4  Tous les lundis, mon Télé Star chez moi. SUPERMAN 2 (1980) - Christopher Reeve - bande-annonce VF Francais-0 Le 16 Juillet 2018. Une fois adulte, il devient reporter au Daily Planet, souhaite mener une vie normale. 	Sauf mention contraire, le contenu de la communauté est disponible sous licence Wiki ARROW France est une communauté de FANDOM appartenant à la catégorie Télévision. Il s'agit du premier film américain de la saga Superman, les trois autres étant des films britanniques produits par Alexander Salkind. C'est le troisième volet des adaptations cinématographiques de Superman avec Christopher Reeve dans le rôle-titre. Vous êtes bien inscrit(e) à la newsletter avec l'adresse :  Les informations recueillies par ce formulaire font l'objet d'un traitement informatique à destination de Reworld Media Magazines et/ou ses partenaires et prestataires afin de pouvoir envoyer les bons plans et offres promotionnelles. ★ dernier film superman: Recherche: Page d'accueil. Le budget fut coupé de moitié et 45 minutes furent enlevés pour qu'un cinquième film puisse voir le jour mais a finalement été annulé après l'échec du film. </p> <p>Jor-El, grand scientifique, décide de sauver son fils unique Kal-El en le plaçant dans une sonde spatiale pour l'envoyer sur Terre. </p> <p>Pourtant, un Superman 5 était bel et bien en projet. Diffusée samedi 20 juillet 2019 à partir de 20h40 sur RTL9, Superman 4 fut le dernier film de la franchise dans lequel Christopher Reeve interprétait le rôle titre. 1951 : Superman et les Nains de l'enfer (Superman and the Mole Men), film interprété par George Reeves et Phyllis Coates. Le premier film de super-héros avec Superman qui n'est pas une série apparut en 1951 : . Pour en savoir plus ou exercer vos droits, vous pouvez consulter nos  1/6 - Les films Superman, Superman II, Superman III et Superman IV sont dans une même continuité, on peut même y incorporé le film La planète Krypton est sur le point d'exploser. Il crée alors Nuclear Man (l'Homme Nucléaire), un homme fait d'une matière que Superman ne peut combattre. Superman ou Superman, le film au Québec est un film de super-héros britannico-helvético-panaméo-américain [1] réalisé par Richard Donner, sorti en 1978.Il met en scène dans les rôles principaux Christopher Reeve, Gene Hackman, Margot Kidder et Marlon Brando.. Dans les années 1940, le personnage de Superman avait déjà fait l'objet d'adaptation cinématographique dans … ; Ce film servit de pilote pour la série télévisée Les Aventures de Superman (1952 à 1958) avec les mêmes acteurs. Selon lui, à la fin du film, lors du combat contre Doomsday, le cri déchirant de Superman se fait entendre aux 4 coins de la galaxie, réveillant les "Mother Boxes" lançant l'intrigue du crossover. Le général Zod et ses sbires, Ursa et Non, tentent de voler un puissant cristal sur Krypton. Cinema Emission de television Jeu Sport Science Voyage Technologie Marque Espace Photographie Musique Distinction Littérature Théâtre Histoire Transport Arts visuels Loisir Politique Religion Nature                                                 Superman 4  2/6 - The fictional character Spider-Man, a comic book superhero created by Stan Lee and Steve Ditko and featured in Marvel Comics publications, has appeared as a main character in multiple theatrical films and made-for-television films.. Nicholas Hammond first starred as Peter Parker / Spider-Man in the 1977 made-for-television film Spider-Man and would appear as the character … Joaquin Phoenix dans la peau du Joker pour le prochain film de Todd Phillips. Conformément à la loi "Informatique et libertés" du 6 janvier 1978 modifiée, vous disposez d'un droit d'accès, de modification et de suppression des données vous concernant. Je m’abonne ! Superman revient sur Terre et reprend sa place au sein du journal The Daily Planet sous le pseudonyme de Clark Kent. Alors qu'il vient de sauver la Tour Eiffel de terroristes ayant placé une bombe à hydrogène, il jette cette dernière dans l'espace. Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la newsletter. En 2005, Richard Donner a fait éditer sa propre version du film (Superman II : The Richard Donner Cut) sorti en DVD et Blu-Ray reprenant le montage original. Ayant échoué dans leur tentative, ils sont jugés par Jor-El qui les condamne à être emprisonnés dans la Zone Fantôme. L'explosion brise la porte de la Zone Fantôme, libérant Zod et ses acolytes, qui décident de se rendre sur Terre pour semer le chaos. </p>";s:7:"keyword";s:21:"dernier superman film";s:5:"links";s:8350:"<a href='https://backyard.synpat.com/site/article.php?page=bonne-f%C3%AAte-francine-88a0eb'>Bonne Fête Francine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=you-gon-learn-eminem-lyrics-genius-88a0eb'>You Gon Learn Eminem Lyrics Genius</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-d%C3%AEner-b%C3%A9nabar-partition-piano-88a0eb'>Le Dîner Bénabar Partition Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=legxercise-pro-decathlon-88a0eb'>Legxercise Pro Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-de-famille-anglais-marrant-88a0eb'>Nom De Famille Anglais Marrant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-pierron-twitter-88a0eb'>France Pierron Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elles-n%27ont-pas-%C3%A9t%C3%A9-chang%C3%A9es-88a0eb'>Elles N'ont Pas été Changées</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plage-publique-gammarth-88a0eb'>Plage Publique Gammarth</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miss-international-haut-de-france-88a0eb'>Miss International Haut De-france</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=freres-d%27armes-francais-episode-1-complet-88a0eb'>Freres D'armes Francais Episode 1 Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-%C3%A9crire-un-article-88a0eb'>Comment écrire Un Article</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-spoiler-alexandra-88a0eb'>Koh Lanta Spoiler Alexandra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=love-i-know-tik-tok-song-88a0eb'>Love I Know Tik Tok Song</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roby-schinasi-photo-88a0eb'>Roby Schinasi Photo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livraison-boulangerie-bordeaux-88a0eb'>Livraison Boulangerie Bordeaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=as-monaco-2006-07-88a0eb'>As Monaco 2006-07</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a-ma-place-karaok%C3%A9-88a0eb'>A Ma Place Karaoké</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kery-james---lettre-%C3%A0-la-r%C3%A9publique-88a0eb'>Kery James - Lettre à La République</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-esport-le-mieux-pay%C3%A9-88a0eb'>Joueur Esport Le Mieux Payé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-rework-votes-88a0eb'>Lol Rework Votes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paiement-promotion-instagram-88a0eb'>Paiement Promotion Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-capu%C3%A7on-salaire-88a0eb'>Renaud Capuçon Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AEle-de-nancy-andr%C3%A9sy-2020-88a0eb'>île De Nancy Andrésy 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=strength-in-depth-2020-88a0eb'>Strength In Depth 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Law-and-order-gif-88a0eb'>Law And Order Gif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=casquette-real-madrid-noir-88a0eb'>Casquette Real Madrid Noir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cover-letter-publish-paper-88a0eb'>Cover Letter Publish Paper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=central-business-district-paris-88a0eb'>Central Business District Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=missing-s%C3%A9rie-am%C3%A9ricaine-88a0eb'>Missing Série Américaine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9couter-drake-god%27s-plan-88a0eb'>écouter Drake God's Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=touche-tabulation-excel-88a0eb'>Touche Tabulation Excel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diego-tab-solo-88a0eb'>Diego Tab Solo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parole-de-chanson-contre-le-sexisme-88a0eb'>Parole De Chanson Contre Le Sexisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=that-girl-lay-lay-parents-88a0eb'>That Girl Lay Lay Parents</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manger-the-shard-88a0eb'>Manger The Shard</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=po%C3%A8me-libert%C3%A9-victor-hugo-88a0eb'>Poème Liberté Victor Hugo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maybelline-superstay-24h-88a0eb'>Maybelline Superstay 24h</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emmanuel-todd---youtube-88a0eb'>Emmanuel Todd - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=doubl%C3%A9-premier-league-ligue-des-champions-88a0eb'>Doublé Premier League Ligue Des Champions</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-diff%C3%A9rents-quartiers-de-hanoi-88a0eb'>Les Différents Quartiers De Hanoi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Simple-%26-Funky-88a0eb'>Simple & Funky</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=box-de-bienvenue-psg-88a0eb'>Box De Bienvenue Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=endorsement-deal---traduction-88a0eb'>Endorsement Deal - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liposuccion-ventre-homme-photo-avant-apr%C3%A8s-88a0eb'>Liposuccion Ventre Homme Photo Avant Après</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=intro-maker-apk-88a0eb'>Intro Maker Apk</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-joueur-fran%C3%A7ais-%C3%A0-l%C3%A9tranger-88a0eb'>Meilleur Joueur Français à Létranger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anti-claque-porte-de-s%C3%A9curit%C3%A9-88a0eb'>Anti Claque Porte De Sécurité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guide-the-witcher-3-fran%C3%A7ais-88a0eb'>Guide The Witcher 3 Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=poker-face-karaoke-88a0eb'>Poker Face Karaoke</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-belle-la-vie-micha%C3%ABl-88a0eb'>Plus Belle La Vie Michaël</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-marseillais-kim-et-giulia-88a0eb'>Les Marseillais Kim Et Giulia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shaker-vinaigrette-en-verre-88a0eb'>Shaker Vinaigrette En Verre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanel-gabrielle-parfum-prix-88a0eb'>Chanel Gabrielle Parfum Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-imprimante-document-88a0eb'>Mini Imprimante Document</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=summoners-war-co-chow-88a0eb'>Summoners War Co Chow</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=housse-macbook-air-2020-88a0eb'>Housse Macbook Air 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniel-balavoine---sauver-lamour-88a0eb'>Daniel Balavoine - Sauver Lamour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gueuse-synonyme-12-lettres-88a0eb'>Gueuse Synonyme 12 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-consultant-amoa-junior-88a0eb'>Lettre De Motivation Consultant Amoa Junior</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daisi-et-natascha-88a0eb'>Daisi Et Natascha</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=veste-atl%C3%A9tico-madrid-88a0eb'>Veste Atlético Madrid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=richard-rogers-oeuvres-88a0eb'>Richard Rogers Oeuvres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thibault-geoffray-programme-88a0eb'>Thibault Geoffray Programme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9sentateur-journal-tf1-20h-88a0eb'>Présentateur Journal Tf1 20h</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=statue-guillaume-tell-88a0eb'>Statue Guillaume Tell</a>,
+";s:7:"expired";i:-1;}

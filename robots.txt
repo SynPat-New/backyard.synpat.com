@@ -1,0 +1,13 @@
+# Group 1
+User-agent: robot
+Disallow: /application/
+Disallow: /base/
+Disallow: /bin/
+Disallow: /fcgi/
+Disallow: /illustration_assignment/
+Disallow: /public/
+Disallow: /system/
+Disallow: /temp/
+Disallow: /test/
+Disallow: /tmp/
+Disallow: /vendor/

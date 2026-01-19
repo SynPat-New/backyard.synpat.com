@@ -1,0 +1,134 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4969:"<p>Deal. We would have expected an RF version of the Canon EF 800mm f/5.6L IS USM (which costs $12,999 / £12,199), so this f/11 is a bit of a curveball. </p> <p>As a comparison, the Canon EF 600mm f/4L IS III USM weighs in at 3kg.The 800mm F11 IS STM weighs 1.26kg (2.78lb). Store #0906712 Elec. Let us know in the comments section below.Matthew Allard is a multi-award-winning, ACS accredited freelance Director of Photography with 30 years' experience working in more than 50 countries around the world.A site for working professionals in the TV & Film industry UK charges 20% and that is normally included in with the … On the specs side of things, the RF 600mm F11 IS STM has a minimum focusing distance of 4.5m, extending to 6m for the RF 800mm …  It weighs less than the Canon EF 600mm f/4L IS USM Lens - and the difference is noticeable, but the Canon EF 800mm f/5.6L IS USM Lens is by no means light - or small. Add to Cart Overview Specs Q&A Accessories Compare Compatibility Overview About Canon RF 800mm f/11 IS STM The RF800mm F11. As far as autofocus performance goes, Canon claims that both lenses will give you an autofocus area that is around 40% of the camera’s horizontal area and 60% of the vertical area. & Home App. The 800mm F11 IS STM weighs 1.26kg (2.78lb). </p> <p>: Elec. Manufacturer rebates, terms, conditions, and expiration dates are subject to manufacturers printed forms NYC DCA Lic. 12 oct. 2018 - Découvrez le tableau "80 cm Kanone (E) « schwerer Gustav » (« Dora »)." With the 2x extender you will get 1200mm at F22.Using the 1.4x extender with the 800mm you will get 1120mm at F14 and with the 2x extender you will get a whopping 1600mm at F22.Both of these lenses will be available at the end of July. </p> <p>Not only are the 600mm and the 800mm down right puny compared to the professional L super telephotos, but they are also going to be INSANELY cheap. The 800mm is 28.18cm when retracted and 35.18cm when extended. Fixed focal length ultra-telephoto lenses tend to be large, heavy, and very expensive. Voir plus d'idées sur le thème Trains, Guerres, Armée allemande. Considering a Canon EF 600mm f/4L IS III USM costs $12,999 USD, it does sound very affordable, however, you could still get something like the Sigma 150-600mm f/5-6.3 DG OS HSM Contemporary Lens for $900 USD.Would you consider a fixed aperture, fixed focal length ultra-telephoto for video use? Commandé par le ministère de l'armement en décembre 1942 et devant peser 1 500 tonnes et mesurer 42 m sur 18 m, le Landkreuze P. 1500 Monster aurait dû pour sa part servir de plate-forme automotrice au canon Dora de 800 mm. Deal. Canon RF 800mm f/11 IS STM This is the one that has us really excited – though as with the 600mm above, the aperture has us a little baffled. Using the 1.4x extender with the 600mm will give you 840mm at F14. Super-telephoto prime is designed for use with full-frame Canon RF-mount mirrorless digital cameras.Fixed f/11 aperture contributes to the sleek and portable form factor as well as a balanced mixture of depth of field and sharpness.Gapless dual-layer diffractive optics contribute to a marked reduction in chromatic and spherical aberrations as well as benefit the design of a relatively compact and lightweight lens.Retractable/extendable design, with a locking lens barrel, offers an impressively compact form factor considering the super-telephoto design.An Optical Image Stabilizer helps to minimize the appearance of camera shake by up to four stops to better enable working in low-light conditions and with slower shutter speeds.STM stepping motor offers fast, quiet, smooth, and accurate autofocus performance that is ideal for video recording as well as still shooting.Configurable Control Ring can be used to adjust a variety of exposure settings, including aperture, ISO, and exposure compensation.Compatible with optional Extender RF 1.4x and Extender RF 2x teleconverters to further increase the effective focal length. </p> <p>Vue latérale du supertéléobjectif EF 800 mm f/5,6L IS USM de Canon. For shooters who only occasionally need to capture images at long distances, owning one of these lenses doesn’t usually make a lot of sense. Enter new zip code to refresh estimated delivery time. This is not going to be nearly as good as using most other RF lenses on say an R5 or R6.The great thing about the new 600mm and 800mm lenses is that they will both work with canon’s new RF 1.4x and 2x extenders. the Canon 800mm EF F5.6L IS USM weighs 4.5kg. Please enable javascript for your best B&H experience. the Canon 800mm EF F5.6L IS USM weighs 4.5kg.Canon states that both lenses use gapless double-layer Diffractive Optics (DO) that are claimed to reduce chromatic aberration and provide high-quality images.Both lenses also feature IS and canon claims that this provides up to 5.5 stops of shake correction. As far as weight is concerned, the 600mm tips the scales at just 930g. </p>";s:7:"keyword";s:20:"canon 800mm allemand";s:5:"links";s:10094:"<a href='https://backyard.synpat.com/site/article.php?page=composition-tottenham-2020-88a0eb'>Composition Tottenham 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-%C3%A9tranger-2019-88a0eb'>Fort Boyard étranger 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estimation-gain-cha%C3%AEne-youtube-88a0eb'>Estimation Gain Chaîne Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=personne-influente-exemple-88a0eb'>Personne Influente Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sorti-de-la-baille-88a0eb'>Sorti De La Baille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A9raldine-muhlmann-instagram-88a0eb'>Géraldine Muhlmann Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=johnny-%C3%A0-la-guitare-88a0eb'>Johnny à La Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9nergie-cardio-lebourgneuf-88a0eb'>énergie Cardio Lebourgneuf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-tandem-%C3%A9lectrique-88a0eb'>Vélo Tandem électrique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-bastia-1978-88a0eb'>Maillot Bastia 1978</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=apr%C3%A8s-que-tu-aies-88a0eb'>Après Que Tu Aies</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dna-en-avance-streaming-88a0eb'>Dna En Avance Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nerf-fortnite-sniper-prix-88a0eb'>Nerf Fortnite Sniper Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compression-d%27un-gaz-parfait-dans-un-cylindre-88a0eb'>Compression D'un Gaz Parfait Dans Un Cylindre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fond-d%27%C3%A9cran-red-dead-redemption-2-iphone-88a0eb'>Fond D'écran Red Dead Redemption 2 Iphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a%C3%AFd-el-fitr-maroc-88a0eb'>Aïd El Fitr Maroc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-france-adresse-88a0eb'>Uber France Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Alyssa-Milano-2015-88a0eb'>Alyssa Milano 2015</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nuit-nanarland-2-88a0eb'>Nuit Nanarland 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oracle-de-belline-signification-des-cartes-pdf-88a0eb'>Oracle De Belline Signification Des Cartes Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A9g%C3%A9-koh-lanta-2011-88a0eb'>Gégé Koh Lanta 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-2-janane-boudili-88a0eb'>France 2 Janane Boudili</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tambour-brother-241-88a0eb'>Tambour Brother 241</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=usa-prepaid-sim-card-for-travellers-88a0eb'>Usa Prepaid Sim Card For Travellers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ceinture-de-maintien-abdominale-pour-femme-88a0eb'>Ceinture De Maintien Abdominale Pour Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comparatif-whey-decathlon-88a0eb'>Comparatif Whey Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tambour-brother-241-88a0eb'>Tambour Brother 241</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creatine-toute-l%27ann%C3%A9e-88a0eb'>Creatine Toute L'année</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-qui-d%C3%A9crit-une-personne-88a0eb'>Chanson Qui Décrit Une Personne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-qui-a-tu%C3%A9-grand-maman-piano-88a0eb'>Partition Qui A Tué Grand-maman Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniel-balavoine-%2F-partir-avec-les-miens-88a0eb'>Daniel Balavoine / Partir Avec Les Miens</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-th%C3%A9rapie-des-sch%C3%A9mas%3A-principes-et-outils-pratiques-pdf-88a0eb'>La Thérapie Des Schémas: Principes Et Outils Pratiques Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-aller-%C3%A0-la-ligne-sur-twitter-iphone-88a0eb'>Comment Aller à La Ligne Sur Twitter Iphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=colonie-portugaise-inde-88a0eb'>Colonie Portugaise Inde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=evan-et-marco---la-tribu-de-dana-parole-88a0eb'>Evan Et Marco - La Tribu De Dana Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mountain-climber-push-up-88a0eb'>Mountain Climber Push Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=une-fois-de-temps-en-temps-88a0eb'>Une Fois De Temps En Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9couter-drake-god%27s-plan-88a0eb'>écouter Drake God's Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=id%C3%A9e-de-compte-instagram-%C3%A0-faire-88a0eb'>Idée De Compte Instagram à Faire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fichier-des-personnes-recherch%C3%A9es-interpol-88a0eb'>Fichier Des Personnes Recherchées Interpol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clans-of-scotland-88a0eb'>Clans Of Scotland</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dimension-podium-sportif-88a0eb'>Dimension Podium Sportif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clans-of-scotland-88a0eb'>Clans Of Scotland</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-multifruits-sans-cr%C3%A8me-p%C3%A2tissi%C3%A8re-88a0eb'>Tarte Multifruits Sans Crème Pâtissière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=documentaire-didier-deschamps-streaming-88a0eb'>Documentaire Didier Deschamps Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-corgenic-avis-88a0eb'>Bcaa Corgenic Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-maison-de-didier-drogba-%C3%A0-cocody-88a0eb'>La Maison De Didier Drogba à Cocody</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yann-barth%C3%A8s-laurent-bon-88a0eb'>Yann Barthès Laurent Bon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-iphone-11-pro-max-mode-d%27emploi-88a0eb'>Appareil Photo Iphone 11 Pro Max Mode D'emploi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rythmique-guitare-je-ne-veux-qu%27elle-88a0eb'>Rythmique Guitare Je Ne Veux Qu'elle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ril%C3%A8s-thank-god-88a0eb'>Rilès Thank God</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amino-drink-american-wolf-prix-tunisie-88a0eb'>Amino Drink American Wolf Prix Tunisie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tondue-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Tondue Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avez-vous-des-nouvelles-sur-ce-sujet-88a0eb'>Avez-vous Des Nouvelles Sur Ce Sujet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remise-en-forme-d%C3%A9finition-88a0eb'>Remise En Forme Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emploi-du-temps-chauffeur-de-taxi-88a0eb'>Emploi Du Temps Chauffeur De Taxi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=but-de-benzema-valence-88a0eb'>But De Benzema Valence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-malheurs-de-sophie-film-critique-88a0eb'>Les Malheurs De Sophie Film Critique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thomas-%28secret-story-4%29-88a0eb'>Thomas (secret Story 4)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marina-kaye-fortune-88a0eb'>Marina Kaye Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=personne-qui-lutte-contre-lesclavage-moderne-88a0eb'>Personne Qui Lutte Contre Lesclavage Moderne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avantages-salari%C3%A9s-printemps-88a0eb'>Avantages Salariés Printemps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adizero-football-cleats-88a0eb'>Adizero Football Cleats</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boutique-mac-cosmetics-88a0eb'>Boutique Mac Cosmetics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ferry-%C3%AEle-de-rab-croatie-88a0eb'>Ferry île De Rab Croatie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9dalier-fixie-decathlon-88a0eb'>Pédalier Fixie Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Citation-Alain-Delon-88a0eb'>Citation Alain Delon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mohamed-koh-lanta-2005-88a0eb'>Mohamed Koh-lanta 2005</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=produit-de-beaut%C3%A9-pharmacie-88a0eb'>Produit De Beauté Pharmacie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Patate-douce-fondante-88a0eb'>Patate Douce Fondante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussures-lilian-italie-88a0eb'>Chaussures Lilian Italie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-cit%C3%A9-de-l%27ombre-questionnaire-88a0eb'>La Cité De L'ombre Questionnaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=challenge-maquillage-pinceau-88a0eb'>Challenge Maquillage Pinceau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=accessoire-real-madrid-88a0eb'>Accessoire Real Madrid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lucky-Luke-Extrait-88a0eb'>Lucky Luke Extrait</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27astreinte-au-tribunal-administratif-88a0eb'>Demande D'astreinte Au Tribunal Administratif</a>,
+";s:7:"expired";i:-1;}

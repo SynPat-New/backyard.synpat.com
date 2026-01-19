@@ -1,0 +1,105 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3292:"<br>is a French televised series based on the international series Don't Forget the Lyrics!.It broadcasts on the television station France 2 as of 15 December 2007 and is produced by Air Productions. Au début des années 2000, elle épouse le producteur et réalisateur de télévision Serge Khalfon. Il est réalisateur des émissions de la productrice Catherine Barma, telles que Tout le monde en parle, Panique dans l'oreillette, On a tout essayé, On n'est pas couché, On n'demande qu'à en rire, On n'a pas tout dit  ou L'Émission pour tous. ... Il est aussi à l'origine de la refonte du JT, un temps le plus regardé d'Europe, le JT de 20 h de TF1. The show has already broadcast for more than 500 episodes. <br> <br>Serge Khalfon (1963-), réalisateur français. Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les Vous pouvez partager vos connaissances en l’améliorant (Pour le grand public, il est indirectement connu grâce à l'expression Il est réalisateur des émissions de la productrice Il est également réalisateur de plusieurs captations de spectacles, tels que En 2008 il crée les sociétés Magnéto Prod et Magnéto presse avec Marc Berdugo (ex-Capa) et Elfriede Leca (ex-directrice générale de En 2012, Serge Khalfon s'occupe du « funky défilé ETAM ». <br> The 500th show was on 23 February 2011. Il réalise également C+ Clair, En toutes lettres, Le Coffre, Les enfants de la télé, Les Guignols de l'info  et régulièrement Tout le monde veut prendre sa place, Touche pas à mon poste !, Slam, N'oubliez pas les paroles !, Motus, Les 12 Coups de Midi. Il collabore à nouveau avec TF1 pour l'émission politique de la campagne présidentielle Claire Balavoine, « Daniel Balavoine, mon frère », N'oubliez pas les paroles! <br> <br> <br>Retrouvez toutes les infos sur Serge Khalfon avec Télé-Loisirs.fr : sa biographie, son actualité, ses photos et vidéos. Il collabore à nouveau avec TF1 pour l'émission politique de la campagne présidentielle Droit d'auteur : les textes des articles sont disponibles sous Claire Balavoine, « Daniel Balavoine, mon frère »,  Serge Khalfon (né le 5 novembre 1963 à Paris), est un réalisateur et producteur français, majoritairement spécialisé dans les émissions de télévision. Tout le monde veut prendre sa place (sometimes abbreviated TLMVPSP) (English translation: Everyone Wants to Take His Place) is a French television game show, broadcast since 3 July 2006, produced by Air Productions and Effervescence.The game is presented by Nagui and is narrated alternatively by Gérard Pullicino, Serge Khalfon, Tristan Carné, Richard Valverde, … Voir aussi. Pour le grand public, il est indirectement connu grâce à l'expression Il est réalisateur des émissions de la productrice Il est également réalisateur de plusieurs captations de spectacles, tels que En 2008 il crée les sociétés Magnéto Prod et Magnéto presse avec Marc Berdugo (ex-Capa) et Elfriede Leca (ex-directrice générale de En 2012, Serge Khalfon s'occupe du « funky défilé ETAM ». Halfon La dernière modification de cette page a été faite le 21 juillet 2020 à 14:03. <br>";s:7:"keyword";s:21:"serge khalfon origine";s:5:"links";s:6246:"<a href='https://backyard.synpat.com/site/article.php?page=Candidat-Koh%E2%80%91Lanta-2013-88a0eb'>Candidat Koh‑Lanta 2013</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karoline-ro-chirurgie-88a0eb'>Karoline Ro Chirurgie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arsenal-quartier-londres-88a0eb'>Arsenal Quartier Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caps-lol-g2-88a0eb'>Caps Lol G2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-seux-contact-88a0eb'>Dominique Seux Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vincent-roux-koh-lanta-88a0eb'>Vincent Roux Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estimation-gain-cha%C3%AEne-youtube-88a0eb'>Estimation Gain Chaîne Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sb-signification-sms-88a0eb'>Sb Signification Sms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivre-%C3%A0-sharjah-88a0eb'>Vivre à Sharjah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sam-haliti-origine-albanaise-88a0eb'>Sam Haliti Origine Albanaise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-polnareff-2020-88a0eb'>Michel Polnareff 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=polnareff-age-jojo-88a0eb'>Polnareff Age Jojo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=honoraires-consultant-international-88a0eb'>Honoraires Consultant International</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%C3%A9o-matte%C3%AF-saison-1-88a0eb'>Léo Matteï Saison 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=love-the-way-you-are-film-88a0eb'>Love The Way You Are Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hauteur-de-vue-d%C3%A9finition-88a0eb'>Hauteur De Vue Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=teeqzy-live-twitch-88a0eb'>Teeqzy Live Twitch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=french-throwdown-2020-finale-88a0eb'>French Throwdown 2020 Finale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=et-moi-je-suis-tomb%C3%A9-en-esclavage-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-88a0eb'>Et Moi Je Suis Tombé En Esclavage مترجمة</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=master-psychologie-sociale-de-la-communication-et-du-marketing-88a0eb'>Master Psychologie Sociale De La Communication Et Du Marketing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=google-home-lire-amazon-music-88a0eb'>Google Home Lire Amazon Music</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coinfoot-shop-avis-88a0eb'>Coinfoot Shop Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invit%C3%A9-rtl-soir-88a0eb'>Invité Rtl Soir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-%C3%A9pisode-du-22-mai-2020-88a0eb'>Koh-lanta épisode Du 22 Mai 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=premier-pas-dans-la-gendarmerie-replay-88a0eb'>Premier Pas Dans La Gendarmerie Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=commune-mixte-des-braz-88a0eb'>Commune Mixte Des Braz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lucratif-9-lettres-88a0eb'>Lucratif 9 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=conseils-instagram-2020-88a0eb'>Conseils Instagram 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jordana-brewster-et-paul-walker-en-couple-88a0eb'>Jordana Brewster Et Paul Walker En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dance-monkey-neymar-88a0eb'>Dance Monkey Neymar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hollywood-david-mcneil-paroles-88a0eb'>Hollywood David Mcneil Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=30-jours-squat-challenge-avant-apr%C3%A8s-88a0eb'>30 Jours Squat Challenge Avant Après</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manuel-neuer-papa-88a0eb'>Manuel Neuer Papa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tier-list-valorant-skyyart-88a0eb'>Tier List Valorant Skyyart</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Chanson-tablature-guitare-88a0eb'>Chanson Tablature Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t%C3%A9l%C3%A9charger-horaire-de-pri%C3%A8re-li%C3%A8ge-88a0eb'>Télécharger Horaire De Prière Liège</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=singuila-ay-mama-parole-88a0eb'>Singuila Ay Mama Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=captain-eudora-hearthstone-88a0eb'>Captain Eudora Hearthstone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=isabelle-da-silva-autorit%C3%A9-de-la-concurrence-88a0eb'>Isabelle Da Silva Autorité De La Concurrence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-de-michel-galabru-88a0eb'>Femme De Michel Galabru</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-pour-chauffer-une-salle-88a0eb'>Musique Pour Chauffer Une Salle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-avec-le-mot-monde-dedans-94-88a0eb'>Musique Avec Le Mot Monde Dedans 94</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27incroyable-famille-kardashian-saison-14-streaming-fran%C3%A7ais-88a0eb'>L'incroyable Famille Kardashian Saison 14 Streaming Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=C%27est-d%27ici-que-je-vous-%C3%A9cris-88a0eb'>C'est D'ici Que Je Vous écris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9thode-orion-gestion-des-risques-88a0eb'>Méthode Orion Gestion Des Risques</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=relev%C3%A9-de-jambes-suspendu-%C3%A0-la-barre-88a0eb'>Relevé De Jambes Suspendu à La Barre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-b1-injectable-tunisie-88a0eb'>Vitamine B1 Injectable Tunisie</a>,
+";s:7:"expired";i:-1;}

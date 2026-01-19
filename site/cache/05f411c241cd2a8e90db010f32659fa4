@@ -1,0 +1,134 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5438:"<p>Because of local geography and the ever-changing position of the Sun and the Moon, tides can vary from next to nothing to the massive, 53.5-feet difference between low tide and high tide in Canada’s Bay of Fundy.Over millions of years, creatures in the ocean have evolved to adapt to the changing tidal habitats caused by the Moon’s gravity – but even just moonlight has a powerful influence on marine life. Ocean tides are caused by the complex interplay of three astronomical bodies: the Sun, the Earth and the Moon. So, why is that?A day on Earth is the time it takes our planet to spin once around its own axis in relation to the Sun. We’re dedicated to working with indigenous communities, legislators, scientists and people … Appearance Edit. Ocean tides are caused by the complex interplay of three astronomical bodies: the Sun, the Earth and the Moon. As a result, the tides behave more like water sloshing around in an oddly shaped bathtub than in a smooth and even basin.In some places, the water flows freely and quickly, while in other areas, where the water has to pass through narrow channels, it moves more slowly. Different weather conditions, such as wind and barometric pressure, creates bigger differences in the water level than tides on these lakes. These situations are called neap tides.During the waxing gibbous and waning crescent phases, the Moon is approaching its full and new phases, respectively. </p> <p>The moon has been accused of controlling everything from fertility to the foraging behavior of mice, but whether or not the moon actually has that much (or any) influence on our behavior still has yet to be proven. At new moon, the Moon and Sun are in a straight line on the same side of the Earth. Download the perfect ocean moon pictures. This is also the case in the Baltic Sea, the Black Sea, the Caspian Sea, and even the Mediterranean.Many rivers connecting to the ocean do have high and low tides. Both the Sun and the Moon exert a gravitational pull on the Earth's water. Learn how to use altitude (elevation) and azimuth angles to locate any object in the sky, such as stars, planets, satellites, the Sun, or the Moon. In the 2nd hour, it would rise 2 feet. On coral reefs, for instance, angelfish and butterflyfish have been observed feeding all night by the light of the full Moon. The Oceans Bulge The amount of liquid in a human body is far from big enough to experience tides. Because of this, the resulting tidal bulges will increase in size until they reach their maximum during the spring tides.During the waning gibbous and waxing crescent phases, the Moon is on its way to the quarter phases. However, the timing and temporal link of these events remain uncertain. You see, the moon’s gravity actually affects the entire Earth, not just the water, but because water is much less dense than land, we actually see the tides change. </p> <p>The result is that the variation between high and low tide is very different from place to place. It can range from almost no difference to over 16 meters (over 50 feet).Tides are one of the most reliable phenomena in the world, and we know that they move in and out around twice a day, but not exactly. </p> <p>your own Pins on Pinterest The reason the lunar day is longer than a solar day is that the Moon revolves around Earth in the same direction as Earth rotates around its axis, so it takes Earth, on average, an additional 50 minutes to “catch up” to the Moon.Because the tidal force of the Moon is more than twice as strong as the Sun's, the tides follow the lunar day, not the solar day. In the 1st hour, the tide would rise 1 foot. In the 4th hour, it will also rise 3/12, in the 5th, it will rise 2/12, and in the 6th hour, it will rise 1/12.So, let’s say the predicted tidal range is 12 feet. Corals themselves use the lunar cycle to time their spawning, ensuring that all eggs are released at the same time and carried further by more powerful tides. Due to Earth's rotation, the two tidal bulges act like two expansive "waves" continuously undulating around our planet. Ocean tides are caused by the complex interplay of three astronomical bodies: the Sun, the Earth and the Moon. However, in some coastal areas, the tidal range can be more than 10 times higher in the most extreme regions. The gravitational forces from each body act at perpendicular angles, diminishing the overall tidal bulge. </p> <p>For tides to be noticeable, the body of water has to be huge, like an ocean. It’s one of the reasons beach resorts, with their artificial lights, can be so harmful – disorienting the baby turtles and leading them in the wrong direction.Back in the 1650s, when humanity first started observing the Moon in detail through early telescopes, astronomers like Giovanni Battista Riccioli imagined the dark patches as vast seas and oceans on the lunar surface. He was adopted by a werewolf family. In contrast, low-pressure systems may contribute to causing much higher tides than predicted.The depth and shape of the ocean and the distance between continents are also important in determining the water level along the shores. </p> <p>Even though true tides also occur in smaller water basins, like big lakes, the tidal variations here are too small to notice.For example, in the Great Lakes in the US, the largest tidal range is less than 5 cm or just under 2 inches. The Moon creates the ocean tides. </p>";s:7:"keyword";s:14:"Moon and ocean";s:5:"links";s:9866:"<a href='https://backyard.synpat.com/site/article.php?page=laura-mercier-eshop-88a0eb'>Laura Mercier Eshop</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sephora-goignan-wikip%C3%A9dia-88a0eb'>Sephora Goignan Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abdos-obliques-hypopressif-88a0eb'>Abdos Obliques Hypopressif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patrick-dewaere-mariage-88a0eb'>Patrick Dewaere Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alimentation-course-%C3%A0-pied-88a0eb'>Alimentation Course à Pied</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=planification-et-ordonnancement-de-la-production-excel-88a0eb'>Planification Et Ordonnancement De La Production Excel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bougie-anti-moustique-88a0eb'>Bougie Anti Moustique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Vinicius-Junior-Skills-88a0eb'>Vinicius Junior Skills</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-naples-2020-2021-88a0eb'>Maillot Naples 2020-2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parents-de-kendji-girac-88a0eb'>Parents De Kendji Girac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-manu-live-88a0eb'>Renaud Manu Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=leonardo-express-plan-88a0eb'>Leonardo Express Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-800d-promo-88a0eb'>Canon 800d Promo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Chanson-de-Louane-88a0eb'>Chanson De Louane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-abonnement-france-football-88a0eb'>Code Promo Abonnement France Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Partition-Ma%C3%AEtre-Gims-88a0eb'>Partition Maître Gims</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gnomon-matte-painting-88a0eb'>Gnomon Matte Painting</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeffrey-epstein-streaming-88a0eb'>Jeffrey Epstein Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soan-sos-d%27un-terrien-en-d%C3%A9tresse---youtube-88a0eb'>Soan Sos D'un Terrien En Détresse - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bfm-business-p%C3%A8pites-et-pipeaux-replay-88a0eb'>Bfm Business Pèpites Et Pipeaux Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Compo-Marseille-Strasbourg-88a0eb'>Compo Marseille Strasbourg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rio-claude-fran%C3%A7ois-88a0eb'>Rio Claude François</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ferry-ath%C3%A8nes-turquie-88a0eb'>Ferry Athènes Turquie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr7-2020-buts-88a0eb'>Cr7 2020 Buts</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=generique-de-nous-irons-tous-au-paradis-88a0eb'>Generique De Nous Irons Tous Au Paradis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barnsley-brentford-live-score-88a0eb'>Barnsley Brentford Live Score</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=collector-square-montre-cartier-88a0eb'>Collector Square Montre Cartier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-dortmund-streaming-vf-88a0eb'>Psg Dortmund Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9d%C3%A9rique-%28les-anges%29-88a0eb'>Frédérique (les Anges)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-moment-de-la-journ%C3%A9e-pour-faire-du-sport-88a0eb'>Meilleur Moment De La Journée Pour Faire Du Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-portugal-euro-2000-composition-88a0eb'>France Portugal Euro 2000 Composition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=45-cm-de-tour-de-bras-naturel-88a0eb'>45 Cm De Tour De Bras Naturel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Messi-FIFA-13-88a0eb'>Messi FIFA 13</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dur%C3%A9e-entra%C3%AEnement-prise-de-masse-88a0eb'>Durée Entraînement Prise De Masse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pascale-clark-2019-88a0eb'>Pascale Clark 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soulier-d%27or-2014-88a0eb'>Soulier D'or 2014</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tomate-et-chocolat-nevers-88a0eb'>Tomate Et Chocolat Nevers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g7-van-prix-88a0eb'>G7 Van Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-guignols-de-linfo-streaming-88a0eb'>Les Guignols De Linfo Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dieu-que-c%27est-beau-guitare-88a0eb'>Dieu Que C'est Beau Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=senna-lol-universe-88a0eb'>Senna Lol Universe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adia-interim-suisse-88a0eb'>Adia Interim Suisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gateau-aid-2019-88a0eb'>Gateau Aid 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=essayer-de-ne-pas-rire-100-impossible-mr-olivier-88a0eb'>Essayer De Ne Pas Rire 100 Impossible Mr Olivier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gage-%C3%A0-faire-88a0eb'>Gage à Faire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partie-de-chasse---film-88a0eb'>Partie De Chasse - Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gr-91-difficult%C3%A9-88a0eb'>Gr 91 Difficulté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=loic-piana-menton-88a0eb'>Loic Piana Menton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-gitan-film-avis-88a0eb'>Le Gitan Film Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27expression-de-la-condition-et-de-l%27hypoth%C3%A8se-exercices-pdf-88a0eb'>L'expression De La Condition Et De L'hypothèse Exercices Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=champie-icon-lol-88a0eb'>Champie Icon Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Logo-Valencia-CF-88a0eb'>Logo Valencia CF</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lovell-soccer-france-88a0eb'>Lovell Soccer France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marguerite-dumont-journaliste-88a0eb'>Marguerite Dumont Journaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-extension-garage-88a0eb'>Prix Extension Garage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remise-de-dipl%C3%B4me-en-ligne-88a0eb'>Remise De Diplôme En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-au-temps-chaud-88a0eb'>Synonyme De Au Temps Chaud</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-rugby-terrain-synth%C3%A9tique-88a0eb'>Chaussure Rugby Terrain Synthétique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pression-familiale-%C3%A9tudes-88a0eb'>Pression Familiale études</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27air-du-vent-paroles-88a0eb'>L'air Du Vent Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-pbe-oubli%C3%A9-88a0eb'>Compte Pbe Oublié</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-le-monde-veut-prendre-sa-place-champion-actuel-sandrine-88a0eb'>Tout Le Monde Veut Prendre Sa Place Champion Actuel Sandrine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-12-titans-88a0eb'>Les 12 Titans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-la-femme-de-charlie-winston-88a0eb'>Photo De La Femme De Charlie Winston</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cylia-%3A-signification-88a0eb'>Cylia : Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=groupe-du-portugal-pour-l%27euro-2020-88a0eb'>Groupe Du Portugal Pour L'euro 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dj-mix-1er-mix-premier---amour-compliqu%C3%A9-%5Baudio-paroles%5D-88a0eb'>Dj Mix 1er Mix Premier - Amour Compliqué [audio Paroles]</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=son-d%27avoine-visage-88a0eb'>Son D'avoine Visage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-me-souviens-m%C3%A9n%C3%A9lik-instrumental-88a0eb'>Je Me Souviens Ménélik Instrumental</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=championnat-de-france-karat%C3%A9-2020-88a0eb'>Championnat De France Karaté 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alex-ferguson-mon-autobiographie-pdf-gratuit-88a0eb'>Alex Ferguson Mon Autobiographie Pdf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emc-cm2-confinement-88a0eb'>Emc Cm2 Confinement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-maillot-2021-88a0eb'>Psg Maillot 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chateau-d%27edimbourg-interieur-88a0eb'>Chateau D'edimbourg Interieur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cookies-vegan-banane-beurre-de-cacahu%C3%A8te-88a0eb'>Cookies Vegan Banane Beurre De Cacahuète</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-redeemed-and-the-dominant%3A-fittest-on-earth-88a0eb'>The Redeemed And The Dominant: Fittest On Earth</a>,
+";s:7:"expired";i:-1;}

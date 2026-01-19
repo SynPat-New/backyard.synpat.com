@@ -1,0 +1,123 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:7098:"<br>endobj The Compliance Team will undertake an annual review of our obligations towards eradicating modern slavery within our organisation and supply chains.All of our employees have an obligation to familiarise themselves with our policy to help in the identification and prevention of modern slavery. 19 0 obj However, we will monitor our internal compliance with this policy by recording:Where our suppliers do not yet have modern slavery policies and procedures in place, where appropriate we will ask for confirmation as to the likely timescale for their introduction.Our Chief Executive Officer is responsible for compliance with this policy, and is the person to whom all queries or concerns regarding modern slavery should be addressed. New employees will receive training on this policy as part of their induction process. endobj Il se fonde sur l'article 4 de la Déclaration des Droits de l'Homme: "Nul ne sera tenu en esclavage ni en servitude. <> <br> <br>endobj <br> <br>endobj <br> <br>Installée à PARIS 13 (75013), elle est spécialisée dans le secteur d'activité des autres organisations fonctionnant par adhésion volontaire. <br> <br>endobj endobj 11 0 obj <br> Il apporte une assistance sociale et juridique aux victimes dans toute la France et dénonce ces situations partout dans le monde. <br> <br>endobj Anne Read, the charity’s director of anti-trafficking and modern slavery, said victims were tricked into following their dream and then trapped. %���� In addition, all of our employees responsible for compliance or procurement will be trained on the requirements of this policy.We recognise that our commitment to a zero-tolerance approach to modern slavery is a continual journey which requires us to review and where necessary, modify our processes, on a regular basis. <> Modern day slaves were found running a massive cannabis farm in the heart of Manchester. endobj 5 0 obj endobj (07/07/2020) Over the course of two Daphne projects funded in 1998 and 1999, the French NGO Comité Contre l’Esclavage Moderne (CCEM) set out to bring to public attention the situation of young women (and sometimes but more rarely men) trapped in slavery-like conditions in Europe, where they have been brought to work as domestic help or in other service positions, often by diplomats or business families … <br> <br>4 0 obj <br> <br><> <br> <br>Le 3 avril 2020, le GRETA (Groupe d’experts sur la lutte contre la traite des êtreshumains) a publié son 9e rapport annuel.Le Comité contre l’esclavage moderne (CCEM) combat depuis 1994 toutes les formes de traite des êtres humains à des fins d’exploitation par le travail, notamment domestique.Il apporte une assistance sociale et juridique aux victimes dans toute la France et dénonce ces situations partout dans le monde.Il a pour mission la mise à l’abri, la protection et la défense des victimes. Le Comité contre l'esclavage moderne <br> <br>thebigword supply chain primarily comprises the linguists, along with other key service providers.We use a wide variety of local, national and international suppliers to source language services and goods for the operation of our business. FRANCE – Comité contre l’esclavage moderne : Le Comité contre l’esclavage moderne aide en France les victimes d’esclavage domestique et de travail forcé. <> <> <br> <br><> Présentation de la société COMITE CONTRE L' ESCLAVAGE MODERNE COMITE CONTRE L' ESCLAVAGE MODERNE , association déclarée est active depuis 22 ans. Le CCEM se bat contre toutes les formes d’esclavage, de servitude et de traite des êtres humains. <br> <br>(06/07/2020)Prison ferme pour Mme S., l'artiste saoudienne, reconnue coupable de traite des êtres humains à des fins de soumission à des conditions de travail et condamnée à 3 ans de prison ferme. CCSM - Belgique Le Comité Contre l'Esclavage Moderne . <br> <br>endobj <br> <br> $.' 9 0 obj endobj One victim, whose ordeal spanned more than 25 years, was made to dig his own grave. ✊Traite d'êtres humains, les vignobles de Champagne côté face. �̧W��9��O���zz89�&�H����EI8o��e��|9�tb���غTsn��p(���+|(���!��N\��� ��;� ��):E.���8ܯ-�j�"|���k,a8�zu{��8��|i*5�pz.�;.��&�h�g�z�e=[���Ib�q0$a��%R]p�R�R�-C��5:��B����$��(06��;��n睂�����y��ݍj�`u���KZ$-q�XD�O�2j�_����i���~No���P]9uA���a/1%�8(�U�Ċ�&i+�Y���	r��Z���^��!\�.��=D�9��:�圻��.����ыG9.� <br> <br>2 0 obj <br> <br>thebigword Group of Companies includes Link Up Mitaka Limited, thebigword Interpreting Services Limited, thebigword International Limited, TBW Global Limited, Gould Tech Solutions Limited, thebigword Overseas Interpreting Limited, thebigword Inc, thebigword Global Communications LLC,  thebigword Asia Limited, thebigword Canada Inc, thebigword (Beijing) Technology Co. Limited, Mitaka thebigword KK, thebigword India Private Company Limited,  thebigword Deutschland GmbH.thebigword is run as an independent company. As such, we have reviewed the effectiveness of the steps we have taken throughout the previous financial year to ensure that there is no slavery or human trafficking taking place in any part of our business or supply chains. 15 0 obj Nine members of a traveller family who kept workers in squalid conditions in caravans have been jailed for modern day slavery offences. Comité Contre l'Esclavage Moderne (CCEM) ・ Committee Against Modern SlaveryのIntern in charge of development, projects and data management. We are committed to ensuring that there is no modern slavery or human trafficking in our supply chains or in any part of our business. <br> <br>rue du Congrès 46. <br> <br>True scale of modern day slavery exposed as police smash city centre cannabis farm Vietnamese men are jailed for running a cannabis farm – while being locked in the flat by gangmasters. “It doesn’t always involve keys and chains and locks,” she said. <br> <br><> <br> <br>Sciences Po. <br> <br> <br>16 0 obj thebigword employs over 500 people across 10 countries, working with more than 12,000 linguists worldwide. <br> <br>stream <br> <br>12 0 obj �b��/oe� �*�@�SC�������Dv��w�I�k�c����cZ�v��ru�L�VIcS�������v��%�J.��}v��oh�h��f�IAoxR$�M,�(��)�Օ��ʉ�tu�a��E�J�;�ާ�N~z��h�P�vhjx�x-mܾ�^&�"gd��{�m*�b��U�A���Fݒ\�~H�n��9�(��1*M����=ᒓ*���~��W�n5^i�����L"�m��S <br> <br>endstream <> <br> <br>We recognise that the nature of our supply chain can make checking for illegal activity challenging. If you continue to use this site we will assume that you are happy with it. This policy will be publicised internally to raise awareness. <br> <br><> <br>";s:7:"keyword";s:33:"comité contre l esclavage modern";s:5:"links";s:8376:"<a href='https://backyard.synpat.com/site/article.php?page=r%C3%AAver-de-couleur-bleu-islam-88a0eb'>Rêver De Couleur Bleu Islam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maillot-Euro-2000-88a0eb'>Maillot Euro 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%A9nabar-le-d%C3%A9but-de-la-suite---youtube-88a0eb'>Bénabar Le Début De La Suite - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romain-koh-lanta-instagram-88a0eb'>Romain Koh Lanta Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contrat-de-travail-exemple-gratuit-88a0eb'>Contrat De Travail Exemple Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-changer-son-nom-sur-roblox-gratuitement-88a0eb'>Comment Changer Son Nom Sur Roblox Gratuitement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=goodbye-farewell-chanson-marin-88a0eb'>Goodbye Farewell Chanson Marin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=new-yorker-commander-en-ligne-88a0eb'>New Yorker Commander En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-changer-joint-de-culasse-kangoo-88a0eb'>Comment Changer Joint De Culasse Kangoo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dimension-internationale-synonyme-88a0eb'>Dimension Internationale Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Olympique-Lyonnais-1974-88a0eb'>Olympique Lyonnais 1974</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-chaussure-nike-tn-88a0eb'>Photo De Chaussure Nike Tn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=road-movies-list-88a0eb'>Road Movies List</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-2009-le-retour-des-h%C3%A9ros-88a0eb'>Koh-lanta 2009 Le Retour Des Héros</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fronti%C3%A8res-de-l%27alg%C3%A9rie-88a0eb'>Frontières De L'algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angel-saison-4---dvd-88a0eb'>Angel Saison 4 - Dvd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-de-validation-d%27un-document-88a0eb'>Demande De Validation D'un Document</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=league-of-angels-3---avis-88a0eb'>League Of Angels 3 - Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-ville-animal-crossing-new-horizon-88a0eb'>Nom Ville Animal Crossing New Horizon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=camus---5-lettres-88a0eb'>Camus - 5 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlie-puth-couple-88a0eb'>Charlie Puth Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capitaine-haddock-insultes-youtube-88a0eb'>Capitaine Haddock Insultes Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tickets-football-arsenal-88a0eb'>Tickets Football Arsenal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hachette-collection-renault-88a0eb'>Hachette Collection Renault</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lada-niva-2020-prix-88a0eb'>Lada Niva 2020 Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Olympique-Lyonnais-1974-88a0eb'>Olympique Lyonnais 1974</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ladybower-reservoir-%28derbyshire-angleterre%29-88a0eb'>Ladybower Reservoir (derbyshire Angleterre)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-basque-peio-88a0eb'>Prénom Basque Peio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=geoffroy-lejeune-bless%C3%A9-88a0eb'>Geoffroy Lejeune Blessé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musculation-rameur-avant%2Fapr%C3%A8s-88a0eb'>Musculation Rameur Avant/après</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sainte-audrey-histoire-88a0eb'>Sainte Audrey Histoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ouverture-mosqu%C3%A9e-mulhouse-88a0eb'>Ouverture Mosquée Mulhouse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=interview-avec-mahrez-can-2019-88a0eb'>Interview Avec Mahrez Can 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chirurgie-visage-prix-88a0eb'>Chirurgie Visage Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-disney-pour-chat-88a0eb'>Prénom Disney Pour Chat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podcast-after-foot-%2F2010-88a0eb'>Podcast After Foot /2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-lifestyle-suisse-88a0eb'>Blog Lifestyle Suisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chien-%C3%A0-vendre-%C3%A9levage-88a0eb'>Chien à Vendre élevage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pamela-rf-12-min-abs-88a0eb'>Pamela Rf 12 Min Abs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-fin-de-contrat-fifa-20-ligue-1-88a0eb'>Joueur Fin De Contrat Fifa 20 Ligue 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zidane-%C3%A0-propos-de-benzema-88a0eb'>Zidane à Propos De Benzema</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=water-world-espagne-88a0eb'>Water World Espagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Costa-Diadema-Duba%C3%AF-88a0eb'>Costa Diadema Dubaï</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=H%C3%B4tel-Jarry3%2C0%28497%29%C3%80-0%2C1%C2%A0km204%C2%A0TMT-88a0eb'>Hôtel Jarry3,0(497)À 0,1 km204 TMT</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sentiment-et-%C3%A9motion-88a0eb'>Sentiment Et émotion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-wissant-particulier-88a0eb'>Location Wissant Particulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diarrh%C3%A9e-et-gaz-malodorants-88a0eb'>Diarrhée Et Gaz Malodorants</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=champs-elysee-zara-88a0eb'>Champs Elysee Zara</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-moyen-fessier-88a0eb'>Exercice Moyen Fessier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-veut-dire-tiago-en-gitan-88a0eb'>Que Veut Dire Tiago En Gitan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bale-pays-de-galles-88a0eb'>Bale Pays De Galles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mes-aspirations-professionnelles-88a0eb'>Mes Aspirations Professionnelles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=phrase-the-weeknd-88a0eb'>Phrase The Weeknd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patrick-s%C3%A9bastien-aka-aleo-88a0eb'>Patrick Sébastien Aka Aleo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mairie-de-port-marly-recrute-88a0eb'>Mairie De Port-marly Recrute</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouveau-maillot-galatasaray-2021-88a0eb'>Nouveau Maillot Galatasaray 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gibert-joseph-saint-%C3%A9tienne-88a0eb'>Gibert Joseph Saint étienne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maillot-Euro-2000-88a0eb'>Maillot Euro 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-mythe-de-prom%C3%A9th%C3%A9e-r%C3%A9sum%C3%A9-pdf-88a0eb'>Le Mythe De Prométhée Résumé Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vianney-moi-aimer-toi-paroles-88a0eb'>Vianney Moi Aimer Toi Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=on-n%27est-pas-que-des-cobayes-voiture-88a0eb'>On N'est Pas Que Des Cobayes Voiture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=past-tense-sing-88a0eb'>Past Tense Sing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=London-Eye-prix-88a0eb'>London Eye Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nerf-fortnite-amazon-88a0eb'>Nerf Fortnite Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=berceuse-brahms-guitare-88a0eb'>Berceuse Brahms Guitare</a>,
+";s:7:"expired";i:-1;}

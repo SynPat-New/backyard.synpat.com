@@ -1,0 +1,83 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4760:"<p>                    Get album  </p> <p>      </p> <p>     </p> <p>     </p> <p>     </p> <p>                                          Get album </p> <p>          </p> <p>              Le Studio 104 est le lieu historique et mythique de toutes les musiques et des grands événements publics des chaînes de Radio France.                                                          </p> <p></p> <p>                  Live at Studio 104, Maison de Radio-France, Paris, Jan 20th 2007, a Bootleg of songs by Norah Jones.                         </p> <p>                    Ces données seront transmises à la Direction de la Musique et de la création Culturelle et de la Direction de la Stratégie des publics et du Développement des marques et seront conservées pour une durée de 3 ans à compter de l’envoi du formulaire en ligne.                             4                                                                                                                     </p> <p>Listen free to Beirut – Black Session: Studio 104 Maison de Radio France.                                                      </p> <p>                                                           Loading player…                                                     </p> <p>                  </p> <p>     </p> <p>                    </p> <p>                   </p> <p>                           Scrobbling is when Last.fm tracks the music you listen to and automatically adds it to your music profile.                        </p> <p>              </p> <p>                  </p> <p>             </p> <p>                                </p> <p>         </p> <p>                                                       </p> <p>                       Pour exercer vos droits, veuillez adresser un courrier à l’adresse suivante : Radio France, Délégué à la protection des données personnelles, 116 avenue du président Kennedy, 75220 Paris Cedex 16 ou un courriel à l’adresse suivante :                            The many awards he received in 2016 (incl...Show dates & details are changing frequently, so we’re working with artists and ticket providers to keep our info as up-to-date as possible. </p> <p>                                         </p> <p>              </p> <p>     </p> <p>                                                                                          </p> <p>          </p> <p>                                        </p> <p>                   </p> <p>           Le Studio 104 est le lieu historique et mythique de toutes les musiques et des grands événements publics des chaînes de Radio France.                       Conformément à la loi Informatique et libertés n°78-17 du 6 janvier 1978 modifiée, ainsi qu’au règlement européen n°2016-679 relatif à la protection des données personnelles vous disposez d’un droit d’accès, de rectification, d’effacement, d’opposition et de portabilité sur les données vous concernant ainsi qu’un droit de limitation du traitement.                                                  </p> <p>                                      </p> <p>                                                    </p> <p>                                                         </p> <p>                                                 </p> <p>                                               Connect your Spotify account to your Last.fm account and scrobble everything you listen to, from any Spotify app on any device or platform.      </p> <p>              </p> <p>                  RTL 104.3 FM is a News & Information of the first radio in France.               </p> <p>                                         </p> <p>                                                                                                                                    </p> <p>                                 Le 15 juillet à 20h, c’est Jazz à Sète, un autre des festivals de l’été soutenus par Fip, qui trouvera refuge dans le studio 104 de la Maison de la Radio après avoir …                                          Studio 104: Maison de Radio France ~ Release by Diana Krall (see all versions of this release, 1 available) Overview; Disc IDs (0) Cover Art (0) Aliases; Tags; Details; Edit; Edit Relationships; Tracklist Medium 1 # Title Rating Length; 1: Instrumental.                             </p> <p>                           Architecture-Studio afin de mettre aux normes le bâtiment de la radio, a été l’occasion de repenser certains espaces dans le sens d'une ouverture plus large au public et avec l'objectif de donner aux formations musicales de Radio France des lieux de répétitions et de représentations. CONTACT RTL, 22, rue Bayard, 75008 Paris 01 40 70 40 70.           </p>";s:7:"keyword";s:23:"studio 104 radio france";s:5:"links";s:3214:"<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9tox-3-jours-carotte-88a0eb'>Détox 3 Jours Carotte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hyperbolic-mass-prix-alg%C3%A9rie-88a0eb'>Hyperbolic Mass Prix Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=master-throwdown-2019-88a0eb'>Master Throwdown 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=atterrir-au-phare-de-lockie%2C-%C3%A0-la-villa-des-skieurs-et-au-mont-kay-88a0eb'>Atterrir Au Phare De Lockie, à La Villa Des Skieurs Et Au Mont Kay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arsenal-ol-diffusion-88a0eb'>Arsenal Ol Diffusion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-vous-reviens-d%C3%A9finition-88a0eb'>Je Vous Reviens Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Yumee-kty-origine-88a0eb'>Yumee Kty Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanteur-pianiste-aveugle-88a0eb'>Chanteur Pianiste Aveugle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9d%C3%A9rique-tirmont-films-88a0eb'>Frédérique Tirmont Films</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-roi-le-plus-riche-du-monde-2018-88a0eb'>Le Roi Le Plus Riche Du Monde 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=publier-un-texte-sur-internet-88a0eb'>Publier Un Texte Sur Internet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-serbe-monaco-88a0eb'>Joueur Serbe Monaco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyril-th%C3%A9r%C3%A9au-salaire-88a0eb'>Cyril Théréau Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=haaland-manchester-united-88a0eb'>Haaland Manchester United</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-eat-driver-88a0eb'>Uber Eat Driver</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-jl-fake-88a0eb'>Twitter Jl Fake</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podcast-after-foot-%2F2010-88a0eb'>Podcast After Foot /2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roxane-piana-age-wikipedia-88a0eb'>Roxane Piana Age Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cath%C3%A9drale-saint-paul-de-londres-88a0eb'>Cathédrale Saint-paul De Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=douleur-majeur-main-droite-signification-88a0eb'>Douleur Majeur Main Droite Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-du-film-le-papillon-88a0eb'>Fin Du Film Le Papillon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maison-%C3%A0-vendre-%C3%A0-Dakar-88a0eb'>Maison à Vendre à Dakar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-adams-2019-88a0eb'>Jean-pierre Adams 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%AAtements-chanel-occasion-88a0eb'>Vêtements Chanel Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-2003-isabelle-88a0eb'>Koh-lanta 2003 Isabelle</a>,
+";s:7:"expired";i:-1;}

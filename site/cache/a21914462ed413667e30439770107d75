@@ -1,0 +1,137 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5349:"Find the stance that feels most comfortable and allows your to maintain a strong hip hinge and set back.With the back set, pull the elbows slightly back towards the hips and upwards, so that the forearm is perpendicular to the floor.Do not pull the load directly vertical, but rather slightly back and up, which will match the lat muscle fiber’s angle better than pulling straight up.Once you have reached the top position, maximally contract the back muscles to increase muscle engagement. Le rowing haltère est un exercice de musculation qui sollicite Inspirez puis bloquer avant la montée. Penchez vous en avant en appui contre une chaise comme si vous alliez faire du rowing buste penché avec haltère. Profitez également des contenus exclusifs et offres exceptionnelles ProTrainer en recevant notre newsletter.Pour obtenir des résultats rapidement, n’hésitez pas à faire appel à un coach sportif personnel. He’s a Certified Strength and Conditioning Specialist (CSCS) and is the Assistant Strength and Conditioning Coach at New York University. The list below covers the primary and secondary muscles worked when performing dumbbell rows.Below are a few groups of athletes that can benefit from including dumbbell rows within training programs.Improved back strength and mass can have direct application to pulling, squatting, carrying, and pressing movements. Vous pouvez utiliser cette variante d’haltère si vous vous sentez restreint au niveau de la mobilité des poignets ou des épaules, car cet exercice permet plus de liberté dans le mouvement. Le rowing haltère est un exercice de musculation qui sollicite le grand dorsal, le grand rond, le deltoïde postérieur et en fin de contraction les muscles trapèzes et rhomboïdes.. Exécution du Rowing à un bras. Below are three of these benefits.The dumbbell row is a key back building exercise for lifters, athletes, and general fitness goers alike. Le rowing menton ou tirage vertical à la barre est un exercice poly-articulaire de base, très utile pour se forger des trapèzes en acier et des épaules galbées. The back muscles can perform high amounts of loading and volume, allowing lifters to train across the repetition spectrum for size and strength.It is suggested that lifters experiment with various repetition schemes and loading to determine which works best for their fiber types.For developing back strength, heavy rows can be done once a lifter has established proper coordination and control of the lower back and hips in the bent position.Additionally, some of the variations below like the chest supported row and/or seal row can be good options for building back strength as the lifter is not dependent on supporting their lower back and hips; allowing them to focus fully on moving loads with the back.Below are two dumbbell row variations to build strength, hypertrophy, and improve pulling performance.The renegade dumbbell row is a unilateral row done in a plank position, reinforcing core stability, scapular strength, and total body coordination. Prenez un haltère avec votre main libre et bloquez votre coude et la partie supérieure de votre bras contre votre buste. Examples of insects with halteres are houseflies, mosquitoes, gnats, and craneflies. It offers a set amount of resistance that ensures your entire body works towards “climbing.” Both the handlebars and pedals move in unison to make sure you can climb. Kickback – Muscle ciblés : triceps. Expirez lors de la descente de l’haltère.Le rowing haltère à un bras est plus sécuritaire que Gardez la tête dans l’alignement de la colonne vertébrale et le buste parallèle au banc. The stance chosen should be similar to what is used in your deadlift, but it may vary. Votre coude devrait faire un angle de 9. Le rowing menton peut être réalisé à l’aide d’haltères ou d’une barre. Dumbbell rows are a great option for those looking to attack unilateral development and/or have limited access to machines/train from home gyms.Below are two primary sets, reps, and weight (intensity) recommendations for coaches and athletes to properly program the dumbbell row specific to the training goal. The additional increased range or motion allows lifters to get a better squeeze and lat stretch to further promote muscular damage and growth.The dumbbell row is a fundamental back exercise that is beneficial for every lifter to conquer. By placing the body on the bench, you minimize stress and/or muscular demands to stabilize and support the body and load in the bent over position.This can be beneficial to minimize additional strain on the back and hips. Si vous voulez augmenter la largeur du dos, privilégiez les tractions avec une prise large ou un exercice de tirage vertical qui permettent de cibler au maximum les grands dorsaux. Programme Sport Haltere Fly Dumbbell rows can be an effective training exercise for such goals.Competitive CrossFit and fitness athletes can benefit from dumbbell rows as they address unilateral back strength, improve posture over time, and enhance upper body hypertrophy. The stance chosen should be similar to what is used in your deadlift, but it may vary. Celui-ci saura vous proposer un programme personnalisé selon vos propres capacités.Le Rowing Haltère ou tirage banc à un bras : présentation et conseils ";s:7:"keyword";s:24:"rowing vertical haltère";s:5:"links";s:10284:"<a href='https://backyard.synpat.com/site/article.php?page=david-hasselhoff-films-et-programmes-tv-88a0eb'>David Hasselhoff Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=monaco-flag-indonesia-88a0eb'>Monaco Flag Indonesia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-escoffier-pdf-88a0eb'>Recette Escoffier Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-didier-roustan-88a0eb'>Blog Didier Roustan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivre-en-ontario-88a0eb'>Vivre En Ontario</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raymond-et-huguette-quitt%C3%A9-sc%C3%A8ne-de-m%C3%A9nage-88a0eb'>Raymond Et Huguette Quitté Scène De Ménage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-nivat-%C3%A2ge-88a0eb'>Anne Nivat âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moto-cross-course-88a0eb'>Moto Cross Course</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma-fille-rom%C3%A9o-et-juliette-88a0eb'>Ma Fille Roméo Et Juliette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bagarre-de-filles-aux-usa-youtube-88a0eb'>Bagarre De Filles Aux Usa Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-rework-votes-88a0eb'>Lol Rework Votes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-vintage-luxe-88a0eb'>Sac Vintage Luxe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-du-rabe-synonyme-88a0eb'>Faire Du Rabe Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-de-l%27auteur-de-self-4-lettres-88a0eb'>Prénom De L'auteur De Self 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peluche-fortnite-xxl-88a0eb'>Peluche Fortnite Xxl</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raccourci-clavier-retour-en-arri%C3%A8re-word-88a0eb'>Raccourci Clavier Retour En Arrière Word</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calogero-%C3%A2ge-taille-88a0eb'>Calogero âge Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=circonstances-synonyme-crisco-88a0eb'>Circonstances Synonyme Crisco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-eats-payant-88a0eb'>Uber Eats Payant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-de-sortie-synonyme-88a0eb'>être De Sortie Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=conseil-cri-de-la-sant%C3%A9-et-des-services-sociaux-de-la-baie-james-88a0eb'>Conseil Cri De La Santé Et Des Services Sociaux De La Baie-james</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=5-secrets-pour-r%C3%A9ussir-sa-vie-couple-88a0eb'>5 Secrets Pour Réussir Sa Vie Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-sanchez-wikip%C3%A9dia-88a0eb'>Guillaume Sanchez Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bonjour-en-fleurs-88a0eb'>Bonjour En Fleurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-en-suisse-synonyme-88a0eb'>Compte En Suisse Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arsenal-ol-diffusion-88a0eb'>Arsenal Ol Diffusion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fortnite-studiokoco-chapitre-2-88a0eb'>Fortnite Studiokoco Chapitre 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=date-de-naissance-de-daniel-balavoine-88a0eb'>Date De Naissance De Daniel Balavoine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=conjugaison-wollen-conditionnel-88a0eb'>Conjugaison Wollen Conditionnel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=denis-brogniart-direct-88a0eb'>Denis Brogniart Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-2019-episode-4-88a0eb'>Koh-lanta 2019 Episode 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=12-place-des-augustines%2C-13002-marseille-88a0eb'>12 Place Des Augustines, 13002 Marseille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-footballeur-africain-le-plus-riche-88a0eb'>Le Footballeur Africain Le Plus Riche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-polnareff-qui-a-tu%C3%A9-grand-maman-88a0eb'>Michel Polnareff Qui A Tué Grand-maman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=xpn-natural-iso-88a0eb'>Xpn Natural Iso</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proteine-mass-gainer-decathlon-88a0eb'>Proteine Mass Gainer Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chute-moto-gp-youtube-88a0eb'>Chute Moto Gp Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-le-poulain-le-bourgeois-gentilhomme-88a0eb'>Jean Le Poulain Le Bourgeois Gentilhomme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pneu-firestone-multihawk-2-avis-88a0eb'>Pneu Firestone Multihawk 2 Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=super-konar-fortnite-88a0eb'>Super Konar Fortnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=buddhist-m%C3%A9ditation-acad%C3%A9mie-capter-l%27%C3%A9nergie-positive-88a0eb'>Buddhist Méditation Académie Capter L'énergie Positive</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vidmate-2018-%D8%AA%D9%86%D8%B2%D9%8A%D9%84-88a0eb'>Vidmate 2018 تنزيل</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dopage-musculation-s%C3%A8che-88a0eb'>Dopage Musculation Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-braga-juillet-88a0eb'>Météo Braga Juillet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-le-roi-88a0eb'>Faire Le Roi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bali-hotel-booking-88a0eb'>Bali Hotel Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=macron-maroc-twitter-88a0eb'>Macron Maroc Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=port-elizabeth-m%C3%A9t%C3%A9o-88a0eb'>Port Elizabeth Météo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Psychologie-%C3%A9cologique-Gibson-88a0eb'>Psychologie écologique Gibson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=delpech-quand-j%27%C3%A9tais-chanteur-youtube-88a0eb'>Delpech Quand J'étais Chanteur Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boussole-ancienne-collections-88a0eb'>Boussole Ancienne Collections</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=el-hikma-horaire-pri%C3%A8re-2020-88a0eb'>El Hikma Horaire Prière 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tombe-de-jean-ferrat-88a0eb'>Tombe De Jean Ferrat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recrue-de-manchester-united-88a0eb'>Recrue De Manchester United</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Chanson-tablature-guitare-88a0eb'>Chanson Tablature Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-manu-live-88a0eb'>Renaud Manu Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=5-livres-qui-changent-la-vie-88a0eb'>5 Livres Qui Changent La Vie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=close-combat-club-88a0eb'>Close Combat Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2020-nouveaut%C3%A9-88a0eb'>Fort Boyard 2020 Nouveauté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A0-la-bonne-heure-synonyme-88a0eb'>à La Bonne Heure Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marquinhos-marocain-vid%C3%A9o-88a0eb'>Marquinhos Marocain Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-je-ne-suis-pas-un-h%C3%A9ros-piano-88a0eb'>Partition Je Ne Suis Pas Un Héros Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-choisir-le-poids-des-halt%C3%A8res-88a0eb'>Comment Choisir Le Poids Des Haltères</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=facilement-adjectif-ou-adverbe-88a0eb'>Facilement Adjectif Ou Adverbe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coupe-d%27espagne-calendrier-88a0eb'>Coupe D'espagne Calendrier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Isma%C3%AFl-Al-Hammadi-88a0eb'>Ismaïl Al Hammadi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zeus-contre-les-titans---film-88a0eb'>Zeus Contre Les Titans - Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compression-d%27un-gaz-parfait-dans-un-cylindre-88a0eb'>Compression D'un Gaz Parfait Dans Un Cylindre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-d%27amour-pour-sophie-88a0eb'>Chanson D'amour Pour Sophie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Meilleur-post-workout-88a0eb'>Meilleur Post Workout</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=republic-of-ireland-independence-88a0eb'>Republic Of Ireland Independence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caps-lol-g2-88a0eb'>Caps Lol G2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=audience-tpmp-quotidien-2020-88a0eb'>Audience Tpmp Quotidien 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=reading-festival-archives-88a0eb'>Reading Festival Archives</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-lettre-soprano-replay-88a0eb'>La Lettre Soprano Replay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gil-vicente-benfica-stream-88a0eb'>Gil Vicente Benfica Stream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-maison-sharjah-88a0eb'>Location Maison Sharjah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Drapeau-Maroc-Alg%C3%A9rie-88a0eb'>Drapeau Maroc Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyntoia-brown-wikipedia-fran%C3%A7ais-88a0eb'>Cyntoia Brown Wikipedia Français</a>,
+";s:7:"expired";i:-1;}

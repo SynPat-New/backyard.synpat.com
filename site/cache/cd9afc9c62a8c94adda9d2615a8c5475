@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6368:"<br>Títol Durada; 1. After all, the legend of Ambrosia stated that Ambrosia would rise again when its queen was returned to it. <br> <br>Whistler, however, seems unconcerned, stating that she has only gone off to play. Play Ball 2. The mysterious person who had been taunting them over the course of their adventure finally appears and it turns out to be Layton and Luke's old nemesis, Meanwhile, Layton stumbles upon a bedroom. Then, as the stage is cleared, a masked man comes out and begins talking about the Eternal Life. Download Link: -Per Disc Download Kingdom Hearts 3D OST DISC-01: MirrorCreato...Original Title:  キングダムハーツ バースバイスリープ & 358/2 Days オリジナル・サウンドトラック Catalog Number:  SQEX-10213~5 Release Date: Feb 02, 2011 Media Format:  ...Title: Sakamichi no Apollon OP Single - Play Ball Artist: YUKI Tracklist: 1. Multiple failed attempts at getting the machine to transfer Melina's memories into a new host have driven Whistler to desperation, especially since the Detragan will soon be unable to hold them any longer. Diposting oleh Unknown di 09.36. Title back ...TVアニメ『Fate/kaleid liner プリズマ☆イリヤ』OP主題歌「starlog」 Artist: ChouCho   Tracklist 1. starlog 2. Using the helicopter, the three of them escape from the wolves and crash land at the castle. It has also since been released on the Nintendo 3DS eShop. These were released on October 18, 2010. <br> It was produced by Masakazu Kubo who is known for producing the Pokémon films.Manga Entertainment UK dubbed and localized the film in English. Layton initially doesn't understand why Melina is acting this way, but it all becomes clear when Melina appears to have two personalities that are fighting with each other for dominance in Melina's body. She notices a castaway stranded on a pile of rubble who turns out to be Inspector Grosky. <br> <br>Amelia is to be the Detragan's latest victim, but she is saved when Layton and the others arrive. The people, saddened at the queen's death, decided to take the elixir themselves, and wait thereafter for their queen to return. Afterwards, the movie reverts to the present, reminding the viewer that the entire movie was just a flashback. At that instant, the sound of wolves grows once more; soon, a whole pack come charging out of the jungle, their eyes set on the guests. As Whistler plays and Janice sings, Luke realizes that Melina could be a reincarnation the Queen of Ambrosia. I decided to share a special treat with you today. Es va utilitzar una orquestra per crear la majoria de les peces. After a brief sword fight, Layton reveals that Descole overlooked another melody hidden in the seal of Ambrosia: A Layton, Luke and Melina evacuate the doomed machine and regroup with the others on the shore of Ambrosia. Much of the audience breaks into a panic and tries to flee the theatre, but the floor collapses and they fall presumably to their deaths. Luke struggles to comprehend what's going on, but there's no time to lose and they hurry to stop Descole. CD N/A Prototype Professor Layton and the Eternal Diva Original Soundtrack レイトン教授と永遠の歌姫 オリジナル サウンドトラックLayton-kyouju to Eien The credits begin. Melina decides to remove herself from Janice's body, much to Oswald Whistler's grief. He says they will all play a game, and whomever wins will get the Eternal Life, yet the losers will die.  There are several different versions of the film available: DVD, Blu-ray, box set with Blu-ray and DVD versions and a special features disc, and a box set with Blu-ray and DVD versions with a special features disc as well as a 630 page storyboard book. 暮れ色のキャンバス 3. starlog (off vocal) 4. Here's a small taste. Berbagi ke Twitter Berbagi ke … The thief turns out to be Janice, but in a shocking twist, it turns out that Janice is actually Melina. Sakamichi no Melody Download: MediafireTitle: Sankarea OP Single - Esoragoto Artist: nano.RIPE Tracklist: 1. Eien no Utahime - The Eternal Diva, Movie 1 (Ep. <br> <br>Professor Layton and the Eternal Diva, first known as Professor Layton: The First Movie, is the first film of the Professor Layton series.. After some investigating, he realizes that he is in the bedroom of none other than Melina Whistler. It was released in Japan on December 19, 2009. Esoragoto 2. The movie is mostly centered on the adventure that follows On the way there, Luke makes the connection that the pianist and composer of the opera, Oswald Whistler, is the father of Janice's friend, Melina, and also that The opera tells a story of the beloved queen of Ambrosia, who became very ill. All the citizens of the kingdom raced to find a cure, and ultimately discovered the Eternal Life. It turns out that Janice was also a test subject for the Detragan; but because she was a close friend of Melina, she was accepting to host Melina's memories in her body. Over on youtube, I'm known as Liada180. It was released in Japan on December 19, 2009. Professor Layton and the Eternal Diva Soundtrack . Whistler is amazed and rushes to embrace his daughter, but the triumph is short lived as Descole reveals that he was concocting a plot of his own. Descole destroys Layton's helicopter with a large drill device, but Layton survives and hoists himself onto the roof of the machine to confront Descole. Luke is a bit startled, asking her what she means, before the sound of wolves pulls his attention towards the jungle behind him. The Eternal Diva: Janice Quatlane, amb totes les cançons vocals, i Layton Kyoju To Eien no Utahime Original Soundtrack, amb la música principal del film. As he realizes that Melina, in Janice's body, is the only one who knows the Using the helicopter he had created earlier, Layton (along with Luke) chase the giant machine and try to rescue Melina. The Eternal Diva / Jenis Quatlane / / PCCG-01015 Soundtrack, OP/ED/Insert, Prototype 11.26 Film Professor Layton and the Eternal Diva: Diva Jenis - Queen Ver.CD / 映画 レイトン教授と永遠の歌姫 歌姫ジェニス 女王Ver.CD / Eiga Layton-kyouju to Eien no Utahime Utahime Jenis Joou Ver. When everyone arrives, a mysterious voice dictates the rules of the game, and then reads out, "Twelve contestants manage to get into the boats, and they start to row away from the ship. ";s:7:"keyword";s:41:"professor layton and the eternal diva ost";s:5:"links";s:6462:"<a href='https://backyard.synpat.com/site/article.php?page=recette-cr%C3%A8me-caramel-cyril-lignac-m6-88a0eb'>Recette Crème Caramel Cyril Lignac M6</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicolas-canteloup%2C-anouk-canteloup-88a0eb'>Nicolas Canteloup, Anouk Canteloup</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-hybride-performance-vs-v%C3%A9lo-de-route-88a0eb'>Vélo Hybride Performance Vs Vélo De Route</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=goodbye-farewell-chanson-marin-88a0eb'>Goodbye Farewell Chanson Marin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-hidalgo-et-sa-femme-88a0eb'>Michel Hidalgo Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gr%C3%A9gory-lemarchal-titres-88a0eb'>Grégory Lemarchal Titres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f-ou-ph-exercices-pdf-88a0eb'>F Ou Ph Exercices Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Pour-arriver-%C3%A0-moi-88a0eb'>Pour Arriver à Moi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dany-boon-isra%C3%ABl-88a0eb'>Dany Boon Israël</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-cyril-lignac-tous-en-cuisine-88a0eb'>Pancake Cyril Lignac Tous En Cuisine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A0-bout-de-souffle-livre-88a0eb'>à Bout De Souffle Livre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=flash-pour-canon-eos-2000d-88a0eb'>Flash Pour Canon Eos 2000d</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-foule-sentimentale-88a0eb'>Paroles Foule Sentimentale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gibert-joseph-saint-%C3%A9tienne-88a0eb'>Gibert Joseph Saint étienne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fortnite-bloqu%C3%A9-sur-pseudonyme-88a0eb'>Fortnite Bloqué Sur Pseudonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Pourquoi-je-rappe-%3F-88a0eb'>Pourquoi Je Rappe ?</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cover-letter-publish-paper-88a0eb'>Cover Letter Publish Paper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bail-sombre-d%C3%A9finition-88a0eb'>Bail Sombre Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-savoir-combien-gagne-un-site-web-88a0eb'>Comment Savoir Combien Gagne Un Site Web</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yoplait-france-recrutement-88a0eb'>Yoplait France Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Dessin-anim%C3%A9-Peter-Pan-88a0eb'>Dessin Animé Peter Pan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nathanya-sonia-%C3%A2ge-88a0eb'>Nathanya Sonia âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-mal%C3%A9fique-disney-film-88a0eb'>Citation Maléfique Disney Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mbapp%C3%A9-sprint-record-88a0eb'>Mbappé Sprint Record</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stop-fuite-joint-de-culasse-wynn%27s-88a0eb'>Stop Fuite Joint De Culasse Wynn's</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contacter-quelqu%27un-en-anglais-88a0eb'>Contacter Quelqu'un En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dymatize-iso-100-prix-88a0eb'>Dymatize Iso 100 Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-gagick-femme-88a0eb'>Jean-pierre Gagick Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-nivat-contact-88a0eb'>Anne Nivat Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9testable-en-arabe-88a0eb'>Détestable En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karoline-ro-chirurgie-88a0eb'>Karoline Ro Chirurgie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=note-de-production-documentaire-88a0eb'>Note De Production Documentaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-21-ligue-1-stadiums-88a0eb'>Fifa 21 Ligue 1 Stadiums</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=16-ans-et-enceinte-italie-que-sont-elles-devenues-88a0eb'>16 Ans Et Enceinte Italie Que Sont-elles Devenues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mod%C3%A8les-de-cv-en-espagnol-88a0eb'>Modèles De Cv En Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-joyeux-anniversaire-thomas-88a0eb'>Carte Joyeux Anniversaire Thomas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=omar-esa-assalamualaikum-88a0eb'>Omar Esa Assalamualaikum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-sur-l%27environnement-en-anglais-pdf-88a0eb'>Exposé Sur L'environnement En Anglais Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=indochine-stade-de-france-2021-88a0eb'>Indochine Stade De France 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-hydrolys%C3%A9e-optimum-nutrition-88a0eb'>Whey Hydrolysée Optimum Nutrition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classic-flap-chanel-88a0eb'>Classic Flap Chanel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yann-sommer-mariage-88a0eb'>Yann Sommer Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancakes-patate-douce-88a0eb'>Pancakes Patate Douce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-cv-femme-50-ans-88a0eb'>Exemple Cv Femme 50 Ans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=radio-cd-usb-bluetooth-88a0eb'>Radio Cd Usb Bluetooth</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cardiff-university-football-88a0eb'>Cardiff University Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-facile-et-rapide-88a0eb'>Recette Facile Et Rapide</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pianiste-fran%C3%A7ais-2020-88a0eb'>Pianiste Français 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-rc-lens-2003-88a0eb'>Maillot Rc Lens 2003</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=flammarion-jeunesse-linktree-88a0eb'>Flammarion Jeunesse Linktree</a>,
+";s:7:"expired";i:-1;}

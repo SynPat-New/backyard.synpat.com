@@ -1,0 +1,105 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6301:"L’accumulation de ces éléments conduit à la sténose de la paroi du vaisseau sanguin. Votre médecin peut recommander un plan de traitement que vous devriez suivre fidèlement, y compris les changements de vos habitudes de vie, avec ou sans médicaments, pour réduire vos taux et votre risque de maladie cardiaque. L’athérosclérose est également considérée qu’elle est influencée par l’âge et d’autres facteurs de risque cardiovasculaire y compris le diabète sucré, l’hypercholestérolémie, l’hypertension et le tabagisme.Dans l’athérosclérose la paroi du vaisseau sanguin est lésée. La CRP est produite dans le foie et son niveau peut être mesuré l’analyse sanguine.Votre médecin peut vérifier le niveau de la protéine C-réactive (CRP), pour le traitement d’infections ou d’autres conditions médicales.Elle appartient au groupe des protéines qui sont caractérisées comme réactives de phase aiguë et ont des valeurs élevées lorsqu’elles rencontrent une inflammation. L’absence d’augmentation de la CRP soulève la question de la nécrose plus tôt que 2 à 10 jours.La CRP habituellement n’est pas augmentée chez les patients souffrant d’angor instable.La CRP peut rester à des niveaux élevés pendant au moins trois mois après l’infarctus aigu du myocarde.La protéine C-réactive est un indicateur de l’inflammation et généralement elle n’est pas observée dans le sang à moins qu’il y ait un certain degré d’inflammation dans le corps.Il n’y a pas de signes et de symptômes spécifiques pour un niveau élevé de la protéine C-réactive, parce que ce n’est pas d’un test spécifique. Si vous avez passé ces tests, demandez à votre médecin quels ont été les résultats et ce que vous pouvez faire pour abaisser vos taux. Le dosage du cholestérol et de la CRP fournit de l'information précieuse à propos de votre risque de maladie cardiaque. est un indicateur d’analyse de sang pour une inflammation dans votre corps. Tous les contenus sont la propriété de MediResource Inc. 1996 – 2020. Les plaques contiennent généralement des cellules sanguines de l’inflammation, des dépôts de cholestérol et des résidus de cellules blessées dans la paroi des vaisseaux sanguins. Un taux élevé de protéine C-réactive est considéré comme un marqueur non spécifique de maladie. que nous avons rapportée ci-dessus survient dans un ou deux jours après l’infarctus aigu du myocarde, obtient ses valeurs maximales à 3 jours et devient négative après sept jours.Quelle est la valeur normale de la protéine C-réactive?Est-ce qu’il faudra regarder les niveaux de ma propre protéine C-réactive?L e contrôle du niveau de la CRP n’est pas recommandé pour l’ensemble de la population adulte.Un certain nombre d’experts suggèrent le contrôle du niveau sérique de la CRP régulièrement avec les niveaux de cholestérol.Pourtant cela n’est pas acceptable à grande échelle. Il est également important de connaître vos taux actuels et vos  valeurs cibles du cholestérol ; par conséquent, n'oubliez pas de faire mesurer régulièrement vos taux  de cholestérol. Ce résultat a été observé indépendamment des résultats qu’ils offrent sur l’abaissement du glucose.Quelle est la perspective pour les personnes ayant une augmentation de la protéine C-réactive (CRP)?La perspective générale pour les personnes qui ont un niveau élevé de la CRP dépend de la cause.La perspective dépendra du succès du traitement qui est cancalisé vers la cause sous-jacente de l’inflammation.En particulier comme un outil pour l’évaluation de la maladie cardio-vasculaire, l’augmentation de la CRP est en corrélation avec la présence des facteurs cardiovasculaires traditionnels de risque y compris l’hypertension, l’hypercholestérolémie, le diabète sucré, la vieillesse, le tabagisme et des antécédents familiaux de maladie cardiaque. CRP et maladie cardiaque. Tableau des médicaments d'ordonnance contre l'eczéma           Options thérapeutiques pour la mycose de l'ongle des orteils           Vaccins antipneumococciques pour les adultes : Options de vaccination   3 fois plus élevé que celles dont le taux de CRP est faible.Près de 50 % de toutes les crises cardiaques et de tous les AVC touchent des personnes apparemment en bonne santé qui ont des taux de cholestérol bas ou normaux. Tous les contenus sont la propriété de MediResource Inc. 1996 – 2020. C'est pourquoi on dit que c'est un L'inflammation joue un rôle important dans l'organisme parce qu'elle contribue à la guérison des plaies et à la lutte contre les infections. Ses articles ont été traduits et publiés sur de nombreux sites Web à travers le monde.Ce site vise è informer les lecteurs à propos des questions ci-dessus et ne vise pas à remplacer les conseils médicaux pour des graves problèmes de santé! Tous les contenus sont la propriété de MediResource Inc. 1996 – 2020. Le dosage de la CRP offre un moyen de reconnaître certaines de ces personnes pour qu'elles puissent réduire leur risque de maladie cardiaque C'est pourquoi votre médecin pourrait vous recommander de passer des tests pour la CRP et le cholestérol. C-réactive protéine ultrasensible et facteurs de risque cardiovasculaire dans une population tunisienne C-reactive protein ultrasensitive and cardiovascular risk factors in one Tunisian population Author links open overlay panel M.Y. Le dosage de la CRP peut aider votre médecin à évaluer votre risque de maladie cardiaque, mais il est également important de continuer à faire mesurer votre taux de cholestérol. Cependant la CRP peut être utilisée comme un facteur prédictif de la maladie cardiovasculaire, basée sur la corrélation avec les autres facteurs de risque cardiaque et leur rôle dans la formation de l’athérosclérose.Chez les personnes avec une partie ou l’ensemble de ces facteurs traditionnels de risque, les taux élevés de la CRP ont été observés. Certaines données en effet suggèrent une tension plus forte augmentation de la CRP, puisqu’il y a une présence d’un plus grand nombre de facteurs de risque.La mesure de la CRP est faite en utilisant un échantillon de sang d’une veine. ";s:7:"keyword";s:37:"protéine et maladie cardiovasculaire";s:5:"links";s:5920:"<a href='https://backyard.synpat.com/site/article.php?page=ouicar-avis-loueur-88a0eb'>Ouicar Avis Loueur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pub-radio-edf-2019-88a0eb'>Pub Radio Edf 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-professionnel-definition-88a0eb'>Blog Professionnel Definition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salini-resort-malte-booking-88a0eb'>Salini Resort Malte Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tire-sur-la-corde-mots-crois%C3%A9s-88a0eb'>Tire Sur La Corde Mots Croisés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crossfit-open-2020-dates-88a0eb'>Crossfit Open 2020 Dates</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Sims-4-Casino-88a0eb'>Sims 4 Casino</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=linda-lee-cadwell-bruce-cadwell-88a0eb'>Linda Lee Cadwell Bruce Cadwell</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=val%C3%A9rie-bena%C3%AFm-cancer-88a0eb'>Valérie Benaïm Cancer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capacit%C3%A9-cardiovasculaire-d%C3%A9finition-88a0eb'>Capacité Cardiovasculaire Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=I-Love-to-Love-88a0eb'>I Love To Love</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=poissonnerie-le-narval-88a0eb'>Poissonnerie Le Narval</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Alan-Walker-PUBG-88a0eb'>Alan Walker PUBG</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-aquaman-semaine-4-88a0eb'>Défi Aquaman Semaine 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Water-Park-Minecraft-88a0eb'>Water Park Minecraft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=league-of-legend-champion-88a0eb'>League Of Legend Champion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-du-ramadan-au-b%C3%A9nin-88a0eb'>Fin Du Ramadan Au Bénin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Caroline-Receveur-Twitter-88a0eb'>Caroline Receveur Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofitel-dubai-palm-jumeirah-88a0eb'>Sofitel Dubai Palm Jumeirah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charbon-binchotan-danger-88a0eb'>Charbon Binchotan Danger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-veut-dire-online-en-fran%C3%A7ais-88a0eb'>Que Veut Dire Online En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ouverture-lettre-de-motivation-88a0eb'>Ouverture Lettre De Motivation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-owe-you-nothing-88a0eb'>I Owe You Nothing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-coop-laval-88a0eb'>Taxi Coop Laval</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tp-topographie-mesure-des-distances-88a0eb'>Tp Topographie Mesure Des Distances</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=casquette-real-madrid-noir-88a0eb'>Casquette Real Madrid Noir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nutella-low-calorie-88a0eb'>Nutella Low Calorie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=enlever-graisse-ventre-sans-chirurgie-88a0eb'>Enlever Graisse Ventre Sans Chirurgie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jase-en-arabe-88a0eb'>Jase En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-renarde-bleue-wissant-88a0eb'>La Renarde Bleue Wissant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oximoz-noob-vs-pro-88a0eb'>Oximoz Noob Vs Pro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-changer-de-nom-sur-roblox-gratuitement-88a0eb'>Comment Changer De Nom Sur Roblox Gratuitement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avis-nu3-perte-de-poids-88a0eb'>Avis Nu3 Perte De Poids</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9ranger-synonyme-8-lettres-88a0eb'>Déranger Synonyme 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=machine-pectoraux-maison-88a0eb'>Machine Pectoraux Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-fourchette-de-prix-88a0eb'>Synonyme De Fourchette De Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tamron-24-70-g2-vs-sigma-24-70-art-88a0eb'>Tamron 24-70 G2 Vs Sigma 24-70 Art</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-de-foot-portugais-mort-88a0eb'>Joueur De Foot Portugais Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sorties-rer-la-d%C3%A9fense-88a0eb'>Sorties Rer La Défense</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-club-pro-cdm-88a0eb'>Fifa 20 Club Pro Cdm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sunday-morning-paroles-88a0eb'>Sunday Morning Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-aux-abricots-p%C3%A2te-sabl%C3%A9e-88a0eb'>Tarte Aux Abricots Pâte Sablée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podcast-cin%C3%A9ma-de-genre-88a0eb'>Podcast Cinéma De Genre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lagrimas-negras-son-cubano-88a0eb'>Lagrimas Negras Son Cubano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-capu%C3%A7on-twitter-88a0eb'>Renaud Capuçon Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=enlever-graisse-ventre-sans-chirurgie-88a0eb'>Enlever Graisse Ventre Sans Chirurgie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=facteur-de-sant%C3%A9-d%C3%A9finition-88a0eb'>Facteur De Santé Définition</a>,
+";s:7:"expired";i:-1;}

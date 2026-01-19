@@ -1,0 +1,103 @@
+{{#each list as |portfolio portInc|}}
+<li class="synpat-store-content-list-item clearfix" data-serial="{{portfolio.serial_number}}" data-price="{{portfolio.seller_asking_price}}" data-date="{{portfolio.option_expiration_data}}">
+	<div class="synpat-store-content-list-item-left-second">
+		<h3 class="synpat-store-content-list-item-title mrg0">
+			<span class="red portfolio_title">{{portfolio.lead_name}}</span>			
+		</h3>
+		<ul class="xsrs">
+			<li class='floatLeft'>Non-Exclusive Licenses</li>
+			<li class='floatRight'>Enforcement-Rights</li>
+		</ul>
+		<div class="synpat-store-content-list-item-left-second">
+			<div class="synpat-store-galery">
+				<div id="slider_inv_{{portfolio.licenseID}}_container" class="synpat-store-galery-list" data-tab="{{portfolio.licenseID}}">
+					<div u="slides" class="slides">
+						{{#each portfolio.images as |img|}}
+						<div class="folioBox-1 folioBoxImg">
+							<div>
+								<a data-lightbox="mygallery{{portInc}}" class="cmoverlay" href="{{img.link}}" >
+								{{#if img.img}}
+									<img src="{{img.link}}" u='image'/>
+								{{/if}}
+								{{#unless img.img}}
+									<video autoplay loop muted playsinline  name="media"><source src="{{img.link}}" type="video/webm"></video>
+								{{/unless}}
+								
+								</a>
+							</div>
+						</div>
+						{{/each}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="synpat-store-content-list-item-left-first">
+			<div class="synpat-store-content-list-item-right">
+				<div class="synpat-store-content-list-item-price clearfix mrg0T">
+					<div class="synpat-store-content-list-item-price-key">
+						Available at:
+					</div>
+				</div>
+				<div class="synpat-store-content-list-item-price {{#if portfolio.participate}} is-regular {{/if}}  clearfix">
+					<div class="synpat-store-content-list-item-price-key">
+						{{#if portfolio.participate}}Pending {{/if}}Cost Price: 
+					</div>
+					<div class="synpat-store-content-list-item-price-value">
+						{{portfolio.participate_price}}
+					</div>
+				</div>
+				<div class="synpat-store-content-list-item-price {{#if portfolio.regular}} is-regular {{else}} is-validated {{/if}} clearfix">
+					<div class="synpat-store-content-list-item-price-key relative">
+						Regular Price:
+					</div>
+					<div class="synpat-store-content-list-item-price-value">
+						{{portfolio.regular_price}}
+					</div>
+				</div>
+				<div class="synpat-store-content-list-item-price {{#if portfolio.validate}} is-regular {{else}} is-validated {{/if}} clearfix">
+					<div class="synpat-store-content-list-item-price-key">
+						Validated Price:
+					</div>
+					<div class="synpat-store-content-list-item-price-value">
+						{{portfolio.validate_price}}						
+					</div>
+				</div>
+			</div>
+			<div class="synpat-store-content-list-item-left">
+				<div class="synpat-store-content-list-item-info">
+					<div class="synpat-store-content-list-item-price is-validated clearfix mrg0T">
+						<div class="synpat-store-content-list-item-price-key">
+							Seller's Upfront Price:
+						</div>
+						<div class="synpat-store-content-list-item-price-value">
+							{{{portfolio.seller_asking_price}}}
+						</div>
+					</div>
+					<div class="synpat-store-content-list-item-price is-validated clearfix mrg11T">
+						<div class="synpat-store-content-list-item-price-key">
+							Requests to Participate:
+						</div>
+						<div class="synpat-store-content-list-item-price-value">
+							{{{portfolio.potential_participants}}}
+						</div>
+					</div>
+					<div class="synpat-store-content-list-item-price is-validated clearfix mrg11T">
+						<div class="synpat-store-content-list-item-price-key">Final Syndicate Members:</div>
+						<div class="synpat-store-content-list-item-price-value">
+							{{{portfolio.final_participants}}}
+						</div>
+					</div>
+					<div class="synpat-store-content-list-item-price is-validated clearfix mrg11T">
+						<div class="synpat-store-content-list-item-price-key">
+							Acquisition Deadline:
+						</div>
+						<div class="synpat-store-content-list-item-price-value">
+							{{{portfolio.option_expiration_data}}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+{{/each}}

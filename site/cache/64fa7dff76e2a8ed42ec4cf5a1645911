@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5602:"<p>On vous en parlait plus haut, la photo, la nationalité ou encore votre date de naissance ne doivent pas obligatoirement apparaitre dans cette rubrique. Très certainement. Vous pouvez ainsi mettre en avant les logiciels et outils informatiques que vous maîtrisez, mais également vos savoir-faire. De plus, ajouter les cours suivis et les résultats obtenus peut s’avérer un grand atout!Vos expériences professionnelles sont à placer après les études si vous n’avez pas beaucoup travaillé et avant si vous avez de Le petit plus de la rédaction: si vous n’avez pas ou peu d’expérience professionnelle, notre En ce qui concerne les compétences linguistiques et informatiques ou toute autre compétence spécifique, il faut les regrouper dans une section. CV Builder Professionnel. Votre nom, votre adresse email, votre téléphone ainsi que votre adresse doivent figurer dans cette section. Tous les titres et intitulés sont alors traduits en espagnol et il ne vous reste plus qu'à rédiger votre curriculum vitae dans la langue de Cervantes !Si vous souhaitez postuler pour un poste à l'étranger, dans un pays hispanophone, rédiger son CV en espagnol est absolument incontournable. Voici quatre modèles de CV en français, anglais, italien et espagnol, et dont les contenus sont les mêmes pour mieux comparer les différences d'un pays à l'autre. On vous en parlait plus haut, ne traduisez pas à la lettre les titres de vos diplômes, mais trouvez plutôt l’équivalent en Espagne ou dans le pays hispanophone en question. Attention néanmoins à ne pas traduire son CV français, mais bien à le réécrire ! </p> <p>Toutefois, même si un intérêt tout particulier est porté aux loisirs et aux hobbies, veillez quand même à ce que ces informations apportent un vrai plus à votre curriculum vitae.Pour terminer, en ce qui concerne les références, vous pouvez indiquer les personnes de contact directement en bas de page ou décider de mentionner « Références disponibles sur demande ». Elles permettent aux ressources humaines de comprendre qui vous êtes et quelles sont vos qualités sans même vous avoir rencontré. Télécharger en version PDF Commencez tout de suite !Que vous souhaitiez postuler pour un job ou réaliser un échange universitaire dans un pays hispanophone, un CV en espagnol pourra vous être utile dans de nombreux cas. Le principal avantage de rédiger son CV en espagnol est donc de s’ouvrir à de nouvelles opportunités.Si le CV espagnol présente beaucoup de points communs avec le CV français, il a aussi quelques différences. Tout d’abord, grâce à nos exemples et à nos modèles de CV en espagnol, vous gagnez un temps fou. Néanmoins, ne pensez pas que pour ce faire, il suffit de traduire son CV français en espagnol ! Il est donc important de les connaître pour faire un bon CV en espagnol ! La présentation du CV espagnol se déroulera de la façon suivante : L'état civil (Datos personales) : Prénom, NOM (en majuscule), adresse, téléphone. Notre modèle de CV espagnol peut être intégralement téléchargé gratuitement au format Word. Voici donc les spécificités à connaître lorsque l’on rédige son CV en espagnol :Concernant l’organisation de cette rubrique, optez pour une structure chronologique ou rétrochronologique, afin que les recruteurs puissent facilement comprendre votre parcours.Là encore, voici une rubrique qui ne diffère pas beaucoup de celle de nos CV français. Faites attention à ne jamais surestimer votre niveau linguistique sur le papier car le recruteur pourrait être déçu lors du premier entretien et il pourrait même prendre ceci pour du mensonge pur et simple. Remplissez vos coordonnées, choisissez un modèle et téléchargez votre CV. Les règles à respecter pour créer son CV en langue espagnoleVous avez envie de décrocher un emploi, un stage ou un job d’étudiant en Espagne ou dans un pays hispanophone ? Le CV doit être bref, concis, ... Que vous ayez besoin de modèles originaux de curriculum vitae, des exemples de CV modèles CV classique et élégant, vous pourrez les rencontrer dans notre section Modèles et exemples de CV > CV espagnol : le contenu.  Depuis 2005, l'équipe de coachs de carrière, de rédacteurs professionnels et de techniciens aguerris de LiveCareer développe des outils de carrière qui ont aidé plus de 10 millions d'utilisateurs à renforcer leurs CV, à rédiger des lettres de motivation plus convaincantes et à développer de meilleures compétences d'entretien. Il est donc important d’apporter un soin tout particulier à cette rubrique en mentionnant et détaillant vos Les Espagnols ont tendance à parler de leurs hobbies et Lorsque vous créez votre CV sur CVwizard.fr, vous avez la possibilité de changer la langue de votre CV dans la partie identification, à gauche sous la photo. Vos activités personnelles pertinentes, vos voyages, vos séjours linguistiques, votre permis de conduire ou encore vos éventuelles publications sont des renseignements qui peuvent être ajoutés dans cette partie de votre CV. Télécharger un exemple de CV espagnol. De cette manière, vous n’avez pas besoin de partir de zéro et vous êtes surtout certain d’utiliser un modèle efficace validé par des professionnels. Facile et rapide - prêt en 10 minutes. Vous recherchez un nouveau poste dans ce domain...Médecin et chirurgien spécialiste des dents et mâchoires, le dentiste se doit de soigner et accompagner ses patients, mais aussi de les conseiller en matière d’hygiène bucco-dentaire. </p>";s:7:"keyword";s:26:"modèles de cv en espagnol";s:5:"links";s:6332:"<a href='https://backyard.synpat.com/site/article.php?page=thread-horreur-vrai-88a0eb'>Thread Horreur Vrai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miami-disney-world-88a0eb'>Miami Disney World</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vrais-mercato-de-chelsea-88a0eb'>Vrais Mercato De Chelsea</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=torche-flambeau-anti-moustique-88a0eb'>Torche Flambeau Anti Moustique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=supeco-saint-martin-au-la%C3%ABrt-horaire-88a0eb'>Supeco Saint Martin Au Laërt Horaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pur%C3%A9e-de-patate-douce-light-88a0eb'>Purée De Patate Douce Light</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=journal-comptable-vierge-excel-gratuit-88a0eb'>Journal Comptable Vierge Excel Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-nba-jordan-88a0eb'>Maillot Nba Jordan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coach-en-curiosit%C3%A9-88a0eb'>Coach En Curiosité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Que-devient-Cavani-88a0eb'>Que Devient Cavani</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=biopic-film-2020-88a0eb'>Biopic Film 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-m%C3%A9thode-montessori-pdf-88a0eb'>Jeux Méthode Montessori Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-de-famille-complique-88a0eb'>Nom De Famille Complique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=terraria-gobelin-pnj-88a0eb'>Terraria Gobelin Pnj</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Vive-la-chasse-88a0eb'>Vive La Chasse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Premier-Inn-London-Brentford-hotel4%2C2%28575%29%C3%80-0%2C7%C2%A0mi39%C2%A0%C2%A3GB-88a0eb'>Premier Inn London Brentford Hotel4,2(575)À 0,7 mi39 £GB</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pharmacie-lafayette-l%27union-88a0eb'>Pharmacie Lafayette L'union</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9rone---rom%C3%A9o-et-juliette-paroles-88a0eb'>Vérone - Roméo Et Juliette Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-19-carri%C3%A8re-meilleur-joueur-88a0eb'>Fifa 19 Carrière Meilleur Joueur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boyard-land-episode-1-streaming-88a0eb'>Boyard Land Episode 1 Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beloved-film-2020-88a0eb'>Beloved Film 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mademoiselle-marcelle-koh-lanta-88a0eb'>Mademoiselle Marcelle Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trending-topic---traduction-88a0eb'>Trending Topic - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parapharmacie-lafayette-livraison-88a0eb'>Parapharmacie Lafayette Livraison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liane-foly-chanson-d%27amour-88a0eb'>Liane Foly Chanson D'amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chanson-paillarde-88a0eb'>La Chanson Paillarde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=west-bromwich-vs-huddersfield-pronostic-88a0eb'>West Bromwich Vs Huddersfield Pronostic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dr-mezhoud-medespoir-88a0eb'>Dr Mezhoud Medespoir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-harry-potter-quel-est-ton-animagus-88a0eb'>Test Harry Potter Quel Est Ton Animagus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=artiste-street-art-fran%C3%A7ais-88a0eb'>Artiste Street Art Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estelle-cars_-instagram-88a0eb'>Estelle Cars_ Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=conjugaison-avoir-pu-en-espagnol-88a0eb'>Conjugaison Avoir Pu En Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Eden-Hazard-origine-88a0eb'>Eden Hazard Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-new-gate-scan-1-vf-88a0eb'>The New Gate Scan 1 Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beurre-de-cacahu%C3%A8te-s%C3%A8che-88a0eb'>Beurre De Cacahuète Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Journaliste-BFMTV-homme-88a0eb'>Journaliste BFMTV Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-avec-le-mot-toi-88a0eb'>Chanson Avec Le Mot Toi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bfm-radio-en-direct-88a0eb'>Bfm Radio En Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diablo-4-soundtrack-88a0eb'>Diablo 4 Soundtrack</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=online-shopping-france-88a0eb'>Online Shopping France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=donner-la-parole-en-anglais-88a0eb'>Donner La Parole En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Et-s%27il-fallait-le-faire-88a0eb'>Et S'il Fallait Le Faire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mat%C3%A9riel-division-montessori-88a0eb'>Matériel Division Montessori</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-dior-converse-88a0eb'>Chaussure Dior Converse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coupe-faim-eafit-88a0eb'>Coupe Faim Eafit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bundesliga-reprise-cha%C3%AEne-88a0eb'>Bundesliga Reprise Chaîne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=il-me-dit-que-je-suis-unique-88a0eb'>Il Me Dit Que Je Suis Unique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-l%C3%A9s%C3%A9-assurancereplay-capital-15-d%C3%A9cembre-2019-88a0eb'>Le Lésé Assurancereplay Capital 15 Décembre 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-petite-%C3%A9toile-dans-le-ciel-88a0eb'>Chanson Petite étoile Dans Le Ciel</a>,
+";s:7:"expired";i:-1;}

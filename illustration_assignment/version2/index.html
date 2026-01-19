@@ -1,0 +1,1044 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title></title>
+    <link href="jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+        #container {
+            display: inline-block;
+            margin: 0;
+            width: 100%;
+            position: relative;
+            font-family: 'Roboto', sans-serif;
+        }
+
+            #container svg {
+                border: 1px solid #ccc;
+            }
+
+            /*#container .header {
+                text-anchor: middle;
+            }*/
+
+            #container .hline {
+                stroke: #aaa;
+                stroke-width: 1;
+                stroke-dasharray: 5, 5;
+            }
+
+            #container .box {
+                fill: #fff;
+                fill-opacity: 0.8;
+                stroke: #999;
+                stroke-width: 2;
+            }
+
+                #container .box.box-inventor {
+                    fill: #eee;
+                }
+
+            #container .tline {
+                stroke: #aaa;
+                stroke-width: 1;
+                stroke-dasharray: 5, 5;
+            }
+
+            #container .thead {
+                text-anchor: end;
+                font-size: 11px;
+            }
+
+            #container .thead2 {
+                text-anchor: start;
+                font-size: 11px;
+            }
+
+            #container .btext {
+                font-size: 14px;
+                fill: #000;
+                font-weight: bold;
+            }
+
+            #container .box-3.btext {
+                font-size: 13px;
+            }
+
+            #container .btext2 {
+                font-size: 12px;
+                fill: #555;
+            }
+
+                #container .btext2 .active {
+                    fill: #f00;
+                }
+
+            #container .connection {
+                fill: none;
+                stroke: #aaa;
+                stroke-width: 2;
+            }
+
+                #container .connection.active {
+                    stroke-width: 5;
+                }
+
+            #container .tooltip {
+                position: absolute;
+                padding: 5px 10px;
+                border-radius: 4px;
+                pointer-events: none;
+                background: #555;
+                color: #fff;
+                font-size: 12px;
+            }
+
+        .popup {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: auto;
+            left: auto;
+            max-height: 90%;
+            overflow-y: scroll;
+            background: #fff;
+            z-index: 999;
+            font-size: 12px;
+        }
+
+            .popup > div {
+                width: 600px;
+                padding: 10px;
+                border: 1px solid #aaa;
+                margin: 10px;
+                position: relative;
+            }
+
+                .popup > div > a.close {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                }
+
+                .popup > div > a.comment {
+                    position: absolute;
+                    right: 10px;
+                    top: 30px;
+                }
+
+                .popup > div > label {
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+                    display: block;
+                    padding-right: 50px;
+                }
+
+                    .popup > div > label.prop {
+                        cursor: pointer;
+                        color: #0057E7;
+                    }
+
+                .popup > div > table {
+                    border-spacing: 0;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+            .popup table.top {
+                margin-bottom: 20px;
+            }
+
+                .popup table.top td {
+                    width: 50%;
+                    padding-top: 10px;
+                    vertical-align: top;
+                }
+
+            .popup table.bottom th, .popup table.bottom td {
+                text-align: left;
+                width: 25%;
+                padding: 2px 5px;
+            }
+
+            .popup table.bottom .title {
+                padding-top: 5px;
+            }
+
+                .popup table.bottom .title td {
+                    background: #ddd;
+                }
+
+        .ui-slider-horizontal {
+            height: 0.7em;
+        }
+
+        .buttons {
+            position: fixed;
+            top: 21px;
+            left: 93px;
+            width: 130px;
+            z-index: 10;
+        }
+
+            .buttons > button {
+                width: 28px;
+                height: 22px;
+                margin-right: 2px;
+                margin-bottom: 2px;
+            }
+
+        .menu {
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .popup-comment {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .popup-comment > div {
+            width: 400px;
+            height: 200px;
+            margin: 50px auto 0;
+            background: #fff;
+            padding: 10px;
+        }
+
+        .popup-comment textarea {
+            resize: none;
+            width: 100%;
+            height: 175px;
+            padding: 0;
+        }
+
+        .popup-comment a {
+            font-size: 13px;
+            float: right;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
+    <script src="d3.v4.min.js"></script>
+    <script>
+        console.log(location.search);
+
+        /*!
+        // THE CODE OF RENDERING FLOW CHART FROM JSON FILE
+        // - OPTION 1: TO USE THE CODE WITH NEW FILE: UPDATE THE JSON FILENAME IN THE BELOW LINE
+        // - OPTION 2: TO ADD MORE CASES: USE THE "TEST" PARAMETER WITH OTHER VALUE,
+        //             AND LOAD THE CORRESPONDING FILE WITH THE VALUE
+        */
+
+        d3.json(location.search.includes("test=1") ? "7430261_2_1.json" : location.search.includes("test=2") ? "6839353.json" : "6550797_7.json",
+            function (n) {
+
+                /*!
+                    // DATA PREPARATION:
+                    // - SCAN AND FIX ALL FORMATING ISSUES ON DATE/TIME FIELDS 
+                    // - ARRANGE BOXES INTO 3 COLUMNS
+                    // - SORT BOXES BY TIME
+                    */
+
+                function v(n) {
+                    var t = new Date(n).toDateString();
+                    return t.split(" ").slice(1).join(" ")
+                }
+
+                function y() {
+                    r.selectAll(".box")
+                        .each(function (n) {
+                            var t = 1;
+                            k == 0 && (n.mainCol == 2 || n.securityOnly == 1) && (t = 0);
+                            nt == 0 && n.mainCol == 3 && (t = 0);
+                            p == 0 && n.dottedOnly == 1 && (t = 0);
+                            f.indexOf(n.execution_date) > e && (t = 0);
+                            d3.select(this).style("opacity", t)
+                        });
+                    r.selectAll(".btext")
+                        .each(function (n) {
+                            var t = 1;
+                            k == 0 && (n.mainCol == 2 || n.securityOnly == 1) && (t = 0);
+                            nt == 0 && n.mainCol == 3 && (t = 0);
+                            p == 0 && n.dottedOnly == 1 && (t = 0);
+                            f.indexOf(n.execution_date) > e && (t = 0);
+                            d3.select(this).style("opacity", t)
+                        });
+                    r.selectAll(".btext2")
+                        .each(function (n) {
+                            var t = 1;
+                            k == 0 && (n.mainCol == 2 || n.securityOnly == 1) && (t = 0);
+                            nt == 0 && n.mainCol == 3 && (t = 0);
+                            p == 0 && n.dottedOnly == 1 && (t = 0);
+                            f.indexOf(n.execution_date) > e && (t = 0);
+                            d3.select(this).style("opacity", t)
+                        });
+                    r.selectAll("a")
+                        .each(function (n) {
+                            var t = 1;
+                            k == 0 && (n.mainCol == 2 || n.securityOnly == 1) && (t = 0);
+                            p == 0 && n.dottedOnly == 1 && (t = 0);
+                            f.indexOf(n.execution_date) > e && (t = 0);
+                            d3.select(this).style("opacity", t).style("display", t > 0 ? "inline" : "none")
+                        });
+                    o.selectAll(".connection")
+                        .each(function () {
+                            var n = d3.select(this.parentNode).datum(), i = h[n.start_id], r = h[n.end_id], t = 1;
+                            k == 0 && (i.mainCol == 2 || r.mainCol == 2) && (t = 0);
+                            nt == 0 && (i.mainCol == 3 || r.mainCol == 3) && (t = 0);
+                            p == 0 && n.ref_id_go && (t = 0);
+                            f.indexOf(n.date) > e && (t = 0);
+                            n.type == "Security" &&
+                                n.ref_id_go &&
+                                (n.release_date > f[e]
+                                    ? d3.select(this).attr("marker-start", null).style("stroke-dasharray", null)
+                                    : d3.select(this).attr("marker-start", "url(#start1)").style("stroke-dasharray", "10,5"));
+                            d3.select(this).style("opacity", t).style("display", t > 0 ? "inline" : "none")
+                        })
+                }
+
+                function dt() {
+                    w.attr("width", et + u.left + u.right + i + s);
+                    ot
+                        .selectAll(".hline")
+                        .attr("x1", function (n) { return n.left + (n.d.id > 1 ? i : 0) })
+                        .attr("x2", function (n) { return n.left + (n.d.id > 1 ? i : 0) });
+                    rt.style("left", u.left + t[0].leftPad + t[0].subWidth * t[0].sub + t[1].subWidth * t[1].sub + 150 + i + "px");
+                    kt.style("left", t[0].leftPad + t[0].subWidth * t[0].sub + t[1].subWidth * t[1].sub + 110 + i + "px");
+                    r.selectAll("rect.box").attr("x", function (n) { return n.mainCol == 3 ? n.x - 110 + i + s : n.mainCol == 2 ? n.x - 95 + i : n.x - 95 });
+                    o.selectAll(".tline").attr("x2", function (n) { return n.mainCol == 3 ? n.x - 110 + i + s : n.mainCol == 2 ? n.x - 95 + i : n.x - 95 });
+                    r.selectAll(".btext").attr("x", function (n) { return n.mainCol == 3 ? n.x - 100 + i + s : n.mainCol == 2 ? n.x - 65 + i : n.x - 65 });
+                    r.selectAll(".btext tspan").attr("x", function (n) { return n.mainCol == 3 ? n.x - 100 + i + s : n.mainCol == 2 ? n.x - 65 + i : n.x - 65 });
+                    r.selectAll(".btext2").attr("x", function (n) { return n.mainCol == 3 ? n.x - 100 + i + s : n.mainCol == 2 ? n.x - 84 + i : n.x - 84 });
+                    r.selectAll(".btext2 > tspan").attr("x", function (n) { return n.mainCol == 3 ? n.x - 100 + i + s : n.mainCol == 2 ? n.x - 84 + i : n.x - 84 });
+                    r.selectAll("a image").attr("x", function (n) { return n.mainCol == 2 ? n.x - 90 + i : n.x - 90 });
+                    o.selectAll(".connection")
+                        .each(function () {
+                            var u = d3.select(this.parentNode).datum(), f = d3.select(this).datum(), n = [], t, r;
+                            f.forEach(function (t) { n.push([t[0], t[1]]) });
+                            t = h[u.start_id];
+                            r = h[u.end_id];
+                            t.mainCol == 3 ? (n[0][0] += i + s, n[1][0] += i + s) : t.mainCol == 2 && (n[0][0] += i, n[1][0] += i);
+                            r.mainCol == 3 ? (n[2][0] += i + s, n[3][0] += i + s) : r.mainCol == 2 && (n[2][0] += i, n[3][0] += i);
+                            d3.select(this).attr("d", ht(n))
+                        })
+                }
+
+                var at, vt, b, st, ht, it, l, ct, rt, p, lt, e, tt;
+                n.box.forEach(function (n) {
+                    var t;
+                    n.execution_date != null &&
+                        n.execution_date != "" &&
+                        (t = new Date(n.execution_date), n.execution_date = t.getFullYear() +
+                            "-" +
+                            (t.getMonth() < 9 ? "0" : "") +
+                            (t.getMonth() + 1) +
+                            "-" +
+                            (t.getDate() < 10 ? "0" : "") +
+                            t.getDate());
+                    n.recorded_date == null && n.recorded != null && (n.recorded_date = n.recorded);
+                    n.recorded_date != null &&
+                        n.recorded_date != "" &&
+                        (t = new Date(n.recorded_date), n.recorded_date = t.getFullYear() +
+                            "-" +
+                            (t.getMonth() < 9 ? "0" : "") +
+                            (t.getMonth() + 1) +
+                            "-" +
+                            (t.getDate() < 10 ? "0" : "") +
+                            t.getDate())
+                });
+                n.connection.forEach(function (n) {
+                    var t = new Date(n.date);
+                    n.date = t.getFullYear() + "-" + (t.getMonth() < 9 ? "0" : "") + (t.getMonth() + 1) + "-" + (t.getDate() < 10 ? "0" : "") + t.getDate()
+                });
+                n.connection.forEach(function (t) {
+                    t.hide = !1;
+                    var i = n.connection.filter(function (n) { return n.start_id == t.start_id && n.end_id == t.end_id && n.type == t.type && n.id < t.id });
+                    i.length > 0 && (t.hide = !0);
+                    t.type == "Security" &&
+                    (i = n.connection
+                        .filter(function (n) { return n.type == "Release" && n.ref_id == t.id }), i.length > 0 && (t.ref_id_go = i[0].id, t.release_date = i[0].date));
+                    t.type == "Release" && (i = n.connection.filter(function (n) { return n.type == "Security" && n.id == t.ref_id }), i.length > 0 && (t.hide = !0))
+                });
+                n.box.sort(function (n, t) {
+                    return n.type == "Inventor" && t.type != "Inventor"
+                        ? -1
+                        : t.type == "Inventor" && n.type != "Inventor"
+                        ? 1
+                        : n.execution_date > t.execution_date ? 1 : n.execution_date < t.execution_date ? -1 : n.id > t.id ? 1 : -1
+                });
+                console.log(n);
+                var ut = d3.extent(n.box.filter(function (n) { return n.execution_date != null && n.execution_date != "" }), function (n) { return n.execution_date }),
+                    ft = 864e5,
+                    ni = (new Date(ut[1]) - new Date(ut[0])) / ft;
+                console.log(ut);
+                console.log(ni);
+                at = d3.map(n.box, function (n) { return n.type }).keys();
+                vt = d3.map(n.connection, function (n) { return n.type }).keys();
+                console.log(at);
+                console.log(vt);
+                var t = [
+                        { id: 0, name: "Ownership", leftPad: 40, subWidth: 260, subHeight: 120, sub: 1, items: [] },
+                        { id: 1, name: "Security", leftPad: 0, subWidth: 280, subHeight: 120, sub: 1, items: [] },
+                        { id: 2, name: "License / 3rdParty", leftPad: 0, subWidth: 300, subHeight: 40, sub: 1, items: [], preHeight: 30 }
+                ],
+                    h = [],
+                    c = [],
+                    f = [],
+                    yt = 0;
+                n.box.forEach(function (i) {
+                    var r, u, e, o, s;
+                    i.type == "License" && (i.type = "3rdParties");
+                    i.type == "ChangeOfName" && (i.type = "Ownership");
+                    (i.type == "Inventor" || i.type == "Ownership") && (r = t[0], i.mainCol = 1);
+                    i.type == "Security" && (r = t[1], i.mainCol = 2);
+                    i.type == "3rdParties" && (r = t[2], i.mainCol = 3);
+                    r &&
+                    (r.items.length == 0 || i.type == "3rdParties" || i.type != "Inventor" && r.items[r.items.length - 1].type == "Inventor"
+                        ? i.subCol = 1
+                        : i.execution_date == r.items[r.items.length - 1].execution_date
+                        ? (i.subCol = r.items[r.items.length - 1].subCol + 1, r.sub < i.subCol && (r.sub = i.subCol))
+                        : i.subCol = 1, r.items.push(i), u = n.connection.filter(function (n) { return n.end_id == i.id && !n.hide }), e = n.connection
+                        .filter(function (n) { return n.start_id == i.id && !n.hide }), i
+                        .inTypes = d3.map(u, function (n) { return n.type }).keys(), i
+                        .outTypes = d3.map(e, function (n) { return n.type }).keys(), i
+                        .dottedOnly = 1, i.securityOnly = i.mainCol == 3 ? 1 : 0, h[i
+                        .id] = i, o = i
+                        .execution_date +
+                        (i.type == "Inventor" ? "d" : ""), i
+                        .type !=
+                        "3rdParties" &&
+                        c.indexOf(o) < 0 &&
+                        (c.push(o), f.push(o)), i.type == "3rdParties" &&
+                        (i.execution_date == null || i.execution_date == "") &&
+                        (u
+                            .length >
+                            0 &&
+                            (i.execution_date = d3.min(u, function (n) { return n.date })), e.length > 0 &&
+                        (s = d3.min(e, function (n) { return n.date }), (i.execution_date == null || i.execution_date == "" || i.execution_date > s) &&
+                            (i.execution_date = s))), i.type == "Ownership" && i.subCol == 1 && (i.ownershipIdx = yt, yt++))
+                });
+                console.log(t);
+                console.log(c);
+                n.box.forEach(function (n) {
+                    if (n.step = -1, n.execution_date != null && n.execution_date != "") {
+                        var t = n.execution_date + (n.type == "Inventor" ? "d" : "");
+                        n.step = c.indexOf(t)
+                    }
+                });
+                n.connection.forEach(function (n) {
+                    if (n.step = -1, !n.hide) {
+                        var t = h[n.start_id], i = h[n.end_id];
+                        t != null && i != null && (n.step = t.step >= 0 && i.step >= 0 ? Math.max(t.step, i.step) : t.step >= 0 ? t.step : i.step)
+                    }
+                });
+                n.box.forEach(function (t) {
+                    if (t.execution_date == null || t.execution_date == "") {
+                        var i = n.connection.filter(function (n) { return (n.end_id == t.id || n.start_id == t.id) && n.step >= 0 });
+                        i.length > 0 && (t.step = d3.min(i, function (n) { return n.step }))
+                    }
+                });
+
+                /*! 
+                    // START DRAWING
+                    // - PREPARE SVG ELEMENTS
+                    // - DRAW LEFT-SIDE TIMELINE AND BOXES
+                    // - DRAW LINES (CONNECTIONS)
+                    */
+
+                var g = d3.select("#container"),
+                    u = { top: 80, left: 80, right: 20, bottom: 40 },
+                    et = d3.sum(t, function (n) { return n.leftPad + n.sub * n.subWidth * (n.items.length > 0 ? 1 : 0) }),
+                    pt = Math.max(c.length * t[0].subHeight, t[2].items.length * t[2].subHeight + t[2].preHeight),
+                    w = g.append("svg").attr("width", et + u.left + u.right).attr("height", pt + u.top + u.bottom),
+                    wt = w.append("defs"),
+                    ot = w.append("g").attr("transform", "translate(" + u.left + ",0)"),
+                    o = w.append("g").attr("transform", "translate(" + u.left + "," + u.top + ")"),
+                    r = w.append("g").attr("transform", "translate(" + u.left + "," + u.top + ")");
+
+                /*! red, yellow, green, blue, purple */
+
+                ["#D62D20", "#FFA700", "#008744", "#4285F4", "#8329AD"].forEach(function (n, t) {
+                    wt.append("marker")
+                        .attr("id", "end" + t)
+                        .attr("viewBox", "0 -5 10 10")
+                        .attr("refX", 10)
+                        .attr("refY", 0)
+                        .attr("markerWidth", 12)
+                        .attr("markerHeight", 12)
+                        .attr("markerUnits", "userSpaceOnUse")
+                        .attr("orient", "auto")
+                        .append("svg:path")
+                        .attr("d", "M0,-5L10,0L0,5")
+                        .style("fill", n);
+                    wt.append("marker")
+                        .attr("id", "start" + t)
+                        .attr("viewBox", "0 -5 10 10")
+                        .attr("refX", 0)
+                        .attr("refY", 0)
+                        .attr("markerWidth", 12)
+                        .attr("markerHeight", 12)
+                        .attr("markerUnits", "userSpaceOnUse")
+                        .attr("orient", "auto")
+                        .append("svg:path")
+                        .attr("d", "M10,-5L0,0L10,5")
+                        .style("fill", n)
+                });
+                b = 0;
+                st = 0;
+                t.forEach(function (n) {
+                    n.items.length != 0 &&
+                    (ot
+                        .append("line")
+                        .attr("class", "hline")
+                        .datum({ left: b, d: n })
+                        .attr("x1", b)
+                        .attr("y1", 20)
+                        .attr("x2", b)
+                        .attr("y2", pt + u.top + u.bottom - 20), n.items.forEach(function (i, u) {
+                            var f, s, h, e, l, a, y;
+                            i.x = b + n.leftPad + (i.subCol - 1) * n.subWidth + n.subWidth / 2;
+                            i.type != "3rdParties"
+                                ? i.y = c.lastIndexOf(i.execution_date + (i.type == "Inventor" ? "d" : "")) * n.subHeight + n.subHeight / 2
+                                : (i.y = u * n.subHeight + n.subHeight / 2 + n.preHeight + st, i.execution_date != null &&
+                                    i.execution_date != "" &&
+                                    i.recorded_date != null &&
+                                    i.recorded_date != "" &&
+                                    (i.y = c.lastIndexOf(i.execution_date) * t[0].subHeight + t[0].subHeight / 2));
+                            f = (new Date(i.recorded_date) - new Date(i.execution_date)) / ft;
+                            s = i.document != null && i.document != "";
+                            i.type == "Inventor" &&
+                            (r
+                                .append("rect")
+                                .attr("class", "box box-inventor")
+                                .datum(i)
+                                .attr("x", i.x - 95)
+                                .attr("y", i.y - 36)
+                                .attr("width", 190)
+                                .attr("height", 72), o
+                                .append("line")
+                                .attr("class", "tline")
+                                .datum(i)
+                                .attr("x1", 0)
+                                .attr("y1", i.y)
+                                .attr("x2", i.x - 95)
+                                .attr("y2", i.y), r
+                                .append("text")
+                                .attr("class", "btext")
+                                .datum(i)
+                                .attr("x", i.x - (s ? 65 : 84))
+                                .attr("y", i.y - 8)
+                                .text(i.name), r.append("text")
+                                .attr("class", "btext2")
+                                .datum(i)
+                                .attr("x", i.x - 84)
+                                .attr("y", i.y + 15)
+                                .text("Execution: " + v(i.execution_date))
+                                .append("tspan")
+                                .attr("x", i.x - 84)
+                                .attr("dy", "1.2em")
+                                .text("Recorded: " + v(i.recorded_date))
+                                .append("tspan")
+                                .attr("class", f > 90 ? "active" : "")
+                                .text(" (" + f + ")"), s &&
+                                r.append("a")
+                                .datum(i)
+                                .attr("xlink:href", i.document)
+                                .attr("target", "_blank")
+                                .append("image")
+                                .attr("x", i.x - 90)
+                                .attr("y", i.y - 25)
+                                .attr("width", 20)
+                                .attr("height", 20)
+                                .attr("xlink:href", "pdf.svg"));
+                            (i.type == "Ownership" || i.type == "Security") &&
+                            (r.append("rect")
+                                .attr("class", "box")
+                                .datum(i)
+                                .attr("x", i.x - 95)
+                                .attr("y", i.y - 36)
+                                .attr("rx", 5)
+                                .attr("ry", 5)
+                                .attr("width", 190)
+                                .attr("height", 72), o
+                                .append("line")
+                                .attr("class", "tline")
+                                .datum(i)
+                                .attr("x1", 0)
+                                .attr("y1", i.y)
+                                .attr("x2", i.x - 95)
+                                .attr("y2", i.y), i.name.length <= 22
+                                ? r.append("text").attr("class", "btext").datum(i).attr("x", i.x - 65).attr("y", i.y - 8).text(i.name)
+                                : (h = i.name.substr(0, 22).lastIndexOf(" "), e = i.name
+                                    .substr(h + 1), e
+                                    .length >
+                                    22 &&
+                                    (e = e.substr(0, 22) + "..."), r.append("text")
+                                    .attr("class", "btext")
+                                    .datum(i)
+                                    .attr("x", i.x - 65)
+                                    .attr("y", i.y - 18)
+                                    .text(i.name.substr(0, h))
+                                    .append("tspan")
+                                    .attr("x", i.x - 65)
+                                    .attr("dy", "1.2em")
+                                    .text(e)), r.append("text")
+                                .attr("class", "btext2")
+                                .datum(i)
+                                .attr("x", i.x - 84)
+                                .attr("y", i.y + 15)
+                                .text("Execution: " + v(i.execution_date))
+                                .append("tspan")
+                                .attr("x", i.x - 84)
+                                .attr("dy", "1.2em")
+                                .text("Recorded: " + v(i.recorded_date))
+                                .append("tspan")
+                                .attr("class", f > 90 ? "active" : "")
+                                .text(" (" + f + ")"), i.document != "" &&
+                                r.append("a")
+                                .datum(i)
+                                .attr("xlink:href", i.document)
+                                .attr("target", "_blank")
+                                .append("image")
+                                .attr("x", i.x - 90)
+                                .attr("y", i.y - 25)
+                                .attr("width", 20)
+                                .attr("height", 20)
+                                .attr("xlink:href", "pdf.svg"));
+                            i.type == "3rdParties" &&
+                            (i.execution_date == null || i.execution_date == "" || i.recorded_date == null || i.recorded_date == ""
+                                ? (l = r
+                                    .append("rect")
+                                    .attr("class", "box")
+                                    .datum(i)
+                                    .attr("x", i.x - 110)
+                                    .attr("rx", 5)
+                                    .attr("ry", 5)
+                                    .attr("width", 230), i.name.length <= 35
+                                    ? (l.attr("y", i.y - 15).attr("height", 30), r.append("text")
+                                        .attr("class", "btext box-3")
+                                        .datum(i)
+                                        .attr("x", i.x - 100)
+                                        .attr("y", i.y)
+                                        .attr("dy", "0.32em")
+                                        .text(i.name))
+                                    : (st += 10, i.y += 5, l.attr("y", i.y - 20).attr("height", 40), a = i.name.substr(0, 35).lastIndexOf(" "), y = i.name
+                                        .substr(a + 1), r.append("text")
+                                        .attr("class", "btext box-3")
+                                        .datum(i)
+                                        .attr("x", i.x - 100)
+                                        .attr("y", i.y - 3)
+                                        .text(i.name.substr(0, a))
+                                        .append("tspan")
+                                        .attr("x", i.x - 100)
+                                        .attr("dy", "1.2em")
+                                        .text(y)))
+                                : (r.append("rect")
+                                    .attr("class", "box")
+                                    .datum(i)
+                                    .attr("x", i.x - 110)
+                                    .attr("y", i.y - 30)
+                                    .attr("rx", 5)
+                                    .attr("ry", 5)
+                                    .attr("width", 200)
+                                    .attr("height", 60), o
+                                    .append("line")
+                                    .attr("class", "tline")
+                                    .datum(i)
+                                    .attr("x1", 0)
+                                    .attr("y1", i.y)
+                                    .attr("x2", i.x - 110)
+                                    .attr("y2", i.y), r
+                                    .append("text")
+                                    .attr("class", "btext box-3")
+                                    .datum(i)
+                                    .attr("x", i.x - 100)
+                                    .attr("y", i.y - 10)
+                                    .text(i.name), r.append("text")
+                                    .attr("class", "btext2")
+                                    .datum(i)
+                                    .attr("x", i.x - 100)
+                                    .attr("y", i.y + 8)
+                                    .text("Execution: " + v(i.execution_date))
+                                    .append("tspan")
+                                    .attr("x", i.x - 100)
+                                    .attr("dy", "1.2em")
+                                    .text("Recorded: " + v(i.recorded_date))
+                                    .append("tspan")
+                                    .attr("class", f > 90 ? "active" : "")
+                                    .text(" (" + f + ")")))
+                        }), b += n.leftPad + n.sub * n.subWidth)
+                });
+                c.forEach(function (n, i) {
+                    (o
+                            .append("text")
+                            .attr("class", "thead")
+                            .datum(i)
+                            .attr("x", -10)
+                            .attr("y", (i + .5) * t[0].subHeight)
+                            .attr("dy", "0.32em")
+                            .text(n.replace("d", "")), i != 0) &&
+                        o.append("text")
+                        .attr("class", "thead2")
+                        .datum(i)
+                        .attr("x", 5)
+                        .attr("y", i * t[0].subHeight)
+                        .attr("dy", "0.32em")
+                        .text((new Date(n.replace("d", "")) - new Date(c[i - 1].replace("d", ""))) / ft + " days")
+                });
+                ht = d3.line().x(function (n) { return n[0] }).y(function (n) { return n[1] }).curve(d3.curveBasis);
+                it = 0;
+                n.connection.forEach(function (n) {
+                    var t, i, a;
+                    if (!n.hide && (t = h[n.start_id], i = h[n.end_id], t != null && i != null)) {
+                        var r, u, e = [], s = n.ref_id_go ? 0 : 1 + t.outTypes.indexOf(n.type), c = n.ref_id_go ? 0 : 1 + i.inTypes.indexOf(n.type), l = !1;
+                        t.type == "Ownership" && t.subCol == 1 && i.type == "Ownership" && i.subCol == 1 && i.ownershipIdx - t.ownershipIdx >= 2 && (l = !0, it++);
+                        t.type == "3rdParties"
+                            ? (r = [t.x - 110, t.y - s * 5], e.push([r[0] - 50, r[1]]))
+                            : t.x + 100 < i.x && t.type != "Inventor"
+                            ? (r = [t.x + 95, t.y - s * 10], e.push([r[0] + 50, r[1]]))
+                            : t.x > i.x + 100 && t.type != "Inventor"
+                            ? (r = [t.x - 95, t.y - s * 10], e.push([r[0] - 50, r[1]]))
+                            : (r = [t.x - (l ? it * 10 : 0), t.y + 36], e.push([r[0], r[1] + 20]));
+                        e.splice(0, 0, r);
+                        i.type == "3rdParties"
+                            ? (u = [i.x - 110, i.y + c * 5], e.push([u[0] - 50, u[1]]))
+                            : t.x + 100 < i.x
+                            ? (u = [i.x - 95, i.y + c * 10], e.push([u[0] - 50, u[1]]))
+                            : t.x > i.x + 100
+                            ? (u = [i.x + 95, i.y + c * 10], e.push([u[0] + 50, u[1]]))
+                            : (u = [i.x - (l ? it * 10 : 0), i.y - 36], e.push([u[0], u[1] - 20]));
+                        e.push(u);
+                        a = o.append("g")
+                            .datum(n)
+                            .append("path")
+                            .attr("class", "connection")
+                            .datum(e)
+                            .attr("d", ht)
+                            .attr("marker-end",
+                                "url(#end" +
+                                (n.type == "Ownership" ? "0" : n.type == "Security" ? "1" : n.type == "Release" ? "2" : n.type == "ChangeOfName" ? "3" : "4") +
+                                ")")
+                            .style("stroke",
+                                n.type == "Ownership"
+                                ? "#D62D20"
+                                : n.type == "Security" ? "#FFA700" : n.type == "Release" ? "#008744" : n.type == "ChangeOfName" ? "#4285F4" : "#8329AD");
+                        n.type == "Security" && n.ref_id_go
+                            ? a.attr("marker-start", "url(#start1)").style("stroke-dasharray", "10,5")
+                            : (t.dottedOnly = 0, i.dottedOnly = 0);
+                        t.mainCol == 1 && i.mainCol == 3 && (i.securityOnly = 0);
+                        t.mainCol == 3 && i.mainCol == 1 && (t.securityOnly = 0);
+                        f.indexOf(n.date) < 0 && f.push(n.date);
+                        n.release_date != null && f.indexOf(n.release_date) < 0 && f.push(n.release_date)
+                    }
+                });
+                f.sort(function (n, t) { return n.endsWith("d") && !t.endsWith("d") ? -1 : !n.endsWith("d") && t.endsWith("d") ? 1 : n > t ? 1 : -1 });
+                console.log(f);
+
+                /*! 
+                    // BUILD TOP MENU 
+                    // - PREPARE THE MENU CONTAINER
+                    // - BUILD SECURITY CHECKBOX
+                    // - BUILD LICENSE CHECKBOX
+                    // - BUILD RELEASE CHECKBOX
+                    // - BUILD TIMELINE BUTTONS
+                    // - BUILD SPACING SLIDERS
+                    */
+
+                l = g.append("div").attr("class", "menu").style("width", et + u.left + u.right + "px");
+                l.append("label")
+                    .text("Ownership")
+                    .style("position", "absolute")
+                    .style("top", "14px")
+                    .style("left", u.left + t[0].leftPad + t[0].subWidth * t[0].sub / 2 - 20 + "px");
+                ct = 1;
+                l.append("input")
+                    .attr("type", "checkbox")
+                    .attr("checked", "checked")
+                    .style("position", "absolute")
+                    .style("top", "12px")
+                    .style("left", "50px")
+                    .style("width", "18px")
+                    .style("height", "18px")
+                    .on("change",
+                        function () {
+                            ct = d3.select(this).property("checked") ? 1 : 0;
+                            ot.selectAll(".hline").style("opacity", ct);
+                            y()
+                        });
+                var k = 1,
+                    nt = 1,
+                    bt = l.append("label")
+                        .style("position", "absolute")
+                        .style("width", "120px")
+                        .style("top", "16px")
+                        .style("left", u.left + t[0].leftPad + t[0].subWidth * t[0].sub + 160 + "px")
+                        .text("Security");
+                bt.append("input")
+                    .lower()
+                    .attr("type", "checkbox")
+                    .attr("checked", "checked")
+                    .style("width", "18px")
+                    .style("height", "18px")
+                    .style("vertical-align", "middle")
+                    .style("margin-top", "-2px")
+                    .style("margin-right", "5px")
+                    .on("change",
+                        function () {
+                            k = d3.select(this).property("checked") ? 1 : 0;
+                            y()
+                        });
+                rt = l.append("label")
+                    .style("position", "absolute")
+                    .style("width", "200px")
+                    .style("top", "16px")
+                    .style("left", u.left + t[0].leftPad + t[0].subWidth * t[0].sub + t[1].subWidth * t[1].sub + 150 + "px")
+                    .text("License / 3rdParty");
+                rt.append("input")
+                    .lower()
+                    .attr("type", "checkbox")
+                    .attr("checked", "checked")
+                    .style("width", "18px")
+                    .style("height", "18px")
+                    .style("vertical-align", "middle")
+                    .style("margin-top", "-2px")
+                    .style("margin-right", "5px")
+                    .on("change",
+                        function () {
+                            nt = d3.select(this).property("checked") ? 1 : 0;
+                            y()
+                        });
+                p = 1;
+                lt = l.append("label")
+                    .style("position", "absolute")
+                    .style("width", "120px")
+                    .style("top", "16px")
+                    .style("left", u.left + t[0].leftPad + t[0].subWidth * t[0].sub + 270 + "px")
+                    .text("Release");
+                lt.append("input")
+                    .lower()
+                    .attr("type", "checkbox")
+                    .attr("checked", "checked")
+                    .style("width", "18px")
+                    .style("height", "18px")
+                    .style("vertical-align", "middle")
+                    .style("margin-top", "-2px")
+                    .style("margin-right", "5px")
+                    .on("change",
+                        function () {
+                            p = d3.select(this).property("checked") ? 1 : 0;
+                            y()
+                        });
+                e = f.length - 1;
+                tt = l.append("div").attr("class", "buttons");
+                tt.append("button").text("<").on("click", function () { e > 0 && (e--, y()) });
+                tt.append("button").text(">").on("click", function () { e < f.length - 1 && (e++, y()) });
+                tt.append("button").text("|<").on("click", function () { e > 0 && (e = 0, y()) });
+                tt.append("button").text(">|").on("click", function () { e < f.length - 1 && (e = f.length - 1, y()) });
+                var ti = l.append("div")
+                        .attr("id", "slider1")
+                        .style("position", "absolute")
+                        .style("top", "18px")
+                        .style("left", t[0].leftPad + t[0].subWidth * t[0].sub + 110 + "px")
+                        .style("width", "100px"),
+                    kt = l.append("div")
+                        .attr("id", "slider2")
+                        .style("position", "absolute")
+                        .style("top", "18px")
+                        .style("left", t[0].leftPad + t[0].subWidth * t[0].sub + t[1].subWidth * t[1].sub + 110 + "px")
+                        .style("width", "100px"),
+                    i = 0,
+                    s = 0;
+                $("#slider1")
+                    .slider({
+                        range: "min",
+                        value: 0,
+                        min: 0,
+                        max: 400,
+                        slide: function (n, t) {
+                            i = t.value;
+                            dt()
+                        }
+                    });
+                $("#slider2")
+                    .slider({
+                        range: "min",
+                        value: 0,
+                        min: 0,
+                        max: 400,
+                        slide: function (n, t) {
+                            s = t.value;
+                            dt()
+                        }
+                    });
+                t[1].items.length == 0 && (bt.style("display", "none"), lt.style("display", "none"), ti.style("display", "none"));
+                t[2].items.length == 0 && (rt.style("display", "none"), kt.style("display", "none"));
+
+                /*! 
+                    // HANDLE MOUSE EVENTS
+                    // - LINE TOOLTIP (MOUSE HOVER) 
+                    // - POPUP (MOUSE CLICK) 
+                    */
+
+                var gt = g.append("div").attr("class", "tooltip").style("opacity", 0),
+                    d = g.append("div").attr("class", "popup").style("display", "none"),
+                    a = g.append("div").attr("class", "popup-comment").style("display", "none");
+                a.html("<div><textarea><\/textarea><a class='close' href='javascript:void(0)'>Close<\/a><a class='save' href='javascript:void(0)'>Save<\/a><\/div>");
+                o.selectAll(".connection")
+                    .on("mouseover",
+                        function () {
+                            if (d3.select(this).style("opacity") != 0) {
+                                var n = d3.select(this.parentNode).datum(),
+                                    t = n.type == "Ownership"
+                                        ? "ASSIGNMENT OF ASSIGNORS INTEREST"
+                                        : n.type == "ChangeOfName"
+                                        ? "CHANGE OF NAME"
+                                        : n.type == "License" ? "LICENSE" : n.type == "Release" ? "RELEASE OF SECURITY INTEREST" : "SECURITY INTEREST",
+                                    i = d3.mouse(w.node());
+                                n.ref_id_go && n.release_date <= f[e] && (t = "RELEASE OF SECURITY INTEREST");
+                                gt.html(t).style("left", i[0] + 10 + "px").style("top", i[1] - 10 + "px").style("opacity", 1)
+                            }
+                        })
+                    .on("mouseout", function () { gt.style("opacity", 0) })
+                    .on("click",
+                        function () {
+                            var i = d3.select(this.parentNode).datum(),
+                                h = n.popup.filter(function (n) { return n.id == i.popuptop }),
+                                c = n.popup.filter(function (n) { return n.id == i.popupbottom }),
+                                t = "",
+                                r = [],
+                                u,
+                                s,
+                                l;
+                            if (o.selectAll(".connection.active").classed("active", !1), d3
+                                .select(this)
+                                .classed("active", !0), h.length > 0 && r.push(h[0]), c
+                                .length >
+                                0 &&
+                                r.push(c[0]), i.ref_id_go &&
+                                i.release_date <= f[e] &&
+                                (u = n.connection
+                                    .filter(function (n) { return n.id == i.ref_id_go }),
+                                u.length > 0 &&
+                                (s = n.popup.filter(function (n) { return n.id == u[0].popuptop }), l = n.popup
+                                    .filter(function (n) { return n.id == u[0].popupbottom }), s.length > 0 && r.splice(0, 0, s[0]))), r.forEach(function (n, u) {
+                                t += "<div data-id='" + u + "'><a class='close' href='javascript:void(0)'>Close<\/a>";
+                                t += "<a data-id='" + i.id + "' data-idx='" + u + "' class='comment' href='javascript:void(0)'>";
+                                t += "<img src='comment.png' style='width: 20px; height: 20px;' /><\/a>";
+                                t += "<label>" + n.conveyanceText + "<\/label>";
+                                t += "<table class='top'>";
+                                t += "<tr><td>Date recorded<br/>" + v(n.recordedDate) + "<\/td><td>Reel/frame<br/>" + n.displayId + "<\/td><\/tr>";
+                                t += "<tr><td>Assignors<br/>" +
+                                    n.patAssignorName.join("<br/>") +
+                                    "<\/td><td style='position: relative'>Execution date<br/>" +
+                                    v(n.patAssignorEarliestExDate);
+                                var f = r.length == 1 || u > 0 ? i.pdf1 : i.pdf2;
+                                t += "<a href='" +
+                                    f +
+                                    "' target='_blank' style='position: absolute; top: 12px; left: 90px;'><img src='pdf.svg' style='width: 20px; height: 20px;' /><\/a>";
+                                t += "<\/td><\/tr>";
+                                t += "<tr><td>Assignee<br/>" + n.patAssigneeName.join("<br/>");
+                                n.patAssigneeAddress1.length == 1 && n.patAssigneeAddress1[0] != "NULL" && (t += "<br/>" + n.patAssigneeAddress1[0]);
+                                n.patAssigneeCity.length == 1 &&
+                                    n.patAssigneePostcode.length == 1 &&
+                                    (t += "<br/>" + n.patAssigneeCity[0] + " " + n.patAssigneePostcode[0]);
+                                t += "<\/td><td>Correspondent<br/>" +
+                                    n.corrName +
+                                    "<br/>" +
+                                    n.corrAddress1 +
+                                    "<br/>" +
+                                    n.corrAddress2 +
+                                    "<br/>" +
+                                    n.corrAddress3 +
+                                    "<\/td><\/tr>";
+                                t += "<\/table>";
+                                t += "<label class='prop'><span>+<\/span> Properties (" + n.inventionTitle.length + " total)<\/label>";
+                                t += "<table class='bottom' style='display:none'>";
+                                t += "<thead><tr><th>Patent<\/th><th>Publication<\/th><th>Application<\/th><th>PCT International registration<\/th><\/tr><\/thead>";
+                                t += "<tbody>";
+                                n.inventionTitle.forEach(function (i, r) {
+                                    n.patNum[r] == "NULL" && (n.patNum[r] = "");
+                                    n.publNum[r] == "NULL" && (n.publNum[r] = "");
+                                    n.applNum[r] == "NULL" && (n.applNum[r] = "");
+                                    n.pctNum[r] == "NULL" && (n.pctNum[r] = "");
+                                    t += "<tr class='title'><td colspan='4'>" + (r + 1) + ". " + i + "<\/td><\/tr>";
+                                    t += "<tr><td>" +
+                                        n.patNum[r] +
+                                        "<\/td><td>" +
+                                        n.publNum[r] +
+                                        "<\/td><td>" +
+                                        n.applNum[r] +
+                                        "<\/td><td>" +
+                                        n.pctNum[r] +
+                                        "<\/td><\/tr>"
+                            });
+                                t += "<\/tbody>";
+                                t += "<\/table>";
+                                t += "<\/div>"
+                            }), t.length > 0) {
+                                d.html(t).style("display", "inline");
+                                d.selectAll("a.close")
+                                    .on("click",
+                                        function () {
+                                            d.html("").style("display", "none");
+                                            o.selectAll(".connection.active").classed("active", !1)
+                                        });
+                                d.selectAll("a.comment")
+                                    .on("click",
+                                        function () {
+                                            var n = r.length == 1 || $(this).attr("data-idx") > 0 ? i.note1 : i.note2;
+                                            a.select("textarea").node().value = n;
+                                            a.attr("data-id", i.id)
+                                                .attr("data-idx", r.length == 1 || $(this).attr("data-idx") > 0 ? "1" : "2")
+                                                .style("display", "inline")
+                                        });
+                                d.selectAll(".prop")
+                                    .on("click",
+                                        function () {
+                                            $(this).next().is(":visible")
+                                                ? ($(this).next().hide(), $(this).find("span").html("+"))
+                                                : ($(this).next().show(), $(this).find("span").html("-"))
+                                        });
+                                $(".popup > div")
+                                    .resizable({
+                                        handles: "e",
+                                        resize: function (n, t) {
+                                            var i = $(this).attr("data-id");
+                                            $(".popup > div").each(function () { $(this).attr("data-id") != i && $(this).css("width", t.size.width + "px") })
+                                        }
+                                    })
+                            } else d.html("").style("display", "none")
+                        });
+                $(".popup").draggable({ start: function () { $(".popup").css("right", "auto") } });
+                $(".popup-comment .close").click(function () { a.style("display", "none") });
+                $(".popup-comment .save")
+                    .click(function () {
+                        var i = a.attr("data-id"), t = n.connection.filter(function (n) { return n.id == i })[0];
+                        a.attr("data-idx") == "1" ? t.note1 = a.select("textarea").node().value : t.note2 = a.select("textarea").node().value;
+                        a.style("display", "none")
+                    });
+                $(window).scroll(function () { $(".menu").css("top", $(this).scrollTop() + 1 + "px") })
+            });
+    </script>
+</body>
+</html>

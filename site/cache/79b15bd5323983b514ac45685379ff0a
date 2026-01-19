@@ -1,0 +1,84 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4772:"<br>                                              Gonna be sitting for awhile.                                   If I had to pick and Sent for him to succeed in it's gonna be along with it, because then those pieces in those games or those strategies are really coming to play.                                                                                                                                                                                                                           If it's the gymnastics skill and here we are, we saw him almost hit that thirtieth had a failed rapid, still was able to win in that particular heat but the strength of this character and the confidence look at that face just getting ready for blood man he's doing his thing.                                      Now.                  It up.                                                      <br> <br>     <br> <br>                     Good.                                                                                       <br> <br> Two thousand 17 games champion she was so strong through the credit earlier through the muscle ups holding on for 20 set but he was once you got to the barbell.  <br> <br>I would take this as a plus for me because everyone I was like okay we're already and we're laughing we're joking this gonna say, everyone's, had a lot better as I go into this long arduous, zero, because the worst thing you can do is go on their pool too hard, because of that, anxious or nervous adrenaline or not quite sure how to settle in and I did it took away a boatload of nerves Pulse has had a pretty good day, one Patrick belanger ninth place overall.  <br>                         We're still awaiting the start of the fourth and final event the 20 eighteen crossroad games.                                                                                            They're, not just for this awesome. She finished up her final lift at 400 and 15 pounds just making a statement To the last possible second, she has the time and she knows when to execute she has the head game and she is uh. Gonna start in about three minutes so there yeah alright anything that's so now you get all amped up you're out here you're ready to start your fall start and now you have to wait some more so mentally.  CrossFit Games 2018 leader board: recap, results for Battleground, Clean and Jerk Speed Ladder, Fibonacci individual events. No really no really miss Green is not working.                                                                                              I didn't say pack. <br>                                                                                              You got the pattern saved.                                                                                            <br> <br>Welcome to the Official Facebook Page of the CrossFit Games. <br> <br>Watch the 2018 CrossFit Games Live Stream starting August 1 from Madison, Wisconsin.                                                          It just the way one I'm glad to see that he's been pushed and how he's responded to that. Sarah sigmund daughter and kathryn Davis data right next to each other in the overall standings fourteenth for sickness, daughter david's daughter in fifteenth Davis daughter 36 place is what she took in that cross fit total so very surprising for her to have such a low placement in that event and I'm surprise so she really has her work cut out for her, because I expected big things for her and she really needs to get that leader board now on the men's side bill. He's on the right of your screen still not happy with his screen name bread for having a little bit of a laugh here on the left. If this were different type of event, if it were a max lift.                                                                                             You can head home I'll see you guys on Friday Happy athletes out there, we are a holding pattern now, as we await the second official start of the final event, if, for nothing, I was going on let's set it down to the fourth member of our broadcast team. They started now We got an hour in the state We'll get this thing sorted out and they will get back on the rollers. This is what he's known for we talked about the keys pacing and the headspace. It's definitely the most demanding it's definitely the um the most gutsy and we're gonna see it for these athletes um I guess performance and we're gonna have this year or there the effort they're gonna give here and what they're gonna do because they have a rest day tomorrow, so it's a true rest day. <br> <br>This is what went wrong. They won in convincing fashion, silencing any doubts surrounding their status as the Fittest on Earth™. <br>";s:7:"keyword";s:19:"crossfit games 2018";s:5:"links";s:3342:"<a href='https://backyard.synpat.com/site/article.php?page=bourse-de-londres-en-direct-88a0eb'>Bourse De Londres En Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exc%C3%A9dent-de-versement-88a0eb'>Excédent De Versement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adia-interim-suisse-88a0eb'>Adia Interim Suisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mort-de-rire-synonyme-88a0eb'>Mort De Rire Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-stella-plage-le-bon-coin-88a0eb'>Location Stella-plage Le Bon Coin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-twitch-fr-2020-88a0eb'>Classement Twitch Fr 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ramadan-au-S%C3%A9n%C3%A9gal-88a0eb'>Ramadan Au Sénégal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bike-discount-code-promo-88a0eb'>Bike Discount Code Promo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=2-brothers-on-the-4th-floor---come-take-my-hand-88a0eb'>2 Brothers On The 4th Floor - Come Take My Hand</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9v%C3%A8nement-historique-new-york-88a0eb'>évènement Historique New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-fruits-qui-font-dormir-88a0eb'>Les Fruits Qui Font Dormir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussures-m%C3%A9dical-nike-88a0eb'>Chaussures Médical Nike</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mg-premier-league-fut-20-88a0eb'>Mg Premier League Fut 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mulan-comme-un-homme-88a0eb'>Mulan Comme Un Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=restaurant-mido-cannes-carte-88a0eb'>Restaurant Mido Cannes Carte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hatha-yoga-traditionnel-88a0eb'>Hatha Yoga Traditionnel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-reviendrai-vers-vous-dans-les-meilleurs-d%C3%A9lais-88a0eb'>Je Reviendrai Vers Vous Dans Les Meilleurs Délais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=podium-olivier-mag-88a0eb'>Podium Olivier Mag</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hypnos-et-thanatos-88a0eb'>Hypnos Et Thanatos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tamina-wwe-the-rock-88a0eb'>Tamina Wwe The Rock</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cookies-vegan-banane-beurre-de-cacahu%C3%A8te-88a0eb'>Cookies Vegan Banane Beurre De Cacahuète</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-de-mot-invariable-88a0eb'>Exemple De Mot Invariable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=top-soccer-prediction-88a0eb'>Top Soccer Prediction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taste-of-home-fluffy-pancakes-88a0eb'>Taste Of Home Fluffy Pancakes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-m%C3%A9thode-montessori-pdf-88a0eb'>Jeux Méthode Montessori Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=catherine-meurisse-compagnon-88a0eb'>Catherine Meurisse Compagnon</a>,
+";s:7:"expired";i:-1;}

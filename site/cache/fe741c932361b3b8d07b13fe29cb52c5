@@ -1,0 +1,85 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5253:"<br>                             Une plainte déposée à La Havane. Entre 2000 et 2005, l'ancien champion du monde a vécu en alternance à Cuba, où il a suivi des traitements pour soigner sa dépendance à la cocaïne.De son union avec l'Argentine Claudia Villafane, son épouse de 1984 à 2003, sont nées Dalma (31 ans) et Giannina (29). Giannina Maradona, en conflit avec son père, a ironisé sur Instagram: "Il n'en manque que trois pour former une équipe de 11. Giannina Maradona, en conflit avec son père, a ironisé sur Instagram : "Il n'en manque que trois pour former une équipe de 11.Vas-y, tu le peux".L'Avocat de Maradona s'est rendu à … En réponse aux accusations, Giannina Maradona a rétorqué via son compte Twitter que son père savait où elle habitait, et que son avocat et lui pouvaient venir quand ils le souhaitaient. <br> <br>Vas-y, tu le peux" .  « J’ai pardonné à mon père pour des choses bien pires, alors je continuerai à lui pardonner, a-t-elle néanmoins tempéré.                                                                              Il a été marié à la fille cadette de Diego Maradona, Giannina. Il a expliqué que Maradona devait s'y rendre à son tour et se présenter devant la justice.  Il y a une plainte déposée, mais avec beaucoup de respect», assure-t-il.                  Diego Junior (32) et Jana (22) ont été reconnus sur le tard, fruits de relations avec l'Italienne Cristiana Sinagra et l'Argentine Valeria Sabalain.                   Une plainte déposée à La Havane. Dans la légende, elle a écrit: “Redonnez-moi votre main, je peux vous prendre maintenant!”. L’Avocat de Maradona s’est rendu à La Havane en janvier.                                                                                      Vas-y, tu le peux».L'Avocat de Maradona s'est rendu à La Havane en janvier. Giannina Maradona, en conflit avec son père, a ironisé sur Instagram: «Il n'en manque que trois pour former une équipe de 11. Dans un dernier message, Giannina Maradona a partagé une photo de son retour, alors qu’elle était une enfant en bas âge tenant la main de son père alors qu’ils marchaient sur un terrain.                                                                              <br> <br>Dalma Maradona, Diego Sinagra, Giannina Maradona, Jana Maradona and Diego Fernando Maradona Ojeda are the children we previously knew about, and they are aged 31, 32, 29, 22 and six respectively Diego Maradona Net Worth: Diego Maradona is an Argentine football coach, manager, and former player who has a net worth of $100 thousand. «Il n'y a jamais eu de problème. Vas-y, tu le peux». (…) Je suis en très bonne santé, merci", a poursuivi Diego Maradona.En 2004, le champion du monde 1986, alors âgé de seulement 43 ans, avait               <br> <br> <br>A lire aussi <br> Références "Salut, je veux juste vous dire que je ne suis pas du tout en train de mourir. <br> <br>Il a expliqué que Maradona devait s’y rendre à son tour et se présenter devant la justice. Vas-y, tu le peux". The couple got married in 2008 in a private wedding ceremony which was only attended by their nearest and dearest friends and family. Vas-y, tu le peux». Je vis en paix car je travaille." Je dois en parler avec Diego, pour l'instant ils n'ont pas été reconnus mais Diego va assumer ses responsabilités», a affirmé l'avocat Matias Morla à la télévision argentine Canal Trece.L'avocat n'a pas précisé le prénom, ni le sexe ou l'âge des trois enfants, se contentant de mentionner qu'il y avait deux mères. Giannina Maradona et son fils Benjamin, regardent leur père et mari El Kun Aguero, lors d'un match de la Copa del Rey, Atletico Madrid contre le Real, le 13 janvier 2011 <br> <br>             (…) Priez pour lui, s’il vous plaît. <br> <br>Giannina Maradona, en conflit avec son père, a ironisé sur Instagram: «Il n’en manque que trois pour former une équipe de 11. Je sais juste que, quand on prend de l’âge, on fait davantage attention à soi, à ce qu’on fait. Married Life With Wife Giannina Maradona And Children.                  Sergio Aguero with wife Giannina Maradona and their son Benjamin in 2012 Credit: Xposure A source said: “About two weeks ago they went for a …      Il a expliqué que Maradona devait s'y rendre à son tour et se présenter devant la justice. Giannina Maradona, fille de Maradona qui fêtera prochainement son trentième anniversaire, a répliqué à l'annonce de l'existence de trois nouveaux membres dans sa fratrie. Diego Maradona a choisi de s’exprimer après les alertes lancées par sa fille Giannna (l’ex-madame Sergio Agüero).Cette dernière a semé l’inquiétude en écrivant des messages énigmatiques sur Instagram, à propos de son père: "Il ne meurt pas parce que son corps en a décidé ainsi, il est tué de l’intérieur et il ne s’en rend pas compte. «Maradona a trois enfants à Cuba avec qui je suis en contact.                      Ils ont un fils, Benjamin, né le 19 février 2009 à Madrid et dont le parrain n'est autre que Lionel Messi, ami de longue date d'Agüero [63].              Après quatre ans de vie commune, ils se séparent en janvier 2013 [64]. <br>";s:7:"keyword";s:22:"giannina maradona pere";s:5:"links";s:3484:"<a href='https://backyard.synpat.com/site/article.php?page=un-cond%C3%A9-dvd-88a0eb'>Un Condé Dvd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-opening-scenes-in-cinema-88a0eb'>Best Opening Scenes In Cinema</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livre-nutrition-avis-88a0eb'>Livre Nutrition Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pologne-tourisme-danger-88a0eb'>Pologne Tourisme Danger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-trainsweateat-88a0eb'>Code Promo Trainsweateat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bapt-et-ga%C3%ABl-dispute-88a0eb'>Bapt Et Gaël Dispute</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=christine-and-the-queens---la-vita-nuova-88a0eb'>Christine And The Queens - La Vita Nuova</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nathalie-brunet-coudray-au-perche-88a0eb'>Nathalie Brunet Coudray-au-perche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-d%C3%A9sir-de-d%C3%A9couvrir-88a0eb'>Le Désir De Découvrir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jusqu%27%C3%A0-ce-que-la-mort-nous-s%C3%A9pare-telefilm-88a0eb'>Jusqu'à Ce Que La Mort Nous Sépare Telefilm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hiit-br%C3%BBle-graisse-extreme-88a0eb'>Hiit Brûle Graisse Extreme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coffret-lol-surprise-88a0eb'>Coffret Lol Surprise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abdos-et-p%C3%A9rin%C3%A9e-88a0eb'>Abdos Et Périnée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baki-dou-%282018%29-88a0eb'>Baki Dou (2018)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-musculation-1-mois-sans-mat%C3%A9riel-88a0eb'>Programme Musculation 1 Mois Sans Matériel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-d%27amour-netflix-2020-88a0eb'>Film D'amour Netflix 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=names-for-instagram-meme-page-88a0eb'>Names For Instagram Meme Page</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=evangelista-sports-montreal%2C-qc-88a0eb'>Evangelista Sports Montreal, Qc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amir-on-dirait-mp3-88a0eb'>Amir On Dirait Mp3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fake-news-coronavirus-88a0eb'>Fake News Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=id%C3%A9e-de-compte-instagram-%C3%A0-faire-88a0eb'>Idée De Compte Instagram à Faire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bye-bye-2019-com%C3%A9diens-88a0eb'>Bye Bye 2019 Comédiens</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rich-piana-youtube-88a0eb'>Rich Piana Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=turquie-france-traduction-88a0eb'>Turquie France Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raoult-vaccin-coronavirus-88a0eb'>Raoult Vaccin Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeffrey-epstein-documentaire-streaming-vf-88a0eb'>Jeffrey Epstein Documentaire Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barbecue-populaire-en-france-88a0eb'>Barbecue Populaire En France</a>,
+";s:7:"expired";i:-1;}

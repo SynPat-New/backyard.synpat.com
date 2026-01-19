@@ -1,0 +1,123 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3916:"<p>Some say that L’Bkhour coming from Saudi Arabia is the best and the most expensive.The boys take a short ride on a beautiful horse, usually accompanied by one of the parents. The first exemption is for children. to visit Morocco during Ramadan, what the celebration means, how long it lasts, and what are its traditions. Also, women menstruating, with postpartum bleeding, and going through menopause are exempt, as well as those who suffer from severe migraines.These exemptions are provided because fasting during Ramadan blood loss frequently results in fatigue, severe headache, stomach ache, dizziness, vomiting, physical weakness and bad mood. Please see our Other general phrases that can be shared with people over the month include “May this Ramadan be as bright as ever” and “Wishing you all the blessings of the holy month.”In response to these good wishes and greetings, someone might respond with “JazakAllah Khair” - which means thank you and translates exactly to “May Allah reward you with goodness”. In Morocco’s tourist areas, a few restaurants and food stores will be open during the day, but it is respectful to avoid eating and drinking publicly. </p> <p>On peut traduire cette expression en français par « bonne fête (de l'Aïd) » bien que ce soit redondant. </p> <p>This Ramadan event is one of the best childhood moments for every Moroccan!Most tourists avoid travelling to Morocco during Ramadan. However, if you do come, it is good to know that it is a very special time for majority of Moroccans-Muslims. </p> <p>There are also good flight deals to travel to Morocco during Ramadan; during that time, a five-star hotel for 1 or 2 weeks might not blow your budget.If you have Moroccan friends, don’t hesitate to ask them to join you for a home cooked Ftoor meal. Please check your email for further instructions.Agadir – I often receive emails from friends asking if it is o.k. The gifts given are usually traditional Moroccan clothes (Kaftan, Jlaba, Charbil, Balgha) or money. In Morocco, Muslims are split on this issue, and there is a group of people called “Ikhwan Muslimine” who always fast one day before the rest of Moroccan Muslims, also celebrating Not all Muslims fast during this month, but those who don’t must be specifically exempted. </p> <p>L’Bkhour (incense) is burned in M’bakhra (incense burner); some call the heavenly scent the “smell of paradise.” The smell can last for few days, especially if L’Bkhour is of high quality. Ramadan is the ninth month of the Islamic lunar calendar; it is also the most sacred month of the year. which you can comment on right now in our  See today's front and back pages, download the newspaper, However, there are two different thoughts about the locale of the sighting: some believe Ramadan should start at one single moon sighting regardless of where the Muslim lives, whereas others insist that the beginning should be when the moon is sighted in the locality where the Muslim himself lives. Il représente, pour les musulmans, un mois de piété, de charité et de frugalité. Pregnant and breastfeeding women should not fast, since an intermittent schedule of drinking and eating during the day is not healthy for the baby. </p> <p>Wishing all of you and your Family a very Blessed Ramadan Mobarak! newspaper archive.Yesterday was the first day of Eid-al-Fitr which marks the end of Ramadan. Takabal allah mina wa minkoum et repondez wa ghafarlana wa lakoum aller vers. On this night, it is also important to perform Women usually prefer to pray their Tarawih at home, whereas the men choose the Mosque, taking brief breaks between Tarawih by coming back home for a cup of Another particularity that sets “lilt sab7a w3achrin” apart from all other Ramadan nights is a lovely smell in every single house. So, I have decided to talk here about Ramadan in Morocco, hoping to </p>";s:7:"keyword";s:29:"ramadan mabrouk signification";s:5:"links";s:8614:"<a href='https://backyard.synpat.com/site/article.php?page=faire-exception-%C3%A0-la-r%C3%A8gle-d%C3%A9finition-88a0eb'>Faire Exception à La Règle Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=optimum-nutrition-france-88a0eb'>Optimum Nutrition France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objet-interdit-stade-v%C3%A9lodrome-88a0eb'>Objet Interdit Stade Vélodrome</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t%C3%A9l%C3%A9charger-live-football-tv-pour-pc-88a0eb'>Télécharger Live Football Tv Pour Pc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma-soeur%27%27%2C-clara-luciani-88a0eb'>Ma Soeur'', Clara Luciani</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=invitation-officielle-pour-lobtention-visa-88a0eb'>Invitation Officielle Pour Lobtention Visa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9claration-imp%C3%B4t-nouvel-arrivant-88a0eb'>Déclaration Impôt Nouvel Arrivant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma-france-jean-ferrat-youtube-88a0eb'>Ma France Jean Ferrat Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=machine-abdo-avis-88a0eb'>Machine Abdo Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9sultats-%C3%A9lections-st-malo-88a0eb'>Résultats élections St Malo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=constat-d%27%C3%A9chec-d%C3%A9finition-88a0eb'>Constat D'échec Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-s%C3%A9lection-booknode-88a0eb'>La Sélection Booknode</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-victorienne-france-88a0eb'>Maison Victorienne France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-c-liposomale-cancer-t%C3%A9moignage-88a0eb'>Vitamine C Liposomale Cancer Témoignage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Psychologie-%C3%A9cologique-Gibson-88a0eb'>Psychologie écologique Gibson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-chamallow-fortnite-88a0eb'>Chanson Chamallow Fortnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=finish-au-preterit-88a0eb'>Finish Au Preterit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vald-ignorant-genius-88a0eb'>Vald Ignorant Genius</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laurent-delahousse-couple-88a0eb'>Laurent Delahousse Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=template-sommaire-word-88a0eb'>Template Sommaire Word</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-sur-lugdunum-88a0eb'>Exposé Sur Lugdunum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-air-2020-88a0eb'>Nike Air 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=risk-of-rain-2-steam-key-88a0eb'>Risk Of Rain 2 Steam Key</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compl%C3%A9ment-alimentaire-hyperprot%C3%A9in%C3%A9-hypercalorique-delical-88a0eb'>Complément Alimentaire Hyperprotéiné Hypercalorique Delical</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-cooper-wikip%C3%A9dia-88a0eb'>Mini Cooper Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-capucine-louis-vuitton-88a0eb'>Sac Capucine Louis Vuitton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=api-twitter-reply-88a0eb'>Api Twitter Reply</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=don-jon-streaming-1080p-88a0eb'>Don Jon Streaming 1080p</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-de-sortie-synonyme-88a0eb'>être De Sortie Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-vendeuse-en-jouet-d%C3%A9butant-88a0eb'>Lettre De Motivation Vendeuse En Jouet Débutant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=transport-dumont-recrutement-88a0eb'>Transport Dumont Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Citation-Alain-Delon-88a0eb'>Citation Alain Delon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-d%27ascenseur-mp3-telecharger-88a0eb'>Musique D'ascenseur Mp3 Telecharger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peut-on-se-faire-livrer-amazon-au-portugal-88a0eb'>Peut On Se Faire Livrer Amazon Au Portugal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quel-%C3%A2ge-%C3%A0-la-femme-de-michel-leeb-88a0eb'>Quel âge à La Femme De Michel Leeb</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=super-simple-songs-hello-hello%21-88a0eb'>Super Simple Songs Hello Hello!</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bail-sombre-d%C3%A9finition-88a0eb'>Bail Sombre Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-est-la-femme-de-laurent-neumann-88a0eb'>Qui Est La Femme De Laurent Neumann</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9ranger-synonyme-8-lettres-88a0eb'>Déranger Synonyme 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=phrase-the-weeknd-88a0eb'>Phrase The Weeknd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-aide-soignante-amazon-88a0eb'>Chaussure Aide Soignante Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=danielle-moreau-et-sa-m%C3%A8re-88a0eb'>Danielle Moreau Et Sa Mère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-ellen-show-on-youtube-88a0eb'>The Ellen Show On Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eafit-br%C3%BBleur-de-graisse-femme-avis-88a0eb'>Eafit Brûleur De Graisse Femme Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maison-%C3%A0-vendre-%C3%A0-Dakar-88a0eb'>Maison à Vendre à Dakar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inutile-synonyme-7-lettres-88a0eb'>Inutile Synonyme 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kelly-vedovelli-biographie-wikip%C3%A9dia-88a0eb'>Kelly Vedovelli Biographie Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quelle-moutarde-choisir-88a0eb'>Quelle Moutarde Choisir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-personnalit%C3%A9-est-elle-inn%C3%A9e-ou-acquise-88a0eb'>La Personnalité Est-elle Innée Ou Acquise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=biceps-poulie-haute-corde-88a0eb'>Biceps Poulie Haute Corde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-love-you-maejor-traduction-88a0eb'>I Love You Maejor Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-malheurs-de-sophie---film-88a0eb'>Les Malheurs De Sophie - Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=armurier-the-witcher-3-88a0eb'>Armurier The Witcher 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-aston-villa-2019-88a0eb'>Effectif Aston Villa 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-demande-de-stage-pdf-88a0eb'>Lettre De Demande De Stage Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Le-mytho-Jeux-88a0eb'>Le Mytho Jeux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recherche-emploi-auxiliaire-de-vie-en-maison-de-retraite-88a0eb'>Recherche Emploi Auxiliaire De Vie En Maison De Retraite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neymar-senior-origine-88a0eb'>Neymar Senior Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=table-perfor%C3%A9e-montessori-88a0eb'>Table Perforée Montessori</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-gourmandise-est-un-vilain-d%C3%A9faut-88a0eb'>La Gourmandise Est Un Vilain Défaut</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-culinaries-88a0eb'>Code Promo Culinaries</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-deschamps-albi-88a0eb'>Dominique Deschamps Albi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=entente-6-lettres-88a0eb'>Entente 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beta-alanine-nutrimuscle-88a0eb'>Beta Alanine Nutrimuscle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=figure-7-lettres-88a0eb'>Figure 7 Lettres</a>,
+";s:7:"expired";i:-1;}

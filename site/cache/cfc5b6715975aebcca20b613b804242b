@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5710:"<p>                                                                             Petit-déjeuner Weight Watchers 6 : 6 sp 1 café ou 1 thé avec 1 cc sucre (1 sp) 1 bananaboat (4 sp) 1 yaourt nature 0 % avec 1 cc miel (1 sp) Bon appétit ! Le logo WW, Wellness that Works, SmartPoints, ActivPoints, Points et le logo WW Liberté sont des marques de commerce de WW International, Inc. Ces marques sont concédées en licence à WW (Switzerland) SA. 1 tasse de café au lait; 1 tranche de brioche; 1 cuillère à café de miel; 1 portion de fruit au choix.                                                      Protégez-vous et les autres. Je souhaite recevoir de la part de WW, la newsletter promotionnelle et être informé des offres et des événements par email et sur les réseaux sociaux. Je peux révoquer mon consentement à tout moment via le lien de désabonnement dans l'e-mail ou le message.                                                                                          Si vous ne prenez pas la collation, … Car avec WW, tu peux manger de tout! 9 nov. 2017 - Explorez le tableau « Natural Remedies » de wwmeals, auquel 5337 utilisateurs de Pinterest sont abonnés. Des solutions petit déjeuner rassasiantes, rapides et légères pour tenir jusqu'au déjeuner. Petit-déjeuner à 5 points 50 g de pain 2 cuil. Des recettes aux oeufs pour ne pas faire grise mine avec Weight Watchers LibertéDes idées pour cuisiner le poulet avec Weight Watchers Liberté13 conseils (qui marchent) pour avoir un ventre plat Mantra : 15 pensées positives pour bien démarrer la journée Marre du ventre mou ? </p> <p>On peut alors avoir un orange le matin et une pomme en collation. à café de sirop d’agave 1 fruit 1 boisson chaude. Menu minceur n°1. chezcachou - Voici pour aujourd'hui une idée de bol plein d'énergie idéal pour le petit-déjeuner. Recettes petit-déjeuner équilibré WW Même si tu veux perdre du poids, tu ne te prives d'aucun de tes repas chez WW. Le régime Weight Watchers vous permet de maitriser votre prise alimentaire tout au long de la journée par un système de points.                         Comment composer un petit-déjeuner Weight Watchers ? WW, Weight Watchers, Wellness that Works, SmartPoints, FitPoints, Points et la pastille logo WW, WW, WW Liberté, monWW sont des marques de commerce de WW International, Inc. Ces marques sont concédées en licence à WW France et WW.fr. Attention, ce n’est pas parce qu’on suit le Pour être calé.e jusqu’à midi, on mise donc sur des féculents, des protéines comme du jambon de dinde ou des œufs (tous deux à 0 point), du yaourt à 0%, ou encore des fruits frais en version crue ou pressée. La motivation des Ateliers WW et les outils digitaux : notre offre la plus complète pour 100% de soutien. </p> <p>La boisson chaude tout comme le fruit vaut 0 point pour le régime Weight Watchers. Des solutions petit déjeuner rassasiantes, rapides et légères pour tenir jusqu'au déjeuner. </p> <p>Respectez les gestes barrières et la distanciation sociale. 6 juil. ©2020 WW International, Inc. Tous droits réservés. 2015 - Weight Watchers Petit déjeuner Recettes - Partie 5. Et si on a peur d’avoir faim en milieu de matinée, on n’hésite pas à emporter et déguster un fruit pour se caler et profiter du goût sucré, ultra-réconfortant. C'est pourquoi nous avons rassemblé pour toi les meilleures recettes pour le petit-déjeuner. CONSÉQUENT. C'est pourquoi nous avons rassemblé pour toi les meilleures recettes pour le petit-déjeuner. Tu recevras dès maintenant notre newsletter, nos offres spéciales ainsi que les nouveautés WW.J'aimerais recevoir la newsletter électronique de WW et être informé des offres et évènements par e-mail et sur les réseaux sociaux. C'est pourquoi nous avons rassemblé pour vous les meilleures recettes pour le petit-déjeuner.               Gâteau de semoule aux abricots Tous droits réservés.Enregistrez-vous gratuitement pour profiter de plus de contenusMeilleures recettes WW pour un petit-déjeuner équilibré Pour le petit-déjeuner, vous pouvez prendre une boisson chaude sans lait comme un café mais celle-ci doit rester nature sans sucre. Et les résultats sont sans équivoque : le petit-déjeuner est capital. Produits Sans colorants, ni arômes, ni édulcorants artificiels. Avec nos tout nouveaux outils digitaux, suivez le programme facilement où que vous soyez !                                                      Bien commencer la journée avec un bon petit-déjeuner est très important. Consultez nos ressources pour vous adapter au mieux pendant cette période. Le régime Weight Watchers vous permet de maitriser votre prise alimentaire tout au long de la journée par un système de points. Elles sont non seulement succulentes mais accompagnent aussi parfaitement le programme WW. Réjouissez-vous de pancakes, d'oeufs brouillés ou encore de mueslis. </p> <p>              Top idées recettes petit-déjeuner Weight Watchers 2015 - Weight Watchers Petit déjeuner Recettes - Partie 5. Comment faire un dessert léger Weight Watchers ?  Le tout accompagné d’une boisson chaude ou froide pour réhydrater le corps après une nuit de sommeil. </p> <p>Pour éviter cela, on petit-déjeune intelligent et…. </p> <p></p> <p>Pourquoi un petit-déjeuner rassasiant est la clé pour réussir Weight Watchers Liberté ? Elles sont non seulement succulentes mais accompagnent aussi parfaitement le programme monWW. Je peux révoquer mon consentement à tout moment via le lien de désabonnement dans l'email ou le message et/ou dans le centre de préférence de mon profil. Car avec WW, tu peux manger de tout ! </p>";s:7:"keyword";s:39:"petit déjeuner minceur weight watchers";s:5:"links";s:5674:"<a href='https://backyard.synpat.com/site/article.php?page=meilleur-bcaa-forum-88a0eb'>Meilleur Bcaa Forum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sport-7-lettres-88a0eb'>Sport 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=discours-de-guerre-film-88a0eb'>Discours De Guerre Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=risk-of-rain-2-steam-key-88a0eb'>Risk Of Rain 2 Steam Key</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=interview-d%27un-journaliste-88a0eb'>Interview D'un Journaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=one-day-kodaline-traduction-88a0eb'>One Day Kodaline Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avantages-salari%C3%A9s-printemps-88a0eb'>Avantages Salariés Printemps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=budget-clip-god%27s-plan-88a0eb'>Budget Clip God's Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-professionnel-definition-88a0eb'>Blog Professionnel Definition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-roi-a-fait-battre-tambour-po%C3%A8me-harmonique-88a0eb'>Le Roi A Fait Battre Tambour Poème Harmonique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=euro-stoxx-50-d%C3%A9finition-88a0eb'>Euro Stoxx 50 Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zidane-finale-ligue-des-champions-88a0eb'>Zidane Finale Ligue Des Champions</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-ces-termes-synonyme-88a0eb'>En Ces Termes Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-10-22-ou-10-18-88a0eb'>Canon 10-22 Ou 10-18</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cousin-de-eden-hazard-88a0eb'>Cousin De Eden Hazard</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=num%C3%A9ro-de-t%C3%A9l%C3%A9phone-virtuel-88a0eb'>Numéro De Téléphone Virtuel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maladie-du-haricot-beurre-88a0eb'>Maladie Du Haricot Beurre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vimeo-rap-contenders-16-88a0eb'>Vimeo Rap Contenders 16</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-jump-bruxelles-88a0eb'>Uber Jump Bruxelles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peptan-all-musculation-88a0eb'>Peptan All Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-monde-la-vie-atlas-88a0eb'>Le Monde La Vie Atlas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philosophe-6-lettres-88a0eb'>Philosophe 6 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-uber-bordeaux-telephone-88a0eb'>Taxi Uber Bordeaux Telephone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marina-kaye-fortune-88a0eb'>Marina Kaye Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=map-rp-fortnite-code-goodnite-88a0eb'>Map Rp Fortnite Code Goodnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sigma-12-24-art-canon-88a0eb'>Sigma 12-24 Art Canon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-aux-pruneaux-d%27agen-thermomix-88a0eb'>Tarte Aux Pruneaux D'agen Thermomix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A2tisserie-orientale-miel-amande-88a0eb'>Pâtisserie Orientale Miel Amande</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=london-commuter-belt-88a0eb'>London Commuter Belt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-kyowa-poudre-88a0eb'>Bcaa Kyowa Poudre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inter-fiorentina-pronostic-88a0eb'>Inter Fiorentina Pronostic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crossfit-open-2020-dates-88a0eb'>Crossfit Open 2020 Dates</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-jeanne-popularit%C3%A9-88a0eb'>Prénom Jeanne Popularité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-2021-lieu-88a0eb'>Pékin Express 2021 Lieu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=se-d%C3%A9connecter-twitter-windows-10-88a0eb'>Se Déconnecter Twitter Windows 10</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bonjour-monsieur-majuscule-mail-88a0eb'>Bonjour Monsieur Majuscule Mail</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-m-back-traduction-88a0eb'>I M Back Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=allo-maman-blog-88a0eb'>Allo Maman Blog</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calogero-si-seulement-je-pouvais-lui-manquer-clip-officiel-88a0eb'>Calogero Si Seulement Je Pouvais Lui Manquer Clip Officiel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pain-sans-gluten-farine-de-chanvre-88a0eb'>Pain Sans Gluten Farine De Chanvre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dylan-rocher-femme-88a0eb'>Dylan Rocher Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=edinburgh-castle-visit-88a0eb'>Edinburgh Castle Visit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lanta-wok-bagneux-menu-88a0eb'>Lanta Wok Bagneux Menu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=centurion-labz-rage-dmaa-88a0eb'>Centurion Labz Rage Dmaa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-int%C3%A9rieur-88a0eb'>Appareil Photo Intérieur</a>,
+";s:7:"expired";i:-1;}

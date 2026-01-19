@@ -1,0 +1,134 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5432:"<p>Looking for a unique classy atmosphere to shop for the latest trends? Savitt’s lawyer Robert Cyruli declined to comment on the lawsuit, saying: “My client does not elect to litigate through the media.” Valentino and its lawyer also declined to comment. The lawsuit in a New York state court in Manhattan is one of several between retailers such as Gap, H&M, Victoria’s Secret and the National Basketball Association and their Manhattan landlords after the pandemic forced store closures. Real-time quotes provided by This material may not be published, broadcast, rewritten, or redistributed. "My client won't be litigating through the media," he said.Valentino started its lease in August 2013, for three floors plus a basement. ©2020 FOX News Network, LLC. About This Place Find Related Places. 4K likes. </p> <p>But Valentino said shoppers have grown fearful of “in person, ‘non-essential’ luxury retail boutiques,” and that “even in a post-pandemic New York City (should such a day arrive)” the Fifth Avenue location was irreparably damaged. Boutique 5e Avenue Dans une ambiance urbaine, la boutique se démarque par son accueil et son service de stylisme réputé. Restrictions have affected Valentino's ability to offer fitting services or to sell its clothes, shoes and accessories in the store, according to the lawsuit.The suit cited a lease provision requiring Valentino to use the retail space "consistent with the luxury, prestigious, high-quality reputation of the immediate Fifth Avenue neighborhood. </p> <p>All rights reserved. ©2020 FOX News Network, LLC. In early June, Victoria's Secret filed similar summons seeking to invalidate its lease at its flagship store in Herald Square.At the start of June, retailers including Valentino, had boarded up their stores with plywood to prevent looters from damaging the stores and their inventory. Then look no farther than Fifth Avenue! Fifth Avenue Boutique...A Michigan based online retailer specializing in women's apparel. Quotes delayed at least 15 minutes. Real-time quotes provided by This material may not be published, broadcast, rewritten, or redistributed.  Reporting by Jonathan Stempel in New York; Additional reporting by Silvia Aloisi in Milan; Editing by Dan Grebler This section is a prime tourist attraction and has boasted some of the most expensive retail rents in the world.But the rise of e-commerce for luxury products has made it tougher for fashion houses and other retailers to justify high rents when sales have slumped at the Fifth Avenue location for many upscale fashion brands.The situation has become worse in recent months with the shutdown of nonessential business by New York Gov. Valentino’s store is at the midpoint of a half-mile (0.8 km) stretch of Fifth Avenue from Rockefeller Center to the corner of Central Park containing many luxury retailers, with high rents. Fifth Avenue Boutique, London, Kentucky. Boutiques Men's Apparel Verified: Claim This Business. In a complaint filed on Sunday, Valentino said the store, located two blocks south of Trump Tower, can no longer operate “consistent with the luxury, prestigious, high-quality reputation” of its neighborhood, as the lease contemplated. Preparations underway ahead of another night of protests; Laura Ingle reports.The store is in a coveted section of Fifth Avenue, which runs 10 blocks from Saks Fifth Avenue at East 49th Street to the corner of Central Park. "Instead it said the Fifth Avenue location was no longer workable as a luxury destination and that situation was unlikely to change "even in a post-pandemic New York City (should such a day arrive)," according to a complaint filed by Lucas Ferrara of Newman Ferrara LLP. Valentino boutique on Fifth Avenue in Manhattan, NY (Google Street View) Valentino's lease ends in 2029.The lawsuit is part of a barrage of litigation by landlords and tenants, over leases. Claim this business (514) 281-7979 Favorite More Directions Sponsored Topics. On June 8, Victoria’s Secret, part of L Brands Inc, filed a similar case to void the $938,000-a-month lease for its flagship store in Manhattan’s Herald Square. With fewer instances of unrest, Valentino has since taken down the plywood that has been protecting its facade and has been open for curbside pickup for items such as purses for $1,195 and $495 T-shirts.But that stretch of Fifth Avenue had only a tiny stream of pedestrians on the sidewalks on a recent weekday afternoon.Quotes delayed at least 15 minutes. Boutique Fifth Avenue. NEW YORK (Reuters) - Italian fashion company Valentino SpA has sued the landlord of its American flagship store on Manhattan’s Fifth Avenue, seeking to void its lease because the coronavirus pandemic has made keeping the store open impossible. Some restrictions were lifted on Monday, and some in-store shopping is now allowed. Ground floor retail rents in that section averaged $2,513 a square foot in the third quarter of 2013, according to data from property brokerage Cushman & Wakefield. Valentino’s store is at the midpoint of a half-mile (0.8 km) stretch of Fifth Avenue from Rockefeller Center to the corner of Central Park containing many luxury retailers, with high rents. Valentino told its landlord Savitt Partners it planned by year end to quit its lease, which began in 2013 and expires in 2029, but said the landlord wrote on Friday that it would not accept a surrender. </p>";s:7:"keyword";s:21:"boutique fifth avenue";s:5:"links";s:9698:"<a href='https://backyard.synpat.com/site/article.php?page=alexandre-moix-film-88a0eb'>Alexandre Moix Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bagarre-au-centre-de-sedan-88a0eb'>Bagarre Au Centre De Sedan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-grand-angle-pour-nikon-d3200-88a0eb'>Objectif Grand Angle Pour Nikon D3200</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-gruffalo-en-anglais-88a0eb'>The Gruffalo En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%A9pha%C3%AFstos-lycan-paroles-88a0eb'>Héphaïstos Lycan Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-mercato-2019-2020-88a0eb'>Chelsea Mercato 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avoir-de-l%27importance-synonyme-88a0eb'>Avoir De L'importance Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-mort-de-brandon-lee-88a0eb'>La Mort De Brandon Lee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=duba%C3%AF-qatar-distance-en-avion-88a0eb'>Dubaï Qatar Distance En Avion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=luca-de-meo-%C3%A9pouse-88a0eb'>Luca De Meo épouse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dr-phil-full-episodes-2019-88a0eb'>Dr Phil Full Episodes 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comp%C3%A9tition-crossfit-lyon-88a0eb'>Compétition Crossfit Lyon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stage-%C3%A9tudiant-coronavirus-88a0eb'>Stage étudiant Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Cherchez-le-gar%C3%A7on-88a0eb'>Cherchez Le Garçon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cnews-zemmour-horaires-88a0eb'>Cnews Zemmour Horaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-participants-2020-88a0eb'>Koh-lanta Participants 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-chaussure-nike-tn-88a0eb'>Photo De Chaussure Nike Tn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-eos-250d-prix-88a0eb'>Canon Eos 250d Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9atine-monohydrate-tunisie-88a0eb'>Créatine Monohydrate Tunisie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=c-politique-camille-88a0eb'>C Politique Camille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marie-frais-recrutement-88a0eb'>Marie Frais Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maille-boutique-en-ligne-88a0eb'>Maille Boutique En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=seu-jorge-concert-88a0eb'>Seu Jorge Concert</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=champions-league-compo-probable-88a0eb'>Champions League Compo Probable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thank-you-dad-88a0eb'>Thank You Dad</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michail-antonio-debbie-whittle-88a0eb'>Michail Antonio Debbie Whittle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-batterie-master-blaster-88a0eb'>Partition Batterie Master Blaster</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-de-bain-anti-uv-fille-1-2-ans-88a0eb'>Maillot De Bain Anti Uv Fille 1-2 Ans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fran%C3%A7ois-lenglet-%3A--macron-88a0eb'>François Lenglet :  Macron</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miss-france-1993-88a0eb'>Miss France 1993</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=olivier-marchal-fortune-88a0eb'>Olivier Marchal Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=farine-de-lupin-prix-88a0eb'>Farine De Lupin Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agriculture-raisonn%C3%A9e-logo-88a0eb'>Agriculture Raisonnée Logo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masquer-date-inscription-twitter-88a0eb'>Masquer Date Inscription Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=porte-d%27entr%C3%A9e-qui-a-du-jeu-88a0eb'>Porte D'entrée Qui A Du Jeu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-polnareff-qui-a-tu%C3%A9-grand-maman-88a0eb'>Michel Polnareff Qui A Tué Grand-maman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-sanson-vancouver-88a0eb'>Partition Sanson Vancouver</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%AApe-legere-dukan-88a0eb'>Crêpe Legere Dukan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neymar-fifa-20-prix-88a0eb'>Neymar Fifa 20 Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Tablature-Hotel-California-88a0eb'>Tablature Hotel California</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitch-rivals-shaunz-88a0eb'>Twitch Rivals Shaunz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Amoros-%C3%A9quipe-de-France-88a0eb'>Amoros équipe De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=viande-de-cheval-cuisson-88a0eb'>Viande De Cheval Cuisson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-vous-contacte-par-rapport-88a0eb'>Je Vous Contacte Par Rapport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mon-dressing-priv%C3%A9-88a0eb'>Mon Dressing Privé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cgi-3d-animation-short-film-hd-88a0eb'>Cgi 3d Animation Short Film Hd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bracelet-teamshape-evolution-88a0eb'>Bracelet Teamshape Evolution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=peptan-all-musculation-88a0eb'>Peptan All Musculation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demis-roussos-et-ses-femmes-88a0eb'>Demis Roussos Et Ses Femmes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-taxi-vsl-88a0eb'>Salaire Taxi Vsl</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=platinum-pass-pokerstars-2020-88a0eb'>Platinum Pass Pokerstars 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-en-contacte-ou-contact-88a0eb'>Je Suis En Contacte Ou Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=regime-d%27un-cours-d%27eau-88a0eb'>Regime D'un Cours D'eau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gerard-cosmetics-france-88a0eb'>Gerard Cosmetics France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=toutes-les-recettes-de-choumicha-88a0eb'>Toutes Les Recettes De Choumicha</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=j%C3%A9r%C3%B4me-nrj-12-88a0eb'>Jérôme Nrj 12</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sporting-charleroi-2010-2011-88a0eb'>Sporting Charleroi 2010 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=apprendre-le-jargon-fran%C3%A7ais-88a0eb'>Apprendre Le Jargon Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=solido-char-priest-88a0eb'>Solido Char Priest</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-lumix-gx9-88a0eb'>Objectif Lumix Gx9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-nommer-quelqu%27un-88a0eb'>Synonyme De Nommer Quelqu'un</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lyon-en-commun-88a0eb'>Lyon En Commun</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lady-gaga-fortune-88a0eb'>Lady Gaga Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liposuccion-ventre-homme-photo-avant-apr%C3%A8s-88a0eb'>Liposuccion Ventre Homme Photo Avant Après</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-10-24-mm-88a0eb'>Nikon 10-24 Mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-kimpembe-2020-88a0eb'>Salaire Kimpembe 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=suspect-n%C2%B01-saison-7-88a0eb'>Suspect N°1 Saison 7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thomas-%28secret-story-4%29-88a0eb'>Thomas (secret Story 4)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-basque-peio-88a0eb'>Prénom Basque Peio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heriot-watt-university-avis-88a0eb'>Heriot-watt University Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=https-www-europol-europa-eu-careers-procurement-vacancies-88a0eb'>Https Www Europol Europa Eu Careers Procurement Vacancies</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=safari-ne-peut-pas-ouvrir-la-page-car-une-connexion-securisee-au-serveur-n%27a-pu-etre-etablie-iphone-88a0eb'>Safari Ne Peut Pas Ouvrir La Page Car Une Connexion Securisee Au Serveur N'a Pu Etre Etablie Iphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-que-du-sport-88a0eb'>Code Promo Que Du Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-maladie-d%27amour-reprise-88a0eb'>La Maladie D'amour Reprise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-qui-a-tu%C3%A9-grand-maman-piano-88a0eb'>Partition Qui A Tué Grand-maman Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=you-are-the-one-chanson-88a0eb'>You Are The One Chanson</a>,
+";s:7:"expired";i:-1;}

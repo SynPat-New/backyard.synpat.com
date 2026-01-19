@@ -1,0 +1,780 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="./chartjs/Chart.min.css"  />
+		<style>
+			body{
+				font-size: 0.8rem;
+			}
+			table{
+				font-size: 0.8rem;
+			}
+			.banner-panel{
+				height: 35px;
+				overflow:hidden;
+				width:100%;
+			}
+			.banner-panel-box-shadow{
+				box-shadow: 0 3px 4px 0 rgba(0,0,0,.15)
+			}
+			.banner-title{
+				float:left;
+				font-size:14px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				cursor: default;
+				/*padding-top: 12px;*/
+				/*font-weight: 500;*/
+			}
+			.banner-title p{
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: pre;
+				margin: 12px 0;
+			}
+			.iconcontainer{height:auto; width:auto; float:right;}
+			.e-banner-verticalsplitline{
+				border-right: 1px;
+				height: 20px;
+				float: left;
+				width: 1px;
+				margin-top: 10px;
+				display: block;
+				border-right-color: #c4ced7;
+    		border-right-style: solid;
+			}
+			.e-banner-verticalsplitline-margin {
+				margin: 10px 4px 0 4px;
+			}
+			.bg-color{
+				background-color:rgb(249, 249, 249);
+			}
+			.height-small{
+				height:145px;
+			}
+			.height-medium{
+				height:300px;
+			}
+			.height-large{
+				height:453px;
+			}
+			.dbrd-control-container{
+				background-color:#fff;
+				box-shadow:0 2px 6px 0 rgba(0,0,0,.07);
+			}
+			.ellipsis-h{width:38px;height:20px;cursor:pointer;border-radius:3px;text-align:center;padding:6px 0 5px 0!important;margin:4px 8px 5px 8px!important;float:left;}
+			.btn-menu{background:url('./ellipse.svg') no-repeat;width:15px;height:15px;display:inline-block}
+			.btn-expand{background:url('./expand.svg') no-repeat;width:15px;height:15px;display:inline-block}
+			.color-blue{color:#39669a;}
+			.color-green{color:#6D9773;}
+			.color-dark-green{color:#0C3B2E;}
+			.color-orange{color:#B46617;}
+			.color-yellow{color:#FFbA00;}
+			.color-dark-blue{color:#214666;}
+			.google-visualization-controls-rangefilter .google-visualization-controls-label{margin:0;padding:0;display:inline;}
+			.chart{ height: 150px;}
+			.list-height{max-height:118px;overflow:hidden scroll;}
+			.title{padding: 5px; font-size:0.9rem;}
+			.illustration{height: 314px;}
+			.vis-foreground .vis-group{border:0px !important;}
+		</style>
+		<script type="text/javascript" src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+		
+		<script type="text/javascript" src="./chartjs/Chart.min.js"></script>
+		<script type="text/javascript" src="./chartjs/chartjs-plugin-labels.js"></script>
+		<script type="text/javascript">
+			window.chartColors = {
+				red: 'rgb(255, 99, 132)',
+				orange: 'rgb(255, 159, 64)',
+				yellow: 'rgb(255, 205, 86)',
+				green: 'rgb(75, 192, 192)',
+				blue: 'rgb(54, 162, 235)',
+				purple: 'rgb(153, 102, 255)',
+				grey: 'rgb(201, 203, 207)'
+			};
+			var randomScalingFactor = function() {
+				return Math.round(Math.random() * 100);
+			};
+
+			var configPurchaseInvented = {
+				type: 'pie',
+				data: {
+					datasets: [{
+						data: [
+							randomScalingFactor(),
+							randomScalingFactor(),
+						],
+						backgroundColor: [
+							window.chartColors.red,
+							window.chartColors.orange
+						],
+						label: 'Dataset 1'
+					}],
+					labels: [
+						'Purchased',
+						'Invented'
+					]
+				},
+				options: {
+					responsive: true,
+					legend: {
+						display: false
+					},
+					layout: {
+						padding: {
+							left: 5,
+							right: 5,
+							top: 5,
+							bottom: 5
+						}
+					},
+					plugins: {
+						labels: {
+							render: 'label',
+						}
+					}
+				}
+			};
+			
+			
+			var configSecurityRelease = {
+				type: 'pie',
+				data: {
+					datasets: [{
+						data: [
+							randomScalingFactor(),
+							randomScalingFactor(),
+						],
+						backgroundColor: [
+							window.chartColors.green,
+							window.chartColors.blue
+						],
+						label: 'Dataset 1'
+					}],
+					labels: [
+						'Secured',
+						'Released'
+					]
+				},
+				options: {
+					responsive: true,
+					legend: {
+						display: false
+					},
+					layout: {
+						padding: {
+							left: 5,
+							right: 5,
+							top: 5,
+							bottom: 5
+						}
+					},
+					plugins: {
+						labels: {
+							render: 'label',
+						}
+					}
+				}
+			};
+			
+			var configLicenseInOut = {
+				type: 'pie',
+				data: {
+					datasets: [{
+						data: [
+							randomScalingFactor(),
+							randomScalingFactor(),
+						],
+						backgroundColor: [
+							window.chartColors.purple,
+							window.chartColors.grey
+						],
+						label: 'Dataset 1'
+					}],
+					labels: [
+						'LicenseIn',
+						'LicenseOut'
+					]
+				},
+				options: {
+					responsive: true,
+					legend: {
+						display: false
+					},
+					layout: {
+						padding: {
+							left: 5,
+							right: 5,
+							top: 5,
+							bottom: 5
+						}
+					},
+					plugins: {
+						labels: {
+							render: 'label',
+						}
+					}
+				}
+			};
+			
+			var configValidExpired = {
+				type: 'pie',
+				data: {
+					datasets: [{
+						data: [
+							randomScalingFactor(),
+							randomScalingFactor(),
+						],
+						backgroundColor: [
+							window.chartColors.yellow,
+							window.chartColors.orange
+						],
+						label: 'Dataset 1'
+					}],
+					labels: [
+						'Valid',
+						'Expired'
+					]
+				},
+				options: {
+					responsive: true,
+					legend: {
+						display: false
+					},
+					layout: {
+						padding: {
+							left: 5,
+							right: 5,
+							top: 5,
+							bottom: 5
+						}
+					},
+					plugins: {
+						labels: {
+							render: 'label',
+						}
+					}
+				}
+			};
+			
+			var configApplicationGrant = {
+				type: 'pie',
+				data: {
+					datasets: [{
+						data: [
+							randomScalingFactor(),
+							randomScalingFactor(),
+						],
+						backgroundColor: [
+							window.chartColors.red,
+							window.chartColors.green
+						],
+						label: 'Dataset 1'
+					}],
+					labels: [
+						'Application',
+						'Granted'
+					]
+				},
+				options: {
+					responsive: true,
+					legend: {
+						display: false
+					},
+					layout: {
+						padding: {
+							left: 5,
+							right: 5,
+							top: 5,
+							bottom: 5
+						}
+					},
+					plugins: {
+						labels: {
+							render: 'label',
+						}
+					}
+				}
+			};
+			
+			var configLawFirms = {
+				type: 'pie',
+				data: {
+					datasets: [{
+						data: [
+							randomScalingFactor(),
+							randomScalingFactor(),
+							randomScalingFactor(),
+							randomScalingFactor(),
+							randomScalingFactor(),
+							randomScalingFactor(),
+						],
+						backgroundColor: [
+							window.chartColors.red,
+							window.chartColors.orange,
+							window.chartColors.blue,
+							window.chartColors.purple,
+							window.chartColors.yellow,
+							window.chartColors.grey,
+						],
+						label: 'Dataset 1'
+					}],
+					labels: [
+						'Firm1',
+						'Firm2',
+						'Firm3',
+						'Firm4',
+						'Firm5',
+						'Firm6',
+					]
+				},
+				options: {
+					responsive: true,
+					legend: {
+						display: false
+					},
+					layout: {
+						padding: {
+							left: 5,
+							right: 5,
+							top: 5,
+							bottom: 5
+						}
+					},
+					plugins: {
+						labels: {
+							render: 'label',
+						}
+					}
+				}
+			};			
+			
+			
+			window.addEventListener('DOMContentLoaded', (event) => {
+				assignmentTimeline();
+				setTimeout(loadIllustrationIframeData, 1000);
+				
+				var ctxPurchaseInvented = document.getElementById('purchases_invented').getContext('2d');
+				window.purchases_invented = new Chart(ctxPurchaseInvented, configPurchaseInvented);
+				
+				var ctxSecurityRelease = document.getElementById('security_release').getContext('2d');
+				window.security_release = new Chart(ctxSecurityRelease, configSecurityRelease);
+				
+				var ctxLicenseInOut = document.getElementById('license_in_out').getContext('2d');
+				window.license_in_out = new Chart(ctxLicenseInOut, configLicenseInOut);
+				
+				var ctxValidExpired = document.getElementById('valid_expired').getContext('2d');
+				window.valid_expired = new Chart(ctxValidExpired, configValidExpired);
+				
+				var ctxApplicationGrant = document.getElementById('application_granted').getContext('2d');
+				window.application_granted = new Chart(ctxApplicationGrant, configApplicationGrant);
+				
+				var ctxLawFirms = document.getElementById('law_firms').getContext('2d');
+				window.law_firms = new Chart(ctxLawFirms, configLawFirms);
+			});
+			
+			function loadIllustrationIframeData() {
+				let iframe = document.getElementById('load_illustration_frame');
+				if(typeof iframe.contentWindow != 'undefined' && iframe.contentWindow != null && typeof iframe.contentWindow.renderData == "function"){
+					console.log("In function");
+					let illustrationData = {"box":[{"id":"22817","name":"Lookout, inc.","execution_date":"Jun 14,2014","recorded_date":"Jun 25,2014","document":"https:\/\/patentrack.com\/resources\/shared\/data\/assignment-pat-33179-601.pdf","type":"Ownership","date_1":1402704000,"box_type":"2","shape":"rectangle","dimension":"100x30","segment":"1","border_color":"#eeeeee","border_linepx":"1","background_color":"#ffffff"},{"id":"22818","name":"Silicon valley bank","execution_date":"Oct 26,2018","recorded_date":"Oct 29,2018","document":"https:\/\/patentrack.com\/resources\/shared\/data\/assignment-pat-48208-947.pdf","type":"Security","date_1":1540512000,"box_type":"3","shape":"rectangle","dimension":"100x30","segment":"2","border_color":"#eeeeee","border_linepx":"1","background_color":"#ffffff"}],"connection":[{"id":"22754","assignment_no1":"2","color":"#ffa700","type":"Security","type_line":"Solid","ref_id":0,"start_id":"22817","end_id":"22818","box_creator_id":"22818","box_creator_id2":"0","popup":["48208-947"],"comment":[{"48208-947":["",""]}],"user_files":[""],"tooltip":"Security","date":"Oct 26,2018","date_1":1540512000,"document1":"https:\/\/patentrack.com\/resources\/shared\/data\/assignment-pat-48208-947.pdf","document2":"","note1":"","pdf1":"","note2":"","pdf2":"","popuptop":"48208-947","popupbottom":""}],"popup":[],"assignments":[{"id":"4273","original":"SECURITY INTEREST (SEE DOCUMENT FOR DETAILS).","original_text":"4","modified":"Security","modified_by":"3","assignment_no":"3","connection_to":"0"}],"names":[{"id":"11109","original":"Lookout, inc.","modified":""},{"id":"11110","original":"Silicon valley bank","modified":""}],"general":{"patent_number":"10181118 Mobile communications device payment method utilizing location information","logo_1":"https:\/\/backyard.synpat.com\/public\/upload\/company_logo\/optimize\/4385_img_1552691723.png","logo_2":"https:\/\/backyard.synpat.com\/public\/upload\/contacts\/44132_img_1561643613.jpg","copyright":"2020 LOOKOUT, INC."},"box_menu":{"border_color":["#e8665d","#e8a41c","#c1ed0e","#ed0e2f"],"background_color":["#fae3e3","#f5f5d7","#d7f0f5","#f5d7dc"]},"title":"MOBILE COMMUNICATIONS DEVICE PAYMENT METHOD UTILIZING LOCATION INFORMATION","comment":"","legend":[{"id":"2","tooltip":"Ownership","color":"#d20666","type":"0","explanation":""},{"id":"3","tooltip":"Name Change","color":"#0057e7","type":"0","explanation":""},{"id":"4","tooltip":"Security","color":"#ffa700","type":"0","explanation":""},{"id":"7","tooltip":"Release","color":"#964B00","type":"0","explanation":""},{"id":"5","tooltip":"License","color":"#8329ad","type":"0","explanation":""},{"id":"8","tooltip":"License End","color":"#3DADAD","type":"0","explanation":""}],"all_boxes":[{"id":"1","segment":"0","border_color":"#efefef","border_px":"1","shape":"rectangle","background_color":"#f5f5f5","dimension":"100x30","type":"Inventor"},{"id":"2","segment":"1","border_color":"#eeeeee","border_px":"1","shape":"rectangle","background_color":"#ffffff","dimension":"100x30","type":"Ownership"},{"id":"3","segment":"2","border_color":"#eeeeee","border_px":"1","shape":"rectangle","background_color":"#ffffff","dimension":"100x30","type":"Security"},{"id":"4","segment":"3","border_color":"#eeeeee","border_px":"1","shape":"rectangle","background_color":"#ffffff","dimension":"100x30","type":"Licenses"},{"id":"5","segment":"3","border_color":"#2d2d2d","border_px":"1","shape":"rectangle","background_color":"#ffffff","dimension":"100x30","type":"3rdParties"}],"line":[{"id":"22754","assignment_no1":"2","color":"#ffa700","type":"Security","type_line":"Solid","ref_id":0,"start_id":"22817","end_id":"22818","box_creator_id":"22818","box_creator_id2":"0","popup":["48208-947"],"comment":[{"48208-947":["",""]}],"user_files":[""],"tooltip":"Security","date":"Oct 26,2018","date_1":1540512000,"document1":"https:\/\/patentrack.com\/resources\/shared\/data\/assignment-pat-48208-947.pdf","document2":"","note1":"","pdf1":"","note2":"","pdf2":"","popuptop":"48208-947","popupbottom":""}]};
+					iframe.contentWindow.renderData(illustrationData);
+				}
+			}
+			
+			function assignmentTimeline() {
+				// DOM element where the Timeline will be attached
+				const container = document.getElementById("timeline");
+				var sdt = [{
+					"group3": [
+						{
+						id: 1243,
+						treeLevel: 3,
+						content: "Level 3 1243"
+					}, {
+						id: 1525,
+						treeLevel: 3,
+						content: "Level 3 1525"
+					}, {
+						id: 1624,
+						treeLevel: 3,
+						content: "Level 3 1624"
+					}, {
+						id: 2076,
+						treeLevel: 3,
+						content: "Level 3 2076"
+					}, {
+						id: 1345,
+						treeLevel: 3,
+						content: "Level 3 1345"
+					}, {
+						id: 2078,
+						treeLevel: 3,
+						content: "Level 3 2078"
+					}, {
+						id: 1826,
+						treeLevel: 3,
+						content: "Level 3 1826"
+					}, {
+						id: 2107,
+						treeLevel: 3,
+						content: "Level 3 2107"
+					}],
+					"groups": [{
+						id: 10,
+						title: "Group 10",
+						content: "Group 10",
+						treeLevel: 1,
+						showNested: false,
+						nestedGroups: [1, 2, 3, 4, 5, 6]
+					}, {
+						id: 1,
+						content: "North America",
+						treeLevel: 2,
+						showNested: false,
+						nestedGroups: [1243, 1525, 1624, 1345, 2078, 1826, 2076, 2107]
+					}, {
+						id: 2,
+						treeLevel: 2,
+						content: "Latin America"
+					}, {
+						id: 3,
+						treeLevel: 2,
+						content: "Europe"
+					}, {
+						id: 4,
+						treeLevel: 2,
+						content: "Asia"
+					}, {
+						id: 5,
+						treeLevel: 2,
+						content: "Oceania"
+					}, {
+						id: 6,
+						treeLevel: 2,
+						content: "Africa"
+					}, {
+						id: 100,
+						title: "Group 100",
+						content: "Group 100",
+						treeLevel: 1,
+						showNested: false,
+						nestedGroups: [101, 102, 103, 104, 105, 106],
+						"text": "Totals",
+						"EditionId": 0,
+						"groupId": 0
+					}, {
+						id: 101,
+						treeLevel: 2,
+						content: "North America"
+					}, {
+						id: 102,
+						treeLevel: 2,
+						content: "Latin America"
+					}, {
+						id: 103,
+						treeLevel: 2,
+						content: "Europe"
+					}, {
+						id: 104,
+						treeLevel: 2,
+						content: "Asia"
+					}, {
+						id: 105,
+						treeLevel: 2,
+						content: "Oceania"
+					}, {
+						id: 106,
+						treeLevel: 2,
+						content: "Africa"
+					}],
+				}];
+
+				function randomIntFromInterval(min, max) {
+					return Math.floor(Math.random() * (max - min + 1) + min);
+				}
+
+				let startDay = moment().startOf("month").startOf("week").isoWeekday(1);
+
+				
+
+				// Create a DataSet (allows two way data-binding)
+				//var items = new vis.DataSet(data.result);
+
+				var now = moment().minutes(0).seconds(0).milliseconds(0);
+				var itemCount = 60;
+
+				// create a data set with groups
+				var groups = new vis.DataSet();
+
+				groups.add(sdt[0].groups);
+				groups.add(sdt[0].group3);
+
+				// create a dataset with items
+				var items = new vis.DataSet();
+				var groupIds = groups.getIds();
+				var types = ['box', 'point', 'range', 'background']
+				for (var i = 0; i < itemCount; i++) {
+					var rInt = randomIntFromInterval(1, 30);
+					var start = startDay.clone().add(rInt, 'days');
+					var end = start.clone().add(24, 'hours');
+					var randomGroupId = groupIds[randomIntFromInterval(1, groupIds.length)];
+					var type = types[randomIntFromInterval(0, 3)]
+					console.log({
+						id: i,
+						group: randomGroupId,
+						content: 'item ' + i + ' ' + rInt,
+						start: start,
+						end: end,
+						type: type
+					});
+					items.add({
+						id: i,
+						group: randomGroupId,
+						content: 'item ' + i + ' ' + rInt,
+						start: start,
+						end: end,
+						type: type
+					});
+				}
+
+				// specify options
+				let options = {
+					start: startDay.toDate(),
+					end: new Date(1000 * 60 * 60 * 24 + (new Date()).valueOf()),
+					horizontalScroll: true,
+					zoomKey: 'ctrlKey',
+					orientation: 'both',
+					zoomMin: 1000 * 60 * 60 * 240,
+					min: new Date(2000, 0, 1), 
+					max: new Date(2020, 2, 1), 
+				};
+
+				// create a Timeline
+				var timeline = new vis.Timeline(container, items, groups, options);
+			}
+			window.addEventListener("resize", drawChart);
+		</script>
+		
+	</head>
+	<body>
+		<div class="container-fluid" id="programmatic_dashboard_div">
+			<div class="row">				
+				<div class="banner-panel banner-panel-box-shadow">
+					<div class="col-lg-12">
+						<div class="banner-title">
+							<p>Dashboard</p>
+						</div>											
+					</div>
+				</div>
+			</div>
+			<div class="row bg-color">
+				<div class="col-lg-7 col-md-7 col-sm-7">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="row">
+								<div class="col-lg-2 col-md-2 col-sm-2 p-2">
+									<div class='chart chart1 dbrd-control-container'>
+										<canvas id="purchases_invented" style="width:100%;height:100%;"></canvas>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 p-2">
+									<div class='chart chart2 dbrd-control-container' id="">
+										<canvas id="security_release" style="width:100%;height:100%;"></canvas>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 p-2">
+									<div class='chart chart3 dbrd-control-container' id="">
+										<canvas id="license_in_out" style="width:100%;height:100%;"></canvas>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 p-2">
+									<div class='chart chart4 dbrd-control-container' id="">
+										<canvas id="valid_expired" style="width:100%;height:100%;"></canvas>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 p-2">
+									<div class='chart chart5 dbrd-control-container' id="">
+										<canvas id="application_granted" style="width:100%;height:100%;"></canvas>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 p-2">
+									<div class='chart chart6 dbrd-control-container' id="">
+										<canvas id="law_firms" style="width:100%;height:100%;"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 p-2">
+							<div class='dbrd-control-container'>
+								<div class="title">Assignment timeline</div>
+								<div id="timeline"></div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 p-2">
+							<div class='chart timeline dbrd-control-container'>
+								<div class="title">Comment</div>
+								<ul class="list-group list-group-flush list-height">
+									<li class="list-group-item">Comment 1</li>
+									<li class="list-group-item">Comment 2</li>
+									<li class="list-group-item">Comment 3</li>
+									<li class="list-group-item">Comment 4</li>
+									<li class="list-group-item">Comment 5</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 p-2">
+							<div class='chart timeline dbrd-control-container overflow-auto'>
+								<div class="title">SECURITY INTEREST (SEE DOCUMENT FOR DETAILS).</div>
+								<div class="p-1">
+									<table class="top"><tbody><tr><td>Execution Date<br>25 Nov 2008<div class="position-relative"><div class="position-absolute" style="top: -25px; left: 130px;"><img src="./d3/pdf.svg" id="doc-img-0" style="width: 20px; height: 20px;"></div></div></td><td>Reel/frame<br>022191-0066</td></tr><tr><td>Assignors<br>THE BANK OF NEW YORK MELLON TRUST COMPANY, N.A.</td><td style="position: relative">Date Recorded<br>02 Feb 2009</td></tr><tr><td>Assignee<br>NC-M CHASIS SYSTEMS, LLC<br>4706 HALYARD DRIVE<br>PLYMOUTH 48170</td><td>Correspondent<br>IP RESEARCH PLUS, INC.<br>21 TADCASTER CIRCLE<br>ATTN: PENELOPE J.A. AGODOA<br>WALDORF, MD 20602</td></tr></tbody></table>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 p-2">
+							<div class='illustration dbrd-control-container'>
+								<div class="title">Illustration of the selected assignment</div>
+								<iframe src="./d3/index.html" id="load_illustration_frame" scrolling="yes" style="width:100%;height:295px;border:0px;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5 p-2">
+					<div class='dbrd-control-container overflow-auto' style='height:910px'>
+						<!--<iframe src="./assignment-pat-51368-71.pdf" scrolling="yes" style="width:100%;height:910px;border:0px;"></iframe>-->
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Complete</th>
+									<th>Date</th>
+									<th>Sent To</th>
+									<th>Sent Date</th>
+									<th>Document</th>
+									<th>Comment</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td><span class="add-on"><i class="icon-calendar" id="cal"></i></span></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"/></td>
+									<td></td>
+									<td>James Dean, Skadden Arps</td>
+									<td>01/20/20</td>
+									<td>01/20/20</td>
+									<td>Need to be assigned from the inventor of the company.</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>				
+			</div>			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,123 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6523:"<p>Véritable légende de Flamengo, qu’il a mené à la victoire à la Coupe Intercontinentale en 1981, le milieu offensif n’a toutefois rien gagné avec le Brésil, connaissant trois échecs lors des Coupes du monde 1978, 1982 et 1986. Il est tout simplement le numéro 10 de la sélection anglaise qui a remporté la Coupe du monde 66 contre l’Allemagne de l’Ouest (4-2, ap). Les Gunners ne se sont jamais vraiment remis de son départ...L'un des meilleurs attaquants de sa génération, qui permettait au Dynamo Kiev de faire peur à toute l'Europe à la fin des années 1990. Mais des blessures qui l'ont sans doute empêché de rester au sommet aussi longtemps qu'il l'aurait mérité. </p> <p>Véloce, percutant et doué d’un sens inné du but, celui qui a embrassé la carrière d’entraîneur peut se targuer d’avoir été récemment désigné meilleur joueur de l’histoire de la Premier League dans les colonnes d’un tabloïd. Et lui aussi possède un palmarès hors norme.Les amateurs de l'Olympique de Marseille ne peuvent pas l'avoir oublié. Joyau de la Masia, l’intéressé a composé un véritable trio magique avec ses compères Leo Messi et Xavi Hernandez. Milieu de terrain reconverti avec succès au poste de libéro, l’intéressé qui fit les beaux jours du Bayern ou de l’Inter était d’une polyvalence rare. </p> <p>Et les (nombreux) titres ont suivi, aux Pays-Bas, en Angleterre, en Espagne et en Allemagne.Il a passé l'essentiel de sa carrière au Spartak Moscou dans les années 80. Iconique. "L'Araignée noire" Lev Yashin est évidemment le seul et unique gardien à avoir remporté le Ballon d'or. </p> <p>Tout est dit...Le Roc ! 5 – Cristiano Ronaldo – note : 89/100 </p> <p></p> <p>Promu meneur de jeu après la retraite de Pelé,  ce gaucher à la moustache si caractéristique brille en vain. </p> <p> </p> <p>Les statistiques dans le football sont souvent surestimées, mais 631 buts en 650 matchs font de la panthère noire portugaise Eusébio l’un des meilleurs buteurs de tous les temps. Toujours en activité au Japon, Andres Iniesta, 36 ans, a fait 16 saisons durant le bonheur du FC Barcelone, non sans éclairer par ailleurs de son génie la Roja. Un classement analogue, celui des « Meilleurs gardiens de but mondial du siècle », ne distingue que les gardiens de but. Une proportion que l’Argentine partage dans les hautes sphères, malgré un nombre d’éléments limité à six dans ce Top 100. 4 – Johan Cruyff – note : 90/100. </p> <p>«Der Bomber» a été élu Ballon d’or en 1970, après avoir marqué 10 buts au Mundial mexicain. Ce sont des idoles qui ont traversé les époques puisque leurs accomplissements ont laissé une empreinte indélébile sur le sport le plus populaire du monde.Les attaquants ayant toujours été davantage mis en avant, et ce depuis la création de ce sport, on retrouve aujourd’hui des buteurs de très grande classe qui ont empilé les buts dans leur championnat respectif ou tout simplement pour porter leur sélection au sommet d’une Coupe du monde ou d’un Euro. Avec le Real Madrid,  il aura marqué plus de 300 buts en un peu moins de 400 matches joués. Pour beaucoup, dont le grand Pelé, Eusébio était le roi incontesté du football, il avait un don de Dieu. Il a tout gagné avec cette Vieille Dame, pour laquelle il a inscrit près de 300 buts, excusez du peu. Avec en point d'orgue, ce chef d'oeuvre, le Mondial 1970 au Mexique, le plus beau tournoi de tous les temps selon certains, illuminé par le Brésil dont Pelé était le leader incontesté. En bon Argentin, il savait batailler, et une fois le ballon récupéré, il était transmis proprement aux artistes.Le Dynamo Kiev des années 80 était une machine à gagner, un adversaire redoutable pour tous ceux qui l'affrontaient. C'est principalement sous le maillot de l'AC MIlan qu'il a été le plus époustouflant. Seul Lionel Messi a marqué plus de buts que lui avec l'Albiceleste (54).Meilleur buteur de l’histoire du Dynamo Kiev, Oleg Blokhine est connu pour être l’un des plus fameux joueurs de football de l’ex-Union soviétique. </p> <p>Quinze membres de la Seleçao y figurent ainsi, dont deux aux cinq premiers rangs. Champion du monde en 1966, il a aussi été adoubé par le Roi Pelé: "Aujourd'hui j'ai marqué un but, mais Banks l'a arrêté".Formé à l'Atlético, devenu légende du Real Madrid. Ses coups de génie sur le terrain ont finalement été bien plus marquants.Un gardien de but extraordinaire qui n'a jamais gagné un championnat national, c'est possible. Avec une belle moisson de trophées à la clef.Véritable bourreau de travail doté d’un sens du but exceptionnel, Jean-Pierre Papin est indissociable de la glorieuse histoire de l’OM, même s’il n’y a pas gagné la C1. </p> <p>S'il est passé par quelques grands clubs européens, son palmarès n'est pas des plus éloquents. Ferenc Puskas a fait l’histoire du Real Madrid, il était le meilleur joueur d’une équipe championne d’Europe à 3 reprises (1959, 1960, 1966). </p> <p>Pas moins de treize légendes tricolores comptent ainsi parmi notre sélection. </p> <p>Il n'a pas essayé...Son palmarès peut paraître bien chiche en comparaison de la plupart de ses pairs. C’est Gerhard Müller qui échoue au pied du top 10, lui qui fait partie des buteurs les plus prolifiques de l’histoire du ballon rond. Ils ont inscrit énormément de buts (plus de 250) et sont considérés comme les meilleurs buteurs de tous les temps. Manuel Francisco dos Santos, dit Mané Garrincha, que l’on présente comme le premier grand dribbleur de l’histoire du football. Pilier de l’AC Milan et de la Squadra Azzurra, Franco Baresi a longtemps fait figure de référence au poste de libéro. Devenu le joueur le plus capé de Serie A, le portier italien, à 42 ans, peut également se targuer d’une longévité unique. Il était aussi un pion essentiel de l'équipe nationale qui échoua en finale de l'Euro 1988.Signe de son grand talent, le buteur algérien a réussi à s'exporter au Portugal et en Espagne dans les années 80. Intraitable en un contre un et toujours bien placé, le natif d’Andalousie brille également par son jeu de tête. Luis Figo s’est bien rattrapé avec le Real, notamment aux côtés de ZZ, décrochant deux titres de champion et une Ligue des champions. </p> <p>Il est désormais entrâineur.Explosif et fougueux, Franck Ribéry a longtemps fait les beaux jours du Bayern Munich. </p>";s:7:"keyword";s:38:"meilleur 11 de tous les temps football";s:5:"links";s:8580:"<a href='https://backyard.synpat.com/site/article.php?page=assiettes-porcelaine-blanche-88a0eb'>Assiettes Porcelaine Blanche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=judo-%C3%A9quipe-21-88a0eb'>Judo équipe 21</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=influenceuse-am%C3%A9ricaine-youtube-88a0eb'>Influenceuse Américaine Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=foals-neptune-lyrics-88a0eb'>Foals Neptune Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alan-walker-chanteuse-88a0eb'>Alan Walker Chanteuse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eric-favre-iso-whey-composition-88a0eb'>Eric Favre Iso Whey Composition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-dubai-palm-atlantis-88a0eb'>Hotel Dubai Palm Atlantis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=une-femme-avec-toi-reprise-88a0eb'>Une Femme Avec Toi Reprise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=master-psychologie-sociale%2C-du-travail-et-des-organisations-%C3%A0-distance-88a0eb'>Master Psychologie Sociale, Du Travail Et Des Organisations à Distance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=starmania-2020-qu%C3%A9bec-88a0eb'>Starmania 2020 Québec</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=centrale-la-grande-3-88a0eb'>Centrale La Grande-3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-am-easy-to-find-youtube-88a0eb'>I Am Easy To Find Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lep%C3%A8re-nay-masques-88a0eb'>Lepère Nay Masques</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quizz-biz-harry-potter-m%C3%A9chant-88a0eb'>Quizz Biz Harry Potter Méchant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mathilde-penin-naissance-88a0eb'>Mathilde Penin Naissance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-basque-peio-88a0eb'>Prénom Basque Peio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agence-st-immobilier-78-orgeval-88a0eb'>Agence St Immobilier 78 Orgeval</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-pbe-tft-88a0eb'>Lol Pbe Tft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=my-body-alg%C3%A9rie-88a0eb'>My Body Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-%C3%A9conomie-domestique-88a0eb'>Salaire économie Domestique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-will---traduction-en-fran%C3%A7ais-88a0eb'>I Will - Traduction En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cindy-koh-lanta-2019-finale-88a0eb'>Cindy Koh-lanta 2019 Finale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arnaud-lemaire-compagne-2019-88a0eb'>Arnaud Lemaire Compagne 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=finish-au-preterit-88a0eb'>Finish Au Preterit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-fin-de-contrat-2020-espagne-88a0eb'>Joueur Fin De Contrat 2020 Espagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=british-citizen-traduction-88a0eb'>British Citizen Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-programme-a-recours-au-placement-de-produit-netflix-88a0eb'>Ce Programme A Recours Au Placement De Produit Netflix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-%3A-hongrie-emoji-88a0eb'>Drapeau : Hongrie Emoji</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emploi-municipalit%C3%A9-lanaudi%C3%A8re-88a0eb'>Emploi Municipalité Lanaudière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-2020-liban-88a0eb'>Calendrier Ramadan 2020 Liban</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neeskens-kebano-nestor-kebano-88a0eb'>Neeskens Kebano Nestor Kebano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calogero-pourquoi-1987-88a0eb'>Calogero Pourquoi 1987</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proposer-en-anglais-linguee-88a0eb'>Proposer En Anglais Linguee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roux-caroline-jambe-88a0eb'>Roux Caroline Jambe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quand-on-arrive-en-ville-lyrics-88a0eb'>Quand On Arrive En Ville Lyrics</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portrait-beno%C3%AEt-koh-lanta-2016-88a0eb'>Portrait Benoît Koh-lanta 2016</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=info-magazine-limoges-contact-88a0eb'>Info Magazine Limoges Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-19-barcelone-88a0eb'>Fifa 19 Barcelone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-belgique-2018-but-minute-88a0eb'>France Belgique 2018 But Minute</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crampon-adidas-messi-88a0eb'>Crampon Adidas Messi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compl%C3%A9ment-alimentaire-hyperprot%C3%A9in%C3%A9-hypercalorique-delical-88a0eb'>Complément Alimentaire Hyperprotéiné Hypercalorique Delical</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-r%C3%AAve-bleu-partition-flute-traversi%C3%A8re-88a0eb'>Ce Rêve Bleu Partition Flute Traversière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clo-instagram-koh-lanta-88a0eb'>Clo Instagram Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=myriam-koh-lanta-2012-88a0eb'>Myriam Koh-lanta 2012</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livres-qui-ont-marqu%C3%A9-ma-vie-88a0eb'>Livres Qui Ont Marqué Ma Vie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-capu%C3%A7on-twitter-88a0eb'>Renaud Capuçon Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d7-anglaise-classement-88a0eb'>D7 Anglaise Classement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plante-des-r%C3%A9gions-tropicales-5-lettres-88a0eb'>Plante Des Régions Tropicales 5 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9er-un-quizz-pour-r%C3%A9viser-88a0eb'>Créer Un Quizz Pour Réviser</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=myriam-koh-lanta-soissons-88a0eb'>Myriam Koh Lanta Soissons</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=catalogue-action-27-novembre-2019-88a0eb'>Catalogue Action 27 Novembre 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9dicament-perte-de-poids-extr%C3%AAme-88a0eb'>Médicament Perte De Poids Extrême</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Partition-Batterie-Indochine-Song-for-a-Dream-88a0eb'>Partition Batterie Indochine Song For A Dream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Pour-arriver-%C3%A0-moi-88a0eb'>Pour Arriver à Moi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A9quence-bfm-tv-88a0eb'>Fréquence Bfm Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=medisana-lidl-avis-88a0eb'>Medisana Lidl Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=indice-des-prix-%C3%A0-la-consommation-insee-2020-88a0eb'>Indice Des Prix à La Consommation Insee 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=formulaire-de-candidature-pour-koh-lanta-2021-88a0eb'>Formulaire De Candidature Pour Koh Lanta 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27air-du-vent-paroles-88a0eb'>L'air Du Vent Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bateau-4-lettres-88a0eb'>Bateau 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-devient-estelle-denis-88a0eb'>Que Devient Estelle Denis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9v%C3%A8nement-historique-new-york-88a0eb'>évènement Historique New York</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dessin-joker-r%C3%A9aliste-88a0eb'>Dessin Joker Réaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-g%C3%A9n%C3%A9rique-les-anges-11-88a0eb'>Musique Générique Les Anges 11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tor-des-g%C3%A9ants-2020-88a0eb'>Tor Des Géants 2020</a>,
+";s:7:"expired";i:-1;}

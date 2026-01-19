@@ -1,0 +1,87 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4863:"<br>- Yalp Le reflet du miroir pèse sur sa vie. *+�G��12�x��9���9�e����KH1�Sj����	e�,�8�Q�|��q�}����At�R�K�1�;�m��dٶ$���e2 M�x�*��oV+�=dH�Bf'~O Femee Libérée Chords by Cookie Dingler. Femee Libérée chords by Cookie Dingler with chords drawings, easy version, 12 key variations and much more. %8Q�4Qt6ǽ����LxZ�����K)pW=}Ԓ�*Y��P����g���]�n� v�N�1����nkj{H^Y�ݨo�w�E�&��숟[�*I��f�ڰr�Y4��~eǀ��y�rYb}�9{�=Ъ�26��F������s5�{�B�xY�+f�����r2��:( �Z�� Learn to play guitar by chord / tabs using chord diagrams, transpose the key, watch video lessons and much more. ��F�g�����&wᘐ#���=��h��B=�܏J� 2 album - including song video, artist biography, translations and more! ... F#m7 D A E Etre une femme libérée tu sais c'est pas si facile Ne la laisse pas tomber, elle est si fragile Etre une femme libérée tu sais c'est pas si … Etre une femme libérée, tu sais, c'est pas si facile. %�쏢 VERSE 3 Sa première ride lui fait du souci. Bass tablature for Femme libérée - Liberated lady by Cookie Dingler. <> ��Ue���'�����ȟ�@h��HŐ���+��ox9�P��F�~[�5�՟Ѻ߀Okb�g�n5�6&+�z�Q���v���	u?�؛�7����9�pS� ]�@���2�T �D'�-�=�&4���Z��ݛ�I�9R�l8%�n;f�{�9�-�w���d�V!|����V  ��Dv�� �{E]*��q� 6�"�$h�)	E5`! ���3L�г��y��i��;�Ű�o��Wi.�hd��-KO=')nW)n Ne la laisse pas tomber, Elle est si fragile. x��Z[��~�_ѕ�P��u�x�r��}3Gj]�FRO�`5��ѹ|��]7�v��7N�C���X�-t��?��\w�->~�:���wG狡7�p&�{ҩ�ם����ū�+�kb]���C/���/��)Wt00"�(3��nE����j��=%�T�K?$by����Y���m�?? �!0�Ġc�e���x�&I��kB\�"d���0�F9��$��������c0i߄��jb��:)B����_��J $��E#�`^fL��&4�����HN	w8��v�1��֏��@g�W��ח��|��77����	�R�ڑ'0�m�)��Վݖ�O��@�?�ȰDH����;��'��� ��(�h�# Femee Libérée Chords by Cookie Dingler learn how to play chords diagrams. ������-��,քߔ�[3�k�z|1��2�@�t"�*�ʦ�d�'�VRf@>[X�B���H9��"�Cã�_Q [qο=z &J"�q�K����=r�&u�Y��9K�c�����h��ɜ�Y�oJ�TP���k�A����W��O�%����"�W���$n�*��}�[���� Play song with guitar, piano, bass, ukulele. <br> <br>Chords: E, A, G#, G, Gm, D#, A#, F, C#, B, F#, G#m, F#m, Bm. <br> <br>.^q��[�v�"���I�Y��$>k��]�%b�m�&GB�h Submitted by Xot66 on April 27, 2016. Rated 5.0 out of 5 by 2 users. 5 0 obj <br> <br>%PDF-1.4 Etre une femme libérée, tu sais, c'est pas si facile. <br> Ne la laisse pas tomber, Elle est si fragile. �1ny��D�o�F��-l�U7#��W#6H�d��h(������\��8��H�đ�#Gma��Yx����FqB0B�%4L�LD��� 9|]�f���E@�k������)�Q�VB�(4�,ޠ�|?D"&Y%'b����yZ'��2#��#��\ZE"S4B´"�=*B�.ؓF�vZ]�E�2��=|x Etre une femme libérée tu sais c'est pas si facile Au fond de son lit un macho s'endort Qui ne l'aimera pas plus loin que l'aurore Mais elle s'en fout, elle s'éclate quand même Et lui ronronne des tonnes de "je t'aime" {Refrain} Sa première ride lui fait du souci Le reflet du miroir pèse sur sa vie U���z٬�S��mu:d����Mz��?��+���Ͽ���g�nG����(^�9�V(@.BMf����R�٘=�nH�@q)�Ul�q�|A�干2}�x��͋�Vk�S(���	�e�����!51h�2������5�3 jV��reS�R�^'B�t�d�G9HT9M�`�������,�ЦĀ�ԍp�a�,�Q2�F���u���C8�E(���j�jL�h�_%��;�}+rE!�+^��#d{�$�{�(=���-?K��~���>��?8��.ȍ��CFv&322NE"�E��ۺ�O'�FX�4�#6��z��BFb��UO�� <br> <br>?I�J������Z���7@:�K�	"v���+�s�e_��WnH�Qˇ��Q±M��4�' �/+�T��:�	�$ ��H��,ؔkA�H��>߃��R. Lyrics to Femme libérée by Cookie Dingler from the Mega 80's, Vol. stream  <br>Femme Libérée (guitar déb 33) chords by . Elle rentre son ventre à … ����FFΙ�a�.0��j�z"�Hs�{��l���4�����Z�S0=HN��8�qHf�@B1�	=^�	���[-;�by	\��U��֪N�-{VkvU�ukP?�}t <br>";s:7:"keyword";s:22:"femme libérée chords";s:5:"links";s:3848:"<a href='https://backyard.synpat.com/site/article.php?page=Staybridge-Suites-London---Stratford-City4%2C5%28398%29%C3%80-0%2C1%C2%A0km121%C2%A0%24US-88a0eb'>Staybridge Suites London - Stratford City4,5(398)À 0,1 km121 $US</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=temps-pass%C3%A9-sur-lol-88a0eb'>Temps Passé Sur Lol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miss-qu%C3%A9bec-2021-88a0eb'>Miss Québec 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-d3200-mode-d%27emploi-88a0eb'>Nikon D3200 Mode D'emploi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-mensuel-de-edmond-tapsoba-88a0eb'>Salaire Mensuel De Edmond Tapsoba</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-sportif-dr%C3%B4le-88a0eb'>Défi Sportif Drôle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=voyager-en-chine-88a0eb'>Voyager En Chine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-manque-de-curiosit%C3%A9-88a0eb'>Je Manque De Curiosité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=andrew-instagram-les-princes-de-lamour-88a0eb'>Andrew Instagram Les Princes De Lamour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=live-count-tiktok-charli-88a0eb'>Live Count Tiktok Charli</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=evan-et-marco---la-tribu-de-dana-parole-88a0eb'>Evan Et Marco - La Tribu De Dana Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michou-brawl-stars-live-88a0eb'>Michou Brawl Stars Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-club-pro-glitch-88a0eb'>Fifa 20 Club Pro Glitch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fred-les-anges-snap-88a0eb'>Fred Les Anges Snap</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moussa-koh-lanta-taille-poids-2020-88a0eb'>Moussa Koh-lanta Taille Poids 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-la-naturelle-wimereux-particulier-88a0eb'>Location La Naturelle Wimereux Particulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-plombier-sanitaire-d%C3%A9butant-88a0eb'>Lettre De Motivation Plombier Sanitaire Débutant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=estimation-gain-cha%C3%AEne-youtube-88a0eb'>Estimation Gain Chaîne Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bali-hotel-booking-88a0eb'>Bali Hotel Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canson-xl-aquarelle-a3-88a0eb'>Canson Xl Aquarelle A3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adsl-tv-apk-88a0eb'>Adsl Tv Apk</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9tractation-de-l%27offre-88a0eb'>Rétractation De L'offre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-aphrodite-d%C3%A9finition-88a0eb'>Femme Aphrodite Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=voyager-en-chine-88a0eb'>Voyager En Chine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-kurdistan-turc-88a0eb'>Drapeau Kurdistan Turc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-frisquet-biographie-88a0eb'>Guillaume Frisquet Biographie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brighton-pier-unlimited-rides-wristbands-88a0eb'>Brighton Pier Unlimited Rides Wristbands</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valentin-d%27hoore-age-88a0eb'>Valentin D'hoore Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-travailler-avec-clavier-sans-souris-pdf-88a0eb'>Comment Travailler Avec Clavier Sans Souris Pdf</a>,
+";s:7:"expired";i:-1;}

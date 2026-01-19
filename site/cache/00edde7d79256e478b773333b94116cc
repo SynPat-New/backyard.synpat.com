@@ -1,0 +1,89 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3969:"Crédit Agricole; Disclaimer; Personal Data Jacques BOYER ï¿½volue dans le secteur : Autres intermédiations monétaires (Code APE 6419Z). L'actualité des Caisses régionales au coeur des territoiresAu travers de reportages vidéo, d'articles, de brèves, de dossiers, le site creditagricole.info valorise les actions et les initiatives des 39 Caisses régionales du Crédit Agricole partout en France.Proximité et rapidité sont les maîtres-mots de cet espace, pour une information riche, concrète et mobile. Sébastien Canesse Director elected by the employees. Menu Pied de page. Lattes, 34977 L'effectif de cette sociï¿½tï¿½ est N.C et le nombre de Dirigeant est de 24. Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world.Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world.Chairman, Caisse Regionale de Credit Agricole Mutuel du Languedoc SCCVChairman, Caisse Regionale de Credit Agricole Mutuel du Languedoc SCCVCaisse Regionale de Credit Agricole Mutuel du Languedoc SCCVCaisse Regionale de Credit Agricole Mutuel du Languedoc SCCVCaisse Regionale de Credit Agricole Mutuel du Languedoc SCCVCaisse Regionale de Credit Agricole Mutuel du Languedoc SCCVCredit Agricole du Languedoc is a regional bank in Southwestern France. Fils d'Ariane. <br> <br>Luc Jeanneau Président Atlantique-Vendée. Jacques Boyer Director. <br> <br>		  Vous souhaitez être informé sur nos actualités ? The governance of Crédit Agricole CIB rests on the following committees: Board of Directors. 21,568 executive movements have been recorded in the last 12 months. France Jacques Boyer Chairman of Crédit Agricole Languedoc Regional Bank. Jacques Boyer - Director - Agrica; Industry Colleagues. Jacques Boyer Président Languedoc: Jean-Jacques Calcat Président Nord Midi-Pyrénées. <br> <br>Jacques Boyer is Chairman at Caisse Regionale de Credit Agricole Mutuel du Languedoc SCCV. Presently, Jacques Boyer is Chairman at CRCAM du Languedoc. Jacques BOYER est Vice-président de la sociï¿½tï¿½ CAISSE REG.CREDIT AGRICOLE MUTUEL MIDI situï¿½e 24 TER AVENUE DU MONTPELLIERET DITE PAYSAG 34970 LATTES au capital : 73 929 206 €. <br> <br>At Crédit Agricole Consumer Finance, Jacques Boyer has 1 colleague who can be contacted. Homonyms. eNq9WNtS2zAQfecrPH73JUAC6Thh2hTazMCQApn2LSPb60SpIgVdcunXV3YMOIxdQKA+WiufXe3l6NjR2WZBnBVwgRntuS0/dB2gCUsxnfbc8d2Fd+qe9Q+iOVqh6rZTP5wchi3XSQgSoufmdj8GRIX/6+ryK2gE4G7/wIlYPIdE7u1TEhP/OxKzK7TM9zjRiuHUWYCcsbTnLpUsVp1ISK7j6K8Z/y2WKIEoKFeq1vnkuLoeBTnYK1CVAH6J6LQWNONGmIniHKgcIAlTxre10CDopBMeHxo5wOIGBFM8gRGSsxFnK5xCWn8ERAQYOcnW6S3wFQGZO6kFDzKaICNwNEebG7gf1gf9WVsHciO90Gu1u52T9lGnc3jUOTFyxSupqk+RPkSQoNake9w+bXcDAsJbwCLWL3qp8mLFASkvA93LiBjWa8S4RMRSpbAY7HecJT8c7l/siBSLJUFbfy6WpqlCHGkzcM0L9g6Sn+COa6YiOmfP8KkiJHhj1OOSRyxFnNPUgCkqG+hkfGuaiAGjEjbNFTVjQLkpexGD+DjYP4zWs/9IxQQnpjSniUiBkOObYTPL2SaIL0jAmNtjiJ+YpmxdXwvJlTHxVAttKfhlwZ3/uEXDrhluhWj20V+jVhrhK+nZz4Q2IM7Rdg+XaM7wb4tNrkOATuVMK6sHpNKHrh1sem74uPw0aI9d+cxVJQ3FQ+G5jPvJEgW7o5qw55Bm7L28qYevHuph9KxOXaH9WIIINKi/iSGt6nF7EKvWBtoeWewMtaDfzu9M75kfCvh21+i10Djt1Tfz6y8dGzeZ7tDGyN/e7zsqs/dhoHg9T86kXIpPQbBer/2EQ4olmnKcMAI+1rP3X264itCw98ViRc3Eu7vZKLOm4/KSJnmvzi7fL/X8R8uC8SOzWuO/4bmNoEuNbS3q0R4B2HNT6GEkMaO2RJmKaxHfyeG6rvSC6yG+zjLc8KunscRPaiYKcnHVP/gLPNQoDw== Maurin Jacques Boyer Director. Béatrice Grenade Chief Marketing and Transformation Officer, Bel, Independant Director.  In the Banking industry, Jacques Boyer has 72,148 colleagues in 4,836 companies located in 192 countries. Jean-Pierre Gaillard Président Sud Rhône Alpes. Executive Management & Executive Committee ... Director. Mr. Boyer is also on the board of Fédération Nationale du Crédit Agricole and Chambre d'Agriculture du Gers. ";s:7:"keyword";s:30:"jacques boyer crédit agricole";s:5:"links";s:4006:"<a href='https://backyard.synpat.com/site/article.php?page=appeler-rmc-sport-88a0eb'>Appeler Rmc Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=atp-dubai-prize-money-88a0eb'>Atp Dubai Prize Money</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mort-adolescent-paris-88a0eb'>Mort Adolescent Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-sanchez-wikip%C3%A9dia-88a0eb'>Guillaume Sanchez Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Gym-Tonic-%28Toutou-youtou%29-88a0eb'>Gym Tonic (Toutou Youtou)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=regime-d%27un-cours-d%27eau-88a0eb'>Regime D'un Cours D'eau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=artiste-street-art-fran%C3%A7ais-88a0eb'>Artiste Street Art Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=top-mercato-asse-88a0eb'>Top Mercato Asse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=black-sabbath-paroles-88a0eb'>Black Sabbath Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patricia-cerqueira-vinces-biographie-88a0eb'>Patricia Cerqueira Vinces Biographie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-leroy-merlin-debutant-88a0eb'>Lettre De Motivation Leroy Merlin Debutant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=notting-hill-coffee-vieux-lille-88a0eb'>Notting Hill Coffee Vieux Lille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stan-kirsch-friend-88a0eb'>Stan Kirsch Friend</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=www-revue-positif-net-88a0eb'>Www Revue Positif Net</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emmanuel-maubert-vie-priv%C3%A9e-88a0eb'>Emmanuel Maubert Vie Privée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liste-bloqu%C3%A9-twitter-88a0eb'>Liste Bloqué Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandrie-alexandra-remix-88a0eb'>Alexandrie Alexandra Remix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mariage-alg%C3%A9rien-en-france-88a0eb'>Mariage Algérien En France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eminem-paradise-traduction-88a0eb'>Eminem Paradise Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cagnottes-claude-koh-lanta-88a0eb'>Cagnottes Claude Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-auxiliaire-de-vie-pour-entrer-en-formation-88a0eb'>Lettre De Motivation Auxiliaire De Vie Pour Entrer En Formation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barbecue-pierre-brico-88a0eb'>Barbecue Pierre Brico</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Water-Park-Minecraft-88a0eb'>Water Park Minecraft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=superman-%281978-distribution%29-88a0eb'>Superman (1978 Distribution)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=map-toboggan-fortnite-michou-88a0eb'>Map Toboggan Fortnite Michou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appeler-rmc-sport-88a0eb'>Appeler Rmc Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ch%C3%A2teau-de-montmelas-propri%C3%A9taire-88a0eb'>Château De Montmelas Propriétaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=2-brothers-on-the-4th-floor---come-take-my-hand-88a0eb'>2 Brothers On The 4th Floor - Come Take My Hand</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comparateur-de-prix-vol-88a0eb'>Comparateur De Prix Vol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-fort-boyard-picwic-88a0eb'>Jeu Fort Boyard Picwic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-vibrante-4d-bluefin-88a0eb'>Plateforme Vibrante 4d Bluefin</a>,
+";s:7:"expired";i:-1;}

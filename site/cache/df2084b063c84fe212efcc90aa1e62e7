@@ -1,0 +1,106 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4253:"<br>The ATP Cup has three different methods of awarding prize money to participating players.                                 Watch highlights as Novak Djokovic continues his unbeaten run in 2020, beating Stefanos Tsitsipas to lift his fifth Dubai Duty Free Tennis Championships title. Djokovic converted his first set point with a backhand winner down the line.After trading breaks early in the second set, Djokovic once again earned a late service break. © Copyright 1994 - 2020 ATP Tour, Inc. All Rights Reserved.                         ATP Premier Partner World number one Novak Djokovic leads a stellar field which includes last weekend’s Marseille champion Stefanos … The following players received entry from the qualifying draw: Novak Djokovic owns a 14-0 record this year. <br> <br>                                                  <br> <br>But, let’s say $460,000 is a good, average prize money for a winner in an ATP  <br>                    Dubai Duty Free Tennis Championships                                     Category Prize Money Breakdown for the ATP Dubai Tennis Championships 2020. The Dubai Duty Free Tennis Championships is an ATP 500 hardcourt tournament that takes place from February 24 to 29, 2020. Jurgen Melzer and Edouard Roger-Vasselin are aiming to lift their first team title at the Dubai Duty Free Tennis Championships.                     Dubai Duty Free Tennis Championships ATP Premier Partner                                           Michael Venus and John Peers beat Pierre-Hugues Herbert and Benoit Paire in straight sets at the Dubai Duty Free Tennis Championships on Monday. The event has a total financial commitment of $ 2,950,420. Copyright © 2011 - 2020 - peRFect Tennis.                  <br> <br>                                                           <br> <br>Novak Djokovic is unbeaten on the ATP Tour this year. I'm hoping for a new winner at USO this yea...New winner, - yes agree - but who? The number 1 player is the top-ranked player for the team. <br> <br>Exclusive Member of Mediavine Home.Prize Money Breakdown for the ATP Dubai Tennis Championships 2020ATP Dubai Duty Free Tennis Championships Total Prize Money History Since 2000Historical ATP Dubai Prize Money Breakdown From 2007 to 2019Prize Money Breakdown for the WTA 2020 Dubai Tennis ChampionshipsHistorical WTA Dubai Prize Money Breakdown From 2000 to 2019Prize Money Breakdown for the ATP Dubai Tennis Championships 2020ATP Dubai Duty Free Tennis Championships Total Prize Money History Since 2000Historical ATP Dubai Prize Money Breakdown From 2007 to 2019Prize Money Breakdown for the WTA 2020 Dubai Tennis ChampionshipsHistorical WTA Dubai Prize Money Breakdown From 2000 to 2019 <br> <br>Ron Yu said in most cases Fed wil...Nadal out again. I'll try to keep that run going.                     Dubai Duty Free Tennis Championships <br> <br>It seems like he did drop his intensity a little bit from the previous matches… I served out the match in a great fashion, won another trophy here. 1 Novak Djokovic is now 15-0 in 2020 after beating Philipp Kohlschreiber on Wednesday in Dubai.                  <br>                          I feel great on the court. As he did when serving for the first set, Djokovic held serve comfortably with another backhand winner down the line.“I felt mentally I started having a little bit more of an advantage on the court [after breaking at 4-3]. <br> <br>The exchange rate shown is the mid-market exchange rate on the day of the final when the tournament is complete. <br> <br>                 The Dubai Duty Free Tennis Championships is one of the most eagerly anticipated events on the UAE sporting calendar and one of the most popular tournament stops for the ATP … The Dubai Tennis Championships or Dubai Open (also known as the Dubai Duty Free Tennis Championships for sponsorship reasons) (formerly known for sponsorship reasons as the Barclays Dubai Tennis Championships and the Dubai Duty Free Men's and Women's Championships) is a professional tennis tournament  owned and organized by Dubai Duty Free and held annually in Dubai, United Arab Emirates  on outdoor hardcourts.                             Match Reaction -                          <br>";s:7:"keyword";s:21:"atp dubai prize money";s:5:"links";s:6242:"<a href='https://backyard.synpat.com/site/article.php?page=j%27ai-%C3%A9t%C3%A9-vot%C3%A9-88a0eb'>J'ai été Voté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma-vie-en-espagnol-88a0eb'>Ma Vie En Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Haaland-nombre-de-but-88a0eb'>Haaland Nombre De But</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-reviens-vers-vous-rapidement-en-anglais-88a0eb'>Je Reviens Vers Vous Rapidement En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ip-man-%3A-la-l%C3%A9gende-est-n%C3%A9e-vf-88a0eb'>Ip Man : La Légende Est Née Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patrick-poivre-d%27arvor-femme-88a0eb'>Patrick Poivre D'arvor Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=th%C3%A9-ventre-plat-chinois-88a0eb'>Thé Ventre Plat Chinois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ronnie-coleman-susan-williamson-88a0eb'>Ronnie Coleman Susan Williamson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=essai-kona-libre-dl-2020-88a0eb'>Essai Kona Libre Dl 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mg-premier-league-fut-20-88a0eb'>Mg Premier League Fut 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steel-ball-run-jojo-88a0eb'>Steel Ball Run Jojo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proteine-mass-gainer-decathlon-88a0eb'>Proteine Mass Gainer Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-reviens-vers-vous-rapidement-en-anglais-88a0eb'>Je Reviens Vers Vous Rapidement En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-compote-sans-oeuf-88a0eb'>Pancake Compote Sans Oeuf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-vous-contacte-par-rapport-88a0eb'>Je Vous Contacte Par Rapport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=krrish-4-film-complet-en-francais-88a0eb'>Krrish 4 Film Complet En Francais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maison-de-Michel-Platini-88a0eb'>Maison De Michel Platini</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-mercurial-superfly-7-academy-tf-88a0eb'>Nike Mercurial Superfly 7 Academy Tf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acide-ascorbique-pure-bio-88a0eb'>Acide Ascorbique Pure Bio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clafoutis-aux-pruneaux-88a0eb'>Clafoutis Aux Pruneaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-meilleurs-conseils-de-la-vie-pdf-88a0eb'>Les Meilleurs Conseils De La Vie Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-eau-ou-lait-88a0eb'>Whey Eau Ou Lait</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yves-de-tonqu%C3%A9dec-88a0eb'>Yves De Tonquédec</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-gouix-agent-88a0eb'>Guillaume Gouix Agent</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elisabeth-l%C3%A9vy-%28cnews%29-88a0eb'>Elisabeth Lévy (cnews)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rentabilit%C3%A9-d%27une-application-mobile-88a0eb'>Rentabilité D'une Application Mobile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inter-milan---sampdoria-88a0eb'>Inter Milan - Sampdoria</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=will-%26-grace-season-11-88a0eb'>Will & Grace Season 11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-devient-st%C3%A9phanie-des-marseillais-88a0eb'>Que Devient Stéphanie Des Marseillais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beno%C3%AEt-allemane-jdg-88a0eb'>Benoît Allemane Jdg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=processus-de-m%C3%A9tropolisation-d%C3%A9finition-88a0eb'>Processus De Métropolisation Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quelle-moutarde-choisir-88a0eb'>Quelle Moutarde Choisir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=critique-film-armada-88a0eb'>Critique Film Armada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=doublage-harry-potter-hero-88a0eb'>Doublage Harry Potter Hero</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=polo-fortnite-sauver-le-monde-88a0eb'>Polo Fortnite Sauver Le Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=collier-perle-style-chanel-88a0eb'>Collier Perle Style Chanel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-apprentis-aventuriers-5-casting-88a0eb'>Les Apprentis Aventuriers 5 Casting</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=khamsa-o-nas-88a0eb'>Khamsa O Nas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wafa-et-corentin-en-couple-88a0eb'>Wafa Et Corentin En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Adria-Hotel4%2C2%28205%29%C3%80-0%2C2%C2%A0km60%C2%A0%E2%82%AC-88a0eb'>Adria Hotel4,2(205)À 0,2 km60 €</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hamidou-msaidie-%C3%A2ge-88a0eb'>Hamidou Msaidie âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abd-al-malik-%28calife%29-88a0eb'>Abd Al-malik (calife)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=se-d%C3%A9passer-citation-88a0eb'>Se Dépasser Citation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-cour-en-bois-88a0eb'>Jeux De Cour En Bois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=name-of-body-parts-in-english-with-picture-88a0eb'>Name Of Body Parts In English With Picture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=clip-interlude-sch-88a0eb'>Clip Interlude Sch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=opposition-injonction-de-payer-code-de-proc%C3%A9dure-civile-88a0eb'>Opposition Injonction De Payer Code De Procédure Civile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-constat-en-anglais-88a0eb'>Un Constat En Anglais</a>,
+";s:7:"expired";i:-1;}

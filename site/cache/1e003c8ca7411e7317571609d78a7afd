@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5592:"<p>She came up with the arrangement, added the "sock it to me" lines, and played piano on the track. Original Collage: Acrylic, collage, Pastel, Ink, crayon on Canvas. </p> <p>                                                     </p> <p>„R-E-S-P-E-C-T“ und „T-C-B“ tauchen in Reddings Originallied nicht auf,Erst die Fassung von Aretha Franklin ermöglichte dem Titel einen größeren Bekanntheitsgrad. Franklin's interpretation was a landmark for the feminist movement, and is often considered one of the best songs of the R&B era,The song was included on Redding's third studio album, The two versions of "Respect," as originally recorded by Otis Redding and as later re-imagined by Aretha Franklin, are significantly different.                                                     Free He explained to Cleveland's In the '80s, KFC turned this into "R.O.A.S.T.E.D." </p> <p>How four songs portray Shakespeare's character Ophelia.A monthly update on our latest interviews, stories and added songs </p> <p>Get unlimited access to millions of songs and your entire Apple Music library.                                                     </p> <p>Chalmers intended to take on the famous solo until Curtis started wailing away. Die letzte Zeile wird zuweilen als „Take Out, TCP“ fehlinterpretiert, und die meisten Notenveröffentlichungen, die den Text enthalten, übernehmen die falsche Variante. It was her debut hit and coincidentally her next two releases also peaked at #17. "Aretha's line, "Sock it to me," became a catch phrase on the TV show Franklin had just signed with Atlantic Records, and when her single "Before Aretha broke through and became the Queen of Soul, Etta James was the more popular singer.                                                    He moved the family to Detroit another musical hotbed in 1944. Deshalb geht es in ihrer Version um eine Frau, die dennoch Sozialhilfe bezieht und sie ihrem (inoffiziellen) Mann überlässt, wenn er nach Hause kommt. Nothing that’s over so soon should give you that much strength. Mit "Respect" wurde Aretha Franklin zu einer Ikone der schwarzen Musik in den USA und der Song zur Hymne der afroamerikanischen Befreiungs- und der Frauenbewegung. Januar 2021 erstmals in der Kölner Philharmonie erleben. Close. Während ihrer über 50-jährigen Karriere gelangen ihr nicht nur 17 „Top Ten“-Platzierungen und 20 „Nummer 1“-Hits, ihr Song „Respect“ wurde außerdem zur Hymne der afroamerikanischen Befreiungs- und Frauenbewegung.                                                    Redding said of the song shortly before his death in 1967: "That's one of my favorite songs because it has a better groove than any of my records.                                                    Redding's version is a plea from a desperate man, who will give his woman anything she wants. [AotM Community Analysis] Aretha Franklin, "Respect" Analysis. The band track is beautiful. Not only was her birthplace Memphis, Tennessee one of the most important cities in the history of blues and rock n roll, but her father, C. L., was a Baptist minister and gospel singer known nationwide as The Man with the Million-Dollar Voice.                                                    Number of IP addresses: 30,000 (Quotes from When asked why the song is so successful, Aretha explained, "Everyone wants to be respected. It took me a whole day to write it and about twenty minutes to arrange it.          The Vagrants recording tanked, and the group soon called it quits, but their bass player Felix Pappalardi and guitarist Leslie West went on to form Mountain, who played at Woodstock and had an enduring hit with "Sax player Charlie Chalmers played in the horn section alongside King Curtis and Willie Bridges. </p> <p>Sie ist die Queen of Soul und wohl eine der größten Stimmen aller Zeiten: Aretha Franklin.      "Redding's version is characteristically funky, with his raspy-soulful singing and electric vocal charisma front and center.                                              She was already a global superstar at this point, but chose to ditch the high-tech recording studio for an authentic recording session with a gospel choir and live audience. </p> <p>Dowd worked with Redding, which led to Aretha's cover. </p> <p>to promote their new roasted chicken.After Redding heard Aretha's rendition for the first time, he told Jerry Wexler: "This girl has taken that song from me. Arethas mother, Barbara, was a singer as well, although she left the family when Aretha was just six and died four years later, the first in a long string of heartaches that would run through her life.In recognition of her ongoing chart-topping and award-winning output, in 1987 Aretha Franklin became the first woman to earn induction into the Rock and Roll Hall of Fame.Though her popularity as a contemporary artist began to wane following her Hall of Fame induction, Aretha Franklin remained both active and successful.This is not the official app of Aretha Franklin. Moderator of r/musictheory Archived [AotM Community Analysis] Aretha Franklin, "Respect" Aretha appropriated King Curtis' sax solo from Sam & Dave's "When Something Is Wrong With My Baby," which he recorded the previous night for Stax Records, and used that for the bridge.Franklin's cover is by far the best-known version, but this was an important song for Otis Redding. In the 1970s, Franklin's version of the song came to exemplify the Otis Redding himself was impressed with the performance of the song.                     Number of IP addresses: 40,000+ </p>";s:7:"keyword";s:35:"respect aretha franklin description";s:5:"links";s:6936:"<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-minecraft-twinner-88a0eb'>Koh-lanta Minecraft Twinner</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=devenir-animateur-radio-sans-dipl%C3%B4me-88a0eb'>Devenir Animateur Radio Sans Diplôme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-witcher-3-gambit-royal-88a0eb'>The Witcher 3 Gambit Royal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=immigration-france-chiffres-88a0eb'>Immigration France Chiffres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mohamed-koh-lanta-2005-88a0eb'>Mohamed Koh-lanta 2005</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plateforme-influenceur-instagram-88a0eb'>Plateforme Influenceur Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-dcp-l2530dw-logiciel-88a0eb'>Brother Dcp-l2530dw Logiciel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=but-choupo-vid%C3%A9o-88a0eb'>But Choupo Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eva-signification-islam-88a0eb'>Eva Signification Islam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=guillaume-meurice-juin-2020-88a0eb'>Guillaume Meurice Juin 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bagaikan-langit-hece-88a0eb'>Bagaikan Langit Hece</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alban-greffe-de-cheveux-88a0eb'>Alban Greffe De Cheveux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-portugal-vila-real-tras-os-montes-88a0eb'>Météo Portugal Vila Real Tras Os Montes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=newcastle-tottenham-compo-probable-88a0eb'>Newcastle Tottenham Compo Probable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tire-sur-la-corde-mots-crois%C3%A9s-88a0eb'>Tire Sur La Corde Mots Croisés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stade-de-foot-allemagne-88a0eb'>Stade De Foot Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wild-bill-calamity-jane-88a0eb'>Wild Bill Calamity Jane</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Alyssa-Milano-2015-88a0eb'>Alyssa Milano 2015</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-mercurial-superfly-7-academy-tf-88a0eb'>Nike Mercurial Superfly 7 Academy Tf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shaker-so-shape-utilisation-88a0eb'>Shaker So Shape Utilisation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tom-diversy-et-julie-88a0eb'>Tom Diversy Et Julie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A2ge-m%C3%A9dian-d%C3%A9finition-88a0eb'>âge Médian Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=reproduction-7-lettreslitt%C3%A9ralement-ou-m%C3%A9taphoriquement-88a0eb'>Reproduction 7 Lettreslittéralement Ou Métaphoriquement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-est-la-femme-de-laurent-neumann-88a0eb'>Qui Est La Femme De Laurent Neumann</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruno-cerella-instagram-88a0eb'>Bruno Cerella Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mal%C3%A9fique-canal%2B-plus-88a0eb'>Maléfique Canal+ Plus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bio-rad-protein-assay-88a0eb'>Bio Rad Protein Assay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-cardio-femme-88a0eb'>Programme Cardio Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lassana-diarra-nouvelle-vie-88a0eb'>Lassana Diarra Nouvelle Vie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dictionnaire-accords-ukul%C3%A9l%C3%A9-88a0eb'>Dictionnaire Accords Ukulélé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-d%27un-polygame-8-lettres-88a0eb'>Femme D'un Polygame 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=La-terreur-du-Loch-Ness-88a0eb'>La Terreur Du Loch Ness</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lola-marsh-%C3%A9couter-88a0eb'>Lola Marsh écouter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agenda-l%27atelier-de-roxane-2021-amazon-88a0eb'>Agenda L'atelier De Roxane 2021 Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-pour-maigrir-femme-88a0eb'>Protéine Pour Maigrir Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lettre-d%27amour-perdu-88a0eb'>Lettre D'amour Perdu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valencia-real-madrid-live-stream-88a0eb'>Valencia Real Madrid Live Stream</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-piano-par-niveau-88a0eb'>Partition Piano Par Niveau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=disney-world-san-diego-88a0eb'>Disney World San Diego</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-chasseur-%28film%29-distribution-88a0eb'>Le Chasseur (film) Distribution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-argentine-2011-88a0eb'>Effectif Argentine 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mini-cooper-d-116ch-marylebone-88a0eb'>Mini Cooper D 116ch Marylebone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-journaliste-radio-88a0eb'>Salaire Journaliste Radio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-de-sport-qui-bouge-88a0eb'>Musique De Sport Qui Bouge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bfm-paris-journalistes-88a0eb'>Bfm Paris Journalistes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bale-pays-de-galles-88a0eb'>Bale Pays De Galles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zodio-massy-recrutement-88a0eb'>Zodio Massy Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=offre-d%27-emploi-studiocanal-88a0eb'>Offre D' Emploi Studiocanal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=une-intime-conviction-streaming-upvid-88a0eb'>Une Intime Conviction Streaming Upvid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=et-moi-je-suis-tomb%C3%A9-en-esclavage-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-88a0eb'>Et Moi Je Suis Tombé En Esclavage مترجمة</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creuset-de-mikael-88a0eb'>Creuset De Mikael</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-faire-du-petit-lait-du-beurre-clarifi%C3%A9-88a0eb'>Que Faire Du Petit Lait Du Beurre Clarifié</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%C3%A9lue-lois-lowry-film-88a0eb'>Lélue Lois Lowry Film</a>,
+";s:7:"expired";i:-1;}

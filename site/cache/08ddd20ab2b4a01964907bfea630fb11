@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5536:"<br>"That's one of the things that needs to change.                                             Aktueller Marktwert: In an emotional interview with the Second Captains podcast, Danny Rose has opened up about his battles with racism on the football pitch and identified where things need to changeDon't wait 30 years - sign up for our daily football email newsletter today!Danny Rose has opened up about his battle with racism and revealed he has been suffering discrimination for half of his life.In an emotional interview with the Second Captains podcast, the 30-year-old admits he fears the problem might never be eradicated from society.Rose said: "It happens on a football pitch, but that first happened to me and my good friend Fabian Delph when we were playing for Leeds and we were only 15.                         imago images                     <br> <br>"I just don't want to repeat the same words I say and people saying 'oh he's always moaning' and what not. <br> I just hope it will change in the future. Spurs fans comment on Danny Rose signing for Newcastle via their Fighting C.ck message board: ‘It’s a good move for him, he needs a chance of scene.’ ‘See ya.’ ‘His mouth now runs fast <br> <br>During this closing shot, the voiceover of the group of comedians talking about the story is heard. Ourexplains more about how we use your data, and your rights. Danny, feeling cheated, goes to the Carnegie Deli where he hears that the client he ratted on to save himself was beaten up by the hit men and is now in the hospital. <br> <br>England defender Danny Rose has detailed his experiences of being racially profiled, stating: "I just laugh because I know what's coming".                                             Höchster Marktwert: Irish American author Malachy McCourt unravels the mysteries surrounding the tune. With a new prestigious talent manager in attendance at the performance, Lou, in front of Tina (and with her encouragement), fires Danny and hires the new manager. At first Danny turns Tina away, but later catches up with her and they appear to make up. "Rose was the victim of sickening racist abuse during an England game in Montenegro in 2019, leading him to admit afterwards that he couldn't wait to retire so he didn't have to put up with it any longer.Football has supported the Black Lives Matter movement this season, with players and officials taking the knee as the sport looks to play a huge role in the campaign to end racism full stop.But Rose is not sure if the BLM movement will have a lasting impact, not only in society but on the game itself.He reckons football is still inherently racist without even realising it and he added: "I just have to wait and see.  <br>There has to be a change and going away from that you just need to look at the amount of black managers that are in football. 								Linker Verteidiger                             <br> <br>"You look back at the greats when I was growing up , Andy Cole and Sol Campbell, obviously Sol Campbell is in management now but he has had to start at the bottom and his CV is as good as anybody's.Sign up for the brilliant new Daily Star Sport email newsletter!From the latest transfer news to the agenda-setting stories, get it all in your email inbox. There is so, so, so much more than needs to be done. So 15 years of this on and off the field happening and there's no change whatsoever. Sometimes they’ll include recommendations for other related newsletters or services we offer. The film stars Allen as the titular character, as well as Mia Farrow and Nick Apollo Forte. The England and Tottenham star admits he first experienced it on a football pitch at the age of 15 - and that it became so common it felt like the norm. Broadway Danny Rose is a 1984 American black-and-white comedy film written and directed by Woody Allen. I respect and understand it will not change overnight, but I just hope people are aware of what I am saying and they don't just think I am moaning. "When you subscribe we will use the information you provide to send you these newsletters. Danny Rose is an English professional footballer who plays as a left back for Premier League club Tottenham Hotspur. The film stars Allen as the titular character, as … "He had been called a black 'b*d' on the pitch and so yes, since then, that's what we know.                                                      "What I am saying is near enough fact. Estimated Net Worth: 6 million Dollar New: Top 15 highest paid footballers of 2020! By: Reuters | Revealed: August 4, 2020 5:42:42 pm Danny Rose mentioned he has had comparable experiences for the final 15 years. Danny Rose, 30, aus England Newcastle United, seit 2019 Linker Verteidiger Marktwert: 16,00 Mio.                                             16,00 Mio. (Supply: Reuters) Tottenham Hotspur defender Danny Rose has mentioned he's bored with racial discrimination after being usually stopped by police and requested if his automobile is stolen. Lou, who has left his wife and kids to marry Tina, becomes a success.                         imago images                                                              Juli 1990 in Doncaster) ist ein englischer Fußballspieler, der derzeit bei Tottenham Hotspur unter Vertrag steht und an Newcastle United ausgeliehen ist. € * 02.07.1990 in Doncaster, England I'm used to it, that's not saying it doesn't still hurt, but how I then go on about my day after that is that it's happened and I move on and 'who do we play next. <br>";s:7:"keyword";s:24:"rapid tax charleroi tél";s:5:"links";s:5764:"<a href='https://backyard.synpat.com/site/article.php?page=lol-urf-2020-release-date-88a0eb'>Lol Urf 2020 Release Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-gallivant-times-square-email-address-88a0eb'>The Gallivant Times Square Email Address</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9quipe-5-etoile-fifa-19-88a0eb'>équipe 5 Etoile Fifa 19</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tankini-noir-femme-88a0eb'>Tankini Noir Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=st%C3%A9phane-le-saux-88a0eb'>Stéphane Le Saux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=projecteur-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Projecteur Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ouedkniss-v%C3%A9hicule-utilitaire-88a0eb'>Ouedkniss Véhicule Utilitaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=philippe-bizet-instagram-88a0eb'>Philippe Bizet Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fran%C3%A7ois-lenglet-%3A--macron-88a0eb'>François Lenglet :  Macron</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=si-je-m%27en-sors-paroles-88a0eb'>Si Je M'en Sors Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=R%C3%A9gua-%E2%80%91-Porto-88a0eb'>Régua ‑ Porto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-ce-soir-sur-france-4-88a0eb'>Fort Boyard Ce Soir Sur France 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quizz-biz-naruto-88a0eb'>Quizz Biz Naruto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remarquable-en-anglais-88a0eb'>Remarquable En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9tude-de-cas-uber-88a0eb'>étude De Cas Uber</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=catherine-meurisse-compagnon-88a0eb'>Catherine Meurisse Compagnon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-m%C3%A9hari-ibiza-88a0eb'>Location Méhari Ibiza</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=antonyme-de-conseiller-88a0eb'>Antonyme De Conseiller</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=khamsa-fi-ainek-prononciation-88a0eb'>Khamsa Fi Ainek Prononciation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-%C3%A0-pain-basque-88a0eb'>Sac à Pain Basque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-ef-s-10-18-mm-88a0eb'>Canon Ef-s 10-18 Mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=khiernewman-avis-livraison-88a0eb'>Khiernewman Avis Livraison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boulangerie-cambrai-avenue-du-cateau-88a0eb'>Boulangerie Cambrai Avenue Du Cateau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=placement-de-produit-d%C3%A9finition-88a0eb'>Placement De Produit Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maillot-Euro-2000-88a0eb'>Maillot Euro 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lettre-de-motivation-4-88a0eb'>Lettre De Motivation 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-r%C3%A9duc-fitness-boutique-88a0eb'>Code Réduc Fitness Boutique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-fant%C3%B4me-de-lop%C3%A9ra-personnages-88a0eb'>Le Fantôme De Lopéra Personnages</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=site-web-exemple-88a0eb'>Site Web Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=med-hondo-doublage-88a0eb'>Med Hondo Doublage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-b12-bienfaits-peau-88a0eb'>Vitamine B12 Bienfaits Peau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Psychologie-%C3%A9cologique-Gibson-88a0eb'>Psychologie écologique Gibson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=madame-lesage-est-boulang%C3%A8re-88a0eb'>Madame Lesage Est Boulangère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ramadan-au-S%C3%A9n%C3%A9gal-88a0eb'>Ramadan Au Sénégal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tablature-guitare-pdf-gratuit-88a0eb'>Tablature Guitare Pdf Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=simons-ouverture-19-mai-88a0eb'>Simons Ouverture 19 Mai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aspiration-synonyme-crisco-88a0eb'>Aspiration Synonyme Crisco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shetland-saison-3-streaming-vf-88a0eb'>Shetland Saison 3 Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portugal-alg%C3%A9rie-foot-88a0eb'>Portugal Algérie Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-plateforme-vibrante-88a0eb'>Exercices Plateforme Vibrante</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=in%C3%A8s-loucif-origine-wikipedia-88a0eb'>Inès Loucif Origine Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hollywood-david-mcneil-paroles-88a0eb'>Hollywood David Mcneil Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-generation-musique-88a0eb'>Beat Generation Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tablature-solo-laziza-88a0eb'>Tablature Solo Laziza</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=source-fiable-steroide-88a0eb'>Source Fiable Steroide</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Photo-Balavoine-mort-88a0eb'>Photo Balavoine Mort</a>,
+";s:7:"expired";i:-1;}

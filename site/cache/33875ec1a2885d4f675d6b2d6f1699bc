@@ -1,0 +1,133 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5659:"<p>�q�,��0ɇ��]jn��X�y�bx���a(�͂ˎ��Y��s%������s��)&�W{�aE�z8�,\`z��n>1+�d�cW"�,�E���E�[�޷zN���l+v��j>q���_�b �i[~}�V]��Az��..{\�y��x9��*�Z�������7��Z�t�Y~�56��:e_f	�C�8�ڠ'��J�?��[��w}��w��Iw+���q�Z�z��כֿ�Ƒ�O </p> <p>0000022003 00000 n Professionnels, membres SOTP, cliquez ici pour vous connecter à l'espace privé. Dans le cadre d’un mémo sur la prise en charge des préparations magistrales et officinales, l’Assurance maladie a reprécisé les conditions de prise en charge de la mélatonine.Dans un tableau récapitulatif, elle précise que les préparations magistrales à base de mélatonine ne peuvent pas être prises en charge.. </p> <p>Pour être prises en charge par l'Assurance Maladie, les préparations magistrales et officinales doivent être conformes à la définition du Code de la santé publique et répondre aux quatre critères de prise en charge.Le Code de la santé publique définit les préparations magistrales et officinales :Seules les préparations poursuivant à titre principal une visée thérapeutique sont prises en charge, ce qui exclut les préparations à visée cosmétologique, diététique ou d'hygiène comme les préparations à base de DHEA, de bêta-carotène, de créatine, etc.Les préparations à base de plantes (quelle que soit leur forme : poudre, extraits secs, extrait hydro-alcoolique, etc.) </p> <p>La mélatonine en préparation magistrale : Il existe aussi des gélules fabriquées par des grossistes de pharmacien. Cette réflexion aboutit à la création du groupe de travail “préparations magistrales”, avec comme but principal la rédaction du FTM. De tabletten zijn verpakt per 30 stuks in een tablettencontainer. .�� �����?2(�(Ҹ��U 0000001689 00000 n Achat de mélatonine en France : En pharmacie d’officine : - Sur prescription médicale (préparation magistrale de gélules de mélatonine au dosage adapté au patient, CIRCADIN® 2mg LP pour les patients de plus de 55 ans présentant une insomnie primaire). h��X�n�8�>�H��H]�"�sq�n�u�[ ȃj3���Jr����)Y�%N���.A#��ϐR�q�$��b�c�L)���)�|O3�3!����	/� 40 0 obj<>/Filter/FlateDecode/ID[<06F30A76C5E9964ADB7938A77415EBC2><50A4A7D61DB3484E9E5F0ACBCE842B39>]/Index[10 58]/Info 9 0 R/Length 118/Prev 79001/Root 11 0 R/Size 68/Type/XRef/W[1 2 1]>>stream Divers aspects de la pharmacie d’officine furent examinés lors de cette conférence, entre autres la qualité et l’avenir de la préparation magistrale … 0000026093 00000 n (mise à jour au 01.2.2020 – AR 11.12.2019 – MB 15.1.2020) – La mélatonine en « préparation magistrale » (LI) : ce traitement n’est plus remboursé depuis la mise sur le marché de la mélatonine à libération prolongée (Circadin ®). 0000059766 00000 n On la trouve aujourd’hui sous forme de médicaments et compléments alimentaires. </p> <p>Mélatonine en préparation magistrale Liste II Sur prescription médicale Liste II Sur prescription médicale RTU (juillet 2015) Prescription initiale par un spécialiste en Neurologie, Pédiatrie, Psychiatrie. En pratique, c’est un médicament fabriqué par le pharmacien selon les indications d’un médecin. 0000043851 00000 n Ze hebben aan één kant een breukstreep en aan de andere kant de inscriptie ‘melatonine 5’. �}�1)|�iΤ�5�G)��d^$$��Ui��z�Ӥ�6���{�C%��&�9��vE�}�h�����C���|�C�bd2�#v�"d���I�f�`�>����#8{(?ʸ��"u�٬Ķ���+)R+y��Ee%MqXɧ��~�����i��C	��xlNna0�G�l�*L$E�D���DMa;ѧȝP�N)~'F���׫o�!t>��\������ǅ1i��b��>��� �cV���\����4y�l�z��N14���x��$�I�6�s��oP�,@���G_@�� ne sont pas pris en charge. </p> <p>                             0000069766 00000 n </p> <p>La mélatonine est une molécule en vogue dont les ventes ont bondi ces dernières années. 0000051165 00000 n L’agence du médicament recommande que toute prescription d’une préparation magistrale de mélatonine à libération immédiate soit préparée à partir de du broyat de comprimé de Circadin – La mélatonine LP, disponible dans la spécialité Circadin ® 2mg. En savoir + Accès Professionnels. 0000022820 00000 n 0000020364 00000 n %PDF-1.5%���� ... Une préparation magistrale se définit « comme tout médicament préparé au vu de la prescription destinée à un patient déterminé ».     Une préparation magistrale est remboursable si elle répond à ces 5 conditions :Les préparations magistrales réalisées avec des produits inscrits au chapitre IV sont remboursables si le patient possède une autorisation préalable du médecin-conseil de sa mutualité.Dans certains cas, le remboursement est total et le patient ne paie rien.Dans d’autres cas, le remboursement est partiel et le patient paie alors sa part personnelle (appelée ticket modérateur).Le coût total d’une préparation magistrale est la somme :Le fichier de référence est un outil de travail destiné aux pharmaciens, aux organismes assureurs et aux offices de tarification. 0000026910 00000 n 0000060335 00000 n 0000079571 00000 n 0000079946 00000 n 0000019965 00000 n %%EOF MELATONINE 5 mg tabletten zijn witte tot nagenoeg witte, ronde tabletten en 6 mm in doorsnee. </p>";s:7:"keyword";s:35:"mélatonine préparation magistrale";s:5:"links";s:9384:"<a href='https://backyard.synpat.com/site/article.php?page=nestl%C3%A9-waters-france-88a0eb'>Nestlé Waters France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-mercato-2019-2020-88a0eb'>Chelsea Mercato 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tuto-love-me-please-love-me-88a0eb'>Tuto Love Me Please Love Me</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dorian-yates-mollet-88a0eb'>Dorian Yates Mollet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=protest-songs-history-88a0eb'>Protest Songs History</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-stoke-city-fifa-20-88a0eb'>Effectif Stoke City Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=om%C3%A9ga-3-peau-s%C3%A8che-88a0eb'>Oméga 3 Peau Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ou-habite-dugarry-88a0eb'>Ou Habite Dugarry</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coupe-des-villes-de-foires-1965-1966-88a0eb'>Coupe Des Villes De Foires 1965 1966</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zodio-massy-recrutement-88a0eb'>Zodio Massy Recrutement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dimanche-soir-humour-88a0eb'>Dimanche Soir Humour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=AS-Poissy-F%C3%A9minine-88a0eb'>AS Poissy Féminine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=escape-from-tarkov-essence-88a0eb'>Escape From Tarkov Essence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=run-chanson-prank-88a0eb'>Run Chanson Prank</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A7a-balance-pas-mal-%C3%A0-paris-les-goguettes-88a0eb'>ça Balance Pas Mal à Paris Les Goguettes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kit-entrainement-foot-amazon-88a0eb'>Kit Entrainement Foot Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-chinois-%C3%A0-paris-youtube-88a0eb'>Les Chinois à Paris Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oblique-poulie-basse-88a0eb'>Oblique Poulie Basse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-new-gate-scan-1-vf-88a0eb'>The New Gate Scan 1 Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=christophe-jakubyszyn-bfm-business-88a0eb'>Christophe Jakubyszyn Bfm Business</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lor%C3%A0nt-deutsch-paris-88a0eb'>Lorànt Deutsch Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeanne-mas-et-son-mari-88a0eb'>Jeanne Mas Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=smite-thanatos-full-damage-build-88a0eb'>Smite Thanatos Full Damage Build</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eurovision-2020-romania-88a0eb'>Eurovision 2020 Romania</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thanatos-smite-skins-88a0eb'>Thanatos Smite Skins</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-acteurs-des-relations-internationales-88a0eb'>Les Acteurs Des Relations Internationales</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ouedkniss-v%C3%A9hicule-utilitaire-88a0eb'>Ouedkniss Véhicule Utilitaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandre-balkany-facebook-88a0eb'>Alexandre Balkany Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calogero-%C3%A2ge-taille-88a0eb'>Calogero âge Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beno%C3%AEt-assadi-origine-iranienne-88a0eb'>Benoît Assadi Origine Iranienne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-bfm-paris-pr%C3%A9sentatrice-88a0eb'>Météo Bfm Paris Présentatrice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-baron-rouge-textile-88a0eb'>Maison Baron Rouge Textile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-gacha-life-a%C3%AFe-a%C3%AFe-a%C3%AFe-88a0eb'>Musique Gacha Life Aïe Aïe Aïe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=c%C3%A9l%C3%A9bration-haaland-psg-88a0eb'>Célébration Haaland Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lilian-thuram-cause-88a0eb'>Lilian Thuram Cause</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9cole-de-cascadeur-montr%C3%A9al-88a0eb'>école De Cascadeur Montréal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarte-aux-pruneaux-sud-ouest-88a0eb'>Tarte Aux Pruneaux Sud-ouest</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ayoub-le-youtubeur-88a0eb'>Ayoub Le Youtubeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-guadeloupe-horaire-88a0eb'>Decathlon Guadeloupe Horaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nad%C3%A8ge-sarron-instagram-88a0eb'>Nadège Sarron Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9passer-en-anglais-wordreference-88a0eb'>Dépasser En Anglais Wordreference</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=https-www-stream-complet-vip-88a0eb'>Https Www Stream Complet Vip</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cla-1000-avis-consommateur-88a0eb'>Cla 1000 Avis Consommateur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valise-rtl-23-avril-2020-88a0eb'>Valise Rtl 23 Avril 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-de-barbie-88a0eb'>Maison De Barbie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=state-bicycle-wheels-88a0eb'>State Bicycle Wheels</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-en-suisse-synonyme-88a0eb'>Compte En Suisse Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diff%C3%A9rence-millionnaire-milliardaire-88a0eb'>Différence Millionnaire Milliardaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maddie-mackenzie-ziegler-88a0eb'>Maddie Mackenzie Ziegler</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masse-de-jupiter-88a0eb'>Masse De Jupiter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27art-de-faire-l%27amour-%C3%A0-un-homme-belinda-88a0eb'>L'art De Faire L'amour à Un Homme Belinda</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=La-table-de-9-88a0eb'>La Table De 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mister-mv-ori-88a0eb'>Mister Mv Ori</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-vestiaire-rmc-youtube-88a0eb'>Le Vestiaire Rmc Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charlotte-namura-pied-88a0eb'>Charlotte Namura Pied</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-rc-lens-2003-88a0eb'>Maillot Rc Lens 2003</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prince-youtubeur-wikip%C3%A9dia-88a0eb'>Prince Youtubeur Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-avec-le-mot-toi-88a0eb'>Chanson Avec Le Mot Toi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cm1-cm2-signification-88a0eb'>Cm1 Cm2 Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elastiband-decathlon-bleu-88a0eb'>Elastiband Decathlon Bleu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lyle-lovett-jeune-88a0eb'>Lyle Lovett Jeune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gr%C3%A9gory-galiffi-fils-de-88a0eb'>Grégory Galiffi Fils De</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ra%C3%AF-film-acteur-88a0eb'>Raï Film Acteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-interdire-88a0eb'>Synonyme De Interdire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appr%C3%A9cier-une-personne-citation-88a0eb'>Apprécier Une Personne Citation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stirling-castle-chapel-88a0eb'>Stirling Castle Chapel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-se-muscler-88a0eb'>Comment Se Muscler</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=christophe---petite-fille-du-soleil-88a0eb'>Christophe - Petite Fille Du Soleil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chantal-h%C3%A9bert-conjoint-88a0eb'>Chantal Hébert Conjoint</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicki-minaj-oo-88a0eb'>Nicki Minaj Oo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouvelles-id%C3%A9es-synonyme-88a0eb'>Nouvelles Idées Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sweet-dreams-piano-facile-88a0eb'>Sweet Dreams Piano Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%B6nchengladbach-wolfsburg-pronostic-88a0eb'>Mönchengladbach Wolfsburg Pronostic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dadju---reine-youtube-88a0eb'>Dadju - Reine Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=statue-guillaume-tell-88a0eb'>Statue Guillaume Tell</a>,
+";s:7:"expired";i:-1;}

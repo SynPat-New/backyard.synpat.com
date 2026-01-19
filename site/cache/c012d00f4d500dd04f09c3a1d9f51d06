@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6238:"<br>Get the latest working coupons and discount code delivered to your inbox.Thanks for subscribing! It, in the meantime, established an independent ecosystem around Kindle: a content platform, a publishing platform, an advertising platform and a product platform. Considering 2018-20E growth of 39.8% in Amazon’s commerce revenues versus expectations of 97.2% for Alibaba’scommerce revenues, we expect the ratio of revenues to shrink further to 12.2x by 2020.Ratio of Amazon’s to Alibaba’s cloud revenues had reached from 32.6x in 2016 to 17.5x in 2018. It doesn't sell goods directly like Amazon, but acts as … 6. But in addition to this, it barely has any other advantage.Also, it is still unknown when mature services of Amazon, like Kindle, music store and cloud computation, will enter the Chinese market and be offered through Joyo Amazon’s channel. on Wednesday, Jan. 30, 2019. Trefis is currently used by hundreds of thousands of investors, company employees, and business professionals.Opinions expressed by Forbes Contributors are their own. U.S. equivalent: Amazon, Walmart Parent company: Alibaba # of users: 454 million over all three properties — Alibaba.com, Taobao and Aliexpress. Asia is the third. It is reported that even though Amazon acquired Joyo in 2004, it did not allow Joyo Amazon to use its IT system until 2009. <br> <br>If you are speaking of the Chinese version of the Amazon-like distribution/logistics giant, it is Taobao.cn. Given Amazon’s push into advertising over recent years, we expect the ratio of revenues to reach 1.7x by 2020 in Amazon’s favor.Ratio of Amazon’s to Alibaba’s subscription revenues had reached from 6.6x in 2016 to 7.7x in 2018. <br> <br>Alibaba is often referred to as the ‘Amazon of China’ because of its growth trajectory being nearly identical to that of Amazon. Amazon.cn is a Chinese shopping website owned by Amazon.com. The platform uses extensive data to show in a single snapshot what drives the value of a company's business. Considering 2018-20E growth of 75.5% in Amazon’s cloud revenues versus expectations of 145.8% for Alibaba’s cloud revenues, we expect the ratio of revenues to reach 12.5x.Notably, Alibaba’s advertising revenues have been larger than Amazon’s over 2016-17. You can play with assumptions, or try scenarios, as-well-as ask questions to other users and experts. Unlike Amazon , Alibaba does not own most of the items sold on its platforms, it does not maintain massive distribution centers, and it has only a fraction of the 132,000 employees on Amazon… (Amazon has 65 million users who have bought Prime memberships. Amazon, which has more than 70 fulfillment centers, uses a mix of services like UPS and FedEx along with the US Postal Service, to deliver packages to … <br> <br>It even introduced itself as the Amazon of  China during its IPO in 2010. Photographer: Gilles Sabrie/Bloomberg <br> <br>Sites like eBay, Overstock, and Newegg can offer lower prices than Amazon, offer the same free 2-day shipping, and other great features, and we’ll explain how they do it. But the company does not have any advantage in logistics system and other services. I would say the equivalent to Amazon is Jing Dong they have built their own delivery service. The Alibaba Group Holdings Ltd. logo is displayed outside the company's offices in Beijing, China, Trefis attempts to answer this question by comparing the various revenue streams for Ratio of Amazon’s to Alibaba’s total revenues had reached from 14.5x in 2016 to 10.1x in 2018. I remember when I used to think free two-day shipping from Amazon Prime was cool.Products on Taobao are sold at a fixed price or by auction (not as common) from different regions of China and surrounding Chinese-speaking countries. Good return policies something those in the western world take for granted. Dangdang currently leases warehouses in 6 cities.Based on books and other publications, Amazon introduced mobile terminal Kindle, in an attempt to deliver digital contents to the hands of consumers as fast as possible. The company primarily sold books and other media goods, shipping to customers nationwide. Amazon laid the cornerstone in 1995 as an online bookstore whereas Alibaba started off its venture in 1999, nearly five years after Amazon… Click to email this to a friend (Opens in new window) They have great customer service and return policies. It does not limited its business solely to the e-commerce field. A close second will be Alibaba, which is run by Jack Ma. Facing fierce competition, Dangdang began to expand into other product categories to increase revenue. See How It’s Powering New Collaboration and What-IfsLed by MIT engineers and Wall Street analysts, Trefis (through its dashboards platform dashboards.trefis.com) helps you understand how a company's products, that youLed by MIT engineers and Wall Street analysts, Trefis (through its dashboards platform dashboards.trefis.com) helps you understand how a company's products, that you touch, read, or hear about everyday, impact its stock price. SHANGHAI CITY, China — Imagine a website where the all the millions of “made in China” products are at your fingertips . Joyo.com was founded in early 2000 by Chinese entrepreneur, Lei Jun in Beijing, China. “Somebody needs to pay for it because I don’t want to have to come back.” Then he plopped down at our kitchen table.I insisted that he call the person who ordered it and have them speak to me. <br> Alibaba débarque en Europe : le concurrent chinois d’Amazon bien parti pour se tailler une belle part de marché avec Nenad Cetkovic, Laure de Carayon, Xavier Pavie 0 2011-09-23T05:05:08Z As for the cloud computing, application platform, mobile terminal and other services that has brough major revenue for Amazon, Dangdang not even has a plan.As the Chinese subsidinary, Joyo Amazon should be the ‘Amazon of China’. <br> <br>Considering 2018-20E growth of 80.3% in Amazon’s subscription revenues (driven by the geographical expansion in Amazon Prime video offerings) versus expectations of 60.4% for Alibaba’s subscription revenues, we expect the ratio of revenues to reach 8.7x.What’s behind Trefis? ";s:7:"keyword";s:25:"chinese amazon equivalent";s:5:"links";s:5912:"<a href='https://backyard.synpat.com/site/article.php?page=gravier-grain-de-riz-blanc-88a0eb'>Gravier Grain De Riz Blanc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alcool-marrakech-ramadan-88a0eb'>Alcool Marrakech Ramadan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-dcp-l2550dw-toner-88a0eb'>Brother Dcp-l2550dw Toner</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laurence-anyways-fred-88a0eb'>Laurence Anyways Fred</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fiche-de-poste-gardien-d%27usine-88a0eb'>Fiche De Poste Gardien D'usine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-quartiers-de-la-marsa-88a0eb'>Les Quartiers De La Marsa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-reims-pas-cher-88a0eb'>Taxi Reims Pas Cher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=samsung-s21-ultra-88a0eb'>Samsung S21 Ultra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quelle-est-la-signification-du-pr%C3%A9nom-daisy-88a0eb'>Quelle Est La Signification Du Prénom Daisy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bundesliga-reprise-cha%C3%AEne-88a0eb'>Bundesliga Reprise Chaîne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=assiette-bambou-ventouse-lapin-88a0eb'>Assiette Bambou Ventouse Lapin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-2019---youtube-88a0eb'>Fort Boyard 2019 - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-types-de-ram-88a0eb'>Les Types De Ram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ibrahim-Afellay-2020-88a0eb'>Ibrahim Afellay 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=impact-native-whey-isolate-myprotein-88a0eb'>Impact Native Whey Isolate Myprotein</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=organigramme-d%27une-chaine-de-t%C3%A9l%C3%A9vision-88a0eb'>Organigramme D'une Chaine De Télévision</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gu%C3%A9ridon-restauration-d%C3%A9finition-88a0eb'>Guéridon Restauration Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nanaroscope-saison-3-88a0eb'>Nanaroscope Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=num%C3%A9ro-de-t%C3%A9l%C3%A9phone-virtuel-88a0eb'>Numéro De Téléphone Virtuel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=changer-sa-date-de-naissance-tiktok-88a0eb'>Changer Sa Date De Naissance Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exemple-de-mot-invariable-88a0eb'>Exemple De Mot Invariable</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=produit-dopant-cyclisme-achat-88a0eb'>Produit Dopant Cyclisme Achat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=garen-immortal-build-88a0eb'>Garen Immortal Build</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=leave-verbe-irr%C3%A9gulier-88a0eb'>Leave Verbe Irrégulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-baigne-film-dvd-88a0eb'>Tout Baigne Film Dvd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=buteur-euro-2000-88a0eb'>Buteur Euro 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=66-minutes-oman-88a0eb'>66 Minutes Oman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-postal-new-york-5th-avenue-88a0eb'>Code Postal New York 5th Avenue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=franchise-p%C3%A2tisserie-orientale-88a0eb'>Franchise Pâtisserie Orientale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traduction-paroles-tears-for-fears-everybody-wants-to-rule-the-world-88a0eb'>Traduction Paroles Tears For Fears Everybody Wants To Rule The World</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=garen-top-build-2019-88a0eb'>Garen Top Build 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a-ma-place-karaok%C3%A9-88a0eb'>A Ma Place Karaoké</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9capitulatif-fiscal-uber-88a0eb'>Récapitulatif Fiscal Uber</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proverbe-africain-retraite-88a0eb'>Proverbe Africain Retraite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chaussure-kappa-san-antonio-88a0eb'>Chaussure Kappa San Antonio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ligue-des-champions-2018-2019-88a0eb'>Calendrier Ligue Des Champions 2018 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-hot-dog-paris-88a0eb'>Meilleur Hot Dog Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=only-lyon-instagram-88a0eb'>Only Lyon Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=deathrun-facile-500-level-88a0eb'>Deathrun Facile 500 Level</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-meilleurs-conseils-88a0eb'>Les Meilleurs Conseils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gnomon-matte-painting-88a0eb'>Gnomon Matte Painting</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-qui-nous-lie-analyse-88a0eb'>Ce Qui Nous Lie Analyse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crossfit-movements-list-88a0eb'>Crossfit Movements List</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=glee-mercedes-and-i%27m-telling-you-88a0eb'>Glee Mercedes And I'm Telling You</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=produit-musculation-prise-de-masse-88a0eb'>Produit Musculation Prise De Masse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ballon-d%27or-2020-date-88a0eb'>Ballon D'or 2020 Date</a>,
+";s:7:"expired";i:-1;}

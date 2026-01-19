@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6065:"<br>The Game was developed by the Bungle Studio. <br> <br>Only problem is this was made with Windows &quot;Vista&quot; in mind, oh- the coder's horror of dealing with such a sluggish nightmare. [Best_Wordpress_Gallery id=”78″ gal_title=”Halo 2″]Halo 2 groß ist. Sie erreichten neue Helden – und damit – die Wechselwirkung zwischen ihnen und mehr Dialog, an denen wir teilnehmen. Nur zum Beispiel laufen bis Ghost (eine feindliche Einheit), drücken und halten Sie die “X” und der Master Chief Hüfte den Schuldigen des Sattels werfen seinen Platz nehmen. <br> <br>In diesem Sinne ist Wieder ist es nicht unüberwindbar oder unbrauchbar, aber es ist kein Picknick. Zwar fiel bereits vor einiger Zeit der Startschuss für die Testphase des Ego-Shooters Halo 2: Anniversary auf dem PC. It is part of the popular game series Halo. Dies führt zu einem Kampf mit lange verborgenen Geheimnissen, der den Verlauf des Mensch-Covenant-Konflikts auf ewig dramatisch verändern wird. <br> <br>Geliebte für das Auge, ist jedoch eine riesige Stahlspinne fremd, wo Metal Gear ist ein Spielzeug für Kinder. Sie können nur schreien “loosers” zu den Angelsachsen, der es fertig werden Sie zu lange warten und herausgezogene Schrei “heeeelp.” Schritte in dieser Situation, die den durchschnittlichen polnischen Spieler nehmen konnten, sind wie folgt: spucken und auf bessere Zeiten warten Xbox Live in der englischen Version zu kaufen und deren Herkunft schweigt wie ein Grab zu verschleiern, oder ein Minimum auswählen und offline spielen. Und die Gründe sind vielfältig. Allerdings gab es bisher keinen konkreten Release-Termin. <br> <br>Das Beste aus einer kleinen Fußnote: der Multiplayer-Option ist nur für die Abonnenten Xbox Live. This may constitute a revisit by 343i &amp;/or Gearbox with GoG. Following the destruction of Halo, humankind experiences a short-lived victory. <br> <br>Aber es ist schwer, sich wirklich für irgendetwas zu begeistern. Da die Waffe mehr ist, ist es die Kampftaktiken ändern. Werde aggressiv mit denen, die jemand hat! Halo 2 schon in diesem Moment brach alle Rekorde und Bungie und seine reichsten der Welt Verlag Schmelze in Dollar. In der Offline-Version ist Halo 2 keineswegs ein schlechtes Spiel. Danach wird das Basisgebäude, ein Grundnahrungsmittel des RTS Genres, genau hier mit einem Kartenspiel, das auf dem Schlachtfeld gespielt wird, komplett geändert. Halo 2 PC Gratuit jeux Télécharger. PC Kostenlos Halo Wars 2 leistet einen erstklassigen Beitrag, um sicherzustellen, dass Konsolenspieler das RTS Genre genießen können, und möglicherweise gibt es hier wirklich eine Reihe von Inhalten. Surtout, acte très difficile à suivre. Ich habe dieses heilige Recht, denn Halo ist derzeit der zweitbeste Schieß Xbox. Daher wirst du im Laufe des Spiels langsam Kraft aufbauen! GoG should add Halo 2, make it more user friendly across all or if not most OS's &amp; add the usual GoG Premium deal. The game … Natürlich ist der Kern das gleiche – ausgezeichnet und kompromisslose Schießen fpp.Nach dem Prinzip, dass Team ändert sich nicht gewinnen, indem man zu ihm eine Reihe von Verbesserungen und Innovationen Bungie nicht weit von der ursprünglichen einfach weg. Demnach ist für die PC-Version von Halo 2: Anniversary im Rahmen der Master Chief Collection ein global gleichzeitiger Launch geplant. Halo 2: Anniversary comes to PC as the next installment in Halo: The Master Chief Collection. Halo 2 jeux la suite tant attendue de l’un des premiers tireurs individuels les plus appréciés et les plus influents jamais créés! Wenn mit schwereren Motoren unseres Helden zu tun auf der Motorhaube, Rüstung Faustschlag springen kann (indem Sie die Taste schnell “B” drücken) und eine Granate im Inneren abzureißen die Maschine vollständig zu werfen. Heureusement, il est construit sur des fondations aussi solides à leur arrivée.  <br>Platziert eine starke Betonung auf die Geschichte – Missionen nicht mehr starr aufgeteilt, und zwar dort, dass aus einem einzigen Raum ähnlich ist, in Ebenen unterteilt, dann haben wir eine vollständige und kohärente Geschichte. Wenn es um die Optionen und Modelle des Spiels kommt, ist das Spiel ungewöhnlich umfangreich , und daher ist die Reihenfolge, lassen Sie uns von der grundlegenden Einzelspieler -Kampagne starten. Ein Normal ist es nicht besonders schwierig -. Es wird nicht überraschen, wenn Sie sagen, dass der Krieg zwischen den Kräften des Bundes alien (Der Bund) und die Menschheit bewegt sich unter Erde (wir erwähnt dies mehrmals in Pre-Release-Material). Mehr, natürlich, ich nicht sagen, dopowiadając nur das überrascht ist viel mehr. <br> <br>In Es ist jedoch eine großartige Idee und eine mögliche Gelegenheit für Gamer, die die Basiskontrolle ausfindig machen und einen zu einschüchternden Teil der Befehle erstellen. Cnet telecharger halo 2 pc 01net. Zum Beispiel, zermalmeWeisen Sie sie auf das Gelände, um mit feindlichen Schiffen zu kämpfen. Die Möglichkeit, andere Waffen, die dramatisch das Spiel ändert sich – zumal die Feuerkraft zu erhöhen, den Chef Meister halten, was muss zugeben, macht das Spiel ein wenig leichter. <br> <br>Le succès du jeu s’est transformé en écrivain pré-ordonné. Nicht genug hat die gleiche Plasmagewehr und Schrotflinte – Sie brauchen ein bisschen mehr zu kombinieren, was ein großes Plus ist. Unglaubliches Spie...© Copyright 2020, Spiele-Pc-herunterladen All Rights Reserved Xbox Live offiziell Polen gab es nicht, und nicht für uns banal Text von “Dogs” durch Voice-Chat zu schreien. TÉLÉCHARGER HALO 2 PC 01NET GRATUIT - Retrouvez le monde de Halo sur votre PC! <br> <br>Its first Microsoft version of this game was developed by Microsoft Game Studios known as Hired Gun released on 31 May 2007. Erlebe die jetzt für den PC optimierte Rückkehr des Master Chief auf die Erde, um die Covenant-Invasion zu verhindern. <br> Now optimized for PC, experience the impeccably remastered edition of the original Halo 2 game. 28 December 2019. <br>";s:7:"keyword";s:17:"halo 2 pc gratuit";s:5:"links";s:6148:"<a href='https://backyard.synpat.com/site/article.php?page=la-fureur-rediffusion-88a0eb'>La Fureur Rediffusion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-rework-votes-88a0eb'>Lol Rework Votes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9atine-prise-de-poids-88a0eb'>Créatine Prise De Poids</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Olivier-Dion-photoshoot-88a0eb'>Olivier Dion Photoshoot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-expression-corporelle---youtube-88a0eb'>Musique Expression Corporelle - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pneu-firestone-multihawk-2-avis-88a0eb'>Pneu Firestone Multihawk 2 Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=couteau-london-pradel-88a0eb'>Couteau London Pradel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dernier-album-michel-delpech-88a0eb'>Dernier Album Michel Delpech</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=messi-iniesta-xavi-88a0eb'>Messi Iniesta Xavi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-custom-escape-from-tarkov-88a0eb'>Carte Custom Escape From Tarkov</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bossa-nova-connue-88a0eb'>Bossa Nova Connue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=don-t-want-synonym-88a0eb'>Don T Want Synonym</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brandon-lee-mort-88a0eb'>Brandon Lee Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quel-genre-de-gar%C3%A7on-es-tu-88a0eb'>Quel Genre De Garçon Es-tu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tibo-inshape-max-88a0eb'>Tibo Inshape Max</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-sur-la-solitude-88a0eb'>Film Sur La Solitude</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sous-la-pluie-88a0eb'>Sous La Pluie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jersey-tissu-pas-cher-88a0eb'>Jersey Tissu Pas Cher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=deathrun-facile-500-level-88a0eb'>Deathrun Facile 500 Level</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=challenge-instagram-2020-confinement-88a0eb'>Challenge Instagram 2020 Confinement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brentford-vs-barnsley-chaine-astra-88a0eb'>Brentford Vs Barnsley Chaine Astra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=totem-immunit%C3%A9-koh-lanta-achat-88a0eb'>Totem Immunité Koh Lanta Achat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=HOTEL-RED-FOX4%2C0%28587%29%C3%80-1%2C1%C2%A0km3%E2%80%AF304%C2%A0UAH-88a0eb'>HOTEL RED FOX4,0(587)À 1,1 km3 304 UAH</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-heure-de-diffusion-88a0eb'>Koh Lanta Heure De Diffusion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mets-y-le-paquet-2019-88a0eb'>Mets-y Le Paquet 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=techniques-d%27influence-en-communication-88a0eb'>Techniques D'influence En Communication</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valouzz-minecraft-mcdo-88a0eb'>Valouzz Minecraft Mcdo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-poulet-2020-88a0eb'>Musique Poulet 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=new-yorker-commander-en-ligne-88a0eb'>New Yorker Commander En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=abs-on-fire-traduction-88a0eb'>Abs On Fire Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mairie-chambourcy-passeport-88a0eb'>Mairie Chambourcy Passeport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quel-%C3%A2g%C3%A9-a-le-fils-de-polnareff-88a0eb'>Quel âgé A Le Fils De Polnareff</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mon-fils-ma-bataille-partition-piano-88a0eb'>Mon Fils Ma Bataille Partition Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comparateur-prix-chanel-n%C2%B05-88a0eb'>Comparateur Prix Chanel N°5</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=20-minutes-koh-lanta-88a0eb'>20 Minutes Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=heures-de-pri%C3%A8re-montbazon-2020-88a0eb'>Heures De Prière Montbazon 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tibo-inshape-max-88a0eb'>Tibo Inshape Max</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shaker-pas-cher-decathlon-88a0eb'>Shaker Pas Cher Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-perpignan-horaires-88a0eb'>Decathlon Perpignan Horaires</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mallorca-barcelona-0-4-88a0eb'>Mallorca Barcelona 0 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avoir-du-cran-en-anglais-88a0eb'>Avoir Du Cran En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baker-street-film-88a0eb'>Baker Street Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-justathlete-88a0eb'>Code Promo Justathlete</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=duo-aaron-dernier-album-nom-88a0eb'>Duo Aaron Dernier Album Nom</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ballon-d%27or-2014-classement-88a0eb'>Ballon D'or 2014 Classement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=baptiste-hugues-ferrari-88a0eb'>Baptiste Hugues Ferrari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bagarre-lyonnais-st%C3%A9phanois-88a0eb'>Bagarre Lyonnais Stéphanois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-fils-de-bruce-lee-88a0eb'>Le Fils De Bruce Lee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Tour-du-monde-des-concepts-88a0eb'>Tour Du Monde Des Concepts</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,134 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:7334:"<p>0. La technique joue en outre sur l’effet de contraste : par comparaison avec la première demande, la seconde apparaît bien plus engageante que si elle avait été directement formulée. C’est la technique utilisée au moment de Noël, lorsque les pompiers, les éboueurs et les facteurs passent vendre leur calendrier : « Les personnes donnent en général 10 €… mais vous êtes libre de donner ce que vous voulez… » C’est difficile de donner moins de 10 €, et ils repartent souvent avec plus ! De la même manière, la possibilité de se rétracter et de retourner l’objet est un facteur qui accroît le chiffre d’affaires. Dans les négociations, la règle est toujours de demander un peu plus (ou beaucoup plus) que ce que l’on compte obtenir… Et, le plus souvent, on l’obtient ! </p> <p>Elle consiste à obtenir un comportement préparatoire peu coûteux et librement consenti, qui influencera notablement les comportements ultérieurs.En management, nous pouvons aussi utiliser cette technique pour aider un collaborateur à adopter des comportements qui ne lui sont pas naturels et auxquels il ne pense pas pouvoir parvenir. </p> <p>L’expérimentation de ces techniques vous permet de tester leur force, et de les débusquer lorsqu’elles sont utilisées à votre égard. — Ah bon, tu es sûr ? ; L'avion électrique à décollage vertical conçu par la Suisse prend son envol Bug dans la politique environnementale : les leçons de la crise de la betterave Marc Lavoine se marie; La fille de Mick Jagger s'éprend du fils de Marc Levy, Blanche Gardin d'une star américaine; Jean Dujardin se saisit des fesses de Nathalie, Baptiste Giabiconi expose les siennes; Charlene de Monaco traverse la Méditerranée à véloInspirés par Star Wars, des scientifiques ont créé une peau artificielle révolutionnaire Michelle Obama confie souffrir d'une "légère dépression"La morphologie des dingos, des chiens sauvages d’Australie, a fortement évolué au cours des 80 dernières années, les pesticides seraient en cause notammentFrance Télévisions : confirmation de l'arrêt de France Ô "à compter du 23 août", la fin de France 4 est reportée d'un an Liban : retrouvez l’intégralité de la conférence de presse d’Emmanuel Macron à BeyrouthDans les rues de Beyrouth, Emmanuel Macron a entendu la colère du peuple libanaisEmmanuel Macron est arrivé au Liban pour coordonner et participer à l’aide internationale Un homme violemment agressé dans une laverie pour avoir demandé de porter un masqueA quoi ressemblait la terre d’Israël au temps de JésusComment la Russie moderne est-elle entrée dans le Concert des nations ? Vous devez être abonné pour suivre un auteur. Consultant formateur au CSP depuis 15 ans, il conçoit et anime de nombreux séminaires en management, et assure des missions de coaching et de team building dans les... de choix. L’enseigne a réalisé une vente à bon compte !          »Le risque de cette technique est que la personne accepte la première étape, mais pas les suivantes. Vous vous dîtes la plupart du temps : « Bon, j’ai fait tout ce chemin, c’est quand même bête de repartir bredouille… de toute façon, j’ai besoin de ce produit… » Et vous achetez un produit similaire mais à un prix supérieur ! «Vos abonnements garantissent notre indépendance» Il peut cependant se ménager lui-même une marge de manoeuvre en débutant la négociation par une demande artificielle, inacceptable par l’acheteur : par exemple, exiger des délais de paiement très courts. L’influence est devenue en quelques années l’objet principal des actions de communication. Mettre en place une veille efficace. Utiliser les bons mots, un ton et un débit appropriés sont des atouts essentiels pour une communication orale pertinente et efficace, notamment en périodes délicates.     Au téléphone, en face à face, en réunion ou lors d'une présentation, ce livre vous donne toutes les clefs pour toucher à la fois la raison et le cœur de vos interlocuteurs. Elle se sentira d’autant plus engagée qu’elle aura elle-même formulé son plan d’action. Lorsqu’un commercial ne dispose d’aucune marge de manoeuvre, la discussion peut rapidement se transformer en rapports de force et guerre de tranchées ! Toujours en vertu du principe de cohérence, l’individu aura tendance à ne pas revenir sur sa décision, même une fois qu’il en connaîtra le coût réel : il est très difficile de revenir sur une décision déjà prise, même si entre-temps la situation a changé : « Bon, tant pis, allons-y ! «Vos abonnements garantissent notre indépendance» </p> <p>Voici les 8 techniques les plus importantes selon moi pour accroître de façon spectaculaire votre pouvoir d’influence :[amazon_link asins=’2764023065,2253061204,2253081477,2080687107,2253176974′ template=’ProductCarousel’ store=’panier-21′ marketplace=’FR’ link_id=’38263a95-10d4-11e7-8dc9-b98b0e0bd135′]Déterminez quels sont ses objectifs personnels et ce qui lui procure du plaisir et du sens en réfléchissant non pas par rapport à votre propre référentiel mais par rapport au sien.Même quand les résultats ne sont pas au rendez-vous, efforcez vous de trouver le positif, encouragez la personne sur les qualités qu’elle a démontré et critiquez de manière constructive ses actions / sa démarche.Mettez votre égo au placard quelques instants et faites en sorte que même la meilleure des idées semble venir de celui que vous souhaitez amener à la mettre en œuvre. </p> <p>          Lorsqu’on s’appuie sur les qualités de l’autre pour lui demander quelque chose, la confiance en soi est renforcée, et l’envie de rendre service également.La technique de la porte dans le nez est ancestrale : elle consiste à formuler une demande impossible à satisfaire pour en proposer ensuite une seconde, plus raisonnable – qui représente ce que l’on veut vraiment obtenir. Sachez solliciter la générosité, le patriotisme, ou encore la compassion de vos interlocuteurs – vous donnerez ainsi du sens à leur action. En plus, tu es l’homme de la situation. — Vraiment, vous êtes sympa ! Tu es le seul qui puisse nous parler de ton sujet… — Bon, bon, d’accord, tu peux compter sur moi. — Pas de problème ! </p> <p>Bâtir une stratégie d’influence. Au téléphone, en face à face, en réunion ou lors d'une présentation, ce livre vous donne toutes les clefs pour toucher à la fois la raison et le cœur de vos interlocuteurs. Ce serait sympa si tu pouvais… prendre en charge l’animation de cette réunion de 14 heures à 16 heures. Quoi qu’il arrive, même s’il sent que vous l’avez manoeuvré, il faut qu’il y gagne !Un prospectus vante les mérites d’un produit avec un prix très attractif… Voilà l’affaire !   Philippe Lebreton, Master PNL, certifié MBTI, est formé à l'Approche Systémique. « Ne perdez plus votre temps à faire la queue aux cabines d’essayage : vous avez la possibilité de ramener les vêtements dans un délai d’une semaine. En revanche, si votre demande a été bénéfique à l’autre personne, il ne vous en voudra pas de l’avoir « drivé », au contraire. «Vos abonnements garantissent notre indépendance» </p>";s:7:"keyword";s:39:"techniques d'influence en communication";s:5:"links";s:9816:"<a href='https://backyard.synpat.com/site/article.php?page=valouzz-maroc-3-88a0eb'>Valouzz Maroc 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-italien-l%C3%A9gende-88a0eb'>Joueur Italien Légende</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lady-gaga-a-yo-video-88a0eb'>Lady Gaga A-yo Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=larry-concert-paris-88a0eb'>Larry Concert Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=margau-la-voix-canada-88a0eb'>Margau La Voix Canada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vacances-romaines-histoire-88a0eb'>Vacances Romaines Histoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-grand-angle-pour-nikon-d3200-88a0eb'>Objectif Grand Angle Pour Nikon D3200</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pourquoi-big-ben-est-c%C3%A9l%C3%A8bre-88a0eb'>Pourquoi Big Ben Est Célèbre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renard-empaill%C3%A9-%C3%A0-vendre-88a0eb'>Renard Empaillé à Vendre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=one-day-kodaline-traduction-88a0eb'>One Day Kodaline Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-joueur-de-l%27histoire-du-fc-barcelone-88a0eb'>Meilleur Joueur De L'histoire Du Fc Barcelone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandra-rosenfeld-twitter-88a0eb'>Alexandra Rosenfeld Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-guide-culinaire-escoffier-occasion-88a0eb'>Le Guide Culinaire Escoffier Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avez-vous-des-nouvelles-sur-ce-sujet-88a0eb'>Avez-vous Des Nouvelles Sur Ce Sujet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=starter-choke-position-88a0eb'>Starter Choke Position</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boisson-minceur-pharmacie-88a0eb'>Boisson Minceur Pharmacie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cela-impact-ou-impact%C3%A9-88a0eb'>Cela Impact Ou Impacté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charli-xcx-charli-xcx-charli-xcx-88a0eb'>Charli Xcx Charli Xcx Charli Xcx</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fr%C3%A8res-de-saint-jean-scandale-88a0eb'>Frères De Saint-jean Scandale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-hybride-trek-88a0eb'>Vélo Hybride Trek</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=listen-to-my-heart-episode-1-88a0eb'>Listen To My Heart Episode 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9ranger-quelqu%27un-synonyme-88a0eb'>Déranger Quelqu'un Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-generation-musique-88a0eb'>Beat Generation Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soprano-duo-2020-88a0eb'>Soprano Duo 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-fitness-boutique-juin-2020-88a0eb'>Code Promo Fitness Boutique Juin 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=causerie-derby-foot-88a0eb'>Causerie Derby Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-seul-au-monde-chanson-88a0eb'>Tout Seul Au Monde Chanson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=portugal-euro-2020-maillot-88a0eb'>Portugal Euro 2020 Maillot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vaiana%2C-en-streaming-complet-vf-88a0eb'>Vaiana, En Streaming Complet Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creatine-toute-l%27ann%C3%A9e-88a0eb'>Creatine Toute L'année</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sanda-self-defense-88a0eb'>Sanda Self Defense</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-ch%27tis-a-mykonos-clash-kelly-et-christopher-88a0eb'>Les Ch'tis A Mykonos Clash Kelly Et Christopher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cgv-nrj-2020-88a0eb'>Cgv Nrj 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hack-fortnite-skin-88a0eb'>Hack Fortnite Skin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-nessay-telephone-88a0eb'>Le Nessay Telephone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-naturaliste-88a0eb'>Appareil Photo Naturaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lamb-en-anglais-88a0eb'>Lamb En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mourir-aupr%C3%A8s-de-mon-amour-karaoke-88a0eb'>Mourir Auprès De Mon Amour Karaoke</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=darling-ch%C3%A9rie-th%C3%A9%C3%A2tre-88a0eb'>Darling Chérie Théâtre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=halo-beyonc%C3%A9-signification-88a0eb'>Halo Beyoncé Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=to-listen-traduction-88a0eb'>To Listen Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sony-a6300-france-88a0eb'>Sony A6300 France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-pour-maigrir-femme-88a0eb'>Protéine Pour Maigrir Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=13-f%C3%A9vrier-1988-88a0eb'>13 Février 1988</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ilot-koh-lanta-nouvelle-cal%C3%A9donie-88a0eb'>Ilot Koh Lanta Nouvelle-calédonie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-licence-pro-e-commerce-88a0eb'>Lettre De Motivation Licence Pro E-commerce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mohamed-koh-lanta-2020-88a0eb'>Mohamed Koh Lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9er-un-bulletin-de-note-avec-excel-88a0eb'>Créer Un Bulletin De Note Avec Excel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Great-Cumberland-Place-Hotel3%2C7%2811%29%C3%80-0%2C4%C2%A0km1%E2%80%AF869%E2%80%AF923%C2%A0IDR-88a0eb'>Great Cumberland Place Hotel3,7(11)À 0,4 km1 869 923 IDR</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minecraft-dans-la-vraie-vie-adam-88a0eb'>Minecraft Dans La Vraie Vie Adam</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aigle-cam%C3%A9ra-embarqu%C3%A9e-duba%C3%AF-88a0eb'>Aigle Caméra Embarquée Dubaï</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fat-burner-naturel-88a0eb'>Fat Burner Naturel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bandes-dessin%C3%A9es-ann%C3%A9es-60-70-88a0eb'>Bandes Dessinées Années 60-70</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=entreprise-en-redressement-judiciaire-59-88a0eb'>Entreprise En Redressement Judiciaire 59</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=image-ath%C3%A9na-d%C3%A9esse-grecque-88a0eb'>Image Athéna Déesse Grecque</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chat-highland-prix-88a0eb'>Chat Highland Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bd-fugue-annecy-88a0eb'>Bd Fugue Annecy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=apple----wikip%C3%A9dia-88a0eb'>Apple -- Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=norman-le-talisman-88a0eb'>Norman Le Talisman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-vestiaire-rmc-youtube-88a0eb'>Le Vestiaire Rmc Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=halo-theme---piano-88a0eb'>Halo Theme - Piano</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-conf%C3%A9rence-est-88a0eb'>Classement Conférence Est</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=entra%C3%AEneur-%C3%A9quipe-de-france-88a0eb'>Entraîneur équipe De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=morgan-int%C3%A9rim-lille-88a0eb'>Morgan Intérim Lille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Zineb-El-Rhazoui-dessin-88a0eb'>Zineb El Rhazoui Dessin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karine-sliz-compagnon-88a0eb'>Karine Sliz Compagnon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magma-discographie-wikip%C3%A9dia-88a0eb'>Magma Discographie Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m-moustache-bonnegueule-88a0eb'>M Moustache Bonnegueule</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-guide-culinaire-escoffier-occasion-88a0eb'>Le Guide Culinaire Escoffier Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=senna-lol-universe-88a0eb'>Senna Lol Universe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-v%C3%A9lo-%C3%A9lectrique-bromont-88a0eb'>Location Vélo électrique Bromont</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-duo-88a0eb'>Pékin Express Duo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-sauce-barbecue-88a0eb'>Meilleur Sauce Barbecue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-n%27est-rien-qu%27un-au-revoir-88a0eb'>Ce N'est Rien Qu'un Au Revoir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-give-blue-essence-88a0eb'>Lol Give Blue Essence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-34b---astotel-paris-tripadvisor-88a0eb'>Hôtel 34b - Astotel Paris Tripadvisor</a>,
+";s:7:"expired";i:-1;}

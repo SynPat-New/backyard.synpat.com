@@ -1,0 +1,152 @@
+# =====================================================
+# Environment / secrets / server-specific
+# =====================================================
+.env
+.env.*
+newrelic.ini
+.ftpquota
+
+# =====================================================
+# Logs / runtime data
+# =====================================================
+*.log
+php_errorlog
+logs/
+tmp/
+temp/
+trash/
+
+# =====================================================
+# Node / JS dependencies
+# =====================================================
+node_modules/
+
+# =====================================================
+# PHP dependencies (Composer)
+# =====================================================
+vendor/
+
+# =====================================================
+# Generated / large data files
+# =====================================================
+charts.json
+*.json.bak
+
+# =====================================================
+# Queues / runtime jobs
+# =====================================================
+*_queue.php
+*_queue.php*
+gmail_queue.php
+
+# =====================================================
+# Backup / archive / old files
+# =====================================================
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.orig
+*old*
+*backup*
+
+# =====================================================
+# Test / debug / experimental files
+# =====================================================
+test/
+test_*.php
+test_*.html
+test*.txt
+test*.js
+
+# =====================================================
+# Temporary / editor junk
+# =====================================================
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================================================
+# Uploads / generated content
+# =====================================================
+public/uploads/
+site/uploads/
+
+# =====================================================
+# Git safety
+# =====================================================
+**/.git
+
+
+# =====================================================
+# HUGE generated / runtime directories (CRITICAL)
+# =====================================================
+tmp/
+trash/
+# Ignore everything by default
+public/*
+# ---- Allow source / frontend assets ----
+!public/assets/
+!public/views/
+!public/js-core/
+!public/js-init/
+!public/themes/
+!public/elements/
+!public/widgets/
+!public/icons/
+!public/svg_icons/
+!public/helpers/
+!public/snippets/
+!public/frontend-elements/
+!public/clusterize/
+!public/handsontable/
+!public/handsontable_pro/
+!public/handsontable_pro_v6/
+!public/image-resources/
+!public/images/
+!public/audio/
+!public/bootmodal/
+!public/family/
+!public/session/
+
+# Allow files inside allowed folders
+!public/assets/**
+!public/views/**
+!public/js-core/**
+!public/js-init/**
+!public/themes/**
+!public/elements/**
+!public/widgets/**
+!public/icons/**
+!public/svg_icons/**
+!public/helpers/**
+!public/snippets/**
+!public/frontend-elements/**
+!public/clusterize/**
+#!public/handsontable/**
+#!public/handsontable_pro/**
+!public/handsontable_pro_v6/**
+!public/image-resources/**
+!public/images/**
+!public/audio/**
+!public/bootmodal/**
+!public/family/**
+!public/session/**
+
+# ---- Explicitly ignore huge runtime folders ----
+public/upload/
+public/upload.back/
+public/temp/
+
+
+# =====================================================
+# Application runtime / vendor junk
+# =====================================================
+application/cache/
+application/logs/
+application/third_party/
+

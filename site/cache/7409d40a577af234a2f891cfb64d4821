@@ -1,0 +1,136 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5946:"<br>The number is a separate issue to the logo.“The number is not important. Wayne Rooney sous le maillot de Derby County. … <br> Par Joffrey Pointlane. <br> <br>Wayne Rooney préfère jouer avec son pied right. Wayne Rooney (ENG) joue actuellement en Championship avec Derby County. “Thankfully I managed to pay up what I lost and I didn’t gamble again. 04/03/2020 à 23:08 | Mis à jour 05/03/2020 à 16:45 @Eurosport_FR.  Capitaine pour ses débuts, il délivre une passe décisive et son équipe l'emporte 2-1 [29]. Autant de points de repère pour dissiper les doutes de son manager, et renforcer sa capacité à performer rapidement avec Derby. Son numéro de maillot est le 32.Les statistiques et les statistiques de carrière de Wayne Rooney, sa note en direct, sa Heatmap et les moments forts vidéo peuvent être disponible sur SofaScore … You can unsubscribe at any time. The move was also condemned by the Church of England.At the time, 32Red insisted the deal complied with FA regulations and a spokesman said: “As Wayne Rooney said himself during his press conference, the squad number means nothing. Crédit: Getty Images. Other experts said Derby, Rooney and 32Red were exploiting a loophole in the law. The former Manchester United and England midfielder made 24 appearances for Derby this season, scoring six goals and crafting two assists. Après avoir touché du doigt l’espoir de monter à l’étage supérieur, sous l’égide de Frank Lampard, ils ont été défaits par Aston Villa en finale de play-offs.Il fallait donc bien l’arrivée de l’une des plus grandes stars du football anglais contemporain pour égayer et rallumer la flamme d’une saison morose sur le plan sportif. © 2020 JPIMedia Publications Ltd. 									24 oct. 1985																			(34) Crédit: Getty Images. Voici l'historique des numéros portés par Wayne Rooney du club Derby County. 																	 “You’re there to play for your country or club and when you’re losing money the way I was then it will affect you,” he said, in a video he and 32Red made to promote responsible gambling ahead of his debut as part of the Stay in Control campaign. Sometimes they’ll include recommendations for other related newsletters or services we offer. <br> <br> <br>Par Joffrey Pointlane. Treizièmes de Championship, les Rams ont réalisé un exercice 2018-2019 finalement décevant. “On the back of Wayne joining the club, we have just been offered a record-breaking sponsorship deal with our principal shirt sponsor, 32Red.”Derby announced the signing on Twitter with a short video heavily promoting the fact Rooney was wearing the number 32, despite the fact it seemingly has no relevance to his career and that shirt numbers 7, 12, 13, 15 and 18, the latter of which he wore when he broke through at Everton as a teenager, were also available.The video included several references to the #WR32 hashtag the club created to mark the news. ... Wayne Rooney The legendary striker has been criticised for wearing the number 32 in association with betting firm 32 Red. Une performance très positive pour Rooney, sur un plan statistique donc, mais également sur un plan physique. Rooney sait qu’une nouvelle belle aventure commence au pays. I’ve learned from my mistakes. Historique des numéros de maillots en équipe nationale				 <br> <br>C’est pourquoi il n’a pas tardé à leur montrer ce qu’il avait encore de plus beau dans les pieds, pour la réception de Barnsley le 2 janvier dernier et son retour sur les prés anglais. The move attracted fierce criticism last summer when it was claimed the bookmakers were essentially funding the player’s transfer after he agreed an 18-month deal to become player-coach at the club.Rooney is said to be earning around £90,000 per week, considerably more than the average Championship player. 								Milieu offensif                             <br> <br>It repeatedly appeared alongside 32Red’s logo.FA rules state that gambling sponsor logos must not appear on kits or training clothes for children, but this appears to have been circumvented by ensuring that Rooney’s No 32 – the same number in Derby’s gambling sponsor’s name – will appear on the back of children’s shirts, many of whom will idolise the striker.Clubs’ Under 18 players are also not allowed to have any gambling sponsors on their shirts or training kits.The FA also has strict regulations about the size of advertising logos allowed on adult shirts, and the governing body were urged by anti-gambling campaigners to investigate the Rooney deal to determine whether the shirt number constituted an advert for the online casino.It is, however, extremely difficult to prove a direct link between Rooney being allocated the number 32 shirt and the sponsors 32Red.The Rooney deal, which cost in total around £7.8million, was described as “very crafty” by the sports minister Nigel Adams. <br> <br>L'international anglais de … Other players also wear the number in the Championship – 32Red don’t have a trademark on the number 32.”Rooney, 34, was named captain by Derby manager Phillip Cocu and has played three times for Derby, twice in the Championship and once in the FA Cup, since he switched from Major League Soccer side DC United.The former England and Manchester United striker even admitted he suffered from his own gambling problems earlier in his career. Derby County will not face action over Wayne Rooney’s No 32 shirt number Exclusive: Despite accusations of ‘crafty’ tie-in with club sponsor 32Red, the FA says move does not contravene its rules Trois buts, deux passes décisives en Championnat, et une influence indéniable sur le jeu des Rams, mais pas seulement. <br> <br>À savoir Le désormais capitaine rend surtout bien des services sur le rectangle vert, dans une position d’organisateur de jeu, à la fois meneur de jeu et relayeur. <br>";s:7:"keyword";s:27:"derby county maillot rooney";s:5:"links";s:9938:"<a href='https://backyard.synpat.com/site/article.php?page=jade-leboeuf-mariage-88a0eb'>Jade Leboeuf Mariage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mari%C3%A9-olivier-delacroix-femme-88a0eb'>Marié Olivier Delacroix Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-femme-2020-88a0eb'>Nike Femme 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rencontrer-squeezie-2019-88a0eb'>Rencontrer Squeezie 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-buteur-de-la-bundesliga-88a0eb'>Meilleur Buteur De La Bundesliga</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sephora-goignan-wikip%C3%A9dia-88a0eb'>Sephora Goignan Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-de-pois-gourmands-%C3%A0-la-proven%C3%A7ale-88a0eb'>Recette De Pois Gourmands à La Provençale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vitamine-b12-vente-libre-88a0eb'>Vitamine B12 Vente Libre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=La-Part-du-soup%C3%A7on-88a0eb'>La Part Du Soupçon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-tant-que-grammaire-88a0eb'>En Tant Que Grammaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Beth-Summoners-War-88a0eb'>Beth Summoners War</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acdc-if-you-want-blood-full-album-88a0eb'>Acdc If You Want Blood Full Album</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Drapeau-Maroc-Alg%C3%A9rie-88a0eb'>Drapeau Maroc Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maroc-afrique-du-sud-foot-88a0eb'>Maroc Afrique Du Sud Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Speaker-Corner-Londres-88a0eb'>Speaker Corner Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-pluie-d%C3%A9finition-88a0eb'>La Pluie Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-crow-film-complet-youtube-88a0eb'>The Crow Film Complet Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=macron-salon-agriculture-figurants-88a0eb'>Macron Salon Agriculture Figurants</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=visite-cave-beaujolais-88a0eb'>Visite Cave Beaujolais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tycoon-starmania-youtube-88a0eb'>Tycoon Starmania Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=antonin-avis-pr%C3%A9nom-88a0eb'>Antonin Avis Prénom</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kays-ruiz-p%C3%A8re-88a0eb'>Kays Ruiz Père</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vincent-roux-nantes-88a0eb'>Vincent Roux Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=antonyme-de-solitaire-88a0eb'>Antonyme De Solitaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mc-guillaume-album-88a0eb'>Mc Guillaume Album</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quel-%C3%A2ge-%C3%A0-la-femme-de-michel-leeb-88a0eb'>Quel âge à La Femme De Michel Leeb</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caisse-enregistreuse-saguenay-88a0eb'>Caisse Enregistreuse Saguenay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=student-accommodation-dundee-88a0eb'>Student Accommodation Dundee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chien-%C3%A0-vendre-%C3%A9levage-88a0eb'>Chien à Vendre élevage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eminem-stepdad-%28traduction%29-88a0eb'>Eminem Stepdad (traduction)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Drapeau-%C3%AEles-Salomon-88a0eb'>Drapeau îles Salomon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bon-anniversaire-chlo%C3%A9-88a0eb'>Bon Anniversaire Chloé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ruined-king-a-league-of-legends-story-release-date-88a0eb'>Ruined King A League Of Legends Story Release Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-bal-des-laze-karaok%C3%A9-88a0eb'>Le Bal Des Laze Karaoké</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-pour-sauver-la-plan%C3%A8te-2019-88a0eb'>Chanson Pour Sauver La Planète 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elptoo-io-ashford-88a0eb'>Elptoo Io Ashford</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-la-manic-88a0eb'>Youtube La Manic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=slogan-fast-food-francais-88a0eb'>Slogan Fast Food Francais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=premiers-pas-dans-la-gendarmerie-streaming-88a0eb'>Premiers Pas Dans La Gendarmerie Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-retrait-image-google-88a0eb'>Demande Retrait Image Google</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27homme-le-plus-puissant-du-monde-2019-88a0eb'>L'homme Le Plus Puissant Du Monde 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=site-maillot-de-foot-pas-cher-avis-88a0eb'>Site Maillot De Foot Pas Cher Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-super-film-88a0eb'>Un Super Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sorties-rer-la-d%C3%A9fense-88a0eb'>Sorties Rer La Défense</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zaz-effet-miroir-88a0eb'>Zaz Effet Miroir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=couple-tag-questions-88a0eb'>Couple Tag Questions</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-le-monde-a-son-mot-%C3%A0-dire-1er-avril-2020-88a0eb'>Tout Le Monde A Son Mot à Dire 1er Avril 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=am%C3%A9liorer-sa-concentration-au-quotidien-88a0eb'>Améliorer Sa Concentration Au Quotidien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=queen%27s-university-of-belfast-88a0eb'>Queen's University Of Belfast</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=to-bail-meaning-88a0eb'>To Bail Meaning</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-du-sport-tous-les-2-jours-88a0eb'>Faire Du Sport Tous Les 2 Jours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fabrice-drouelle-jeune-88a0eb'>Fabrice Drouelle Jeune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=el-hikma-horaire-pri%C3%A8re-2020-88a0eb'>El Hikma Horaire Prière 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-granby-bromont-88a0eb'>Vélo Granby Bromont</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liste-des-%C3%A9motions-positives-88a0eb'>Liste Des émotions Positives</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=my-mum-anthony-browne-song-88a0eb'>My Mum Anthony Browne Song</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Aline-de-P%C3%A9tigny-88a0eb'>Aline De Pétigny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-sigma-10-20-pour-canon-88a0eb'>Objectif Sigma 10-20 Pour Canon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=index-d%27%C3%A9volution-ims-definition-88a0eb'>Index D'évolution Ims Definition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nana-lorenzo-feat-88a0eb'>Nana Lorenzo Feat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-et-vacances-le-crotoy-booking-88a0eb'>Pierre Et Vacances Le Crotoy Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=image-minecraft-creeper-88a0eb'>Image Minecraft Creeper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quand-sortent-les-escargots-88a0eb'>Quand Sortent Les Escargots</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moussa-l%27africain-carte-88a0eb'>Moussa L'africain Carte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alice-notting-hill-88a0eb'>Alice Notting Hill</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-belgique-2018-but-minute-88a0eb'>France Belgique 2018 But Minute</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kebou-ma-manette-88a0eb'>Kebou Ma Manette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eafit-br%C3%BBleur-graisse-88a0eb'>Eafit Brûleur Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a-ma-place-karaok%C3%A9-88a0eb'>A Ma Place Karaoké</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adidas-chatelet-4-rue-berger-88a0eb'>Adidas Chatelet 4 Rue Berger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-gruffalo-anglais-88a0eb'>The Gruffalo Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remi-gaillard-pacman-88a0eb'>Remi Gaillard Pacman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-de-soci%C3%A9t%C3%A9-les-myst%C3%A8res-de-p%C3%A9kin-88a0eb'>Jeu De Société Les Mystères De Pékin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=flex-wheeler-comeback-88a0eb'>Flex Wheeler Comeback</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=corentin-tolisso-et-sandra-88a0eb'>Corentin Tolisso Et Sandra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pour-la-peau-d%27un-flic-film-streaming-88a0eb'>Pour La Peau D'un Flic Film Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Programme-TV-demain-soir-88a0eb'>Programme TV Demain Soir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-witcher-3%3A-wild-hunt-switch-88a0eb'>The Witcher 3: Wild Hunt Switch</a>,
+";s:7:"expired";i:-1;}

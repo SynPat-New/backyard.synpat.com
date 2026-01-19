@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5962:"<p>Dans la version studio, le capodastre est positionnée en case 3 et en live, il passe en case 2.Les accords sont au nombre de cinq : Sol, Ré, Do, Mi mineur et La mineur.D'autres chansons de Goldman sont accessibles aux débutants et notamment : Bien sûr, il y a bien d'autres chansons françaises faciles à jouer pour un débutant. Apprenez ensuite à faire la transition entre chaque partie apprise.La chanson est basée sur 6 accords : Ré mineur, Fa, Do, Si bémol sus2, Do sus2, La.L'introduction est facile et réalisée en arpège et vous trouverez la partition guitare facilement sur internet pour Le pont peut poser quelques problèmes mais avec un peu de travail, vous devriez y arriver !D'autres morceaux de Cabrel sont accessibles pour les débutants : A la main gauche, il faudra apprendre 4 accords : Mi mineur, Ré majeur, Do majeur, Sol majeur et à la main droite, 2 rythmiques.C'est une chanson très rythmée et facile à apprendre.Sortie en 1964 sur le dixième album de Brassens, cette chanson était destinée au film d'Yves Robert, intitulé tout simplementMême si ce morceau n'est pas compliqué en soi, il faut tout de même faire attention à la mélodie complexe, au rythme et au changement de tonalité. </p> <p>En version Club retrouvez des arrangements complets en vidéos. </p> <p>Sélection de chansons faciles à jouer à la guitare pour débutant. </p> <p>Dans cet article, vous allez découvrir comment jouer 7 chansons faciles en arpege Arpege guitare : Top 7 des chansons faciles Pourquoi choisir entre accords et mélodie, les arpèges sont piles entre les deux! Parfois, ce sera seulement l'intro, l'arpège ou le riff qui sera à votre niveau mais ne désespérez pas. Laissez-le de côté et revenez-y lorsque votre niveau sera meilleur.N'apprenez pas le morceau d'un bloc : découpez-le en plusieurs petites parties (intro, couplet, refrain, solo...). Issue de l'album Un samedi soir sur la Terre sorti en 1994, ce morceau est un monument de la chanson française. </p> <p>Chansons simples sans accords barrés.. </p> <p>"Depuis le temps que je patiente dans cette chambre noire, j'entends qu'on s'amuse et qu'on chante au bout du couloir. Tuto pour apprendre toutes les techniques, rythmiques et arpèges guitare pour accompagner de sans Solfège sans lecture de notes et sans Prise de Tête. A chaque semaine, une nouvelle chanson facile à jouer. </p> <p>C'est un excellent moyen d'apprendre le C'est un titre pop rock dont la structure rythmique est en 4/4. Vous trouverez également les tablatures guitare assez facilement.  On entend même les Quelles sont les chansons les plus facile à la guitare ?Toutes les chansons présentes dans cet article sont destinées à un public débutant. Mais débutant ne veut pas dire que toutes les chansons sont de même niveau.Il existe une palette étendue de différents niveaux débutant : du parfait débutant qui commence à peine d'apprendre les bases de la guitare à celui qui a déjà une petite collection d'accords guitare pour s'amuser un peu plus.Dans tous les cas, les morceaux proposés restent très accessibles pour pouvoir s'éclater. [ 25 avril 2020 ] QUIZ – Les Modes de la Gamme Majeure Quizzes [ 14 avril 2020 ] Dictées de Rythme – Niveau 17 Dictées de Rythme (Mesures Binaires) [ 14 avril 2020 ] Dictées de Rythme (Ternaire) – Niveau 4 Dictées de Rythme (Mesures Ternaires) Elle a été traduite dans plusieurs langues et s'est vendue à plus de 200 000 exemplaires.Les paroles, en apparence anodines, font référence à la libération sexuelle des femmes à l'époque.Pour l'anecdote, lors de l'enregistrement, c'est le grand guitariste Jimmy Page qui joue la partie instrumentale.Vous pouvez aussi vous initier au groupe Téléphone avec les morceaux Sortie en 1997 sur le premier album du groupe, la chanson possède un refrain répétitif et une partie au violon.A la guitare folk ou à la guitare classique, elle contient 5 accords, quasiment que des barrés : Sol dièse mineur, Si majeur, Do dièse mineur, Fa dièse majeur et La.La rythmique à la main droite n'est pas très dure mais elle est vive, ayez le poignet souple !Vous pouvez même reprendre l'intro au violon à la guitare, avec le tuto de Chanson écrite et composée par Goldman, elle est sortie en 1997 sur l'album La seule partie compliquée est le pont qui comporte des accords barrés. C'est une critique ferme de la corrida. Le plus compliqué demeure dans la main droite au D'autres chansons de Johnny sont bien sûr accessibles pour les apprentis guitaristes comme Sortie en 1966, cette chanson est une satire du mode de vie bourgeois. C'est la première chanson interprétée par Jacques Dutronc. TOP 10 - Chanson facile à apprendre à la guitare Si vous avez déjà décidé que vous étiez une rock star, ou que vous avez décidé d' apprendre à jouer de la guitare pendant vos loisirs, vous réaliserez que manipuler cet instrument n'est pas aussi simple que de jouer sur le jeu Guitar Hero. </p> <p>Partitions et tablatures guitare de variété française. Sa tonalité est en Mi mineur.D'autres chansons de Damien Saez sont accessibles pour les débutants et notamment Chanson française de 1961, c'est une adaptation du chant de marins C'est la chanson indispensable des veillées au coin du feu !Trois accords pour la main gauche : Mi mineur, Ré majeur et La mineur et potentiellement deux rythmiques possibles.D'autres chansons d'Aufray accessibles aux débutants : La rythmique de l'enregistrement de base est en La bémol majeur mais cela demande de changer l'accordage de toutes vos Pas très pratique ! Elle s'est écoulée à plus de 100 000 exemplaires.La chanson est assez facile à apprendre puisqu'elle ne comporte que Pour apprendre à chanter en même temps que vous jouez de la guitare, cela peut être un bon morceau également !La première chanson de Polnareff est sortie en 1966 et a remporté un franc succès rapidement. </p>";s:7:"keyword";s:33:"chanson guitare facile française";s:5:"links";s:6336:"<a href='https://backyard.synpat.com/site/article.php?page=V%C3%A9ronique-Cloutier-Instagram-88a0eb'>Véronique Cloutier Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faux-diamant-synonyme-88a0eb'>Faux Diamant Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fat-burner-naturel-88a0eb'>Fat Burner Naturel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=erika-moulet-lci-88a0eb'>Erika Moulet Lci</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9sum%C3%A9-euro-2000-88a0eb'>Résumé Euro 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%AApe-legere-dukan-88a0eb'>Crêpe Legere Dukan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bodybuilder-fran%C3%A7ais-mort-88a0eb'>Bodybuilder Français Mort</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pigalle-paris-store-88a0eb'>Pigalle Paris Store</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-relaxante-b%C3%A9b%C3%A9-dodo-88a0eb'>Musique Relaxante Bébé-dodo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=othon-1er-de-germanie-88a0eb'>Othon 1er De Germanie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A9g%C3%A9-koh-lanta-2011-88a0eb'>Gégé Koh Lanta 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%D8%A7%D9%8A%D9%86-%D9%8A%D9%84%D8%B9%D8%A8-%D9%81%D9%88%D8%B2%D9%8A-%D8%B4%D8%A7%D9%88%D8%B4%D9%8A-88a0eb'>اين يلعب فوزي شاوشي</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rabat-marrakech-train-temps-88a0eb'>Rabat Marrakech Train Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vente-d%27animaux-naturalis%C3%A9s-88a0eb'>Vente D'animaux Naturalisés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Billet-PSG-Nantes-88a0eb'>Billet PSG Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-opening-scenes-in-cinema-88a0eb'>Best Opening Scenes In Cinema</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rouler-sans-bouchon-liquide-de-refroidissement-88a0eb'>Rouler Sans Bouchon Liquide De Refroidissement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=douglas-booth-couple-88a0eb'>Douglas Booth Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=faire-du-sport-tous-les-2-jours-88a0eb'>Faire Du Sport Tous Les 2 Jours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=des-sauvages-pocahontas-88a0eb'>Des Sauvages Pocahontas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancake-compote-sans-oeuf-88a0eb'>Pancake Compote Sans Oeuf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ghislain-Printant-jeune-88a0eb'>Ghislain Printant Jeune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=subsequent-meaning-in-arabic-88a0eb'>Subsequent Meaning In Arabic</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vrais-mercato-de-chelsea-88a0eb'>Vrais Mercato De Chelsea</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charles-magnien-bourdin-88a0eb'>Charles Magnien Bourdin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-tanger-med-88a0eb'>Taxi Tanger Med</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adaptations-de-superman-%C3%A0-l%C3%A9cran-88a0eb'>Adaptations De Superman à Lécran</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=livre-swan-et-n%C3%A9o-amazon-88a0eb'>Livre Swan Et Néo Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bonjour-en-fleurs-88a0eb'>Bonjour En Fleurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%A9bergeur-certifi%C3%A9-hds-88a0eb'>Hébergeur Certifié Hds</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=deepl-extension-chrome-88a0eb'>Deepl Extension Chrome</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-real-story-of-pocahontas-88a0eb'>The Real Story Of Pocahontas</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-site-officiel-88a0eb'>Chelsea Site Officiel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=farine-de-sorgho-biocoop-88a0eb'>Farine De Sorgho Biocoop</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gr%C3%A9goire-gorge-delachaux-88a0eb'>Grégoire Gorge Delachaux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=formation-webmaster-sans-bac-88a0eb'>Formation Webmaster Sans Bac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acacia-albida-pdf-88a0eb'>Acacia Albida Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arr%C3%AAter-de-fumer-effet-88a0eb'>Arrêter De Fumer Effet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-totale-ou-whey-88a0eb'>Protéine Totale Ou Whey</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-fait-maison-88a0eb'>Whey Fait Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Le-roi-lion-guitare-facile-88a0eb'>Le Roi Lion Guitare Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romane-serda-%C3%A2g%C3%A9-88a0eb'>Romane Serda âgé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-meilleur-supporter-foot-2019-france-88a0eb'>Classement Meilleur Supporter Foot 2019 France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cuisine-inox-et-bois-ikea-88a0eb'>Cuisine Inox Et Bois Ikea</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-marianne-%C3%A9tait-jolie-explication-88a0eb'>Que Marianne était Jolie Explication</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-corrig%C3%A9-indice-base-100-88a0eb'>Exercice Corrigé Indice Base 100</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-jobs-france-88a0eb'>Amazon Jobs France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=steve-garrigan-wife-88a0eb'>Steve Garrigan Wife</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=billet-fc-porto-monaco-88a0eb'>Billet Fc Porto Monaco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27habit-ne-fait-pas-le-moine-en-arabe-88a0eb'>L'habit Ne Fait Pas Le Moine En Arabe</a>,
+";s:7:"expired";i:-1;}

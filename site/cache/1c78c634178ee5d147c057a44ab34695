@@ -1,0 +1,123 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4677:"L'épidémie du coronavirus n'épargne pas la France.               Vitaa et Slimane de retour avec le clip de Pas Beaux, ils demandent à des invités très spéciaux de tourner avec eux               Les Enfoirés 2020 : Après Black M, une célèbre chanteuse française rejoint la troupe « Les premiers concerts de Christophe Maé sont maintenus car ils sont d'une capacité inférieure à 5000 spectateurs, détaille Pierre-Alexandre Vertadier, patron de la Décibels Production. Aucune date n'a été transmise pour l'instant. Achetez vos places pour Slimane au meilleur prix sur Fnac Spectacles, leader de la billetterie en France. Tournée de Slimane et Vitaa : finalement, aucun concert ne sera annulé !              En effet, ce samedi 29 février, le préfet de l'Oise a annoncé l'interdiction tout rassemblement collectif sur l’ensemble du département, suite à la propagation du nouveau coronavirus. Retrait gratuit en magasin, paiement sécurisé, e-ticket. Slimane et Vitaa reportent le Versus Tour en septembre. Suite à l’arrêté du 9 mars 2020 publié par le Ministère des Solidarités et de la Santé portant sur les diverses mesures relatives à la lutte contre la propagation du virus covid-19 et interdisant notamment les rassemblements simultanés de plus de 1000 personnes sur le territoire national jusqu’au 15 avril 2020, Olympia Production, Play Two, Cornolti Production, Indifference Prod et Noé Music se voient dans l’obligation de reporter la tournée de Vitaa et Slimane dans le cadre du VersuS Tour.Suite à l’arrêté du 9 mars 2020 publié par le Ministère des Solidarités et de la Santé portant sur les diverses mesures relatives à la lutte contre la propagation du virus covid-19 et interdisant notamment les rassemblements simultanés de plus de 1000 personnes sur le territoire national jusqu’au 15 avril 2020, Olympia Production, Play Two, Cornolti Production, Indifference Prod et Noé Music se voient dans l’obligation de reporter la tournée de Vitaa et Slimane dans le cadre du VersuS Tour.Le concert prévu le Mercredi 8 Avril est donc reporté au Jeudi 22 Octobre 2020.Les billets achetés restent valables pour cette nouvelle date.Nous invitons les personnes ne pouvant se rendre aux concerts reportés à se rapprocher de leur point de vente jusqu’au 9 juin pour un remboursement.                            Vitaa et Slimane : Après le coup de gueule de la chanteuse contre l'annulation de leurs concerts, elle annonce une bonne nouvelle L'événement est annulé : comment me faire rembourser une commande de billets physiques ou billetcollector ?               Vitaa et Slimane : Une date de concert reportée, seront-ils contraints d'annuler leur tournée ? Disponible uniquement sur les pages programmes pour le moment. En cas d'annulation d'une manifestation sans date de report, vous pouvez bien entendu vous faire rembourser vos billets (à l'exclusion des frais annexes tels que par exemple les frais d'envoi, d'assurance ou de Billetcollector™).              Choisissez les meilleures places avec le Plan de Salle Interactif, avis et video Prix 36.00€ au 22 oct. 2020.         Vous devez être connecté pour poster un commentaire       Vitaa et Slimane : Une date de concert reportée, seront-ils contraints d'annuler leur tournée ?               Vitaa et Slimane de retour avec le clip de Pas Beaux, ils demandent à des invités très spéciaux de tourner avec eux « Les premiers concerts de Christophe Maé sont maintenus car ils sont d'une capacité inférieure à 5000 spectateurs, détaille Pierre-Alexandre Vertadier, patron de la Décibels Production. Vitaa revient ensuite sur les émotions traversées ces derniers jours. " Vitaa & Slimane sera en concert à Nice du 8 avr. Suite aux annonces du gouvernement, les concerts, spectacles et festivals subissent des annulations ou … Bonne nouvelle : ils ont tous été reprogrammés en septembre et octobre prochains ! Vitaa : Vitaa et Slimane sont obligés d'annuler leurs concerts pour éviter la propagation du Coronavirus en France et sur Twitter, la chanteuse a poussé un coup de gueule.        ; Le groupe Tryo a annoncé sur Europe 1 le report du concert prévu le 13 mars à l'AccorHotels Arena de Paris. Publié par Marjorie R. le 3 mars 2020 à 14h00 . Le concert de Slimane et Vitaa annulé. Dans le contexte épidémique lié au coronavirus, après l'interdiction des rassemblements de 5 000, puis de 1 000 et enfin 100 personnes, tous les concerts ont été annulés et/ou reportés. Dans la lutte contre la propagation du virus Covid-19, tous les concerts de Vitaa et Slimane en mars et avril ont été annulés. ";s:7:"keyword";s:28:"concert slimane nice annulé";s:5:"links";s:8434:"<a href='https://backyard.synpat.com/site/article.php?page=alice-braga-fortune-88a0eb'>Alice Braga Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=modifier-param%C3%A8tre-twitter-contenu-offensant-88a0eb'>Modifier Paramètre Twitter Contenu Offensant</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-chelsea-2019-88a0eb'>Maillot Chelsea 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=instagram-ruby-nikara-88a0eb'>Instagram Ruby Nikara</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=love-the-way-you-are-film-88a0eb'>Love The Way You Are Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=influenceuse-duba%C3%AF-arr%C3%AAt%C3%A9e-88a0eb'>Influenceuse Dubaï Arrêtée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-n%27est-rien-qu%27un-au-revoir-88a0eb'>Ce N'est Rien Qu'un Au Revoir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-carri%C3%A8re-manager-club-88a0eb'>Fifa 20 Carrière Manager Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gianni-bruno-sofifa-88a0eb'>Gianni Bruno Sofifa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-aller-%C3%A0-la-ligne-sur-twitter-iphone-88a0eb'>Comment Aller à La Ligne Sur Twitter Iphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brother-dcp-9020cdw-cartouche-88a0eb'>Brother Dcp-9020cdw Cartouche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soin-de-visage-naturel-pour-peau-noire-88a0eb'>Soin De Visage Naturel Pour Peau Noire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chute-de-la-maison-usher-film-1928-88a0eb'>La Chute De La Maison Usher Film 1928</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=want-preterit-negatif-88a0eb'>Want Preterit Negatif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=totally-accurate-battle-simulator-license-key-88a0eb'>Totally Accurate Battle Simulator License Key</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=listen-to-the-music---traduction-88a0eb'>Listen To The Music - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dean-lewis-waves-official-video-88a0eb'>Dean Lewis Waves Official Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-pbe-tft-88a0eb'>Lol Pbe Tft</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeanne-mas-et-son-mari-88a0eb'>Jeanne Mas Et Son Mari</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Commerce-ext%C3%A9rieur-Br%C3%A9sil-88a0eb'>Commerce Extérieur Brésil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lac-de-constance-carte-88a0eb'>Lac De Constance Carte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cocotte-procook-avis-88a0eb'>Cocotte Procook Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-respect-aretha-franklin-88a0eb'>Paroles Respect Aretha Franklin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gil-vicente-bilhetes-88a0eb'>Gil Vicente Bilhetes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=skyfall---piano-accompaniment-88a0eb'>Skyfall - Piano Accompaniment</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=darren-tulett-pes-88a0eb'>Darren Tulett Pes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-joyce---astotel-88a0eb'>Hotel Joyce - Astotel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anne-hidalgo-salaire-88a0eb'>Anne Hidalgo Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elodie-la-villa-des-coeurs-bris%C3%A9s-instagram-88a0eb'>Elodie La Villa Des Coeurs Brisés Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9v%C3%A8nements-%C3%A0-venir-%C3%A0-s%C3%A3o-paulo-88a0eb'>évènements à Venir à São Paulo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-eat-avis-livreur-88a0eb'>Uber Eat Avis Livreur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carri%C3%A8re-de-mouen-tarif-88a0eb'>Carrière De Mouen Tarif</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=expos%C3%A9-sur-l%27environnement-en-anglais-88a0eb'>Exposé Sur L'environnement En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jiangsu-suning-maillot-88a0eb'>Jiangsu Suning Maillot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=base-qui-sert-de-support-5-lettres-88a0eb'>Base Qui Sert De Support 5 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-naturaliste-88a0eb'>Appareil Photo Naturaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gym-direct-abdos-intense-88a0eb'>Gym Direct Abdos Intense</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carlisle-united-shop-88a0eb'>Carlisle United Shop</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-bastia-1978-88a0eb'>Maillot Bastia 1978</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-g%C3%A9n%C3%A9rique-bfmtv-2020-88a0eb'>Musique Générique Bfmtv 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pancakes-patate-douce-88a0eb'>Pancakes Patate Douce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cylia-%3A-signification-88a0eb'>Cylia : Signification</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Erza-Fort-Boyard-88a0eb'>Erza Fort Boyard</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-fou-de-vous-paroles-88a0eb'>Je Suis Fou De Vous Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=homme-possessif-et-contr%C3%B4leur-88a0eb'>Homme Possessif Et Contrôleur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-saison-10-vietnam%3A-episode-7-88a0eb'>Koh Lanta Saison 10 Vietnam: Episode 7</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lucky-luke-%28g%C3%A9n%C3%A9rique%29-88a0eb'>Lucky Luke (générique)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Erza-Fort-Boyard-88a0eb'>Erza Fort Boyard</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tuto-guitare---high-voltage-88a0eb'>Tuto Guitare - High Voltage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jordy-burrows-age-88a0eb'>Jordy Burrows Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=electrode-slendertone-pas-cher-88a0eb'>Electrode Slendertone Pas Cher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paroles-space-oddity-88a0eb'>Paroles Space Oddity</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pet-peeve---traduction-88a0eb'>Pet Peeve - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thefitfeline-blog-brownie-proteine-88a0eb'>Thefitfeline Blog Brownie Proteine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=liste-personnage-marvel-88a0eb'>Liste Personnage Marvel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=solitude-homme-50-ans-88a0eb'>Solitude Homme 50 Ans</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boulangerie-l%27artisan-nantes-video-88a0eb'>Boulangerie L'artisan Nantes Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=elodie-fr%C3%A9g%C3%A9-fran%C3%A7oise-fr%C3%A9g%C3%A9-88a0eb'>Elodie Frégé Françoise Frégé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-regarder-un-film-en-streaming-gratuit-sans-inscription-2020-88a0eb'>Comment Regarder Un Film En Streaming Gratuit Sans Inscription 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tri-et-van-88a0eb'>Tri Et Van</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-mots-bleus-%28reprise%29-88a0eb'>Les Mots Bleus (reprise)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=auxiliaire-de-vie-suisse-salaire-88a0eb'>Auxiliaire De Vie Suisse Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ismaily-Sporting-Club-88a0eb'>Ismaily Sporting Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-photo-naturaliste-88a0eb'>Appareil Photo Naturaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=squatter-traduction-arabe-88a0eb'>Squatter Traduction Arabe</a>,
+";s:7:"expired";i:-1;}

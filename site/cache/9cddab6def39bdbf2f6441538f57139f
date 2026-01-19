@@ -1,0 +1,123 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4899:"<br>Découvrez sans attendre d’autres règles d’orthographe : merci de vos explications  pourriez vous me donner le distinction entre le passé simple et le passé composé avec ses valeurs et le temps utilisé après  quoiqueMerci, excellent ces exercices après les exemples, ils contribuent à facilité la compréhension.Explications très claires et enrichissantes. Votre carte de crédit est un outil essentiel pour établir votre cote de crédit, cote de crédit dont vous aurez besoin pour acheter une voiture ou une maison ou pour louer un appartement. Il est également possible de dire « peu importe ce que l’on a mangé », non ?Choisissez la bonne réponse parmi les propositions suivantes :C'est un homme élégant, ____ parfois un peu vulgaire.Choisissez la bonne réponse parmi les propositions suivantes :Mon amie, ____ d'une grande aide pour mes devoirs de mathématiques, n'est vraiment pas bonne en français ! Demandez une meilleure affaire et, si vous ne la trouvez pas à votre banque, magasinez ailleurs.Deux : Tout le monde devrait avoir un compte de chèques et au moins un compte d'épargne à intérêt élevé, sinon plus. Join Rob Carrick and Roma Luciw on Un : Votre banque n’est pas votre amie. Quand il arrive, il ne te voit pas. Je vais quelque part. var select={root:".js-sub-pencil",control:".js-sub-pencil-control",open:"o-sub-pencil--open",closed:"o-sub-pencil--closed"},dom={},allowExpand=!0;function pencilInit(o){var e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];select.root=o,dom.root=document.querySelector(select.root),dom.root&&(dom.control=document.querySelector(select.control),dom.control.addEventListener("click",onToggleClicked),setPanelState(e),window.addEventListener("scroll",onWindowScroll),dom.root.removeAttribute("hidden"))}function isPanelOpen(){return dom.root.classList.contains(select.open)}function setPanelState(o){dom.root.classList[o?"add":"remove"](select.open),dom.root.classList[o? : - Q1: Tu as rendez-vous avec un ami. Voici deux vidéos récapitulatives :Il se fit un instant de silence, et une voix dit en bon français, Entre le neveu de Rameau et les « conquérants du xxe siècle, Byron et Shelley se battent déjà, La société des châteaux est ce qu’on trouve un peu partout en France. <br> <br>Te cacher dans un buisson en attendant le bon moment, Lui cacher les yeux en disant 'c'est qui ? Envie d’en savoir plus ? <br> If you are looking to give feedback on our new site, please send it along to  To view this site properly, enable cookies in your browser. This translation has been automatically generated and has not been verified for accuracy. Il ne faut donc pas écrire « quoique », mais « quoi que ». Bonne lecture !Toujours un doute ? Je connais quelqu'un ici ! Read our Please log in to listen to this story. <br> <br>La différence entre « quoique » et « quoi que » en français est subtile. Prenez l’initiative dans vos relations avec elle. Règle 2 : « quoi que » est un pronom signifiant « quelle que soit la chose qui, quelle que soit la chose que ». "remove":"add"](select.closed),dom.control.setAttribute("aria-expanded",o)}function onToggleClicked(){var l=!isPanelOpen();setPanelState(l)}function onWindowScroll(){window.requestAnimationFrame(function() {var l=isPanelOpen(),n=0===(document.body.scrollTop||document.documentElement.scrollTop);n||l||!allowExpand?n&&l&&(allowExpand=!0,setPanelState(!1)):(allowExpand=!1,setPanelState(!0))});}pencilInit(".js-sub-pencil",!1); // via darwin-bg var slideIndex = 0; carousel(); function carousel() { var i; var x = document.getElementsByClassName("subs_valueprop"); for (i = 0; i < x.length; i++) { x[i].style.display = "none"; } slideIndex++; if (slideIndex> x.length) { slideIndex = 1; } x[slideIndex - 1].style.display = "block"; setTimeout(carousel, 2500); } The Zero Canada Project provides resources to help you make the most of staying home.  <br>Voici dans cet article quelques astuces pour ne plus confondre quoi que et quoique.  Sandro quitte Koh Lanta, éliminé par la tribu et trahi par son alliée Clémentine. Faux. <br> <br>For more information on our commenting policies and how our community-based moderation works, please read our © Copyright 2020 The Globe and Mail Inc. All rights reserved. Mais « bien que me réserve l’avenir, je l’accepterai » n’a pas de sens. Il faut écrire : Quoi que me réserve l’avenir, je l’accepterai. je ne sais pas quoi te dire expr (je ne sais pas quoi te répondre) I don't know what else to say to you, I don't know what else I can say to you expr expression: Prepositional phrase, adverbial phrase, or other phrase or expression--for example, "behind the times," "on your own." TOP 10 des citations quoi que (de célébrités, de films ou d'internautes) et proverbes quoi que classés par auteur, thématique, nationalité et par culture. <br>";s:7:"keyword";s:38:"au bouchon gourmand tremblay en france";s:5:"links";s:8018:"<a href='https://backyard.synpat.com/site/article.php?page=comment-ma%C3%AEtriser-un-sujet-88a0eb'>Comment Maîtriser Un Sujet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kayak-belgique-vols-88a0eb'>Kayak Belgique Vols</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-invincibles-youtube-88a0eb'>Les Invincibles Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-cab-toulouse-88a0eb'>Le Cab Toulouse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-s%C3%A9lection---tome-5-poche-88a0eb'>La Sélection - Tome 5 Poche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=logo-vendredi-tout-est-permis-88a0eb'>Logo Vendredi Tout Est Permis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9vocation-de-l%27offre-88a0eb'>Révocation De L'offre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-om-3-1-88a0eb'>Psg Om 3-1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-voyage-autour-du-monde-88a0eb'>Chanson Voyage Autour Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trop-petit-synonyme-88a0eb'>Trop Petit Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=russian-bear-10000-prix-tunisie-88a0eb'>Russian Bear 10000 Prix Tunisie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=publicit%C3%A9-sur-twitch-88a0eb'>Publicité Sur Twitch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=julie-secret-story-5-88a0eb'>Julie Secret Story 5</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=desafinado-la-boite-a-chanson-88a0eb'>Desafinado La Boite A Chanson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jimmy-corrigan-bd-88a0eb'>Jimmy Corrigan Bd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sofiane-%28star-academy-instagram%29-88a0eb'>Sofiane (star Academy Instagram)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=samsung-s21-ultra-88a0eb'>Samsung S21 Ultra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vid%C3%A9o-brawl-stars-combat-88a0eb'>Vidéo Brawl Stars Combat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thilo-kehrer-papa-88a0eb'>Thilo Kehrer Papa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=t2r-bye-bye-88a0eb'>T2r Bye Bye</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tondue-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Tondue Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=castelmoron-d%27albret-histoire-88a0eb'>Castelmoron D'albret Histoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carr%C3%A9-herm%C3%A8s-occasion-ebay-88a0eb'>Carré Hermès Occasion Ebay</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fils-de-pierre-perret-88a0eb'>Fils De Pierre Perret</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-cycle-1-88a0eb'>Blog Cycle 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Samir-Denis-Brogniart-88a0eb'>Samir Denis Brogniart</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avec-quoi-prendre-la-cr%C3%A9atine-88a0eb'>Avec Quoi Prendre La Créatine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=1minute2rap-parole-blc-88a0eb'>1minute2rap Parole Blc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=g%C3%A9raldine-muhlmann-age-88a0eb'>Géraldine Muhlmann Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-fatale-d%C3%A9finition-88a0eb'>Femme Fatale Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tableau-naruto-akatsuki-88a0eb'>Tableau Naruto Akatsuki</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crossfit-open-2020-88a0eb'>Crossfit Open 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=didier-deschamps-reportage-88a0eb'>Didier Deschamps Reportage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aurore-%7C-disney-88a0eb'>Aurore | Disney</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karl-et-moi-extrait-88a0eb'>Karl Et Moi Extrait</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dernier-%C3%A9pisode-glee-88a0eb'>Dernier épisode Glee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-eos-250d-prix-88a0eb'>Canon Eos 250d Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=volcan-eyjafjallaj%C3%B6kull-2010-88a0eb'>Volcan Eyjafjallajökull 2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=escape-from-tarkov-essence-88a0eb'>Escape From Tarkov Essence</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lorient-nancy-train-88a0eb'>Lorient Nancy Train</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-cauet-babychoufamily-88a0eb'>Twitter Cauet Babychoufamily</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crocodile-dundee-1-film-complet-fran%C3%A7ais-88a0eb'>Crocodile Dundee 1 Film Complet Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zara-home-italie-88a0eb'>Zara Home Italie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-devenir-miss-ado-88a0eb'>Comment Devenir Miss Ado</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=table-de-multiplication-vierge-%C3%A0-imprimer-pdf-88a0eb'>Table De Multiplication Vierge à Imprimer Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-ramadan-2020-974-88a0eb'>Fin Ramadan 2020 974</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pas-vain-synonyme-88a0eb'>Pas Vain Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fm-2020-update-database-88a0eb'>Fm 2020 Update Database</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mes-fraises-ont-disparu-88a0eb'>Mes Fraises Ont Disparu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=influenceuse-am%C3%A9ricaine-youtube-88a0eb'>Influenceuse Américaine Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyril-schreiner-tiktok-88a0eb'>Cyril Schreiner Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9finition-de-temps-en-temps-88a0eb'>Définition De Temps En Temps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arr%C3%AAter-de-fumer-effet-88a0eb'>Arrêter De Fumer Effet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-vall%C3%A9e-de-la-peur-sherlock-holmes-88a0eb'>La Vallée De La Peur Sherlock Holmes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-music-player-android-2020-88a0eb'>Best Music Player Android 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-chelsea-2019-88a0eb'>Maillot Chelsea 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-paris-adresse-88a0eb'>Twitter Paris Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=devils-don-t-fly-nightcore-88a0eb'>Devils Don T Fly Nightcore</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-batterie-master-blaster-88a0eb'>Partition Batterie Master Blaster</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-pour-devenir-auxiliaire-de-pu%C3%A9riculture-88a0eb'>Lettre De Motivation Pour Devenir Auxiliaire De Puériculture</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maison-de-Michel-Platini-88a0eb'>Maison De Michel Platini</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9zie-et-jonathan-88a0eb'>Pézie Et Jonathan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cct-vaud-2019-88a0eb'>Cct Vaud 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-onche-wiki-88a0eb'>Jean Onche Wiki</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=psg-dortmund-streaming-fr-88a0eb'>Psg Dortmund Streaming Fr</a>,
+";s:7:"expired";i:-1;}

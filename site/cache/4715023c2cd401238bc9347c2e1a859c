@@ -1,0 +1,80 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5112:"Paroles de Au temps où les abbés. Il arrive aussi qu’Alain rajoute des lignes à mes textes. Nougaro m’a dit un jour « si tu joues les rimes, il faut les jouer à fond », et il avait raison. Cela arrive que deux personnes à 6000km l’un de l’autre aient la même idée presque en même temps… Je voulais la proposer à Catherine Deneuve qui l’aimait beaucoup mais je suis tombé malade pendant dix ans. <br> <br>Chaque fois qu’il chante « Casablanca » sur scène, il me vire une de mes lignes pour rajouter une nouvelle à lui. On a fini la chanson dans la soirée. <br> <br>""On avait fait « Seul dans ton coin, il attendait que je l’appelle. Et l’inverse non plus. Je lui ai dit « Je suis prêt », il m’a dit « Cela tombe bien, je suis libre ». On se connaît depuis qu’elle faisait des chansons avec Julien. Sortie lundi 12 mai. ""Jouer me manquait vraiment beaucoup. <br> <br>"Je pensais la faire à trois, avec Zachary Richard et puis il est parti en tournée ultra-mondiale... dans sa province qui fait 30km de long, et puis il a un caractère de cochon. Depuis Villon, Du Bellay, Ronsard  jusqu’à Gainsbourg en passant Shakespeare. ""Dans mon cas, l’indice est la rapidité avec laquelle je l’écrit. <br> <br>David McNeil revient, jazz, blues, folk et classique en bandoulière, chante avec Charlebois, Souchon, sur le temps et les femmes qui passent. J’attends le soir tard, je parle beaucoup et avec quelques poisons, la voix est là. <br> <br>Depuis longtemps, Jean-Michel Boris (l'ancien directeur de la salle, ndlr) me demandait de venir à l’Olympia. C’est ensuite de la patience, de la technique.  <br>"Dites-nous s'il a enfin fini son disque en duo avec Laurent Voulzy ? Tourner avec eux et les entendre tordre une chanson suivant l’humeur du soir, me faisait toucher leur âme. "Il est assez grand, je crois que vous l’avez constaté, pour écrire de très belles chansons tout seul. J’aime la musique parce que c’est collectif. Paroles de Chuck berry strikes again. Dans la chanson, j’attends qu’un mec ou une fille nous dise à moi et à toute la bande: « Allez prendre votre retraite à l’Hôtel California, on vous paye le mini-bar, merci beaucoup et au revoir  ». On ne fait pas rimer « infini » avec « nuit », ce n’est pas joli. Quand j’ai appris qu’ils allaient le démonter pour le reconstruire un peu plus loin, je me suis dépêché. "L’album « Seul dans ton coin » a été bien reçu par la presse et les gens qui me suivent depuis longtemps, mais il n’a pas eu l’écho que j’espérais. <br> <br>Quand on commence à la travailler et la retravailler, c’est mauvais signe. Le Forestier était dans le désert. David McNeil revient, ... je n’avais pas encore les paroles mais le solo de violon de Lockwood est celui de 1991. "(2) Fameuse professeure de chant qui a travaillé avec la moitié des artistes francophones... "Un lézard en septembre" (Parlophone/Warner) 18€ env. C’est bien de se poser la question et de chercher non ? Je voulais une petite voix de fille pour dire qu’elle s’en fout de ces deux-là. Une fois écrit, le livre ne vous appartient plus, tandis qu’une chanson peut être jouée dans quinze styles pendant des années, avec plein de musiciens différents. On a emmerdé Vanessa Paradis, on emmerde Carla Bruni. C’est très dangereux d’inviter des gens connus car vous prenez le risque que 99% de la salle le regrette quand il s’en va. Mais cela s’est bien passé… Et ils sont tous revenus pour le final sur « Hollywood ».Je continuais à noter des pistes, des idées, quelques mots. « Nuit » et « ennui » oui. Paroles de Hollywood par David McNeil. Après six disques dans les années 70, une plume active dans les années 80 pour de nombreux artistes, l'auteur est parti pendant vingt-trois ans après ce rendez-vous manqué.Un live ("Un soir à l'Olympia"), de nombreux livres nous faisait patienter en goûtant son style si particulier, mais ne remplaçait pas le plaisir suave et complice de titres comme "Le bateau-mouche" ou "Tropical tramp". <br> <br>Vingt chansons et finalement douze sur le disque. Il doit en être très content car il est très nerveux. Carla Bruni enregistrait son album en même temps que moi chez Blanc-Francard. « Je veux des gros seins, des gros culs » par Michel Sardou : trop évident ! <br> <br>Video extraite de l’émission Champs Elysées de Juin 1989, Yves Montand chante Hollywood de David McNeil accompagné à l’harmonica par Jean-Jacques Milteau. ""Beaucoup de jazz. Passées les épreuves de santé et revenu l'engouement pour la chanson simple mais bien foutue, l'albatros à la voix chaude est de retour. Quand Carla Bruni a sorti son premier album (1), je me suis dit que j’allais m’y remettre.En attendant, j’ai fait des bouquins. ""Depuis qu’on écrit de la poésie, qu’on en a la trace, c’est le sujet majeur. Le temps qui reste devient du bonus : je ne monte plus les escaliers aussi rapidement mais l’important est que je monte les escaliers. <br>";s:7:"keyword";s:30:"hollywood david mcneil paroles";s:5:"links";s:2816:"<a href='https://backyard.synpat.com/site/article.php?page=voix-de-fiona-dans-shrek-88a0eb'>Voix De Fiona Dans Shrek</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-amour-netflix-2018-88a0eb'>Film Amour Netflix 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=teheiura-koh-lanta-%C3%A2g%C3%A9-88a0eb'>Teheiura Koh-lanta âgé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9rone---rom%C3%A9o-et-juliette-paroles-88a0eb'>Vérone - Roméo Et Juliette Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dessin-joker-r%C3%A9aliste-88a0eb'>Dessin Joker Réaliste</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-omg-bonbon-88a0eb'>Lol Omg Bonbon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=division-avec-0-et-virgule-88a0eb'>Division Avec 0 Et Virgule</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-simple-et-courte-gratuite-88a0eb'>Lettre De Motivation Simple Et Courte Gratuite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=place-des-victoires-vf-88a0eb'>Place Des Victoires Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Marshmello-photo-visage-88a0eb'>Marshmello Photo Visage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=egyptian-magic-%C3%A9chantillon-gratuit-88a0eb'>Egyptian Magic échantillon Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-fabriquer-un-totem-de-koh-lanta-88a0eb'>Comment Fabriquer Un Totem De Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-14-24-occasion-88a0eb'>Nikon 14-24 Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9latonine-liquide-en-pharmacie-88a0eb'>Mélatonine Liquide En Pharmacie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-bateaux-cats-on-trees-88a0eb'>Les Bateaux Cats On Trees</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mohamed-bouhafsi-parcours-88a0eb'>Mohamed Bouhafsi Parcours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fort-boyard-%3A-toujours-plus-fort-2019-88a0eb'>Fort Boyard : Toujours Plus Fort 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sweet-en-arabe-88a0eb'>Sweet En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=miss-qu%C3%A9bec-2021-88a0eb'>Miss Québec 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=female-rappers-2019-88a0eb'>Female Rappers 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-fenerbah%C3%A7e-2005-88a0eb'>Effectif Fenerbahçe 2005</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleurs-sites-immobiliers-88a0eb'>Meilleurs Sites Immobiliers</a>,
+";s:7:"expired";i:-1;}

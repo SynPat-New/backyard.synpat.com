@@ -1,0 +1,138 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4718:"<p>Penser à jouer avec les étiquettes des tables d’addition. On se demande alors s’il y aura une Lorsque nous passons de l’ardoise à la maison de l’addition sous pochette plastique, les enfants posent cette nouvelle dizaine au-dessus de la cheminée de la maison et n’oublient pas de la compter parmi les dizaines.Je propose ensuite cette fiche sous pochette plastique ou « ardoise » que les élèves complètent au feutre effaçable. Le « piège », c’est que, tout comme la nature, les élèves n’aiment pas le vide… et qu’ils mettent souvent une retenue, même quand il n’y en a pas ! Ce sont souvent des élèves qui ont encore besoin de leur corps, de leurs mains pour compter : ces petites cartes évoquent une possible transition du corps au dessin, puis au calcul.Les enfants écrivent l’addition en ligne sur leur ardoise : 32 + 29 = … Puis ils posent à gauche 3 cartons de dix et 2 doigts ; à droite, 2 cartons de dix et 9 doigts. This video is unavailable. Attention ! Travailler l'anglais en s'amusant avec la méthode Learn English : Foxy et Doggy ça fait envie!! On a fait les dés, page 35 ! Watch Queue Queue Voici un petit rallye-lecture Sami et Julie autour de 7 albums de la collection Sami et Julie B.D. Leçon – Addition posée en colonnes avec retenue – Cp – Cycle 2Tables des matières Addition - Calculs - Mathématiques : CP - Cycle 2Outils, programmations, affiches, textes… pour faciliter l'organisation de la rentrée.Projet pluridisciplinaire pour les CE et CM pour découvrir de façon ludique les régions de France tout en révisant les leçons clés du programme.Jeux en équipe et énigmes à résoudre collectivement en mathématiques selon la période de l'année...Le programme abordé de manière ludique en voyageant avec nos personnages 1) Posons d'abord l'opération. Observons bien le chiffre des unités de chaque nombre : 8 + 6 = 14.  Cette page concerne l'addition et plus particulièrement l'addition posée telle qu'elle est vue en CP, CE1 et CE2. Alignons bien les unités avec les unités et les dizaines avec les dizaines. Leçon - Addition posée en colonnes avec retenue – Cp - Cycle 2 C21 Calcul : L'addition posée en colonnes (2) 48 + 36 = ? Téléchargez le prolongement du cours en pdf. !Je viens de voir le lien à la fin de l’article!! © 2010-2020 : www.pass-education.fr - Tous droits réservés. merken in "Meine Apps" QR-Code. Exercices de Mathématiques - Fiches à imprimer au format Pdf.Additions de 2 nombres à 1 et 2 chiffres sans retenue.Additions de 2 nombres à 3 et 2 chiffres sans retenue.Additions de 2 nombres à 4 et 2 chiffres sans retenue.Additions de 2 nombres à 4 et 3 chiffres sans retenue.Additions de 2 nombres à 2 chiffres sans et avec retenue(s).Additions de 2 nombres à 3 et 2 chiffres sans et avec retenue(s).Additions de 2 nombres à 3 chiffres sans et avec retenue(s)..Additions de 2 nombres à 4 et 3 chiffres sans et avec retenue(s).Additions de 2 nombres à 4 chiffres sans et avec retenue(s).Additions de 3 nombres à 4, 3 et 2 chiffres sans et avec retenue(s).Additions de 3 nombres à 4 et 3 chiffres sans et avec retenue(s).Additions de 3 nombres à 4 et 3 chiffres sans et avec retenue(s).Additions de 3 nombres à 4 chiffres sans et avec retenue(s). </p> <p>Problèmes de la page 111 Page 119 (multiplications posées) et p.129 Additions à trous et soustractions à trous Apprentissage des tables : par cœur ou pas ? Alignons bien les unités avec les unités et les dizaines avec les dizaines. Tout ce qui est disponible est déjà sur mon blog.Quel et non quelle … il est temps d’aller se coucher…Merci beaucoup pour ces jolies maisons dont j’avais déjà entendu parler. Je vais essayer avec ces cartes.Merci pour tes belles fiches, en cette toute fin d’année,elle me seront plus qu’utiles !Bonjour et merci. Il va y a voir une retenue ! C'est la séance : "Ça y est, maîtresse, je suis un vrai magicien des maths ! Watch Queue Queue. </p> <p>Tes fiches vont me permettre de gagner du temps sur la phase dessin !Merci beaucoup  Je vais les plastifier et les utiliser en atelier dirigé Merci beaucoup Chat noir  Je vais m’en servir avec mes CP !Ce site utilise Akismet pour réduire les indésirables. Je propose cette nouvelle représentation afin que les enfants puissent manipuler les cartes pour comprendre l’addition « naturelle » avant de la poser en colonnes. L’idée de la maison avec une cheminée et un nuage de fumée pour y inscrire les retenues n’est pas de moi : je l’ai trouvée sur le blog de J’ai trouvé cette idée excellente : c’est imagé, simple et cela permet de ne pas oublier cette fameuse retenue. </p>";s:7:"keyword";s:32:"laddition posée avec retenue cp";s:5:"links";s:10094:"<a href='https://backyard.synpat.com/site/article.php?page=balance-cuisine-pr%C3%A9cision-88a0eb'>Balance Cuisine Précision</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lady-diana-mariage-robe-88a0eb'>Lady Diana Mariage Robe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thanks-en-arabe-88a0eb'>Thanks En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruno-cerella-instagram-88a0eb'>Bruno Cerella Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-koh-lanta-2020-episode-9-88a0eb'>Youtube Koh Lanta 2020 Episode 9</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-des-pr%C3%A9noms-polonais-88a0eb'>Calendrier Des Prénoms Polonais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-r%C3%AAve-bleu-partition-flute-traversi%C3%A8re-88a0eb'>Ce Rêve Bleu Partition Flute Traversière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=val%C3%A9rie-bena%C3%AFm-cancer-88a0eb'>Valérie Benaïm Cancer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gainer-maison-1000-kcal-88a0eb'>Gainer Maison 1000 Kcal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Yumee-kty-origine-88a0eb'>Yumee Kty Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-yeux-revolver-partition-piano-pdf-88a0eb'>Les Yeux Revolver Partition Piano Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tifo-dortmund---psg-88a0eb'>Tifo Dortmund - Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-chute-de-la-maison-usher-epstein-analyse-88a0eb'>La Chute De La Maison Usher Epstein Analyse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=best-of-breed-exemple-88a0eb'>Best Of Breed Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=max-gradel-salaire-2019-88a0eb'>Max Gradel Salaire 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chris-et-starr-88a0eb'>Chris Et Starr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citrulline-ou-arginine-88a0eb'>Citrulline Ou Arginine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=forum-casino-en-ligne-88a0eb'>Forum Casino En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=friends-en-fran%C3%A7ais-88a0eb'>Friends En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remarquable-en-anglais-88a0eb'>Remarquable En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kendji-mi-amor-88a0eb'>Kendji Mi Amor</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musculation-au-naturel-88a0eb'>Musculation Au Naturel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=short-real-madrid-2018-88a0eb'>Short Real Madrid 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pet-peeve---traduction-88a0eb'>Pet Peeve - Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=xpn-natural-iso-88a0eb'>Xpn Natural Iso</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=raymond-aron-les-%C3%A9tapes-de-la-pens%C3%A9e-sociologique-r%C3%A9sum%C3%A9-pdf-88a0eb'>Raymond Aron Les étapes De La Pensée Sociologique Résumé Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Kit-Real-Madrid-2019-88a0eb'>Kit Real Madrid 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=overwatch-contenders-fr-88a0eb'>Overwatch Contenders Fr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=so-lounge-marrakech-prix-menu-88a0eb'>So Lounge Marrakech Prix Menu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soprano-hiro-parole-88a0eb'>Soprano Hiro Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roux-caroline-jambe-88a0eb'>Roux Caroline Jambe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maison-%C3%A0-vendre-Biarritz-88a0eb'>Maison à Vendre Biarritz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9clairage-lumi%C3%A8re-du-jour-88a0eb'>éclairage Lumière Du Jour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aparthotel-adagio-london-brentford-booking-88a0eb'>Aparthotel Adagio London Brentford Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pourquoi-la-t%C3%A9l%C3%A9-r%C3%A9alit%C3%A9-a-tant-de-succ%C3%A8s-88a0eb'>Pourquoi La Télé-réalité A Tant De Succès</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivian-en-couple-88a0eb'>Vivian En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=larriv%C3%A9e-des-influenceurs-88a0eb'>Larrivée Des Influenceurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-2020-wikip%C3%A9dia-88a0eb'>Pékin Express 2020 Wikipédia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ultras-napoli-curva-a-88a0eb'>Ultras Napoli Curva A</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=will-griggs-on-fire-northern-ireland-88a0eb'>Will Griggs On Fire Northern Ireland</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comme-une-%C3%A9vidence-instrumental-88a0eb'>Comme Une évidence Instrumental</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kronos-login-costco-88a0eb'>Kronos Login Costco</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pronostic-juventus-roma-88a0eb'>Pronostic Juventus Roma</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Billet-PSG-Nantes-88a0eb'>Billet PSG Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=acheter-impossible-burger-88a0eb'>Acheter Impossible Burger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-connu-londres-88a0eb'>Hotel Connu Londres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-fait-maison-88a0eb'>Whey Fait Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barrage-de-l%27eder-88a0eb'>Barrage De L'eder</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-p%C3%AAche-requin-vid%C3%A9o-88a0eb'>Koh-lanta Pêche Requin Vidéo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lebouseuh-cache-cache-team-cro%C3%BBton-88a0eb'>Lebouseuh Cache Cache Team Croûton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michel-hidalgo-et-sa-femme-88a0eb'>Michel Hidalgo Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-invalides-cimeti%C3%A8re-88a0eb'>Les Invalides Cimetière</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cct-vaud-2019-88a0eb'>Cct Vaud 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=one-piece-tome-61-date-de-sortie-88a0eb'>One Piece Tome 61 Date De Sortie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=info-londres-direct-88a0eb'>Info Londres Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coffret-lol-surprise-88a0eb'>Coffret Lol Surprise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=restaurant-quimper-ouvert-88a0eb'>Restaurant Quimper Ouvert</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=real-madrid-vs-valence-live-88a0eb'>Real Madrid Vs Valence Live</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nestl%C3%A9-wikipedia-english-88a0eb'>Nestlé Wikipedia English</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=serge-petitdemange-wikipedia-88a0eb'>Serge Petitdemange Wikipedia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gare-au-gorille-88a0eb'>Gare Au Gorille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-bcaa-forum-88a0eb'>Meilleur Bcaa Forum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barnet-fc-vs-harrogate-88a0eb'>Barnet Fc Vs Harrogate</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=megane-rs-occasion-allemagne-88a0eb'>Megane Rs Occasion Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-videos-de-oximoz-88a0eb'>Les Videos De Oximoz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=copine-pfut10-insta-88a0eb'>Copine Pfut10 Insta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=darren-tulett-pes-88a0eb'>Darren Tulett Pes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-suis-fou-de-vous-paroles-88a0eb'>Je Suis Fou De Vous Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karn-la-krang-neung-nai-hua-jai-02-vostfr-88a0eb'>Karn La Krang Neung Nai Hua Jai 02 Vostfr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=son-vs-gomez-88a0eb'>Son Vs Gomez</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partition-fl%C3%BBte-%C3%A0-bec-chanson-connu-88a0eb'>Partition Flûte à Bec Chanson Connu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stephen-lang-kristina-watson-88a0eb'>Stephen Lang Kristina Watson</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=offre-d%27emploi-cr%C3%A9ateur-de-site-web-88a0eb'>Offre D'emploi Créateur De Site Web</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-de-sponsoring-maroc-88a0eb'>Demande De Sponsoring Maroc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=megane-rs-occasion-allemagne-88a0eb'>Megane Rs Occasion Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anti-glisse-de-randonn%C3%A9e-neige-88a0eb'>Anti-glisse De Randonnée Neige</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-chauffeur-taxi-88a0eb'>Horaire Chauffeur Taxi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=european-medical-devices-regulation-88a0eb'>European Medical Devices Regulation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%AApe-legere-dukan-88a0eb'>Crêpe Legere Dukan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=a-qui-s%27abonner-sur-twitter-88a0eb'>A Qui S'abonner Sur Twitter</a>,
+";s:7:"expired";i:-1;}

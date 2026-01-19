@@ -1,0 +1,104 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5789:"<p>Caunim Promoteur Immobilier CAUNIM met à votre service son expertise en tant que spécialiste de l’immobilier, en construction, en rénovation et en réhabilitation. On commence à voir les frémissements d’un rebond grâce au dispostif Pinel et le marché du R : Pour être tout à fait franc, c’est la peur de l’inconnu. Toutefois, il convient de bien choisir les interlocuteurs et les promoteurs avec qui travailler pour ne pas avoir de soucis. </p> <p>Il permet de réaliser un premier achat dans le neuf à des prix très intéressants, parfois même inférieurs aux prix de l’ancien lorsque l’on cumule les avantages qui y sont liés.L’objectif est de permettre aux jeunes actifs notamment de « mettre le pied à l’étrier » dans le parcours résidentiel, avec un logement neuf, aux dernières normes énergétiques et à des prix plafonnés à 3000€ /m² (pondérés).Pour les personnes éligibles, cela représente une véritable opportunité, mais il y a des conditions :Nous disposons actuellement de plusieurs projets éligibles au Prix Maitrisé, notamment dans les quartiers toulousains de Saint-Simon, de Lardenne, de Purpan et de Guilheméry/Jolimont par exemple.Nous étendons ce dispositif au Nord-Ouest de l’agglomération à Beauzelle, avec la résidence « Garden Street », sur laquelle des maisons enNous accordons une importance à 4 valeurs fondamentales :Cela passe par la maîtrise des coûts, par un prix ferme et définitif et par un suivi méticuleux du projet architectural.Nous adaptons la taille des projets au foncier, et recherchons la meilleure insertion dans le site, selon la volonté des urbanistes et de nos partenaires architectes.Au-delà des services décrits préalablement, en un mot :C’est une société indépendante, à taille humaine, avec des femmes et des hommes qui défendent leurs valeurs, basées sur les habitants au coeur des projets, le respect des clients et le respect de l’environnement. En clair, l’investissement locatif est aujourd’hui une véritable occasion de faire un placement pour l’avenir. Interview d’un promoteur immobilier de la métropole toulousaine La Rédaction novembre 10, 2017 Nous avons rencontré Samuel sur l’un des stands du salon de l’immobilier … R : Je voudrais leur dire qu’il est vrai qu’il s’agit d’un placement d’envergure qui ne doit pas être pris à la légère. Il nous est donc indispensable de faire nos preuves et de nous démarquer par notre sérieux si nous voulons continuer à vivre de notre métier et avoir des clients. </p> <p>Le partenaire idéal pour trouver votre prochain bien immobilier neuf - Tél : 0534310326 / 0637930563 Comme dans tous les métiers, il faut se battre pour pouvoir réussir en tant que promoteur immobilier. On parlera de sujets importants pour les futurs acquéreurs en évoquant 3 sujets : Les principales contraintes rencontrées par un promoteur dans la vie de son opération immobilière. </p> <p>Interview d’un promoteur immobilier Posted on April 20, 2015 by Marina Aujourd’hui plus que jamais, le marché de l’investissement locatif est en passe de voir le bout du tunnel. Le partenaire idéal pour trouver votre prochain bien immobilier neuf - Tél : 0534310326 / 0637930563 Le marché n’est pas encore propice aux bénéfices faramineux, mais chacun se bat pour réaliser des chiffres corrects peu importe la ville, à Toulouse, à Marseille ou ailleurs. C’est pourquoi nous leur proposons une large palette de biens neufs à Nos conseillers spécialistes de l’accession à la propriété sont formés à accompagner les clients de A à Z, de leur 1ère prise d’informations jusqu’à la signature chez le notaire, et également sur l’aspect technique et financier (personnalisation des plans, modalités de financement, etc. Nous pensons aussi aux personnes à mobilité réduite ou encore à l’adaptation des logements pour les séniors, qui cherchent des résidences de standing, à proximité des services, des commerces et des transports.Les résidences du Groupe sont certifiées systématiquement À ce jour nous mettons en place une résidence exemplaire au niveau environnemental et respect de la nature dans Saint-Agne Immobilier a fait le choix de s’engager dans la certification NF HABITAT il y a 3 ans, dès qu’ elle est apparue, et vient de renouveler son engagement en ce début d’année.Bien avant la « nouvelle » NF HABITAT, nos opérations étaient déjà certifiées NF LOGEMENT et ce depuis 15 ans.On a tendance à voir uniquement les exigences techniques des opérations, elles font bien entendu partie intégrante de la certification, mais être certifié NF HABITAT ce n’est pas que cela.La qualité de nos résidences et de nos logements passent par un réel système de management responsable. Aujourd’hui plus que jamais, le marché de l’investissement locatif est en passe de voir le bout du tunnel. En tant que professionnels, nous sommes confiants pour l’avenir. C’est pourquoi il est important de bien analyser tous les paramètres avant de se lancer, afin de ne pas faire d’erreurs stratégiques.  Sully Immobilier, affaire de famille créée en 1996 dans la région Centre, a essaimé en Île-de-France, à Bordeaux et en région Rhône-Alpes. Il ne faut pas oublier non plus que par le passé des ménages ont vécu de mauvaises expériences, en investissant dans des appartements neufs sans pouvoir les mettre en location par la suite, en l’absence cruelle de demande locative. Interview du promoteur immobilier Frédéric Carrère - YouTube Mais il faut être réaliste, ce n’est qu’un début et le décollage du marché peut mettre plusieurs années, pour que la crise passe sur le marché du logement neuf. </p>";s:7:"keyword";s:30:"interview promoteur immobilier";s:5:"links";s:5786:"<a href='https://backyard.synpat.com/site/article.php?page=the-father-sundance-88a0eb'>The Father Sundance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=1-million-de-gourmandises-88a0eb'>1 Million De Gourmandises</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bureau-taxi-tanger-telephone-88a0eb'>Bureau Taxi Tanger Telephone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moundir-femme-fille-88a0eb'>Moundir Femme Fille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=po%C3%A8me-pr%C3%A9nom-philippe-88a0eb'>Poème Prénom Philippe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-d%27une-emission-de-t%C3%A9l%C3%A9-88a0eb'>Prix D'une Emission De Télé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=1h-de-musculation-calorie-88a0eb'>1h De Musculation Calorie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-avec-pr%C3%A9nom-adeline-88a0eb'>Chanson Avec Prénom Adeline</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=terraria-gobelin-pnj-88a0eb'>Terraria Gobelin Pnj</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-chanson-anglaise-88a0eb'>Citation Chanson Anglaise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=meilleur-moment-de-la-journ%C3%A9e-pour-faire-du-sport-88a0eb'>Meilleur Moment De La Journée Pour Faire Du Sport</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paredes-pes-2020-88a0eb'>Paredes Pes 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lagrimas-negras-oum-paroles-88a0eb'>Lagrimas Negras Oum Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=magasin-fnac-tahiti-88a0eb'>Magasin Fnac Tahiti</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=david-mcneil-seul-dans-ton-coin-88a0eb'>David Mcneil Seul Dans Ton Coin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-chanson-anglaise-88a0eb'>Citation Chanson Anglaise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prince-of-tennis-japscan-88a0eb'>Prince Of Tennis Japscan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-4-le-film-en-entier-en-francais-complet-88a0eb'>Taxi 4 Le Film En Entier En Francais Complet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-jobs-france-88a0eb'>Amazon Jobs France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vodafone-top-up-88a0eb'>Vodafone Top Up</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sous-la-pluie-88a0eb'>Sous La Pluie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyril-schreiner-tiktok-88a0eb'>Cyril Schreiner Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=voyage-montagne-suisse-88a0eb'>Voyage Montagne Suisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gotaga-giveaways-logiciel-88a0eb'>Gotaga Giveaways Logiciel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-m%27ennuie-dans-ma-vie-2019-88a0eb'>Je M'ennuie Dans Ma Vie 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-dosage-s%C3%A8che-88a0eb'>Bcaa Dosage Sèche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-gymshark-fitbyclem-88a0eb'>Code Promo Gymshark Fitbyclem</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-2020-liban-88a0eb'>Calendrier Ramadan 2020 Liban</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=claude-dartois-chauffeur-de-ma%C3%AEtre-de-qui-88a0eb'>Claude Dartois Chauffeur De Maître De Qui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9sum%C3%A9-euro-2000-88a0eb'>Résumé Euro 2000</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-%C3%A9cole-de-commerce-master-88a0eb'>Lettre De Motivation école De Commerce Master</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-satellite-prix-88a0eb'>Carte Satellite Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michou-d%C3%A9fi-fortnite-88a0eb'>Michou Défi Fortnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rmc-r%C3%A9my-barret-delphine-88a0eb'>Rmc Rémy Barret Delphine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Messi-FIFA-13-88a0eb'>Messi FIFA 13</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=banque-fran%C3%A7aise-mutualiste-t%C3%A9l%C3%A9phone-88a0eb'>Banque Française Mutualiste Téléphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nxt-level-nutrition-avis-88a0eb'>Nxt Level Nutrition Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=agence-immobili%C3%A8re-montcuq-88a0eb'>Agence Immobilière Montcuq</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tpmp-23-fevrier-2020-88a0eb'>Tpmp 23 Fevrier 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=namadia-koh-lanta-saison-88a0eb'>Namadia Koh-lanta Saison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-alimentaire-d%C3%A9finition-88a0eb'>Protéine Alimentaire Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aya-traduction-fran%C3%A7ais-88a0eb'>Aya Traduction Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=video-de-foot-fifa-20-88a0eb'>Video De Foot Fifa 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-12-24-test-88a0eb'>Nikon 12-24 Test</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nagui-taille-cm-88a0eb'>Nagui Taille Cm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arsenal-newcastle-billet-88a0eb'>Arsenal Newcastle Billet</a>,
+";s:7:"expired";i:-1;}

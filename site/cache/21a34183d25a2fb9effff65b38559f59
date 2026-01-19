@@ -1,0 +1,105 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3949:"<br>It was soon amongst the trend setters in house music, on par with Strictly Rhythm, Henry Street and Nervous Records. Duplicated from (Slip 'n' Slide Funky People featuring Cassio Ware "Funky People") West London's Slip 'n' Slide was one of the UK's original house imprints. In a November 2008 interview with Plies, and according to Slip-n-Slide Records, the rapper announced that he completed a fourth album which he planned to release on February 16, 2009, but stated that the exact date depended on the success of his third album. Ted Lucas founded the label in 1994.  One of these artists was Blaze, who don their Funky People alias on this special release, with vocals by Cassio Ware, one of the most revered and respected vocalists during this era. 56.2k Followers, 1,078 Following, 3,153 Posts - See Instagram photos and videos from Slip N Slide Records (@slipnsliderec) History; Artists; Former artists; References; External links; History. This slip n slide has jets of water to keep the slide smooth from the starting point to the finish line. My Beat - Extended Remixes. <br> <br>It was soon amongst the trend setters in house music, on par with Strictly Rhythm, Henry Street and Nervous Records. Latest Releases. Slip N Slide was created in London the early 90s as a platform for the very best of the new wave of US House music that was sweeping in from across the Atlantic at the time. The new members to the Slip-N-Slide Records family; Qwote, Camar, Shonie, and several others, will soon become forces to be wreckoned with. Slip N Slide Records 919 4th St Miami Beach FL 33139. A real shame for a label who once held the mantle for one of premier UK House labels :( Menu & Reservations Make Reservations . Log in or create an account today so you never miss a new release.My Beatport lets you follow your favorite DJs and labels so you can find out when they release new tracks. Slip N Slide Records Official Page (slipnsliderecords)'s profile on Myspace, the place where people come to connect, discover, and share.  Get reviews, hours, directions, coupons and more for Slip N Slide Records at 919 4th St, Miami Beach, FL 33139. I am the CEO of Slip-N-Slide and was just featured on BET's Inside the Label special about the ins-and-outs of record labels. Slip N Slide Records. <br> <br>The slip n slide measures 16’ x 58”. Track 1 & 2 P&C 2019 Defected Records Limited dba Slip 'n' Slide Track 3 P&C 1999 Defected Records Limited dba Slip 'n' Slide $3.87. For me, I'm only interested in vinyl so don't know to much about the CD compilation aspect of the label. Get directions, reviews and information for Slip N Slide Records in Miami Beach, FL. ! I'm living in London now and most records in the Slip 'n' Slide catalogue can be got for a pound or under so I'm working on getting them all, there is some excellent gospel house and garage in there and if you want proper house at a reasonable price look no further than Slip 'n' Slide. Welcome to Beatport. Beatport is the world's largest electronic music store for DJsMy Beatport lets you follow your favorite DJs and labels so you can find out when they release new tracks. For the past few years they have been putting out useless compilations repackaged from older ones and have been releasing high profile artist tracks with no quality control. So go follow someone! Contents. Blaze, Palmer Brown, Folamour, Javonntte, David Harness. Slip-n-Slide Records is an American record label, founded in 1994 by Ted Lucas.. [1] [2] Slip-n-Slide signed local rapper Trick Daddy Dollars in its early years; he debuted in 1997 with the locally popular album Based on a True Story and broke into mainstream success … Known for their gospel and soul tinged sounds, this remix package journeys between deep, jacking house, garage-inspired sounds and stripped-back grooves with new mixes from Jovonn and Hugo LX alongside the sought after classic remix from UK heroes 20:20 Vision. <br>";s:7:"keyword";s:26:"marie sophie lacarrau avis";s:5:"links";s:5802:"<a href='https://backyard.synpat.com/site/article.php?page=philippe-quintais-hospitalis%C3%A9-88a0eb'>Philippe Quintais Hospitalisé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=allan-saint-maximin-papa-88a0eb'>Allan Saint-maximin Papa</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salaire-minimum-mls-88a0eb'>Salaire Minimum Mls</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-population-montr%C3%A9al-88a0eb'>Carte Population Montréal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-owe-you-nothing-88a0eb'>I Owe You Nothing</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9noms-insolites-refus%C3%A9s-88a0eb'>Prénoms Insolites Refusés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=partitions-clavier-gratuites-88a0eb'>Partitions Clavier Gratuites</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ren%C3%A9-gorlin-photos-88a0eb'>René Gorlin Photos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alban-koh-lanta-twitter-88a0eb'>Alban Koh Lanta Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sidiku-buari-and-his-jam-busters-88a0eb'>Sidiku Buari And His Jam Busters</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=menu-m%C3%A9nopause-ww-88a0eb'>Menu Ménopause Ww</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blockbuster-elizabeth-arden-2019-88a0eb'>Blockbuster Elizabeth Arden 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandre-aulas-m%C3%A8re-88a0eb'>Alexandre Aulas Mère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oprah-winfrey-short-biography-88a0eb'>Oprah Winfrey Short Biography</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=flic-synonyme-argot-88a0eb'>Flic Synonyme Argot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bni-whey-protein-88a0eb'>Bni Whey Protein</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pizza-roissy-en-brie-88a0eb'>Pizza Roissy En Brie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tombe-de-christophe-88a0eb'>Tombe De Christophe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=city-club-prix-abonnement-2020-88a0eb'>City Club Prix Abonnement 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marina-abramovic-6h-88a0eb'>Marina Abramovic 6h</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-photographe-film-critique-88a0eb'>Le Photographe Film Critique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coupe-des-villes-de-foires-1965-1966-88a0eb'>Coupe Des Villes De Foires 1965 1966</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-footballeur-africain-le-plus-riche-88a0eb'>Le Footballeur Africain Le Plus Riche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=strange-fruit-lyrics-et-traduction-88a0eb'>Strange Fruit Lyrics Et Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=disque-musculation-20-kg-88a0eb'>Disque Musculation 20 Kg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-nba-lakers-88a0eb'>Maillot Nba Lakers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aulas-et-maurice-88a0eb'>Aulas Et Maurice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thomas-%28secret-story-4%29-88a0eb'>Thomas (secret Story 4)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hung-up-translate-88a0eb'>Hung Up Translate</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salini-resort-malte-booking-88a0eb'>Salini Resort Malte Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ateliers-cycle-3-88a0eb'>Ateliers Cycle 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-indestructible-2-88a0eb'>Les Indestructible 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moto-gp-marquez-angle-88a0eb'>Moto Gp Marquez Angle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=european-championship-swimming-2019-88a0eb'>European Championship Swimming 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fin-du-film-le-papillon-88a0eb'>Fin Du Film Le Papillon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=justine-tibo-inshape-88a0eb'>Justine Tibo Inshape</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proteine-mass-gainer-decathlon-88a0eb'>Proteine Mass Gainer Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-xellerate-nutrition-avis-88a0eb'>Bcaa Xellerate Nutrition Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=__margau-the-voice-2020-instagram-88a0eb'>__margau The Voice 2020 Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9toile-rouge-de-belgrade-championnats-88a0eb'>étoile Rouge De Belgrade Championnats</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-lumix-gx80-12-32-88a0eb'>Objectif Lumix Gx80 12-32</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nia-jax-couple-88a0eb'>Nia Jax Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=disneyworld-orlando-ie-88a0eb'>Disneyworld Orlando Ie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vrd-cours-ppt-88a0eb'>Vrd Cours Ppt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rowing-vertical-halt%C3%A8re-88a0eb'>Rowing Vertical Haltère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Michael-Holbrook-Penniman-88a0eb'>Michael Holbrook Penniman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perfect-%28karaoke-female%29-88a0eb'>Perfect (karaoke Female)</a>,
+";s:7:"expired";i:-1;}

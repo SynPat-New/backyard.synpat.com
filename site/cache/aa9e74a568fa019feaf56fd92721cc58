@@ -1,0 +1,105 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:4264:"Critiques. <br> <br>And its really fun! Les canons de Navarone 1961 (The Guns of Navarone) - Casting du film réalisé par J. Lee Thompson - Duration: 2:59. Les canons de Navarone.french.dvdrip.avi ( 700 MO ) [french] uptobox: Télécharger rapidement en mode gratuit [abir] [avi] Signaler: 1fichier: Rapide en mode gratuit et premium [sony0] [avi] Signaler: free: Gratuit, simple et rapide [abir] [avi] Signaler <br> <br>Merci de votre aide. Please enter a number less than or equal to 1. Les rescapés du commando qui a réussi à détruire les canons de Navarone s'en sont sortis malgré la présence parmi eux d'un espion. Durée: 02h38min.   Great older movie. This is a long movie so enjoyed seeing it on dvd without interruptions (I only saw a portion on GETTV because it was 4 hours with commericals). Cin ma >Films > Les canons de Navarone > Jaquette DVD Les canons de Navarone. Even the foreign actors that were in the village scenes did a wonderful job!! There was still the “warm afterglow,” if you will. 10€ tous les 100€ : Livraison gratuite dès 20 € d'achat. Tout sur Les canons de Navarone - Edition Collector - Gregory Peck - David Niven, DVD Zone 2 et toute l'actualité en Dvd et Blu-ray. <br> <br>With David Niven, Gregory Peck, Anthony Quinn, Anthony Quayle. After a few false starts with other directors J. Lee Thompson was acclaimed by the actors as the best and he proves worthy.“Pity that we cannot resolve the problems of peace that way”… Ainsi, en plus des prix bas aperçus dans notre rayon , le montant votre achat Les Canons De Navarone Dvd vous est remboursé à hauteur de 5% minimum en Rakuten Point. VHS or DVD box is included. Sticker. Basically, the viewer has very little time to think about the unlikely plot twists since the movie is so action packed. No skipping on CD/DVD. Cinéma populaire : très certainement.                 Too fast paced to think about the silliness. I was, and still am, a western fan and thought this was a western until I saw a clip on The Ed Sullivan Show. N'h sitez pas nous envoyer vos jaquettes et Stickers DVD. Genre: Action , Aventure , Drame. <br> <br>Read honest and unbiased product reviews from our users. Jaquette. I decided to watch it again, as part of my overall retrospective of the films of my youth. <br> <br>I watched this as a child and had forgotten most of it and found myself watching it as for the first time. This item will be shipped through the Global Shipping Program and includes international tracking. Vous allez télécharger Les canons de Navarone sur uptobox, dl.free.fr, mega ou autres . ... El robo del millón de dolares en bonos (Subtitulado Español) - Duration: 53:11. It was still a time during which the Second World War was depicted as the “good war,” one that we had won, outright, in a just cause.         Your recently viewed items and featured recommendations Les canons de Navarone. Video game instructions are included. See reviews & details on a wide selection of Blu-ray & DVDs, both new & used. Corporal Miller, played by David Niven, puts forward a rather silly philosophy of life that is hard to take seriously as a challenge to Captain Malloy's leadership, but he is deeply sorry and becomes a model solder in the end. I put off owning a copy and I'm glad I did. There was still the “warm afterglow,” if you will. Date de sortie: 1961. Amazon calculates a product’s star ratings based on a machine learned model instead of a raw data average. A true action adventure movie with some great actors.  <br>Martin Aranda 97,478 views. Seller assumes all responsibility for this listing. <br> <br>Adding characters and motivations that are not in the novel. I remember seeing it several times as a kid at the Gary Theater in Boston and the Criterion in New York. Acteur: Gregory Peck, David Niven, Anthony Quinn. I saw this when first released and loved it. Still do. The film elements had been very poorly preserved ... <br> <br>Fiche compl te. 1961's "The Guns of Navarone" is Director Carl Foreman's big screen adaptation of Alistair MacLean's classic novel of the Second World War. This is still the best of the "High Adventure" films. Free shipping for many products! No fuzzy/snowy frames on VHS tape. A treat. <br>";s:7:"keyword";s:30:"réactions après dortmund psg";s:5:"links";s:6094:"<a href='https://backyard.synpat.com/site/article.php?page=europe-1-rentr%C3%A9e-2020-2021-88a0eb'>Europe 1 Rentrée 2020 2021</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=simons-emploi-salaire-88a0eb'>Simons Emploi Salaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=missing-s%C3%A9rie-su%C3%A9doise-88a0eb'>Missing Série Suédoise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=superman-%281978-vf%29-88a0eb'>Superman (1978 Vf)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canon-eos-800d-18-135mm-88a0eb'>Canon Eos 800d 18-135mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arsenal-newcastle-notes-88a0eb'>Arsenal Newcastle Notes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avant%2Fapr%C3%A8s-koh-lanta-2020-88a0eb'>Avant/après Koh-lanta 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27acc%C3%A8s-%C3%A0-l%27information-88a0eb'>Demande D'accès à L'information</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lucky-luke-%28g%C3%A9n%C3%A9rique%29-88a0eb'>Lucky Luke (générique)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creatine-toute-l%27ann%C3%A9e-88a0eb'>Creatine Toute L'année</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cardiff-university-learning-agreement-88a0eb'>Cardiff University Learning Agreement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sillon-de-beau-88a0eb'>Sillon De Beau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inscription-gratuite-au-programme-de-fid%C3%A9lit%C3%A9-air-alg%C3%A9rie-plus-88a0eb'>Inscription Gratuite Au Programme De Fidélité Air Algérie Plus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-devient-estelle-denis-88a0eb'>Que Devient Estelle Denis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cuill%C3%A8re-doseuse-amazon-88a0eb'>Cuillère Doseuse Amazon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blanc-d%27oeuf-liquide-leclerc-88a0eb'>Blanc D'oeuf Liquide Leclerc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aim%C3%A9-jacquet-management-88a0eb'>Aimé Jacquet Management</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pompe-%C3%A0-pied-decathlon-88a0eb'>Pompe à Pied Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=proc%C3%A8s-balkany-plaidoirie-88a0eb'>Procès Balkany Plaidoirie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lane-8-no-captain-88a0eb'>Lane 8 No Captain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cc-running-day-88a0eb'>Cc Running Day</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lorenzo-damdamdeo-parole-88a0eb'>Lorenzo Damdamdeo Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nissan-4x4-navara-88a0eb'>Nissan 4x4 Navara</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=injonction-de-payer-executoire-avec-commandement-aux-fins-de-saisie-vente-88a0eb'>Injonction De Payer Executoire Avec Commandement Aux Fins De Saisie-vente</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-faire-un-sur-instagram-88a0eb'>Comment Faire Un Sur Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=missing-2019-prime-video-88a0eb'>Missing 2019 Prime Video</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=eurovision-2020-romania-88a0eb'>Eurovision 2020 Romania</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laurence-anyways-fred-88a0eb'>Laurence Anyways Fred</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bye-bye-2019-com%C3%A9diens-88a0eb'>Bye Bye 2019 Comédiens</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perles-rocailles-miyuki-11%2F0-88a0eb'>Perles Rocailles Miyuki 11/0</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demis-roussos-et-ses-femmes-88a0eb'>Demis Roussos Et Ses Femmes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arte-the-war-4-88a0eb'>Arte The War 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=parodie-de-koh-lanta-88a0eb'>Parodie De Koh-lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-plus-grand-bonheur-est-celui-qu%27on-partage-88a0eb'>Le Plus Grand Bonheur Est Celui Qu'on Partage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mission-spatiale-jupiter-88a0eb'>Mission Spatiale Jupiter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vald-interview-f%C3%A9ministe-88a0eb'>Vald Interview Féministe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=british-history-summary-pdf-88a0eb'>British History Summary Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=solution-slam-niveau-180-88a0eb'>Solution Slam Niveau 180</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tiago-kendji-parole-88a0eb'>Tiago Kendji Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=R%C3%A9gua-%E2%80%91-Porto-88a0eb'>Régua ‑ Porto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sms-saha-a%C3%AFdek-cheri-88a0eb'>Sms Saha Aïdek Cheri</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-togolais-%C3%A9quipe-de-france-88a0eb'>Joueur Togolais équipe De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sinueux-en-arabe-88a0eb'>Sinueux En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-corrig%C3%A9s-retraitement-bilan-financier-pdf-88a0eb'>Exercices Corrigés Retraitement Bilan Financier Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-a-interview-88a0eb'>Dominique A Interview</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tes-etats-d%27ame-eric-clip-88a0eb'>Tes Etats D'ame Eric Clip</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9lange-prot%C3%A9ine-v%C3%A9g%C3%A9tale-88a0eb'>Mélange Protéine Végétale</a>,
+";s:7:"expired";i:-1;}

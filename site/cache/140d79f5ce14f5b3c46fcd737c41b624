@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6024:"<br>         Bayern Munich have made the most serious and interesting of offers He has also said if coach Otto Rehhagel leaves the club he would go too. Anecdote qui prouve la confiance en soi de Youri Djorkaeff On lui a demandÃ© ce qu il pensait de l Ã©quipe de France de son Ã©poque Il a rÃ©pondu c est moi qui l ait crÃ©e si je n avais pas marquÃ© lors de France /Pologne en 1995 elle aurait jamais existÃ©                   Ce France/Italie 2000 est avec le France/Allemagne de 1982 et le France/BrÃ©sil de 1986 le match qui m'a donnÃ© le plus d'Ã©motions .      Posté le: 25 Mai 2008 14:10 Sujet du message: cherche video Djorkaeff euro 2000 Je suis infoutu de trouver une video de France espagne 2000, sur youtube ou daily. <br> <br>Sincèrement. (PAPON/L'Equipe)	Pour évoquer la finale, quand David Trezeguet met son but en or, c'est la folie, c'est incroyable. Ce but, cette volée du gauche qui troue le filet du gardien italien, il vient de nulle part. <br> <br>Il y a le coup franc de Zidane, l'égalisation espagnole sur penalty puis mon but avant la mi-temps.                                                                Youri played for France in the 1998 and 2002 FIFA World Cups, and at UEFA Euro 1996 and UEFA Euro 2000. Retour vingt ans en arrière avec "The Snake".      The 32-year-old arrived at Kaiserslautern on a free transfer from Inter Milan in August 1999, but he has been unhappy with the team and has made no secret of his wish to leave. Si quelqu'un à ça, merci de faire péter le lien ..C'est pour un pote qui n'a pas vu le but de Youri          The Phoneathon benefits the construction of community centres in villages throughout During his time in England, Djorkaeff opened a football school in Armenia. But we'll take a decision after the European championships," said Djorkaeff.  Â«Le match du tournoi qui m'a le plus marquÃ© est sans aucun doute celui contre l'Espagne.Â» Il savait comment on vivait, comment chaque joueur se positionnait, quand il fallait nous laisser respirer, et il était sans doute le mieux placé pour faire en sorte que le groupe vive bien.Youri Djorkaeff face Ã  Paolo Maldini en finale de l'Euro 2000. Today Jean Djorkaeff serves as the director of the Coupe de France commission.                   Emmener Francefootball partout avec vous grÃ¢ce Ã  lâapplication smartphone !          En skype depuis son bureau de directeur général de la Fondation FIFA à Zurich (Suisse), Youri Djorkaeff, ancien milieu de terrain des Bleus, se souvient avec passion et émotion de la victoire de l'Équipe de France de Roger Lemerre à l'Euro 2000. J'ai eu du mal à rentrer... Voilà ce que donne la joie du champion arrosée au champagne !»ADS :                                                       At international level, Djorkaeff scored 28 goals in 82 appearances with the Djorkaeff was born to a French father of Polish and Kalmyk origin, Djorkaeff started his career in 1984 with French club Djorkaeff turned many heads when signing with English club Djorkaeff announced from the beginning that he would hang-up his boots at the end of 2006 season, and played for the re-branded He retired from professional football on 29 October 2006.  <br> Même quand l'Italie menait en finale et qu'il ne restait que quelques secondes.Très franchement, si on avait eu peur, si on avait tremblé, on n'aurait jamais gagné.                              C'était une rencontre mémorable qui restera dans les annales du football français. Youri Djorkaeff was a wide-eyed 16-year-old on the terraces of Marseille's Stade Velodrome when France last played Portugal in a European Championship semi-final in 1984. Djorkaeff has a wife, Sophie, and three children: Sacha, On 15 November 2012 Djorkaeff hosted Phone-a-thon for Armenian charity held in Europe. Pour cÃ©lÃ©brer les vingt ans de la victoire de l'Ã©quipe de France Ã  l'Euro 2000, France Football vous propose plusieurs tÃ©moignages des acteurs de France-Italie. Vraiment. Le fait d'avoir été champions du monde deux ans avant nous avait donné des armes, notamment mentales, pour aborder un tel évènement. The French team's top scorer, who is currently at a two-week training camp with the World Cup winners near Paris, described his club situation as "slightly strange".           Une anecdote ?      Entretien avec Youri Djorkaeff, qui se souvient Ã©galement du quart de finale dÃ©cisif face Ã  l'Espagne. L'avantage qu'on avait avec Roger Lemerre, c'est qu'il était très proche du groupe. Pour faire ce qu'on a fait, il fallait qu'on ait une vraie confiance en nous, une confiance collective, une confiance individuelle aussi, et puis cette force mentale qu'on avait acquise en 1998.                                                                            Il y en a peut-Ãªtre d'autres mais sur le coup ce sont Ã  ceux lÃ  que je pense , ah , j'allais oublier le France/Portugal de 1984 qui avait Ã©tÃ© un summum          <br> <br>Kaiserslautern's unsettled French striker Youri Djorkaeff, who proved his fitness for Euro 2000 in a testimonial match on Sunday, has received an offer from German champions Bayern Munich.              UEFA Euro 2000; UEFA Europees Voetbalkampioenschap ... Youri Djorkaeff Throughout his club career, he played for teams in France, Italy, Germany, England, and the United States. <br> <br>D'ailleurs, pendant tout ce Championnat d'Europe, nous n'avons jamais eu peur parce qu'on était les meilleurs. Jean's sons Youri and Micha Djorkaeff, and grandson Oan Djorkaeff, were also footballers. Personal life.      C'était épique mais on n'a jamais tremblé.                                                          J'ai cherché mon chemin pendant une demi-heure avant de retrouver l'hôtel. <br>         «Je me souviens qu'avant d'entrer dans la compétition et d'affronter le Danemark, on était vraiment pressés d'en découdre.           C'est le sentiment qu'on avait. <br>";s:7:"keyword";s:19:"Djorkaeff Euro 2000";s:5:"links";s:6314:"<a href='https://backyard.synpat.com/site/article.php?page=photos-de-vrai-pok%C3%A9mon-88a0eb'>Photos De Vrai Pokémon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bourse-de-londres-en-direct-88a0eb'>Bourse De Londres En Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=recette-pois-gourmand-riz-88a0eb'>Recette Pois Gourmand Riz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chelsea-mercato-2019-2020-88a0eb'>Chelsea Mercato 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=altrincham-fc-vs-afc-telford-united-88a0eb'>Altrincham Fc Vs Afc Telford United</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=since-a-long-time-88a0eb'>Since A Long Time</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9passer-en-anglais-wordreference-88a0eb'>Dépasser En Anglais Wordreference</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9fi-sportif-altergo-2020-horaire-88a0eb'>Défi Sportif Altergo 2020 Horaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jt-tf1-13h-88a0eb'>Jt Tf1 13h</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=balance-cuisine-pr%C3%A9cision-88a0eb'>Balance Cuisine Précision</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fm-2020-bargain-88a0eb'>Fm 2020 Bargain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thea-2%3A-the-shattering-test-88a0eb'>Thea 2: The Shattering Test</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pogba-salaire-2020-88a0eb'>Pogba Salaire 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-lumix-gx80-12-32-88a0eb'>Objectif Lumix Gx80 12-32</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=https-www-europol-europa-eu-careers-procurement-vacancies-88a0eb'>Https Www Europol Europa Eu Careers Procurement Vacancies</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=santa-cruz-jackal-%C3%A0-vendre-88a0eb'>Santa Cruz Jackal à Vendre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27atelier-de-roxane-recette-facile-88a0eb'>L'atelier De Roxane Recette Facile</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=uber-eat-en-voiture-forum-88a0eb'>Uber Eat En Voiture Forum</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pamela-rf-12-min-abs-88a0eb'>Pamela Rf 12 Min Abs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bfm-les-experts-podcast-88a0eb'>Bfm Les Experts Podcast</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9initialiser-appareil-photo-iphone-6-88a0eb'>Réinitialiser Appareil Photo Iphone 6</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ce-n%27est-rien-qu%27un-au-revoir-88a0eb'>Ce N'est Rien Qu'un Au Revoir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=khoutir-benattia-instagram-88a0eb'>Khoutir Benattia Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bruno-pelletier-et-isabelle-conjointe-88a0eb'>Bruno Pelletier Et Isabelle Conjointe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-123-elysees---astotel-88a0eb'>Le 123 Elysees - Astotel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trois-dimensions-synonyme-88a0eb'>Trois Dimensions Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-technicien-logistique-88a0eb'>Lettre De Motivation Technicien Logistique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ma%C3%AEtre-gims-2020-88a0eb'>Maître Gims 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=capifrance-lot-46-88a0eb'>Capifrance Lot 46</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ga%C3%ABtan-deodato-condamnation-88a0eb'>Gaëtan Deodato Condamnation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-seux-contact-88a0eb'>Dominique Seux Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9zie-et-jonathan-88a0eb'>Pézie Et Jonathan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-heure-de-diffusion-88a0eb'>Koh Lanta Heure De Diffusion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-vintage-luxe-88a0eb'>Sac Vintage Luxe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-second-british-empire-88a0eb'>The Second British Empire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=christophe-peyroux-doublage-88a0eb'>Christophe Peyroux Doublage</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-journal-de-gurty-tome-8-88a0eb'>Le Journal De Gurty Tome 8</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=coco-jumbo-jojo-88a0eb'>Coco Jumbo Jojo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=student-accommodation-dundee-88a0eb'>Student Accommodation Dundee</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=personne-qui-lutte-contre-lesclavage-moderne-88a0eb'>Personne Qui Lutte Contre Lesclavage Moderne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decoration-amour-dessin-88a0eb'>Decoration Amour Dessin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jonathan-mathias-t%C3%A9l%C3%A9-r%C3%A9alit%C3%A9-88a0eb'>Jonathan Mathias Télé-réalité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-club-pro-cdm-88a0eb'>Fifa 20 Club Pro Cdm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-embl%C3%A9matique-louis-vuitton-88a0eb'>Sac Emblématique Louis Vuitton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=se-loger-bourg-en-bresse-88a0eb'>Se Loger Bourg-en-bresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=brick-insatiable-age-88a0eb'>Brick Insatiable Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniel-balavoine-sauver-l%27amour-88a0eb'>Daniel Balavoine Sauver L'amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=traitement-des-eaux-us%C3%A9es-commerciales-88a0eb'>Traitement Des Eaux Usées Commerciales</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9diger-un-mail-en-italien-88a0eb'>Rédiger Un Mail En Italien</a>,
+";s:7:"expired";i:-1;}

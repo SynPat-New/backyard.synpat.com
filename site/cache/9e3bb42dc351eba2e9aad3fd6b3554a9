@@ -1,0 +1,109 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3971:"<br> <br> <br> <br>Prominent characters like Magneto or Jean Grey may not make their MCU debut in any of the most proximate movies or shows in the confirmed slate if Marvel Studios wants to avoid comparisons to their recent cinematic iterations. Analyzing how the freshly revealed Phase 4 schedule shapes the future of the MCU. Now the dust has settled on "Avengers: Endgame," where does the MCU go from here? Another possibility is the appearance of Tyger Tiger, the criminal ruler of the land and Wolverine's lover. Marvel Phase 4 release dates for both the MCU movies and Disney Plus TV shows were inititally announced at San Diego Comic-Con (SDCC) 2019, while Spider … However, the X-Men mythos will definitely start to make space for their anticipated introduction. "Let us know in the comments your thoughts on the latest Marvel Cinematic Universe news!Scarlett Johansson reprises her popular role of Natasha Romanoff (Black Widow) with David Harbour joining as Alexei (The Red Guardian), Florence Pugh as Yelena, O-T Fagbenle as Mason, and Rachel Weisz as Melina.All the Big Announcements from Today's PlayStation State of PlayOutriders Is a Surprising Mix of Mass Effect and DiabloHere's Why Apple is Blocking Xbox Game Pass from iOS DevicesJohn Wick 5 Announced, Will Film Back-to-Back with Fourth Movie in Early 2021Daily Deals: Death Stranding for $17.99, Nioh 2 for $19.99, Dreams for $19.99Crash Bandicoot 4: New Playable Character AnnouncedTrump Looks to Ban TikTok and WeChat, Could Also Affect Games Industry <br> From 'Spider-Man: Far From Home' and … A one-stop shop for all things video games. <br> <br>A page dedicated to fans of the MCU! 444 talking about this. On stage, Anthony Mackie held … Marvel Phase 4: Official Lineup . <br> <br>↑ 4.0 4.1 Kevin Feige Says They Already Have Phase 5 of the MCU Mapped Out ↑ Marvel Confirms ‘Fantastic Four’ Reboot, “Mutants” In Development ↑ MTV NEWS on Twitter Some films and shows in Phase 4 of the Marvel Cinematic Universe already show official hints at the long-awaited introduction of The X-Men. <br> <br>The first official traces of the X-Men can already be identified around the productions of the Marvel Cinematic Universe's Phase 4.                  WandaVision will be tied directly to this movie, with Elizabeth Olsen coming back out on stage saying, "We haven’t done that yet… and I think it might be the future. <br> <br>So far, The first remote approach to mutant characters in the MCU began back in 2015 with The first allusion to SWORD took place in the post-credits scene of Perhaps it's that illicit nature the element that attracts the series' villain Baron Zemo (Daniel Brühl) to visit Madripoor. Phase Four of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics.Phase Four features all of the Marvel Studios productions set to be released from 2020 through early 2022. While this is the most likely option, there's still a possibility that the origins and characteristics of Wiz Kid get changed to remove his comic book origins - like the Maximoff Twins in Combined with the Earth-based clues in Madripoor, the SWORD headquarters, and wherever the events of Shang-Chi take place, the introduction of the Starsharks suggests that Marvel is laying the foundations for both terrestrial and cosmic components of the X-Men narrative to enter the MCU simultaneously. Black Widow is supposed to be the first MCU Phase 4 film to … The Falcon and the Winter Soldier are set for a release date in Fall of 2020. An extensive immersion in the behind-the-scenes of a couple dozen projects has let him see films in a new light and talk about his experiences around the web. <br> <br>Marvel Studios’ "Phase 4" will include 10 movies and Disney+ series when it launches next year, with 2021 looking especially crowded. <br>";s:7:"keyword";s:20:"mcu phase 4 official";s:5:"links";s:6598:"<a href='https://backyard.synpat.com/site/article.php?page=casting-animateur-t%C3%A9l%C3%A9-88a0eb'>Casting Animateur Télé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gare-au-gorille-88a0eb'>Gare Au Gorille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-fatale-d%C3%A9finition-88a0eb'>Femme Fatale Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-allemagne-seconde-guerre-mondiale-88a0eb'>Carte Allemagne Seconde Guerre Mondiale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mozzarella-mauvais-pour-la-sant%C3%A9-88a0eb'>Mozzarella Mauvais Pour La Santé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photo-de-profil-islamique-88a0eb'>Photo De Profil Islamique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarif-influenceur-linkedin-88a0eb'>Tarif Influenceur Linkedin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%27air-du-vent-paroles-88a0eb'>L'air Du Vent Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=william-lebghil-origine-arabe-88a0eb'>William Lebghil Origine Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=assiette-bambou-ventouse-lapin-88a0eb'>Assiette Bambou Ventouse Lapin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-club-le-plus-riche-du-monde-2018-88a0eb'>Le Club Le Plus Riche Du Monde 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=femme-lib%C3%A9r%C3%A9e-chords-88a0eb'>Femme Libérée Chords</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-argentine-2011-88a0eb'>Effectif Argentine 2011</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=willem-dessinateur-bd-88a0eb'>Willem Dessinateur Bd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-paris-adresse-88a0eb'>Twitter Paris Adresse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=valence-levante-diffusion-88a0eb'>Valence Levante Diffusion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=deesse-de-la-chasse-mots-fl%C3%A9ch%C3%A9s-88a0eb'>Deesse De La Chasse Mots Fléchés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-100-personnes-les-plus-influentes-du-monde-2018-88a0eb'>Les 100 Personnes Les Plus Influentes Du Monde 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=music-intro-youtube-88a0eb'>Music Intro Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=usinage-mati%C3%A8re-plastique-88a0eb'>Usinage Matière Plastique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-traction-pompe-squat-88a0eb'>Programme Traction Pompe Squat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plus-beau-que-moi-tu-meurs-acteur-88a0eb'>Plus Beau Que Moi Tu Meurs Acteur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lol-hair-vibes-king-jouet-88a0eb'>Lol Hair Vibes King Jouet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pour-faire-parler-les-curieux-88a0eb'>Pour Faire Parler Les Curieux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sport-7-lettres-88a0eb'>Sport 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plaqueuse-de-chant-virutex-88a0eb'>Plaqueuse De Chant Virutex</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-d%C3%AEner-presque-parfait---youtube-88a0eb'>Un Dîner Presque Parfait - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-grandes-gueules-film-musique-88a0eb'>Les Grandes Gueules Film Musique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Secret-d%27Histoire-g%C3%A9n%C3%A9rique-88a0eb'>Secret D'Histoire Générique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l%C3%A9gion-88-le-massacre-des-sales-paroles-88a0eb'>Légion 88 Le Massacre Des Sales Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=kilari-et-hiroto-moment-88a0eb'>Kilari Et Hiroto Moment</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-desactiver-les-messages-sur-instagram-88a0eb'>Comment Desactiver Les Messages Sur Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laetitia-hugues-instagram-88a0eb'>Laetitia Hugues Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=caroline-cln-fitness-snap-88a0eb'>Caroline Cln Fitness Snap</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-els-sans-exp%C3%A9rience-88a0eb'>Lettre De Motivation Els Sans Expérience</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-tournoi-de-foot-88a0eb'>Programme Tournoi De Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-interdire-88a0eb'>Synonyme De Interdire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avec-le-temps-ukulele-88a0eb'>Avec Le Temps Ukulele</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=zombielars-saison-2-%C3%A9pisode-1-en-fran%C3%A7ais-88a0eb'>Zombielars Saison 2 épisode 1 En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hot-diggity-dog-88a0eb'>Hot Diggity Dog</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=impact-native-whey-isolate-avis-88a0eb'>Impact Native Whey Isolate Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bcaa-nouvelle-z%C3%A9lande-88a0eb'>Bcaa Nouvelle Zélande</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=combien-touche-neymar-avec-nike-88a0eb'>Combien Touche Neymar Avec Nike</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9tude-de-cas-uber-88a0eb'>étude De Cas Uber</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=6-pack-abs-88a0eb'>6 Pack Abs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carlisle-united-shop-88a0eb'>Carlisle United Shop</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crossfit-movements-list-88a0eb'>Crossfit Movements List</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=music-intro-youtube-88a0eb'>Music Intro Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtubeur-voiture-de-luxe-88a0eb'>Youtubeur Voiture De Luxe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=moussa-koh-lanta-taille-poids-2020-88a0eb'>Moussa Koh-lanta Taille Poids 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-arsenal-2018-88a0eb'>Maillot Arsenal 2018</a>,
+";s:7:"expired";i:-1;}

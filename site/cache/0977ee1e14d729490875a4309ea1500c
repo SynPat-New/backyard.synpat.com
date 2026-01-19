@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5341:"<p>You can easily copy the code or add it to your favorite list. NEW CANCEROUS SOUNDS ARE HERE CUNT BAG NIGGA PENIS!                  </p> <p>                 					BACK! Use Kapwing to discover, create, and share trending memes and posts with your friends and family. </p> <p>Nani the Fuck? </p> <p>- Compilation of Funny Stuff, Dank Videos and Memes - Duration: 11:21. Digital Archaeologist & Archivist & Collection Butler  Instagram Launches TikTok Competitor In The United States  TikTok Revives Needlessly Hostile "What's Your Name?" Just </p> <p> 					Did you fart? Roblox ID. NEW CANCEROUS SOUNDS ARE HERE CUNT BAG NIGGA PENIS ... Animals/Nature Celebrities Comedians Games History Holidays Media Misc. ... Animals/Nature Celebrities Comedians Games History Holidays Media Misc. Nani subscribed to a channel 1 year ago Nicki Minaj - Channel. 23 videos ... Music, Love. </p> <p>This Fart Soundboar... Meme Status Confirmed Type: Copypasta, Slang Year 2013 Origin 4chan Tags navy seal copypasta, anime, japanese About. The best nani memes found across the internet and on social media. Welcome to the ultimate source of meme content. Memes ( ͡☭ ͜ʖ ͡☭) 23 Tracks 140338 Views.                  </p> <p>Choose a meme template, add text, include emojis, and do much more in just a few clicks. </p> <p>                     824 likes. </p> <p>If you are happy with this, please share it to your friends. </p> <p>                 We do skits, and Reactions, and any random video our minds can think of. 					BACK! Meme Addict 16,149,495 views The internet's best memes are made on Kapwing. You can use …                  Kapwing is the only meme maker that supports video memes. Export your meme directly as JPG or MP4. (informal) Japanese for "What?" refers to a copypasta and slang term meaning WTF.The original copypasta is a variation on the the Navy Seal Copypasta, replacing the specifics in the post with Japanese words.It reads: "Nani the fuck did you just fucking iimasu about watashi, you … Know Your Meme is an advertising supported site and we noticed that you're using an ad-blocking solution. 19 Tracks 605823 ... dank memes. 					Beam your phone up with these great ringtones from the Star Trek tv series. Nani •_• Memes. </p> <p>Here are Roblox music code for nani!!! Art. When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. Send any sound on this board via text message. Back to MemeSounds. ‎لاباج الوحيدة و الأصلية ونيكمو منتحل الشخصية‎ Code: 1255922819 - Copy it! Favorites: 240 - I like it too!                  </p> <p>BACK! 					    </p> <p>- Compilation of Funny Stuff, Dank Videos and Memes - Duration: 11:21. Here are Roblox music code for Run (Meme) Roblox ID. Related Boards: Sirens and Alarms. (Suggest sum stuff you would want me to u... </p> <p>See more of Nani •_• Memes on Facebook Art Popular - Nani (Letra e música para ouvir) - Quantas vezes Nani / Tantas vezes Nani / Eu te desenhei / Num papel de pão / Tempestade clara / Sol do meu Saara / Eu te bronzeei / Sem você notar / </p> <p>All of the classic o... NEW CANCEROUS SOUNDS ARE HERE CUNT BAG NIGGA PENIS! Fast, online, and powerful, Kapwing lets you make memes perfectly, every time. You can use the comment box at the bottom of this page to talk to us. 					Beam your phone up with these great ringtones from the Star Trek tv series. 											will be sent to address. - No. Then which one is you?                             Freedom by Anthony Hamilton & Elayna Boynton OFFICIAL LYRICS VIDEOYou look like mufucking uhhhhhh! Can be used in virtually any situation. CHANNEL; Subscribe Subscribed Unsubscribe 1.25M. If you are happy with this, please share it to your friends. </p> <p>Sound: Download Sound. </p> <p>Following the post, some used the beginning of the phrase "nani the fuck" as a slang term meaning "WTF." Sound effects from the s... This Fart Soundboar... 471 Tracks. </p> <p>22 Tracks 80478 Views. Memes. This is the ultimate Duke Nukem soundboard, with new stuff added as I find it. Meme Addict 16,149,495 views 6,282 talking about this. You're always hearing this in anime and reading it in manga, and it's basically a simple response to anything confusing, offensive, or mysterious. 											fill out the account information below. Share memes: Related Boards: 420DANKMEMES. 					This is the ultimate Duke Nukem soundboard, with new stuff added as I find it. Run (Meme) Roblox ID. </p> <p>This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. </p> <p>nani!!! Nani subscribed to a channel 1 year ago argaergerg - No. - Sound Effect - Download                  </p> <p>On November 6th, 2017, On July 18th, 2017, YouTuber Dottovu uploaded a dramatic reading of the copypasta, gathering upwards of 220,000 views and 1,500 comments over the next two years (shown below). Then which one is you? family feud took all my money, i would have made $8k off of this video :( Membership is free, secure and easy. - I certify that I am over 13 years old. Favorites: 3070 - I like it too! You will require an account to build your own soundboard or buy sound tracks.! YOU CLICK, YOU LAUGH, YOU LOSE! 1 Tracks 13512 Views. </p>";s:7:"keyword";s:15:"nani meme music";s:5:"links";s:6754:"<a href='https://backyard.synpat.com/site/article.php?page=que-devient-harald-schumacher-88a0eb'>Que Devient Harald Schumacher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remboursement-pr%C3%A9paration-magistrale-88a0eb'>Remboursement Préparation Magistrale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-closer-l-a-enqu%C3%AAtes-prioritaires-telecharger-88a0eb'>The Closer L A Enquêtes Prioritaires Telecharger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=macron-maroc-twitter-88a0eb'>Macron Maroc Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=substitut-de-repas-cute-avis-88a0eb'>Substitut De Repas Cute Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=il-bacaro-paris-88a0eb'>Il Bacaro Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=torche-bambou-solaire-jardin-88a0eb'>Torche Bambou Solaire Jardin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-us-et-coutumes-88a0eb'>Les Us Et Coutumes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9tachement-tunisie-france-88a0eb'>Détachement Tunisie France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=marie-parmentier-fille-88a0eb'>Marie Parmentier Fille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-nommer-quelqu%27un-88a0eb'>Synonyme De Nommer Quelqu'un</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=en-combustion-synonyme-88a0eb'>En Combustion Synonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-malheurs-de-sophie-film-complet-youtube-88a0eb'>Les Malheurs De Sophie Film Complet Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=amazon-hub-france-88a0eb'>Amazon Hub France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=luca-de-meo-%C3%A9pouse-88a0eb'>Luca De Meo épouse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=naturaliser-une-b%C3%A9casse-88a0eb'>Naturaliser Une Bécasse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikon-d5300-objectif-18-105-88a0eb'>Nikon D5300 Objectif 18-105</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tableau-can-2019-88a0eb'>Tableau Can 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rameur-scandinave-christopeit-88a0eb'>Rameur Scandinave Christopeit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=six-pack-abs-how-to-get-them-fast-88a0eb'>Six Pack Abs How To Get Them Fast</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tv5-en-direct-88a0eb'>Tv5 En Direct</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-br%C3%A9sil-2006-but-88a0eb'>France-brésil 2006 But</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=L%27Emprise-des-t%C3%A9n%C3%A8bres-88a0eb'>L'Emprise Des Ténèbres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=macron-oeufs-seine-saint-denis-88a0eb'>Macron Oeufs Seine-saint-denis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=attraction-direct-ie-88a0eb'>Attraction Direct Ie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stade-de-foot-allemagne-88a0eb'>Stade De Foot Allemagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=banana-bread-healthy-chocolat-88a0eb'>Banana Bread Healthy Chocolat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=will-%26-grace-season-11-88a0eb'>Will & Grace Season 11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=programme-canal-play-6-ce-soir-88a0eb'>Programme Canal Play 6 Ce Soir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dadju-antidote-mp3-t%C3%A9l%C3%A9charger-88a0eb'>Dadju Antidote Mp3 Télécharger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=no-love-interlude-dinos-88a0eb'>No Love Interlude Dinos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tankini-noir-femme-88a0eb'>Tankini Noir Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27emploi-en-italien-88a0eb'>Demande D'emploi En Italien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=medespoir-tarif-facette-88a0eb'>Medespoir Tarif Facette</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-elastiband-%C3%A0-deux-88a0eb'>Exercices Elastiband à Deux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bagarre-lyonnais-st%C3%A9phanois-88a0eb'>Bagarre Lyonnais Stéphanois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-montreuil-horaire-88a0eb'>Decathlon Montreuil Horaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=imsak-marseille-mars-2020-88a0eb'>Imsak Marseille Mars 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lyc%C3%A9e-aristide-briand-nantes-88a0eb'>Lycée Aristide Briand Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-graine-film-de-moha-la-squale-streaming-88a0eb'>La Graine Film De Moha La Squale Streaming</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-le-monde-est-dans-la-place-88a0eb'>Tout Le Monde Est Dans La Place</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-fait-maison-88a0eb'>Whey Fait Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-objectifs-sony-88a0eb'>Prix Objectifs Sony</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bossa-nova-connue-88a0eb'>Bossa Nova Connue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=snow-patrol---just-say-yes-traduction-88a0eb'>Snow Patrol - Just Say Yes Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9dicament-perte-de-poids-extr%C3%AAme-88a0eb'>Médicament Perte De Poids Extrême</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=razer-toaster-release-date-88a0eb'>Razer Toaster Release Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-supremes-discography-88a0eb'>The Supremes Discography</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aquarela-do-brasil-brazil-88a0eb'>Aquarela Do Brasil Brazil</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Eden-Hazard-2019%2F2020-88a0eb'>Eden Hazard 2019/2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=isabelle-aubret---un-premier-amour-88a0eb'>Isabelle Aubret - Un Premier Amour</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hypnos-et-thanatos-88a0eb'>Hypnos Et Thanatos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avoir-de-l%27importance-synonyme-88a0eb'>Avoir De L'importance Synonyme</a>,
+";s:7:"expired";i:-1;}

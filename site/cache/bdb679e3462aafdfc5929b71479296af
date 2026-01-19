@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6656:"<p>Der FC Liverpool ist da eine Ausnahme – vor allem, wenn es um die Erinnerung an die Katastrophe von Hillsborough geht. Mai 2020. Erwähnenswert: Politische Statements, die u.a. Germany: Top support! Eine entsprechende Tradition hat auch die Ultra-Kultur im Zentralmassiv. In der Europa League übertrafen sie sich ein ums andere Mal selbst - wie hier gegen Benfica. </p> <p>Eintracht Frankfurt - Borussia Dortmund 27.05.2017 Details Published: 28 May 2017. Eintracht: Dortmund: VIDEOS: Twitter. Diese beeindruckende Choreo kreierten die HSV-Fans für die Feier zum 125. </p> <p>Die Erinnerung an den verstorbenen Schalke-Macher Rudi Assauer gehört sicher zu den emotional meist bewegenden der deutschen Fußball-Geschichte.Die Bayern-Fans gehören im deutschen Fußball zu den stärksten, wenn es um Ganzstadion-Choreos geht – wie im CL-Halbfinale 2010. </p> <p></p> <p>FC Kaiserslautern ist, wie könnte es anders sein, der legendäre Fritz Walter ein gern genommenes Motiv für große Choreos. Immer mit dabei: Deutliche politische und Gesellschaftliche Statements, etwa in Form von Regenbogen-Flaggen.In Japan haben sich viele Fans ein Vorbild an Europa und Südamerika genommen. </p> <p>Die Rapid-Fans erinnerten dabei an den ikonischen Sieg bei Real Madrid 1968.Die Fankurve des russischen Meisters zählt zu den lautesten in Europa und lässt sich darüber hinaus im Rennen um die meist beeindruckende Choreo nicht lumpen: Gegen RB Leipzig titelten sie: „Zenit in der Seele, Russland im Herzen.“Berüchtigt für ihre großen Choreos, oftmals mit reichlich Pyro-Einsatz, sind die Fans von Roter Stern und Partizan Belgrad. ...             Hier haben die ZSKA-Fans ihren Block komplett in die Vereinsfarben getaucht.Die Rivalität in Kopenhagen ist ebenfalls gewaltig - auch unter den Fangruppen des FC und von Bröndby. </p> <p>Donnerstag, 28. </p> <p>Ein umgangssprachliches Wort ist Tifo - abgeleitet von den Tifosi. Join Ultras-Tifo Shop newsletter to receive the latest updates and shop promotions. FC Saarbrücken beim Spiel gegen Waldhof Mannheim am 09.03.2019 in Mannheim mit über 14000 Zuschauer bei einem Spiel der Regionalliga Südwest! NEWSLETTER. Watch: Tifo of the Year frontrunner from Borussia Dortmund fans - 02/18/2020 Ahead of their team's 4-0 win over Eintracht Frankfurt, Borussia Dortmund fans raised the bar on pregame tifo … Diese werden vom Verein gesammelt und an benachteiligte Kinder verschenkt.Choreos haben in Italien Tradition. Mit den Choreos überbieten sich die Ultras regelmäßig gegenseitig. </p> <p>Hier feiern die FC-Fans die Meisterschaft 2016. Spektakel gehört zum Sport in den USA einfach dazu - auch von den Rängen. Die Blockfahne ist die größte ihrer Art, die bis dato in einem Stadion gehisst wurde: „Die Legende aus Elbflorenz. Der Stürmer ist häufig Teil großer Choreos im Santiago Bernabeu - wie hier vor dem Keine Choreographie im klassischen Sinne, aber nicht weniger beeindruckend: Beim Klub aus Sevilla ist es im Dezember üblich, dass Kuscheltiere auf den Platz geworfen werden. Ob Bundesliga, 3. U.a. Den letzten Titelgewinn im Landesmeisterpokal gab es für den Klub 1962 zu feiern.Die Fans von Galatasaray sorgen mit ihren Choreos regelmäßig für Schlagzeilen. </p> <p>Mit aufwändigen Inszenierungen wird die Unterstützung für die eigene Mannschaft dargestellt oder Kritik an Politik, Gesellschaft oder Entwicklungen im Verein geführt.In Deutschland sind sie spätestens in den 1990er Jahren angekommen und mittlerweile nicht mehr wegzudenken. Der Verein mit den besten Fans!“  450 Meter lang und mit über 70 Kilometer Faden gewebt. </p> <p>Mit ihrer „Suche nach dem Henkelpott“ vor dem Viertelfinal-Rückspiel in der Champions League gegen Seit der Saison 2018/19 stehen die Fans der SGE sinnbildlich für kreative Choreographien aus dem deutschen Fußball. Dafür widmete TM ihnen sogar eine Auch die Südtribüne beim BVB war schon oft Schauplatz beeindruckender Choreos! </p> <p>Borussia Dortmund - Eintracht Frankfurt 14.02.2020 Details Published: 15 February 2020. Dieser Anblick mit dem Gedenken an die 96 Verstorbenen zierte The Kop 2014, 25 Jahre später.Wenn das größte Stadion Europas komplett in die Farben des Vereins getaucht ist: Die Choreo für den „zwölften Mann“ im Clásico gegen Real Madrid sorgte für Schlagzeilen.Die Königlichen hatten in ihrer Geschichte viele Stars. </p> <p>Dass es auch weniger martialisch geht, zeigten sie mit dieser beeindruckenden Choreo zum Abschied von Klublegende Robin van Persie und Trainer Giovanni van Bronckhorst zum Ende der Saison 2018/19.„Die Hölle von Sclessin“ wird das Stadion von Standard Lüttich auch genannt. Die beiden Vereine verbindet ja eine lange und enge Fanfreundschaft, die auch ich selber stark auslebe. </p> <p>Bemerkenswert sind dabei oft ihre antirassistischen Botschaften. Dortmund won. Der Mittlere von ihnen, Willi gerufen, erblickte am 2. Unvergessen die „Suche nach dem Henkelpott" gegen Málaga in der Champions League, das Panini-Album gegen Porto in der Europa League oder dieses Beispiel gegen Benfica!„Gänsehaut-Choreo“ hieß es vielerorts als Reaktion darauf, was die Schalker Nordkurve Anfang Mai 2019 gegen den FC Augsburg hervorbrachte. Dezember 1909, dem vierten Advent, in der Gaststätte „Zum Wildschütz“ aus der Taufe gehoben wurden, waren drei Jacobis mit von der „Gründerpartie“: Franz, die Vereinslegende, sowie Wilhelm und Julius. Das zeigten die Fans beim Finale 2015 im Berliner Olympiastadion auf kreative Weise.Für die beeindruckenden Choreos ist bei Inter seit jeher die Curva Nord verantwortlich. Liga, Regionalliga oder Oberliga – wer eine Ultraszene hat, und das haben so gut wie alle größeren Vereine, hat in der Regel ab und an auch eine große Choreographie. </p> <p>ultrAslan ist die größte Fangruppierung der Türkei - hier haben sie Filmheld Rocky für das Derby gegen Fenerbahce nachgestellt.Der Celtic Park ist ein Heiligtum für Liebhaber von Fankultur. Die abgebildete Variante war zugleich ein Zeichen gegen einen möglichen Verkauf der Namensrechte des Stadions, das trotz aller finanziellen Sorgen in der Pfalz auch heute noch den Namen des verstorbenen Helden trägt.Ende Oktober 2015 sorgten die Fans von Dynamo Dresden im Drittliga-Derby gegen Magdeburg für einen Europarekord. Ich bin in Nürnberg geboren und glühender Anhänger beider Vereine (S04&FCN). </p> <p>Mitunter haben Ultraszenen gezeigt, dass Pyrotechnik auch kreativ in die Choreos eingearbeitet werden kann. Das ist Fußball und das sind die Emotionen die wir sehen und fühlen wollen.  </p> <p>BVB: Eintracht: VIDEOS: Twitter. </p>";s:7:"keyword";s:23:"tifo dortmund frankfurt";s:5:"links";s:6846:"<a href='https://backyard.synpat.com/site/article.php?page=toll%C3%A9-synonyme-3-lettres-88a0eb'>Tollé Synonyme 3 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mohamed-bouhafsi-parcours-88a0eb'>Mohamed Bouhafsi Parcours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sport-national-suisse-88a0eb'>Sport National Suisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%AApe-patate-douce-bonnefont-88a0eb'>Crêpe Patate Douce Bonnefont</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=decathlon-mon-compte-belgique-88a0eb'>Decathlon Mon Compte Belgique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=leonardo-express-plan-88a0eb'>Leonardo Express Plan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=val%C3%A9rie-bena%C3%AFm-cancer-88a0eb'>Valérie Benaïm Cancer</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=info-magazine-limoges-contact-88a0eb'>Info Magazine Limoges Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Belgique-mondial-2014-88a0eb'>Belgique Mondial 2014</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Prix-publication-Instagram-88a0eb'>Prix Publication Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exprimer-une-dimension-88a0eb'>Exprimer Une Dimension</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=f%C3%AAte-mich%C3%A8le-date-88a0eb'>Fête Michèle Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=l-ex%C3%A9cutif-des-musulmans-de-belgique-ramadan-2018-88a0eb'>L Exécutif Des Musulmans De Belgique Ramadan 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=forum-in%C3%A8s-koh-lanta-88a0eb'>Forum Inès Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=facult%C3%A9-d%C3%A9finition-philosophique-88a0eb'>Faculté Définition Philosophique</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adrien-gindre-couple-88a0eb'>Adrien Gindre Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lorenzo-chien-confinement-88a0eb'>Lorenzo Chien Confinement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Yassine-Bounou-femme-88a0eb'>Yassine Bounou Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-plus-important-est-88a0eb'>Le Plus Important Est</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-gagick-vetement-88a0eb'>Jean-pierre Gagick Vetement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gustine-the-voice-martigues-88a0eb'>Gustine The Voice Martigues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-cordialement-mail-88a0eb'>Synonyme Cordialement Mail</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=my-body-accessoire-88a0eb'>My Body Accessoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=i-will---traduction-en-fran%C3%A7ais-88a0eb'>I Will - Traduction En Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=celine-dion-blues-88a0eb'>Celine Dion Blues</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ballon-thermodynamique-tresco-notice-88a0eb'>Ballon Thermodynamique Tresco Notice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=masque-ma%C3%AFzena-et-yaourt-88a0eb'>Masque Maïzena Et Yaourt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=poker-face-karaoke-88a0eb'>Poker Face Karaoke</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=naruto-drawing-easy-88a0eb'>Naruto Drawing Easy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Isaiah-Thomas-p%C3%A8re-88a0eb'>Isaiah Thomas Père</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-motivation-licence-pro-e-commerce-88a0eb'>Lettre De Motivation Licence Pro E-commerce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=will-griggs-on-fire-northern-ireland-88a0eb'>Will Griggs On Fire Northern Ireland</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aparthotel-adagio-london-brentford-booking-88a0eb'>Aparthotel Adagio London Brentford Booking</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avocat-de-carlos-ghosn-88a0eb'>Avocat De Carlos Ghosn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tapis-de-course-inclinable-15-88a0eb'>Tapis De Course Inclinable 15</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-chanteur-de-mexico---youtube-88a0eb'>Le Chanteur De Mexico - Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=viande-de-porc-berkshire-88a0eb'>Viande De Porc Berkshire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=payer-en-esp%C3%A8ce-just-eat-88a0eb'>Payer En Espèce Just Eat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=if-i-vanupi%C3%A9-88a0eb'>If I Vanupié</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dette-africaine-envers-la-france-88a0eb'>Dette Africaine Envers La France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=achat-billets-studio-harry-potter-88a0eb'>Achat Billets Studio Harry Potter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sword-art-online-wallpaper-kirito-88a0eb'>Sword Art Online Wallpaper Kirito</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=base-de-donn%C3%A9es-influenceurs-88a0eb'>Base De Données Influenceurs</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thrift-shop-reprise-88a0eb'>Thrift Shop Reprise</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-retrait-image-google-88a0eb'>Demande Retrait Image Google</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prot%C3%A9ine-avant-de-dormir-pour-maigrir-88a0eb'>Protéine Avant De Dormir Pour Maigrir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=avant-apr%C3%A8s-r%C3%A9gime-et-sport-homme-88a0eb'>Avant Après Régime Et Sport Homme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mari-de-janane-boudili-88a0eb'>Mari De Janane Boudili</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=On-n%27est-pas-que-des-cobayes-nouveau-88a0eb'>On N'est Pas Que Des Cobayes Nouveau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cover-letter-publish-paper-88a0eb'>Cover Letter Publish Paper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thailande-baie-d%27halong-88a0eb'>Thailande Baie D'halong</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Olivier-Dion-photoshoot-88a0eb'>Olivier Dion Photoshoot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=koh-lanta-johor-episode-1-streaming-88a0eb'>Koh-lanta Johor Episode 1 Streaming</a>,
+";s:7:"expired";i:-1;}

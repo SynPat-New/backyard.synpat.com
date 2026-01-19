@@ -1,0 +1,106 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6221:"<p>Dispose d’un affichage led vous donnant les informations essentielles de votre entrainement, vitesse, distance, temps, etc… S’entraîner n’a jamais été aussi facile.Ballon de rugby solide avec une très bonne matière. </p> <p>If it was unconfirmed, we would’ve mentioned it to be so.The two persons in the pic are Constant Omari and President Felix TshisekediNew Zimbabwe AFCON Kits 2019- Warriors Umbro Jerseys 2019-20New Mauritania AFCON 2019 Kits | Mauritania AB Sport…New DR Congo Jerseys 2019-2020 | AFCON O’Neills RDC Shirts 19-20 </p> <p>Democratic Republic of Congo Soccer Vest . Vente maillots congo rdc pas cher,Retrouvez tous les produits d'El congo rdc. </p> <p>Quick add. Nous vous proposons des maillots , survetement ,vestes.. Créez vos maillots foot personnalisés à : logo Nom Nombre. maillot-foot sur 25 novembre 2014 à 12 h 06 min  Soutenez les léopards du Congo ayez à votre disposition un maillot digne des plus grands supporteurs. </p> <p>Son col à ourlet rond pour une liberté optimale de mouvement et un confort assuré. For more kit news, supplier changes and leaks, please follow us on Did you know that the new AC Milan kit will be unveiled on July 28, 2020? Soutenez les léopards du Congo ayez à votre disposition un maillot digne des plus grands supporteurs. Un maillot de la Côte d'Ivoire estampillé Nike est apparu ces derniers jours sur les réseaux sociaux, avec une très bonne qualité de fabrication, est-ce un changement d'équipementier pour le futur, ou un Fake ? C’est Constant Omari Selemani, Président de la Fecofa qui l'a présentés au… Buy the new Congo football shirts including shorts, socks and training kit. 120 Reward Points. Sa beauté se voit encore dans son design et ses matières.Parfait pour une famille Dart nuit ou des compétitions amicales avec vos potes, il s’agit de la solution économique pour avoir un jeu barre dans le confort de votre propre maison.accrocher des clefs ou fixer à un passant du pantalon.Huile Végétale - OléOr - Sans Cholestérols 5L- KF00116Collier Artisanal + Bracelet en Perle, Style Africain, Sublime Design Pour Femme - Multicolore MT0077Bazin Getzner, Autriche Extra Qualité - Couleur Vert Clair, 1 Mètre GF0059Chemise Woodin Pour Homme - Couleur Bleu-Blanc MJ0021Panier Pour Ménagère - Sauce Mafé Pâte d’Arachide au Gombo TIKADEKAI GOUANMA avec Viande - Repas pour 5 Personnes SODI00Panier Pour Ménagère - Riz au Gras Blanc ZAMAI avec Viande - Repas pour 5 Personnes SODI00Panier Pour Ménagère - Riz au Gras Blanc ZAMAI avec Poisson - Repas pour 5 Personnes SODI00Panier Pour Ménagère - Riz au Gras Rouge ZAMAI avec Poisson - Repas pour 5 Personnes SODI00OdinMars Chemise Blanche Imprimé Floral - Pour Homme BJ00100Tablette MODIO 4G M7 1GB +16 GB 7 Pouces 2.0MP multi Langues Dual SIMSmoking Complet Bleu Ciel Pour Homme 2 Pièces GJ0058Jean  Pour Homme Coupe Slim - Couleur Bleu Dragée BJ0010HP Notebook Ordinateur Portable Ecran Tactile 15-f387WM - 4GB RAM, 500GB HDD, 15.6 PoucesMontre Curren Bracelet en Cuir Pour Homme Couleur Rouge Bordeau M8341 Sodi00Chemise à Fleur OdinMars - Couleur Bleu Blanc BC00103Sac à Main Couleur Vert Design Chic - Pour Femme MJ0021Sac à Main Couleur Rouge Design Chic - Pour Femme MJ0021Contrôle d'Accès Biométrique Multistar V610 - Dispositif de Pointage avec Reconnaissance Facial RFID Empreinte Digital SODI00Pull-Over Vêtement en Laine - Diverses Couleurs BK0096Chemise à Imprimé Couleur Bleu - Ultra Stylée Pour Homme BK0096Panier Pour Ménagère - Sauce Mafé Pâte d’Arachide au Gombo TIKADEKAI GOUANMA avec Viande - Repas pour 5 Personnes SODI00Panier Pour Ménagère - Riz au Gras Blanc ZAMAI avec Viande - Repas pour 5 Personnes SODI00Panier Pour Ménagère - Riz au Gras Blanc ZAMAI avec Poisson - Repas pour 5 Personnes SODI00Panier Pour Ménagère - Riz au Gras Rouge ZAMAI avec Poisson - Repas pour 5 Personnes SODI00Samsung Galaxy A20S Smartphone Téléphone Portable Dual SIM 32Go DC00120Graines de Coriandre Entière 1Kg Assaisonnement Naturel Épice - Santé et Cuisine en Sachet LE00142Mini Gourde en Plastique Motif Dauphin - Couleur Bleu Pour Enfant LB0091Souris Filaire HP X500 Connecteur USB Couleur Noire MM00137Bracelet Artisanal Tressé, Véritable Cuir Résistant, Qualité Supérieure Pour Homme et Femme - Taille Ajustable, Couleur Noir SODI00Clé d'activation - Licence Microsoft Office 2019 Professionnel Plus- IF00144Montre LookWorld Pour Femme En Acier Couleur Argent Affichage de la Date DL00106Chemise de Soirée OdinMars - Couleur Bleu Pour Homme BC00103Naviforce Montre Homme Bracelet en Acier Indicateur de Date - Couleur Noir DL00106Sac à Main Couleur Vert Design Chic - Pour Femme MJ0021Sac à Main Couleur Rouge Design Chic - Pour Femme MJ0021Contrôle d'Accès Biométrique Multistar V610 - Dispositif de Pointage avec Reconnaissance Facial RFID Empreinte Digital SODI00Pull-Over Vêtement en Laine - Diverses Couleurs BK0096Chemise à Imprimé Couleur Bleu - Ultra Stylée Pour Homme BK0096 </p> <p>16€ -Où trouver l’offre maillot de foot pas cher au meilleur prix ? </p> <p>DECATHLON RDC vous propose un choix de gamme 100% sportif plus de 100 pratiques sportives échange et remboursement gratuit Très pratique pour le fitness.Grip, toucher, souplesse…  conçu pour apporter un confort de jeu inégalable aux mordus du Street Ball. Un maillot 100 % en Polyester doté de la Technologie Dri-FIT vous procurant un maintien au sec et une protection contre la transpiration. Equipement de fitness de haute qualité.Sifflet pour les arbitres et les policiers. Garanties et modes de livraison proposés par maillotparis.com pour vos achats soccer moins pas cher. They’re in Group A alongside Egypt, Zimbabwe and Uganda.RD Congo have won AFCON twice and finished third at the 2015 edition of the tournament.Is this the correct dr congo jersey or you are just guessing to attract viewer to your webside ?They are 100% legit. </p> <p>Nike recueille les informations relatives à votre visite en utilisant des cookies pour améliorer la performance du site, faciliter les partages sur les réseaux sociaux et offrir des publicités adaptées à vos centres d’intérêt. </p>";s:7:"keyword";s:22:"maillot congo rdc nike";s:5:"links";s:6116:"<a href='https://backyard.synpat.com/site/article.php?page=joueur-congolais-foot-88a0eb'>Joueur Congolais Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Hotel-Xanadu4%2C2%28217%29%C3%80-1%2C4%C2%A0mi100%C2%A0%24US-88a0eb'>Hotel Xanadu4,2(217)À 1,4 mi100 $US</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mg-premier-league-fut-20-88a0eb'>Mg Premier League Fut 20</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=one-piece-tome-61-date-de-sortie-88a0eb'>One Piece Tome 61 Date De Sortie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=touche-tabulation-excel-88a0eb'>Touche Tabulation Excel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=qui-est-le-compagnon-de-michel-fau%3F-88a0eb'>Qui Est Le Compagnon De Michel Fau?</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=critique-film-armada-88a0eb'>Critique Film Armada</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=business-plan-cr%C3%A9ation-de-bijoux-88a0eb'>Business Plan Création De Bijoux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=euro-stoxx-50-d%C3%A9finition-88a0eb'>Euro Stoxx 50 Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cela-impact-ou-impact%C3%A9-88a0eb'>Cela Impact Ou Impacté</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-clarosa-maeva-88a0eb'>Code Promo Clarosa Maeva</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anastasie-ton-corps-m%27anesth%C3%A9sie-88a0eb'>Anastasie Ton Corps M'anesthésie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-grand-angle-canon-14mm-88a0eb'>Objectif Grand Angle Canon 14mm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=perfect-fit-senior-chat-88a0eb'>Perfect Fit Senior Chat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chat-papier-toilette-saut-88a0eb'>Chat Papier Toilette Saut</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=larry-mullen-junior-aaron-elvis-mullen-88a0eb'>Larry Mullen Junior Aaron Elvis Mullen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ultras-napoli-curva-a-88a0eb'>Ultras Napoli Curva A</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=run-s%C3%A9rie-avis-88a0eb'>Run Série Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=annotation-en-arabe-88a0eb'>Annotation En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ils-s%27aiment-%283%29-88a0eb'>Ils S'aiment (3)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-hic-el-watan-88a0eb'>Le Hic El Watan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=neymar-dans-la-casa-de-papel-88a0eb'>Neymar Dans La Casa De Papel</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-yanne-orgue-88a0eb'>Jean Yanne Orgue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bring-me-a-higher-love-88a0eb'>Bring Me A Higher Love</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diff%C3%A9rence-entre-racine-et-tubercule-pdf-88a0eb'>Différence Entre Racine Et Tubercule Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicolo-%28la-villa-des-c%C5%93urs-bris%C3%A9s-%C3%A2ge%29-88a0eb'>Nicolo (la Villa Des Cœurs Brisés âge)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=charles-magnien-age-88a0eb'>Charles Magnien Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roland-magdane-la-guerre-88a0eb'>Roland Magdane La Guerre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nextaz-saison-11-88a0eb'>Nextaz Saison 11</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9flexion-mulan-paroles-88a0eb'>Réflexion Mulan Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alexandre-moix-film-88a0eb'>Alexandre Moix Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Swan-et-N%C3%A9o-aujourd-hui-88a0eb'>Swan Et Néo Aujourd Hui</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-besiktas-2020-88a0eb'>Maillot Besiktas 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Je-ne-sais-pas-danser-88a0eb'>Je Ne Sais Pas Danser</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cgi-3d-animation-short-film-hd-88a0eb'>Cgi 3d Animation Short Film Hd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Isaiah-Thomas-p%C3%A8re-88a0eb'>Isaiah Thomas Père</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=division-%C3%A0-3-chiffres-88a0eb'>Division à 3 Chiffres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9kin-express-2020-%C3%A9limination-88a0eb'>Pékin Express 2020 élimination</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blanc-d%27oeuf-en-poudre-decathlon-88a0eb'>Blanc D'oeuf En Poudre Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nom-d%27utilisateur-twitter-deja-pris-88a0eb'>Nom D'utilisateur Twitter Deja Pris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=horaire-pri%C3%A8re-nouakchott-ramadan-88a0eb'>Horaire Prière Nouakchott Ramadan</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=unique-synonyme-anglais-88a0eb'>Unique Synonyme Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=plage-publique-gammarth-88a0eb'>Plage Publique Gammarth</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Kenza-Farah-Lucky-88a0eb'>Kenza Farah Lucky</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salade-italienne-ricardo-88a0eb'>Salade Italienne Ricardo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fifa-20-club-pro-cdm-88a0eb'>Fifa 20 Club Pro Cdm</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=h%C3%B4tel-restaurant-roissy-en-france-88a0eb'>Hôtel Restaurant Roissy-en-france</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=licence-psychologie-communication-88a0eb'>Licence Psychologie Communication</a>,
+";s:7:"expired";i:-1;}

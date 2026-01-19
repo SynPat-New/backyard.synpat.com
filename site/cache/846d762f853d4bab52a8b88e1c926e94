@@ -1,0 +1,107 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3907:"<p>VueScan ist mit dem Brother DCP-9020CDW auf Windows x86, Windows x64, Windows RT, Windows 10 ARM, Mac OS X und Linux kompatibel.Sie können diesen Scanner unter Mac OS X und Linux verwenden, ohne irgendeine andere Software zu installieren.VueScan nutzt die JPEG-Komprimierung des Scanners, um schneller zu arbeiten. DCP-9020CDW. Descatalogado. Sie haben nach etwas anderem gesucht? Impresora 3 en 1, impresora, copiadora y escáner. Rechtliche Informationen Bitte versuchen Sie es erneut. </p> <p>Bringen sie Ihren Scanner in 60 Sekunden wieder zum Laufen: mit unserem Brother DCP-9020CDW Treiber unter Windows 10, MacOS Catalina und mehr VueScan rettet alte Scanner, die nicht mehr mit neueren Computern arbeiten. </p> <p>"ControlCenter muss aktualisiert werden" - macOS 10.15 Catalina The application is excellent. Wenn Sie Treiber auf Ihrem Brother Gerät aktualisieren oder Ihre Software herunterladen möchten, sind Sie hier genau richtig. VueScan unterstützt über 6000 Scanner von 42 Herstellern - auch wenn vom Hersteller kein Treiber verfügbar ist. Der Brother DCP-9020CDW Highspeed All-in-One Duplex-Farbdrucker bietet schnelle, effiziente S/W- und Farbdruckausgabe mit bis zu 18 Seiten pro Minute. Dies ist beim Scannen über eine Netzwerkverbindung wesentlich schneller. Ein Fehler ist aufgetreten. Conexión WiFi, alimentador de documentos de 35 hojas e impresión automática a doble cara . Mit unseren individuellen Produktberatern unterstützen wir Sie, das ideale Hardware-Setup für Ihre Bedürfnisse zu finden.Finden Sie passende Druckerpatronen, Tonerkartuschen und Zubehör, die für Ihr Gerät geeignet sind.Verwalten und optimieren Sie Ihre Druckflotte nach Ihren Ansprüchen mit einem unserer MPS-Konzepte.Finden Sie Antworten auf häufig gestellte Fragen sowie Downloads für Ihre Brother Produkte.Registrieren Sie jetzt Ihr Brother Produkt und sichern Sie sich zahlreiche Vorteile.Suchen Sie hier nach Ihrem nächstgelegenen Reparatur- und Servicecenter. Endereço de correio eletrónico. Laden Sie sich aktuelle Treiber und Software für Ihre Brother Produkte herunter.Laden Sie Handbücher und Installationsanleitungen herunter.Finden Sie passende Druckerpatronen, Tonerkartuschen, Schriftbänder, Etiketten und Papierrollen für Ihr Brother Produkt.Copyright © 1998-2020, Brother International GmbH. Alle Rechte vorbehalten (All rights reserved). Introduza o seu email e receberá um alerta quando o produto estiver disponível . El precio del producto incluye los 5,25€ de compensación por copia privada, según el RDL12/2017 del 3 de julio. VueScan ist eine Anwendung zum Scannen von Dokumenten, Fotos, Filmen und Folien unter Windows, Mac OS und Linux. Ein Fehler ist aufgetreten. Egal, ob Sie Probleme haben, Ihren Scanner an Ihren Computer anzuschließen, oder ob Sie die Scannersoftware mit den meisten Funktionen verwenden möchten, VueScan ist das Werkzeug für Sie.Funktioniert mit Flachbett-, Dokument- und Film- / DiascannerOb Sie eine einzelne Seite oder ein Buch scannen müssen, VueScan hat die Werkzeuge, um Ihnen zu helfen.Scan mit Flachbett und automatischem Dokumenteneinzug (ADF)Haben viele analoge Fotos in Ihrer Schublade? Registrieren Sie jetzt Ihr Brother Produkt und sichern Sie sich zahlreiche Vorteile, wie zum Beispiel die 3 Jahre Garantie. DCP-9020CDW. For the latest drivers and utilities we recommend using … Download en installeer de nieuwste drivers en software voor uw Brother DCP-9020CDW. Finden Sie hier alles rund um den Brother DCP-9020CDW Treiber & Downloads, Bedienungsanleitungen und häufig gestellte Fragen (FAQ) rund um das Produkt Treiber und Downloads. Most Brother models offer support for macOS Catalina (macOS v10.15.x). Updated January 9, 2019. The DCP-9020CDW with both wired and wireless connectivity and a wide range of scanning features makes it simple to share information. DCP9020CDWYY1. Mac OS X 10.7-10.14 </p>";s:7:"keyword";s:28:"brother dcp 9020cdw catalina";s:5:"links";s:6222:"<a href='https://backyard.synpat.com/site/article.php?page=soulier-de-soccer-pas-cher-88a0eb'>Soulier De Soccer Pas Cher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=L%27avenir-du-capitalisme-88a0eb'>L'avenir Du Capitalisme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=telecharger-masterchef-saison-1-88a0eb'>Telecharger Masterchef Saison 1</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-fenerbah%C3%A7e-2005-88a0eb'>Effectif Fenerbahçe 2005</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=p%C3%A9rim%C3%A8tre-ce2-lutin-bazar-88a0eb'>Périmètre Ce2 Lutin Bazar</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=le-juste-milieu-luxembourg-88a0eb'>Le Juste Milieu Luxembourg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-seux-contact-88a0eb'>Dominique Seux Contact</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=streaming-koh-lanta-saison-3-88a0eb'>Streaming Koh-lanta Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cacato%C3%A8s-gris-8-lettres-88a0eb'>Cacatoès Gris 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Salaire-Ronaldo-Juventus-par-mois-88a0eb'>Salaire Ronaldo Juventus Par Mois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mademoiselle-marcelle-koh-lanta-88a0eb'>Mademoiselle Marcelle Koh Lanta</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-voyage-autour-du-monde-88a0eb'>Chanson Voyage Autour Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Lou-Jean-Instagram-88a0eb'>Lou Jean Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=images-nasa-libres-de-droit-88a0eb'>Images Nasa Libres De Droit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=machine-pectoraux-maison-88a0eb'>Machine Pectoraux Maison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9duse-koh-phi-phi-88a0eb'>Méduse Koh Phi Phi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appartement-%C3%A0-louer-st-denis-de-la-bouteillerie-88a0eb'>Appartement à Louer St-denis-de La Bouteillerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=implique-7-lettres-88a0eb'>Implique 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bilan-fonctionnel-pdf-88a0eb'>Bilan Fonctionnel Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prism-srambad-instagram-88a0eb'>Prism Srambad Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frank-welker-films-et-programmes-tv-88a0eb'>Frank Welker Films Et Programmes Tv</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=contrat-chasseur-immobilier-88a0eb'>Contrat Chasseur Immobilier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sbi-groupe-eos-88a0eb'>Sbi Groupe Eos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=will-griggs-on-fire-northern-ireland-88a0eb'>Will Griggs On Fire Northern Ireland</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-fran%C3%A7ais-milan-ac-88a0eb'>Joueur Français Milan Ac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=giannina-maradona-pere-88a0eb'>Giannina Maradona Pere</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=aptonia-massage-belt-900-88a0eb'>Aptonia Massage Belt 900</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=assiette-bambou-b%C3%A9b%C3%A9-lapin-88a0eb'>Assiette Bambou Bébé Lapin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9marche-synonyme-fran%C3%A7ais-88a0eb'>Démarche Synonyme Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-marseillais-kim-et-giulia-88a0eb'>Les Marseillais Kim Et Giulia</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=youtube-music-tik-tok-88a0eb'>Youtube Music Tik Tok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Le-tour-de-digue-88a0eb'>Le Tour De Digue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=adidas-2020-femme-88a0eb'>Adidas 2020 Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=R%C3%A9mi-Garde-et-sa-femme-88a0eb'>Rémi Garde Et Sa Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chouf-tv-asmaa-amrani-2020-88a0eb'>Chouf Tv Asmaa Amrani 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nuremberg---erzgebirge-aue-88a0eb'>Nuremberg - Erzgebirge Aue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=egyptian-magic-%C3%A9chantillon-gratuit-88a0eb'>Egyptian Magic échantillon Gratuit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=manchester-usa-by-the-sea-88a0eb'>Manchester Usa By-the-sea</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laurent-delahousse-couple-88a0eb'>Laurent Delahousse Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=noire-en-anglais-88a0eb'>Noire En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=wodapalooza-day-2-88a0eb'>Wodapalooza Day 2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-faire-une-analyse-personnelle-88a0eb'>Comment Faire Une Analyse Personnelle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=trouble-en-4-lettres-88a0eb'>Trouble En 4 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nombre-d%27-anglais-en-europe-88a0eb'>Nombre D' Anglais En Europe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=inshape-nutrition-bruleur-de-graisse-88a0eb'>Inshape Nutrition Bruleur De Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pologne-tourisme-danger-88a0eb'>Pologne Tourisme Danger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-sur-la-col%C3%A8re-88a0eb'>Chanson Sur La Colère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quotient-d%C3%A9cimal-definition-88a0eb'>Quotient Décimal Definition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-troyes-5-jours-gratuit-88a0eb'>Météo Troyes 5 Jours Gratuit</a>,
+";s:7:"expired";i:-1;}

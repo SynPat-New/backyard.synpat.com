@@ -1,0 +1,1983 @@
+<style>
+table.show{display:table!important}
+tr.aggregate{display:none}
+.drop-hover{border:1px dashed #ff0000!important}
+#new_lead_drop.drop-hover{box-shadow:0 0 1px #f00 inset}
+.form-horizontal .control-label{text-align:left}
+.overflow-link{overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;width:106px}
+tr.salesFDroppable.ui-droppable.drop-hover{border:0}tr.salesFDroppable.ui-droppable.drop-hover td{background:#ff0000!important;color:#fff}
+tr.salesFDroppable.ui-droppable.drop-hover td a{color:#fff}tr.grey td{background:#d1c8c8}
+
+#all_type_list_wrapper table.dataTable thead th.sorting:after,
+#all_type_list_wrapper table.dataTable thead th.sorting_asc:after,
+#all_type_list_wrapper table.dataTable thead th.sorting_desc:after{display:none!important}
+
+#all_type_list_wrapper .DTFC_LeftHeadWrapper{top:-1px!important}
+#all_type_list_wrapper .DTFC_LeftBodyLiner{overflow-x:hidden;width:211px!important; top:-1px !important;}
+#all_type_list_wrapper .DTFC_LeftBodyLiner table{margin-bottom:1px!important}
+#all_type_list_wrapper .DTFC_LeftBodyLiner tbody tr label{display:block}
+#all_type_list_wrapper .DTFC_LeftBodyLiner tbody tr a{display:block;height:18px!important;line-height:1.2;overflow:hidden;text-overflow:ellipsis;width:200px;white-space:nowrap}
+.sales-activity-notes{/*max-height:20px;*/overflow:hidden}.sales-activity-notes.is-open{max-height:10000px;overflow:visible}.sales-activity-notes-content{overflow-x:auto}#aquisitionTable .active > .glyph-icon + a, #activityTable .active > .glyph-icon + a{font-weight:bold;}.sales-activity-notes-icon{display:block;font-size:18px;line-height:18px;margin-top:5px;text-align:center}.sales-activity-notes-icon .icon-angle-down{display:inline-block}.sales-activity-notes-icon .icon-angle-up{display:none}.sales-activity-notes-icon.is-open .icon-angle-down{display:none}.sales-activity-notes-icon.is-open .icon-angle-up{display:inline-block}.sales-activity-checkbox{margin-right:4px;position:relative;top:2px}.sales-activity-icon{font-size:14px;margin-right:-3px}#all_type_list tbody .drop-hover td{background-color:#d9534f!important}.bs-wizard {margin-top: 40px;}
+.leadForms .form-group{ margin-bottom:0!important; min-height:30px;}
+.leadForms .fc-button, .leadForms .btn, .leadForms .size-md{ line-height:24px;height:auto;}
+.form-flat .form-group.input-string-group-special-input .form-control{box-shadow: none;border: none;margin-top: 3px;}
+.leadForms .input-string-group, .leadForms .input-string-group-special-input{ border-bottom:0!important;}
+.leadForms .input-string-group input[ type="text"], .leadForms .input-string-group-special-input input[ type="text"]{ border-bottom:1px solid #d1c8c8!important;}
+.form-flat .form-group.input-string-group label, .form-flat .form-group.input-string-group-special-input label{ padding-bottom:0;}.leadForms .input-string-group-special-input input[ type="text"]{float:left;}
+ #marketLead span.control-label { border-bottom:1px solid #d1c8c8!important;}
+.borderBtm{border-bottom:1px solid #d1c8c8!important;}
+.form-flat .form-group.input-string-group-special-input label {background: none repeat scroll 0 0 #ffffff; display: inline-block;float: left;padding-bottom: 4px;   padding-top: 4px;padding-top: 5px;position: relative;top: 2px;}
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.progress {
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+td.drop-hover{border:1px solid red !important;}
+.cpBor{border:solid 1px #d1c8c8}
+#patent_data a{color:#56b2fe;}.span-control,.span-control1,.span-control2{padding-left:2px;padding-top: 5px !important;display: inline-block;position: relative;float: left;top: 2px;color: rgb(71, 71, 71);height:25px;overflow:hidden}.span-control1{margin-left:2px}.span-control2{margin-left:5px;width:45px;}.span-3{width:20px !important;}
+#scrap_patent_data tbody > tr > td, #patent_family tbody > tr > td{vertical-align:middle}
+.span-control3{}
+/*END Form Wizard*/</style>
+<script>var _tableLiti='',_tableLiti1='',_tableLiti2='',_tableLiti3='',_tableLiti4='',_tableLiti5='';jQuery(document).ready(function(){<?php if($this->session->userdata['initialise_email']=='0'):?>intialiseAfter();<?php endif;?>showDataClickPrevent();initDataTableLitigation();});function salesActivityNotesIconClick(b){var a=b.prev();a.toggleClass("is-open");b.toggleClass("is-open");return false}function checkSalesActivityNotesIcon(){$(".sales-activity-notes-icon").each(function(c,e){var b=$(e),a=b.prev();if(a.length){var d=a.find(".sales-activity-notes-content");if(d.length){if(d.find('ul>li').length==0){b.hide()}else{b.show()}}}})}setInterval(checkSalesActivityNotesIcon,300);
+toggleOPen=0;
+
+function initDataTableLitigation(){
+	if(typeof _tableLiti=='object'){_tableLiti.destroy();}
+	if(typeof _tableLiti1=='object'){_tableLiti1.destroy();}
+	if(typeof _tableLiti2=='object'){_tableLiti2.destroy();}
+	if(typeof _tableLiti3=='object'){_tableLiti3.destroy();}
+	if(typeof _tableLiti4=='object'){_tableLiti4.destroy();}
+	if(typeof _tableLiti5=='object'){_tableLiti5.destroy();}
+	_tableLiti=jQuery('#datatable-hide-columns').DataTable({paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti1=jQuery('#datatable-hide-columns1').DataTable({paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti2=jQuery('#datatable-hide-columns2').DataTable({paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti3=jQuery('#datatable-hide-columns3').DataTable({paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti4=jQuery('#datatable-hide-columns4').DataTable({paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti5=jQuery('#datatable-hide-columns5').DataTable({paging:false,searching:false,language:{emptyTable:"No record found!"}});
+}
+function showDataClickPrevent(){
+	jQuery('#show_data div.tab-content').find('a').off('click');jQuery('#show_data div.tab-content').find('a').click(function(e){_href = jQuery(this).attr('href');if(_href.indexOf('http://')=='-1' && _href.indexOf('https://')=='-1'){_href = 'https://search.rpxcorp.com'+_href;}window.open(_href,'_blank');e.preventDefault();})
+}
+function openAllCompanies(){
+	_ma = jQuery("#activityMainType").val();
+	_container = "";
+	if(_ma=="1"){
+		_container ='activityTable';
+	} else {
+		_container ='aquisitionTable';
+	}
+	jQuery("#"+_container).find('tbody').find('tr.master').each(function(){
+		if(toggleOPen==0){			
+			jQuery(this).next().css('display','table-row');
+		} else {
+			jQuery(this).next().css('display','none');
+		}
+	});
+	if(toggleOPen==0){	
+		toggleOPen = 1;
+	} else {
+		toggleOPen = 0;
+	}
+}
+heightAssign = 0;
+function navClick(){
+	jQuery("#tablesOtherData").find("ul.nav-tabs>li>a").click(function(e){
+	destoryAndReIntiate();
+	console.log('seco');
+});
+}
+function destoryAndReIntiate(){
+	_tableLiti.destroy();
+	_tableLiti1.destroy();
+	_tableLiti2.destroy();
+	_tableLiti3.destroy();
+	_tableLiti4.destroy();
+	_tableLiti5.destroy();
+	heightAssign = heightAssign-75;
+	_tableLiti5=jQuery("#datatable-hide-columns"+leadGlobal+"5").DataTable({"scrollY":heightAssign+"px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti=jQuery("#datatable-hide-columns"+leadGlobal).DataTable({"scrollY":heightAssign+"px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti1=jQuery("#datatable-hide-columns"+leadGlobal+"1").DataTable({"scrollY":heightAssign+"px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti2=jQuery("#datatable-hide-columns"+leadGlobal+"2").DataTable({"scrollY":heightAssign+"px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti3=jQuery("#datatable-hide-columns"+leadGlobal+"3").DataTable({"scrollY":heightAssign+"px","scrollCollapse": true,destroy:true,paging:false,searching:false,language:{emptyTable:"No record found!"}});
+	_tableLiti4=jQuery("#datatable-hide-columns"+leadGlobal+"4").DataTable({"scrollY":heightAssign+"px","scrollCollapse": true,destroy:true,paging:false,searching:true,language:{emptyTable:"No record found!"}});
+}
+function countActiveMenus(){
+	_screenList =['Acquisition','Sales','Patents','Litigation','Emails','Lead Form','PreSale','Leads'];
+	_screenListID = {Acquisition:'acquisitionActivityButton',Sales:'salesActivityButton',Patents:'btnPatentsAll',Litigation:'displayLitigationCampaign',Emails:'btnEmail','Lead Form':'btnFormCollapse'}
+	activeMenus= [];
+	modulesActive = 0;
+	jQuery("#header-nav-right").find('li>a.menu-active').each(function(){
+		if(jQuery.inArray(jQuery.trim(jQuery(this).text()),_screenList)>=0){
+			activeMenus.push(jQuery.trim(jQuery(this).text()));
+			modulesActive++;
+		}
+	});
+	if(jQuery('a.menu-active1').length>0){
+		if(jQuery.inArray('Emails',activeMenus)<0){
+			activeMenus.push('Leads');
+			modulesActive++;
+		}
+	}
+	_staticHeight = parseInt(jQuery('#page-header').css('height'));
+	deviceHeight = jQuery(window).height();
+	heightAfterStatic = deviceHeight - _staticHeight;
+	heightAfterStatic = heightAfterStatic-5;
+	heightAssign = heightAfterStatic/modulesActive;
+	
+	for(i=0;i<activeMenus.length;i++){
+		if(activeMenus[i]=="Acquisition"){	
+			jQuery('#dashboard-page').css("height",'100%');
+			jQuery("#sales_acititity").removeClass("hide").addClass('show');
+			jQuery("#sales_acititity").css({height:heightAssign+'px',overflowX:'hidden',overflowY:'scroll'});
+			
+		}
+		if(activeMenus[i]=="Litigation"){
+			jQuery('#dashboard-page').css("height",'100%');
+			jQuery("#sales_acititity").removeClass("show").addClass('hide');
+			/*jQuery("#sales_acititity").css({height:heightAssign+'px',overflowX:'hidden',overflowY:'scroll'});*/
+			navClick();	
+			destoryAndReIntiate();
+		}
+		if(activeMenus[i]=="Sales"){
+			jQuery('#dashboard-page').css("height",'100%');	
+			jQuery("#sales_acititity").removeClass("hide").addClass('show');			
+			jQuery("#sales_acititity").css({height:heightAssign+'px',overflowX:'hidden',overflowY:'scroll'});
+			
+		}
+		if(activeMenus[i]=="PreSale"){
+			jQuery('#dashboard-page').css("height",'100%');		
+			jQuery("#sales_acititity").removeClass("hide").addClass('show');
+			jQuery("#sales_acititity").css({height:heightAssign+'px',overflowX:'hidden',overflowY:'scroll'});
+			
+		}
+		if(activeMenus[i]=="Patents"){
+			jQuery('#dashboard-page').css("height",'100%');
+			jQuery("#sales_acititity").addClass('hide').removeClass('show');
+			jQuery('.openPatentDetail').removeClass('hide').addClass('show');
+			jQuery("#patent_data").css({height:heightAssign+'px',overflowX:'hidden',overflowY:'auto'});
+			h = heightAssign - 95;
+			jQuery("#scrap_patent_data").DataTable().destroy();
+			enablePatentCoreDT(jQuery("#scrap_patent_data"));
+			if(jQuery("#family_patent_container").hasClass('show')){
+				jQuery("#patent_family").DataTable().destroy();
+				enablePatentCoreDT(jQuery("#patent_family"));
+			}
+			console.log("Element height Patent: "+heightAssign);
+		}
+		if(activeMenus[i]=="Lead Form"){
+			console.log("Enter");
+			jQuery('#dashboard-page').css("height",'100%');
+			jQuery("#"+_mainBtnParentElement).css({height:heightAssign+'px',overflowX:'hidden',overflowY:'auto'});
+			/*btnHeight = heightAssign - 127;*/
+			btnHeight = heightAssign-171;			
+			/*jQuery("#"+_mainBtnParentElement).find('#litigation_doc_list').css({minHeight:btnHeight+'px',height:btnHeight+'px',maxHeight:btnHeight+'px'});*/
+			jQuery("#"+_mainBtnParentElement).find('#litigation_doc_list').css({minHeight:'230px',height:'230px',maxHeight:'230px'});
+			btnHeight = 230 + 32;
+			if(_mainBtnParentElement=="from_litigation"){
+				btnHeight = btnHeight + 33;
+			}
+			jQuery("#"+_mainBtnParentElement).find('.todo-list-custom').css({minHeight:btnHeight+'px',height:btnHeight+'px',maxHeight:btnHeight+'px'});					
+		}
+		if(activeMenus[i]=="Emails" || activeMenus[i]=="Leads"){
+			if(activeMenus[i]=="Emails"){
+				/*jQuery('.emails-group-container').parent().css("height",heightAssign+'px');*/
+				messageHeight = heightAssign - 2;
+				jQuery('#messages-list').find('.mCustomScrollBox').css({minHeight:messageHeight+'px',maxHeight:messageHeight+'px'});
+				if(jQuery('#messages-list').length==0){
+					jQuery('#listMainContainerModif').css({minHeight:heightAssign+'px',maxHeight:heightAssign+'px'});
+					jQuery('#listMainContainerModif,#listMainContainerModif div.panel-blue-border').css({minHeight:heightAssign+'px',maxHeight:heightAssign+'px'});
+				}
+				jQuery("#old_lead").css("height",heightAssign+'px');
+				jQuery("#displayEmail").css("height",heightAssign+'px');
+				if(jQuery("#displayEmail").find('#message-detail').length>0){
+					jQuery("#displayEmail").find('#message-detail').css({minHeight:heightAssign+'px',maxHeight:heightAssign+'px'});
+				}
+				
+				if(jQuery("#displayEmail").find('iframe').length>0){
+					jQuery("#displayEmail").find('iframe').css("height",heightAssign+'px');
+					_cont = jQuery("#displayEmail").find('iframe').get(0);
+					jQuery(_cont.contentDocument).find('#message-detail').css({minHeight:heightAssign+'px',maxHeight:heightAssign+'px'});
+				}			
+				jQuery('#myEmailsRetrieve').css({minHeight:heightAssign+'px',maxHeight:heightAssign+'px'});
+				if(jQuery('#myEmailsRetrieve').find('iframe').length>0){
+					jQuery('#myEmailsRetrieve').find('iframe').css("height",heightAssign+'px');
+				}		
+				if(jQuery("#split_window_screen").hasClass('menu-active1')){
+					jQuery('#messages-boxlist > div').css('height', (heightAssign - 2) + 'px');
+					jQuery('#all_type_list_wrapper > .DTFC_ScrollWrapper').css('height', (heightAssign - 3) + 'px');
+					jQuery('#all_type_list_wrapper .dataTables_scrollBody').css('height', (heightAssign - 32) + 'px');
+					jQuery('#all_type_list_wrapper .DTFC_LeftBodyWrapper').css('height', (heightAssign - 48) + 'px');
+					jQuery('#all_type_list_wrapper .DTFC_LeftBodyLiner').css('height', (heightAssign - 48) + 'px');
+					splitWindow(3);
+				} else {
+					console.log('Not Active');
+					splitWindow(1);
+				}
+			} else if(activeMenus[i]=="Leads"){
+				console.log('Allow to come in');
+				jQuery('#myEmailsRetrieve').css({minHeight:heightAssign+'px',maxHeight:heightAssign+'px'});
+				if(jQuery('#myEmailsRetrieve').find('iframe').length>0){
+					jQuery('#myEmailsRetrieve').find('iframe').css("height",heightAssign+'px');
+				}
+				jQuery("#old_lead").css("height",heightAssign+'px');
+				jQuery('#messages-boxlist > div').css('height', (heightAssign - 2) + 'px');
+				jQuery('#all_type_list_wrapper > .DTFC_ScrollWrapper').css('height', (heightAssign - 3) + 'px');
+				jQuery('#all_type_list_wrapper .dataTables_scrollBody').css('height', (heightAssign - 32) + 'px');
+				jQuery('#all_type_list_wrapper .DTFC_LeftBodyWrapper').css('height', (heightAssign - 48) + 'px');
+				jQuery('#all_type_list_wrapper .DTFC_LeftBodyLiner').css('height', (heightAssign - 48) + 'px');				
+				/*jQuery("#all_type_list_wrapper .sorting:first").trigger("click");*/
+			}
+		}
+	}
+	if(activeMenus.length==1 && activeMenus[0]=="Leads"){
+		jQuery("#old_lead").parent().css('margin-left','5px');
+	} else {
+		jQuery("#old_lead").parent().css('margin-left','0px');
+	}
+}
+_emailActivate = 1;
+
+<?php 
+	if($this->session->userdata['type']!=9 && !in_array(11,$this->session->userdata['modules_assign']) && in_array(23,$this->session->userdata['modules_assign'])):
+?>
+_emailActivate = 2;
+<?php elseif($this->session->userdata['type']!=9 && !in_array(11,$this->session->userdata['modules_assign']) && !in_array(23,$this->session->userdata['modules_assign'])):?>
+_emailActivate = 0;
+<?php endif;?>
+</script>
+<div class="row"><div id="dashboard_charts" class="col-md-12 col-sm-12 col-xs-12"></div>
+<?php echo $Layout->element('task');?>
+<?php 
+	$class=" col-md-12 col-sm-12 col-xs-12";
+	/*$class=" col-md-8 col-sm-8 col-xs-8";
+	if((int)$this->session->userdata['type']!=9){
+		if(!in_array(7,$this->session->userdata['modules_assign']) && !in_array(6,$this->session->userdata['modules_assign'])){
+			$class=" col-md-12 col-sm-12 col-xs-12";
+		} else if(!in_array(7,$this->session->userdata['modules_assign'])){
+			$class=" col-md-10 col-sm-10 col-xs-10";
+		} else if(!in_array(6,$this->session->userdata['modules_assign'])){
+			$class=" col-md-10 col-sm-10 col-xs-10";
+		}
+	}*/
+?>
+<div class="<?php echo $class;?>" id="contentPart">
+<script>
+	jQuery(window).load(function(){
+		setTimeout(function(){
+			<?php 
+				if(session_id() == '') {
+					session_start();
+				}
+				$ses = 0;
+				if(isset($_SESSION['guess_login']) && $_SESSION['guess_login']!=""){
+					$ses = $_SESSION['guess_login'];
+				}
+				if($ses==0):
+				if(!empty($auth_url)){
+			?>		
+				jQuery.ajax({
+					url:__baseUrl+'dashboard/sendRequestURL',
+					type:'POST',
+					data:{t:'<?php echo base64_encode('synPatMarket')?>'},
+					cache:false,
+					success:function(data){
+						_data = jQuery.parseJSON(data);
+						if(_data.length>0){
+							window.location = '<?php echo $auth_url;?>';
+						}
+					}
+				});
+			<?php
+				} else {
+			?>
+				console.log('POP');
+				jQuery("#myEmailsRetrieve").slideDown(function() {
+					jQuery.cookie('show_default_email', true);
+					windowResize();
+				});
+				if(jQuery("#myEmailsRetrieve").find('div').length==0){
+					retrieveMyEmail();
+				} 
+				/*setInterval(runRetrieveNew,300000);*/
+				
+				
+			<?php
+				}
+				else:
+			?>
+				jQuery("#myEmailsRetrieve").slideDown(function() {
+					jQuery.cookie('show_default_email', true);
+					windowResize();
+				});
+				if(jQuery("#myEmailsRetrieve").find('div').length==0){
+					retrieveMyEmail();
+				}
+				/*setInterval(runRetrieveNew,300000);*/
+				
+			<?php 
+				endif;
+			?>
+		},1000);
+		<?php 
+			if(session_id() == '') {
+				session_start();
+			}
+			if(isset($_SESSION['run_update_docket_files']) && $_SESSION['run_update_docket_files']=="1"){
+		?>
+		setTimeout(function(){uploadDocketFileFolder();},10000);
+		<?php
+			}
+		?>
+	});
+	_todayDate = '<?php echo date('M/D/Y');?>';
+	function updateMyDate(o){
+		_date = o.val();
+		if(_date!=""){
+			if(moment(new Date(_date)).isValid()===true){
+				lateLicense = moment(new Date(_date)).add(4,'months').format('MM/DD/YYYY');
+				jQuery('#'+_mainButtonParentElement).find('#docketLateLicenseStarts').val(lateLicense);
+				stage = 2;
+				_todayDate = moment(new Date(_todayDate)).format('MM/DD/YYYY');				
+				if(moment(new Date(_todayDate)).isAfter(lateLicense,'MM/DD/YYYY')===true){					
+					stage = 3;
+				}
+				jQuery('#'+_mainButtonParentElement).find('#docketActiveButton').val(stage);
+				switch(stage){
+					case 2:
+						jQuery('#'+_mainButtonParentElement).find('#stage').html('Regular Price: ');
+					break;
+					case 3:
+						jQuery('#'+_mainButtonParentElement).find('#stage').html('Validated Price: ');
+					break;
+				}
+				findSyndicatePrice();
+			}
+		} else {
+			jQuery('#'+_mainButtonParentElement).find("#docketLateLicenseStarts").val('');
+		}
+	}
+	
+	function findSyndicatePrice(){
+		call(__baseUrl+'leads/find_syndicate_price','POST',{l:leadGlobal},getSyndicatePrice,'json');
+	}
+	
+	function getSyndicatePrice(data,textStatus,xhr){
+		if(typeof data.cost_price!="undefined"){
+			if(data.cost_price>0){
+				regularPrice = data.cost_price * 1.5;
+				validatedPrice = data.cost_price * 3;
+				stage = jQuery('#'+_mainButtonParentElement).find('#docketActiveButton').val();
+				switch(stage){
+					case 2:
+						jQuery('#'+_mainButtonParentElement).find('#stage').html('Regular Price: '+regularPrice);
+					break;
+					case 3:
+						jQuery('#'+_mainButtonParentElement).find('#stage').html('Validated Price: '+validatedPrice);
+					break;
+				}
+			}
+		}
+	}
+</script>
+<div aria-hidden="false" role="dialog" tabindex="-1" class="modal fade in" id="newAggregateRefrencedApplicant">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">&times;</span></button>
+				<h4 id="" class="modal-title">Referenced Applicant</h4>
+			</div>
+			<div class="modal-body" onselectstart="return true">
+				<table class="aggregate_data table"></table>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-default btn-mwidth" type="button"  onclick="referencedCheckCancel()">Clear Selection</button>
+				<button class="btn btn-default btn-mwidth" type="button"  onclick="referencedSelectAll()">Select All</button>
+				<button type="button" onclick="referencedCheckApply()" id="leadBtnSave" class="btn btn-primary btn-mwidth pull-right">Remove Unselected</button>
+			</div>
+		</div>
+	</div>
+</div>
+<?php 
+	$openCreateLead = true;
+	if((int)$this->session->userdata['type']!=9){
+		if(!in_array(17,$this->session->userdata['modules_assign'])){
+			$openCreateLead = false;
+		}
+	}
+	if($openCreateLead===true):
+?>
+
+<div aria-hidden="false" role="dialog" tabindex="-1" class="modal fade in" id="newLeadFormElement" style='left:0px;top:8px;'>
+	<div class="modal-dialog" style='margin:0 auto'>
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">&times;</span></button>
+				<h4 id="" class="modal-title">New Lead</h4>
+			</div>
+			<div class="modal-body">
+				<div class="form-horizontal form-flat">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="form-group input-string-group">
+								<label for="marketProspectsName" class="control-label" style="float:left;"><strong>Name of Lead:</strong></label>
+								<?php echo form_input(array('name'=>'popup[lead_name]','required'=>'required','id'=>'popupLeadname','placeholder'=>'','class'=>'form-control input-string','maxlength'=>38, 'style'=>'float: left; margin-left:5px;width: 66.6666%;'));?>
+							</div>
+						</div>	
+						<div class="col-xs-12  mrg5T">
+							<div class="form-group input-string-group select-string-group">
+								<label for="marketProspectsName" class="control-label" style="float:left; margin-top:2px;"><strong>Type of Lead:</strong></label>
+								<select class="form-control" name="popup[type]" id="popupType">
+									<option value="">Select Lead Type</option>
+									<option value="Litigation">From Litigation</option>
+									<option value="Market">From Market</option>
+									<option value="General">From Proactive General</option>
+									<option value="SEP">From Proactive SEP</option>
+									<option value="NON">Non Acquisition</option>
+									<?php 
+										if((int)$this->session->userdata['type']==9):
+									?>
+									<option value="INT">Internal</option>
+									<?php endif;?>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button data-dismiss="modal" class="btn btn-default btn-mwidth" type="button">Cancel</button>
+				<button type="button" onclick="getNewDataFromPopup()" id="leadBtnSave" class="btn btn-primary btn-mwidth pull-right">Save</button>
+				<div id="loader_new_lead" class="glyph-icon remove-border demo-icon tooltip-button icon-spin-1 icon-spin float-left mrg0A hide" title="" data-original-title="Processing Drafting PPA" style="color:#222222;"></div>
+			</div>				
+		</div>
+	</div>
+</div>	
+<?php 
+endif;
+$openPatentTable = true;
+if((int)$this->session->userdata['type']!=9){
+	if(!in_array(15,$this->session->userdata['modules_assign'])){
+		$openPatentTable = false;
+	}
+}
+if($openPatentTable===true):
+?>
+<div aria-hidden="false" role="dialog" tabindex="-1" class="modal fade in" id="create_scheduleCall"> 
+<div class="modal-dialog">
+	<div class="modal-content">
+		<form class="form-horizontal form-flat" accept-charset="utf-8" method="post" action="">				
+			<div class="modal-header">
+			<button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">&times;</span></button>
+			<h4 id="" class="modal-title">Embed Schedule code</h4>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="form-group input-string-group nomr">
+						<label for="spreadsheet" class="control-label">Embed Code:</label>
+						<textarea type="text" class="form-control is-big" placeholder="" id="embed_code" value="" name="embed_code" required="required"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button data-dismiss="modal" class="btn btn-default btn-mwidth" type="button">Cancel</button>
+			<div class="loading-spinner" id="loading_spinner_schedulecall" style="display:none;">
+				<img src="<?php echo $Layout->aws_server_cdn; ?>images/ajax-loader.gif" alt="">
+			</div>
+			<button  class="btn btn-primary btn-mwidth pull-right" type="button" onclick="save_embedCode();">Save</button>
+		</div>
+		</form>				
+	</div>
+</div>
+</div>
+
+<div aria-hidden="false" role="dialog" tabindex="-1" class="modal fade in" id="scheduleCallMarket">   
+<div class="modal-dialog">
+	<div class="modal-content">
+		<form class="form-horizontal form-flat" accept-charset="utf-8" method="post" action="">				
+			<div class="modal-header">
+			<button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">&times;</span></button>
+			<h4 id="" class="modal-title">Schedule Embed Code</h4>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="clearfix">
+						<label style="float:left;" class="control-label">Insert Embed Code From Google:</label>
+						<textarea type="text" name="market[embed_code]" class='form-control' rows="4" cols="10"  id="marketEmbedCode" value="" required="required"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button data-dismiss="modal" class="btn btn-default" type="button">Cancel</button>
+			<button  class="btn btn-primary btn-mwidth pull-right" type="button" onclick="saveScheduleCallMarket();">Save</button>
+		</div>
+		</form>				
+	</div>
+</div>
+</div>				
+<?php endif;?>				
+<div aria-hidden="false" role="dialog" class="modal fade in" data-backdrop="static" data-keyboard="false" id="mainDocWaitBox">
+<div class="modal-dialog">
+	<div class="modal-content">
+		<form class="form-horizontal form-flat" accept-charset="utf-8" method="post" action="">				
+			<div class="modal-header">
+			<h4 id="" class="modal-title">File Uploading to Google Drive</h4>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="form-group input-string-group nomr" >
+						The file was transferred to the lead folder and is currently being converted into a google document. It will be seen in the lead folder upon completion. Please 10 seconds and click on the lead name in order to refresh the lead folder.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+		</div>
+		</form>				
+	</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div id="dashboard-page" class="dashboard-box  bg-white content-box"> 
+			<?php 
+				if(isset($_SESSION['guess_login']) && $_SESSION['guess_login']=="0"):
+				if(!empty($auth_url)){
+			?>
+			<script>
+				function sendRequestURL(){
+					jQuery.ajax({
+						url:'<?php echo $Layout->baseUrl;?>dashboard/sendRequestURL',
+						type:'POST',
+						data:{t:'<?php echo base64_encode('synPatMarket')?>'},
+						cache:false,
+						success:function(data){
+							_data = jQuery.parseJSON(data);
+							if(_data.length>0){
+								window.location = '<?php echo $auth_url;?>';
+							}
+						}
+					});
+				}
+			</script>
+				<a href="javascript:void(0);" onclick="sendRequestURL()"><img width="200" src="https://developers.google.com/accounts/images/sign-in-with-google.png"/></a>
+			<?php 
+				}
+				endif;
+			?>
+<?php /*if(count($emails)>0){ */?><div class="col-md-12" id="dashboard_message_data"></div><?php /* } */?>
+<?php 
+	$openLeadDetails = true;	
+	$openPatentTable = true;
+	$openLitigationTable = true;
+	if((int)$this->session->userdata['type']!=9){
+		if(!in_array(12,$this->session->userdata['modules_assign'])){
+			$openLeadDetails = false;
+		}
+	}
+	if((int)$this->session->userdata['type']!=9){
+		if(!in_array(16,$this->session->userdata['modules_assign'])){
+			$openPatentTable = false;
+		}
+	}
+	if((int)$this->session->userdata['type']!=9){
+		if(!in_array(19,$this->session->userdata['modules_assign'])){
+			$openLitigationTable = false;
+		}
+	}
+?>
+<div  class="row">
+	<div class="col-lg-12 alert-success hide" id="alert_message_show" style="position:absolute;text-align:center;z-index: 12;padding: 20px;font-size: 16px;"></div>
+	<div class="col-lg-12">
+		<div class="col-lg-12" style='position:absolute; z-index:12;'>
+			<div class="loading-spinner" id="bottom_form_market" style='display:none;'>
+				<img src="<?php echo $Layout->aws_server_cdn;?>images/ajax-loader.gif" alt="">
+			</div>
+		</div>						
+		<div class="panel-body" id="from_litigation" style='display:none;'>
+			<?php if($openLeadDetails===true):?>
+			<?php echo form_open('dashboard/litigation',array('class'=>'form-horizontal form-flat','role'=>'form','id'=>'formLitigation', 'style'=>'margin-bottom: 0;'));?>
+			<div class="row">	
+				 <div class="col-xs-12 leadForms">		
+				<div class="col-xs-10">
+					<div class="row">
+						<div class="loading-spinner" id="loading_spinner_form_litigation" style="display:none;">
+							<img src="<?php echo $Layout->aws_server_cdn;?>images/ajax-loader.gif" alt="">
+						</div>
+						<div class="col-width text-center" style="width:25px;">
+							<a href="#" onclick="cancelImport()" class="link-blue" style="display: inline-block; margin-top:5px; text-decoration:none;">
+								<i style="font-size:16px;" class="glyph-icon icon-trash-o"></i>
+							</a>
+						</div>
+						<div class="col-sm-8">
+							<input name="litigation1[import_url]" id="lititgationImportURL" class="form-control" placeholder="Paste URL of the document to import."/>
+						</div>
+						<div class="col-width" style="width: 330px;">
+							<div class="row">
+								<div class="col-xs-12">
+									<button type="button" id="" class="btn btn-default float-left btn-mwidth mrg10L" onclick="importFileToDrive();">
+										<div id="loader" class="glyph-icon remove-border demo-icon tooltip-button icon-spin-1 icon-spin float-left mrg0A hide" title="" data-original-title="Processing Importing Data" style="color:#222222;"></div>
+										Import File
+									</button>
+									<button type="button" id="btnImport" class="btn btn-default float-left btn-mwidth mrg10L" onclick="openLitigationScrap();">
+										<div id="loader" class="glyph-icon remove-border demo-icon tooltip-button icon-spin-1 icon-spin float-left mrg0A hide" title="" data-original-title="Processing Importing Data" style="color:#222222;"></div>
+										Import Data
+									</button>
+								</div>
+								<div class="col-xs-4" style="display: none;">
+									<a href="javascript://" id="cancelImport" class="btn btn-default float-left btn-block" style='display:none' onclick="cancelImport();">Cancel</a>
+								</div>
+							</div>
+						</div>										
+						
+						<div class="col-xs-8">
+							<div class="row row-width ">
+								<div class="col-xs-12 formWithCheckBox" style="padding-right: 4px;">
+									<div class="col-xs-6">
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationLinkToPacer"><strong><a href='javascript:void(0)' onclick='getPreLeadDetails();'>Web Form</a></strong></label>
+										<?php echo form_input(array('name'=>'litigation[lead_name]','required'=>'required','id'=>'litigationleadName','placeholder'=>'','maxlength'=>38,'class'=>'form-control input-string is-big'));?>
+									</div>
+									<div class="form-group input-string-group nomr" >
+										<label for="litigationOwner" class="control-label" style="padding-left:2px;"><a id="sellerBtn" href='javascript:void(0)' onclick="openContactForFrom(1,'from_litigation');">Seller / Owner:</a></label>
+										<?php echo form_input(array('type'=>'hidden','name'=>'litigation[plantiffs_name]','id'=>'litigationOwner'));?>
+										<?php echo form_input(array('type'=>'hidden','name'=>'litigation[court]','id'=>'litigationCourt','placeholder'=>'','class'=>'form-control'));?>
+										<?php echo form_input(array('name'=>'litigation[seller_contact]','id'=>'litigationSellerContact','class'=>'form-control input-string'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationCaseName">Case Name:</label>
+										<?php echo form_input(array('name'=>'litigation[case_name]','id'=>'litigationCaseName','placeholder'=>'','class'=>'form-control is-big'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationLitigationStage">Litigation Stage:</label>
+										<?php echo form_input(array('name'=>'litigation[litigation_stage]','id'=>'litigationLitigationStage','placeholder'=>'','class'=>'form-control is-big'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationMarketIndustry">Market/Industry:</label>
+										<?php echo form_input(array('name'=>'litigation[market_industry]','id'=>'litigationMarketIndustry','placeholder'=>'','class'=>'form-control is-big'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationCaseType">Case Type:</label>
+										<?php echo form_input(array('name'=>'litigation[case_type]','id'=>'litigationCaseType','placeholder'=>'','class'=>'form-control is-big'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationCaseNumber">Case Number:</label>
+										<?php echo form_input(array('name'=>'litigation[case_number]','id'=>'litigationCaseNumber','placeholder'=>'','class'=>'form-control is-big'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationCause">Cause:</label>
+										<?php echo form_input(array('name'=>'litigation[cause]','id'=>'litigationCause','placeholder'=>'','class'=>'form-control is-big'));?>
+									</div>
+									<div class="form-group input-string-group input-string-group-special nomr">
+										<label class="control-label" for="litigationCause">Families:</label><span id="spnFamily" class="control-label span-control2 borderBtm" style='margin-right:12.5px;'></span>
+										<label class="control-label" for="litigationCause">Assets:</label><span id="spnAssets" class="control-label span-control2 borderBtm" style='margin-right:12.5px;'></span>
+										<label class="control-label" for="litigationCause">Jurisdictions:</label><span id="spnJur" class="control-label span-control2 borderBtm" ></span>
+									</div>									
+									</div>
+									<div class="col-xs-6">
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("legaldd")'>Legal DD:</a></label>
+											<span id='spnleadOpenLegalOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenLegalPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[legal_open_contact]','id'=>'leadOpenLegalOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenLegalOpenStatus','name'=>'lead_open[legal_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'legal','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[legal_contact]', 'type'=>'hidden', 'id' =>'leadOpenLegalContact'));?>
+										</div>
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("illustrationdd")'>Illustration:</a></label>
+											<span id='spnleadOpenIllustrationOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenIllustrationPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[illustration_open_contact]','id'=>'leadOpenIllustrationOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIllustrationOpenStatus','name'=>'lead_open[illustration_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'claim','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[illustration_contact]', 'type'=>'hidden', 'id' =>'leadOpenIllustrationContact'));?>
+										</div>
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("techdd")'>Tech DD:</a></label>
+											<span id='spnleadOpenTechnicalOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenTechnicalPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[technical_open_contact]','id'=>'leadOpenTechnicalOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenTechnicalOpenStatus','name'=>'lead_open[technnical_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'tech','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[technical_contact]', 'type'=>'hidden', 'id' =>'leadOpenTechnicalContact'));?>
+										</div>
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("marketdd")'>Market DD:</a></label>
+											<span id='spnleadOpenMarketOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenMarketPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[market_open_contact]','id'=>'leadOpenMarketOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenMarketOpenStatus','name'=>'lead_open[market_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'market','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[market_contact]', 'type'=>'hidden', 'id' =>'leadOpenMarketContact'));?>
+										</div>										
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("pdfdd")'>PDFs:</a></label>
+											<span id='spnleadOpenPdfOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenPdfPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[pdf_open_contact]','id'=>'leadOpenPdfOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenPdfOpenStatus','name'=>'lead_open[intro_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'pdf','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[pdf_contact]', 'type'=>'hidden', 'id' =>'leadOpenPdfContact'));?>
+										</div>	
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("comparedd")'>Comparables:</a></label>
+											<span id='spnleadOpenComparablesOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenComparablesPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[comparables_open_contact]','id'=>'leadOpenComparablesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenComparablesOpenStatus','name'=>'lead_open[comparables_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'comparable','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[comparables_contact]', 'type'=>'hidden', 'id' =>'leadOpenComparablesContact'));?>
+										</div>	
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("royalty")'>Royalty Report:</a></label>
+											<span id='spnleadOpenRoyaltyOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenRoyaltyOpenContactPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[royalty_open_contact]','id'=>'leadOpenRoyaltyOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenRoyaltyOpenStatus','name'=>'lead_open[royalty_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'royalty','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[royalty_contact]', 'type'=>'hidden', 'id' =>'leadOpenRoyaltyContact'));?>
+										</div>
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("introimages")'>Intro Images:</a></label>
+											<span id='spnleadOpenIntroimagesOpenContact' class='control-label span-control borderBtm'></span>
+											<span id='spnleadOpenIntroPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+											<?php echo form_input(array('name'=>'lead_open[introimages_open_contact]','id'=>'leadOpenIntroimagesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIntroimagesOpenStatus','name'=>'lead_open[introimages_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'images','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[introimages_contact]', 'type'=>'hidden', 'id' =>'leadOpenIntroimagesContact'));?>
+										</div>
+										<div class="form-group input-string-group nomr">
+											<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("introduction")'>Intro DD:</a></label>
+											<span id='spnleadOpenIntroOpenContact' class='control-label span-control borderBtm'></span>
+											<?php echo form_input(array('name'=>'lead_open[intro_open_contact]','id'=>'leadOpenIntroOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIntroOpenStatus','name'=>'lead_open[intro_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'intro','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[intro_contact]', 'type'=>'hidden', 'id' =>'leadOpenIntroContact'));?>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-width" style="padding-right: 4px; width: 190px;">
+									<div class="form-group input-string-group nomr">
+										<label for="marketExpectedPrice" class="control-label">Upfront Price($M):</label>
+										<?php echo form_input(array('name'=>'litigation[upfront_price]','id'=>'litigationUpfront_price','placeholder'=>'','class'=>'form-control', 'maxlength'=>'3'));?>
+										<?php echo form_input(array('name'=>'litigation[no_of_patent]','type'=>'hidden','id'=>'litigationNoOfPatent','placeholder'=>'','class'=>'form-control is-small'));?>
+										<?php echo form_input(array('name'=>'litigation[expected_price]','type'=>'hidden','id'=>'litigationExpectedPrice','placeholder'=>'','class'=>'form-control', 'maxlength'=>'4'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label for="marketProspects" class="control-label">Prospects:</label>
+										<span id='spnMarketProspects' class='control-label span-control1 borderBtm' style='width:15px !important;display:inline-block;float:none'></span>
+										<?php echo form_input(array('type'=>'hidden','name'=>'litigation[no_of_prospects]','id'=>'litigationProspects','placeholder'=>'','class'=>'form-control span-3', 'maxlength'=>'2'));?>
+										<label for="marketProspectsName" class="control-label" style="padding-left:2px;display:inline-block;float:none;top:-4px;">Invitees:</label>
+										<span id='spnleadOpenInviteesPatent' class='control-label span-control1 borderBtm' style='width:15px !important;display:inline-block;float:none'></span>
+										<?php echo form_input(array('name'=>'lead_open[invitees_open_contact]','id'=>'leadOpenInviteesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_input(array('name' => 'lead_open[invitees_contact]', 'type'=>'hidden', 'id' =>'leadOpenInviteesContact'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationCaseName">Filling Date:</label>
+										<?php echo form_input(array('name'=>'litigation[filling_date]','id'=>'litigationFillingDate','placeholder'=>'yyyy-mm-dd','class'=>'form-control is-date'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationCaseName">Active Defendants:</label>
+										<?php echo form_input(array('name'=>'litigation[active_defendants]','id'=>'litigationActiveDefendants','placeholder'=>'','class'=>'form-control is-small'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationCaseName">Original Defendants:</label>
+										<?php echo form_input(array('name'=>'litigation[original_defendants]','id'=>'litigationOriginalDefendants','placeholder'=>'','class'=>'form-control is-small'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationLinkToPacer">Link to Pacer:</label>
+										<?php echo form_input(array('name'=>'litigation[link_to_pacer]','id'=>'litigationLinkToPacer','placeholder'=>'','class'=>'form-control'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<label class="control-label" for="litigationLinkToPacer">Link to RPX:</label>
+										<?php echo form_input(array('name'=>'litigation[link_to_rpx]','id'=>'litigationLinkToRPX','placeholder'=>'','class'=>'form-control'));?>
+									</div>
+									<div class="form-group input-string-group nomr">
+										<!--<label class="control-label" for="litigationLinkToPacer">Plaintiff's Lead Attorney:</label>-->
+										<?php echo form_input(array('type'=>'hidden','name'=>'litigation[lead_attorney]','id'=>'litigationLeadAttorney','placeholder'=>'Plaintiff\'s Lead Attorney','class'=>'form-control','rows'=>3,'cols'=>29,'style'=>'padding-left:2px;height:103px !important;','autocomplete'=>false));?>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-xs-4">
+							<div class="row">
+								<div class="col-xs-4">									
+									<div class='col-xs-12' style='height:265px;overflow-x:hidden;overflow-y:scroll'>
+										<div class='row'>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToClaimcharts" class="btn btn-primary btn-block " onclick='openLeadDocketClaimchart()' target="ClaimCharts DD" href='javascript://' style='color:#fff;'>ClaimCharts</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToComparable" file-type='comparedd' class="btn btn-primary btn-block " target="Comparables" href='javascript://' style='color:#fff;'>Comparable</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToDictionaryDD" file-type='dictionarydd' class="btn btn-primary btn-block " target="Dictionary DD" href='javascript://' style='color:#fff;'>Dictionary DD</a>
+											</div>										
+											<div class="col-xs-12 mrg5T">
+												<a id="btnLeadDocketDocument" onclick='openLeadDocketDocuments()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Documents</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToDocket" class="btn btn-primary btn-block " file-type='docket' target="Docket" href='javascript://' style='color:#fff;'>Docket</a>
+											</div>
+											<div class="col-xs-12 mrg5T">
+												<a id="btnLeadDocketDocument" onclick='openLeadDocketAccordion()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Docket Accordions</a>
+											</div>
+											<div class="col-sm-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToIllusDD" file-type='illustrationdd' class="btn btn-primary btn-block " target="Illustration DD" href='javascript://' style='color:#fff;'>illustrations</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToIntroDD" class="btn btn-primary btn-block " file-type='edit' target="Intro DD" href='javascript://'  style='color:#fff;'>Intro DD</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToIntroImages" file-type='introimages' class="btn btn-primary btn-block " target="Intro Images" href='javascript://' style='color:#fff;'>Intro Images</a>
+											</div>										
+											<div class="col-xs-12 mrg5T">
+												<a id="btnLeadInvitees" file-type='invitees' onclick='openLeadInvitees()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Invitees</a>
+											</div>	
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToLegalDD" class="btn btn-primary btn-block " file-type='legaldd' target="Legal DD" href='javascript://' style='color:#fff;'>Legal DD</a>
+											</div>
+											<div class="col-xs-12 mrg5T">
+												<a id="btnLinkToLifeSpanChart" file-type='lifespanchart' onclick='openLifeSpanChart()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>LifeSpan Cht</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToMarketDD" class="btn btn-primary btn-block " file-type='marketdd' target="Market DD" href='javascript://' style='color:#fff;'>Market DD</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToPDF" class="btn btn-primary btn-block " file-type='pdfdd' target="PDF" href='javascript://' style='color:#fff;'>PDF DD</a>
+											</div>
+											<div class="col-xs-12 mrg5T">
+												<a id="btnLeadDocketDocument" onclick='openLeadStoreIntro()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Store Intro</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToStore" class="btn btn-primary btn-block " file-type='store' target="Link to Store" href='javascript://' style='color:#fff;'>Store</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToSellerDD" file-type='seller' class="btn btn-primary btn-block " target="Seller DD" href='javascript://' style='color:#fff;'>Seller DD</a>
+											</div>
+											<div class="col-xs-12 mrg5T btnOutsidedraggable">
+												<a id="btnLinkToTechDD" class="btn btn-primary btn-block " file-type='techdd' target="Tech DD" href='javascript://' style='color:#fff;'>Tech DD</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-8">
+									<label style="display: block; margin-bottom: 6px;"><select onchange="findThisDriveFile(jQuery(this))" class="form-control" style='display:inline-block;width:48%;' id="clipboard"></select><a href='javascript://' class='mrg5L pull-right btn pad0A' onclick='createNewFolder()' style='color:#56b2fe;text-decoration:underline;'>New Folder</a></label>
+									<div id="litigation_doc_list" class="panel google-box-list" style="height:218px; margin-bottom:0;overflow-y:scroll;overflow-x:hidden;">
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>									
+				</div>
+				
+				<div class="col-xs-2">
+					<div style="">
+						<div class="clearfix">
+							<input type='hidden' name="litigation[scrapper_data]" id="litigationScrapperData" class='form-control'/>	
+							<input type='hidden' name="other[id]" id="commentID" value="0" class='form-control'/>	
+							<input type="hidden" name="litigation[complete]" value="" id="litigationComplete"/>
+							<input type="hidden" name="litigation[type]" value="Litigation" id="litgationType"/>
+							<input type='hidden' name="litigation[id]" id="litigationId" value="0" class='form-control'/>
+							<input type="hidden" name="litigation[patent_data]" value="" id="litigationPatentData"/>		
+							<input type="hidden" name="litigation[seller_info]" value="1" id="litigationSellerInfo"/>
+							<input type="hidden" name="litigation[send_proposal_letter]" value="" id="litigationProposal_letter"/>
+							<input type="hidden" name="litigation[create_patent_list]" value="" id="litigationCreate_patent_list"/>
+							<input type="hidden" class="form-control input-string" name="litigation[file_url]" id="litigationFileUrl" value=""/>
+							<input type="hidden" class="form-control input-string" name="litigation[spreadsheet_id]" id="litigationSpreadsheetId" value=""/>
+							<input type="hidden" class="form-control input-string" name="litigation[worksheet_id]" id="litigationWorksheetId" value=""/>
+							<!--<button type="button" class="btn btn-primary btn-block pull-left" onclick="submitData()" style='margin-right:5px;line-height:30px'>Save</button>-->
+						</div>
+						<div class=" clearfix mrg5T">
+							<div class="todo-list-custom button-list" style="height:250px; padding-left: 4px; border: solid 1px #dfe8f1;width:100%;"></div>
+						</div>										
+					</div>
+				</div>
+			</div>			
+			</div>			
+			</form>
+			<?php endif;?>							
+		 </div>
+		<!-- From Litigation End -->
+	</div>
+	<div class="col-lg-12">
+		<div class="panel-body" id="from_regular" style='display:none;padding:0px;'>
+			<?php if($openLeadDetails===true):?>
+				<?php echo form_open('dashboard/market',array('class'=>'form-horizontal form-flat','role'=>'form','id'=>"marketLead","onsubmit"=>"return dataValidateMarket();"));?>
+					<div class="row">										
+						<div class="col-lg-12 leadForms">
+							<div class="col-xs-10">
+								<div class="row">
+									<div class="loading-spinner" id="loading_spinner_form_market" style="display:none;">
+										<img src="<?php echo $Layout->aws_server_cdn;?>images/ajax-loader.gif" alt="">
+									</div>
+									
+									<div class="col-xs-8">
+										<div class="row row-width ">
+											<div class="col-xs-12 formWithCheckBox" style="padding-right: 4px;">
+												<div class="col-xs-6">
+												<div class="form-group input-string-group nomr">
+													<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript:void(0)' onclick='getPreLeadDetails();'>Web Form</a></label>
+													<?php echo form_input(array('name'=>'market[lead_name]','required'=>'required','id'=>'marketlead_name','placeholder'=>'','class'=>'form-control input-string','maxlength'=>38,'style'=>''));?>
+												</div>
+												<div class="form-group input-string-group nomr" >
+													<label for="marketOwner" class="control-label" style="padding-left:2px;"><a id="sellerBtn" href='javascript:void(0)' onclick="openContactForFrom(1,'from_regular');">Seller / Owner:</a></label>
+													<?php echo form_input(array('type'=>'hidden','name'=>'market[plantiffs_name]','id'=>'marketOwner'));?>
+													<?php echo form_input(array('type'=>'text','name'=>'market[seller_contact]','id'=>'marketSellerContact','class'=>'form-control input-string'));?>
+												</div>					
+												<div class="form-group input-string-group nomr" >
+													<label for="marketExpectedPrice" class="control-label" style="padding-left:2px;"><a id="showNameBtn" href='javascript:void(0)' onclick="openContactForFrom(4,'from_regular');">Name, Title (1):</a></label>
+													<?php echo form_input(array('type'=>'text','name'=>'market[person_name_1]','id'=>'marketPersonName1','placeholder'=>'','class'=>'form-control',"tabindex"=>"5"));?>
+													<?php echo form_input(array('type'=>'hidden','name'=>'market[person_title_1]','id'=>'marketPersonTitle1','placeholder'=>'','class'=>'form-control input-string',"tabindex"=>"5"));?>
+												</div>
+												<div class="form-group input-string-group nomr" >
+													<label for="marketExpectedPrice" class="control-label" style="padding-left:2px;"><a id="showNameSecondBtn" href='javascript:void(0)' onclick="openContactForFrom(5,'from_regular');">Name, Title (2):</a></label>
+													<?php echo form_input(array('type'=>'text','name'=>'market[person_name_2]','id'=>'marketPersonName2','placeholder'=>'','class'=>'form-control',"tabindex"=>"6"));?>
+													<?php echo form_input(array('type'=>'hidden','name'=>'market[person_title_2]','id'=>'marketPersonTitle2','placeholder'=>'','class'=>'form-control input-string',"tabindex"=>"6"));?>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketOwner" class="control-label" style="padding-left:2px;"><a id="brokerPersonBtn" href='javascript:void(0)' onclick="openContactForFrom(3,'from_regular');">Broker Person:</a></label>
+													<?php echo form_input(array('type'=>'hidden','name'=>'market[broker_person]','id'=>'marketBrokerPerson'));?>
+													<?php echo form_input(array('type'=>'text','name'=>'market[broker_person_contact]','id'=>'marketBrokerPersonContact','class'=>'form-control input-string'));?>
+													<?php echo form_input(array('type'=>'hidden','name'=>'market[broker]','id'=>'marketBroker'));?>
+													<?php echo form_input(array('type'=>'hidden','readonly'=>'readonly','name'=>'market[broker_contact]','id'=>'marketBrokerContact','class'=>'form-control input-string'));?>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketProspects" class="control-label" style="padding-left:2px;">Technology:</label>
+													<?php echo form_input(array('name'=>'market[relates_to]','id'=>'marketRelatesTo','placeholder'=>'','class'=>'form-control',"tabindex"=>"2",'style'=>''));?>
+												</div>
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="optionExpirationDate" class="control-label" style="padding-left:2px;">Option Deadline:</label>
+													<input type="text" id="optionExpirationDate" name='market[option_expiration_date]' class="form-control is-date"/>
+													<label for="otherRegularLicenseStarts" class="control-label" style="padding-left:4px;">Regular:</label>
+													<input type="text" id="docketRegularLicenseStarts" name='docket[regular_license_starts]' class="form-control is-date" onchange='updateMyDate(jQuery(this))'/>
+													<label for="otherLateLicenseStarts" class="control-label" style="padding-left:4px;">Late:</label>
+													<input type="text" id="docketLateLicenseStarts" name='docket[late_license_starts]' class="form-control is-date"/>
+												</div>
+												<div class="form-group input-string-group input-string-group-special nomr">
+													<label class="control-label" for="litigationCause">Families:</label><span id="spnFamily" class="control-label span-control2 borderBtm" style='margin-right:12.5px;'></span>
+													<label class="control-label" for="litigationCause">Assets:</label><span id="spnAssets" class="control-label span-control2 borderBtm" style='margin-right:12.5px;'></span>
+													<label class="control-label" for="litigationCause">Jurisdictions:</label><span id="spnJur" class="control-label span-control2 borderBtm" style=''></span>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketOwner" class="control-label" style="padding-left:2px;"><a href='javascript:void(0)' onclick="filterLeadOpenSource('sellerdd');">SellerDD:</a></label>
+													<span id='spnleadOpenSellerOpenContact' class='control-label span-control borderBtm'></span>
+													<span id='spnleadOpenSellerPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+													<?php echo form_checkbox(array('id'=>'leadOpenSellerOpenStatus','name'=>'lead_open[legal_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'sellerdd','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));?>
+													<?php echo form_input(array('name'=>'lead_open[seller_open_contact]','id'=>'leadOpenSellerOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_input(array('name' => 'lead_open[seller_contact]', 'type'=>'hidden', 'id' =>'leadOpenSellerContact'));?>
+												</div>
+												</div>
+												<div class="col-xs-6">
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("legaldd")'>Legal DD:</a></label>
+														<span id='spnleadOpenLegalOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenLegalPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[legal_open_contact]','id'=>'leadOpenLegalOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenLegalOpenStatus','name'=>'lead_open[legal_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'legal','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[legal_contact]', 'type'=>'hidden', 'id' =>'leadOpenLegalContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("illustrationdd")'>Illustration:</a></label>
+														<span id='spnleadOpenIllustrationOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenIllustrationPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[illustration_open_contact]','id'=>'leadOpenIllustrationOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIllustrationOpenStatus','name'=>'lead_open[illustration_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'claim','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[illustration_contact]', 'type'=>'hidden', 'id' =>'leadOpenIllustrationContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("techdd")'>Tech DD:</a></label>
+														<span id='spnleadOpenTechnicalOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenTechnicalPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[technical_open_contact]','id'=>'leadOpenTechnicalOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenTechnicalOpenStatus','name'=>'lead_open[technnical_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'tech','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[technical_contact]', 'type'=>'hidden', 'id' =>'leadOpenTechnicalContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("marketdd")'>Market DD:</a></label>
+														<span id='spnleadOpenMarketOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenMarketPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[market_open_contact]','id'=>'leadOpenMarketOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenMarketOpenStatus','name'=>'lead_open[market_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'market','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[market_contact]', 'type'=>'hidden', 'id' =>'leadOpenMarketContact'));?>
+													</div>													
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("pdfdd")'>PDFs:</a></label>
+														<span id='spnleadOpenPdfOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenPdfPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[pdf_open_contact]','id'=>'leadOpenPdfOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenPdfOpenStatus','name'=>'lead_open[intro_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'pdf','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[pdf_contact]', 'type'=>'hidden', 'id' =>'leadOpenPdfContact'));?>
+													</div>	
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("comparedd")'>Comparables:</a></label>
+														<span id='spnleadOpenComparablesOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenComparablesPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[comparables_open_contact]','id'=>'leadOpenComparablesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenComparablesOpenStatus','name'=>'lead_open[comparables_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'comparable','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[comparables_contact]', 'type'=>'hidden', 'id' =>'leadOpenComparablesContact'));?>
+													</div>	
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("royalty")'>Royalty Report:</a></label>
+														<span id='spnleadOpenRoyaltyOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenRoyaltyOpenContactPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[royalty_open_contact]','id'=>'leadOpenRoyaltyOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenRoyaltyOpenStatus','name'=>'lead_open[royalty_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'royalty','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[royalty_contact]', 'type'=>'hidden', 'id' =>'leadOpenRoyaltyContact'));?>
+													</div>													
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("introimages")'>Intro Images:</a></label>
+														<span id='spnleadOpenIntroimagesOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenIntroPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[introimages_open_contact]','id'=>'leadOpenIntroimagesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIntroimagesOpenStatus','name'=>'lead_open[introimages_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'images','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[introimages_contact]', 'type'=>'hidden', 'id' =>'leadOpenIntroimagesContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("introduction")'>Intro DD:</a></label>
+														<span id='spnleadOpenIntroOpenContact' class='control-label span-control borderBtm'></span>
+														<?php echo form_input(array('name'=>'lead_open[intro_open_contact]','id'=>'leadOpenIntroOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIntroOpenStatus','name'=>'lead_open[intro_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'intro','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[intro_contact]', 'type'=>'hidden', 'id' =>'leadOpenIntroContact'));?>
+													</div>
+												</div>
+											</div>
+											<div class="col-width" style="padding-right: 4px; width:190px;">
+												<div class="form-group input-string-group nomr">
+													<label for="marketNo_of_non_us_patents" class="control-label">Upfront Price:</label>
+													<?php echo form_input(array('name'=>'market[no_of_us_patents]','type'=>'hidden','id'=>'marketNo_of_us_patents','placeholder'=>'','class'=>'form-control','maxlength'=>'2'));?>
+													<?php echo form_input(array('name'=>'market[expected_price]','type'=>'text','id'=>'marketupfront_price','placeholder'=>'','class'=>'form-control','maxlength'=>'3'));?>
+													<?php echo form_input(array('name'=>'market[no_of_non_us_patents]','type'=>'hidden','id'=>'marketno_of_non_us_patents','placeholder'=>'','class'=>'form-control','maxlength'=>'2'));?>
+												</div>
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="marketExpectedPrice" class="control-label">Store: </label>
+													<?php echo form_input(array('name'=>'market[upfront_price]','id'=>'marketExpectedPrice','placeholder'=>'','class'=>'', 'maxlength'=>'4', 'style'=>'min-width:38px;','type'=>'hidden'));
+													echo form_checkbox(array('id'=>'docketStatus','name'=>'docket[status]','onclick'=>'checkDocketStatus(jQuery(this))','value'=>'1','data-leadopen'=>'intro','class'=>'mrg5L clsChkBox','style'=>'float:left;position:relative;top:5px'));
+													?>
+													<select name="docket[category]" id="docketCategory" class="form-control" style='border-bottom:1px solid #dfe8f1;height:20px;padding:0 2px;'>
+														<option value='0'></option>
+														<?php 
+															if(count($category_list)>0){
+																foreach($category_list as $category){
+														?>
+																<option value="<?php echo $category->id;?>"><?php echo $category->name?></option>
+														<?php
+																}
+															}
+														?>
+													</select>
+												</div>
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="marketExpectedPrice" class="control-label" id="stage">Syndication Stage </label>
+													<input type="hidden" name="docket[active_button]" id="docketActiveButton" class="form-control" style='border-bottom:1px solid #dfe8f1;height:20px;' value='1'/>
+												</div>												
+												<div class="form-group input-string-group input-string-group-special nomr">
+													<label class="control-label" for="marketProspects">Prospects:</label><span id="spnMarketProspects" class="control-label span-control2 borderBtm" style='margin-right:3px;margin-left:0px;'></span>
+													<label class="control-label" for="litigationCause">Invitees:</label><span id="spnleadOpenInviteesPatent" class="control-label span-control2 borderBtm" style='margin-right:0px;margin-left:0px;'></span>
+												</div>
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="marketExpectedPrice" class="control-label" id="stage">Prog. Manager:</label>
+													<select name="user[user]" id="userUser" class="form-control" style='border-bottom:1px solid #dfe8f1;height:20px;padding:0 2px;'>
+														<option value='0'>-- Select --</option>
+													</select>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketProspects" class="control-label">Markets:</label>
+													<div id="marketBoxList" class="panel google-box-list" style='height:95px;width:100%; margin-bottom:0;overflow-y:scroll;overflow-x:hidden;padding-left:2px;'></div>
+												</div>
+											</div>
+										</div>
+									</div> 
+									
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="col-xs-4">
+												<!--<div class='col-xs-12'>
+													<label style="display: block; margin-bottom:4px; margin-top:7px; margin-bottom: 12px;">Seller's Address / General Notes:</label>													
+												</div>-->
+												<div class='col-xs-12' style='height:265px;overflow-x:hidden;overflow-y:scroll'>
+													<div class='row'>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToClaimcharts" class="btn btn-primary btn-block " onclick='openLeadDocketClaimchart()' target="ClaimCharts DD" href='javascript://' style='color:#fff;'>ClaimCharts</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToComparable" file-type='comparedd' class="btn btn-primary btn-block " target="Comparables" href='javascript://' style='color:#fff;'>Comparable</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToDictionaryDD" file-type='dictionarydd' class="btn btn-primary btn-block " target="Dictionary DD" href='javascript://' style='color:#fff;'>Dictionary DD</a>
+														</div>										
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadDocketDocument" onclick='openLeadDocketDocuments()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Documents</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToDocket" class="btn btn-primary btn-block " file-type='docket' target="Docket" href='javascript://' style='color:#fff;'>Docket</a>
+														</div>
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadDocketDocument" onclick='openLeadDocketAccordion()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Docket Accordions</a>
+														</div>
+														<div class="col-sm-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToIllusDD" file-type='illustrationdd' class="btn btn-primary btn-block " target="Illustration DD" href='javascript://' style='color:#fff;'>illustrations</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToIntroDD" class="btn btn-primary btn-block " file-type='edit' target="Intro DD" href='javascript://'  style='color:#fff;'>Intro DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToIntroImages" file-type='introimages' class="btn btn-primary btn-block " target="Intro Images" href='javascript://' style='color:#fff;'>Intro Images</a>
+														</div>										
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadInvitees" file-type='invitees' onclick='openLeadInvitees()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Invitees</a>
+														</div>	
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToLegalDD" class="btn btn-primary btn-block " file-type='legaldd' target="Legal DD" href='javascript://' style='color:#fff;'>Legal DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLinkToLifeSpanChart" file-type='lifespanchart' onclick='openLifeSpanChart()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>LifeSpan Cht</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToMarketDD" class="btn btn-primary btn-block " file-type='marketdd' target="Market DD" href='javascript://' style='color:#fff;'>Market DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToPDF" class="btn btn-primary btn-block " file-type='pdfdd' target="PDF" href='javascript://' style='color:#fff;'>PDF DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadDocketDocument" onclick='openLeadStoreIntro()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Store Intro</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToStore" class="btn btn-primary btn-block " file-type='store' target="Link to Store" href='javascript://' style='color:#fff;'>Store</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToSellerDD" file-type='seller' class="btn btn-primary btn-block " target="Seller DD" href='javascript://' style='color:#fff;'>Seller DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToTechDD" class="btn btn-primary btn-block " file-type='techdd' target="Tech DD" href='javascript://' style='color:#fff;'>Tech DD</a>
+														</div>
+													</div>	
+												</div>	
+											</div>
+											<div class="col-xs-8">
+												<label style="display: block; margin-bottom: 6px;"><select onchange="findThisDriveFile(jQuery(this))" class="form-control" style='display:inline-block;width:48%;' id="clipboard"></select><a href='javascript://' class='mrg5L pull-right  btn pad0A' onclick='createNewFolder()' style='color:#56b2fe;text-decoration:underline;'>New Folder</a></label>
+												<div id="litigation_doc_list" class="panel google-box-list" style="height:218px; margin-bottom:0;overflow-y:scroll;overflow-x:hidden;">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>												
+							</div>
+							<div class="col-xs-2">
+								<div>
+									<div class="clearfix">
+										<?php echo form_input(array('type'=>'hidden','name'=>'market[no_of_prospects]','id'=>'marketProspects','placeholder'=>'','class'=>'form-control', 'maxlength'=>'2'));?>
+										<?php echo form_input(array('type'=>'hidden','name'=>'market[address]','id'=>'marketAddress','placeholder'=>'Address','class'=>'form-control','rows'=>4,'cols'=>29,'style'=>'height:103px !important;',"tabindex"=>"4",'autocomplete'=>false));?>
+										<?php echo form_input(array('type'=>'hidden','name'=>'lead_open[invitees_open_contact]','id'=>'leadOpenInviteesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_input(array('name' => 'lead_open[invitees_contact]', 'type'=>'hidden', 'id' =>'leadOpenInviteesContact'));?>
+										<input type="hidden" name="market[gmail_message_id]" id="lead_gmail_message_id" value=""/>
+										<input type="hidden" name="comment[comment_id]" id="commentId" value="0"/>
+										<input type="hidden" name="market[patent_data]" value="" id="marketPatentData"/>
+										<input type="hidden" name="market[seller_info]" value="1" id="marketSellerInfo"/>
+										<input type="hidden" name="market[complete]" value="" id="marketComplete"/>
+										<input type="hidden" name="market[send_proposal_letter]" value="" id="marketProposal_letter"/>
+										<input type="hidden" name="market[create_patent_list]" value="" id="marketCreate_patent_list"/>
+										<input type="hidden" name="market[market_data]" value="" id="marketMarketData"/>
+										<input type="hidden" name="market[id]" id="marketLeadId" value="0"/>
+										<input type="hidden" class="form-control input-string"  name="market[file_url]" id="marketFileUrl" value=""/>
+										<input type="hidden" class="form-control input-string"  name="market[spreadsheet_id]" id="marketSpreadsheetId"  value=""/>
+										<input type="hidden" class="form-control input-string"  name="market[worksheet_id]" id="marketWorksheetId"  value=""/>
+										<!--<button type="button" onclick="submitDataMarket()" class="btn btn-primary btn-block pull-left" style='margin-right:5px;line-height:30px;'>Save</button>-->
+									</div>
+									<div class="clearfix mrg5T">
+										<div class="todo-list-custom fright button-list" style="height:218px; border: solid 1px #dfe8f1;width:100%">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+				<?php echo form_close()?>
+			<?php endif;?>								
+		</div>
+	</div>					
+	<?php 
+		if($this->session->userdata['type']=="9"):
+	?>
+	<div class="col-lg-12">
+		<div class="panel-body" id="from_nonacquistion" style='display:none'>
+				<?php echo form_open('dashboard/lead_form',array('class'=>'form-horizontal form-flat','role'=>'form','id'=>"leadForm","onsubmit"=>"return dataValidateLeadForm();"));?>
+					<div class="row">										
+						<div class="col-lg-12 leadForms">
+							<div class="col-xs-10">					
+								<div class="row">
+									<div class="loading-spinner" id="loading_spinner_form_market" style="display:none;">
+										<img src="<?php echo $Layout->aws_server_cdn;?>images/ajax-loader.gif" alt="">
+									</div>
+									<div class="col-xs-8">
+										<div class="row row-width " >
+											<div class="col-xs-12 formWithCheckBox" style="padding-right: 4px;">
+											<div class="col-xs-6">
+												<div class="form-group input-string-group nomr">
+													<label for="acquisitionlead_name" class="control-label" style="padding-left:2px;"><a href='javascript:void(0)' onclick='getPreLeadDetails();'>Web Form</a></label>
+													<?php echo form_input(array('name'=>'acquisition[lead_name]','required'=>'required','id'=>'acquisitionlead_name','placeholder'=>'','class'=>'form-control input-string','maxlength'=>38,'style'=>''));?>
+												</div>
+												<div class="form-group input-string-group nomr" >
+													<label for="marketOwner" class="control-label" style="padding-left:2px;"><a id="sellerBtn" href='javascript:void(0)' onclick="openContactForFrom(1,'from_nonacquistion');" class=''>Party:</a></label>
+													<?php echo form_input(array('type'=>'hidden','name'=>'acquisition[plantiffs_name]','id'=>'acquisitionOwner'));?>
+													<?php echo form_input(array('type'=>'text','name'=>'acquisition[seller_contact]','id'=>'acquisitionSellerContact','class'=>'form-control input-string'));?>
+												</div>																
+												<div class="form-group input-string-group nomr" >
+													<label for="marketExpectedPrice" class="control-label" style="padding-left:2px;"><a id="showNameBtn" href='javascript:void(0)' onclick="openContactForFrom(4,'from_nonacquistion');" class=''>Name, Title (1):</a></label>
+													<?php echo form_input(array('type'=>'hidden','name'=>'acquisition[person_name_1]','id'=>'acquisitionPersonName1','placeholder'=>'','class'=>'form-control',"tabindex"=>"5"));?>
+													<?php echo form_input(array('type'=>'text','name'=>'acquisition[person_title_1]','id'=>'acquisitionPersonTitle1','placeholder'=>'','class'=>'form-control input-string',"tabindex"=>"5"));?>
+												</div>
+												<div class="form-group input-string-group nomr" >
+													<label for="marketExpectedPrice" class="control-label" style="padding-left:2px;"><a id="showNameSecondBtn" href='javascript:void(0)' onclick="openContactForFrom(5,'from_nonacquistion');" class=''>Name, Title (2):</a></label>
+													<?php echo form_input(array('type'=>'hidden','name'=>'acquisition[person_name_2]','id'=>'acquisitionPersonName2','placeholder'=>'','class'=>'form-control',"tabindex"=>"6"));?>
+													<?php echo form_input(array('type'=>'text','name'=>'acquisition[person_title_2]','id'=>'acquisitionPersonTitle2','placeholder'=>'','class'=>'form-control input-string',"tabindex"=>"6"));?>
+												</div>
+												<div class="form-group input-string-group nomr" >
+													<label for="marketOwner" class="control-label" style="padding-left:2px;"><!--<a id="brokerFirmBtn" href='javascript:void(0)' onclick="openContactForFrom(2,'from_nonacquistion');" class=''></a>-->Representative Firm:</label>
+													<?php echo form_input(array('type'=>'hidden','name'=>'acquisition[broker]','id'=>'acquisitionBroker'));?>
+													<?php echo form_input(array('type'=>'text','readonly'=>'readonly','name'=>'acquisition[broker_contact]','id'=>'acquisitionBrokerContact','class'=>'form-control input-string'));?>
+												</div>
+												<div class="form-group input-string-group nomr" >
+													<label for="marketOwner" class="control-label" style="padding-left:2px;"><a id="brokerPersonBtn" href='javascript:void(0)' onclick="openContactForFrom(3,'from_nonacquistion');" class=''>Representative Person:</a></label>
+													<?php echo form_input(array('type'=>'hidden','name'=>'acquisition[broker_person]','id'=>'acquisitionBrokerPerson'));?>
+													<?php echo form_input(array('type'=>'text','name'=>'acquisition[broker_person_contact]','id'=>'acquisitionBrokerPersonContact','class'=>'form-control input-string'));?>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketProspects" class="control-label" style="padding-left:2px;">Topic:</label>
+													<?php echo form_input(array('name'=>'acquisition[relates_to]','id'=>'acquisitionRelatesTo','placeholder'=>'','class'=>'form-control',"tabindex"=>"2",'style'=>''));?>
+												</div>												
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="acquisitionOptionExpirationDate" class="control-label" style="padding-left:2px;">Option Deadline:</label>
+													<input type="text" id="acquisitionOptionExpirationDate" name='acquisition[option_expiration_date]' class="form-control is-date"/>
+													<label for="otherRegularLicenseStarts" class="control-label" style="padding-left:4px;">Regular:</label>
+													<input type="text" id="docketRegularLicenseStarts" name='docket[regular_license_starts]' class="form-control is-date" onchange='updateMyDate(jQuery(this))'/>
+													<label for="otherLateLicenseStarts" class="control-label" style="padding-left:4px;">Late:</label>
+													<input type="text" id="docketLateLicenseStarts" name='docket[late_license_starts]' class="form-control is-date"/>
+												</div>
+												<div class="form-group input-string-group input-string-group-special nomr">
+													<label class="control-label" for="litigationCause">Families:</label><span id="spnFamily" class="control-label span-control2 borderBtm" style='margin-right:12.5px;'></span>
+													<label class="control-label" for="litigationCause">Assets:</label><span id="spnAssets" class="control-label span-control2 borderBtm" style='margin-right:12.5px;'></span>
+													<label class="control-label" for="litigationCause">Jurisdictions:</label><span id="spnJur" class="control-label span-control2 borderBtm" style=''></span>
+												</div>
+												</div>
+												<div class="col-xs-6">
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("LegalDD")'><a href='javascript://' onclick='filterLeadOpenSource("legaldd")'>Legal DD:</a></a></label>
+														<span id='spnleadOpenLegalOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenLegalPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[legal_open_contact]','id'=>'leadOpenLegalOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenLegalOpenStatus','name'=>'lead_open[legal_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'legal','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[legal_contact]', 'type'=>'hidden', 'id' =>'leadOpenLegalContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("illustrationdd")'>Illustration:</a></label>
+														<span id='spnleadOpenIllustrationOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenIllustrationPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[illustration_open_contact]','id'=>'leadOpenIllustrationOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIllustrationOpenStatus','name'=>'lead_open[illustration_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'claim','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[illustration_contact]', 'type'=>'hidden', 'id' =>'leadOpenIllustrationContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("techdd")'>Tech DD:</a></label>
+														<span id='spnleadOpenTechnicalOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenTechnicalPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[technical_open_contact]','id'=>'leadOpenTechnicalOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenTechnicalOpenStatus','name'=>'lead_open[technnical_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'tech','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[technical_contact]', 'type'=>'hidden', 'id' =>'leadOpenTechnicalContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("marketdd")'>Market DD:</a></label>
+														<span id='spnleadOpenMarketOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenMarketPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[market_open_contact]','id'=>'leadOpenMarketOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenMarketOpenStatus','name'=>'lead_open[market_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'market','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[market_contact]', 'type'=>'hidden', 'id' =>'leadOpenMarketContact'));?>
+													</div>													
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("pdfdd")'>PDFs:</a></label>
+														<span id='spnleadOpenPdfOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenPdfPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[pdf_open_contact]','id'=>'leadOpenPdfOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenPdfOpenStatus','name'=>'lead_open[intro_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'pdf','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[pdf_contact]', 'type'=>'hidden', 'id' =>'leadOpenPdfContact'));?>
+													</div>	
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("comparedd")'>Comparables:</a></label>
+														<span id='spnleadOpenComparablesOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenComparablesPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[comparables_open_contact]','id'=>'leadOpenComparablesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenComparablesOpenStatus','name'=>'lead_open[comparables_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'comparable','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[comparables_contact]', 'type'=>'hidden', 'id' =>'leadOpenComparablesContact'));?>
+													</div>	
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("royalty")'>Royalty Report:</a></label>
+														<span id='spnleadOpenRoyaltyOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenRoyaltyOpenContactPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[royalty_open_contact]','id'=>'leadOpenRoyaltyOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenRoyaltyOpenStatus','name'=>'lead_open[royalty_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'royalty','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[royalty_contact]', 'type'=>'hidden', 'id' =>'leadOpenRoyaltyContact'));?>
+													</div>													
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("introimages")'>Intro Images:</a></label>
+														<span id='spnleadOpenIntroimagesOpenContact' class='control-label span-control borderBtm'></span>
+														<span id='spnleadOpenIntroPatent' class='control-label span-control1 borderBtm' style='width:15px !important'></span>
+														<?php echo form_input(array('name'=>'lead_open[introimages_open_contact]','id'=>'leadOpenIntroimagesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIntroimagesOpenStatus','name'=>'lead_open[introimages_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'images','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[introimages_contact]', 'type'=>'hidden', 'id' =>'leadOpenIntroimagesContact'));?>
+													</div>
+													<div class="form-group input-string-group nomr">
+														<label for="marketProspectsName" class="control-label" style="padding-left:2px;"><a href='javascript://' onclick='filterLeadOpenSource("introduction")'>Intro DD:</a></label>
+														<span id='spnleadOpenIntroOpenContact' class='control-label span-control borderBtm'></span>
+														<?php echo form_input(array('name'=>'lead_open[intro_open_contact]','id'=>'leadOpenIntroOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_checkbox(array('id'=>'leadOpenIntroOpenStatus','name'=>'lead_open[intro_open_status]','onclick'=>'checkLeadOpen(jQuery(this))','data-leadopen'=>'intro','value'=>'1','class'=>'mrg5L','style'=>'float:right;position:relative;top:5px'));echo form_input(array('name' => 'lead_open[intro_contact]', 'type'=>'hidden', 'id' =>'leadOpenIntroContact'));?>
+													</div>
+												</div>
+											</div>
+											<div class="col-width" style="padding-right: 4px; width:190px;">
+												<div class="form-group input-string-group nomr">
+													<label for="marketNo_of_us_patents" class="control-label">Created:</label>
+													<?php echo form_input(array('name'=>'acquisition[create_date]','type'=>'text','id'=>'acquisitionCreateDate','placeholder'=>'','class'=>'form-control','readonly'=>'readonly'));?>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketNo_of_non_us_patents" class="control-label">Updated:</label>
+													<?php echo form_input(array('name'=>'acquisition[update_date]','id'=>'acquisitionUpdateDate','placeholder'=>'','class'=>'form-control is-date'));?>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketExpectedPrice" class="control-label">Next Action:</label>
+													<?php echo form_input(array('name'=>'acquisition[next_action]','id'=>'acquisitionNextAction','placeholder'=>'','class'=>'form-control is-date', 'style'=>'min-width:38px;'));?>
+												</div>
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="marketExpectedPrice" class="control-label">Store: </label>
+													<?php echo form_input(array('name'=>'acquisition[upfront_price]','id'=>'marketExpectedPrice','placeholder'=>'','class'=>'', 'maxlength'=>'4', 'style'=>'min-width:38px;','type'=>'hidden'));
+													echo form_checkbox(array('id'=>'docketStatus','name'=>'docket[status]','onclick'=>'checkDocketStatus(jQuery(this))','value'=>'1','class'=>'mrg5L clsChkBox','style'=>'float:left;position:relative;top:5px'));
+													?>
+													<select name="docket[category]" id="docketCategory" class="form-control" style='border-bottom:1px solid #dfe8f1;height:20px;padding:0 2px;'>
+														<option value='0'></option>
+														<?php 
+															if(count($category_list)>0){
+																foreach($category_list as $category){
+														?>
+																<option value="<?php echo $category->id;?>"><?php echo $category->name?></option>
+														<?php
+																}
+															}
+														?>
+													</select>
+												</div>
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="marketExpectedPrice" class="control-label" id="stage">Syndication Stage </label>
+													<input type="hidden" name="docket[active_button]" id="docketActiveButton" class="form-control" style='border-bottom:1px solid #dfe8f1;height:20px;' value='1'/>
+												</div>
+												<div class="form-group input-string-group input-string-group-special nomr">
+													<label class="control-label" for="marketProspects">Prospects:</label><span id="spnMarketProspects" class="control-label span-control2 borderBtm" style='margin-right:3px;margin-left:0px;'></span>
+													<label class="control-label" for="litigationCause">Invitees:</label><span id="spnleadOpenInviteesPatent" class="control-label span-control2 borderBtm" style='margin-right:0px;margin-left:0px;'></span>
+												</div>												
+												<div class="form-group input-string-group-special-input nomr">
+													<label for="marketExpectedPrice" class="control-label" id="stage">Prog. Manager:</label>
+													<select name="user[user]" id="userUser" class="form-control" style='border-bottom:1px solid #dfe8f1;height:20px;padding:0 2px;'>
+														<option value='0'>-- Select --</option>
+													</select>
+												</div>
+												<div class="form-group input-string-group nomr">
+													<label for="marketProspects" class="control-label">Address:</label>
+													<div id="acquisitionBoxList" class="panel google-box-list" style='height:35px; width:100%; margin-bottom:0;overflow-y:scroll;overflow-x:hidden;'></div>
+													<?php echo form_input(array('type'=>'hidden', 'name'=>'acquisition[address]','id'=>'acquisitionAddress','placeholder'=>'General Notes','class'=>'form-control','rows'=>4,'cols'=>29,'style'=>'padding-left:2px;height:35px !important;',"tabindex"=>"4",'autocomplete'=>false));?>
+												</div>
+											</div>
+										</div>										
+									</div> 
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="col-xs-4">
+												<!--<div class='col-xs-12'>
+													<label style="display: block; margin-bottom:4px; margin-top:7px; margin-bottom: 12px;">General Notes:</label>
+												</div>-->
+												<div class='col-xs-12'  style='height:265px;overflow-x:hidden;overflow-y:scroll'>
+													<div class='row'>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToClaimcharts" class="btn btn-primary btn-block " onclick='openLeadDocketClaimchart()' target="ClaimCharts DD" href='javascript://' style='color:#fff;'>ClaimCharts</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToComparable" file-type='comparedd' class="btn btn-primary btn-block " target="Comparables" href='javascript://' style='color:#fff;'>Comparable</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToDictionaryDD" file-type='dictionarydd' class="btn btn-primary btn-block " target="Dictionary DD" href='javascript://' style='color:#fff;'>Dictionary DD</a>
+														</div>										
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadDocketDocument" onclick='openLeadDocketDocuments()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Documents</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToDocket" class="btn btn-primary btn-block " file-type='docket' target="Docket" href='javascript://' style='color:#fff;'>Docket</a>
+														</div>
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadDocketDocument" onclick='openLeadDocketAccordion()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Docket Accordions</a>
+														</div>
+														<div class="col-sm-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToIllusDD" file-type='illustrationdd' class="btn btn-primary btn-block " target="Illustration DD" href='javascript://' style='color:#fff;'>illustrations</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToIntroDD" class="btn btn-primary btn-block " file-type='edit' target="Intro DD" href='javascript://'  style='color:#fff;'>Intro DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToIntroImages" file-type='introimages' class="btn btn-primary btn-block " target="Intro Images" href='javascript://' style='color:#fff;'>Intro Images</a>
+														</div>										
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadInvitees" file-type='invitees' onclick='openLeadInvitees()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Invitees</a>
+														</div>	
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToLegalDD" class="btn btn-primary btn-block " file-type='legaldd' target="Legal DD" href='javascript://' style='color:#fff;'>Legal DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLinkToLifeSpanChart" file-type='lifespanchart' onclick='openLifeSpanChart()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>LifeSpan Cht</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToMarketDD" class="btn btn-primary btn-block " file-type='marketdd' target="Market DD" href='javascript://' style='color:#fff;'>Market DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToPDF" class="btn btn-primary btn-block " file-type='pdfdd' target="PDF" href='javascript://' style='color:#fff;'>PDF DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T">
+															<a id="btnLeadDocketDocument" onclick='openLeadStoreIntro()' class="btn btn-primary btn-block " href='javascript://' style='color:#fff;'>Store Intro</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToStore" class="btn btn-primary btn-block " file-type='store' target="Link to Store" href='javascript://' style='color:#fff;'>Store</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToSellerDD" file-type='seller' class="btn btn-primary btn-block " target="Seller DD" href='javascript://' style='color:#fff;'>Seller DD</a>
+														</div>
+														<div class="col-xs-12 mrg5T btnOutsidedraggable">
+															<a id="btnLinkToTechDD" class="btn btn-primary btn-block " file-type='techdd' target="Tech DD" href='javascript://' style='color:#fff;'>Tech DD</a>
+														</div>
+													</div>
+												</div>
+											</div> 
+											<div class="col-xs-8">
+												<label style="display: block; margin-bottom: 6px;"><select onchange="findThisDriveFile(jQuery(this))" class="form-control" style='display:inline-block;width:48%;' id="clipboard"></select><a href='javascript://' class='mrg5L pull-right btn pad0A' onclick='createNewFolder()' style='color:#56b2fe;text-decoration:underline;'>New Folder</a></label>
+												<div id="litigation_doc_list" class="panel google-box-list" style="height:218px; margin-bottom:0;overflow-y:scroll;overflow-x:hidden;">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>												
+							</div>
+							<div class="col-xs-2">
+								<div>
+									<div class="clearfix">
+										<?php echo form_input(array('type'=>'hidden','name'=>'acquisition[no_of_prospects]','id'=>'acquisitionProspects','placeholder'=>'','class'=>'form-control is-date', 'style'=>'min-width:38px;'));?>
+										<?php echo form_input(array('name'=>'lead_open[invitees_open_contact]','id'=>'leadOpenInviteesOpenContact', 'type'=>'hidden','placeholder'=>'','class'=>'input-string','style'=>'width:120px;border:none;'));echo form_input(array('name' => 'lead_open[invitees_contact]', 'type'=>'hidden', 'id' =>'leadOpenInviteesContact'));?>	
+										<input type="hidden" name="acquisition[gmail_message_id]" id="acquisition_gmail_message_id" value=""/>
+										<input type="hidden" name="comment[comment_id]" id="commentId" value="0"/>
+										<input type="hidden" name="acquisition[patent_data]" value="" id="acquisitionPatentData"/>
+										<input type="hidden" name="acquisition[seller_info]" value="1" id="acquisitionSellerInfo"/>
+										<input type="hidden" name="acquisition[complete]" value="" id="acquisitionComplete"/>
+										<input type="hidden" name="acquisition[send_proposal_letter]" value="" id="acquisitionProposal_letter"/>
+										<input type="hidden" name="acquisition[create_patent_list]" value="" id="acquisitionCreate_patent_list"/>
+										<input type="hidden" name="acquisition[market_data]" value="" id="acquisitionMarketData"/>
+										<input type="hidden" name="acquisition[type]" value="" id="acquisitionType"/>
+										<input type="hidden" name="acquisition[id]" id="acquisitionLeadId" value="0"/>
+										<input type="hidden" name="acquisition[spreadsheet_id]" id="acquisitionSpreadsheetId" class="form-control"/>
+										<input type="hidden" name="acquisition[worksheet_id]" id="acquisitionWorksheetId" class="form-control"/>
+										<input type="hidden" class="form-control input-string"  name="acquisition[file_url]" id="acquisitionFileUrl" value=""/>
+										<!--<button type="button" onclick="submitFromData('from_nonacquistion')" class="btn btn-primary btn-block pull-left" style='margin-right:5px; line-height:30px;'>Save</button>-->
+									</div>
+									<div class="clearfix mrg5T">
+										<div class="todo-list-custom fright button-list" style="height:218px; border: solid 1px #dfe8f1;width:100%">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+				<?php echo form_close()?>
+				<!--  Clear Button Patent Data -->
+		</div>
+	</div>
+	<?php endif;?>
+	<script>
+		var salesActivities = {'1':'Call In','2':'Call Out','37':'Conference Call','3':'Email Sent','4':'Send Letter','5':'LinkedIn Message','6':'Email Received','11':'Calendar Event','10':'Task','206':'Voice Mail'};
+		$(function() { "use strict";
+			$('.date_calendar').datepicker({
+				format: 'yyyy-mm-dd'
+			});
+		});
+		jQuery(document).ready(function(){
+			jQuery(document).on('keypress',function(e){
+				code = e.keyCode || e.which;				
+				if(code===13 &&  jQuery("#table_search").is(':focus')){
+					 e.preventDefault();
+				}
+			});
+			jQuery("#table_search").on("keyup",function(e){
+				
+				var value = jQuery(this).val();
+				value = value.toLowerCase();
+				_mainActivity = jQuery("#activityMainType").val();
+				_containerTable = "";
+				switch(parseInt(_mainActivity)){
+					case 1:
+						_containerTable="activityTable";
+					break;
+					case 2:
+						_containerTable="aquisitionTable";
+					break;
+				}
+				jQuery("#"+_containerTable).find('table>tbody.main_active').find('tr.master').each(function(ind){
+					$row = jQuery(this);
+					_findVal = $row.find('td').eq(1).find('a').eq(1).find('b').text();
+					_findVal = _findVal.toLowerCase();
+					if(value.length>0){
+						if(_findVal.indexOf(value)<0){
+							$rowNext = $row.next();
+							if($rowNext.find('table>tbody>tr.salesFDroppable').length>0){
+								$rowNext.find('table>tbody>tr.salesFDroppable').each(function(){
+									$rowNextRow = jQuery(this);
+									_findNextVal = $rowNextRow.find('td').eq(1).find('a').text();
+									_findNextVal = _findNextVal.toLowerCase();
+									if(_findNextVal.indexOf(value)<0){
+										$row.hide();
+									} else {
+										$row.show();
+									}
+								});
+							} else {
+								$row.hide();
+							}
+						} else {
+							$row.show();
+						}
+					} else {
+						$row.show();
+					}
+					/*if(_findVal.indexOf(value)!==0){
+						console.log("1");
+						$rowNext = $row.next();
+						__hide = false;
+						if($rowNext.find('table>tbody>tr.salesFDroppable').length>0){
+							$rowNext.find('table>tbody>tr.salesFDroppable').each(function(){
+								$rowNextRow = jQuery(this);
+								_findNextVal = $rowNextRow.find('td').eq(1).find('a').text();
+								_findNextVal = _findNextVal.toLowerCase();
+								if(_findNextVal.indexOf(value)!==0){
+									$row.hide();
+								} else {
+									$row.show();
+								}
+							});
+						} else {
+							$row.hide();
+						}
+					} else {		
+						console.log("2");
+						console.log("A"+_findVal+': RESULT: '+_findVal.indexOf(value)+"B");
+						$row.show();
+					}*/
+				});
+			});
+		});
+		
+	</script>
+					
+	<div class="col-lg-12 hide" id="sales_acititity">
+		<div class="panel-body" style='padding:0px;'>
+			<div style='position: relative;width:100%;height: 45px;z-index: 1;float: left;background: #fff;'>
+			<div class="row activity-filter" style='position: fixed;width: 98%;background: #fff;'>
+				<div class="col-xs-2">
+					<a id='btnActivityAll' class="btn btn-primary btn-block" 
+					<?php if((int)$this->session->userdata['user']['type']==9 || in_array(24,$this->session->userdata['modules_assign'])):?> onclick="getCustomerListSalesActivity()" <?php endif;?>>Manage Customers</a>
+				</div>
+				<div class="col-xs-10">
+					<form id="frm_sales_activity" method="post">
+					<input type="hidden" name="name[main_type]"value="2" id="activityMainType"/>
+					<div class="row form-horizontal form-flat">
+						<div class="col-xs-12">
+							<div class="col-xs-2" style="margin-top: 2px;">
+								<div class="form-group">
+									<?php 
+										if((int)$this->session->userdata['type']>=8):
+									?>
+									<select class="form-control" name="activity[type]" id="activityType" onchange="checkActivityLog();" style="text-align: left;">
+										<option value=''>-- Select Activity --</option>
+										<!--<option value="1">Call memo</option>
+										<option value="207">Meeting memo</option>
+										<option value="11">Create a Calendar Event</option>-->
+										<option value="10">Create a Task for others</option>
+										<option value="1000">Take Action</option>
+										<!--<option value="7">Manage Lead  Message templates</option>-->
+										<option value="77">Run a Campaign from Personnel</option>
+										<?php if((int)$this->session->userdata['user']['type']==9 || (in_array(11,$this->session->userdata['modules_assign']))):?>
+										<option value="9">Send an email from Personnel Account</option>	
+										<?php endif;?>
+										<?php if((int)$this->session->userdata['user']['type']==9 || (in_array(23,$this->session->userdata['modules_assign']))):?>
+										<option value="205">Send an email from Licenses Account</option>	
+										<?php endif;?>
+										<option value="999">Attach Doc to POS</option>
+										<?php 
+											if((int)$this->session->userdata['type']>=8):
+										?>
+										<option value="3">Run an Email Campaign from Licenses</option>
+										<option value="5">Run a LinkedIn Campaign</option>
+										<option value="201">Resume a Email / LinkedIN Campaign</option>
+										<option value='203'>Assign Broker / Pre Sales</option>
+										<option value='209'>Assign Broker</option>
+										<option value='204'>Delete Company from a Lead</option>
+										<option value='211'>Merge Contacts</option>
+										<!--<option value="6">Email Received</option>-->
+										<!--<option value="206">Voice mail</option>-->
+										<option value="4">Send a letter</option>										
+										<optgroup label="------------">
+										<option value="210">Find Holes</option>
+										<option value="36">Move email to different lead</option>
+										<option value="208">Manage Skelton templates</option>
+										</optgroup>
+										<?php endif;?>
+									</select>
+									<?php endif;?>
+									<input type="hidden" name="activity[person]" id="activityPerson" value=""/>
+								</div>
+							</div>	
+							<div class="col-xs-2" style='margin-top:2px;'>
+								<div class='form-group'>
+									<input type='text' name="table_search" id="table_search" class='form-control' placeholder='Search...' style='border:1px solid #dfe8f1;height:31px'/>
+								</div>
+							</div>
+							<?php 
+								$openPreSale = true;
+								if((int)$this->session->userdata['user']['type']!=9){
+									if(!in_array(25,$this->session->userdata['modules_assign'])){
+										$openPreSale = false;
+									}
+								}
+								if($openPreSale===true):
+							?> 
+							<div class="col-xs-5" style="margin-top: 4px;"></div>
+							<!--<div class="col-xs-1">
+								<a id="preSaleActivityButton" class="btn btn-primary btn-block" href='javascript://'>PreSale</a>
+							</div>-->
+							<?php else:?>
+							<div class="col-xs-6" style="margin-top: 4px;"></div>
+							<?php endif;?>
+							<?php /*if((int)$this->session->userdata['user']['type']==9):?>
+							<div class="col-xs-1">
+								<a id="btnFindWhole" class="btn btn-primary btn-block" href='javascript://' onclick='findWholeInActivity()'><!--<i class="glyph-icon icon-save" title="Save" ></i>-->Find Holes</a>
+							</div>
+							<?php endif;*/?>							
+							<?php /*<div class="col-xs-1">
+								<a id="btnSaveActivity" class="btn btn-primary btn-block" href='javascript://' onclick='saveActivity()'><!--<i class="glyph-icon icon-save" title="Save" ></i>-->Save</a>
+							</div><?php */?>
+							<!--<div class="col-xs-1">
+								<a id="btnSortingActivity" class="btn btn-primary btn-block" href='javascript://' onclick='tableSortActivity()'>Analysis</a>
+							</div>-->
+						</div>
+					</div>
+						<input type="hidden" id="activityLeadId" name="activity[lead_id]" value="0"/>
+						<input type="hidden" id="activityCid" name="activity[c_id]" value="0"/>
+					</form>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12" id="activityTable">
+					<?php if((int)$this->session->userdata['user']['type']==9 || in_array(15,$this->session->userdata['modules_assign'])):?>
+					<table class="table table-bordered"  style='table-layout:fixed'>
+						<thead>
+							<tr>
+								<th style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'><span><a href='javascript://' onclick="checkAllContacts(1,jQuery(this))"><i class="glyph-icon icon-envelope-square"></i></a><!--<input type='checkbox' id='allEmailC' onclick='checkAllContacts(1,jQuery(this))'/>--></span><span class="mrg5L"><a href='javascript://' onclick="checkAllContacts(2,jQuery(this))"><i class="glyph-icon icon-linkedin"></i><!--<input type='checkbox' id='allEmailC' onclick='checkAllContacts(2,jQuery(this))'/>--></span><span class="mrg5L"><select name="filter_progress" class="mrg5L" id="stage_progress" onchange="openFilterProgress(jQuery(this))" style='width:155px;float:right'><option value="reset">All Stages</option><option value="" class="no-contact">1&nbsp;&nbsp;&nbsp;&nbsp;No contact details</option><option value="1" class="torquoise">2&nbsp;&nbsp;&nbsp;&nbsp;Contact found</option><option value="2" class="torquoise">3&nbsp;&nbsp;&nbsp;&nbsp;Invitation sent</option><option value="7" class="torquoise">4&nbsp;&nbsp;&nbsp;&nbsp;Invitation received</option><option value="3" class="torquoise">5&nbsp;&nbsp;&nbsp;&nbsp;Sale call scheduled</option><option value="4" class="seablue">6&nbsp;&nbsp;&nbsp;&nbsp;Opportunity understood</option><option value="5" class="seablue">7&nbsp;&nbsp;&nbsp;&nbsp;Documents reviewed</option><option value="8" class="seablue">8&nbsp;&nbsp;&nbsp;&nbsp;Customer interested</option><option value="9" class="darksea">9&nbsp;&nbsp;&nbsp;&nbsp;Documents exchanged</option><option value="10" class="darksea">10&nbsp;&nbsp;&nbsp;&nbsp;RTP submitted</option><option value="11" class="darksea">11&nbsp;&nbsp;&nbsp;&nbsp;Payment made</option><option value="6" class="redsea">12&nbsp;&nbsp;&nbsp;&nbsp;Pass</option></select></span></th>
+								<th style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'><a onclick='openAllCompanies()' href='javascript://'><i class='glyph-icon icon-play' title='Contacts' style='' ></i></a> Customer</th>												
+								<!--<th width="100px">Activity</th>-->
+								<th  style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'>Date</th>
+								<th style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'>Person</th>
+								<th style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'>Note</th>
+							</tr>
+						</thead>
+						<tbody class='main_active'>											
+						</tbody>
+					</table>
+					<?php endif;?>
+				</div>
+				<div class="col-xs-12" id="aquisitionTable">
+					<?php if((int)$this->session->userdata['user']['type']==9 || in_array(14,$this->session->userdata['modules_assign'])):?>
+					<table class="table table-bordered" style='table-layout:fixed'>
+						<thead>
+							<tr>
+								<th  style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'><span><a href='javascript://' onclick="checkAllContacts(1,jQuery(this))"><i class="glyph-icon icon-envelope-square"></i></a><!--<input type='checkbox' id='allEmailC' onclick='checkAllContacts(1,jQuery(this))'/>--></span><span class="mrg5L"><a href='javascript://' onclick="checkAllContacts(2,jQuery(this))"><i class="glyph-icon icon-linkedin"></i><!--<input type='checkbox' id='allEmailC' onclick='checkAllContacts(2,jQuery(this))'/>--></span><span class="mrg5L"><select name="filter_progress" class="mrg5L" id="stage_progress" onchange="openFilterProgress(jQuery(this))" style='width:155px;float:right'><option value="reset">All Stages</option><option value="" class="no-contact">1&nbsp;&nbsp;&nbsp;&nbsp;No contact details</option><option value="1" class="torquoise">2&nbsp;&nbsp;&nbsp;&nbsp;Contact found</option><option value="2" class="torquoise">3&nbsp;&nbsp;&nbsp;&nbsp;Proposal sent</option><option value="7" class="torquoise">4&nbsp;&nbsp;&nbsp;&nbsp;Proposal received</option><option value="3" class="torquoise">5&nbsp;&nbsp;&nbsp;&nbsp;Call scheduled</option><option value="4" class="seablue">6&nbsp;&nbsp;&nbsp;&nbsp;Opportunity understood</option><option value="5" class="seablue">7&nbsp;&nbsp;&nbsp;&nbsp;Documents reviewed</option><option value="8" class="seablue">8&nbsp;&nbsp;&nbsp;&nbsp;Seller interested</option><option value="9" class="darksea">9&nbsp;&nbsp;&nbsp;&nbsp;Documents exchanged</option><option value="10" class="darksea">10&nbsp;&nbsp;&nbsp;&nbsp;PPA executed</option><option value="11" class="darksea">11&nbsp;&nbsp;&nbsp;&nbsp;Payment made</option><option value="12" class="redsea">12&nbsp;&nbsp;&nbsp;&nbsp;Assignment Recorded</option><option value="6" class="redsea">13&nbsp;&nbsp;&nbsp;&nbsp;Pass</option></select></span></th>
+								<th style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'><a onclick='openAllCompanies()' href='javascript://'><i class='glyph-icon icon-play' title='Contacts' style='' ></i></a> Customer</th>												
+								<!--<th width="100px">Activity</th>-->
+								<th style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'>Date</th>
+								<th  style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'>Person</th>
+								<th style='border:0px solid #d1c8c8;border-bottom:1px solid #67B7F5;border-right:1px solid #d1c8c8;border-left:1px solid #d1c8c8;border-top:1px solid #d1c8c8;'>Note</th>
+							</tr>
+						</thead>
+						<tbody class='main_active'>											
+						</tbody>
+					</table>
+					<?php endif;?>
+				</div>
+				<div class="col-xs-12">
+					<?php if((int)$this->session->userdata['user']['type']==9 || in_array(25,$this->session->userdata['modules_assign'])):?>
+					<table class="table table-bordered" id="preSaleActivityTable">
+						<thead>
+							<tr>
+								<th width="66px">#</th>
+								<th><a onclick='openAllCompanies()' href='javascript://'><i class='glyph-icon icon-play' title='Contacts' style='' ></i></a> Customer</th>												
+								<!--<th width="100px">Activity</th>-->
+								<th width="110px">Date</th>
+								<th width="120px">Person</th>
+								<th width="400px">Note</th>
+							</tr>
+						</thead>
+						<tbody class='main_active'>											
+						</tbody>
+					</table>
+					<?php endif;?>
+				</div>
+			</div>
+		</div>
+	</div>					
+	<?php  if($openPatentTable===true):?>
+	<style>#patentSpreadsheetId,#patentWorksheetId{width:220px !important;display:inline-block}#scrap_patent_data_info,#patent_family_info{display:none;}</style>	
+	<div class=" hide patentTable" style='width:100%;padding:0;' id="patent_data">
+		<div class="row row-width show  openPatentDetail mrg5T">		
+		<div class="col-xs-12 text-right" >			
+			<div style="clear:both;" class="clearfix">
+				<a href="#" class='link-blue pull-right mrg5T mrg15R mrg15L' style='text-decoration:none;' onclick="refreshHSTTable('patent_table')">
+					<i class="glyph-icon icon-trash" style="font-size:16px;"></i>
+					Clear Table
+				</a>
+				<a href="#" id="loadingLink" class='link-blue pull-right mrg5T' style='text-decoration:none;' onclick="findPatentFromSheetForm('undefined')">
+					<i class="glyph-icon icon-recycle" style="font-size:16px;"></i>
+					Import / Update Data
+				</a>
+				<a href="#" class='link-blue pull-right mrg5T mrg15R' style='text-decoration:none;' onclick="openAggregateReferencedApplicant('patent_table')">
+					<i class="glyph-icon icon-folder-open" style="font-size:16px;"></i>
+					Referring Applicants
+				</a>
+				<a href="#" class='link-blue pull-right mrg5T mrg15R' style='text-decoration:none;' onclick="openExcelSheet()">
+					<i class="glyph-icon icon-folder-open" style="font-size:16px;"></i>
+					Open Patent List
+				</a>
+				<div class='pull-right mrg15R'>
+					<div class="" style='/*position:relative;left:-9999px*/'>
+						<label for="generalTechnologies" class="control-label" style="margin-top:2px;">
+							Select Worksheet:
+						</label>
+						<select name="patent[worksheet_id]" id="patentWorksheetId" class="form-control" onchange="findWorksheetUrlMarket(jQuery(this),jQuery('#patentFileUrl'))"></select>
+						<input type="hidden" class="form-control input-string"  name="patent[file_url]" id="patentFileUrl" value=""/>
+					</div>
+				</div>
+				<a href="javascript://" class='link-blue pull-right mrg5T' style='text-decoration:none; margin-right:15px;' data-d='family_table' onclick="openEntireFamily(jQuery(this))">
+					<i class="glyph-icon icon-flowchart" style="font-size:16px;"></i>
+					 Entire Family
+				</a>
+				<a href='javascript://' class='link-blue pull-right mrg5T' style='text-decoration:none; margin-right:15px;' onclick='scrapFamilyTree();'> <i class="glyph-icon icon-sitemap " style="font-size:16px;"></i>Create Family </a>
+				<a href='javascript://' class='link-blue pull-right mrg5T' style='text-decoration:none; margin-right:15px;' onclick='scrapFamilyEPO();'> <i class="glyph-icon icon-cube " style="font-size:16px;"></i> Query EPO</a>
+				<a href='javascript://' class='link-blue pull-right mrg5T' style='text-decoration:none; margin-right:15px;' onclick='openPortfolioIllustration();'> <i class="glyph-icon icon-signal " style="font-size:16px;"></i> View Family Tree</a>
+				<div class="pull-right" id="loadingLabel" style="position: relative; width: 34px;"></div>	
+				<div class=" pull-left mrg5T hide" id="show_patent_core_results" style="position: relative; width: auto;"></div>	
+				<div class=" pull-left mrg5T hide" id="show_patent_family_results" style="position: relative; width: auto;"></div>	
+				<div class='' style='position:absolute;display:inline;top:-50px'>
+					<select name="patent[spreadsheet_id]" id="patentSpreadsheetId" class="form-control" onchange="findWorksheetMode(jQuery(this),'','');" style="position:relative;left:-9999px;">
+						<option value="">-- Select Spreadsheet --</option>
+					</select>	
+				</div>
+			</div>
+		</div>
+	</div>	
+		<div class="example-box-wrapper mrg5T ppatent" style='margin-bottom:0px;'>
+			<table class="table table-bordered" id="scrap_patent_data">
+				<thead>
+					<tr>
+						<th style='width:100px;' data-original-width="100px">Assets</th>
+						<th style='width:75px;' data-original-width="75px">Family</th>
+						<th class='' style='width:90px;' data-original-width="90px">B.Citation</th>
+						<th class='' style='width:90px;' data-original-width="90px">F.Citation</th>
+						<th style='width:90px;' data-original-width="90px">Expired</th>
+						<th style='width:110px;' data-original-width="110px">Application</th>
+						<th data-original-width="">Title</th>
+						<th data-original-width="">Current Assignee</th>
+						<th data-original-width="">Original Assignee</th>
+						<th style='width:90px;' data-original-width="90px">Priority</th>
+						<th data-original-width="">Status</th>  
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+			<table id="scrap_patent_data_aggregate" class="table table-bordered"></table>
+		</div>
+		<div class="example-box-wrapper mrg5T hide" id='family_patent_container' >
+			<table class="table table-bordered" id="patent_family"  style='margin-bottom:0px;'>
+				<thead>
+					<tr>
+						<th style='width:100px;' data-original-width="100px">Assets</th>
+						<th class='' style='width:90px;' data-original-width="90px">B.Citation</th>
+						<th class='' style='width:90px;' data-original-width="90px">F.Citation</th>
+						<th style='width:90px;' data-original-width="90px">Expired</th>
+						<th style='width:110px;' data-original-width="110px">Application</th>
+						<th data-original-width="">Title</th>
+						<th data-original-width="">Current Assignee</th>
+						<th data-original-width="">Original Assignee</th>
+						<th style='width:90px;' data-original-width="90px">Priority</th>
+						<th data-original-width="">Status</th>  
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<?php endif;?>		
+	<?php  if($openLitigationTable===true):?>
+	<div class="mrg15T hide" style='margin-top:5px;width:100%;' id="show_data">
+		<div style='width:100%;'>
+			<div class='' id="tablesOtherData">
+				<h3 class="title-hero">  
+					<span style="width:345px;display:inline-block;">This Case:</span>Litigation Campaign
+				</h3>
+				<div class="example-box-wrapper">
+					<ul class="nav-responsive nav nav-tabs">
+						<li class="active"><a href="#tab6" data-toggle="tab">Patents In Suit</a></li>
+						<li><a href="#tab7" data-toggle="tab">Complaint</a></li>
+						<li><a href="#tab8" data-toggle="tab">Pacer</a></li>
+						<li><a href="#tab5" data-toggle="tab">Docket Entries</a></li>
+						<li><a href="#tab1" data-toggle="tab">Cases</a></li>
+						<li><a href="#tab2" data-toggle="tab">Defendants</a></li>
+						<li><a href="#tab3" data-toggle="tab">Patents</a></li>
+						<li><a href="#tab4" data-toggle="tab">Accused Products</a></li>
+						
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab6">
+							<table id="datatable-hide-columns5"  class="table table-striped table-bordered " cellspacing="0" width="100%">
+								<thead>
+								<tr>
+									<th>Patent #</th>
+									<th>Title</th>
+									<th>Est. Priority Date</th>
+								</tr>
+								</thead>
+								<tbody> 																
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane" id="tab7"></div>
+						<div class="tab-pane" id="tab8"></div>
+						<div class="tab-pane" id="tab1">
+							<table id="datatable-hide-columns"  class="table table-striped table-bordered " cellspacing="0" width="100%">
+								<thead>
+								<tr>
+									<th>Date Filed</th>
+									<th>Case Name</th>
+									<th>Docket Number</th>
+									<th>Termination Date</th>
+								</tr>
+								</thead>
+								<tbody> 
+									
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane " id="tab2">
+							<table id="datatable-hide-columns1" class="table table-striped table-bordered " cellspacing="0" width="100%">
+								<thead>
+								<tr>
+									<th>Date Filed</th>
+									<th>Case Name</th>
+									<th>Litigation</th>
+									<th>Termination Date</th>
+								</tr>
+								</thead>
+								<tbody> 
+									
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane" id="tab3">
+							<table id="datatable-hide-columns2" class="table table-striped table-bordered" cellspacing="0" width="100%">
+								<thead>
+								<tr>
+									<th>Patent #</th>
+									<th>Title</th>
+									<th>Est. Priority Date</th>
+								</tr>
+								</thead>
+								<tbody> 
+									
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane" id="tab4">
+							<table id="datatable-hide-columns3" class="table table-striped table-bordered" cellspacing="0" width="100%">
+								<thead>
+								<tr>
+									<th>Date Filed</th>
+									<th>Defandants</th>
+									<th>Accused Products</th>
+								</tr>
+								</thead>
+								<tbody> 
+									
+								</tbody>
+							</table>
+						</div>	
+						<div class="tab-pane" id="tab5">
+							<table id="datatable-hide-columns4" class="table table-striped table-bordered" cellspacing="0" width="100%">
+								<thead>
+									<tr>
+										<th>Entry #</th>
+										<th>Date Filed</th>
+										<th>Date Entered</th>
+										<th>Entry Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<?php endif;?>	
+	
+			</div>
+        </div>
+    </div>
+</div>
+<!--
+<script type="text/javascript" src="<?php echo $Layout->aws_server_cdn; ?>views/user/dashboard.js"></script>-->
+<script src="https://storage.googleapis.com/static.synpat.com/backyard/widgets/tablesorter/stupidtable.min.js"></script>
+<script type="text/javascript" src="http://backyard.synpat.com/public/views/user/dashboard.js"></script>
+<script>
+	function moveEmails(){
+		if(leadGlobal>0){
+			if(jQuery('#displayEmail').find('iframe').length>0){
+				_src = jQuery('#displayEmail').find('iframe').attr('src');
+				_eID = _src.split('/').pop();
+				_mainActivity = parseInt(jQuery("#activityMainType").val());
+				if(parseInt(_eID) && _mainActivity>0){
+					getAllLeadsPointing(_mainActivity,_eID);
+				} else {
+					alert("Please select person whom you want to assign email.");
+				}
+			} else {
+				_table="";
+				if(jQuery("#aquisitionTable").is(":visible")){
+					_table = "#aquisitionTable";
+				} else if(jQuery("#activityTable").is(":visible")){
+					_table = "#activityTable";
+				}
+				if(_table!=""){
+					if(jQuery(_table).find('tbody').length>0 && jQuery(_table).find('tbody').find('tr').find('td.active').length>0){
+						if(jQuery(_table).find('tbody').find('tr').find('td.active').find('a').attr('data-tr')!=''){
+							_mainActivity = parseInt(jQuery("#activityMainType").val());
+							_eID = jQuery(_table).find('tbody').find('tr').find('td.active').find('a').attr('data-tr');
+							getAllLeadsPointing(_mainActivity,parseInt(_eID));
+						} else {
+							alert("Please select email you want to move.");
+						}
+					} else {
+						alert("Please select email you want to move.");
+					}
+				}else {
+					alert("Please select email you want to move.");
+				}
+				
+			}
+		} else {
+			alert("Please select lead first.");
+		}
+	}
+</script>
+</div>
+<?php 
+	$emailAuthorize=0;
+	if((int)$this->session->userdata['user']['type']==9 || in_array(23,$this->session->userdata['modules_assign'])):
+	$emailAuthorize=1;
+	elseif(in_array(26,$this->session->userdata['modules_assign'])):
+	$emailAuthorize=2;
+	endif;
+?>
+<input type="hidden" name="email_authorize" id="email_authorize" value="<?php echo $emailAuthorize;?>"/>
+<?php echo $Layout->element('timeline');?>
+</div><style>.dataTables_wrapper{margin-bottom:0px !important;}.sb-slidebar{margin-top:82px;}#dashboard-page{overflow-x:hidden !important;overflow-y:hidden !important;}</style>

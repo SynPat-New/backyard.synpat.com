@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5261:"<p>679215 Registered office: 1 London Bridge Street, London, SE1 9GF. </p> <p>Antonio said that his July form is the best he has played at any point of his career Antonio beat Olivier Giroud, Harry Kane, Anthony Martial and more to this month's awardAntonio was also crucial in West Ham's victory over Chelsea - where he scored and registered an assist in their 3-2 win - while being equally as important in their 2-2 draw at Newcastle United having provided his side with one of their goals. But as soon as they made the decision on VAR he said, ‘Are you ready?’ And I said, ‘Yes I am’.“I knew where I was going to put it. 																			Former International: 																	              Championship round-up: Blackburn forward Nathan Delfouneso...Bruno Fernandes and Raul Jimenez starred while Alex Iwobi...'There is no real panic' over Michail Antonio's future at...Norwich 0-4 West Ham: Michail Antonio hits all FOUR -...Championship round-up: Blackburn forward Nathan Delfouneso...Bruno Fernandes and Raul Jimenez starred while Alex Iwobi...'There is no real panic' over Michail Antonio's future at...Norwich 0-4 West Ham: Michail Antonio hits all FOUR -...Manchester United dominate the Premier League Young Player of the Season shortlist with FOUR nominees on the...Willian is 'upset and offended' with how Chelsea have ended his Stamford Bridge career after facing a 'take...Tyson Fury's fight with Anthony Joshua next year faces a new hurdle after 'Gypsy King' is ordered to fight...Kevin De Bruyne, Sadio Mane, Jordan Henderson... and Nick Pope?! Der Boxer Creugas von Antonio Canova (ca. To do this we will link your MailOnline account with your Facebook account. 'Votes to decide the winner came from both the fans on the EA SPORTS website and  the 20 Premier League club captains. Dr Michael Antoniou's Group.                                 18                                 For further details of our complaints policy and to make a complaint please click Comments are subject to our community guidelines, which can be viewed Michail Antonio calmly scored his penalty to continue his, and West Ham's, fantastic end to the season This service is provided on News Group Newspapers' Limited's Our journalists strive for accuracy but on occasion we make mistakes. Player stats of Michail Antonio (West Ham United) Goals Assists Matches played All performance data            Michail Antonio (an haife shi a shekara ta 1990) shi ne dan wasan ƙwallon ƙafa ta ƙasar Ingila. Even though the last campaign finished on July 26, there is not long for Antonio and his team-mates to prepare for the next Premier League season, which begins on September 12. 'Obviously as a professional footballer you go out there and try your hardest and your best, so to get some recognition for it is amazing. Burnley goalkeeper is the shock name on...REVEALED: Gareth Bale chose not to travel for Manchester City clash because he was convinced he wouldn't...Transfer news LIVE: All the latest as Leeds United set to make first signing since Premier League promotion...Sergio Perez is ruled out of 70th Anniversary Grand Prix at Silverstone after testing positive for...The world's most potent attack meets the most formidable defence: Manchester City have plundered 146 goals...'If maybe he wants to play in the Premier League, I totally understand': Bayern Munich boss Hansi Flick...Sunderland's prospective new owner William Storey claims his takeover bid 'has been legally submitted and...Tiger Woods ditches battered '£70m' putter - which he won 14 of his 15 majors with - for new, longer version...Tiger Woods roars into contention despite letting rip with an f-bomb at his opening drive, shooting his...'He preferred not to play... the rest remains between me and him': Zinedine Zidane says Gareth Bale ASKED to...MARTIN SAMUEL: Yes, Arsenal job cuts look terrible when they've just offered Willian £400,000 per month and...'There have been no offers and we don't want any': West Ham have not received any bids for £65m Chelsea...Leeds United set to sign Fulham youngster Cody Drameh in deal worth almost £1m as Marcelo Bielsa lands first...Lampard calls on the kids - again! Solskjaer’s side fell behind to Michail Antonio’s penalty in the first half at Old Trafford.                                 3                                 This page contains information about a player's detailed stats.                                 CF                                 What does Michail mean? Because he spoke to me in the week I had a couple of practice penalties, so because I knew where I was going to put it I was confident, and just slotted it home.“Nobes will be back on them from Sunday, this was literally so I could hit my target of ten goals for the season and hopefully I can score another in open play!” 11 Dublin boozers have closed their doors due to Covid-19 Ivan Yates says he's 'blessed' to have wife as she 'insisted' he take break Amber Gill slams ex Greg O'Shea as 'pathetic' after he replies to her tweet Ex-LOI footballer and postman shooting suspect quizzed over €3m heroin bust Kathryn Thomas thought she wasn't 'going to be able to breastfeed' daughter©News Group Newspapers Limited in England No. </p>";s:7:"keyword";s:23:"michail antonio origine";s:5:"links";s:5798:"<a href='https://backyard.synpat.com/site/article.php?page=h%C3%A9bergeur-certifi%C3%A9-hds-88a0eb'>Hébergeur Certifié Hds</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=klem-pensif-parole-88a0eb'>Klem Pensif Parole</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-esport-le-mieux-pay%C3%A9-88a0eb'>Joueur Esport Le Mieux Payé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ouverture-magasin-action-pontarlier-88a0eb'>Ouverture Magasin Action Pontarlier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Je-me-suis-fait-pieger-sur-skype-88a0eb'>Je Me Suis Fait Pieger Sur Skype</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=serie-a-passeur-88a0eb'>Serie A Passeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=laure-boulleau-couple-88a0eb'>Laure Boulleau Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=anthony-ange-4-88a0eb'>Anthony Ange 4</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comme-une-%C3%A9vidence-paroles-louka-88a0eb'>Comme Une évidence Paroles Louka</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-chinois-%C3%A0-paris-youtube-88a0eb'>Les Chinois à Paris Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=doubl%C3%A9-premier-league-ligue-des-champions-88a0eb'>Doublé Premier League Ligue Des Champions</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9quipe-21-pr%C3%A9sentatrice-blonde-88a0eb'>équipe 21 Présentatrice Blonde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-korean-fashion-avis-88a0eb'>The Korean Fashion Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-ajax-2020-20-21-88a0eb'>Maillot Ajax 2020 20-21</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=v%C3%A9lo-style-chopper-88a0eb'>Vélo Style Chopper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=br%C3%BBle-graisse-naturel-%C3%A0-boire-88a0eb'>Brûle Graisse Naturel à Boire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=yamina-niya-florian-88a0eb'>Yamina Niya Florian</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=oh-deer-traduction-88a0eb'>Oh Deer Traduction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=st-regis-mauritius-contact-email-88a0eb'>St Regis Mauritius Contact Email</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-chamallow-fortnite-88a0eb'>Chanson Chamallow Fortnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=J%C3%A9r%C3%A9my-Ferrari-taille-88a0eb'>Jérémy Ferrari Taille</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=martha-gambet-twitter-88a0eb'>Martha Gambet Twitter</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pierre-haski-soros-88a0eb'>Pierre Haski Soros</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sylvain-et-les-bifluor%C3%A9s-88a0eb'>Sylvain Et Les Bifluorés</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Thomas-Et-Ses-Amis-Percy-88a0eb'>Thomas Et Ses Amis Percy</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=angel-saison-4---dvd-88a0eb'>Angel Saison 4 - Dvd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=skyfall---piano-accompaniment-88a0eb'>Skyfall - Piano Accompaniment</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=commando-2-remastered-88a0eb'>Commando 2 Remastered</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=emploi-du-temps-chauffeur-de-taxi-88a0eb'>Emploi Du Temps Chauffeur De Taxi</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blue-solutions-quimper-88a0eb'>Blue Solutions Quimper</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dominique-rocheteau-%C3%A9taules-88a0eb'>Dominique Rocheteau étaules</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=orelsan-saint-valentin-paroles-88a0eb'>Orelsan Saint-valentin Paroles</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=texte-bon-anniversaire-88a0eb'>Texte Bon Anniversaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taxi-vert-marrakech-2020-88a0eb'>Taxi Vert Marrakech 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=temps-du-ramadan-2020-88a0eb'>Temps Du Ramadan 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-anniversaire-en-anglais-gratuite-88a0eb'>Carte Anniversaire En Anglais Gratuite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chirurgie-du-ventre-rembours%C3%A9-88a0eb'>Chirurgie Du Ventre Remboursé</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=search-console-delete-88a0eb'>Search Console Delete</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeu-de-soci%C3%A9t%C3%A9-les-myst%C3%A8res-de-p%C3%A9kin-88a0eb'>Jeu De Société Les Mystères De Pékin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=shetland-saison-3-streaming-vf-88a0eb'>Shetland Saison 3 Streaming Vf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maigrir-du-mont-de-v%C3%A9nus-88a0eb'>Maigrir Du Mont De Vénus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=protest-songs-history-88a0eb'>Protest Songs History</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-vall%C3%A9e-de-la-peur-sherlock-holmes-88a0eb'>La Vallée De La Peur Sherlock Holmes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-corrig%C3%A9-indice-base-100-88a0eb'>Exercice Corrigé Indice Base 100</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cr%C3%A9er-un-bulletin-de-note-avec-excel-88a0eb'>Créer Un Bulletin De Note Avec Excel</a>,
+";s:7:"expired";i:-1;}

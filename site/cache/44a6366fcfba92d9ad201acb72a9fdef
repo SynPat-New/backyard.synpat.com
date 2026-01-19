@@ -1,0 +1,108 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6661:"<p>Entre rivalités, trahisons et scandales, elles n'auront pas d'autre choix que de se livrer à une bataille sans merci pour parvenir à leurs fins ! </p> <p>Vous êtes bien inscrit(e) à la newsletter avec l'adresse :  Les informations recueillies par ce formulaire font l'objet d'un traitement informatique à destination de Reworld Media Magazines et/ou ses partenaires et prestataires afin de pouvoir envoyer les bons plans et offres promotionnelles. Ensemble, ils relèvent le défi de s'imposer en Australie et de découvrir un pays aussi magnifique que surprenant ! Visionner et regarder la série L'incroyable Famille Kardashian saison 15 épisode 9 en streaming full hd en français gratuit. </p> <p>Et ce, même une fois les projecteurs éteints... © OFF THE FENCE14 apprentis tatoueurs en compétition ! © Banijay Productions France3 ans déjà que leurs milliers de fans attendent ce grand moment. Certains sont venus tester leur couple alors que d'autres vont se préparer à un changement de vie radical ! Tous droits réservés. Les tatouages, justement, Ruckus et Dirk en ont fait leur combat et arpentent les rues de la ville à la recherche de ce qui se fait de pire en la matière... pour les corriger un à un et les transformer habilement en chef-d'œuvre ! Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la newsletter. Réalisateur … </p> <p>Votre adresse de messagerie est uniquement utilisée pour vous envoyer notre newsletter. </p> <p>Et ils ne sont pas au bout de leurs surprises car à Buenos Aires rien ne va se passer comme prévu : les amitiés vont être fortement remises en question, les ex vont se révolter et prendre le pouvoir et les coups de foudre plus inattendus les uns que les autres vont se multiplier. </p> <p>Le célèbre tatoueur et son équipe de choc ont fait de d'AREA 51 la destination idéale pour les nerds, les geeks et les fans de pop-culture du monde entier... Prêts à en prendre plein les yeux ? Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la newsletter. Les 2 familles emblématiques de W9 ont parcouru le monde, mais n'ont jamais eu l'occasion de partir ensemble. Conformément à la loi "Informatique et libertés" du 6 janvier 1978 modifiée, vous disposez d'un droit d'accès, de modification et de suppression des données vous concernant. Mais surtout, décrocher le rôle le plus convoité du moment dans une nouvelle telenovela. Résumé de l’épisode : Khloé et Tristan retournent à L.A. Avec bébé True, tandis que Kim emmène ses amies à Vegas pour prouver qu’elle est plus déjantée que jamais… Entrez dans la vie de paillettes et glamour de Kim, Khloe et Kourtney Kardashian et du clan Kardashian-Jenner, la famille la plus médiatisée des États-Unis ! Le décalage, l'humour et l'émerveillement sont les maîtres mots de cette nouvelle saison ! L' incroyable famille Kardashian: découvrez toutes les infos, les saisons et les diffusions de la série L' incroyable famille Kardashian avec Télé Star S14E01 : Épisode 1 (diffusé le 01/10/2017): S14E02 : Épisode 2 (diffusé le 08/10/2017): S14E03 : Épisode 3 (diffusé le 15/10/2017): S14E04 : Épisode 4 (diffusé le 22/10/2017): S14E05 : Épisode 5 (diffusé le 29/10/2017): S14E06 : Épisode 6 (diffusé le 05/11/2017) L’Incroyable famille Kardashian saison 14 : Épisode 17, Kris Jenner vient au secours de Kendall, le récap Mise à jour le 20 févr. L'incroyable famille Kardashian sur 6play : Les épisodes en intégralité, des vidéos supplémentaires et les meilleurs extraits. © NBC Universal INC.Embarquez pour Miami, où la saison des castings bat son plein, et partagez le quotidien de jeunes femmes qui n'ont qu'un rêve : devenir actrice. A la clé pour le gagnant  : 100 000 dollars et le privilège de faire la couverture d'un grand magazine spécialisé dans l'art du tatouage... © NBC Universal INC.Springfield, Oregon. Bienvenue à l'AREA 51, un des salons de tatouages les plus réputés au monde, où Chris 51 réalise des tatouages fantastiques, horrifiques et surtout hyperréalistes ! 2018 19:00:01 Publié le 19 févr. </p> <p>2018 19:00:05 Retrouvez tous les épisodes de la saison 14 de la série TV L'incroyable famille Kardashian ainsi que les news, personnages, photos et indiscrétions de tournage. © Banijay Productions FrancePour la première fois, les Marseillais sont confrontés à un véritable choc des cultures, auquel ils ne s'attendent pas ! © Banijay Productions FranceAprès s'être imposés à Miami et à Cancún, les Marseillais posent leurs valises dans la ville la plus festive du Brésil : RIO DE JANEIRO ! La vraie rencontre va enfin avoir lieu. Plus que jamais les remises en question vont venir faire trembler la solidité de la famille et la jalousie va faire rage ! Au programme : plages, samba, soirées dans les clubs les plus branchés de la ville et surtout travail ! Un programme très chargé attend les Marseillais : découverte de tribus, balades à dos d'éléphants, stage de survie... © Banijay Productions FranceAprès s'être imposés à Miami, Cancun et Rio, après un voyage incroyable en Thaïlande, un nouveau choc des cultures attend les Marseillais à l'autre bout du monde ! </p> <p>Mais entre dessins plus que gênants et anecdotes émouvantes, ils ne sont pas au bout de leurs surprises... © AETNLes Marseillais s'envolent à l'autre bout du monde et posent leurs valises en Australie. Pour Julien, Jessica, Kevin, Carla, Paga, Manon, Thibault et le reste de la famille, l'heure des grandes décisions a sonné ! © AETN InternationalBienvenue à Las Vegas, capitale mondiale de la démesure mais pas forcément du bon goût, et ce jusque dans les tatouages ! Ils vont devoir vivre sous le même toit à Marrakech et s'affronter lors d'épreuves inédites ! L’épisode 9 de la saison 15 de la série L'incroyable Famille Kardashian à voir en entier en streaming vf gratuit en direct complet. Mondialement connue pour son carnaval et ses plages de Copacabana et Ipanema, Rio de Janeiro est La ville de la fête par excellence. Ce sont les rois de la fête dans le Nord et le Sud de la France, ils sont DJ, barmans, serveurs, organisateurs de soirées, danseurs, mais le temps est venu de savoir qui sont les meilleurs ? © Banijay Productions France© 2020 6Play est une plateforme du groupe M6. Ils sont débarqués sur un nouveau continent riche en activités et opportunités dont ils ne connaissent ni la langue, les conventions ou encore les traditions. L’Incroyable Famille Kardashian – Saison 15 – Episode 14 en vidéo replay streaming. </p> <p></p>";s:7:"keyword";s:50:"lincroyable famille kardashian saison 14 streaming";s:5:"links";s:6570:"<a href='https://backyard.synpat.com/site/article.php?page=spirou-et-fantasio-88a0eb'>Spirou Et Fantasio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=location-maison-lauzerte-88a0eb'>Location Maison Lauzerte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maison-victorienne-france-88a0eb'>Maison Victorienne France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=disney-world-san-diego-88a0eb'>Disney World San Diego</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=castelmoron-d%27albret-histoire-88a0eb'>Castelmoron D'albret Histoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fabrication-troph%C3%A9e-ligue-des-champions-88a0eb'>Fabrication Trophée Ligue Des Champions</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=telecharger-music-dance-sport-mp3-88a0eb'>Telecharger Music Dance Sport Mp3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9moire-principale-et-secondaire-88a0eb'>Mémoire Principale Et Secondaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pompe-submersible-canac-88a0eb'>Pompe Submersible Canac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=workout-exercises-list-88a0eb'>Workout Exercises List</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27emploi-en-italien-88a0eb'>Demande D'emploi En Italien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=time-conjunctions-exercises-pdf-88a0eb'>Time Conjunctions Exercises Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=challenge-maquillage-pinceau-88a0eb'>Challenge Maquillage Pinceau</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=map-toboggan-michou-88a0eb'>Map Toboggan Michou</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=100-recettes-pour-toi-mon-coeur-88a0eb'>100 Recettes Pour Toi Mon Coeur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-fille-2015-88a0eb'>Jeux De Fille 2015</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-collector-milan-ac-88a0eb'>Maillot Collector Milan Ac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-d%C3%A9bloquer-un-compte-tiktok-88a0eb'>Comment Débloquer Un Compte Tiktok</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9p%C3%B4t-vente-en-ligne-88a0eb'>Dépôt Vente En Ligne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nouvelle-collection-la-f%C3%A9e-marabout%C3%A9e-2018-88a0eb'>Nouvelle Collection La Fée Maraboutée 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-espagne-2013-foot-88a0eb'>France-espagne 2013 Foot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tandem-s%C3%A9rie-2020-88a0eb'>Tandem Série 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=halt%C3%A8res-decathlon-5kg-88a0eb'>Haltères Decathlon 5kg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salade-italienne-ricardo-88a0eb'>Salade Italienne Ricardo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nikka-costa-age-88a0eb'>Nikka Costa Age</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jus-de-citron-br%C3%BBle-graisse-88a0eb'>Jus De Citron Brûle Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jean-pierre-gagick-vetement-88a0eb'>Jean-pierre Gagick Vetement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=the-fittest-%282020-streaming-vostfr%29-88a0eb'>The Fittest (2020 Streaming Vostfr)</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercices-de-gainage-pour-femmes-88a0eb'>Exercices De Gainage Pour Femmes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9velopp%C3%A9-couch%C3%A9-halt%C3%A8re-poids-88a0eb'>Développé Couché Haltère Poids</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-choisir-le-poids-des-halt%C3%A8res-88a0eb'>Comment Choisir Le Poids Des Haltères</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=dur%C3%A9e-de-vie-joint-de-culasse-88a0eb'>Durée De Vie Joint De Culasse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=frite-patate-douce-friteuse-ou-four-88a0eb'>Frite Patate Douce Friteuse Ou Four</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hypnos-et-thanatos-88a0eb'>Hypnos Et Thanatos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-anticipateurs%3A-entrevue-88a0eb'>Les Anticipateurs: Entrevue</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=louvain-la-neuve-bruxelles-distance-88a0eb'>Louvain-la-neuve Bruxelles Distance</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=league-of-legends-ps4-release-date-88a0eb'>League Of Legends Ps4 Release Date</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=instagram-pour-les-artistes-88a0eb'>Instagram Pour Les Artistes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=leave-verbe-irr%C3%A9gulier-88a0eb'>Leave Verbe Irrégulier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=minimal-residual-disease-88a0eb'>Minimal Residual Disease</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=paredes-pes-2020-88a0eb'>Paredes Pes 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-g%C3%A9n%C3%A9rique-bfmtv-2020-88a0eb'>Musique Générique Bfmtv 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salade-de-fraise-fleur-d%27oranger-cyril-lignac-88a0eb'>Salade De Fraise Fleur D'oranger Cyril Lignac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=reprise-bye-bye-m%C3%A9n%C3%A9lik-88a0eb'>Reprise Bye Bye Ménélik</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=surnom-dr%C3%B4le-et-mignon-88a0eb'>Surnom Drôle Et Mignon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nicolas-canteloup%2C-anouk-canteloup-88a0eb'>Nicolas Canteloup, Anouk Canteloup</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chute-moto-gp-youtube-88a0eb'>Chute Moto Gp Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maillot-Aston-Villa-2020-88a0eb'>Maillot Aston Villa 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hotel-california-intro-tab-songsterr-88a0eb'>Hotel California Intro Tab Songsterr</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=panasonic-100-300-ii-occasion-88a0eb'>Panasonic 100-300 Ii Occasion</a>,
+";s:7:"expired";i:-1;}

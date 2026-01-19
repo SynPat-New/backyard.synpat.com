@@ -1,0 +1,111 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3961:"On l’a vu grimper sur les épaules de l’Argentin, qui parle italien. Find many great new & used options and get the best deals for Donruss Soccer 2015 Future Stars Autograph Marco Verratti at the best online prices at eBay! On retrouve ainsi Blaise Matuidi, Marco Verratti, Lucas, Marquinhos et Mory Diaw souriants,... SIGNED AUTOGRAPHED. Angaben ohne Gewähr. Weitere Informationen finden Sie in den Dieser Betrag enthält die anfallenden Zollgebühren, Steuern, Provisionen und sonstigen Gebühren. ALISON GRAY. <br> <br>Après leur double confrontation lors des quarts de finale de Ligue des Champions en 2012/2013, le PSG et le FC Barcelone se retrouvaient cette fois-ci en phase de poules au Parc des Princes. Finden Sie Top-Angebote für donruss 2018/19 Optic Autographs Blue Marco Verratti Italy 18/75 bei eBay.  C’est un bon footballeur, agressif, qui prend l’initiative et apporte l’équilibre." <br> <br> <br>A la première mi-temps du match contre l'Olympiakos, l'Italien Marco Veratti a reçu un carton jaune suite à une main. Un Top 100 qui ne classe pas à la première place Lionel Messi, ni...Le marché estival des transferts est dans plus de trois mois, ouvert du 1er juillet au 31 août en Europe. <br> <br>Finden Sie Top-Angebote für donruss 2016/17 The Beautiful Game Autograph Marco Verratti PSG Paris St Germain bei eBay. Si l’on se croise, mon premier geste sera de lui demander un autographe. Hertfordshire. Sports Memorabilia. "Marco est le premier de sa génération qui émerge. Et qui a capté en dix-sept minutes la lumière promise à Ibrahimovic, Thiago Silva ou Lavezzi, les stars du nouveau PSG.Du rapide pour ce joueur déniché en Serie B italienne cet été, qui n’avait pas joué un seul match d’élite en Italie. C’est un numéro 8 qui va apprendre le très haut niveau à côté de Thiago Motta, un excellent modèle." Kostenlose Lieferung für viele Artikel! Les joueurs du PSG sont sortis vers 12h20 de leur ... Un chauffeur d'UPS s'est même arrêté en pleine voie pour se faire signer un autographe. ITALY. Der Betrag kann sich bis zum Zahlungstermin ändern. Bitte Einzelheiten im Warenkorb ansehen.Dieses Angebot wurde vom Verkäufer beendet, da es einen Fehler enthielt.Dieser Betrag enthält die anfallenden Zollgebühren, Steuern, Provisionen und sonstigen Gebühren. Ils mettent l'ambiance dans un stade et encouragent leur équipe pour gagner le plus de match. Ses parents sont impatients de lui rendre visite, surtout sa mère, qui vit mal l’éloignement. <br> <br>Finden Sie Top-Angebote für Marco Verratti AUTOGRAPH Donruss Soccer 18/2019 Card No.145 bei eBay. 99%. MoneyGram, un des leaders mondiaux du transfert d'argent, recoit les joueurs du Paris Saint-Germain ! en106ay. Depuis son entrée remarquée, dimanche dernier, il est sur toutes les lèvres. <br> <br>Weitere Informationen finden Sie in den Dieser Betrag enthält die anfallenden Zollgebühren, Steuern, Provisionen und sonstigen Gebühren. Angaben ohne Gewähr. Il y a huit jours, le nom de Marco Verratti était encore méconnu. L'espoir italien, quasi inconnu de 19 ans, est la surprise du début de saison en attendant le réveil des stars.Une petite bombe a explosé à Ajaccio. Un gamin doué mais qui pensait plus à viser les fenêtres des maisons de la piazza Caduti di Marcinelle, dans son village, qu’à faire carrière.Un an plus tard, il débute pourtant en D3 avec Pescara, le meilleur club de la région. Verratti begann seine Karriere beim Delfino Pescara 1936. <br> <br>À quelques semaines du dénouement des championnats de Ligue 1 et Ligue 2, l'Union Nationale des Footballeurs Professionnels a dévoilé la liste des joueurs et joueuses nommés pour la 26ème...Le CIES (International Centre for Sports Studies) dévoile son classement des meilleurs dribbleurs de la saison de football.   Dans le domaine du football, les supporters tiennent une place importante dans la vie d'un club. <br>";s:7:"keyword";s:25:"Autographe Marco Verratti";s:5:"links";s:6660:"<a href='https://backyard.synpat.com/site/article.php?page=griezmann-transfert-psg-88a0eb'>Griezmann Transfert Psg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fp-futebol-oficial-88a0eb'>Fp Futebol Oficial</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=suzanne-verdal-mccallister-88a0eb'>Suzanne Verdal Mccallister</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=droit-tv-ligue-des-champions-2022-88a0eb'>Droit Tv Ligue Des Champions 2022</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ceinture-abdominale-t%C3%A9l%C3%A9achat-88a0eb'>Ceinture Abdominale Téléachat</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tarif-taxi-annaba-88a0eb'>Tarif Taxi Annaba</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=halt%C3%A8res-20-kg-pas-cher-88a0eb'>Haltères 20 Kg Pas Cher</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rapidite---8-lettres-88a0eb'>Rapidite - 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Classement-Premier-League-88a0eb'>Classement Premier League</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=non-%C3%A9lucid%C3%A9-r%C3%A9solu-88a0eb'>Non élucidé Résolu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=b%C3%AAte-noire-football-88a0eb'>Bête Noire Football</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ken-quer-origine-88a0eb'>Ken Quer Origine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivian-en-couple-88a0eb'>Vivian En Couple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=huile-dans-liquide-de-refroidissement-88a0eb'>Huile Dans Liquide De Refroidissement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=surv%C3%AAtement-nike-2020-88a0eb'>Survêtement Nike 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=taux-moyen-d%C3%A9finition-88a0eb'>Taux Moyen Définition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tancer-en-arabe-88a0eb'>Tancer En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bracelet-teamshape-evolution-88a0eb'>Bracelet Teamshape Evolution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=synonyme-de-bonne-qualit%C3%A9-88a0eb'>Synonyme De Bonne Qualité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rowing-vertical-halt%C3%A8re-88a0eb'>Rowing Vertical Haltère</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roger-clark-lenny-88a0eb'>Roger Clark Lenny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivre-en-ontario-88a0eb'>Vivre En Ontario</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rose-backroad-2020-test-88a0eb'>Rose Backroad 2020 Test</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=immobilier-orgeval-yvelines-88a0eb'>Immobilier Orgeval Yvelines</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-d%C3%A9jeuner---paul-88a0eb'>Petit Déjeuner - Paul</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pain-farine-pois-chiche-sarrasin-88a0eb'>Pain Farine Pois Chiche Sarrasin</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=drapeau-kurdistan-turc-88a0eb'>Drapeau Kurdistan Turc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renaud-rutten-auvio-88a0eb'>Renaud Rutten Auvio</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=top-soccer-prediction-88a0eb'>Top Soccer Prediction</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=carte-de-s%C3%A9jour-brexit-88a0eb'>Carte De Séjour Brexit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pourquoi-vincent-hervouet-n%27est-plus-sur-lci-88a0eb'>Pourquoi Vincent Hervouet N'est Plus Sur Lci</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=hugo-eric-louis-van-lawick-femme-88a0eb'>Hugo Eric Louis Van Lawick Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=un-corps-de-r%C3%AAve-instagram-88a0eb'>Un Corps De Rêve Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gymnastique-abdominale-hypopressive-exercices-pdf-88a0eb'>Gymnastique Abdominale Hypopressive Exercices Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Maillot-PSG-2010-88a0eb'>Maillot PSG 2010</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vlog-traduction-fran%C3%A7ais-88a0eb'>Vlog Traduction Français</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=que-devient-annie-cordy-2018-88a0eb'>Que Devient Annie Cordy 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=objectif-aps-c-sur-plein-format-sony-88a0eb'>Objectif Aps-c Sur Plein Format Sony</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vieille-boussole-marine-88a0eb'>Vieille Boussole Marine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=appareil-gainage-decathlon-88a0eb'>Appareil Gainage Decathlon</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=crunch-chocolat-blanc-88a0eb'>Crunch Chocolat Blanc</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=politique-%C3%A9tymologie-larousse-88a0eb'>Politique étymologie Larousse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=michail-antonio-debbie-whittle-88a0eb'>Michail Antonio Debbie Whittle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blackburn-et-blackburn-88a0eb'>Blackburn Et Blackburn</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-iencli-50-points-88a0eb'>Test Iencli 50 Points</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musculation-rameur-avant%2Fapr%C3%A8s-88a0eb'>Musculation Rameur Avant/après</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-l%C3%A9gende-du-dragon---film-88a0eb'>La Légende Du Dragon - Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Uber-taxi-Montr%C3%A9al-88a0eb'>Uber Taxi Montréal</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-de-outro-88a0eb'>Musique De Outro</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fc-heidenheim-vs-wehen-88a0eb'>Fc Heidenheim Vs Wehen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=twitter-post-facebook-88a0eb'>Twitter Post Facebook</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=offre-d%27emploi-conducteur-routier-international-88a0eb'>Offre D'emploi Conducteur Routier International</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=r%C3%A9partition-split-6-jours-88a0eb'>Répartition Split 6 Jours</a>,
+";s:7:"expired";i:-1;}

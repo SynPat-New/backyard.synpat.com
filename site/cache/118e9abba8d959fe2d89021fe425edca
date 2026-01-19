@@ -1,0 +1,103 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6268:"<p>"We are so LUCKY to call him Dada. "Happy birthday to my hubby," Brie wrote when Bryan turned 39 in May. Brie Bella has announced that she and her husband Daniel Bryan have welcomed the birth of a baby boy to their family. Love you SweetFace, all the way to Neptune!! "I'll never forget the feeling I had with my bare feet in the moist grass walking to you saying I Do," Brie wrote on Instagram. Your immune system can be strong as long as you allow it to be. "We've upped our vitamin intake, we're staying hydrated and taking a lot of walks. "He's taught her how to garden, count to 10, her ABC's, piggy back rides and human seat belts (which are legs holds)," Brie wrote on Father's Day 2019. "The nice thing is we're neighbors, so we've been keeping each other company, keeping each other calm, and helping each other with our fears and anxiety of the uncertainty of this virus," Brie said.  8-1-2020," Brie said on Instagram Sunday afternoon. Brie wrote on Instagram.Brie and Daniel after announcing they're expecting their second child! Brie wrote. "5 years and counting.  8-1-2020 We are overwhelmed with joy and everyone is healthy!!!" Brie wrote alongside a photo of her and Bryan holding their newborn son's little hand.               ® & © 2020 CBS Studios Inc. © 2020 CBS Television Distribution and CBS Interactive Inc. All Rights Reserved. "It'd be amazing to have a boy because I feel like it'd be just the spiritual twin of my sister's child...but then I know how special a sister is because I have one. Love you Sister!! "Meanwhile, Brie had been updating her fans on her pregnancy on Instagram, spending quality time with Daniel and Birdie before becoming a family of four.For more on Brie's pregnancy journey, watch the video below:  The couple are already parents to 3-year-old daughter Birdie and have been married since 2014. Check out the hottest fashion, photos, movies and TV shows!View More Photos From Brie Bella and Daniel Bryan's Love Story We have definitely built a compound. </p> <p>the "Total Bellas" star added. "no better person to celebrate than this humble, sweet, hilarious, lovely soul. "Typical Danielson's," Brie captioned this Instagram photo. ""15 weeks and feeling sooo much better!!" "It’s a BOY!!! ""Either way, it's gonna be a win-win situation," she added.Season five of the E! We're really trying to stay healthy and I think that's the most important thing for everyone. "We attempted a pic!!" Brie Bella and her husband, Daniel Bryan, just welcomed their second child on Saturday. Brie Bella is a mother of two!. </p> <p>We enjoy our coffees in the morning and then we switch having dinner at each other's houses so it feels like we have somewhere we're going. </p> <p>The Total Bellas star has given birth to her and husband Daniel Bryan's second child, a baby boy. </p> <p>"This is the best we got"Brie and Daniel on their summer trip to Lake Tahoe. Wrestling, specifically some prescient execs at WWE, brought them together, but kindness and unwavering devotion have kept Brie Bella and husband Daniel Bryan going for the past decade. He's brighten my life is soooo many ways and watching him as a Dad is the most beautiful thing to see. "Brie snaps a pic with Birdie and Bryan at the halfway point in her second pregnancy.Brie and Daniel, who's posing with what she called his "social media smile. We don't let family come over; it's just been Nicole, Artem, Birdie and I. "Like Brie said, fans will certainly be able to follow the twins' journeys when season six of "I feel like I can't go wrong," Brie expressed on the podcast. Check out the hottest fashion, photos, movies and TV shows!The two were elated to be pregnant at the same time, first revealing the news in Brie also took to Instagram at the time to share the baby news with her fans, writing, "We are shocked like all of you!!! Knowing us our babies will come the same day too lol!!! "We're really lucky we have each other. </p> <p>love you to Neptune"Brie captioned this sweet photo expressing her excitement to "cheer on" her man ahead of a WWE match.Brie and Daniel at Sanctuary on Camelback Mountain Resort and Spa.Brie with who she described as her "forever Valentine" in February 2019.Your source for entertainment news, celebrities, celeb news, and ​celebrity gossip. </p> <p>"Bryan's all smiles in these selfie Brie uploaded in April!A celebratory photo after Bryan returned home from a work trip!Brie called this photo a "very passionate" picture of their marriage, adding "after 9 years together nothing like gelato, Netflix and bed before 10pm. Your source for entertainment news, celebrities, celeb news, and ​celebrity gossip. Never in a million years thought did I think @thenikkibella and I would be having pregnant bellies together!!! ""I think the biggest thing for us is just keeping up on our nutrients," she added. The 36-year-old Total Bellas star gave birth to her second child with husband Daniel Bryan on Saturday, she revealed on Instagram the following day. "Brie and Daniel celebrated Birdie's birthday at Disneyland.Brie, Birdie and Daniel on the couple's fifth wedding anniversary. </p> <p>https://people.com/parents/brie-bella-daniel-bryan-welcome-second-child-boy "It’s a BOY!!! This video is unavailable because we were unable to load a message from our sponsors. Brie Bella is officially a mom of two!. Total Bellas star Brie Bella and her husband, WWE star Daniel Bryan, welcomed their second child on Saturday, Bella revealed on Instagram Sunday.The 36-year-old shared a photo of her baby boy, with her and Bryan's hands covering the baby's face to protect his privacy. show saw Brie, 36, and Bryan, 39—who have been married for six years after tying the knot at a Sedona resort surrounded by friends and family—open up about their "I feel like we needed to hit a really hard place of questioning if we were right for each other, if our future was right...and I needed to be reminded that marriage isn't easy and it's not just gonna be there," Brie In honor of Brie and Daniel adding another member to their family, take a look back at some of the couple's cutest moments by scrolling through the below gallery! We are excited for you all to follow us on this amazing journey!!! </p>";s:7:"keyword";s:26:"daniel bryan et brie bella";s:5:"links";s:5708:"<a href='https://backyard.synpat.com/site/article.php?page=pop-brigitte-overwatch-88a0eb'>Pop Brigitte Overwatch</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=gateau-aid-2019-88a0eb'>Gateau Aid 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chauffeur-uber-job-88a0eb'>Chauffeur Uber Job</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fiche-de-poste-gardien-d%27usine-88a0eb'>Fiche De Poste Gardien D'usine</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=br%C3%A9sil-foot-2019-88a0eb'>Brésil Foot 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=whey-isolate-prix-88a0eb'>Whey Isolate Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Melissa-Benoist-2014-88a0eb'>Melissa Benoist 2014</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=alban-greffe-de-cheveux-88a0eb'>Alban Greffe De Cheveux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=one-love%2C-one-heart%2C-one-destiny-88a0eb'>One Love, One Heart, One Destiny</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=les-plus-belles-villas-de-france-88a0eb'>Les Plus Belles Villas De France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=exercice-pectoraux-elastiband-88a0eb'>Exercice Pectoraux Elastiband</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=my-body-alg%C3%A9rie-88a0eb'>My Body Algérie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blog-%C3%A9cologie-au-quotidien-88a0eb'>Blog écologie Au Quotidien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ceinture-de-ventre-pour-maigrir-88a0eb'>Ceinture De Ventre Pour Maigrir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pub-bfmtv-2020-88a0eb'>Pub Bfmtv 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=thierry-tr%C3%A9sor-fils-88a0eb'>Thierry Trésor Fils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vivre-%C3%A0-sharjah-88a0eb'>Vivre à Sharjah</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=where-to-watch-fittest-in-dubai-88a0eb'>Where To Watch Fittest In Dubai</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=quizz-biz-naruto-88a0eb'>Quizz Biz Naruto</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=effectif-tottenham-2019-2020-88a0eb'>Effectif Tottenham 2019 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tout-nous-sourit-88a0eb'>Tout Nous Sourit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=casino-bonus-sans-d%C3%A9p%C3%B4t-imm%C3%A9diat-2020-88a0eb'>Casino Bonus Sans Dépôt Immédiat 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fc-heidenheim-vs-wehen-88a0eb'>Fc Heidenheim Vs Wehen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=daniel-balavoine-accident-88a0eb'>Daniel Balavoine Accident</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=poulet-marin%C3%A9-patate-douce-88a0eb'>Poulet Mariné Patate Douce</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pseudo-twitch-id%C3%A9e-88a0eb'>Pseudo Twitch Idée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=radio-arabel-t%C3%A9l%C3%A9phone-88a0eb'>Radio Arabel Téléphone</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nestl%C3%A9-waters-france-88a0eb'>Nestlé Waters France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-gymshark-fitbyclem-88a0eb'>Code Promo Gymshark Fitbyclem</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=personne-obispo-guitare-88a0eb'>Personne Obispo Guitare</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=demande-d%27emploi-en-italien-88a0eb'>Demande D'emploi En Italien</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tier-list-valorant-skyyart-88a0eb'>Tier List Valorant Skyyart</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mary-barra-rachel-barra-88a0eb'>Mary Barra Rachel Barra</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=formation-webmaster-%C3%A9ligible-cpf-88a0eb'>Formation Webmaster éligible Cpf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=willem-dessinateur-bd-88a0eb'>Willem Dessinateur Bd</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boldocynara-jean-coutu-88a0eb'>Boldocynara Jean Coutu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=love-the-way-you-are-film-88a0eb'>Love The Way You Are Film</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jiangsu-suning-maillot-88a0eb'>Jiangsu Suning Maillot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=pr%C3%A9nom-jeanne-popularit%C3%A9-88a0eb'>Prénom Jeanne Popularité</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-du-congo-rdc-2019-88a0eb'>Maillot Du Congo Rdc 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ou-acheter-carte-sim-pr%C3%A9pay%C3%A9e-88a0eb'>Ou Acheter Carte Sim Prépayée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=catalogue-intersport-mai-2020-88a0eb'>Catalogue Intersport Mai 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=karaok%C3%A9-ann%C3%A9e-80-avec-parole-et-voix-88a0eb'>Karaoké Année 80 Avec Parole Et Voix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sac-embl%C3%A9matique-louis-vuitton-88a0eb'>Sac Emblématique Louis Vuitton</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=application-pour-regarder-des-s%C3%A9ries-gratuitement-sur-android-88a0eb'>Application Pour Regarder Des Séries Gratuitement Sur Android</a>,
+";s:7:"expired";i:-1;}

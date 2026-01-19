@@ -1,0 +1,89 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:5373:"<p>voilà. Ah, c'est génial. Aidés par deux personnalités, les candidats s’affrontent dans des séries d’exercice portant sur l’orthographe, la grammaire, les anagrammes, les associations de propositions… « Bonne renommée vaut mieux que ceinture dorée » (Existe) ou « À laver la tête d’un chien on attrape des puces » (Inventée). même changé mon parfum. Il y a la barbe qui part d'ailleurs, il a un dès le début de cette année remarqué, mais le corps. </p> <p>En poursuivant votre navigation, vous autorisez le dépôt de cookies permettant d'adapter le contenu et les publicités que vous voyez sur le site en fonction de vos centres d'intérêts, de vous offrir des fonctionnalités en lien avec les réseaux sociaux et d'analyser le trafic sur le site. Les données enregistrées ne permettent généralement pas de vous identifier directement, mais peuvent vous permettre de bénéficier d'une expérience web personnalisée. Après il y a eu un travail en amont, ça fait un mois et demi qu'on prépare. Tout le monde a son mot à dire - voir toutes les vidéos, replay et direct en streaming sur la plateforme france.tv </p> <p>Veuillez noter, cependant, que si vous bloquez certains types de cookies, votre expérience de navigation et les services que nous sommes en mesure de vous offrir peuvent être impactés.Ces cookies sont indispensables au bon fonctionnement du site web et ne peuvent pas être désactivés de nos systèmes. Une gymnastique quotidienne de l'esprit pour s'amuser avec la langue française et enrichir sa culture générale. Est-ce masculin ou féminin ? le direct. Ah mais c'est marrant. Chacune est constituée d’un candidat épaulé par deux personnalités : humoristes, comédiens, journalistes, chanteurs…Complices et complémentaires, Sidonie Bonnec et Olivier Minne sont les maîtres du jeu. Related Videos. Est-ce masculin ou féminin ? Et dans l’ordre alphabétique, autour du thème de « La Presse », trouverez-vous les bonnes réponses à ces définitions ? Autour de Sidonie Bonnec et d’Olivier Minne, deux équipes jouent en répondant à des questions. 								:)« Cuisine impossible » : les chefs reprennent couteaux et baluchons« Demain nous appartient » le vendredi 7 août : résumé en avance de l’épisode 726« Teddy » : Teddy Riner à l’honneur dans un documentaire rediffusé sur France ÔAnne Marivin/«Sous la peau» : « Mon personnage combat le cancer autant que le crime »Avec un abonnement au magazine Télé Z vous avez la garantie d’avoir un programme complet tout le long de votre semaine pour un prix mini !Retrouvez toutes les dernières actualités tv, ainsi que la sélection Télé Z des programmes du mois.Vérifiez votre boite de réception ou votre répertoire d’indésirables pour confirmer votre abonnement. Reconnaissez-vous le titre des films qui se cache derrière ces détournements ? </p> <p>Bonne soirée à demain avec Sidonie bonnec et Olivier Minne. </p> <p>MOT A DIRE : une gymnastique quotidienne de l’esprit pour s’amuser avec la langue française et enrichir sa culture générale. »Depuis mars 2017, les deux animateurs proposent de se distraire avec les lettres et les mots de la langue française. C'est chelou et j'espère te voir à quelle heure tu es es délire délire de de barbe, barbe, de de colle colle et et tout tout ça, ça, c'est c'est super. Vous pouvez choisir de bloquer certains types de cookies. </p> <p>Tout le monde à son mot à dire, le concept Depuis mars 2017, les deux animateurs proposent de se distraire avec les lettres et les mots de la langue française. </p> <p>Vous pouvez configurer votre navigateur pour bloquer ou être alerté de l'utilisation de ces cookies. Autour de Sidonie Bonnec et d’Olivier  Minne, deux équipes jouent en répondant à des questions. To help personalise content, tailor and measure ads and provide a safer experience, we use cookies. Ils ont leur mot à dire également puisqu’ils animent et arbitrent les 4 manches et alimentent les réponses avec des infos originales et des anecdotes. Merci pour cette belle journée. Inscrivez vous maintenant pour profiter de l’offre france.tv pleinement ! voilà. il y a eu aucun trucage sur le corps. C'est chouette, hein, vous allez le garder, mais ça fait un mois et demi parce qu'il y a des prothèses. Joyeux Premier avril. #TLMASMAD </p> <p>Voilà et nous sommes donc le le premier avril. Ils nous aident également à identifier les pages les plus / moins visitées et à évaluer comment les visiteurs naviguent sur le site. "LES PALOTS FONT DU SURF" (Les Bronzés font du ski), "RACONTE-LE À TOUT LE MONDE" (Ne le dis à personne), "CLÉMENTINE MANUELLE" (Orange Mécanique), "LES GROS KLEENEX" (Les Petits Mouchoirs) ...Et dans l’ordre alphabétique, autour du thème de « La Presse », trouverez-vous les bonnes réponses à ces définitions ?A__R_C_E / Phrase en tête d’article pour retenir l’attention du lecteur (ACCROCHE)B_U_L__E / Dead line dans une rédaction, avant l’impression (BOUCLAGE)C_R____U_E / Art de Plantu qui apporte une touche d’humour à la Une (CARICATURE)D___Y P__N___ / Journal de Loïs Lane et de Clark Kent (DAILY PLANET)Pour la finale, la pression monte, car seuls les deux candidats s’affrontent pour prétendre au titre de champion et revenir le lendemain. </p>";s:7:"keyword";s:46:"tout le monde a son mot à dire 1er avril 2020";s:5:"links";s:3992:"<a href='https://backyard.synpat.com/site/article.php?page=sollicitation-8-lettres-88a0eb'>Sollicitation 8 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=entra%C3%AEnement-militaire-france-88a0eb'>Entraînement Militaire France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Plaqueuse-de-chant-occasion-88a0eb'>Plaqueuse De Chant Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Laura-Branigan-2018-88a0eb'>Laura Branigan 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=belle-notre-dame-de-paris-fingerstyle-88a0eb'>Belle Notre Dame De Paris Fingerstyle</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-soutien-appel-%C3%A0-projet-88a0eb'>Lettre De Soutien Appel à Projet</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=workout-exercises-list-88a0eb'>Workout Exercises List</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rashed-belhasa-fortune-88a0eb'>Rashed Belhasa Fortune</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%AAtre-de-bons-conseils-88a0eb'>être De Bons Conseils</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=saut-en-parachute-bretagne-88a0eb'>Saut En Parachute Bretagne</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=comment-se-pr%C3%A9senter-en-anglais-exemple-88a0eb'>Comment Se Présenter En Anglais Exemple</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Sims-4-Casino-88a0eb'>Sims 4 Casino</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=patients-%28film%29-distribution-88a0eb'>Patients (film) Distribution</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Yassine-Bounou-femme-88a0eb'>Yassine Bounou Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=blaise-matuidi-transfermarkt-88a0eb'>Blaise Matuidi Transfermarkt</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A0-cause-traduction-espagnol-88a0eb'>à Cause Traduction Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fortnite-bloqu%C3%A9-sur-pseudonyme-88a0eb'>Fortnite Bloqué Sur Pseudonyme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=physiologie-de-la-nutrition-cours-pdf-88a0eb'>Physiologie De La Nutrition Cours Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citron-br%C3%BBle-graisse-88a0eb'>Citron Brûle Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=au-th%C3%A9%C3%A2tre-ce-soir---robert-lamoureux-88a0eb'>Au Théâtre Ce Soir - Robert Lamoureux</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9tats-financiers-en-anglais-pdf-88a0eb'>états Financiers En Anglais Pdf</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-bfm-paris-pr%C3%A9sentatrice-88a0eb'>Météo Bfm Paris Présentatrice</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fiche-atelier-musculation-eps-88a0eb'>Fiche Atelier Musculation Eps</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Programme-TV-demain-soir-88a0eb'>Programme TV Demain Soir</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=nike-louis-vuitton-prix-88a0eb'>Nike Louis Vuitton Prix</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=politique-%C3%A9tymologie-larousse-88a0eb'>Politique étymologie Larousse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sport-7-lettres-88a0eb'>Sport 7 Lettres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9passer-une-voiture-en-anglais-88a0eb'>Dépasser Une Voiture En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=code-promo-liewood-88a0eb'>Code Promo Liewood</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=au-pair-world-88a0eb'>Au Pair World</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=prix-gu%C3%A9ridon-ancien-88a0eb'>Prix Guéridon Ancien</a>,
+";s:7:"expired";i:-1;}

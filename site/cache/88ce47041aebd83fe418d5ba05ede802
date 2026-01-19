@@ -1,0 +1,101 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:6160:"<p>La candidate des "Marseillais" a été agressée par des policiers durant ses vacances...Alix des "Marseillais" a vécu un enfer lors de ses vacances à Marbella.                                                                                                                          Lady Gaga  </p> <p>13.1k Likes, 130 Comments - Les Marseillais aux Caraibes  (@enzoshow_) on Instagram: “Qui se rappelle de la petite histoire entre Kim et Giulia à l’ancienne…”  Lors de la dernière partie de l’émission à Marseille d’autres candidats on fait leurs apparitions: Thibault Kuro Garcia, Laura Lempika, Niko Lozina, Milla Jasmine, Sarah Martins, Magalie Berdah mais aussi le producteur Banijay. La candidate des "Marseillais" et son compagnon Kevin Guedj sont officiellement parents.                                                                     Koh-Lanta À la suite du succès de la première saison, une seconde a été tournée pendant le La 3e saison est tournée au Brésil et compte 66 épisodes. </p> <p>                         Une cinquième saison a été tournée pendant sept semaines du Une sixième saison a été tournée pendant cinq semaines du Le premier épisode de cette saison a été diffusé lors de l'avant-première de l'émission le mardi Une septième saison a été tournée pendant quatre semaines du Une huitième saison a été tournée pendant pratiquement cinq semaines du Parmi les candidats de départ nous retrouverons :                                    Kim Glow, présentée comme la meilleure amie de Shanna Kress, remplace Julia Malah qui quitte l'émission. La bookeuse se nomme Catalia. Une troisième saison a été tournée pendant sept semaines du Une quatrième saison est tournée pendant cinq semaines du Contrairement aux trois premières saisons, dans le générique n'apparaissent plus les métiers des Marseillais et en salle d'interview n'apparaissent plus les villes ou résident les candidats. </p> <p>                                                    Mariage Retrouvez les Marseillais à Cancùn, du lundi au vendredi à 16:30 sur W9 !                                                                      People UK De jeunes gens ont eu le toupet de... Julien Tanti, Paga Neuron, Jessica Thivenin, Kevin Guedj, Carla Moreau, Benjamin Samat, Maéva Ghennam ainsi que plusieurs nouveaux candidats, totalement inconnus du public.                                                                                         TV                                                                                                                         Stars                                                                                                                     Pékin Express  La jolie Carla Moreau a donné naissance à sa fille Ruby le 1er octobre 2019. La starlette des "Marseillais" de W9 semble être épuisée par sa grossesse... Un...                                                                     Justin Bieber Les producteurs principaux de cette émission sont Florence Fayard et Benjamin Giazzi.                                                                     Télé Réalité </p> <p>Elle comporte 56 épisodes et la bookeuse s'appelle Parisa.                                                                      Plus Belle la Vie                                                                      Top Chef Leur Suite au succès de la première saison, une seconde est tournée pendant le Kim Glow, présentée comme la meilleure amie de Shanna Kress, remplace Julia Malah qui quitte l'émission. Dans l’épisode 30, Kim et Giulia se rapprochent et s’embrassent devant les caméras.                                                                     Festival de Cannes                                                                     Les Marseillais                                                                     Naissances                                                                         Vidéos                                                 </p> <p>                 Contrairement à Oscar Wilde, le candidat de W9 ne pense pas que "le meilleur moyen de résister...     Après une pause de quelques semaines, les candidats se sont envolés pour les pays Parmi les candidats de départ nous retrouverons : Julien Tanti, Manon Tanti, Kevin Guedj, Paga Neuron, Benjamin Samat, Maeva Ghennam, Grégory Yega ainsi que plusieurs nouveaux candidats, totalement inconnus du public. Absents des réseaux sociaux depuis la naissance de leur fils Maylone, le lundi 7 octobre 2019, Jessica... Pas simple pour le candidat de W9 d'arriver à ses fins.                                                      Cécilia Leite est la bookeuse de cette saison.                          On y retrouve Julien Tanti, Stéphanie Durant, Paga, Antonin, Kim Glow, Kelly, Romain, Micha, Charlotte, Mérylie, Jessica Thivenin, Benjamin (ex-candidat deLa 4e saison est tournée durant 5 semaines à Koh Samui.                                                      </p> <p>         Les Marseillais à Cancun : épisode 29 du 19 juin – Staragora.   Cloé, Tony et Jérémy quittent le tournage en pleine saison.                                                                      Oscars                                                                                         Royauté                                                                                                                     Grammy Awards  La petite Ruby, fille de Carla Moreau et Kevin Guedj, est venue agrandir la famille des "Marseillais" le...                  melty.fr vous dévoilait une interview exclusive de Kim et Giulia des Marseillais à Cancun ! Les Marseillais est une télé-réalité française, diffusée sur W9 depuis le 19 novembre 2012 en avant-soirée, et produite par la société Banijay Productions France.                                                                     Justice </p> <p>                                                       Extrait : Les filles se lâchent : Kelly embrasse un inconnu et Giulia en gifle un autre ! </p>";s:7:"keyword";s:29:"les marseillais kim et giulia";s:5:"links";s:5430:"<a href='https://backyard.synpat.com/site/article.php?page=catalogue-intersport-mai-2020-88a0eb'>Catalogue Intersport Mai 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=diet-whey-complex-extreme-88a0eb'>Diet Whey Complex Extreme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-blackburn-rovers-88a0eb'>Classement Blackburn Rovers</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=tuto-agent-immobilier-88a0eb'>Tuto Agent Immobilier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=melissa-merchiche-2020-88a0eb'>Melissa Merchiche 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=vol-duba%C3%AF-tha%C3%AFlande-dur%C3%A9e-88a0eb'>Vol Dubaï Thaïlande Durée</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fm-2020-bargain-88a0eb'>Fm 2020 Bargain</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-kermesse-rigolos-88a0eb'>Jeux De Kermesse Rigolos</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=calendrier-ramadan-clermont-ferrand-2020-88a0eb'>Calendrier Ramadan Clermont-ferrand 2020</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cin%C3%A9ma-karaok%C3%A9-nantes-88a0eb'>Cinéma Karaoké Nantes</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=creuset-de-mikael-88a0eb'>Creuset De Mikael</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lucky-strike-france-88a0eb'>Lucky Strike France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Ismaily-Sporting-Club-88a0eb'>Ismaily Sporting Club</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chiffre-d%27affaire-d%27une-epicerie-88a0eb'>Chiffre D'affaire D'une Epicerie</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=double-dragon-youtube-88a0eb'>Double Dragon Youtube</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=xtend-bcaa-review-88a0eb'>Xtend Bcaa Review</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%2B%C2%A018autresRestauration-rapideEast-Side-Burgers%2C-McDonald%27s-autres-88a0eb'>+ 18autresRestauration RapideEast Side Burgers, McDonald's Autres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=romain-koh-lanta-2016-laureen-88a0eb'>Romain Koh Lanta 2016 Laureen</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=sniper-stats-fortnite-88a0eb'>Sniper Stats Fortnite</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=classement-meilleur-supporter-foot-2019-france-88a0eb'>Classement Meilleur Supporter Foot 2019 France</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jeux-de-cour-en-bois-88a0eb'>Jeux De Cour En Bois</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=1000-calories-en-kg-88a0eb'>1000 Calories En Kg</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=J%27aime-plus-Paris-88a0eb'>J'aime Plus Paris</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=photos-de-laccident-de-coluche-88a0eb'>Photos De Laccident De Coluche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=la-s%C3%A9lection---tome-5-poche-88a0eb'>La Sélection - Tome 5 Poche</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=bienvenue-%C3%A0-bord-en-anglais-88a0eb'>Bienvenue à Bord En Anglais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=d%C3%A9finition-le-dossier-88a0eb'>Définition Le Dossier</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ch%C3%A2teau-de-montmelas-propri%C3%A9taire-88a0eb'>Château De Montmelas Propriétaire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=divergent-en-arabe-88a0eb'>Divergent En Arabe</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=lettre-de-convocation-88a0eb'>Lettre De Convocation</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cyril-paglino-femme-88a0eb'>Cyril Paglino Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=canneberge-insuffisance-r%C3%A9nale-88a0eb'>Canneberge Insuffisance Rénale</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-maker-go-apk-88a0eb'>Beat Maker Go Apk</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=arboretum-harcourt-esp%C3%A8ces-d%27arbres-88a0eb'>Arboretum Harcourt Espèces D'arbres</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=poids-oeuf-dur-88a0eb'>Poids Oeuf Dur</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=joueur-de-foot-rooney-88a0eb'>Joueur De Foot Rooney</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=renato-sanches-%C3%A2ge-88a0eb'>Renato Sanches âge</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=chanson-des-pr%C3%A9noms-88a0eb'>Chanson Des Prénoms</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=extreme-diet-meal-replacement-88a0eb'>Extreme Diet Meal Replacement</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=fittrack-code-promo-88a0eb'>Fittrack Code Promo</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=test-de-personnalit%C3%A9-couleur-quizz-biz-88a0eb'>Test De Personnalité Couleur Quizz Biz</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=petit-pois-frais-88a0eb'>Petit Pois Frais</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=maillot-naples-2020-2021-88a0eb'>Maillot Naples 2020-2021</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,88 @@
+a:5:{s:8:"template";s:8232:"<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{ keyword }}</title>
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter%3A300%2C400%2C700%7CRaleway%3A300%2C400%2C700&amp;subset=latin&amp;ver=5.4" id="scribbles-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<style rel="stylesheet" type="text/css">.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}h1{font-size:2em;margin:.67em 0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{color:#252525;font-family:Raleway,sans-serif;font-weight:400;font-size:20px;font-size:1.25rem;line-height:1.8}@media only screen and (max-width:40.063em){body{font-size:14.4px;font-size:.9rem}}h1{clear:both;margin-top:.2rem;margin-bottom:.8rem;font-weight:400;line-height:1.4;text-rendering:optimizeLegibility;color:#353535}h1{font-size:3rem}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{background:#fff;word-wrap:break-word}ul{margin:0 0 1.5em 0}ul{list-style:disc}a{color:#54ccbe;text-decoration:none}a:visited{color:#54ccbe}a:active,a:focus,a:hover{color:rgba(84,204,190,.8)}a:active,a:focus,a:hover{outline:0}.main-navigation-container{background-color:#b5345f}.main-navigation{font-size:1rem;font-weight:500;display:none}@media only screen and (min-width:40.063em){.main-navigation{display:block;float:left}}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation ul a{color:#fff;display:block;padding:1.2em .75em;border-bottom:2px solid rgba(0,0,0,.05)}@media only screen and (min-width:40.063em){.main-navigation ul a{padding-top:1.5em;padding-bottom:1.5em;border-bottom:none}}@media only screen and (min-width:40.063em){.main-navigation li{position:relative;display:inline-block}.main-navigation a{text-decoration:none;padding:.25em .75em;color:#fff;text-transform:uppercase}.main-navigation a:hover,.main-navigation a:visited:hover{background-color:rgba(0,0,0,.1);color:#fff}}.menu-toggle{display:inline-block;margin:0 auto;width:3.9rem;padding:.55rem;cursor:pointer;position:relative;z-index:9999;margin-top:10px;margin-left:10px}@media only screen and (min-width:40.063em){.menu-toggle{display:none}}.menu-toggle div{background-color:#fff;height:.25rem;margin:.43rem;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.15s ease-in-out;transition:.15s ease-in-out;-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{content:"";display:table;table-layout:fixed}.site-content:after,.site-footer:after,.site-header:after{clear:both} .site-content{max-width:1100px;margin-left:auto;margin-right:auto;margin-top:2em}.site-content:after{content:" ";display:block;clear:both}@media only screen and (max-width:61.063em){.site-content{margin-top:1.38889%}}.site-header{position:relative}.hero{-webkit-background-size:cover;background-size:cover;background-position:top center;background-repeat:no-repeat;z-index:0}.hero .hero-inner{max-width:1100px;margin-left:auto;margin-right:auto;padding:5% 0}.hero .hero-inner:after{content:" ";display:block;clear:both}.site-header-wrapper{max-width:1100px;margin-left:auto;margin-right:auto;padding:3% 0}.site-header-wrapper:after{content:" ";display:block;clear:both}.site-title-wrapper{width:47.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;position:relative;z-index:1}@media only screen and (max-width:40.063em){.site-title-wrapper{padding-left:.75rem;padding-right:.75rem}}@media only screen and (max-width:61.063em){.site-title-wrapper{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;text-align:center}}.site-title{margin-bottom:1rem;font-weight:400;font-size:3.25rem;line-height:1}.site-title a{color:#fca903}.site-title a:hover,.site-title a:visited:hover{color:rgba(252,169,3,.8)}.site-description{color:#686868;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:1rem}body.custom-header-image .hero{text-shadow:1px 1px 30px rgba(0,0,0,.5)}.site-footer{clear:both;background-color:#3f3244}.site-info-wrapper{padding:1.5em 0;background-color:#fff;text-align:none}.site-info-wrapper .site-info{max-width:1100px;margin-left:auto;margin-right:auto}.site-info-wrapper .site-info:after{content:" ";display:block;clear:both}.site-info-wrapper .site-info-text{width:97.22222%;float:left;margin-left:1.38889%;margin-right:1.38889%;padding:3em 0 1em;text-align:center;font-size:75%;line-height:1.2}@media only screen and (max-width:40.063em){.site-info-wrapper{text-align:center}}@font-face{font-family:'Architects Daughter';font-style:normal;font-weight:400;src:local('Architects Daughter Regular'),local('ArchitectsDaughter-Regular'),url(http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:300;src:local('Raleway Light'),local('Raleway-Light'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPBQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(http://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype')}</style>
+</head>
+<body class="custom-header-image layout-two-column-default">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-header-wrapper">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a href="#" rel="home">{{ keyword }}</a></h1>
+<div class="site-description">{{ keyword }}</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+</div>
+</div>
+</div>
+</header>
+<div class="main-navigation-container">
+<div class="menu-toggle" id="menu-toggle">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<nav class="main-navigation" id="site-navigation">
+<div class="menu-primary-menu-container"><ul class="menu" id="menu-primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-166" id="menu-item-166"><a href="#">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172" id="menu-item-172"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171" id="menu-item-171"><a href="#">Contact</a></li>
+</ul></div>
+</nav>
+</div>
+<div class="site-content" id="content">
+{{ text }}
+<br>
+{{ links }}
+</div>
+<footer class="site-footer" id="colophon">
+<div class="site-footer-inner">
+</div>
+</footer>
+<div class="site-info-wrapper">
+<div class="site-info">
+<div class="site-info-inner">
+<div class="site-info-text">
+Copyright 2020 {{ keyword }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";s:4:"text";s:3761:"<p>Vous avez surement besoin de conseils pour optimiser vos posts et augmenter la portée de vos posts de manière organique. À vos marques, prêts, postez ! Créez un compte ou connectez-vous à Instagram. #creativeinstastory #instahacks #instastorytutorial #fy #fyp #editing101 #igstories #instastoryinspo #instagramstoryhacks #monday </p> <p>Voir plus d'idées sur le thème Conseils instagram, Instagram, Astuces instagram. Work Mode ON! 6 juin 2020 - Explorez le tableau « Conseils instagram » de fondsdecransdu34, auquel 171 utilisateurs de Pinterest sont abonnés. Y de eso se trata Genial.guru: de la manifestacion de la creatividad las personas; es el sitio donde esas manifestaciones tienen su lugar.241 Followers, 877 Following, 11 Posts - See Instagram photos and videos from J E S S I C A (@jessiemagalhaes)Jennifer Vater(@die_sonntagskinder) has created a short video on TikTok with music VALENTINO. </p> <p>36.2k Followers, 2,085 Following, 590 Posts - See Instagram photos and videos from   | Insta Tips (@laneferrazx)36.2k Followers, 2,085 Following, 590 Posts - See Instagram photos and videos from   | Insta Tips (@laneferrazx)36.2k Followers, 2,085 Following, 590 Posts - See Instagram photos and videos from   | Insta Tips (@laneferrazx)Welcome to the best channel for staying up to date with Tik Tok's most popular videos, dance trends and stars!THE BOX OF NOTES posted on Instagram: “¡Buen día! Après ça, vous ne devriez plus manquer d’inspiration pour savoir quoi publier sur votre feed. </p> <p>12 juin 2020 - Vous êtes à la recherche de nouvelles idées pour votre compte sur le Gram ? </p> <p>Les traigo este apunte acerca de un cantante muy famoso y apreciado, ¡Freddie Mercury! </p> <p>en 2020 il continue d’optimiser son fonctionnement. </p> <p>1) Partager une infographie Les infographies […] La creatividad debe vivir en todo lo que hacemos. </p> <p>…” • See all of @theboxofnotes's photos and videos on their profile. </p> <p>Voici 7 conseils simples mais indispensables pour bien utiliser Instagram et … </p> <p>94.5k Followers, 468 Following, 810 Posts - See Instagram photos and videos from Magasins BUT (@but) </p> <p>18 juin 2020 - Découvrez le tableau "Conseils instagram" de xiama73ix sur Pinterest. Prenez en compte ces conseils dès maintenant afin d’atteindre plus facilement vos objectifs social media. L’algorithme Instagram change et évolue fréquemment. </p> <p>Voir plus d'idées sur le thème Conseils instagram, Instagram, Astuces instagram. Suivre ces tendances, c’est donner un grand coup de pouce à votre marketing Instagram en 2020 ! Je me suis creusée les méninges pour trouver 101 idées de publications pour Instagram. </p> <p>Este es un sitio dedicado a la creación y la creatividad; Genial.guru fue hecho de tal manera que despierte en cada persona el deseo de crear. </p> <p> </p> <p>Un moyen simple, sympa et original de capturer, modifier et partager des photos, vidéos et messages avec vos amis et votre famille. 1,48 … </p> <p>Articles du Moment  Generateur abonnés instagram sans verification (Comparatif) 1,93 views per day Top 10 : Formation en ligne gratuite pharmacie (A lire d’Urgence) 1,76 views per day Formation en ligne gratuite commerce international (Gratuit) 1,55 views per day ️ Dropshipping formation gratuite pdf (Gratuit) 1,48 views per day Top 10 : Arnaque dpd express (Arnaque ?) </p> <p>Instagram ne s’est pas encore prononcé sur le sujet, mais le réseau social de l’image devrait bientôt nous en dire un peu plus. Jusqu’à présent, Instagram offrait peu de fonctionnalités à usage professionnel. Mais la plateforme cherche désormais à attirer les entreprises en proposant, depuis août 2016, le profil business. </p>";s:7:"keyword";s:23:"conseils instagram 2020";s:5:"links";s:3984:"<a href='https://backyard.synpat.com/site/article.php?page=la-maison-la-plus-chere-en-cote-d%27ivoire-88a0eb'>La Maison La Plus Chere En Cote D'ivoire</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=soprano-le-coach-parodie-coronavirus-88a0eb'>Soprano Le Coach Parodie Coronavirus</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-br%C3%A9sil-2006-but-88a0eb'>France-brésil 2006 But</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=mahmoud-darwich-rita-88a0eb'>Mahmoud Darwich Rita</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=salade-de-fraise-fleur-d%27oranger-cyril-lignac-88a0eb'>Salade De Fraise Fleur D'oranger Cyril Lignac</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=corneille---le-jour-apr%C3%A8s-la-fin-du-monde-88a0eb'>Corneille - Le Jour Après La Fin Du Monde</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=boutique-psg-masque-covid-88a0eb'>Boutique Psg Masque Covid</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=je-veux-tes-yeux-accords-88a0eb'>Je Veux Tes Yeux Accords</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=courir-en-anglais-conjugaison-88a0eb'>Courir En Anglais Conjugaison</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=beat-rap-gratuit-t%C3%A9l%C3%A9charger-88a0eb'>Beat Rap Gratuit Télécharger</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=m%C3%A9t%C3%A9o-bourgoin-jallieu-15-jours-88a0eb'>Météo Bourgoin-jallieu 15 Jours</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=Momo-TWICE-Instagram-88a0eb'>Momo TWICE Instagram</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=popstar-saison-3-88a0eb'>Popstar Saison 3</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=musique-g%C3%A9n%C3%A9rique-koh-lanta-2019-88a0eb'>Musique Générique Koh Lanta 2019</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compression-d%27un-gaz-parfait-dans-un-cylindre-88a0eb'>Compression D'un Gaz Parfait Dans Un Cylindre</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=citation-force-femme-88a0eb'>Citation Force Femme</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=film-amour-netflix-2018-88a0eb'>Film Amour Netflix 2018</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=compte-tenu-que-88a0eb'>Compte Tenu Que</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=france-portugal-euro-2000-composition-88a0eb'>France Portugal Euro 2000 Composition</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=myra-tyliann-enceinte-88a0eb'>Myra Tyliann Enceinte</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=jus-de-citron-br%C3%BBle-graisse-88a0eb'>Jus De Citron Brûle Graisse</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=remi-gaillard-pacman-88a0eb'>Remi Gaillard Pacman</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A9quipe-de-football-am%C3%A9ricain-des-tigers-de-lsu-88a0eb'>équipe De Football Américain Des Tigers De Lsu</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=ressources-pour-cm2-88a0eb'>Ressources Pour Cm2</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=barre-prot%C3%A9in%C3%A9e-weider-avis-88a0eb'>Barre Protéinée Weider Avis</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=roue-flip-flop-occasion-88a0eb'>Roue Flip Flop Occasion</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=cheveux-faible-porosit%C3%A9-produit-88a0eb'>Cheveux Faible Porosité Produit</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=stream-element-bot-88a0eb'>Stream Element Bot</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=%C3%A0-cause-traduction-espagnol-88a0eb'>à Cause Traduction Espagnol</a>,
+<a href='https://backyard.synpat.com/site/article.php?page=rocket-league-couleur-club-88a0eb'>Rocket League Couleur Club</a>,
+";s:7:"expired";i:-1;}
